@@ -1,0 +1,637 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<!--
+PCGen True 20 Character Sheet Template
+==============================
+Author: Eddy Anthony
+
+$Revision: 1.9 $
+$Author: eddyanthony $
+$Date: 2007/05/10 02:51:48 $
+-->
+<head>
+<meta http-equiv="content-type" content="text-html; charset=utf-8" />
+<title>|NAME|</title>
+<style TYPE="text/css">
+	.font4 {  font-family: Arial; font-size:4pt; }
+	.font5 {  font-family: Arial; font-size:5pt; }
+	.font6 {  font-family: Arial; font-size:6pt; }
+	.font7 {  font-family: Arial; font-size:7pt; }
+	.font8 {  font-family: Arial; font-size:8pt; }
+	.font9 {  font-family: Arial; font-size:9pt; }
+	.h { font-family: Arial; font-size:8pt; vertical-align: bottom; }
+	.ab { font-family: Arial; font-size:10pt; text-align:center; color:white; background:black; }
+	.abb { font-family: Arial; font-size:10pt; text-align:center; font-weight:bold; border: 1px solid black;}
+	.abt { font-family: Arial; font-size:10pt; text-align:center; font-weight:bold; border: 5px solid lightgray;}
+	.sptab { font-family: Arial; vertical-align:top; text-align:center;font-size:8pt;}
+	.sptab1 { font-family: Arial; vertical-align:top; text-align:left;font-size:8pt;}
+	.sptab2 { font-family: Arial; vertical-align:top; text-align:right;font-size:8pt;}
+	.notetab { font-family: Arial; vertical-align:top;border: 1px solid black; text-align:left;font-size:8pt;}
+	.skl { font-family: Arial; font-size: 9pt; font-weight:bold; text-align:center; vertical-align:middle; border: 4px solid black;}
+	.spname { font-family: Arial; vertical-align:top; text-align:left;font-size:8pt;}
+	.sptop { font-family: Arial; vertical-align:top;border: 1px solid black; text-align:center;font-size:8pt; color:white;}
+	.splevel {  font-family: Arial; background:black; text-align:center;font-size:9pt; color:white;}
+	.sphead {  font-family: Arial; background:black; text-align:center;font-size:12pt; color:white;}
+	.notehead {  font-family: Arial; background:black; text-align:center;font-size:12pt; color:white;}
+	.biodata { font-family: Arial; vertical-align:bottom; text-align:left;font-size:9pt;}
+		.topline {
+		border-top-width:1px;
+		border-top: 1pt solid black;
+		font-family: Arial;
+		font-size:6pt;
+	}
+	.border {
+		border: 1px solid black;
+	}
+	.border4 {
+		border: 1px solid black;
+		font-size:4pt;
+	}
+	.border7 {
+		border: 1px solid black;
+		font-size:7pt;
+	}
+	.border8 {
+		border: 1px solid black;
+		font-size:8pt;
+	}
+	.border9 {
+		border: 1px solid black;
+		font-size:9pt;
+	}
+	.border10 {
+		border: 1px solid black;
+		font-size:10pt;
+	}
+
+	.tempborder {
+		border: 5px solid lightgray;
+	}
+	.borderbottom {
+		border-bottom-width:1px;
+		border-bottom: 1pt solid black;
+	}
+	.bordertop {
+		border-top-width:1px;
+		border-top: 1pt solid black;
+	}
+	.borderbottom8 {
+		border-bottom-width:1px;
+		border-bottom: 1pt solid black;
+		font-size:8pt;
+	}
+	span.notes p {margin-top:0; margin-bottom:0;}
+
+.label {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-color: CCCCCC;
+	border-top-width: 1px;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	font-style: normal;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-weight: bold;
+	text-align: center;
+}
+.Header {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-color: black;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+.labelStat {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	border-top-width: 1px;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	font-style: normal;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-weight: normal;
+	text-align: center;
+}
+.labelSideLeft {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-color: CCCCCC;
+	border-top-width: 1px;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	font-style: normal;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-weight: bold;
+	text-align: center;
+	border-left-width: 1px;
+}
+</style>
+<style type="text/css">
+<!--
+.labelStatBottom {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	border-top-width: 1px;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	font-style: normal;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-weight: normal;
+	text-align: center;
+	border-bottom-width: 1px;
+}
+.labelSideLeftBottom {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-color: CCCCCC;
+	border-top-width: 1px;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	font-style: normal;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-weight: bold;
+	text-align: center;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+}
+.labelStatLeftBottom {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	border-top-width: 1px;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	font-style: normal;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-weight: normal;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+}
+.labelStatLeftRTBottom {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	border-top-width: 1px;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	font-style: normal;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-weight: normal;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+-->
+</style>
+</head>
+<body bgcolor="white">
+
+<center>
+  <!-- START Top Character Data -->
+</center>
+<div align="center"> 
+  <table width="95%" border="0" cellspacing="0" cellpadding="1">
+    <tr> 
+      <td width="10%" class="label">Name</td>
+      <td colspan="4" class="labelStat"><div align="left">|NAME|</div></td>
+      <td colspan="4" rowspan="4"><div align="center"><font size="+2" face="Times New Roman, Times, serif">True20 
+          Adventure Roleplaying<br />
+          PCGen Character Sheet</font></div></td>
+    </tr>
+    <tr> 
+      <td class="label">Background</td>
+      <td colspan="4" class="labelStat"><div align="left">|RACE|</div></td>
+    </tr>
+    <tr> 
+      <td class="label">Role</td>
+      <td colspan="4" class="labelStat"><div align="left">
+	  
+|FOR,%class,0,COUNT[CLASSES]-1,1,1|
+|IIF(%class:0)|
+|ELSE|
+/
+|ENDIF|
+|MANUALWHITESPACE||CLASS.%class.LEVEL||TEXT.NUMSUFFIX.CLASS.%class.LEVEL||ENDMANUALWHITESPACE| level |CLASS.%class|
+|ENDFOR|
+	  
+	  </div></td>
+    </tr>
+    <tr> 
+      <td class="label">Level</td>
+      <td colspan="4" class="labelStat"><div align="left">|MANUALWHITESPACE||VAR.TL.INTVAL||TEXT.NUMSUFFIX.VAR.TL||ENDMANUALWHITESPACE|</div></td>
+    </tr>
+    <tr> 
+      <td colspan="5" class="Header">Description</td>
+      <td colspan="4" class="Header">Character Portrait</td>
+    </tr>
+    <tr> 
+      <td height="100" colspan="5" valign="top" class="labelStatBottom"> 
+        <div align="left">|DESC|</div></td>
+      <td height="25" colspan="4" class="labelStatLeftBottom"><IMG SRC="|PORTRAIT|" BORDER="0" /></td>
+    </tr>
+    <tr class="Header"> 
+      <td colspan="2">Abilities</td>
+      <td colspan="3">Combat</td>
+      <td colspan="2">Saving Throws</td>
+      <td colspan="2">Other Statistics</td>
+    </tr>
+    <tr> 
+      <td class="label">Strength</td>
+      <td width="9%" class="labelStat">|STAT.0.NOTEMP.NOEQUIP.SIGN|</td>
+      <td colspan="2" class="labelSideLeft">Initiative</td>
+      <td width="12%" class="labelStat">|INITIATIVEMOD|</td>
+      <td width="10%" class="labelSideLeft">Toughness</td>
+      <td width="8%" class="labelStat">|CHECK.Toughness.TOTAL|</td>
+      <td width="10%" class="labelSideLeft">Size</td>
+      <td width="20%" class="labelStat"><div align="left">|SIZELONG|</div></td>
+    </tr>
+    <tr> 
+      <td class="label">Dexterity</td>
+      <td class="labelStat">|STAT.1.NOTEMP.NOEQUIP.SIGN|</td>
+      <td colspan="2" class="labelSideLeft">Dodge</td>
+      <td class="labelStat">|AC.Dodge.SIGN|</td>
+      <td class="labelSideLeft">Fortitude</td>
+      <td class="labelStat">|CHECK.Fortitude.TOTAL|</td>
+      <td class="labelSideLeft">Speed</td>
+      <td class="labelStat"><div align="left">|MOVEMENT|</div></td>
+    </tr>
+    <tr> 
+      <td class="label">Constitution</td>
+      <td class="labelStat">|STAT.2.NOTEMP.NOEQUIP.SIGN|</td>
+      <td colspan="2" class="labelSideLeft">Parry</td>
+      <td class="labelStat">|VAR.ParryBonus.INTVAL.SIGN|</td>
+      <td class="labelSideLeft">Reflex</td>
+      <td class="labelStat">|CHECK.Reflex.TOTAL|</td>
+      <td class="labelSideLeft">&nbsp;</td>
+      <td class="labelStat">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="label">Intelligence</td>
+      <td class="labelStat">|STAT.3.NOTEMP.NOEQUIP.SIGN|</td>
+      <td colspan="2" class="labelSideLeft">Base Attack Bonus</td>
+      <td class="labelStat">|ATTACK.MELEE|</td>
+      <td class="labelSideLeft">Will</td>
+      <td class="labelStat">|CHECK.Will.TOTAL|</td>
+      <td class="labelSideLeft">&nbsp;</td>
+      <td class="labelStat">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="label">Wisdom</td>
+      <td class="labelStat">|STAT.4.NOTEMP.NOEQUIP.SIGN|</td>
+      <td colspan="2" class="labelSideLeft">Melee Attack Bonus</td>
+      <td class="labelStat">|ATTACK.MELEE.TOTAL|</td>
+      <td colspan="4" class="Header">Characteristics</td>
+    </tr>
+    <tr> 
+      <td class="label">Charisma</td>
+      <td class="labelStat">|STAT.5.NOTEMP.NOEQUIP.SIGN|</td>
+      <td colspan="2" class="labelSideLeft">Ranged Attack Bonus</td>
+      <td class="labelStat">|ATTACK.RANGED.TOTAL|</td>
+      <td class="labelSideLeft">Virtue</td>
+      <td colspan="3" class="labelStat"><div align="left">|ABILITYLIST.Virtues|</div></td>
+    </tr>
+    <tr> 
+      <td colspan="5" class="Header">Damage Track</td>
+      <td class="labelSideLeft">Vice</td>
+      <td colspan="3" class="labelStat"><div align="left">|ABILITYLIST.Vices|</div></td>
+    </tr>
+    <tr> 
+      <td class="labelStat">0</td>
+      <td class="labelStat">5+</td>
+      <td width="11%" class="labelStat">10+</td>
+      <td width="10%" class="labelStat">15+</td>
+      <td class="labelStat">&nbsp;</td>
+      <td class="labelSideLeft">Core Ability</td>
+      <td colspan="3" class="labelStat"><div align="left">|ABILITYLIST.CoreAbility|</div></tr>
+    <tr> 
+      <td class="label">Bruised</td>
+      <td class="label">Dazed</td>
+      <td class="label">Staggered</td>
+      <td class="label">Unconscious</td>
+      <td class="label">&nbsp;</td>
+      <td class="labelSideLeft">&nbsp;</td>
+      <td colspan="3" class="labelStat">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="labelStat">&nbsp;</td>
+      <td class="labelStat">&nbsp;</td>
+      <td class="labelStat">&#9744</td>
+      <td class="labelStat">&#9744</td>
+      <td class="labelStat">&nbsp;</td>
+      <td class="labelSideLeft">&nbsp;</td>
+      <td colspan="3" class="labelStat">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="labelStat">&nbsp;</td>
+      <td class="labelStat">&nbsp;</td>
+      <td class="labelStat">&#9744</td>
+      <td class="labelStat">&#9744</td>
+      <td class="labelStat">&#9744</td>
+      <td class="labelSideLeft">&nbsp;</td>
+      <td colspan="3" class="labelStat">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="label">Hurt</td>
+      <td class="label">Wounded</td>
+      <td class="label">Disabled</td>
+      <td class="label">Dying</td>
+      <td class="label">Dead</td>
+      <td colspan="4" class="Header"> Wealth and Reputation</td>
+    </tr>
+    <tr> 
+      <td colspan="5" class="Header">Fatigue Track</td>
+      <td class="labelSideLeft">Wealth</td>
+      <td colspan="3" class="labelStat"><div align="left">|VAR.Wealth.INTVAL.SIGN|</div></td>
+    </tr>
+    <tr> 
+      <td class="label">&nbsp;</td>
+      <td class="label">Winded</td>
+      <td class="label">Fatigued</td>
+      <td class="label">Exhausted</td>
+      <td class="label">&nbsp;</td>
+      <td class="labelSideLeft">Prof. Skill</td>
+      <td colspan="3" class="labelStat"><div align="left">|ABILITYLIST.ProfessionalSkills|</div></td>
+    </tr>
+    <tr> 
+      <td class="labelStatBottom">&nbsp;</td>
+      <td class="labelStatBottom">&#9744</td>
+      <td class="labelStatBottom">&#9744</td>
+      <td class="labelStatBottom">&#9744</td>
+      <td class="labelStatBottom">&nbsp;</td>
+      <td class="labelSideLeftBottom">Reputation</td>
+      <td colspan="3" class="labelStatBottom"><div align="left">|VAR.Reputation.INTVAL.SIGN|</div></td>
+    </tr>
+  </table>  <br />
+  
+  <table width="95%" border="0" cellspacing="0" cellpadding="1">
+    <tr class="Header"> 
+      <td>Weapon</td>
+      <td>Attack Bonus</td>
+      <td>Damage Bonus</td>
+      <td>Range</td>
+    </tr>
+|FOR,%weap,0,COUNT[EQTYPE.WEAPON],1,0|	
+    <tr> 
+      <td class="labelStatBottom">|WEAPON.%weap.NAME.NOSTAR|</td>
+      <td class="labelStatBottom">
+|IIF(WEAPON.%weap.BASEHIT:N/A)|
+|WEAPON.%weap.THHIT|
+|ELSE|
+|WEAPON.%weap.BASEHIT|
+|ENDIF|
+	</td>
+      <td class="labelStatBottom">
+|IIF(WEAPON.%weap.BASICDAMAGE:N/A)|
+|WEAPON.%weap.THDAMAGE|
+|ELSE|
+|WEAPON.%weap.BASICDAMAGE|
+|ENDIF|
+	</td>
+      <td class="labelStatBottom">|WEAPON.%weap.RANGE|</td>
+    </tr>
+|ENDFOR|
+  </table>
+  
+<!-- START Skills Table -->
+ <table width="95%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="33%"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+          <tr class="Header"> 
+            <td width="70%">Skill</td>
+            <td width="30%">Bonus</td>
+          </tr>
+|FOR,%skill,0,14,1,0|
+          <tr> 
+            <td class="labelStatLeftBottom">|SKILL.%skill|</td>
+            <td class="labelStatLeftRTBottom">|SKILL.%skill.TOTAL| &nbsp; &#9744</td>
+          </tr>
+|IIF(%skill:4)|
+        </table></td>
+        <td width="34%">
+          <table width="100%" border="0" cellspacing="0" cellpadding="1">
+          <tr class="Header"> 
+            <td width="70%">Skill</td>
+            <td width="30%">Bonus</td>
+          </tr>
+|ENDIF|
+|IIF(%skill:9)|
+        </table></td>
+        <td width="34%">
+          <table width="100%" border="0" cellspacing="0" cellpadding="1">
+          <tr class="Header"> 
+            <td width="70%">Skill</td>
+            <td width="30%">Bonus</td>
+          </tr>
+|ENDIF|
+|ENDFOR|
+        </table></td>
+    </tr>
+  </table>
+<!-- STOP Skills Table -->
+
+  <br />
+  <table width="95%" border="0" cellspacing="0" cellpadding="1">
+    <tr>
+      <td width="20%" class="Header">Feats</td>
+      <td width="80%" class="labelStat"><div align="left">|FEATALLLIST|</div></td>
+    </tr>
+  </table>
+  <br />
+  <table width="95%" border="0" cellspacing="0" cellpadding="1">
+    <tr> 
+      <td width="20%" class="Header">Powers</td>
+      <td width="80%" class="labelStat"><div align="left">
+
+<!-- Start Prepared Spells -->
+|FOR,%memorised,COUNT[SPELLRACE]+COUNT[SPELLBOOKS]-2,COUNT[SPELLRACE]+COUNT[SPELLBOOKS]-2,1,0|
+|IIF(%memorised:0)|
+|ELSE|
+<!-- Start Innate Prepared -->
+|FOR,%spellrace,COUNT[SPELLRACE],COUNT[SPELLRACE],1,0|
+|IIF(%spellrace:0)|
+|ELSE|
+|FOR,%spellbook,1,1,1,0|
+|FOR,%class,0,0,1,0|
+|FOR,%level,0,0,1,0|
+|FOR,%spell,0,COUNT[SPELLSINBOOK.%class.%spellbook.%level]-1,1,0|
+|SPELLMEM.%class.%spellbook.%level.%spell.NAME|, 
+|ENDFOR|
+|%|
+|ENDFOR|
+|ENDFOR|
+|ENDFOR|
+|FOR,%spellbook,2,COUNT[SPELLBOOKS]-1,1,0|
+|FOR,%class,0,0,1,1|
+|FOR,%level,0,0,1,1|
+|FOR,%spell,0,COUNT[SPELLSINBOOK.%class.%spellbook.%level]-2,1,0|
+|SPELLMEM.%class.%spellbook.%level.%spell.NAME|, 
+|ENDFOR|
+|FOR,%spell,COUNT[SPELLSINBOOK%class.%spellbook.%level]-1,COUNT[SPELLSINBOOK%class.%spellbook.%level]-1,1,1|
+|SPELLMEM.%class.%spellbook.%level.%spell.NAME|, 
+|ENDFOR|
+|%|
+|ENDFOR|
+|ENDFOR|
+|ENDFOR|
+|ENDIF|
+|ENDFOR|
+<!-- End Innate Prepared -->
+|ENDIF|
+|ENDFOR|
+<!-- Start Regular Prepared -->
+|FOR,%spellbook,2,COUNT[SPELLBOOKS]-1,1,0|
+|FOR,%foo,COUNT[SPELLRACE],COUNT[SPELLRACE],1,1|
+|FOR,%bar,COUNT[SPELLSINBOOK0.%spellbook.0],COUNT[SPELLSINBOOK0.%spellbook.0],1,1|
+|IIF(%foo:0.OR.%bar:0)|
+<!-- Either we do not have a innate race, or if we do we do not have any 0 level spell for the innate race -->
+|FOR,%class,COUNT[SPELLRACE],COUNT[SPELLRACE]+COUNT[CLASSES]-1,1,1|
+|FOR,%level,0,9,1,1|
+|FOR,%spelllevelcount,COUNT[SPELLSINBOOK.%class.%spellbook.%level],COUNT[SPELLSINBOOK.%class.%spellbook.%level],1,0|
+|IIF(%spelllevelcount:0)|
+<!-- no memorized spells for SPELLSINBOOK.%class %spellbook %level -->
+|ELSE|
+|%level|th&#150;<i>
+|FOR,%spell,0,COUNT[SPELLSINBOOK.%class.%spellbook.%level]-2,1,0|
+|SPELLMEM.%class.%spellbook.%level.%spell.NAME|,
+|ENDFOR|
+|FOR,%spell,COUNT[SPELLSINBOOK.%class.%spellbook.%level]-1,COUNT[SPELLSINBOOK.%class.%spellbook.%level]-1,1,0|
+|SPELLMEM.%class.%spellbook.%level.%spell.BONUSSPELL||SPELLMEM.%class.%spellbook.%level.%spell.NAME|
+|IIF(SPELLMEM.%class.%spellbook.%level.%spell.TIMES:1)|
+|ELSE|
+(|SPELLMEM.%class.%spellbook.%level.%spell.TIMES|)
+|ENDIF|
+|ENDFOR|
+</i>;
+|ENDIF|
+|ENDFOR|
+|ENDFOR|
+<!-- END FOR,%spellbook,2,COUNT[SPELLBOOKS]-1,1,0 -->
+|%| 
+|ENDFOR|
+<!-- ### END class Spellbook memorized spells ### -->
+<!-- START FALSE IIF(%memorised:0) -->
+|ENDIF|
+|ENDFOR|
+|ENDFOR|
+|ENDFOR|
+<!-- ### END MEMORIZED ### -->
+<!-- End Prepared Spells -->
+
+	</div></td>
+    </tr>
+  </table>
+  <br />
+  <table width="95%" border="0" cellspacing="0" cellpadding="1">
+    <tr> 
+      <td width="20%" class="Header">Special Abilities</td>
+      <td width="80%" class="labelStat"><div align="left">|ABILITYLIST.Traits|</div></td>
+    </tr>
+  </table>
+  <br />
+  <table width="95%" border="0" cellspacing="0" cellpadding="1">
+    <tr> 
+      <td width="20%" class="Header">Equipment</td>
+      <td width="80%" class="labelStat"> <div align="left">
+|FOR,%equip,0,COUNT[EQUIPMENT.Not.Contained.NOT.Container]-1,1,1|
+|IIF(EQ.NOT.CONTAINED.NOT.Container.%equip.QTY.INTVAL:1)|
+|EQ.NOT.CONTAINED.NOT.Container.%equip.NAME|, 
+|ELSE|
+|EQ.NOT.CONTAINED.NOT.Container.%equip.NAME| (x|TEXT.LOWER.EQ.NOT.Contained.NOT.CONTAINER.%equip.QTY.INTVAL|), 
+|ENDIF|
+|ENDFOR|
+
+|FOR,%container,0,COUNT[CONTAINERS]-1,1,1|
+|EQ.IS.Container.%container.NAME|
+|IIF(EQ.IS.Container.%container.CONTENTSNUM.QTY.INTVAL:0)|
+|ELSE|
+[
+|ENDIF|
+|FOR,%equip,0,EQ.IS.Container.%container.CONTENTSNUM-1,1,1|
+|IIF(EQ.IS.Container.%container.CONTENTS.%equip.QTY.INTVAL:1)|
+|EQ.IS.Container.%container.CONTENTS.%equip.NAME|,
+|ELSE|
+|EQ.IS.Container.%container.CONTENTS.%equip.NAME| (x|EQ.IS.Container.%container.CONTENTS.%equip.QTY.INTVAL|),
+|ENDIF|
+|ENDFOR|
+|IIF(EQ.IS.Container.%container.CONTENTSNUM.QTY.INTVAL:0)|
+,
+|ELSE|
+],
+|ENDIF|
+|ENDFOR|
+	  </td>
+    </tr>
+  </table>
+  <br />
+  <table width="95%" border="0" cellspacing="0" cellpadding="1">
+    <tr> 
+      <td width="20%" class="Header">Conviction</td>
+      <td width="80%" class="labelStat"><div align="left"> 
+|FOR,%conviction,0,VAR.Conviction,1,1| 
+&#9744 
+|ENDFOR|
+	  </div></td>
+    </tr>
+  </table>
+  <p><br>
+    <font size="-1">Created using PCGen |EXPORT.VERSION| on |EXPORT.DATE|</font></p>
+  <div align="left">
+
+<!-- Overflow skills table -->
+    <table width="33%" border="0" cellspacing="0" cellpadding="0">
+      <tr class="Header"> 
+        <td width="70%">Skill</td>
+        <td width="30%">Bonus</td>
+      </tr>
+|FOR,%skill,15,COUNT[SKILLS]-1,1,0|
+      <tr> 
+        <td class="labelStatLeftBottom">|SKILL.%skill|</td>
+        <td class="labelStatLeftRTBottom">|SKILL.%skill.TOTAL| &nbsp; &#9744</td>
+      </tr>
+|ENDFOR|
+    </table>
+<!-- END Overflow skills table -->
+
+  </div>
+  <p align="left">&nbsp;</p>
+</div>
+</body>
+</html>
+

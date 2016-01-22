@@ -1,0 +1,8 @@
+The csheet_dnd_CMP.fo character sheet template is derived 
+from the PCGen csheet_dnd_description.fo which is based on the work 
+of the following people:
+
+Original author: Richard O'Doherty-Gregg
+Weapon & Familiar blocks by Barak
+Spell Lists & other by Frugal
+Maintenance by Frugal

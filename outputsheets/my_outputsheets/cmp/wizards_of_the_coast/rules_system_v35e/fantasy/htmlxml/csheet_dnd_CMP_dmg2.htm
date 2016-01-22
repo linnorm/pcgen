@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text-html; charset=utf-8" />
+<title>|NAME|, |GENDER.LONG| |RACE|</title>
+<style type="text/css">
+	body  { font-family:arial; font-size:10pt; text-align:left; color:black; background:white; font-weight:normal; margin: 0px; padding: 0px; }
+	.header { display:block; font-size:7pt; text-align:center; }
+</style>
+</head>
+<body>
+<span class="header">Created using PCGen |EXPORT.VERSION| on |EXPORT.DATE|</span>
+<p>
+<b>|NAME|</b><br/>
+|RACE||CLASSLIST|<br/>
+|ALIGNMENT.SHORT| |SIZELONG| |RACETYPE|<br/>
+<b>Init</b> |INITIATIVEMOD|;<b>Senses</b> |VISION|; Listen +|SKILL.Listen.TOTAL|, Spot +|SKILL.Spot.TOTAL|<br/>
+<b>Languages</b> |LANGUAGES|</b></br/>
+<hr/>
+<b>AC</b> |AC.Total|, touch |AC.Touch|, flat footed |AC.Flatfooted|<br/>
+<b>hp</b> |HP| (|HITDICE| HD);
+|IIF(DR:"")|
+|ELSE|
+<b>DR</b> |DR|
+|ENDIF|
+<br/>
+<b>Immune</b>
+|FOR,%immun,0,COUNT[FEATTYPE.Immunity.HIDDEN]-2,1,0|
+|FEATALL.HIDDEN.Immunity.%immun|,
+|ENDFOR|
+|FOR,%immun,COUNT[FEATTYPE.Immunity.HIDDEN]-1,COUNT[FEATTYPE.Immunity.HIDDEN]-1,1,0|
+|FEATALL.HIDDEN.Immunity.%immun|
+|ENDFOR|
+<br/>
+<b>Resist</b>
+|FOR,%resist,0,COUNT[FEATTYPE.Resistance.HIDDEN]-2,1,0|
+|FEATALL.HIDDEN.Resistance.%resist|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Acid)|
+|VAR.AcidResistance.INTVAL|,
+|ENDIF|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Cold)|
+|VAR.ColdResistance.INTVAL|,
+|ENDIF|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Electricity)|
+|VAR.ElectricityResistance.INTVAL|,
+|ENDIF|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Fire)|
+|VAR.FireResistance.INTVAL|,
+|ENDIF|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Sonic)|
+|VAR.SonicResistance.INTVAL|,
+|ENDIF|
+|ENDFOR|
+
+|FOR,%resist,COUNT[FEATTYPE.Resistance.HIDDEN]-1,COUNT[FEATTYPE.Resistance.HIDDEN]-1,1,0|
+|FEATALL.HIDDEN.Resistance.%resist|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Acid)|
+|VAR.AcidResistance.INTVAL|;
+|ENDIF|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Cold)|
+|VAR.ColdResistance.INTVAL|;
+|ENDIF|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Electricity)|
+|VAR.ElectricityResistance.INTVAL|;,
+|ENDIF|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Fire)|
+|VAR.FireResistance.INTVAL|;
+|ENDIF|
+|IIF(FEATALL.HIDDEN.Resistance.%resist:Resistance to Sonic)|
+|VAR.SonicResistance.INTVAL|;
+|ENDIF|
+|ENDFOR|
+
+|IIF(SR:"")|
+|ELSE|
+<b>SR</b> |SR|
+|ENDIF|
+<br/>
+
+<b>Fort</b>|CHECK.Fortitude.TOTAL|, <b>Ref</b>|CHECK.Reflex.TOTAL|, <b>Will</b>|CHECK.Willpower.TOTAL|<br/>
+<hr/>
+
+<b>Speed </b> |MOVEMENT|<br/>
+|%COUNT[EQTYPE.Melee]|
+<b>Melee </b>
+|FOR,%weap,0,COUNT[EQTYPE.Weapon]-1,1,0|
+|IIF(WEAPON.%weap.CATEGORY:Melee)
+|WEAPON.%weap.NAME|
+|IIF(WEAPON.%weap.TOTALHIT:N/A)|
+(two handed) |WEAPON.%weap.THHIT| (|WEAPON.%weap.THDAMAGE|)
+|ELSE|
+|WEAPON.%weap.TOTALHIT| (|WEAPON.%weap.DAMAGE|);
+|ENDIF|
+|ELSE|
+|ENDIF|
+|ENDFOR|
+<br/>
+|%|
+|%COUNT[EQTYPE.Natural]|
+<b>Natural </b>
+|FOR,%weap,0,COUNT[EQTYPE.Weapon]-1,1,0|
+|IIF(WEAPON.%weap.CATEGORY:Natural)
+|WEAPON.%weap.NAME|
+ |WEAPON.%weap.TOTALHIT| (|WEAPON.%weap.DAMAGE|);
+|ELSE|
+|ENDIF|
+|ENDFOR|
+<br/>
+|%|
+|%COUNT[EQTYPE.Ranged]|
+<b>Ranged </b>
+|FOR,%weap,0,COUNT[EQTYPE.Weapon]-1,1,0|
+|IIF(WEAPON.%weap.CATEGORY:Ranged)
+|WEAPON.%weap.NAME|
+ |WEAPON.%weap.TOTALHIT| (|WEAPON.%weap.DAMAGE|);
+|ELSE|
+|ENDIF|
+|ENDFOR|
+<br/>
+|%|
+<b>Space</b> |FACE.SHORT|; <b/>Reach</b> |REACH| ft.<br/>
+<b>Base Atk</b> |ATTACK.MELEE.BASE|; <b>Grp</b> |ATTACK.GRAPPLE.BASE|
+<br/>
+|%SPELLLISTBOOK.0.0.1|
+<b>Spell-Like Abilities:</b><br/>
+|FOR,%spell,0,COUNT[SPELLSINBOOK0.1.0]-2,1,1|
+|SPELLMEM.0.1.0.%spell.TIMES| - |SPELLMEM.0.1.0.%spell.NAME| (DC |SPELLMEM.0.1.0.%spell.DC|),
+|ENDFOR|
+|FOR,%spell,COUNT[SPELLSINBOOK0.1.0]-1,COUNT[SPELLSINBOOK0.1.0]-1,1,1|
+|SPELLMEM.0.1.0.%spell.TIMES| - |SPELLMEM.0.1.0.%spell.NAME| (DC |SPELLMEM.0.1.0.%spell.DC|),
+|ENDFOR|
+<br />
+|%|
+
+
+|FOR,%class,COUNT[SPELLRACE],COUNT[CLASSES],1,1|
+|%SPELLLISTCLASS.%class|
+<b>|SPELLLISTCLASS.%class| Spells Known: </b>
+|IIF(SPELLFAILURE:0)|
+|ELSE|
+(|SPELLFAILURE|% arcane spell failure chance);
+|ENDIF|
+<br />
+|FOR,%level,0,MAXSPELLLEVEL.%class,1,1|
+|%SPELLLISTBOOK.%class.%level.0|
+|%level| (|SPELLLISTCAST.%class.%level|/day) -
+|FOR,%spell,0,COUNT[SPELLSINBOOK.%class.0.%level]-2,1,1|
+<i>|SPELLMEM.%class.0.%level.%spell.NAME|</i> (DC |SPELLMEM.%class.0.%level.%spell.DC|),
+|ENDFOR|
+|FOR,%spell,COUNT[SPELLSINBOOK.%class.0.%level]-1,COUNT[SPELLSINBOOK.%class.0.%level]-1,1,1|
+<i>|SPELLMEM.%class.0.%level.%spell.NAME|</i> (DC |SPELLMEM.%class.0.%level.%spell.DC|)
+|ENDFOR|
+<br />
+|%|
+|ENDFOR|
+|ENDFOR|
+
+|%|
+<hr/>
+<b>Abilities</b>
+Str&nbsp;|STAT.0|, Dex&nbsp;|STAT.1|, Con&nbsp;|STAT.2|, Int&nbsp;|STAT.3|, Wis&nbsp;|STAT.4|, Cha&nbsp;|STAT.5|<br/>
+<b>Feats</b> |FEATALLLIST|<br/>
+<b>Skills</b>
+|FOR.0,COUNT[SKILLS]-1,100,\SKILL.%.NAME\ +\SKILL.%.TOTAL\;       , , ,0|<br/>
+<b>Posessions</b>
+|FOR.0,COUNT[EQUIPMENT],100,\EQ.%.NAME\; , , ,0|<br/>
+<hr/>
+|FOR,%sa,0,COUNT[SA]-1,1,0|
+<b>|SPECIALABILITY.%sa|</b><br/>
+|ENDFOR|
+</body>
+</html>
+
