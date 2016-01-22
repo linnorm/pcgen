@@ -1,0 +1,4 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Wed May  6 18:33:48 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Equipment Name	Required Proficiency		Type								Cost		Weight	Damage	Nb Hands	Requires Modification?	Range		Size		Source, Long Desc.	Source, Short Desc.	Source Page		Special Property
+Venomous Fire		TYPE:Weapon.Simple.Ranged.Thrown.Poison.Fire	COST:220	WT:1		DAMAGE:1d6	HANDS:1	MODS:NO			RANGE:10	SIZE:S	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.195	SPROP:Initial and Secondary 1d6 Con Damage, Fort DC 17 Negates. Ref DC 15 to extinguish or suffer 1d6 Fire damage next round.

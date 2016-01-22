@@ -1,0 +1,25 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Wed May  6 18:33:48 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Weapon Name	Type			Nb Hands
+Doubt Bomb		TYPE:Simple		HANDS:1
+Etherblade		TYPE:Exotic		HANDS:2
+Ribbon Dagger	TYPE:Exotic
+Rock			TYPE:Simple
+Shard Dagger	TYPE:Exotic
+Shard Longsword	TYPE:Exotic
+Venomous Fire	TYPE:Simple
+
+###########
+# natural #
+###########
+
+Swarm			TYPE:Natural
+Beak			TYPE:Natural
+Kick			TYPE:Natural
+Front Claws		TYPE:Natural
+Rear Claws		TYPE:Natural
+Tail Hand		TYPE:Natural
+Incorporeal Bite	TYPE:Natural
+Rakes			TYPE:Natural
+Feather Flurry	TYPE:Natural
+Leg Rake		TYPE:Natural

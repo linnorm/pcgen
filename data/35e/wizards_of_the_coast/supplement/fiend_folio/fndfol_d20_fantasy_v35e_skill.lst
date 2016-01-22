@@ -1,0 +1,5 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Wed May  6 18:33:48 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Skill Name		Key Stat	Untrained?		Type				Source, Long Desc.	Source, Short Desc.	Source Page
+Craft (Metalworking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.
+Profession (Soldier)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.
