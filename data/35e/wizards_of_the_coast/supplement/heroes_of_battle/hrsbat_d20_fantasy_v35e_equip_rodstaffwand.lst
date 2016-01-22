@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#CREATED BY S.R.Stephen, October 2005
+
+# Equipment Name	Type		Cost		Weight	Source, Long Desc.		Source, Short Desc.	Source Page		Modify VAR				Special Property
+Rod of Arming	TYPE:Rod	COST:15000	WT:0		SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.131						SPROP:Adamantine rod stores complete set of battle regalia, recall/store/swap it instantly as std action
+Rod of Leadership	TYPE:Rod	COST:25000	WT:0		SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.131	BONUS:VAR|LeadershipScore|2	SPROP:Mithral rod - 1/day +5 rally chk. 1/wk create 30 ft command tent, 24 hr duration

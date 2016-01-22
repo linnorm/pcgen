@@ -1,0 +1,53 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#CREATED BY S.R.Stephen, October 2005
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus												Combat bonus
+CLASS:Combat Medic	HD:6		TYPE:PC.Prestige	ABB:Com		MAXLEVEL:5	SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.99	BONUS:CHECKS|BASE.Will,BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Restricted AL		Required Feat				Required Skill						Req. Known Spell
+CLASS:Combat Medic	!PREALIGN:LE,NE,CE	PREFEAT:2,Combat Casting,Dodge	PRESKILL:1,Concentration=4	PRESKILL:1,Heal=8	PRESPELL:1,Cure Light Wounds
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Combat Medic	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (History)|Knowledge (Religion)|TYPE.Profession|Ride|Spellcraft|Spot
+1	BONUS:VAR|HealingKicker1|CL+WIS	ADD:SPELLCASTER|1|ANY													AUTO:FEAT|Medic Spellcasting	AUTO:FEAT|Healing Kicker 1
+2	BONUS:VAR|DefensiveCastingVar|CL	ADD:SPELLCASTER|1|ANY													AUTO:FEAT|Defensive Casting	AUTO:FEAT|Field Healer
+3	BONUS:VAR|HealingKicker2|CL		ADD:SPELLCASTER|1|ANY													AUTO:FEAT|Mobility	AUTO:FEAT|Healing Kicker 2
+4							ADD:SPELLCASTER|1|ANY	VFEAT:Evasion|PREVAREQ:ENCUMBERANCE,0,COUNT[EQTYPE.ARMOR.EQUIPPED],0
+5	BONUS:VAR|HealingKicker3|CL+8		ADD:SPELLCASTER|1|ANY													AUTO:FEAT|Spontaneous Heal	AUTO:FEAT|Healing Kicker 3
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus												Combat bonus
+CLASS:Dread Commando	HD:8		TYPE:PC.Prestige	ABB:DrC		MAXLEVEL:5	SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.102	BONUS:CHECKS|BASE.Will,BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat			Required Skill
+CLASS:Dread Commando	PREATT:5	PREFEAT:2,Dodge,Mobility	PRESKILL:2,Hide=6,Move Silently=6
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Dread Commando	STARTSKILLPTS:6	CSKILL:Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Hide|Jump|Knowledge (Geography)|Listen|Move Silently|Open Lock|TYPE.Profession|Ride|Search|Spot|Swim|Use Rope
+1	BONUS:VAR|SuddenStrikeVar|(CL+1)/2	BONUS:VAR|TeamInitVar|CL															AUTO:FEAT|Sudden Strike	AUTO:FEAT|Team Initiative
+2												TEMPLATE:CHOOSE:Armored Ease +1|Armored Ease +2
+3																										AUTO:FEAT|Sudden Strike
+4												TEMPLATE:CHOOSE:Armored Ease +1|Armored Ease +2|Armored Ease +3|Armored Ease +4	AUTO:FEAT|Stealthy Movement
+5																										AUTO:FEAT|Sudden Strike
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Legendary Leader	HD:8		TYPE:PC.Prestige	ABB:Leg		MAXLEVEL:5	SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.107	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|((CL*3)/4)|TYPE=Base.REPLACE
+# Class Name		Required Feat				Var. Min. Value
+CLASS:Legendary Leader	PREFEAT:2,Iron Will,Leadership	PREVARGTEQ:LeadershipScore,7
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Legendary Leader	STARTSKILLPTS:4	CSKILL:Bluff|TYPE.Craft|Diplomacy|Gather Information|Handle Animal|Intimidate|Knowledge (History)|Knowledge (Nobility and Royalty)|TYPE.Profession|Ride|Sense Motive
+1	BONUS:VAR|LdrLuckBonus|(CL+1)/2	BONUS:VAR|LeadershipScore|max(CHA,CommanderRatingVar)-CHA	BONUS:VAR|CommanderRatingVar|CL	BONUS:VAR|LegendaryRepVar|CL	ADD:FEAT|1|Commander Rating	AUTO:FEAT|Fearless	AUTO:FEAT|Hero's Luck	AUTO:FEAT|Natural Commander	AUTO:FEAT|Legendary Reputation
+2	BONUS:VAR|GreaterCommandVar|CL/2																											AUTO:FEAT|Greater Command	AUTO:FEAT|Quick Rally
+3																												ADD:FEAT|1|TYPE=Leadership	AUTO:FEAT|Hero's Luck
+4																																	AUTO:FEAT|Greater Command	AUTO:FEAT|Heroic Success
+5																																	AUTO:FEAT|Additional Commander Aura	AUTO:FEAT|Hero's Luck	AUTO:FEAT|To Hell And Back Again
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:War Weaver	HD:4		TYPE:PC.Prestige	ABB:WrW		MAXLEVEL:5	SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.99	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required Feat		Multiple Requirements								Required Skill
+CLASS:War Weaver	PREFEAT:1,Enlarge Spell	PREMULT:1,[PRESPELLTYPE:1,Arcane=3],[PRESPELLTYPE:1,Divine=3]	PRESKILL:2,Craft (Weaving)=6,Knowledge (Arcana)=6
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:War Weaver	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Knowledge (Arcana)|TYPE.Profession|Spellcraft
+1											AUTO:FEAT|Eldritch Tapestry
+2	BONUS:VAR|QuiescentVar|CL-1	ADD:SPELLCASTER|1|Arcane	AUTO:FEAT|Quiescent Weaving
+3						ADD:SPELLCASTER|1|Arcane	AUTO:FEAT|Quiescent Weaving
+4						ADD:SPELLCASTER|1|Arcane	AUTO:FEAT|Quiescent Weaving
+5						ADD:SPELLCASTER|1|Arcane	AUTO:FEAT|Quiescent Weaving	AUTO:FEAT|Enlarged Tapestry

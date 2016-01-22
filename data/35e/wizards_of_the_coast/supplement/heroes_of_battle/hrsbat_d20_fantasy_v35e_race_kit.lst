@@ -1,0 +1,63 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+STARTPACK:Brass Steed ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Brass Steed]
+RACE:Brass Steed	!PRERACE:1,%
+NAME:Brass Steed
+ALIGN:TN
+FEAT:Run
+FEAT:Eye Ray
+FEAT:Immunity to Magic
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Luna Moth ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Luna Moth]
+RACE:Luna Moth	!PRERACE:1,%
+NAME:Luna Moth
+ALIGN:CG
+FEAT:Hover
+FEAT:Iron Will
+FEAT:Natural Invisibility
+FEAT:Scent
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Rainbow Crow ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rainbow Crow]
+RACE:Rainbow Crow	!PRERACE:1,%
+NAME:Rainbow Crow
+ALIGN:TN
+FEAT:Alertness
+FEAT:Dodge
+FEAT:Improved Initiative
+FEAT:Flyby Attack
+FEAT:Wingover
+FEAT:Scent
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Skeletal Warbeast ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Skeletal Warbeast]
+RACE:Skeletal Warbeast	!PRERACE:1,%
+NAME:Skeletal Warbeast
+ALIGN:NE
+FEAT:Great Fortitude
+FEAT:Run
+FEAT:Improved Initiative
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Tusked Behemoth ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Tusked Behemoth]
+RACE:Tusked Behemoth	!PRERACE:1,%
+NAME:Tusked Behemoth
+ALIGN:TN
+FEAT:Endurance
+FEAT:Great Fortitude
+FEAT:Improved Natural Attack (Gore)
+FEAT:Improved Overrun
+FEAT:Iron Will
+FEAT:Power Attack
+FEAT:Run
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:War Mastiff ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,War Mastiff]
+RACE:War Mastiff	!PRERACE:1,%
+NAME:War Mastiff
+ALIGN:TN
+FEAT:Alertness
+FEAT:Endurance
+FEAT:Track
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
