@@ -1,0 +1,144 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+
+#Domains
+# Spell Name				Classes of caster		Domains granting the spell
+Aid.MOD									DOMAINS:Arborea=2
+Align Weapon.MOD								DOMAINS:The Abyss=1
+Animate Objects.MOD							DOMAINS:Limbo=6
+Baleful Polymorph.MOD							DOMAINS:Limbo=5
+Bane.MOD									DOMAINS:Baator=1
+Bear's Endurance (Mass).MOD						DOMAINS:Celestia=6
+Bear's Endurance.MOD			CLASSES:Fatemaker=2	DOMAINS:Celestia=2
+Blade Barrier.MOD								DOMAINS:Celestia=6
+Blasphemy.MOD								DOMAINS:Hades=7
+Break Enchantment.MOD							DOMAINS:Arborea=5
+Bull's Strength (Mass).MOD						DOMAINS:The Abyss=6
+Bull's Strength.MOD			CLASSES:Fatemaker=2	DOMAINS:The Abyss=2
+Calm Emotions.MOD								DOMAINS:Mechanus=2
+Cause Fear.MOD								DOMAINS:The Abyss=1
+Chaos Hammer.MOD								DOMAINS:Limbo=4
+Charm Monster.MOD				CLASSES:Fatemaker=4	DOMAINS:Elysium=4
+Charm Person.MOD				CLASSES:Fatemaker=1	DOMAINS:Elysium=1
+Cloak of Chaos.MOD							DOMAINS:Limbo=8
+Command.MOD									DOMAINS:Mechanus=1
+Confusion (Lesser).MOD							DOMAINS:Limbo=1
+Contagion.MOD								DOMAINS:Hades=4
+Control Weather.MOD							DOMAINS:Elysium=7
+Crushing Despair.MOD							DOMAINS:Hades=5
+Cure Light Wounds (Mass).MOD						DOMAINS:Elysium=5
+Darkness.MOD								DOMAINS:Baator=2
+Death Knell.MOD								DOMAINS:The Abyss=2
+Deeper Darkness.MOD							DOMAINS:Baator=4
+Demand.MOD									DOMAINS:Baator=8
+Destruction.MOD								DOMAINS:The Abyss=7
+Detect Thoughts.MOD							DOMAINS:Baator=3
+Dictum.MOD									DOMAINS:Mechanus=7
+Discern Lies.MOD								DOMAINS:Mechanus=4
+Disguise Self.MOD				CLASSES:Fatemaker=1	DOMAINS:Baator=1
+Dispel Chaos.MOD								DOMAINS:Mechanus=5
+Dispel Evil.MOD								DOMAINS:Elysium=5
+Dispel Good.MOD								DOMAINS:Hades=5
+Dispel Law.MOD								DOMAINS:Limbo=5
+Divine Power.MOD								DOMAINS:Celestia=4
+Dominate Person.MOD							DOMAINS:Baator=6
+Doom.MOD									DOMAINS:Hades=1
+Eagle's Splendor (Mass).MOD						DOMAINS:Arborea=6
+Eagle's Splendor.MOD			CLASSES:Fatemaker=2	DOMAINS:Arborea=2
+Endure Elements.MOD							DOMAINS:Arborea=1
+Energy Drain.MOD								DOMAINS:Hades=9
+Enthrall.MOD								DOMAINS:Elysium=2
+Entropic Shield.MOD							DOMAINS:Limbo=2
+Find the Path.MOD								DOMAINS:Elysium=6
+Finger of Death.MOD							DOMAINS:The Abyss=8
+Foresight.MOD								DOMAINS:Celestia=9
+Fox's Cunning (Mass).MOD						DOMAINS:Baator=6
+Fox's Cunning.MOD				CLASSES:Fatemaker=2	DOMAINS:Baator=2
+Freedom.MOD									DOMAINS:Arborea=9
+Gate.MOD									DOMAINS:Hades=9
+Harm.MOD									DOMAINS:The Abyss=6
+Heal (Mass).MOD								DOMAINS:Elysium=9
+Heroes' Feast.MOD								DOMAINS:Arborea=6
+Heroism (Greater).MOD							DOMAINS:Arborea=8
+Heroism.MOD									DOMAINS:Arborea=3
+Hold Monster.MOD								DOMAINS:Mechanus=6
+Hold Person (Mass).MOD							DOMAINS:Mechanus=7
+Holy Aura.MOD								DOMAINS:Elysium=8
+Holy Smite.MOD								DOMAINS:Elysium=4
+Holy Word.MOD								DOMAINS:Elysium=7
+Implosion.MOD								DOMAINS:The Abyss=9
+Imprisonment.MOD								DOMAINS:Baator=9
+Insanity.MOD								DOMAINS:Limbo=6
+Iron Body.MOD								DOMAINS:Mechanus=8
+Irresistible Dance.MOD							DOMAINS:Limbo=8
+Longstrider.MOD								DOMAINS:Arborea=1
+Mage's Disjunction.MOD							DOMAINS:Mechanus=9
+Magic Circle against Chaos.MOD					DOMAINS:Mechanus=3
+Magic Circle against Evil.MOD						DOMAINS:Elysium=3
+Magic Circle against Good.MOD						DOMAINS:Hades=3
+Magic Circle against Law.MOD						DOMAINS:Limbo=3
+Magic Vestment.MOD							DOMAINS:Celestia=3
+Magic Weapon (Greater).MOD						DOMAINS:Celestia=4
+Mark of Justice.MOD							DOMAINS:Mechanus=5
+Mind Blank.MOD								DOMAINS:Arborea=8
+Mind Fog.MOD								DOMAINS:Elysium=6
+Mind Fog.MOD								DOMAINS:Hades=6
+Moment of Prescience.MOD						DOMAINS:Elysium=9
+Neutralize Poison.MOD			CLASSES:Fatemaker=4	DOMAINS:Arborea=4
+Order's Wrath.MOD								DOMAINS:Mechanus=4
+Plane Shift.MOD								DOMAINS:Hades=7
+Poison.MOD									DOMAINS:The Abyss=4
+Power Word Stun.MOD							DOMAINS:Celestia=8
+Protection from Chaos.MOD						DOMAINS:Mechanus=1
+Protection from Evil.MOD						DOMAINS:Elysium=1
+Protection from Good.MOD						DOMAINS:Hades=1
+Protection from Law.MOD							DOMAINS:Limbo=1
+Regenerate.MOD								DOMAINS:Celestia=7
+Repulsion.MOD								DOMAINS:Baator=7
+Righteous Might.MOD							DOMAINS:Celestia=5
+Shapechange.MOD								DOMAINS:Limbo=9
+Shield of Faith.MOD							DOMAINS:Celestia=1
+Shield of Law.MOD								DOMAINS:Celestia=8
+Shield of Law.MOD								DOMAINS:Mechanus=8
+Shield Other.MOD								DOMAINS:Celestia=2
+Slay Living.MOD								DOMAINS:The Abyss=5
+Song of Discord.MOD							DOMAINS:Limbo=7
+Spell Resistance.MOD							DOMAINS:Baator=5
+Spell Turning.MOD								DOMAINS:Arborea=7
+Spell Turning.MOD								DOMAINS:Baator=8
+Suggestion.MOD				CLASSES:Fatemaker=3	DOMAINS:Baator=4
+Summon Monster III.MOD							DOMAINS:The Abyss,Arborea,Baator=3
+Summon Monster III.MOD							DOMAINS:Celestia=3
+Summon Monster IX.MOD							DOMAINS:The Abyss,Arborea,Baator=9
+Summon Monster IX.MOD							DOMAINS:Celestia=9
+Summon Monster V.MOD							DOMAINS:The Abyss,Arborea,Baator=5
+Summon Monster V.MOD							DOMAINS:Celestia=5
+Summon Monster VII.MOD							DOMAINS:The Abyss,Arborea,Baator=7
+Summon Monster VII.MOD							DOMAINS:Celestia=7
+Sunburst.MOD								DOMAINS:Elysium=8
+Unholy Aura.MOD								DOMAINS:Hades=8
+Unholy Blight.MOD								DOMAINS:Hades=4
+Waves of Exhaustion.MOD							DOMAINS:Hades=8
+Waves of Fatigue.MOD							DOMAINS:Hades=6
+Word of Chaos.MOD								DOMAINS:Limbo=7
+
+
+#Spell lists
+Cat's Grace.MOD				CLASSES:Fatemaker=2
+Darkvision.MOD				CLASSES:Fatemaker=2
+Daze Monster.MOD				CLASSES:Fatemaker=2
+Expeditious Retreat.MOD			CLASSES:Fatemaker=1
+Haste.MOD					CLASSES:Fatemaker=3
+Invisibility.MOD				CLASSES:Fatemaker=2
+Jump.MOD					CLASSES:Fatemaker=1
+Nondetection.MOD				CLASSES:Fatemaker=3
+Owl's Wisdom.MOD				CLASSES:Fatemaker=2
+Protection from Energy.MOD		CLASSES:Fatemaker=3
+Remove Curse.MOD				CLASSES:Fatemaker=4
+Resist Energy.MOD				CLASSES:Fatemaker=2
+Restoration.MOD				CLASSES:Fatemaker=4
+Sanctuary.MOD				CLASSES:Fatemaker=1
+Spider Climb.MOD				CLASSES:Fatemaker=2
+Stoneskin.MOD				CLASSES:Fatemaker=4
+Tongues.MOD					CLASSES:Fatemaker=3
+True Strike.MOD				CLASSES:Fatemaker=1

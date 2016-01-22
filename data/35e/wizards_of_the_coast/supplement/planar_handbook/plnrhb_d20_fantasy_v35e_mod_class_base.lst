@@ -1,0 +1,78 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# Class Name		Substitution levels?
+CLASS:Barbarian.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Barbarian	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:3									BONUS:VAR|TrapSense|CL=Barbarian/3	CSKILL:Knowledge (The Planes)	AUTO:FEAT|Trap Sense|Portal Sense
+SUBSTITUTIONLEVEL:7	DR:1/-	BONUS:DR|-|(CL=Barbarian-7)/3-1												AUTO:FEAT|Planar Damage Reduction
+SUBSTITUTIONLEVEL:11																				AUTO:FEAT|Menacing Rage
+
+# Class Name	Substitution levels?
+CLASS:Bard.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Bard	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:3	CAST:3,1		KNOWN:6,3		AUTO:FEAT|Planar Inspiration
+SUBSTITUTIONLEVEL:6	CAST:3,3,2		KNOWN:6,4,3		AUTO:FEAT|Portal Dissonance
+SUBSTITUTIONLEVEL:12	CAST:3,3,3,3,2	KNOWN:6,4,4,4,3	AUTO:FEAT|Planar Discordance
+
+# Class Name	Substitution levels?
+CLASS:Cleric.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Cleric	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:4	CAST:5,3,2			AUTO:FEAT|Planar Dismissal
+SUBSTITUTIONLEVEL:7	CAST:6,4,3,2,1		AUTO:FEAT|Planar Domain
+SUBSTITUTIONLEVEL:11	CAST:6,5,4,4,3,2,1	AUTO:FEAT|Planar Banishment
+
+# Class Name	Substitution levels?
+CLASS:Druid.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Druid	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:4	CAST:5,3,2			CSKILL:Knowledge (The Planes)	AUTO:FEAT|Resist Extraplanar Might
+SUBSTITUTIONLEVEL:9	CAST:6,4,4,3,2,1		CSKILL:Knowledge (The Planes)	AUTO:FEAT|Planar Tolerance
+SUBSTITUTIONLEVEL:13	CAST:6,5,5,4,4,3,2,1	CSKILL:Knowledge (The Planes)	AUTO:FEAT|Counter Summoning
+
+# Class Name	Substitution levels?
+CLASS:Fighter.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Fighter	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:4																CSKILL:Knowledge (The Planes)	AUTO:FEAT|Planar Study
+SUBSTITUTIONLEVEL:8	BONUS:VAR|AlignPuissanceTimes|1	BONUS:VAR|AlignPuissanceDuration|var("CL=Fighter")	CSKILL:Knowledge (The Planes)	AUTO:FEAT|Align Puissance
+SUBSTITUTIONLEVEL:12	BONUS:VAR|AuraStabilityDuration|var("CL=Fighter")							CSKILL:Knowledge (The Planes)	AUTO:FEAT|Aura of Stability
+
+# Class Name	Substitution levels?
+CLASS:Monk.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Monk	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:5	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6										CSKILL:Knowledge (The Planes)	ADD:FEAT|1|TYPE=PlanarMonkResistance
+SUBSTITUTIONLEVEL:13	UDAM:1d4,1d6,1d8,1d10,2d6,3d6,4d6,6d6,8d6	BONUS:VAR|AxiomaticSoulResistance|var("CL=Monk")+15	CSKILL:Knowledge (The Planes)								AUTO:FEAT|Axiomatic Soul
+SUBSTITUTIONLEVEL:16	UDAM:1d6,1d8,1d10,2d6,2d8,3d8,4d8,6d8,8d8										CSKILL:Knowledge (The Planes)								AUTO:FEAT|Planar Ki Strike
+
+# Class Name	Substitution levels?
+CLASS:Paladin.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Paladin	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:4	CAST:0,0	BONUS:VAR|SmiteEvilOutsiderDamage|CHA	BONUS:VAR|SmiteEvilOutsiderTimes|max(CHA,0)+1	CSKILL:Knowledge (The Planes)	AUTO:FEAT|Smite Evil Outsider
+SUBSTITUTIONLEVEL:6	CAST:0,1																CSKILL:Knowledge (The Planes)	AUTO:FEAT|Celestial Mount
+SUBSTITUTIONLEVEL:10	CAST:0,1,0																CSKILL:Knowledge (The Planes)	AUTO:FEAT|Alignment Purity
+
+# Class Name	Substitution levels?
+CLASS:Ranger.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Ranger	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:4	CAST:0,0		BONUS:VAR|AnimalCompanionLvl|CL=Ranger/2	CSKILL:Knowledge (The Planes)	AUTO:FEAT|Planar Animal Companion
+SUBSTITUTIONLEVEL:8	CAST:0,1,0									CSKILL:Knowledge (The Planes)	AUTO:FEAT|Portal Intuition
+SUBSTITUTIONLEVEL:13	CAST:0,1,1,1								CSKILL:Knowledge (The Planes)	AUTO:FEAT|Planar Tracking
+
+# Class Name	Substitution levels?
+CLASS:Rogue.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Rogue	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:6							CSKILL:Knowledge (The Planes)	AUTO:FEAT|Breach Sense
+SUBSTITUTIONLEVEL:10							CSKILL:Knowledge (The Planes)	AUTO:FEAT|Slip the Bonds
+SUBSTITUTIONLEVEL:16	BONUS:VAR|PRBlinkDuration|CL/2	CSKILL:Knowledge (The Planes)	AUTO:FEAT|Blink~Planar Rogue
+
+# Class Name		Substitution levels?
+CLASS:Sorcerer.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Sorcerer	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:5	CAST:6,6,4			KNOWN:6,4,2											CSKILL:Knowledge (The Planes)							AUTO:FEAT|Force Charged Energy
+SUBSTITUTIONLEVEL:9	CAST:6,6,6,6,4		KNOWN:8,5,4,3,2		BONUS:VAR|ExtraplanarSpellPenetrationTimes|3	CSKILL:Knowledge (The Planes)							AUTO:FEAT|Extraplanar Spell Penetration
+SUBSTITUTIONLEVEL:13	CAST:6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,3,2									CSKILL:Knowledge (The Planes)	ADD:FEAT|1|TYPE=PlanarSummoning
+
+# Class Name	Substitution levels?
+CLASS:Wizard.MOD	HASSUBSTITUTIONLEVEL:YES
+SUBSTITUTIONCLASS:Planar Wizard	PREMULT:1,[PRESKILL:1,Knowledge (The Planes)=1],[PREFEAT:1,TYPE=Heritage],[PRERACE:1,RACESUBTYPE=Extraplanar],[PRETEMPLATE:1,Visited Different Plane]
+SUBSTITUTIONLEVEL:6	CAST:4,3,3,2														AUTO:FEAT|Unimpeded Magic
+SUBSTITUTIONLEVEL:10	CAST:4,4,4,3,3,2								ADD:FEAT|1|TYPE=PlanarSpellcasting
+SUBSTITUTIONLEVEL:14	CAST:4,4,4,4,4,3,3,2	BONUS:VAR|EnhancedMagicTimes|3							AUTO:FEAT|Enhanced Magic
+

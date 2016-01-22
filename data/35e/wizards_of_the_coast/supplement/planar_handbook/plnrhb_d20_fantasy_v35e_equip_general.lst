@@ -1,0 +1,51 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+
+# Special Substances
+# Equipment Name							Output Name				Type						Contains		Cost		Weight	Source, Long Desc.		Source, Short Desc.	Source Page		Caster level			Bonus to skill								Modify VAR					Special Property
+Anarchic Water												TYPE:Goods								COST:50	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.75																						SPROP: Damages lawful outsiders almost as if it were acid
+Atitrait Grease (Vial)											TYPE:Goods.Alchemical						COST:50	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.75
+Atramen Oil (Flask)											TYPE:Goods.Alchemical						COST:50	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.75
+Axiomatic Water												TYPE:Goods								COST:50	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.76
+Bahamuts Breath												TYPE:Goods.Alchemical						COST:120	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.76
+Celestial Cloak												TYPE:Goods								COST:1000	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.76
+Chaos Flask													TYPE:Goods								COST:100	WT:.5		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.76
+Elemental loadstone											TYPE:Goods								COST:200	WT:50		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.76
+Liquid embers (Flask)											TYPE:Goods.Alchemical						COST:600	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.76
+Mechanus eye												TYPE:Goods								COST:100	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.77						BONUS:SKILL|Search|1|TYPE:Competence
+Ocanthus knife												TYPE:Goods.Alchemical						COST:450	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.77
+Pure Element (Earth)											TYPE:Goods.Alchemical						COST:1000	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.77
+Pure Element (Fire)											TYPE:Goods.Alchemical						COST:1000	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.77
+Pure Element (Air)											TYPE:Goods.Alchemical						COST:1000	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.77
+Pure Element (Water)											TYPE:Goods.Alchemical						COST:1000	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.77
+Ether harness												TYPE:Goods.General						COST:20	WT:2		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.70
+Fireproof parchment (sheet)										TYPE:Goods.General						COST:.8	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71
+Gravity tent												TYPE:Goods.General						COST:25	WT:40		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71
+Waterproof ink (vial)											TYPE:Goods.General						COST:6	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71
+Weight suit													TYPE:Goods.Clothing.Resizable					COST:20	WT:100	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71
+Elsewhale													TYPE:Goods.Transportation					COST:8000	WT:60000	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.72
+Gaspar													TYPE:Goods.Transportation					COST:22500	WT:10000	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.72
+Nightmare (lesser)						OUTPUTNAME:[NAME] Nightmare	TYPE:Goods.Transportation					COST:5500	WT:1800	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.72
+Ur'Epona													TYPE:Goods.Transportation					COST:32000	WT:2200	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.72
+Astral skiff												TYPE:Goods.Transportation.Container	CONTAINS:*1000	COST:10000	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.72
+Ethereal tunneler												TYPE:Goods.Transportation.Container	CONTAINS:*UNLIM	COST:140000	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.72
+Gate Zeppelin												TYPE:Goods.Transportation.Container	CONTAINS:*10000	COST:160000	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.73
+Living Astral Ship											TYPE:Goods.Transportation.Container	CONTAINS:*UNLIM	COST:0			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Planar sailer												TYPE:Goods.Transportation.Container	CONTAINS:*150000	COST:25000	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Differential hourglass											TYPE:Goods.Tools							COST:75	WT:4		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71
+Fireproof spellbook											TYPE:Goods.Tools							COST:50	WT:5		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71
+Planar atlas												TYPE:Goods.Tools							COST:25	WT:2		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71						BONUS:SKILL|Knowledge (The Planes)|2|TYPE=Circumstance
+True divine focus												TYPE:Goods.Tools.Resizable					COST:1000	WT:0		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71	BONUS:CASTERLEVEL|Druid|1
+True holy symbol												TYPE:Goods.Tools.Resizable					COST:500	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71																BONUS:VAR|TurnCheck|2|TYPE=Sacred
+True unholy symbol											TYPE:Goods.Tools.Resizable					COST:500	WT:1		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71																BONUS:VAR|TurnCheck|2|TYPE=Sacred
+Waterproof spellbook											TYPE:Goods.Tools							COST:30	WT:4		SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.71
+Passage in independent elsewhale									TYPE:Goods.Transportation					COST:150			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Passage on planar sailer										TYPE:Goods.Transportation					COST:150			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Passage on gate zeppelin										TYPE:Goods.Transportation					COST:1530			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Planar guide (per day)											TYPE:Service.Transportation					COST:25			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Passage in independently owned living astral ship						TYPE:Goods.Transportation					COST:500			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Cubic gate ~ established										TYPE:Service.Transportation					COST:1640			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Planar ring gates ~ established									TYPE:Service.Transportation					COST:500			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Planar ring gates ~ special commission								TYPE:Service.Transportation					COST:1400			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Gate														TYPE:Service.Transportation					COST:1620			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.
+Plane shift													TYPE:Service.Transportation					COST:900			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.

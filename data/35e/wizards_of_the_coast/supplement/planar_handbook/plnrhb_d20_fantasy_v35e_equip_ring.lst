@@ -1,0 +1,10 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Equipment Name			Type		Cost		Weight	Requires Modification?	Source, Long Desc.		Source, Short Desc.	Source Page		Special Property
+Ring of Elemental Adaption	TYPE:Ring	COST:24000	WT:.01	MODS:NO			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.80	SPROP:The wearer can ignore many of the dangers of travel on element-dominant planes (including the elemental planes themselves). See text
+Ring of Ethereal Travel		TYPE:Ring	COST:182000	WT:.01	MODS:NO			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.80	SPROP:Donning this ring transfers the wearer to the Ethereal Plane.
+Ring of Free Magic		TYPE:Ring	COST:45000	WT:.01	MODS:NO			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.80	SPROP:By expending charges from this ring the wearer can cast spells prohibeted by planar effects.
+Ring of Limbo Control		TYPE:Ring	COST:120000	WT:.01	MODS:NO			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.81	SPROP:The wearer can establish control over a raw area of the ever changing Chaos of Limbo without making the usual Wisdom check.
+Ring of Negative Protection	TYPE:Ring	COST:72000	WT:.01	MODS:NO			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.81	SPROP:The wearer can ignore the 1d6 points of damage dealt by negative-dominant planes, such as the Negative Energy Plane. Also the wearer cannot gain negative levels.
+Ring of Positive Protection	TYPE:Ring	COST:72000	WT:.01	MODS:NO			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.81	SPROP:The wearer can ignore the blinding effect of positive-dominant planes, such as the Positive Energy Plane. In addition the wearer does not gain the fast healing ability or extra hit points. Positive energy spells have no effect on the wearer.
+Ring of Water Breathing		TYPE:Ring	COST:12000	WT:.01	MODS:NO			SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.81	SPROP:The wearer can breath freely under water.

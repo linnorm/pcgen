@@ -1,0 +1,107 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+#Monster Classes
+
+# Class Name					Hit Dice	Type				Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page
+CLASS:Avoral Guardinal Monster Class	HD:8		TYPE:PC.Monster Class	ABB:AvGMC		MAXLEVEL:15	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.19
+# Class Name					Required Race
+CLASS:Avoral Guardinal Monster Class	PRERACE:1,Avoral Guardinal Monster Class
+# Class Name					Skill Pts/Lvl	Class Skill
+CLASS:Avoral Guardinal Monster Class	STARTSKILLPTS:8	CSKILL:Bluff|Concentration|Diplomacy|Handle Animal|Hide|TYPE.Knowledge|Listen|Move Silently|Ride|Sense Motive|Spellcraft|Spot
+1												SAB:All Natural and Wielded weapons are treated as Good-aligned				BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE											BONUS:SKILL|Spot|2																																																																								TEMPLATE:Avoral Guardinal 1													AUTO:WEAPONPROF|TYPE=Simple|TYPE=Martial
+2	DR:1/Evil or Silver																			BONUS:HD|MIN|-1																																							BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,CON|2	BONUS:VAR|ElectricityResistance|5					DEFINE:ElecResist|0												SPELLS:Innate|TIMES=ATWILL|Detect Magic|Light	SPELLS:Innate|TIMES=3|Command|Magic Missile																										AUTO:FEAT|Resistance to Electricity	AUTO:FEAT|Resistance to Electricity
+3												SAB:+4 Save vs Poison (Ex)	SAB:+4 Save vs Petrification (Ex)	BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE						BONUS:MOVEADD|TYPE.Fly|10											BONUS:STAT|DEX,WIS|2																																																														TEMPLATE:Avoral Guardinal 3
+4												SAB:Speak with animals (Su)							BONUS:HD|MIN|-1																									BONUS:DR|Evil or Silver|1						BONUS:SKILL|Spot|2	BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|CON,CHA|2																										SPELLS:Free|TIMES=ATWILL|Speak with Animals
+5																							BONUS:HD|MAX|8										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE						BONUS:MOVEADD|TYPE.Fly|10															BONUS:VAR|LayOnHands|CURRENTMAX																				SPELLS:Innate|TIMES=ATWILL|Command|Detect Magic|Light|Magic Missile	SPELLS:Innate|TIMES=3|Aid|Blur|Gust of Wind																	TEMPLATE:Avoral Guardinal 5	AUTO:FEAT|Lay on Hands
+6																							BONUS:HD|MIN|-1																									BONUS:DR|Evil or Silver|1										BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|DEX,INT|2	BONUS:VAR|ElectricityResistance|5																																																								TEMPLATE:Avoral Guardinal 6
+7																							BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE						BONUS:MOVEADD|TYPE.Fly|10															BONUS:VAR|ColdResistance|5	BONUS:VAR|SonicResistance|5	DEFINE:SonicResist|0	DEFINE:ColdResist|0																																												TEMPLATE:Avoral Guardinal 7	AUTO:FEAT|Resistance to Sonic|Resistance to Cold
+8																							BONUS:HD|MIN|-1																									BONUS:DR|Evil or Silver|1						BONUS:SKILL|Spot|2	BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|DEX,CON|2
+9					SA:.CLEAR.+4 Save vs Petrification (Ex)												BONUS:HD|MAX|8										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																					BONUS:STAT|WIS|2																											SPELLS:Innate|TIMES=ATWILL|Aid|Blur|Command|Detect Magic|Gust of Wind|Hold Person|Light|Magic Missile	SPELLS:Innate|TIMES=3|Magic Circle Against Evil|See Invisibility									TEMPLATE:Avoral Guardinal 9	AUTO:FEAT|Immunity to Petrification
+10																							BONUS:HD|MIN|-1																									BONUS:DR|Evil or Silver|1										BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|DEX,CON|2	BONUS:VAR|ElectricityResistance|5
+11																							BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE						BONUS:MOVEADD|TYPE.Fly|10															BONUS:VAR|SonicResistance|5	BONUS:VAR|ColdResistance|5																																																				TEMPLATE:Avoral Guardinal 11
+12																							BONUS:HD|MIN|-1																									BONUS:DR|Evil or Silver|1						BONUS:SKILL|Spot|2	BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|INT,CHA|2																																																														TEMPLATE:Avoral Guardinal 12
+13																							BONUS:HD|MAX|8										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE						BONUS:MOVEADD|TYPE.Fly|10															BONUS:VAR|FearAuraRange|20																					SPELLS:Innate|TIMES=ATWILL|Aid|Blur|Command|Detect Magic|Gust of Wind|Hold Person|Light|Magic Circle Against Evil|Magic Missile|See Invisibility	SPELLS:Innate|TIMES=3|Dimension Door|Dispel Magic|Lightning Bolt	TEMPLATE:Avoral Guardinal 13	AUTO:FEAT|Fear Aura
+14																							BONUS:HD|MIN|-1																									BONUS:DR|Evil or Silver|1										BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,DEX|2																			REMOVE:FEAT|Resistance to Electricity																																										AUTO:FEAT|Immunity to Electricity
+15																							BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								BONUS:DR|Evil or Silver|1	BONUS:MOVEADD|TYPE.Fly|10					BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|CON,WIS|2																										SPELLS:Innate|TIMES=ATWILL|Aid|Blur|Command|Detect Magic|Dimension Door|Dispel Magic|Gust of Wind|Hold Person|Light|Magic Circle Against Evil|Magic Missile|See Invisibility	SPELLS:Innate|TIMES=3|Lightning Bolt	TEMPLATE:Avoral Guardinal 15	AUTO:FEAT|True Seeing
+
+# Class Name				Hit Dice	Type				Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page
+CLASS:Chain Devil Monster Class	HD:8		TYPE:PC.Monster Class	ABB:ChDeMC		MAXLEVEL:14	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.21
+# Class Name				Required Race
+CLASS:Chain Devil Monster Class	PRERACE:1,Chain Devil Monster Class
+# Class Name				Skill Pts/Lvl	Class Skill
+CLASS:Chain Devil Monster Class	STARTSKILLPTS:8	CSKILL:Climb|Craft (Armorsmithing)|Craft (Blacksmithing)|Craft (Locksmithing)|Craft (Weaponsmithing)|Escape Artist|Intimidate|Listen|Spot
+1							SAB:All Natural and Wielded weapons are treated as Evil-aligned and Lawful-aligned
+1																								BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|2	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE														BONUS:SKILL|Craft (Armorsmithing)|8|Craft (Blacksmithing)|8|Craft (Locksmithing)|8|Craft (Weaponsmithing)|8							BONUS:STAT|STR|2 BONUS:STAT|INT|-4	BONUS:VAR|ColdResistance|5									DEFINE:ColdResist|0							TEMPLATE:Chain Devil 1	AUTO:FEAT|Resistance to Cold	AUTO:WEAPONPROF|TYPE=Simple|TYPE=Martial|Chain (Spiked)
+2							SAB:Dancing Chains (%) (Ex)|DancingChains											BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																				BONUS:VAR|DancingChains|1									DEFINE:DancingChains|0							TEMPLATE:Chain Devil 2
+3			DR:1/silver or good															BONUS:HD|MIN|-1																																																BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|CON|2				BONUS:VAR|UnnervingGazeRange|30	BONUS:VAR|UnnervingGazeDC|10+CHA+(HD/2)															AUTO:FEAT|Unnerving Gaze
+4																					BONUS:HD|MAX|8										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																				BONUS:VAR|DancingChains|1																			TEMPLATE:Chain Devil 4
+5																					BONUS:HD|MIN|-1																									BONUS:DR|silver or good|1																			BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|DEX|2
+6	SR:5+HD																			BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																						BONUS:STAT|CHA|2																											TEMPLATE:Chain Devil 6
+7																					BONUS:HD|MIN|-1																									BONUS:DR|silver or good|1																			BONUS:SKILLPOOL|NUMBER|-(8+INT)							BONUS:VAR|RegenerationRate|1	BONUS:VAR|ColdResistance|5				DEFINE:Regeneration|0											AUTO:FEAT|Regeneration
+8																					BONUS:HD|MAX|8										BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE									BONUS:DR|silver of good|1																															BONUS:VAR|DancingChains|1
+9																					BONUS:HD|MIN|-1																																																BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR|2				BONUS:VAR|ColdResistance|5
+10																					BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE
+11																					BONUS:HD|MIN|-1																									BONUS:DR|silver or good|1																			BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|CON|2				BONUS:VAR|ColdResistance|5																			TEMPLATE:Chain Devil 11
+12	SR:17																				BONUS:HD|MAX|8										BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																												BONUS:VAR|DancingChains|1
+13																					BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE																															BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|DEX|2
+14	SR:18																				BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																												BONUS:VAR|RegenerationRate|1													REMOVE:FEAT|Resistance to Cold	TEMPLATE:Chain Devil 14	AUTO:FEAT|Immunity to Cold
+
+# Class Name				Hit Dice	Type				Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page
+CLASS:Hound Archon Monster Class	HD:8		TYPE:PC.Monster Class	ABB:HoArMC		MAXLEVEL:11	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.22
+# Class Name				Required Race
+CLASS:Hound Archon Monster Class	PRERACE:1,Hound Archon Monster Class
+# Class Name				Skill Pts/Lvl	Class Skill
+CLASS:Hound Archon Monster Class	STARTSKILLPTS:8	CSKILL:Concentration|Diplomacy|Hide|Jump|Listen|Move Silently|Sense Motive|Spot|Survival
+1				SAB:+4 Saves vs Poison (Ex)				BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE													BONUS:VAR|ElectricityResistance|5								DEFINE:ElecResist|0	ADD:FEAT|1																				TEMPLATE:Hound Archon 1		AUTO:FEAT|Resistance to Electricity					AUTO:WEAPONPROF|TYPE=Simple|TYPE=Martial
+2												BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE										BONUS:STAT|CON|2																											SPELLS:Innate|TIMES=ATWILL|Detect Evil	SPELLS:Innate|TIMES=3|Message	TEMPLATE:Hound Archon 2
+3																					BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																						ADD:FEAT|1								SPELLS:Innate|TIMES=3|Aid|Continual Flame						TEMPLATE:Hound Archon 3
+4									BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE											BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR|2	BONUS:VAR|ElectricityResistance|5																																						AUTO:FEAT|Tongues
+5									BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																																								AUTO:FEAT|Change Shape~Archon|Scent
+6									BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE											BONUS:SKILLPOOL|NUMBER|-(8+INT)																														SPELLS:Innate|TIMES=ATWILL|Message							TEMPLATE:Hound Archon 6
+7									BONUS:HD|MAX|8										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE													BONUS:VAR|AuraofMenaceDC|12+CHA+(HD/2)	BONUS:VAR|ElectricityResistance|10																															AUTO:FEAT|Aura of Menace
+8	SR:13								BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE											BONUS:SKILLPOOL|NUMBER|-(8+INT)																														SPELLS:Innate|TIMES=1|Teleport (Greater)
+9	SR:14	DR:5/evil						BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																		BONUS:STAT|CHA|2																		ADD:FEAT|1								SPELLS:Innate|TIMES=ATWILL|Aid|Continual Flame					TEMPLATE:Hound Archon 9
+10	SR:15								BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE											BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|WIS|2																				REMOVE:FEAT|Resistance to Electricity																		AUTO:FEAT|Immunity to Electricity|Immunity to Petrification
+11	SR:16								BONUS:HD|MIN|-1																									BONUS:DR|evil|5	BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR|2																											SPELLS:Innate|TIMES=ATWILL|Teleport (Greater)					TEMPLATE:Hound Archon 11	AUTO:FEAT|Magic Circle Against Evil
+
+# Class Name			Hit Dice	Type				Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page
+CLASS:Janni Monster Class	HD:8		TYPE:PC.Monster Class	ABB:JanMC		MAXLEVEL:11	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.24
+# Class Name			Required Race
+CLASS:Janni Monster Class	PRERACE:1,Janni Monster Class
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Janni Monster Class	STARTSKILLPTS:8	CSKILL:Appraise|Concentration|TYPE.Craft|Escape Artist|Listen|Move Silently|Ride|Sense Motive|Spot
+1									BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|2	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE													BONUS:STAT|WIS|2											ADD:FEAT|1|Improved Initiative															TEMPLATE:Janni 1	AUTO:ARMORPROF|ARMORTYPE=Light|ARMORTYPE=Medium						AUTO:WEAPONPROF|TYPE=Simple|TYPE=Martial
+2	SAB:Change Size 2/day (Sp)	BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE						BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,CON|2
+3						BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																	BONUS:VAR|FireResistance|5	DEFINE:FireResist|0							SPELLS:Innate|TIMES=3|Speak with Animals																			AUTO:FEAT|Resistance to Fire
+4						BONUS:HD|MIN|-1																							BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|INT,DEX|2																SPELLS:Innate|TIMES=1|Invisibility									TEMPLATE:Janni 4
+5						BONUS:HD|MAX|8										BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE		BONUS:MOVEADD|TYPE.Fly|10
+6						BONUS:HD|MIN|-1																							BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,CHA|2																SPELLS:Innate|TIMES=2|Invisibility
+7						BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																	BONUS:VAR|FireResistance|5											SPELLS:Innate|TIMES=1|Create Food and Water							TEMPLATE:Janni 7
+8						BONUS:HD|MIN|-1																							BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|WIS,DEX|2																SPELLS:Innate|TIMES=3|Invisibility
+9	SAB:Elemental Endurance (Ex)	BONUS:HD|MAX|8										BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																SPELLS:Innate|TIMES=1|Plane Shift
+10						BONUS:HD|MIN|-1																		BONUS:MOVEADD|TYPE.Fly|10	BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,INT|2	BONUS:VAR|TelepathyRange|100																																				AUTO:FEAT|Telepathy
+11						BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																																SPELLS:Innate|TIMES=ATWILL|Plane Shift	SPELLS:Innate|TIMES=1|Ethereal Jaunt	TEMPLATE:Janni 11
+
+# Class Name			Hit Dice	Type				Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page
+CLASS:Lillend Monster Class	HD:8		TYPE:PC.Monster Class	ABB:LillMC		MAXLEVEL:13	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.25
+# Class Name			Required Race
+CLASS:Lillend Monster Class	PRERACE:1,Lillend Monster Class
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Lillend Monster Class	STARTSKILLPTS:8	CSKILL:Appraise|Concentration|Diplomacy|Knowledge (Arcana)|Listen|TYPE.Perform|Sense Motive|Spellcraft|Spot|Survival
+# Class Name			Spell Stat		Spell Type		Memorize	Caster level						Use Spell List
+CLASS:Lillend Monster Class	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Lillend Monster Class|CL/2	SPELLLIST:Bard
+1											SAB:All Natural and Wielded weapons are treated as Chaotic-aligned and Good-aligned
+1											SAB:+% Save vs Poison (Ex)|SavePoison											BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE							BONUS:STAT|INT,CHA|2	BONUS:VAR|SavePoison|5														DEFINE:SavePoison|0		SPELLS:Innate|TIMES=3|Light										TEMPLATE:Lillend 1							AUTO:WEAPONPROF|TYPE=Simple|TYPE=Martial
+1																																																														BONUS:VAR|BardicMusicLevel|CL=Lillend Monster Class/2	BONUS:VAR|BardicMusicTimes|BardicMusicLevel	DEFINE:BardicMusicLevel|0
+2	CAST:2	KNOWN:4																								BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE															BONUS:STAT|INT,WIS|2																							SPELLS:Innate|TIMES=1|Speak with Animals								TEMPLATE:Lillend 2	AUTO:FEAT|Bardic Music
+3																									BONUS:HD|MIN|-1																									BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,DEX|2																							SPELLS:Innate|TIMES=1|Charm Person|Knock								TEMPLATE:Lillend 3
+4	CAST:3,0	KNOWN:5,2																					BONUS:HD|MAX|8										BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE															BONUS:STAT|CHA|2																								SPELLS:Innate|TIMES=2|Darkness|Knock								TEMPLATE:Lillend 4
+5																									BONUS:HD|MIN|-1																									BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,WIS|2																							SPELLS:Innate|TIMES=1|Speak with Plants	SPELLS:Innate|TIMES=3|Darkness|Knock
+6	CAST:3,1	KNOWN:6,3																					BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																			BONUS:VAR|SavePoison|5	BONUS:VAR|FireResistance|5									DEFINE:FireResist|0																TEMPLATE:Lillend 6	AUTO:FEAT|Resistance to Fire
+7																									BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,WIS|2	BONUS:VAR|ConstrictDice|2	BONUS:VAR|ConstrictDieSize|6	BONUS:VAR|ConstrictDamageMod|STR																					TEMPLATE:Lillend 7	AUTO:FEAT|Constrict|Improved Grab
+8																									BONUS:HD|MAX|8										BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE															BONUS:STAT|DEX,CHA|2																							SPELLS:Innate|TIMES=1|Hallucinatory Terrain
+9					SA:.CLEAR.+% Save vs Poison (Ex)															BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR|2																																						TEMPLATE:Lillend 9	AUTO:FEAT|Immunity to Poison
+10																									BONUS:HD|MAX|8	BONUS:CHECKS|BASE.Reflex,BASE.Will,BASE.Fortitude|1	BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE																			BONUS:VAR|FireResistance|5																																TEMPLATE:Lillend 10
+11																									BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|STR,CON|2
+12																									BONUS:HD|MAX|8										BONUS:COMBAT|BAB|1|TYPE=BASE.REPLACE															BONUS:STAT|DEX|2																																						TEMPLATE:Lillend 12
+13																									BONUS:HD|MIN|-1										BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								BONUS:SKILLPOOL|NUMBER|-(8+INT)	BONUS:STAT|CHA,CON|2
