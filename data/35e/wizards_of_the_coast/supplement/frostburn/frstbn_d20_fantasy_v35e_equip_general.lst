@@ -1,0 +1,42 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Robert Biskup January 2005
+
+
+# Special Substances
+# Equipment Name			Output Name			Type						Contains		Cost		Weight	Source, Long Desc.	Source, Short Desc.	Source Page		Special Property
+Armor Insulation (Flask)					TYPE:Goods.Alchemical						COST:50	WT:2		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+Freeze Powder (Vial)						TYPE:Goods.Alchemical						COST:100	WT:1		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.79
+Frostbite Salve (Jar)						TYPE:Goods.Alchemical						COST:50	WT:1		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.79
+Ice Chalk								TYPE:Goods.Alchemical						COST:20	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.79
+Melt Powder (Vial)						TYPE:Goods.Alchemical						COST:25	WT:1		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.79
+Polar Skin (Flask)						TYPE:Goods.Alchemical						COST:25	WT:1		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.79
+Razor Ice Powder (Vial)						TYPE:Goods.Alchemical						COST:50	WT:1		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.79
+Whale Grease (Flask)						TYPE:Goods.Alchemical						COST:75	WT:2		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.79
+
+# Adventuring Gear
+Crampons								TYPE:Goods.General						COST:5	WT:1		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+Fur Clothing							TYPE:Goods.Clothing.Resizable					COST:8	WT:10		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+Hut (Portable)			OUTPUTNAME:[NAME] Hut	TYPE:Goods.General.Resizable					COST:125	WT:75		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+Skates								TYPE:Goods.General.Resizable					COST:10	WT:3		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+Skis and Poles							TYPE:Goods.General.Resizable					COST:15	WT:6		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+Snow Goggles							TYPE:Goods.Clothing.Resizable					COST:2	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+Snowshoes								TYPE:Goods.Clothing.Resizable					COST:15	WT:8		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+Winter fullcloth							TYPE:Goods.Clothing.Resizable					COST:4	WT:2		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.78
+
+#Vehicles
+Sled									TYPE:Goods.Transportation.Container	CONTAINS:*2000	COST:20	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.81
+Worg Warsled							TYPE:Goods.Transportation.Container	CONTAINS:*700	COST:400	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.81
+Ice Sled Wagon							TYPE:Goods.Transportation.Container	CONTAINS:*4000	COST:35	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.82
+Sailing Ice Ship							TYPE:Goods.Transportation.Container	CONTAINS:*300000	COST:10000	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.82
+Sailing Ice Warship						TYPE:Goods.Transportation.Container	CONTAINS:*10000	COST:25000	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.82
+Iceberg								TYPE:Goods.Transportation.Container	CONTAINS:*2000000	COST:-	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.82
+Skyberg								TYPE:Goods.Transportation.Container	CONTAINS:*2000000	COST:-	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.82
+Coldfire Ship							TYPE:Goods.Transportation.Container	CONTAINS:*400000	COST:500000	WT:0		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.82
+
+
+
+
+
+
+#Artifacts
+Crystal Tear							TYPE:Artifact.Minor						COST:0	WT:4		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.109	SPROP:Exudes a strong emotional magical effect (as a 20th-level caster) in an emanation with a 15-foot radius. As a free action, the holder of the tear can choose to produce either crushing despair or good hope

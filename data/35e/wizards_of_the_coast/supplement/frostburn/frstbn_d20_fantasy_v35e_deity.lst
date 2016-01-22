@@ -1,0 +1,13 @@
+# CVS $Revision: 1.2 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Robert Biskup January 2005
+
+# Deity Name	Domains										Deity Weapon				Alignment	Pantheon			Source, Long Desc.	Source, Short Desc.	Source Page
+Aengrist		DOMAINS:Law,Protection,War,Winter|PREALIGN:LG,LN,NG			DEITYWEAP:Bastard sword			ALIGN:LG	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42
+Auril			DOMAINS:Air,Cold,Evil,Storm,Water,Winter|PREALIGN:LE,NE,CE		DEITYWEAP:Axe (Ice)			ALIGN:NE	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42
+Hleid			DOMAINS:Animal,Good,Healing,Winter|PREALIGN:LG,NG,CG			DEITYWEAP:Trident				ALIGN:NG	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42
+Iborighu		DOMAINS:Chaos,Cold,Death,War|PREALIGN:NE,CN,CE				DEITYWEAP:Scythe				ALIGN:CE	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42
+Levistus		DOMAINS:Cold,Diabolic,Evil,Trickery|PREALIGN:LN,LE,NE			DEITYWEAP:Rapier				ALIGN:LE	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42
+Telchur		DOMAINS:Air,Chaos,Cold,Strength,Winter|PREALIGN:CG,CN,CE		DEITYWEAP:Shortspear|Shortbow		ALIGN:CN	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42
+Thrym			DOMAINS:Chaos,Cold,Earth,Evil,Strength,War|PREALIGN:NE,CN,CE	DEITYWEAP:Greataxe			ALIGN:CE	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42
+Ulutiu		DOMAINS:Animal,Law,Ocean,Protection,Strength|PREALIGN:LG,LN,NG	DEITYWEAP:Longspear|Shortspear	ALIGN:LN	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42
+Vatun			DOMAINS:Air,Animal,Chaos,Strength|PREALIGN:CG,CN,CE			DEITYWEAP:Battleaxe			ALIGN:CN	PANTHEON:Frostburn	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.42

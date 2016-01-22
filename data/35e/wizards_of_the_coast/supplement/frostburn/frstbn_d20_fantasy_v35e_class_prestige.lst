@@ -1,0 +1,162 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Robert Biskup January 2005
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Cloud Anchorite	HD:8		TYPE:Prestige.PC	ABB:ClAnch		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.52	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Restricted AL		Required Feat						Required Skill										Required Text
+CLASS:Cloud Anchorite	!PREALIGN:LE,NE,CE	PREFEAT:2,Improved Unarmed Strike,Mountaineer	PRESKILL:3,Climb,Jump,Knowledge (Religion)=9	PRESKILL:1,Survival=4	PRETEXT:The prospective student must live for a week on her own in a wilderness region, during which time she can travel no lower than 12,000 feet in altitude.
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Cloud Anchorite	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Escape Artist|Jump|Knowledge (Nature)|Knowledge (Religion)|Listen|Spot|Survival|Tumble|Use Rope
+1	MOVE:Climb,0	SAB:Wisdom of the Mountain (Ex)		BONUS:MOVEADD|TYPE.Climb|10										BONUS:SKILL|Climb|8|TYPE=Racial	BONUS:UDAM|CLASS.Monk|CL	BONUS:VAR|MonkACLvl|CL
+2				SAB:Slow Breath +% (Ex)|ClAnchSlBr																											BONUS:VAR|ClAnchSlBr|2	DEFINE:ClAnchSlBr|0
+3											BONUS:MOVEADD|TYPE.Climb|10																													ADD:FEAT|1|TYPE=CloudAnchoriteBonus
+4											BONUS:MOVEADD|TYPE=Walk|10|PREVAREQ:ENCUMBERANCE,0,COUNT[EQTYPE.ARMOR.EQUIPPED],0																				ADD:FEAT|1|Cold Resistance
+5				SAB:Empty Stride (Su)				BONUS:MOVEADD|TYPE.Climb|10										BONUS:SKILL|Balance|4
+6				SAB:Acrobatic Charge (Ex)																												BONUS:VAR|ClAnchSlBr|4
+7											BONUS:MOVEADD|TYPE.Climb|10																													ADD:FEAT|1|TYPE=CloudAnchoriteBonus
+8											BONUS:MOVEADD|TYPE=Walk|10|PREVAREQ:ENCUMBERANCE,0,COUNT[EQTYPE.ARMOR.EQUIPPED],0																				ADD:FEAT|1|Cold Resistance
+9				SAB:Walk on the Clouds (Su)			BONUS:MOVEADD|TYPE.Climb|10
+10				SAB:Immortality of the Mountain (Su)
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Cryokineticist	HD:8		TYPE:Prestige.PC	ABB:Cryo		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.54	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required AL		Required Skill														Req. Known Spell
+CLASS:Cryokineticist	PREALIGN:LG,LN,LE	PRESKILL:1,Concentration=8	PRESKILL:1,Craft (Alchemy)=1	PRESKILL:1,Knowledge (Psionics)=2	PRESPELL:1,Energy Emanation
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Cryokineticist	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Intimidate|Jump|Knowledge (Psionics)|Psicraft
+1	SAB:Glacial Ray (Ps) ~ can freeze % pints of water|CL=Cryokineticist
+2	SAB:Frozen Fist (Ps)																						ADD:FEAT|1|Cold Adaptation
+3	SAB:Bolt of Cold (Ps) 3/day
+4																															AUTO:FEAT|Weapon Afrost
+5	SAB:Frostfell Creature Insight (Ex) ~ +2 bonus on attack and damage rolls against all creatures with the cold subtype
+6	SAB:Cold Walk (Ps)
+7																					BONUS:VAR|CryColdAdapt|1	ADD:FEAT|2|TYPE=ColdResist
+8																					BONUS:VAR|CryWeapAfrost|1
+9	SAB:Wall of Ice (Ps)
+10	SAB:Bone Chill (Ps)
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Disciple of Thrym	HD:10		TYPE:Prestige.PC	ABB:DThrym		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.56	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Restricted AL		Req. Att.	Required Feat				Multiple Requirements							Required Skill
+CLASS:Disciple of Thrym	!PREALIGN:LG,LN,LE	PREATT:4	PREFEAT:1,Weapon Focus(Greataxe)	PREMULT:1,[PREFEAT:1,Cold Endurance],[PRETEMPLATE:1,Cold]	PRESKILL:1,Intimidate=4	PRESKILL:1,Survival=8
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Disciple of Thrym	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Speak Language|Spellcraft|Survival
+# Class Name		Spell Stat		Spell Type		Caster level
+CLASS:Disciple of Thrym	SPELLSTAT:WIS	SPELLTYPE:Divine	BONUS:CASTERLEVEL|Disciple of Thrym|CL
+1	CAST:0,1																																							AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency	AUTO:WEAPONPROF|TYPE.Martial
+1				SAB:Protection of Winter (Su)																									SPELLS:ClassAbility|TIMES=ATWILL|Detect Fire
+2	CAST:0,2																																							AUTO:FEAT|Disciple of Thrym Resistance
+3	CAST:0,2,1																								BONUS:WEAPONPROF=Greataxe|DAMAGE|STR/2
+4	CAST:0,3,2																																							AUTO:FEAT|Frost Greataxe
+5	CAST:0,3,2,1	SAB:Agonizing Strike (Su) ~ +%d6 damage, %/day|(CL=Disciple of Thrym)/2|((CL=Disciple of Thrym)-1)/4
+6	CAST:0,3,3,2																		BONUS:VAR|FireResist|5
+7	CAST:0,4,3,2,1	SAB:Dispel Fire (Sp) %/day|CHA+1
+8	CAST:0,4,3,3,2
+9	CAST:0,4,4,3,2,1
+10	CAST:0,4,4,3,3,2																		BONUS:VAR|DThrymResist|1
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Frost Mage	HD:4		TYPE:Prestige.PC	ABB:FrMage		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.58	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required Feat		Required Skill				Req. Spell Type		Required Text
+CLASS:Frost Mage	PREFEAT:1,Frozen Magic	PRESKILL:1,Knowledge (Arcana)=8	PRESPELLTYPE:1,Arcane=1	PRETEXT:The character must spend 24 hours unprotected in a blizzard
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Frost Mage	STARTSKILLPTS:2	CSKILL:Concentration|Craft (Alchemy)|TYPE.Knowledge|TYPE.Profession|Search|Spellcraft
+1	SAB:Natural Armor Increase (Ex)	BONUS:COMBAT|AC|((CL=Frost Mage)+2)/3|TYPE=NaturalArmor	ADD:SPELLCASTER|1|Arcane
+2																	ADD:SPELLCASTER|1|Arcane	ADD:FEAT|2|TYPE=ColdResist
+3	SAB:Gain Knowledge													ADD:SPELLCASTER|1|Arcane													SPELLLEVEL:CLASS|SPELLCASTER.Arcane=1|Conjure Ice Beast I
+4																	ADD:SPELLCASTER|1|Arcane									AUTO:FEAT|Piercing Cold
+5																	ADD:SPELLCASTER|1|Arcane													SPELLLEVEL:CLASS|SPELLCASTER.Arcane=2|Conjure Ice Beast II
+6																	ADD:SPELLCASTER|1|Arcane
+7																	ADD:SPELLCASTER|1|Arcane													SPELLLEVEL:CLASS|SPELLCASTER.Arcane=3|Conjure Ice Beast III,Animate Snow
+8																	ADD:SPELLCASTER|1|Arcane
+9																	ADD:SPELLCASTER|1|Arcane													SPELLLEVEL:CLASS|SPELLCASTER.Arcane=4|Conjure Ice Beast IV,Frostfell
+10	SAB:One with Cold (Ex)													ADD:SPELLCASTER|1|Arcane						TEMPLATE:Cold
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Frostrager	HD:12		TYPE:Prestige.PC	ABB:FrRag		MAXLEVEL:5	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.60	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat										Required Text
+CLASS:Frostrager	PREATT:6	PREFEAT:4,Frozen Berserker,Improved Unarmed Strike,Power Attack,Rage	PRETEXT:The character must have been reduced to fewer than 0 hit points by cold damage (either from magical cold attacks or by taking enough damage from exposure to extreme cold environments).
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Frostrager	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Listen|Survival|Swim
+1	SAB:Freezing Blood (Su)						AUTO:FEAT|Frostrage
+2	SAB:One-Two Punch (Ex)
+3	SAB:Absorb Cold (Su)
+4					BONUS:VAR|ImpFrostRage|1
+5	SAB:Rend (Ex)
+
+# Class Name				Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus					Modify VAR
+CLASS:Knight of the Iron Glacier	HD:10		TYPE:Prestige.PC	ABB:KIGl		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.62	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|SpecialMountLvl|CL
+# Class Name				Required AL		Required Feat																Required Skill										Required Text
+CLASS:Knight of the Iron Glacier	PREALIGN:LG,LN	PREFEAT:4,Animal Affinity,Exotic Weapon Proficiency(Sword (Bastard/Exotic)),Mounted Combat,Ride By Attack	PRESKILL:1,Handle Animal=5	PRESKILL:1,Ride=9	PRESKILL:1,Survival=2	PRETEXT:Before a character is accepted into the Order of the Iron Glacier, she must first prove to the order that her intentions are noble and true.
+# Class Name				Skill Pts/Lvl	Class Skill
+CLASS:Knight of the Iron Glacier	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Listen|Ride|Sense Motive|Spot|Survival
+2	SAB:Frostfell Awareness (Ex) ~ +% competence bonus to Initiative, Listen, and Spot checks while in the frostfell|(((CL=Knight of the Iron Glacier)+1)/3)*2
+4	SAB:Rally the Troops (Su)
+7	SAB:Oath of Wrath (Su) 1/day
+10	SAB:Overwhelming Odds (Ex)
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Primeval	HD:10		TYPE:Prestige.PC	ABB:Prm		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.65	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Restricted AL		Req. Att.	Required Feat						Required Skill
+CLASS:Primeval	!PREALIGN:LG,LN,LE	PREATT:8	PREFEAT:3,Endurance,Self Sufficient,Toughness	PRESKILL:3,Handle Animal,Knowledge (Nature),Survival=5
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Primeval	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Handle Animal|Intimidate|Jump|Knowledge (Nature)|Listen|Spot|Survival|Swim
+1	SAB:Handle Animal (Ex)																																							BONUS:VAR|PrimFormTimes|(((CL=Primeval)+2)/3)																		AUTO:FEAT|Primeval Form
+2																																																			BONUS:VISION|Low-light				ADD:FEAT|1|Regression
+3	SAB:Feral Power (Ex) +% Str, +2 Dex, +% Con, +% Natural AC while in Primeval Form|((CL=Primeval)/3)*2|((CL=Primeval)+4)/5)*2|FerPowAC																				BONUS:VAR|FerPowAC|2									DEFINE:FerPowAC|0
+5																																																										ADD:FEAT|1|Regression							AUTO:FEAT|Scent
+6																																											BONUS:VAR|FerPowAC|2
+8																								BONUS:MOVEADD|TYPE=Walk|10|PREVARLT:ENCUMBERANCE,2,COUNT[EQTYPE.ARMOR.EQUIPPED.IS.HEAVY],1|TYPE=FastMovement																ADD:FEAT|1|Regression
+9																																											BONUS:VAR|FerPowAC|4
+10																																																														TEMPLATE:Primeval Shapechanger
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Rimefire Witch	HD:6		TYPE:Prestige.PC	ABB:Rim		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.67	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Required Deity	Required Feat				Required Skill														Req. Spell Type		Required Text
+CLASS:Rimefire Witch	PREDEITY:1,Hleid	PREFEAT:2,Iron Will,Mark of Hleid	PRESKILL:3,Concentration,Knowledge (History),Spellcraft=6	PRESKILL:1,Knowledge (Religion)=9	PRESPELLTYPE:1,Divine=1	PRETEXT:Must recieve a call in a dream from a rimefire eidolon and journey to eidolon's iceberg.
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Rimefire Witch	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Diplomacy|Gather Information|Heal|Jump|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Sense Motive|Spellcraft|Swim
+1	SAB:Rimefire Bond (Su)	SAB:Detect Minion of Iborighy (Sp)						ADD:SPELLCASTER|1|ANY																		AUTO:WEAPONPROF|Trident
+2																ADD:SPELLCASTER|1|ANY
+3																ADD:SPELLCASTER|1|ANY														AUTO:FEAT|Rimefire Bolt
+4	SAB:Ice Skate (Sp) %/day|CHAMAX1										ADD:SPELLCASTER|1|ANY
+5																ADD:SPELLCASTER|1|ANY
+6											BONUS:VAR|RimeBoltDice|1	ADD:SPELLCASTER|1|ANY
+7																ADD:SPELLCASTER|1|ANY	SPELLS:ClassAbility|TIMES=1|Word of Recall
+8																ADD:SPELLCASTER|1|ANY
+9											BONUS:VAR|RimeBoltDice|1	ADD:SPELLCASTER|1|ANY
+10																ADD:SPELLCASTER|1|ANY	SPELLS:ClassAbility|TIMES=1|Iceberg			TEMPLATE:Rimefire Apotheosis
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Stormsinger	HD:6		TYPE:Prestige.PC	ABB:StSing		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.70	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required Feat							Required Skill
+CLASS:Stormsinger	PREFEAT:3,Magical Aptitude,Storm Magic,Bardic Music	PRESKILL:3,Concentration,Knowledge (Arcana),Perform (Sing)=8	PRESKILL:3,Knowledge (Geography),Knowledge (Nature),Spellcraft=4
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Stormsinger	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Jump|Knowledge (Arcana)|Knowledge (Geography)|Knowledge (Nature)|Listen|TYPE.Perform|TYPE.Profession|Spellcraft|Spot|Survival|Swim
+1					BONUS:VAR|BardicMusicTimes|CL=Stormsinger	BONUS:VAR|StormsongLVL|CL=Stormsinger	DEFINE:StormsongLVL|0	ADD:SPELLCASTER|1|ANY	AUTO:FEAT|Stormsong
+2	SAB:Stormpower (Ex)																			ADD:SPELLCASTER|1|ANY
+3																							ADD:SPELLCASTER|1|ANY
+4					BONUS:VAR|StormElecResist|5														ADD:SPELLCASTER|1|ANY	AUTO:FEAT|Stormsinger Electricity Resistance
+5																							ADD:SPELLCASTER|1|ANY
+6					BONUS:VAR|StormElecResist|5														ADD:SPELLCASTER|1|ANY
+7																							ADD:SPELLCASTER|1|ANY
+8					BONUS:VAR|StormElecResist|5														ADD:SPELLCASTER|1|ANY
+9																							ADD:SPELLCASTER|1|ANY
+10																							ADD:SPELLCASTER|1|ANY
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Winterhaunt of Iborighu	HD:8		TYPE:Prestige.PC	ABB:Win		MAXLEVEL:10	SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.72	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name			Required AL		Required Deity		Required Feat									Required Skill												Req. Spell Type		Required Text
+CLASS:Winterhaunt of Iborighu	PREALIGN:NE,CN,CE	PREDEITY:1,Iborighu	PREFEAT:3,Chosen of Iborighu,Craft Wondrous Item,Piercing Cold	PRESKILL:2,Concentration,Knowledge (Religion)=8	PRESKILL:1,Knowledge (Arcana)=5	PRESPELLTYPE:1,Divine=1	PRETEXT:The character must successfully create an iceheart and maintain it as a badge of office.
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Winterhaunt of Iborighu	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft
+1	SAB:Cloak of Winter's Chill (Su) %/day,lasting for % rounds|3+CHA|(CL=Winterhaunt of Iborighu)+CHA												ADD:SPELLCASTER|1|ANY											AUTO:FEAT|Simple Weapon Proficiency|Armor Proficiency (Light)	AUTO:WEAPONPROF|Scythe
+2																													ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|TYPE.ColdResist
+3	SAB:Frozen Skin (Su)																			BONUS:COMBAT|AC|2|TYPE=NaturalArmor	ADD:SPELLCASTER|1|ANY
+4	SAB:Coldstrike (Su) +%d6 cold damage of spells, spell-like abilities, or supernatural abilities|(CL=Winterhaunt of Iborighu)/4							ADD:SPELLCASTER|1|ANY
+5																													ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|TYPE.ColdResist
+6	SAB:Constant Piercing Cold (Su)																							ADD:SPELLCASTER|1|ANY
+7																													ADD:SPELLCASTER|1|ANY						TEMPLATE:Cold
+8																													ADD:SPELLCASTER|1|ANY
+9	SAB:Summon the Entombed (Sp) 1/day																							ADD:SPELLCASTER|1|ANY
+10																													ADD:SPELLCASTER|1|ANY						TEMPLATE:Wintry Apotheosis

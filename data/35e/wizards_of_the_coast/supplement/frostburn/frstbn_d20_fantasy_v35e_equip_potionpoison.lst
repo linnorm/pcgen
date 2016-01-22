@@ -1,0 +1,14 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Robert Biskup January 2005
+
+# Equipment Name				Output Name		Type		Cost		Weight	Requires Modification?	Source, Long Desc.	Source, Short Desc.	Source Page
+Poison (Ice toad bile)			OUTPUTNAME:[NAME]	TYPE:Poison	COST:250	WT:0		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.16
+Poison (Snow spider blood)		OUTPUTNAME:[NAME]	TYPE:Poison	COST:750	WT:0		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.16
+Poison (Snowflake lichen powder)	OUTPUTNAME:[NAME]	TYPE:Poison	COST:75	WT:0		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.16
+Poison (White pudding essence)	OUTPUTNAME:[NAME]	TYPE:Poison	COST:500	WT:0		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.16
+Poison (Icegaunt dust)			OUTPUTNAME:[NAME]	TYPE:Poison	COST:1500	WT:0		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.16
+Poison (Chilblain brain juice)	OUTPUTNAME:[NAME]	TYPE:Poison	COST:110	WT:0		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.16
+Poison (Wooly mammoth eye juice)	OUTPUTNAME:[NAME]	TYPE:Poison	COST:140	WT:0		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.16
+Poison (Yeti oil)				OUTPUTNAME:[NAME]	TYPE:Poison	COST:100	WT:0		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.16
+Skull Talisman							TYPE:Potion	COST:0	WT:1		MODS:REQUIRED		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.112
+

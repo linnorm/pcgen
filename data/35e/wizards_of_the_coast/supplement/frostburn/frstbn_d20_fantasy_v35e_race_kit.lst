@@ -1,0 +1,705 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+STARTPACK:Abishai (Razerwing Guard) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abishai (Razerwing Guard)]
+RACE:Abishai (Razerwing Guard)	!PRERACE:1,%
+NAME:Abishai (Razerwing Guard)
+ALIGN:LE
+SKILL:Intimidate		RANK:11
+SKILL:Bluff			RANK:9
+SKILL:Concentration	RANK:9
+SKILL:Disguise		RANK:9
+SKILL:Escape Artist	RANK:9
+SKILL:Listen		RANK:9
+SKILL:Search		RANK:9
+SKILL:Spot			RANK:9
+FEAT:Alertness
+FEAT:Improved Natural Attack(Tail)
+FEAT:Multiattack
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Branta ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Branta]
+RACE:Branta	!PRERACE:1,%
+NAME:Branta
+ALIGN:TN
+FEAT:Alertness
+FEAT:Run
+STAT:DEX=11|STR=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Caribou ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Caribou]
+RACE:Caribou	!PRERACE:1,%
+NAME:Caribou
+ALIGN:TN
+SKILL:Listen	RANK:3
+SKILL:Spot		RANK:2
+FEAT:Endurance
+STAT:STR=11|DEX=11|WIS=11|CON=10|INT=10|CHA=10
+
+STARTPACK:Chilblain ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Chilblain]
+RACE:Chilblain	!PRERACE:1,%
+NAME:Chilblain
+SKILL:Concentration	RANK:6
+SKILL:Listen		RANK:6
+SKILL:Spot			RANK:6
+SKILL:Intimidate		RANK:5
+FEAT:Alertness
+FEAT:Cleave
+FEAT:Great Cleave
+FEAT:Multiattack
+FEAT:Power Attack
+FEAT:Quicken Spell-Like Ability(wall of ice)
+FEAT:Snowrunner
+STAT:DEX=11|INT=11|CHA=11|STR=10|CON=10|WIS=10
+
+STARTPACK:Dire Polar Bear ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dire Polar Bear]
+RACE:Dire Polar Bear	!PRERACE:1,%
+NAME:Dire Polar Bear
+ALIGN:TN
+SKILL:Listen	RANK:8
+SKILL:Spot		RANK:8
+FEAT:Alertness
+FEAT:Endurance
+FEAT:Improved Natural Armor
+FEAT:Run
+FEAT:Toughness
+FEAT:Toughness
+FEAT:Weapon Focus(Claw)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Elf (Snow) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elf (Snow)]
+RACE:Elf (Snow)	!PRERACE:1,%
+NAME:Elf (Snow)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Gnome (Ice) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gnome (Ice)]
+RACE:Gnome (Ice)	!PRERACE:1,%
+NAME:Gnome (Ice)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Halfling (Tundra) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Halfling (Tundra)]
+RACE:Halfling (Tundra)	!PRERACE:1,%
+NAME:Halfling (Tundra)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dinosaur (Glyptodon) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dinosaur (Glyptodon)]
+RACE:Dinosaur (Glyptodon)	!PRERACE:1,%
+NAME:Dinosaur (Glyptodon)
+ALIGN:TN
+SKILL:Listen	RANK:5
+SKILL:Spot		RANK:5
+SKILL:Swim		RANK:3
+FEAT:Alertness
+FEAT:Improved Natural Attack(Tail)
+FEAT:Power Attack
+FEAT:Toughness
+STAT:CON=11|CHA=11|STR=10|DEX=10|INT=10|WIS=10
+
+STARTPACK:Megaloceros ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Megaloceros]
+RACE:Megaloceros	!PRERACE:1,%
+NAME:Megaloceros
+ALIGN:TN
+SKILL:Listen	RANK:5
+SKILL:Spot		RANK:4
+FEAT:Alertness
+FEAT:Endurance
+FEAT:Run
+STAT:WIS=11|STR=10|DEX=10|CON=10|INT=10|CHA=10
+
+STARTPACK:Megaloceros (War) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Megaloceros (War)]
+RACE:Megaloceros (War)	!PRERACE:1,%
+NAME:Megaloceros (War)
+ALIGN:TN
+SKILL:Listen	RANK:5
+SKILL:Spot		RANK:4
+FEAT:Alertness
+FEAT:Lightning Reflexes
+FEAT:Run
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Smilodon ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Smilodon]
+RACE:Smilodon	!PRERACE:1,%
+NAME:Smilodon
+ALIGN:TN
+SKILL:Jump		RANK:8
+SKILL:Listen	RANK:4
+SKILL:Spot		RANK:4
+FEAT:Alertness
+FEAT:Dodge
+FEAT:Mobility
+FEAT:Spring Attack
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Woolly Mammoth ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Woolly Mammoth]
+RACE:Woolly Mammoth	!PRERACE:1,%
+NAME:Woolly Mammoth
+ALIGN:TN
+SKILL:Listen	RANK:9
+SKILL:Spot		RANK:8
+FEAT:Alertness
+FEAT:Endurance
+FEAT:Improved Bull Rush
+FEAT:Multiattack
+FEAT:Power Attack
+STAT:CON=11|CHA=11|STR=10|DEX=10|INT=10|WIS=10
+
+STARTPACK:Zeuglodon ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Zeuglodon]
+RACE:Zeuglodon	!PRERACE:1,%
+NAME:Zeuglodon
+ALIGN:TN
+SKILL:Listen	RANK:9
+SKILL:Spot		RANK:9
+FEAT:Alertness
+FEAT:Diehard
+FEAT:Endurance
+FEAT:Improved Natural Attack(Bite)
+FEAT:Improved Natural Attack(Tail Slam)
+FEAT:Iron Will
+STAT:DEX=11|STR=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Domovoi ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Domovoi]
+RACE:Domovoi	!PRERACE:1,%
+NAME:Domovoi
+SKILL:Listen		RANK:6
+SKILL:Spot			RANK:6
+SKILL:Balance		RANK:7
+SKILL:Escape Artist	RANK:7
+SKILL:Move Silently	RANK:5
+SKILL:Sleight of Hand	RANK:5
+SKILL:Tumble		RANK:5
+SKILL:Hide			RANK:5
+FEAT:Weapon Finesse
+STAT:DEX=11|CON=11|INT=11|STR=10|WIS=10|CHA=10
+
+STARTPACK:Dwarf (Glacier) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dwarf (Glacier)]
+RACE:Dwarf (Glacier)	!PRERACE:1,%
+NAME:Dwarf (Glacier)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dwarf (Midgard) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dwarf (Midgard)]
+RACE:Dwarf (Midgard)	!PRERACE:1,%
+NAME:Dwarf (Midgard)
+SKILL:Bluff				RANK:11
+SKILL:Craft (Armorsmithing)	RANK:11
+SKILL:Craft (Gemcutting)	RANK:11
+SKILL:Craft (Weaponsmithing)	RANK:11
+SKILL:Hide				RANK:11
+SKILL:Listen			RANK:11
+SKILL:Search			RANK:11
+SKILL:Sense Motive		RANK:11
+SKILL:Spot				RANK:11
+SKILL:Use Magic Device		RANK:11
+SKILL:Diplomacy			RANK:4
+SKILL:Intimidate			RANK:2
+GEAR:Midgard Dwarf Battleaxe		SIZE:PC	LOCATION:Equipped
+GEAR:Midgard Dwarf Crossbow		SIZE:PC	LOCATION:Equipped
+GEAR:Midgard Dwarf Chain Shirt	SIZE:PC	LOCATION:Equipped
+GEAR:Ring of Protection +1		SIZE:PC	LOCATION:Equipped
+FEAT:Improved Sunder
+FEAT:Power Attack
+FEAT:Weapon Focus(Battleaxe)
+STAT:DEX=11|WIS=11|CHA=11|STR=10|CON=10|INT=10
+
+STARTPACK:Elemental (Ice Weird) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental (Ice Weird)]
+RACE:Elemental (Ice Weird)	!PRERACE:1,%
+NAME:Elemental (Ice Weird)
+ALIGN:TN
+SKILL:Concentration	RANK:18
+SKILL:Spot			RANK:18
+SKILL:Listen		RANK:18
+SKILL:Sense Motive	RANK:18
+SKILL:Diplomacy		RANK:18
+FEAT:Alertness
+FEAT:Dodge
+FEAT:Empower Spell
+FEAT:Great Fortitude
+FEAT:Improved Initiative
+FEAT:Lightning Reflexes
+SKILL:TYPE=Knowledge	RANK:18	COUNT:2
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Elemental (Snow Weird) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental (Snow Weird)]
+RACE:Elemental (Snow Weird)	!PRERACE:1,%
+NAME:Elemental (Snow Weird)
+ALIGN:TN
+SKILL:Concentration	RANK:18
+SKILL:Listen		RANK:18
+SKILL:Spot			RANK:18
+SKILL:Sense Motive	RANK:18
+SKILL:Diplomacy		RANK:18
+FEAT:Alertness
+FEAT:Dodge
+FEAT:Empower Spell
+FEAT:Great Fortitude
+FEAT:Improved Initiative
+FEAT:Lightning Reflexes
+SKILL:TYPE=Knowledge	RANK:18	COUNT:2
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Entombed ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Entombed]
+RACE:Entombed	!PRERACE:1,%
+NAME:Entombed
+SKILL:Listen		RANK:19
+SKILL:Move Silently	RANK:19
+SKILL:Spot			RANK:19
+SKILL:Hide			RANK:15
+FEAT:Awesome Blow
+FEAT:Cleave
+FEAT:Great Fortitude
+FEAT:Improved Bull Rush
+FEAT:Improved Sunder
+FEAT:Power Attack
+STAT:STR=11|INT=11|DEX=10|CON=10|WIS=10|CHA=10
+
+STARTPACK:Fox (Arctic) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fox (Arctic)]
+RACE:Fox (Arctic)	!PRERACE:1,%
+NAME:Fox (Arctic)
+ALIGN:TN
+SKILL:Hide		RANK:2
+SKILL:Listen	RANK:1
+SKILL:Spot		RANK:1
+FEAT:Alertness
+STAT:DEX=11|WIS=11|STR=10|CON=10|INT=10|CHA=10
+
+STARTPACK:Frost Folk ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Frost Folk]
+RACE:Frost Folk	!PRERACE:1,%
+NAME:Frost Folk
+SKILL:Listen	RANK:2
+SKILL:Spot		RANK:2
+SKILL:Survival	RANK:2
+SKILL:Climb		RANK:-1
+GEAR:Battleaxe			SIZE:PC	LOCATION:Equipped
+GEAR:Shield (Heavy/Wood)	SIZE:PC	LOCATION:Equipped
+GEAR:Studded Leather		SIZE:PC	LOCATION:Equipped
+GEAR:Frost Folk			SIZE:PC	LOCATION:Equipped
+FEAT:Great Fortitude
+FEAT:Weapon Focus(Battleaxe)
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Genie (Qorrashi) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Genie (Qorrashi)]
+RACE:Genie (Qorrashi)	!PRERACE:1,%
+NAME:Genie (Qorrashi)
+ALIGN:LN
+SKILL:Bluff			RANK:10
+SKILL:Escape Artist	RANK:10
+SKILL:Listen		RANK:10
+SKILL:Sense Motive	RANK:10
+SKILL:Spellcraft		RANK:10
+SKILL:Spot			RANK:10
+SKILL:Move Silently	RANK:9
+SKILL:Con centration	RANK:18
+SKILL:Diplomacy		RANK:14
+SKILL:Intimidate		RANK:12
+FEAT:Combat Reflexes
+FEAT:Dodge
+FEAT:Improved Initiative
+STAT:DEX=11|WIS=11|CHA=11|STR=10|CON=10|INT=10
+
+STARTPACK:Giant (Frost Spiritspeaker) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Frost Spiritspeaker)]
+RACE:Giant (Frost Spiritspeaker)	!PRERACE:1,%
+NAME:Giant (Frost Spiritspeaker)
+SKILL:Intimidate		RANK:6
+SKILL:Sense Motive	RANK:3
+SKILL:Spot			RANK:12
+SKILL:Concentration	RANK:12
+GEAR:Breastplate			SIZE:PC	LOCATION:Equipped
+GEAR:Battleaxe			SIZE:PC	LOCATION:Equipped
+GEAR:Shield (Heavy/Metal)	SIZE:PC	LOCATION:Equipped
+FEAT:Empower Spell-Like Ability(Ice Storm)
+FEAT:Iron Will
+FEAT:Quicken Spell-Like Ability(Prayer)
+FEAT:Spell Focus(Necromancy)
+FEAT:Toughness
+STAT:STR=11|DEX=11|CHA=11|WIS=11|CON=10|INT=10
+
+STARTPACK:Giant (Frost Tundra Scout) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Frost Tundra Scout)]
+RACE:Giant (Frost Tundra Scout)	!PRERACE:1,%
+NAME:Giant (Frost Tundra Scout)
+SKILL:Hide				RANK:8
+SKILL:Spot				RANK:7
+SKILL:Survival			RANK:4
+SKILL:Knowledge (Geography)	RANK:3
+SKILL:Move Silently		RANK:3
+GEAR:Frost Giant Longspear			SIZE:PC	LOCATION:Equipped
+GEAR:Large Rock					SIZE:PC	LOCATION:Equipped
+GEAR:Frost Giant Tundra Scout Chain Shirt	SIZE:PC	LOCATION:Equipped
+FEAT:Point Blank Shot
+FEAT:Rapid Shot
+FEAT:Quick Draw
+FEAT:Stealthy
+FEAT:Track
+SKILL:TYPE=Craft			RANK:6	COUNT:1
+STAT:DEX=15|STR=10|CON=10|INT=10|WIS=10|CHA=10
+STAT:CON=14|STR=10|INT=10|WIS=10|CHA=10
+STAT:INT=12|STR=10|WIS=10|CHA=10
+STAT:WIS=13|STR=10|CHA=10
+STAT:CHA=8|STR=10
+
+STARTPACK:Goblin (Snow) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Goblin (Snow)]
+RACE:Goblin (Snow)	!PRERACE:1,%
+NAME:Goblin (Snow)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Golem (Ice) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Ice)]
+RACE:Golem (Ice)	!PRERACE:1,%
+NAME:Golem (Ice)
+ALIGN:TN
+STAT:STR=11|WIS=11|CHA=11|DEX=10|CON=10|INT=10
+
+STARTPACK:Ice Toad ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ice Toad]
+RACE:Ice Toad	!PRERACE:1,%
+NAME:Ice Toad
+SKILL:Listen	RANK:2
+SKILL:Spot		RANK:2
+SKILL:Hide		RANK:4
+FEAT:Alertness
+FEAT:Improved Initiative
+STAT:DEX=11|CON=11|CHA=11|STR=10|INT=10|WIS=10
+
+STARTPACK:Icegaunt ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Icegaunt]
+RACE:Icegaunt	!PRERACE:1,%
+NAME:Icegaunt
+SKILL:Concentration	RANK:14
+SKILL:Hide			RANK:13
+SKILL:Move Silently	RANK:13
+SKILL:Spot			RANK:13
+FEAT:Cleave
+FEAT:Power Attack
+FEAT:Silent Spell
+FEAT:Toughness
+STAT:DEX=11|INT=11|STR=10|CON=10|WIS=10|CHA=10
+
+STARTPACK:Malasynep ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Malasynep]
+RACE:Malasynep	!PRERACE:1,%
+NAME:Malasynep
+SKILL:Concentration	RANK:11
+SKILL:Intimidate		RANK:11
+SKILL:Listen		RANK:11
+SKILL:Spot			RANK:11
+FEAT:Combat Casting
+FEAT:Lightning Reflexes
+FEAT:Toughness
+SKILL:TYPE=Knowledge	RANK:14	COUNT:1
+STAT:STR=11|CON=11|INT=11|DEX=10|WIS=10|CHA=10
+
+STARTPACK:Hag (Marzanna) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Hag (Marzanna)]
+RACE:Hag (Marzanna)	!PRERACE:1,%
+NAME:Hag (Marzanna)
+SKILL:Hide					RANK:6
+SKILL:Listen				RANK:11
+SKILL:Spot					RANK:11
+SKILL:Concentration			RANK:11
+FEAT:Alertness
+FEAT:Blind Fight
+FEAT:Great Fortitude
+SKILL:TYPE=Knowledge|TYPE=Craft	RANK:5	COUNT:1
+STAT:STR=11|WIS=11|CHA=11|DEX=10|CON=10|INT=10
+
+STARTPACK:Neanderthal ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Neanderthal]
+RACE:Neanderthal	!PRERACE:1,%
+NAME:Neanderthal
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Ooze (White Pudding) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ooze (White Pudding)]
+RACE:Ooze (White Pudding)	!PRERACE:1,%
+NAME:Ooze (White Pudding)
+ALIGN:TN
+STAT:STR=11|WIS=11|CHA=11|DEX=10|CON=10|INT=10
+
+STARTPACK:Otter (Sea) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Otter (Sea)]
+RACE:Otter (Sea)	!PRERACE:1,%
+NAME:Otter (Sea)
+ALIGN:TN
+SKILL:Spot	RANK:3
+SKILL:Hide	RANK:2
+FEAT:Alertness
+STAT:DEX=11|WIS=11|STR=10|CON=10|INT=10|CHA=10
+
+STARTPACK:Penguin ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Penguin]
+RACE:Penguin	!PRERACE:1,%
+NAME:Penguin
+ALIGN:TN
+SKILL:Swim		RANK:2
+SKILL:Listen	RANK:2
+SKILL:Spot		RANK:2
+FEAT:Endurance
+STAT:DEX=11|WIS=11|STR=10|CON=10|INT=10|CHA=10
+
+STARTPACK:Raven (Giant) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raven (Giant)]
+RACE:Raven (Giant)	!PRERACE:1,%
+NAME:Raven (Giant)
+ALIGN:TN
+SKILL:Spot			RANK:6
+SKILL:Bluff			RANK:3
+SKILL:Listen		RANK:3
+SKILL:Sense Motive	RANK:3
+SKILL:Survival		RANK:3
+FEAT:Flyby Attack
+FEAT:Multiattack
+STAT:DEX=11|CON=11|STR=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Rimefire Eidolon ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rimefire Eidolon]
+RACE:Rimefire Eidolon	!PRERACE:1,%
+NAME:Rimefire Eidolon
+ALIGN:CG
+SKILL:Diplomacy			RANK:17
+SKILL:Bluff				RANK:15
+SKILL:Concentration		RANK:15
+SKILL:Knowledge (Nature)	RANK:15
+SKILL:Knowledge (Religion)	RANK:15
+SKILL:Listen			RANK:15
+SKILL:Sense Motive		RANK:15
+SKILL:Spot				RANK:15
+SKILL:Intimidate			RANK:2
+FEAT:Empower Spell-Like Ability(Ice Storm)
+FEAT:Great Fortitude
+FEAT:Improved Initiative
+FEAT:Mark of Hleid
+FEAT:Weapon Finesse
+STAT:CON=11|INT=11|WIS=11|STR=10|DEX=10|CHA=10
+
+STARTPACK:Rusalka ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rusalka]
+RACE:Rusalka	!PRERACE:1,%
+NAME:Rusalka
+SKILL:Escape Artist	RANK:5
+SKILL:Hide			RANK:5
+SKILL:Listen		RANK:5
+SKILL:Move Silently	RANK:5
+SKILL:Perform (Sing)	RANK:5
+SKILL:Spot			RANK:5
+SKILL:Diplomacy		RANK:2
+GEAR:Dagger	SIZE:PC	LOCATION:Equipped
+FEAT:Weapon Finesse
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Seal ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Seal]
+RACE:Seal	!PRERACE:1,%
+NAME:Seal
+ALIGN:TN
+SKILL:Spot		RANK:3
+SKILL:Listen	RANK:2
+FEAT:Alertness
+STAT:STR=11|DEX=11|WIS=11|CON=10|INT=10|CHA=10
+
+STARTPACK:Shivhad ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shivhad]
+RACE:Shivhad	!PRERACE:1,%
+NAME:Shivhad
+SKILL:Balance			RANK:27
+SKILL:Intimidate			RANK:27
+SKILL:Knowledge (Geography)	RANK:27
+SKILL:Listen			RANK:27
+SKILL:Spot				RANK:27
+SKILL:Climb				RANK:27
+SKILL:Hide				RANK:27
+FEAT:Combat Expertise
+FEAT:Dodge
+FEAT:Improved Critical(Bite)
+FEAT:Improved Natural Attack(Bite)
+FEAT:Improved Natural Attack(Claw)
+FEAT:Mobility
+FEAT:Power Attack
+FEAT:Spring Attack
+FEAT:Weapon Focus(Bite)
+STAT:DEX=11|CON=11|INT=11|STR=10|WIS=10|CHA=10
+
+STARTPACK:Snowcloak ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Snowcloak]
+RACE:Snowcloak	!PRERACE:1,%
+NAME:Snowcloak
+SKILL:Listen		RANK:6
+SKILL:Spot			RANK:6
+SKILL:Move Silently	RANK:6
+SKILL:Hide			RANK:6
+FEAT:Alertness
+FEAT:Multiattack
+STAT:CON=11|INT=11|WIS=11|STR=10|DEX=10|CHA=10
+
+STARTPACK:Spider (Small Snow) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spider (Small Snow)]
+RACE:Spider (Small Snow)	!PRERACE:1,%
+NAME:Spider (Small Snow)
+ALIGN:TN
+SKILL:Hide	RANK:4
+SKILL:Jump	RANK:6
+SKILL:Climb	RANK:6
+STAT:STR=11|CON=11|DEX=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Spider (Medium Snow) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spider (Medium Snow)]
+RACE:Spider (Medium Snow)	!PRERACE:1,%
+NAME:Spider (Medium Snow)
+ALIGN:TN
+SKILL:Jump	RANK:8
+SKILL:Climb	RANK:4
+STAT:STR=11|CON=11|DEX=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Spider (Large Snow) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spider (Large Snow)]
+RACE:Spider (Large Snow)	!PRERACE:1,%
+NAME:Spider (Large Snow)
+ALIGN:TN
+SKILL:Climb	RANK:2
+SKILL:Jump	RANK:6
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Tlalusk ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Tlalusk]
+RACE:Tlalusk	!PRERACE:1,%
+NAME:Tlalusk
+SKILL:Listen	RANK:10
+SKILL:Spot		RANK:9
+FEAT:Alertness
+FEAT:Improved Bull Rush
+FEAT:Improved Natural Attack(Hoof)
+FEAT:Improved Overrun
+FEAT:Multiattack
+FEAT:Power Attack
+STAT:DEX=11|INT=11|CHA=11|STR=10|CON=10|WIS=10
+
+STARTPACK:Uldra ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Uldra]
+RACE:Uldra	!PRERACE:1,%
+NAME:Uldra
+SKILL:	RANK:5	COUNT:1
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Urskan ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Urskan]
+RACE:Urskan	!PRERACE:1,%
+NAME:Urskan
+SKILL:Climb				RANK:4
+SKILL:Craft (Armorsmithing)	RANK:4
+SKILL:Intimidate			RANK:4
+SKILL:Listen			RANK:4
+SKILL:Spot				RANK:4
+SKILL:Survival			RANK:4
+GEAR:Half-Plate	SIZE:PC	LOCATION:Equipped
+FEAT:Improved Overrun
+FEAT:Power Attack
+STAT:STR=11|CON=11|DEX=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Simulacrum (Urskan) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Simulacrum (Urskan)]
+RACE:Simulacrum (Urskan)	!PRERACE:1,%
+NAME:Simulacrum (Urskan)
+SKILL:Craft (Armorsmithing)	RANK:4
+SKILL:Intimidate			RANK:4
+SKILL:Listen			RANK:4
+SKILL:Spot				RANK:4
+SKILL:Survival			RANK:4
+GEAR:Half-Plate	SIZE:PC	LOCATION:Equipped
+FEAT:Power Attack
+STAT:STR=11|CON=11|DEX=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Simulacrum (Dire Bear) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Simulacrum (Dire Bear)]
+RACE:Simulacrum (Dire Bear)	!PRERACE:1,%
+NAME:Simulacrum (Dire Bear)
+ALIGN:TN
+SKILL:Swim		RANK:3
+SKILL:Listen	RANK:5
+SKILL:Spot		RANK:5
+FEAT:Alertness
+FEAT:Endurance
+FEAT:Run
+FEAT:Toughness
+FEAT:Weapon Focus(Claw)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Simulacrum (Demon (Vrock)) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Simulacrum (Demon (Vrock))]
+RACE:Simulacrum (Demon (Vrock))	!PRERACE:1,%
+NAME:Simulacrum (Demon (Vrock))
+ALIGN:CE
+SKILL:Concentration	RANK:5
+SKILL:Hide			RANK:PREDEFAULTMONSTER:Y
+SKILL:Intimidate		RANK:8
+SKILL:Listen		RANK:8
+SKILL:Move Silently	RANK:8
+SKILL:Search		RANK:8
+SKILL:Sense Motive	RANK:8
+SKILL:Spellcraft		RANK:8
+SKILL:Spot			RANK:8
+SKILL:Diplomacy		RANK:2
+FEAT:Multiattack
+FEAT:Power Attack
+SKILL:TYPE=Knowledge	RANK:13				COUNT:1
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Simulacrum Dragon (Adult White) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Simulacrum Dragon (Adult White)]
+RACE:Simulacrum Dragon (Adult White)	!PRERACE:1,%
+NAME:Simulacrum Dragon (Adult White)
+ALIGN:CE
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Vodyanoi ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Vodyanoi]
+RACE:Vodyanoi	!PRERACE:1,%
+NAME:Vodyanoi
+SKILL:Intimidate		RANK:8
+SKILL:Bluff			RANK:8
+SKILL:Hide			RANK:8
+SKILL:Listen		RANK:8
+SKILL:Move Silently	RANK:8
+SKILL:Spot			RANK:8
+SKILL:Survival		RANK:8
+FEAT:Weapon Finesse
+FEAT:Weapon Focus(Claw)
+STAT:STR=11|CHA=11|DEX=10|CON=10|INT=10|WIS=10
+
+STARTPACK:Walrus ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Walrus]
+RACE:Walrus	!PRERACE:1,%
+NAME:Walrus
+ALIGN:TN
+SKILL:Listen	RANK:4
+SKILL:Spot		RANK:4
+FEAT:Alertness
+FEAT:Endurance
+STAT:STR=11|DEX=11|WIS=11|CON=10|INT=10|CHA=10
+
+STARTPACK:Winterspawn ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Winterspawn]
+RACE:Winterspawn	!PRERACE:1,%
+NAME:Winterspawn
+SKILL:Craft (Iceworking)	RANK:10
+SKILL:Intimidate			RANK:10
+SKILL:Listen			RANK:10
+SKILL:Sense Motive		RANK:5
+SKILL:Hide				RANK:15
+SKILL:Spot				RANK:15
+SKILL:Ride				RANK:15
+GEAR:Winterspawn Longsword	SIZE:PC	LOCATION:Equipped
+GEAR:Winterspawn Javelin	SIZE:PC	LOCATION:Equipped
+GEAR:Winterspawn Scale Mail	SIZE:PC	LOCATION:Equipped
+FEAT:Cleave
+FEAT:Craft Magic Arms and Armor
+FEAT:Improved Initiative
+FEAT:Improved Sunder
+FEAT:Power Attack
+STAT:STR=11|WIS=11|DEX=10|CON=10|INT=10|CHA=10
+
+STARTPACK:Yeti ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yeti]
+RACE:Yeti	!PRERACE:1,%
+NAME:Yeti
+SKILL:Listen		RANK:2
+SKILL:Hide			RANK:2
+SKILL:Move Silently	RANK:1
+SKILL:Spot			RANK:1
+SKILL:Survival		RANK:1
+FEAT:Dodge
+FEAT:Toughness
+STAT:DEX=11|INT=11|CHA=11|STR=10|CON=10|WIS=10
+
+STARTPACK:Yeti (Abominable) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yeti (Abominable)]
+RACE:Yeti (Abominable)	!PRERACE:1,%
+NAME:Yeti (Abominable)
+SKILL:Move Silently	RANK:3
+SKILL:Listen		RANK:2
+SKILL:Spot			RANK:2
+SKILL:Survival		RANK:2
+FEAT:Dodge
+FEAT:Improved Natural Armor
+FEAT:Mobility
+FEAT:Spring Attack
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Yuki on na ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yuki on na]
+RACE:Yuki on na	!PRERACE:1,%
+NAME:Yuki on na
+SKILL:Diplomacy		RANK:2
+SKILL:Bluff			RANK:11
+SKILL:Hide			RANK:11
+SKILL:Intimidate		RANK:11
+SKILL:Move Silently	RANK:11
+SKILL:Perform (Dance)	RANK:11
+SKILL:Listen		RANK:11
+SKILL:Spot			RANK:11
+FEAT:Alertness
+FEAT:Improved Initiative
+STAT:DEX=11|INT=11|CHA=11|STR=10|CON=10|WIS=10
