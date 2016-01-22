@@ -1,0 +1,16 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Darkside Sourcebook	SOURCESHORT:DSSB	SOURCEWEB:http://www.wizards.com/starwars
+
+#Darkside Feats
+# Feat Name				Type				Visible	Req. Att.	Required Class							Required Feat							Required Stat	Var. Min. Value							Define							Description																				Multiple?	Bonus to skill		Source Page
+Drain Force				TYPE:Force.Darkside														PREFEAT:4,Force Sensitive,Alter,Control,Sith Sorcery				PREVARGTEQ:DarksidePoints,6													DESC:You are able to draw life energy from living beings, gradually absorbing it into yourself.												SOURCEPAGE:p.17
+Hatred				TYPE:Force.Darkside														PREFEAT:2,Force Sensitive,Alter							PREVARGTEQ:DarksidePoints,2													DESC:You can release all your hatred in a blast of pure Force energy, dealing damage to all those around you.									SOURCEPAGE:p.18
+Rage					TYPE:Force.Darkside														PREFEAT:2,Force Sensitive,Control							PREVARGTEQ:DarksidePoints,2													DESC:You can channel your rage into a beserker fury, increasing your battle prowess as you give yourself to the dark side.							SOURCEPAGE:p.18
+Sith Sorcery			TYPE:Force.Darkside														PREFEAT:2,Sense,Force Sensitive							PREVARGTEQ:ForceUser,4	PREVARGTEQ:DarksidePoints,6									DESC:You have the power to channel the spirits of deceased Sith lords.																SOURCEPAGE:p.18
+Sith Sword Defense		TYPE:Force.Darkside					PRECLASS:1,Sith Acolyte=3,Sith Warrior=3,Sith Lord=3	PREFEAT:2,Force Sensitive,Control				PRESTAT:1,DEX=13																		DESC:You are adept at blocking incoming attacks with an alchemically sharpened Sith Sword.												SOURCEPAGE:p.18
+Sith Sword Expert Defense	TYPE:Force.Darkside			PREATT:5	PRECLASS:1,Sith Acolyte=5,Sith Warrior=5,Sith Lord=5	PREFEAT:3,Force Sensitive,Control,Sith Sword Defense	PRESTAT:1,DEX=13																		DESC:You are adept at blocking incoming attacks with an alchemically sharpened Sith Sword.												SOURCEPAGE:p.18
+Sith Sword Mastery		TYPE:Force.Darkside			PREATT:8	PRECLASS:1,Sith Acolyte=8,Sith Warrior=8,Sith Lord=8	PREFEAT:3,Force Sensitive,Control,Sith Sword Defense	PRESTAT:1,DEX=13																		DESC:You are adept at blocking incoming attacks with an alchemically sharpened Sith Sword.												SOURCEPAGE:p.19
+Summon Storm			TYPE:Force																PREFEAT:2,Force Sensitive,Alter							PREVARGTEQ:ForceUser,7														DESC:You can manipulate the atmosphere to create rain, winds and lightning.															SOURCEPAGE:p.19
+
+Darkside Skill Emphasis		TYPE:Special		VISIBLE:NO																																									DESC:Choose a skill. You have a special knack with that skill.											MULT:YES	BONUS:SKILL|LIST|3	SOURCEPAGE:p.21
+Sneak Attack			TYPE:Special		VISIBLE:NO																																	DEFINE:SneakAttackDie|6	DEFINE:SneakAttack|0	DESC:Class Special Ability

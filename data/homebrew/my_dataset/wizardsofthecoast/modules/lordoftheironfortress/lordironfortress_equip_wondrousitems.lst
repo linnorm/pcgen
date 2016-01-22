@@ -1,0 +1,12 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Lord of the Iron Fortress	SOURCESHORT:LordIronF	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name			Type							Contains			Cost		Weight	Source Page		Special Property
+Idol of False Vision		TYPE:Magic.Wondrous								COST:54500	WT:400	SOURCEPAGE:p.46	SPROP:Detects scrying attempts and casts false vision to protect user (3/day)
+Necklace of the Wild Beast	TYPE:Magic.Wondrous.Amulet.Container	CONTAINS:UNLIM|Bead=10	COST:0	WT:.01	SOURCEPAGE:p.46
+Bead of Calming			TYPE:Magic.Wondrous.Bead							COST:500	WT:.01	SOURCEPAGE:p.46	SPROP:Wearer can cast Calm Animals.
+Bead of Servitude			TYPE:Magic.Wondrous.Bead							COST:1500	WT:.01	SOURCEPAGE:p.46	SPROP:Wearer can cast Dominate Animal.
+Bead of the Fang			TYPE:Magic.Wondrous.Bead							COST:1500	WT:.01	SOURCEPAGE:p.46	SPROP:Wearer can cast Greater Magic Fang.
+Bead of Beckoning			TYPE:Magic.Wondrous.Bead							COST:2000	WT:.01	SOURCEPAGE:p.46	SPROP:Wearer can cast Summon Nature's Ally IV.
+Bead of the Great Beast		TYPE:Magic.Wondrous.Bead							COST:2500	WT:.01	SOURCEPAGE:p.46	SPROP:Wearer can cast Animal Growth.
+Bead of Awakening			TYPE:Magic.Wondrous.Bead							COST:3750	WT:.01	SOURCEPAGE:p.46	SPROP:Wearer can cast Awaken.

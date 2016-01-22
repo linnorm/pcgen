@@ -1,0 +1,7 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #278	SOURCESHORT:WotC-Dragon #278	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name	Required Proficiency			Type								Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Source Page
+Liqui-Jet		PROFICIENCY:WEAPON|Liqui-Jet		TYPE:Weapon.Exotic.Ranged.Dwarven			COST:150	WT:35		CRITMULT:-			CRITRANGE:-			DAMAGE:1d6	RANGE:10	SIZE:M	SOURCEPAGE:p.85
+Hurler		PROFICIENCY:WEAPON|Hurler		TYPE:Weapon.Exotic.Ranged.Dwarven			COST:200	WT:35		CRITMULT:-			CRITRANGE:-			DAMAGE:*	RANGE:50	SIZE:M	SOURCEPAGE:p.85
+Spike Shooter	PROFICIENCY:WEAPON|Spike Shooter	TYPE:Weapon.Exotic.Ranged.Piercing.Dwarven	COST:25	WT:1		CRITMULT:-			CRITRANGE:-			DAMAGE:1d4	RANGE:10	SIZE:M	SOURCEPAGE:p.85

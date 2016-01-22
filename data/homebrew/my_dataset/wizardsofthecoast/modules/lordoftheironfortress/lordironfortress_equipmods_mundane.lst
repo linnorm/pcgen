@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Lord of the Iron Fortress	SOURCESHORT:LordIronF	SOURCEWEB:http://www.wizards.com/
+
+###Block: Weapon materials
+# Modifier Name		Unique Key			Type					Cost		Type granted			Source Page		Required Type				Weapon prop. bonus				Special Property							Apply to both heads
+Baatorian Green Steel	KEY:WEAPBAATGRNSTL	TYPE:WEAPON.BaseMaterial	COST:2000	ITYPE:BaatorianGreenSteel	SOURCEPAGE:p.47	PRETYPE:1,Metal,Piercing|Slashing	BONUS:WEAPON|DAMAGE|1|TYPE=Enhancement	SPROP:Retains +1 damage where magic does not work	ASSIGNTOALL:Y

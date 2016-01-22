@@ -1,0 +1,61 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
+
+###Block:Familiar
+# Class of the Master			Type			Spell Res.	Special ABility									Define						Combat bonus
+FOLLOWER:Sorcerer,Wizard=1		TYPE:Familiar			SAB:Empathic Link	SAB:Share Spells	SAB:Improved Evasion (Ex)	DEFINE:LOCK.INT|6	DEFINE:PHBFeatEvasion|0	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Adept=2				TYPE:Familiar			SAB:Empathic Link	SAB:Share Spells	SAB:Improved Evasion (Ex)	DEFINE:LOCK.INT|6	DEFINE:PHBFeatEvasion|0	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=3	TYPE:Familiar			SAB:Touch										DEFINE:LOCK.INT|7					BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=5	TYPE:Familiar			SAB:Speak with master								DEFINE:LOCK.INT|8					BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=7	TYPE:Familiar			SAB:Speak with animals of its type						DEFINE:LOCK.INT|9					BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=9	TYPE:Familiar														DEFINE:LOCK.INT|10				BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=11	TYPE:Familiar	SR:16													DEFINE:LOCK.INT|11				BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=12	TYPE:Familiar	SR:17
+FOLLOWER:Sorcerer,Wizard,Adept=13	TYPE:Familiar	SR:18		SAB:Master can Scry								DEFINE:LOCK.INT|12				BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=14	TYPE:Familiar	SR:19
+FOLLOWER:Sorcerer,Wizard,Adept=15	TYPE:Familiar	SR:20													DEFINE:LOCK.INT|13				BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=16	TYPE:Familiar	SR:21
+FOLLOWER:Sorcerer,Wizard,Adept=17	TYPE:Familiar	SR:22													DEFINE:LOCK.INT|14				BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=18	TYPE:Familiar	SR:23
+FOLLOWER:Sorcerer,Wizard,Adept=19	TYPE:Familiar	SR:24													DEFINE:LOCK.INT|15				BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:Sorcerer,Wizard,Adept=20	TYPE:Familiar	SR:25
+
+###Block:Familiar Bonuses to Master
+# Race of familiar	Type			Save checks bonus			Bonus to skill			Stat bonus
+MASTERBONUSRACE:Bat	TYPE:Familiar						BONUS:SKILL|Listen|2
+MASTERBONUSRACE:Cat	TYPE:Familiar						BONUS:SKILL|Move Silently|2
+MASTERBONUSRACE:Hawk	TYPE:Familiar						BONUS:SKILL|Spot|2
+MASTERBONUSRACE:Owl	TYPE:Familiar											BONUS:STAT|WIS|2
+MASTERBONUSRACE:Rat	TYPE:Familiar	BONUS:CHECKS|BASE.Fortitude|2
+MASTERBONUSRACE:Raven	TYPE:Familiar											BONUS:STAT|INT|2
+MASTERBONUSRACE:Snake	TYPE:Familiar	BONUS:CHECKS|BASE.Will|2
+MASTERBONUSRACE:Toad	TYPE:Familiar											BONUS:STAT|CON|2
+MASTERBONUSRACE:Weasel	TYPE:Familiar	BONUS:CHECKS|BASE.Reflex|2
+
+
+
+
+SOURCESHORT:SRD	SOURCEWEB:http://www.wizards.com
+###Block:Special Mount
+# Class of the Master	Type				Hit Dice	Spell Res.	Special ABility													Define						Combat bonus						Stat bonus
+FOLLOWER:Paladin=5	TYPE:Special Mount	HD:2				SAB:Share saving throws	SAB:Empathic Link	SAB:Share spells	SAB:Improved Evasion (Ex)	DEFINE:LOCK.INT|6	DEFINE:PHBFeatEvasion|0	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1
+FOLLOWER:Paladin=8	TYPE:Special Mount	HD:2																			DEFINE:LOCK.INT|7					BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1
+FOLLOWER:Paladin=11	TYPE:Special Mount	HD:2				SAB:Command creatures of its kind										DEFINE:LOCK.INT|8					BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1
+FOLLOWER:Paladin=15	TYPE:Special Mount	HD:2		SR:20																	DEFINE:LOCK.INT|9					BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1
+FOLLOWER:Paladin=16	TYPE:Special Mount			SR:21
+FOLLOWER:Paladin=17	TYPE:Special Mount			SR:22
+FOLLOWER:Paladin=18	TYPE:Special Mount			SR:23
+FOLLOWER:Paladin=19	TYPE:Special Mount			SR:24
+FOLLOWER:Paladin=20	TYPE:Special Mount			SR:25
+
+###Block:Fiendish Servant
+# Class of the Master	Type				Hit Dice	Spell Res.	Special ABility													Define						Combat bonus						Stat bonus
+FOLLOWER:Blackguard=5	TYPE:Fiendish Servant	HD:2				SAB:Empathic Link	SAB:Share spells	SAB:Share saving throws	SAB:Improved Evasion (ex)	DEFINE:LOCK.INT|6	DEFINE:PHBFeatEvasion|0	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1
+FOLLOWER:Blackguard=8	TYPE:Fiendish Servant	HD:2				SAB:Speak with Blackguard											DEFINE:LOCK.INT|7					BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1
+FOLLOWER:Blackguard=11	TYPE:Fiendish Servant	HD:2				SAB:Blood Bond													DEFINE:LOCK.INT|8					BONUS:COMBAT|AC|3|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1
+FOLLOWER:Blackguard=15	TYPE:Fiendish Servant	HD:2		SR:20																	DEFINE:LOCK.INT|9					BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1
+FOLLOWER:Blackguard=16	TYPE:Fiendish Servant			SR:21
+FOLLOWER:Blackguard=17	TYPE:Fiendish Servant			SR:22
+FOLLOWER:Blackguard=18	TYPE:Fiendish Servant			SR:23
+FOLLOWER:Blackguard=19	TYPE:Fiendish Servant			SR:24
+FOLLOWER:Blackguard=20	TYPE:Fiendish Servant			SR:25

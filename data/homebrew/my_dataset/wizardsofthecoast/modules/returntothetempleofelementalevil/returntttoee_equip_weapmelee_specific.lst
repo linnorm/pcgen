@@ -1,0 +1,11 @@
+# CVS $Revision: 1.3 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 06/27/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+#Specific
+# Equipment Name	Required Proficiency		Type										Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Size		Source Page		Weapon prop. bonus					Special Property
+Sword of Air	PROFICIENCY:WEAPON|Longsword		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Sword	COST:12315	WT:4		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	SIZE:M	SOURCEPAGE:p.155	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	SPROP:Endure Elements (Electricity) when drawn, Blast of Wind 1/day (2d6 impact, 100' range)
+Sword of Earth	PROFICIENCY:WEAPON|Greatsword		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Sword	COST:12850	WT:15		CRITMULT:x2			CRITRANGE:2			DAMAGE:2d6	SIZE:L	SOURCEPAGE:p.155	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	SPROP:Endure Elements (Acid) when drawn, Blast of Rock 1/day (3d6 impact, 60' range)
+Sword of Fire	PROFICIENCY:WEAPON|Sword (Short)	TYPE:Magic.Weapon.Martial.Melee.Piercing.Specific.Sword	COST:13310	WT:3		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d6	SIZE:S	SOURCEPAGE:p.155	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	SPROP:Endure Elements (Fire) when drawn, Blast of Flame 1/day (4d6 fire, 40' range)
+Sword of Water	PROFICIENCY:WEAPON|Longsword		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Sword	COST:12850	WT:4		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	SIZE:M	SOURCEPAGE:9.155	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	SPROP:Endure Elements (Cold) when drawn, Blast of Water 1/day (3d6 impact, 50' range)
+

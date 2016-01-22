@@ -1,0 +1,40 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Language		Type
+Ancient Corellian	TYPE:Spoken.Read
+Basic			TYPE:Spoken.Read
+Binary		TYPE:Spoken.Read
+Bothan		TYPE:Spoken.Read
+Calamarian		TYPE:Spoken.Read
+Cerean		TYPE:Spoken.Read
+Coruscanti		TYPE:Spoken.Read
+Dosh			TYPE:Spoken.Read
+Dug			TYPE:Spoken.Read
+Durese		TYPE:Spoken.Read
+Ewokese		TYPE:Spoken.Read
+Gamorrean		TYPE:Spoken.Read
+Geonosian		TYPE:Spoken.Read
+Gran			TYPE:Spoken.Read
+Gungan		TYPE:Spoken.Read
+Huttese		TYPE:Spoken.Read
+Ithorese		TYPE:Spoken.Read
+Jawa			TYPE:Spoken.Read
+Jawa Trade		TYPE:Spoken.Read
+Kaminoan		TYPE:Spoken.Read
+Kel Dor		TYPE:Spoken.Read
+Lekku			TYPE:Spoken.Read
+Neimoidian		TYPE:Spoken.Read
+Noghrese		TYPE:Spoken.Read
+Noghri		TYPE:Spoken.Read
+Quarren		TYPE:Spoken.Read
+Quarrenese		TYPE:Spoken.Read
+Rhommamoolian	TYPE:Spoken.Read
+Rodese		TYPE:Spoken.Read
+Ryl			TYPE:Spoken.Read
+Shyriiwook		TYPE:Spoken.Read
+Sullustese		TYPE:Spoken.Read
+Toydarian		TYPE:Spoken.Read
+Tusken		TYPE:Spoken.Read
+Yuuzhan Vong	TYPE:Spoken.Read
+Zabrak		TYPE:Spoken.Read

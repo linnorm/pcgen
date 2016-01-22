@@ -1,0 +1,5 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #281	SOURCESHORT:WotC-Dragon #281	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name	Type							Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Source Page
+Staff (Bladed)	TYPE:Weapon.Exotic.Ranged.Slashing.Thrown	COST:10	WT:10		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	RANGE:20	SIZE:L	SOURCEPAGE:p.38

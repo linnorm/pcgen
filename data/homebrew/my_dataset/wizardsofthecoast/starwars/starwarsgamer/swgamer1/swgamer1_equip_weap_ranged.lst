@@ -1,0 +1,5 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Star Wars Gamer 1	SOURCESHORT:SWG1	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Equipment Name	Type						Cost		Weight	Critical Hit Range	Damage			Range		Size		Source Page
+Stingbeam		TYPE:Weapon.Ranged.BlasterPistol	COST:400	WT:0.25	CRITRANGE:1			DAMAGE:1d2(1d6/18)	RANGE:4	SIZE:T	SOURCEPAGE:p.

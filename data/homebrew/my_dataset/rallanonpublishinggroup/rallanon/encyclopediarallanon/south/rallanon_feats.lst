@@ -1,0 +1,114 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+# Feat Name					Type			Visible	Required Class			Required Feat						Required Lvl	Req. Special Ability	Description																			Stackable?	Multiple?	Choose				Bonus to skill											Stat bonus				Weapon prof. bonus			Class Skill								Source Page
+Bellagonian Alumnus (Alchemist)	TYPE:General								PREFEAT:1,Bellagonian Alumnus (Mage)									DESC:Grants a +2 to all skills listed on the list for the course completed.  These skills are considered class skills.										BONUS:SKILL|Alchemy|Craft (Alchemy)|Profession (Herbalist)|2|TYPE=Competence												CSKILL:Alchemy|Craft (Alchemy)|Profession (Herbalist)	SOURCEPAGE:Chapter 9: Feats
+Bellagonian Alumnus (Artificer)	TYPE:General								PREFEAT:1,Bellagonian Alumnus (Mage)									DESC:Grants a +2 to all skills listed on the list for the course completed.  These skills are considered class skills.										BONUS:SKILL|Knowledge (Arcana)|LIST|2|TYPE=Competence																CSKILL:Knowledge (Arcana)CSKILL:LIST			SOURCEPAGE:Chapter 9: Feats
+Bellagonian Alumnus (Mage)		TYPE:General																							DESC:Grants a +2 to all skills listed on the list for the course completed.  These skills are considered class skills.										BONUS:SKILL|Spellcraft|Knowledge (Arcana)|2|TYPE=Competence															CSKILL:Spellcraft|Knowledge (Arcana)			SOURCEPAGE:Chapter 9: Feats
+Bellagonian Alumnus (Man-at-Arms)	TYPE:General																							DESC:Grants a +2 to all skills listed on the list for the course completed.  These skills are considered class skills.										BONUS:SKILL|Knowledge (Military)|Knowledge (Weaponry)|2|TYPE=Competence													CSKILL:Knowledge (Military)|Knowledge (Weaponry)	SOURCEPAGE:Chapter 9: Feats
+Bellagonian Alumnus (Sage)		TYPE:General																							DESC:Grants a +2 to all skills listed on the list for the course completed.  These skills are considered class skills.										BONUS:SKILL|LIST|2|TYPE=Competence																			CSKILL:LIST								SOURCEPAGE:Chapter 9: Feats
+Bellagonian Alumnus (Soldier)		TYPE:General								PREFEAT:1,Bellagonian Alumnus (Man-at-Arms)								DESC:Grants a +2 to all skills listed on the list for the course completed.  These skills are considered class skills.										BONUS:SKILL|Knowledge (Code of Martial Honor)|Tactics|2|TYPE=Competence													CSKILL:Knowledge (Code of Martial Honor)|Tactics	SOURCEPAGE:Chapter 9: Feats
+Bow Focus					TYPE:General	VISIBLE:NO	PRECLASS:1,Huntsman=7																																							MULT:NO	CHOOSE:WEAPONPROFS|TYPE.Bow																			BONUS:WEAPONPROF=%LIST|TOHIT|1
+Majin						TYPE:General																PRELEVEL:MAX=1					DESC:Allows the character to absorb magic to power their own spells.																																																			SOURCEPAGE:Chapter 9: Feats
+Humanoid Familiar				TYPE:General			PRECLASS:1,SPELLCASTER=10												PRESA:1,Summon Familiar	DESC:Character may choose a familiar of type Humanoid or Monstrous Humanoid.
+Improved Humanoid Familiar		TYPE:General			PRECLASS:1,SPELLCASTER=15												PRESA:1,Summon Familiar	DESC:Character may choose a familiar of type Humanoid,  Monstrous Humanoid, Giant, or Fey.
+Outdoorsman					TYPE:General																							DESC:You are trained particularly well for life in the wild																				BONUS:SKILL|Handle Animal,Survival|2
+Spellcasting Prodigy			TYPE:General																PRELEVEL:MAX=1					DESC:You have an exceptional gift for magic.													STACK:NO	MULT:YES																			BONUS:STAT|BASESPELLSTAT|2
+
+
+###Block: OA Feats
+# Feat Name			Type					Req. Att.	Required Feat														Required Skill	Required Stat				Description																							Source Page
+Choke Hold			TYPE:MartialArts					PREFEAT:3,Improved Unarmed Strike,Improved Grapple,Stunning Fist															DESC:You have learned the correct way to apply pressure to render an opponent unconcious.										SOURCEPAGE:p.61
+Defensive Strike		TYPE:MartialArts					PREFEAT:2,Expertise,Dodge															PRESTAT:1,INT=13	PRESTAT:1,DEX=13	DESC:You can turn a strong defense into a powerful offense.															SOURCEPAGE:p.62
+Defensive Throw		TYPE:MartialArts					PREFEAT:4,Improved Unarmed Strike,Dodge,Improved Trip,Combat Reflexes								PRESTAT:1,DEX=13				DESC:You can use your opponent's weight, strength, and momentum against her, deflecting her attack and throwing her to the ground.			SOURCEPAGE:p.62
+Eagle Claw Attack		TYPE:MartialArts			PREATT:2	PREFEAT:2,Improved Unarmed Strike,Sunder													PRESTAT:1,DEX=15				DESC:Your unarmed attacks shatter objects.																	SOURCEPAGE:p.62
+Earth's Embrace		TYPE:MartialArts					PREFEAT:2,Improved Unarmed Strike,Improved Grapple											PRESTAT:1,STR=15				DESC:You can crush opponents when you grapple them.																SOURCEPAGE:p.62
+Falling Star Strike	TYPE:MartialArts			PREATT:4	PREFEAT:2,Improved Unarmed Strike,Stunning Fist												PRESTAT:1,WIS=17				DESC:You have mastered the art of striking a nerve that blinds a humanoid opponent.											SOURCEPAGE:p.62
+Fists of Iron		TYPE:MartialArts			PREATT:2	PREFEAT:1,Improved Unarmed Strike																				DESC:You have learned the secrets of imbuing your unarmed attacks with extra force.											SOURCEPAGE:p.62
+Flying Kick			TYPE:MartialArts					PREFEAT:2,Power Attack,Improved Unarmed Strike									PRESKILL:1,Jump=4	PRESTAT:1,STR=13				DESC:You literally leap into battle, dealing devastating damage.														SOURCEPAGE:p.62
+Freezing the Lifeblood	TYPE:MartialArts			PREATT:5	PREFEAT:2,Improved Unarmed Strike,Stunning Fist												PRESTAT:1,WIS=17				DESC:You can paralyze a humanoid opponent with an unarmed attack.														SOURCEPAGE:p.62
+Grappling Block		TYPE:MartialArts					PREFEAT:5,Improved Unarmed Strike,Deflect Arrows,Expertise,Improved Disarm,Combat Reflexes				PRESTAT:1,INT=13				DESC:You can catch and pin an opponent's weapon with your bare hands.													SOURCEPAGE:p.63
+Great Ki Shout		TYPE:MartialArts			PREATT:9	PREFEAT:1,Ki Shout																PRESTAT:1,CHA=13				DESC:Your ki shout can panic your opponents.																	SOURCEPAGE:p.63
+Great Throw			TYPE:MartialArts					PREFEAT:4,Improved Unarmed Strike,Dodge,Improved Trip,Combat Reflexes								PRESTAT:1,DEX=13				DESC:You can throw your opponents to the ground, choosing where they land and dealing damage in the process.						SOURCEPAGE:Errata
+Karmic Strike		TYPE:MartialArts					PREFEAT:1,Dodge																	PRESTAT:1,DEX=13				DESC:You have learned to strike when your opponent is most vulnerable at the same instant your opponent strikes you.					SOURCEPAGE:p.64
+Ki Shout			TYPE:MartialArts			PREATT:1																				PRESTAT:1,CHA=13				DESC:You can bellow forth a ki-empowered shout that strikes terror into your enemies.										SOURCEPAGE:p.64
+Pain Touch			TYPE:MartialArts			PREATT:2	PREFEAT:1,Stunning Fist																PRESTAT:1,WIS=19				DESC:You cause intense pain in an opponent with a successful stunning attack.												SOURCEPAGE:p.64
+Prone Attack		TYPE:MartialArts.Fighter	PREATT:2	PREFEAT:1,Lightning Reflexes															PRESTAT:1,DEX=15				DESC:You attack froma prone position without penalty.																SOURCEPAGE:p.65
+Roundabout Kick		TYPE:MartialArts					PREFEAT:2,Power Attack,Improved Unarmed Strike												PRESTAT:1,STR=15				DESC:You can follow up on a particularly powerful unarmed attack with a mighty kick, spinning in a complete circle before landing the kick.	SOURCEPAGE:p.65
+Superior Expertise	TYPE:MartialArts.Fighter	PREATT:7	PREFEAT:1,Expertise																PRESTAT:1,INT=13				DESC:You have mastered the art of defense in combat.																SOURCEPAGE:p.66
+Unbalancing Strike	TYPE:MartialArts					PREFEAT:2,Improved Unarmed Strike,Stunning Fist												PRESTAT:1,WIS=15				DESC:You can strike a humanoid opponent's joints to knock yur target off balance.											SOURCEPAGE:p.66
+
+###Block: Item Creation feats
+# Feat Name			Type			Required Class			Required Feat					Required Skill				Required Stat	Description																Source Page
+Craft Crystal Weapon	TYPE:ItemCreation	PRECLASS:1,Spellcaster=7	PREFEAT:1,Craft Magic Arms and Armor	PRESKILL:1,Craft (Weaponsmithing)=1				DESC:You can create magic weapons from Kuni crystal, which is deadly to creatures of the Shadowlands.	SOURCEPAGE:p.61
+Craft Talisman		TYPE:ItemCreation	PRECLASS:1,Spellcaster=1								PRESKILL:1,TYPE.Craft=1			PRESTAT:1,INT=13	DESC:You can create magic fetishes, single-use magic items that hold spells until triggered.		SOURCEPAGE:p.61
+
+###Block: Ancestor feats
+# Feat Name				Type						Required Lvl	Description																									Save checks bonus					Combat bonus			Bonus to DC				Bonus to HP			Bonus to skill										Source Page
+Art of Fascination		TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You claim descent from Kakita Wayozu. You can fascinate a single creature with your music or poetics.																																										SOURCEPAGE:p.60
+Artist				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You claim descent from Doji. You get +2 bonus on one Perform skill and one Craft skill that involves art.																													BONUS:SKILL|TYPE.Perform,TYPE.Art|2							SOURCEPAGE:p.61
+Attention to Detail		TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Akodo's advisor Ikoma. You gain a +2 bonus on Sense Motive and Spot.																															BONUS:SKILL|Sense Motive,Spot|2							SOURCEPAGE:p.61
+Blood Sorcerer			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Yogo. Add +3 to the DC of all Maho-tsukai spells you cast, however add +3 to fort save to avoid taint.																	BONUS:DC|CLASS.Maho-tsukai|3																	SOURCEPAGE:p.61
+Born Duelist			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You claim descent from Mirumoto. If you adopt the Mirumoto niten master prestige class, you gain an additional +1 AC from use of the niten technique.																																		SOURCEPAGE:p.61
+Cool Head				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from the great diplomat Ide. You get a +3 bonus on Diplomacy checks.																																BONUS:SKILL|Diplomacy|3									SOURCEPAGE:p.61
+Discipline				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Naka Kaeteru. You gain a +2 bonus on all Concentration and +1 on Will saves.										BONUS:CHECKS|Willpower|1																	BONUS:SKILL|Concentration|2								SOURCEPAGE:p.62
+Fearsome and Fearless		TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You claim descent from the first Akodo. You gain a +1 bonus on Fear saves.																																														SOURCEPAGE:p.62
+Gifted General			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Daidoji Yurei. You gain a +2 bonus on initiative checks and a +1 to Fort saves.										BONUS:CHECKS|Fortitude|1			BONUS:COMBAT|INITIATIVE|2																						SOURCEPAGE:p.62
+Great Crafter			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor was Kaiu. You get a +3 bonus on all Craft checks.																																				BONUS:SKILL|TYPE.Craft|3								SOURCEPAGE:p.63
+Great Diplomat			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Asako.  You gain a +2 bonus on Diplomacy checks and +2 to leadership.																															BONUS:SKILL|Diplomacy|2									SOURCEPAGE:p.63
+Great Stamina			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Daidoji Masashigi. You gain +2 on checks made to perform an extended physical action and +1 to HP.																							BONUS:HP|CURRENTMAX|1													SOURCEPAGE:p.63
+Great Teamwork			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are a descendant of Hida Banuken. When you flank an opponent you gain a +4 bonus instead of +2.																																										SOURCEPAGE:p.63
+Honest Merchant			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Bayushi Tesaguri. You get a +2 bonus on all Profession checks.																																	BONUS:SKILL|TYPE.Profession|2								SOURCEPAGE:p.63
+Iaijutsu Master			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are not only descended from Kakita, the greatest duelist ever to have lived, but you share a karmic tie to his spirit.																																						SOURCEPAGE:p.63
+Improved Aid			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Hida Tadaka. When using the Aid another your ally gains a +4 circumstance bonus to his attack roll or AC.																																					SOURCEPAGE:p.63
+Kami's Intuition			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Shinjo. You get a +2 bonus on Sense Motive checks and on Intelligence checks made to figure things out.																										BONUS:SKILL|Sense Motive|2								SOURCEPAGE:p.63
+Karmic Twin				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Bayushi. You get +2 bonus to Charisma-based skills checks and Charisma checks.																														BONUS:SKILL|STAT.CHA|2									SOURCEPAGE:p.63
+Keen Intellect			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Agasha. You gain a +1 bonus on Intelligence checks and a +1 bonus on Knowledge, Research, and Search checks.																									BONUS:SKILL|TYPE.Knowledge,Research,Search|1					SOURCEPAGE:p.63
+Lion Spy				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Akodo Shinju. You gain a +2 bonus on Disguise and Gather Information checks.																															BONUS:SKILL|Disguise,Gather Information|2						SOURCEPAGE:p.64
+Luck of Heroes			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Hiruma. You get a +1 bonus on all saving throws.														BONUS:CHECKS|Willpower,Fortitude,Reflex|1																											SOURCEPAGE:p.64
+Magic in the Blood		TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You claim a karmic link with Iuchi. You get a +2 bonus on Craft (Alchemy) and Spellcraft checks.																															BONUS:SKILL|Craft (Alchemy),Spellcraft|2						SOURCEPAGE:p.64
+Magical Artisan			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Asahina Yajinden. Items you create with a chosen item creation feat cost 75%% of the base price.																																							SOURCEPAGE:p.64
+Magistrate's Mind			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You claim descent from Soshi Saibankan. You get a +2 bonus on Knowledge (History) and Knowledge (Nobility and Royalty) checks.																										BONUS:SKILL|Knowledge (History),Knowledge (Nobility and Royalty)|2	SOURCEPAGE:p.64
+Many Masks				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended form Shosuro Furuyari.You get a +2 bonus on Disguise and Perform checks.																																BONUS:SKILL|Disguise,TYPE.Perform|2							SOURCEPAGE:p.64
+Oni's Bane				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Isawa Akuma. You gain a +3 bonus on checks to beat outsider's SR, but you suffer -2 on Diplomacy checks.																										BONUS:SKILL|Diplomacy|-2								SOURCEPAGE:p.64
+Power Attack (Iaijutsu)		TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Kakita Rensei. In an iaijutsu duel, you add an extra 1d6 points of damage to you iaijutsu focus checks.																																							SOURCEPAGE:p.64
+Power Attack (Shadowlands)	TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Kaiu Gineza. A special Power Attack that can be used against shadowlands creatures.																																									SOURCEPAGE:p.65
+Powerful Voice			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are karmically linked to Utaku. Your powerful speaking voice give you a +2 bonus on Diplomacy checks and Perform checks.																										BONUS:SKILL|Diplomacy,TYPE.Perform|2						SOURCEPAGE:p.65
+Resist Poison			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Agasha Kitsuki. You gain a +4 bonus on Fortitude saving throws against poison.																																											SOURCEPAGE:p.65
+Resist Taint			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Kuni. You gain a +4 bonus on all fortitude saving throws to determine whether you acquire the taint.																																						SOURCEPAGE:p.65
+Saddleback				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You have a unique karmic tie to Moto Chai. You receive a +3 bonus on all Ride checks.																																BONUS:SKILL|Ride|2									SOURCEPAGE:p.65
+Scholar of Nature			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Asako Hanasaku. You gain a +2 bonus on Alchemy and Heal checks.																																BONUS:SKILL|Craft (Alchemy),Heal|2							SOURCEPAGE:p.65
+Sea Legs				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Yasuki Fumoki. You gain a +2 bonus on Balance and Profession (Sailor) checks.																														BONUS:SKILL|Balance,Profession (Sailor)|2						SOURCEPAGE:p.65
+Silver Tongue			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Mirumoto Kaijuko. You gain a +2 bonus on Bluff and Diplomacy checks.																																BONUS:SKILL|Bluff,Diplomacy|2								SOURCEPAGE:p.65
+Smooth Talk				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You are descended from Doji Taehime. You gain a +2 bonus on Diplomacy and Sense Motive checks.																															BONUS:SKILL|Diplomacy,Sense Motive|2						SOURCEPAGE:p.66
+Soul of Honor			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Shinjo Martera. You are aware of any action or item that could adversely affect your honor or your alignment.																																						SOURCEPAGE:p.66
+Soul of Loyalty			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Mirumoto Tokeru. You gain a +4 bonus on Will saving throws against compulsion effects.																																									SOURCEPAGE:p.66
+Soul of Sincerity			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your are descended from the famous Scorpion daimyo Bayushi Tangen. You gain a +4 bonus on Sense Motive checks and a -2 penalty on Bluff checks.																							BONUS:SKILL|Sense Motive|4	BONUS:SKILL|Bluff|-2				SOURCEPAGE:p.66
+Spell Power				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your lineage traces back to the young shugenja Kuni Osaku. Three times per day you can cast a spell with extraordinary power.																																						SOURCEPAGE:p.66
+Spellcaster Support		TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Shiba Kaigen. You can use the Aid Another action to add +2 to the DC of an allied shugenja's spell.																																							SOURCEPAGE:p.66
+Strength of the Charger		TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You share the spirit of Utaku Shiko. You gain a +2 bonus on all Fortitude saves and +1 to your hit point total.							BONUS:CHECKS|Fortitude|2													BONUS:HP|CURRENTMAX|1													SOURCEPAGE:p.66
+Strength of the Crab		TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You claim descent from Hida. When fighting beside another Crab character, you gain a +1 morale bonus on attack rolls and saves vs. fear.																																				SOURCEPAGE:p.66
+Strong Soul				TYPE:Ancestor				PRELEVEL:MAX=1	DESC:You claim descent from Moto Soro. You get a +1 bonus on all Fort and Will saves and an additional +1 bonus vs. energy drain and death effects.		BONUS:CHECKS|Fortitude,Willpower|1																												SOURCEPAGE:p.66
+Warrior Instinct			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Matsu Hitomi. You gain a +2 bonus on Initiative and Spot checks.																			BONUS:COMBAT|INITIATIVE|2										BONUS:SKILL|Spot|2									SOURCEPAGE:p.66
+Warrior Shugenja			TYPE:Ancestor				PRELEVEL:MAX=1	DESC:Your ancestor is Agasha Nodotai. You gain a +2 bonus on your Concentration checks when casting defensively and a +1 bonus on your Fort saves.		BONUS:CHECKS|Fortitude|1																	BONUS:SKILL|Concentration|2								SOURCEPAGE:p.66
+
+
+#.MOD's
+Blind Fight.MOD			TYPE:General.Fighter.MartialArts
+Combat Reflexes.MOD		TYPE:General.Fighter.MartialArts
+Deflect Arrows.MOD		TYPE:General.Fighter.MartialArts
+Dodge.MOD				TYPE:General.Fighter.MartialArts
+Endurance.MOD			TYPE:General.MartialArts
+Great Fortitude.MOD		TYPE:General.MartialArts
+Improved Feint.MOD		TYPE:General.Fighter.MartialArts
+Improved Grapple.MOD		TYPE:MartialArts.Fighter
+Improved Initiative.MOD		TYPE:General.Fighter.MartialArts
+Improved Trip.MOD			TYPE:General.Fighter.MartialArts
+Improved Unarmed Strike.MOD	TYPE:General.Fighter.MartialArts
+Iron Will.MOD			TYPE:General.MartialArts
+Lightning Reflexes.MOD		TYPE:General.MartialArts
+Mobility.MOD			TYPE:General.Fighter.MartialArts
+Power Attack.MOD			TYPE:General.Fighter.MartialArts
+Run.MOD				TYPE:General.MartialArts
+Spring Attack.MOD			TYPE:General.Fighter.MartialArts
+Stunning Fist.MOD			TYPE:General.Fighter.MartialArts

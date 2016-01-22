@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Thu May 21 19:15:37 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Path of Magic	SOURCESHORT:Magic	SOURCEWEB:http://www.fantasyflightgames.com/llpom.html
+
+
+###Block: Weapon Proficiencies
+# Ability Name				Category of Ability		Type			Visible	Automatically Gained Weapon Prof.
+Arsenalist Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:WEAPONPROF|Crossbow (Repeating Heavy)|Crossbow (Repeating Light)
+

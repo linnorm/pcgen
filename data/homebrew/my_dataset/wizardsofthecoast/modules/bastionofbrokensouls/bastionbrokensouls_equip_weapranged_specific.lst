@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name						Output Name					Required Proficiency			Type												Cost		Weight	Base Item for EQMOD	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier			MODS		Range		Size		Source Page		Virtual Feat		Save checks bonus							Modify VAR						Weapon prop. bonus
+#+4 mighty composite longbow	SOURCEPAGE:p.29

@@ -1,0 +1,14 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Wizard	SOURCESHORT:QuintWizard	SOURCEWEB:http://mongoosepublishing.com
+
+# Equipment Name		Type							Number of Pages	Page Usage				Cost		Weight	Source Page
+Demonic Amulet		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:500	WT:3		SOURCEPAGE:pg. 62
+Elemental Amulet		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:500	WT:3		SOURCEPAGE:pg. 62
+Puzzle Strips		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:25	WT:3		SOURCEPAGE:pg. 62
+Rune Stone			TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:1000	WT:3		SOURCEPAGE:pg. 62
+Spell String		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:25	WT:3		SOURCEPAGE:pg. 62
+Spellbook (Disguised)	TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:40	WT:3		SOURCEPAGE:pg. 62
+Tablet (Clay)		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:10	WT:3		SOURCEPAGE:pg. 62
+Tablet (Stone)		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:5	WT:3		SOURCEPAGE:pg. 62
+#Tattoos (per spell level)		TYPE:Spellbook.Goods.Tools.			COST:200	WT:3		SOURCEPAGE:pg. 62		NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)
+Wooden Slats		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:25	WT:3		SOURCEPAGE:pg. 62

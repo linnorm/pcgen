@@ -1,0 +1,27 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Equipment Name			Required Proficiency					Type				Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page								Combat bonus					Bonus to skill		Special Property
+AV-1A (Assault)			PROFICIENCY:ARMOR|AV-1A (Assault)			TYPE:Armor.Powered	COST:100000	WT:60		ACCHECK:-8		MAXDEX:0		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|11|TYPE=Armor.REPLACE
+AV-1C (Combat)			PROFICIENCY:ARMOR|AV-1C (Combat)			TYPE:Armor.Powered	COST:24000	WT:39		ACCHECK:-7		MAXDEX:0		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|9|TYPE=Armor.REPLACE
+AV-1S (Scout)			PROFICIENCY:ARMOR|AV-1S (Scout)			TYPE:Armor.Powered	COST:15000	WT:20		ACCHECK:-4		MAXDEX:3		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Camo Armor				PROFICIENCY:ARMOR|Camo Armor				TYPE:Armor.Light		COST:2000	WT:8		ACCHECK:-2		MAXDEX:4		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+Castaan Staad Armor		PROFICIENCY:ARMOR|Castaan Staad Armor		TYPE:Armor.Light		COST:12000	WT:4		ACCHECK:-1		MAXDEX:6		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Coruscant Guard Armor		PROFICIENCY:ARMOR|Coruscant Guard Armor		TYPE:Armor.Powered	COST:9750	WT:16		ACCHECK:-4		MAXDEX:2		SOURCEPAGE:conversions.swrpgnetwork.com			BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Coynite Battle Armor		PROFICIENCY:ARMOR|Coynite Battle Armor		TYPE:Armor.Medium		COST:18000	WT:12		ACCHECK:-4		MAXDEX:3		SOURCEPAGE:conversions.swrpgnetwork.com			BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Dura-Armor				PROFICIENCY:ARMOR|Dura-Armor				TYPE:Armor.Heavy		COST:10000	WT:38		ACCHECK:-8		MAXDEX:0		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|9|TYPE=Armor.REPLACE
+Flex-Armor				PROFICIENCY:ARMOR|Flex-Armor				TYPE:Armor.Medium		COST:2000	WT:16		ACCHECK:-4		MAXDEX:3		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Imperial Royal Guard Armor	PROFICIENCY:ARMOR|Imperial Royal Guard Armor	TYPE:Armor.Powered	COST:12000	WT:16		ACCHECK:-5		MAXDEX:3		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Light Scout Armor			PROFICIENCY:ARMOR|Light Scout Armor			TYPE:Armor.Light		COST:1500	WT:2		ACCHECK:0		MAXDEX:6		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE
+Link Armor (Heavy)		PROFICIENCY:ARMOR|Link Armor (Heavy)		TYPE:Armor.Medium		COST:4000	WT:14		ACCHECK:-3		MAXDEX:4		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Link Armor (Light)		PROFICIENCY:ARMOR|Link Armor (Light)		TYPE:Armor.Light		COST:1500	WT:7		ACCHECK:-2		MAXDEX:4		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+MPA-910 Steel Wraith Armor	PROFICIENCY:ARMOR|MPA-910 Steel Wraith Armor	TYPE:Armor.Medium		COST:100000	WT:15		ACCHECK:-3		MAXDEX:3		SOURCEPAGE:www.swrpgnetwork.com				BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE	BONUS:SKILL|Hide|6	SPROP:Armor has built in vibroblade in right gauntlet.
+Mimetic Body Armor		PROFICIENCY:ARMOR|Mimetic Body Armor		TYPE:Armor.Medium		COST:2800	WT:14.1	ACCHECK:-2		MAXDEX:3		SOURCEPAGE:www.swrpgnetwork.com				BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE	BONUS:SKILL|Hide|5
+Rad Trooper Armor			PROFICIENCY:ARMOR|Rad Trooper Armor			TYPE:Armor.Powered	COST:8500	WT:16		ACCHECK:-4		MAXDEX:2		SOURCEPAGE:conversions.swrpgnetwork.com			BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Sand Trooper Armor		PROFICIENCY:ARMOR|Sand Trooper Armor		TYPE:Armor.Powered	COST:8500	WT:16		ACCHECK:-4		MAXDEX:2		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Scout Trooper Armor		PROFICIENCY:ARMOR|Scout Trooper Armor		TYPE:Armor.Powered	COST:7300	WT:4		ACCHECK:-1		MAXDEX:5		SOURCEPAGE:conversions.swrpgnetwork.com			BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Sea Trooper Armor			PROFICIENCY:ARMOR|Sea Trooper Armor			TYPE:Armor.Powered	COST:10300	WT:5		ACCHECK:-1		MAXDEX:4		SOURCEPAGE:conversions.swrpgnetwork.com			BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Shadow Trooper Armor		PROFICIENCY:ARMOR|Shadow Trooper Armor		TYPE:Armor.Powered	COST:12550	WT:4		ACCHECK:0		MAXDEX:5		SOURCEPAGE:www.geocities.com/swrpg_resource_library	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Shell Spider Silk Armor		PROFICIENCY:ARMOR|Shell Spider Silk Armor		TYPE:Armor.Light		COST:7400	WT:2.4	ACCHECK:-1		MAXDEX:5		SOURCEPAGE:www.swrpgnetwork.com				BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Snow Trooper Armor		PROFICIENCY:ARMOR|Snow Trooper Armor		TYPE:Armor.Powered	COST:8500	WT:16		ACCHECK:-4		MAXDEX:2		SOURCEPAGE:conversions.swrpgnetwork.com			BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Space Trooper Armor		PROFICIENCY:ARMOR|Space Trooper Armor		TYPE:Armor.Powered	COST:56000	WT:45		ACCHECK:-5		MAXDEX:1		SOURCEPAGE:conversions.swrpgnetwork.com			BONUS:COMBAT|AC|12|TYPE=Armor.REPLACE

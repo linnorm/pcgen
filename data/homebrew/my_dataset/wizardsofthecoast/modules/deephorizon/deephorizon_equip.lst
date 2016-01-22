@@ -1,0 +1,22 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/15/03
+SOURCELONG:Deep Horizon	SOURCESHORT:DeepH	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name				Type							Cost		Weight	Source Page		Special Property
+Breathing Mask				TYPE:Goods.General.Resizable.Headgear	COST:1000	WT:5		SOURCEPAGE:p.31	SPROP:Allows wearer to breathe for 4 hours
+Cable						TYPE:Goods.General				COST:25	WT:2		SOURCEPAGE:p.31
+Cablespool					TYPE:Goods.General				COST:125	WT:2		SOURCEPAGE:p.32
+Cablespool (w/ 100' cable)		TYPE:Goods.General				COST:175	WT:6		SOURCEPAGE:p.32
+Desmodu History Book			TYPE:Goods.General				COST:200	WT:.01	SOURCEPAGE:p.17
+Gold Bar					TYPE:Goods.General				COST:250	WT:5		SOURCEPAGE:p.10
+Harness					TYPE:Goods.Clothing.Resizable			COST:20	WT:2		SOURCEPAGE:p.32
+Jade Spider Statuette			TYPE:Goods.General				COST:700	WT:.01	SOURCEPAGE:p.13
+Kinship Badge				TYPE:Goods.General				COST:5	WT:.01	SOURCEPAGE:p.32
+Platinum Bar				TYPE:Goods.General				COST:2500	WT:5		SOURCEPAGE:p.10
+Platinum/Diamond Cloakpin		TYPE:Goods.General.Amulet			COST:5000	WT:.01	SOURCEPAGE:p.13
+Platinum Tiara				TYPE:Goods.General.Headgear			COST:5000	WT:.01	SOURCEPAGE:p.15
+Silver Bar					TYPE:Goods.General				COST:25	WT:5		SOURCEPAGE:p.10
+Silver Belt Buckle (Onyx Inlay)	TYPE:Goods.General				COST:28	WT:.01	SOURCEPAGE:p.6
+Silver Snuff Box (Turquiose Inlay)	TYPE:Goods.General				COST:100	WT:.01	SOURCEPAGE:p.11
+Teleport Trap Key				TYPE:Goods.General				COST:0	WT:.01	SOURCEPAGE:p.13
+Zubeuel's Hookah				TYPE:Goods.General				COST:35	WT:5		SOURCEPAGE:p.23

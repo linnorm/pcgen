@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Witch's Handbook	SOURCESHORT:witchhandbook	SOURCEWEB:http://www.greenronin.com
+
+
+###Block: Rune Wands
+# Modifier Name					Unique Key			Type					Cost														Visible	Type granted				Source Page				Required Type				Prohibited Type			Choose
+#Rune Wand						KEY:RUNEWAND		TYPE:RuneWand																	VISIBLE:QUALIFY	ITYPE:RuneWand.Arcane
+
+# Modifier Name					Unique Key		Naming Option	Type				Cost													Visible		Type granted				Source Page		Required Type		Special Property							Choose
+|Spell Effect (Single Use/Spell Trigger)	KEY:RW_1USE		NAMEOPT:SPELL	TYPE:RuneWand.Arcane	COST:(25*(max((%SPELLLEVEL),(1/2)))*%CASTERLEVEL+%SPELLCOST+(5*%SPELLXPCOST)	VISIBLE:QUALIFY	ITYPE:Enhancement.Magic.Consumable	SOURCEPAGE:pg. 44	PRETYPE:1,RuneWand										CHOOSE:EQBUILDER.SPELL|Arcane|0|9
+
+
+##Block: Ritual Rod
+# Modifier Name					Unique Key		Naming Option	Type				Cost													Visible		Type granted				Source Page		Required Type		Special Property							Choose
+Ritual Rod						KEY:RITUALROD				TYPE:Rod			COST:(1000*%CHOICE*%CHOICE)									VISIBLE:QUALIFY	ITYPE:Enhancement.Magic			SOURCEPAGE:pg. 45	PRETYPE:1,Rod		SPROP:Grants %CHOICE bonus spell levels for rituals.	CHOOSE:NUMBER|MIN=1|MAX=10|TITLE=NUMBER

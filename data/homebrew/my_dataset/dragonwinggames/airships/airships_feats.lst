@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Dragon Wing Games - Airships	SOURCESHORT:Airships	SOURCEWEB:http://www.dragonwing.net
+
+# Feat Name						Type			Req. Att.	Required Feat						Required Skill					Required Stat	Description																													Stackable?	Multiple?	Automatically Gained Weapon Prof.	Bonus to skill								Source Page
+Aerial Balance					TYPE:General																					DESC:You are skilled at maintaining and regaining your feet during the worst conditions while airborne.																																	SOURCEPAGE:pg. 70
+Aerial Command					TYPE:General											PRESKILL:1,Profession (Air Sailor)=10				DESC:You know airships inside and out and are able to get the most from your crew.																																					SOURCEPAGE:pg. 70
+Aerial Tactics					TYPE:General	PREATT:5	PREFEAT:1,Weapon Proficiency (Airship Weapons)											DESC:You are skilled at knowing when and where to attack airships and are able to guide others.																																			SOURCEPAGE:pg. 70
+Engine Savant					TYPE:Metamagic											PRESKILL:1,Craft (Airship Engine)=10				DESC:When constructing airship engines, you are able to tweak the design to surpass the normal power factor limits.											STACK:YES	MULT:YES																	SOURCEPAGE:pg. 70
+Instinctive Navigation				TYPE:General																					DESC:You have an inborn skill for navigation that not only allows you to become lost less fequently, but also to find routes that are more efficient than others.														BONUS:SKILL|Profession (Airship Navigator)|2|TYPE=Insight	SOURCEPAGE:pg. 70
+Natural Pilot					TYPE:General																		PRESTAT:1,WIS=15	DESC:Your skill while piloting airships is legendary, from your ability to control the airship in a storm to your talent for helping the weapons' crews to line up their shots.											BONUS:SKILL|Profession (Airship Pilot)|2|TYPE=Insight		SOURCEPAGE:pg. 71
+Rigging Combat					TYPE:General	PREATT:7	PREFEAT:2,Aerial Balance,Mobility													DESC:You know how to fight from the rigging of an airship with greater proficiency than most.																																			SOURCEPAGE:pg. 71
+Weapon Proficiency (Airship Weapons)	TYPE:General	PREATT:3																			DESC:You know how to load, aim, and fire the weaponry found aboard airships.																						AUTO:WEAPONPROF|TYPE=Airship												SOURCEPAGE:pg. 71

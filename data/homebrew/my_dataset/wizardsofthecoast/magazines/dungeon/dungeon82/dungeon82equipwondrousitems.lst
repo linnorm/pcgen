@@ -1,0 +1,7 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #82	SOURCESHORT:WotC-Dungeon #82	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+# Equipment Name			Type				Cost		Weight	Source Page		Special Property
+Symbol of the False Prophet	TYPE:Magic.Wondrous	COST:9216	WT:1		SOURCEPAGE:p.90	SPROP:Mass Charm, 4 Charges
+

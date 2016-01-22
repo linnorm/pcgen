@@ -1,0 +1,6 @@
+# CVS $Revision: 1.2 $ $Author: tir-gwaith $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Star Wars Gamer 7	SOURCESHORT:SWG7	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+#Standard Feats
+# Feat Name		Type			Required Skill		Required Stat	Description										Source Page
+Vehicle Dodge	TYPE:General	PRESKILL:1,Pilot=6	PRESTAT:1,DEX=13	DESC:You are adept at dodging attacks while piloting a vehicle.	SOURCEPAGE:p.97

@@ -1,0 +1,16 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Sat May 11 10:46:17 2002 -- reformated by prettylst.pl v1.12
+# $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dungeon Issue #86
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dungeon #86
+SOURCESHORT:WotC-Dungeon #86
+SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+EQUIPMENT:dungeon86equipweapranged.lst
+EQUIPMENT:dungeon86equipweapmelee.lst
+RACE:dungeon86races.lst
+TEMPLATE:dungeon86templates.lst
+WEAPONPROF:dungeon86weapprofs.lst

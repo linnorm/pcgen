@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Equipment Name				Type					Cost		Weight	Damage	Size		Source Page		Special Property
+Arrows (Bow/10)				TYPE:Ammunition.Primitive	COST:20	WT:0.8					SOURCEPAGE:p.132
+Bullets (Sling/10)			TYPE:Ammunition.Primitive	COST:5	WT:1						SOURCEPAGE:p.132
+Energy balls (Cesta or Atlatl/10)	TYPE:Ammunition.Exotic.Energy	COST:50	WT:0.35	DAMAGE:2d8	SIZE:S	SOURCEPAGE:p.132	SPROP:2d8 damage when hurled.
+Quarrels (Bowcaster/10)			TYPE:Ammunition.Exotic		COST:400	WT:1						SOURCEPAGE:p.132

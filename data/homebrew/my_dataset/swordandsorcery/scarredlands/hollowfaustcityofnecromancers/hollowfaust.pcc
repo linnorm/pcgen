@@ -1,0 +1,22 @@
+# CVS $Revision: 1.2 $ $Author: rax_the_grey $
+CAMPAIGN:SSS - Hollowfaust - City of Necromancers 3.5
+GAMEMODE:35e
+TYPE:Sword and Sorcery Studios.Scarred Lands
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+RANK:9
+SOURCELONG:Hollowfaust - City of Necromancers
+SOURCESHORT:Hollowfaust
+SOURCEWEB:http://www.swordsorcery.com
+
+CLASS:hollowfaust_classes.lst
+FEAT:hollowfaust_feats.lst
+EQUIPMOD:hollowfaust_eqmodifiers.lst
+SKILL:hollowfaust_skills.lst
+SPELL:hollowfaust_spells.lst
+EQUIPMENT:hollowfaust_rings.lst
+EQUIPMENT:hollowfaust_weapons.lst
+EQUIPMENT:hollowfaust_staves.lst
+EQUIPMENT:hollowfaust_wondrous.lst
+

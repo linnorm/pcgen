@@ -1,0 +1,31 @@
+# CVS $Revision$ $Author$ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+CAMPAIGN:Heroes of High Favor - Dwarves
+RANK:9
+GAMEMODE:3e
+GENRE:Fantasy
+BOOKTYPE:x
+SETTING:x
+TYPE:x
+PUBNAMELONG:Badaxe Games
+PUBNAMESHORT:Badaxe Games
+PUBNAMEWEB:x
+SOURCELONG:Heroes of High Favor - Dwarves
+SOURCESHORT:HoHF - Dwarves
+SOURCEWEB:x
+ISOGL:YES
+COPYRIGHT:x
+COPYRIGHT:x
+COPYRIGHT:PCGen dataset conversion for the System Reference Document Copyright 2001-2004, PCgen Data team (Including, but not limited to Andrew McDougall (Tir Gwaith), Doug McMill, Paul W. King, Chris Chandler (Barak), Michael Gray (Taluonr Iscandar), Kenneth Walters (GldDragon35), Mike Sledge (zodar6), Patryk Adamski (Ruemere), Larry Davis (Sir George Anonymous), James Dempsey, Bryan (Merton Monk) McRoberts, Thomas Jannes (chipoulou), Samuel Hendricks (NotMousse), Sigurdur H. Olafsson, Jayme Cox, Jeremy "Illrigger" Turnley, Emily Smirle, Martin Fagerström, Chris McLaughlin, Raymond Yao, Eddy Anthony (MoSaT), Thomas Clegg (Arknight), Andargor, Devon Jones, Aaron Divinsky)
+
+INFOTEXT:x
+
+
+CLASS:heroes_dwarves_classes.lst
+EQUIPMOD:heroes_dwarves_equipmods.lst
+FEAT:heroes_dwarves_feats.lst
+RACE:heroes_dwarves_races.lst
+SKILL:heroes_dwarves_skills.lst
+
+#
+# DONE
+#

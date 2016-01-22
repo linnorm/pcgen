@@ -1,0 +1,11 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+#Written by-Art Gopher
+SOURCELONG:The Sunless Citadel	SOURCESHORT:SunlessC	SOURCEWEB:http://www.wizards.com/
+
+#Specific Gems
+# Equipment Name			Output Name						Type				Cost		Weight	Source Page		Special Property
+Sapphire (Mephit)			OUTPUTNAME:Mephit Sapphire			TYPE:Goods.Gem.Specific	COST:5	WT:.01	SOURCEPAGE:p.11
+Jade (Figurine(Dragon))		OUTPUTNAME:Jade Figurine of a Dragon	TYPE:Goods.Gem.Specific	COST:15	WT:.01	SOURCEPAGE:p.12
+Peridot (Carved(Dragon))	OUTPUTNAME:Dragon Carved Peridot		TYPE:Goods.Gem.Specific	COST:10	WT:.01	SOURCEPAGE:p.16
+Onyx (Durnn)			OUTPUTNAME:Durnn's Onyx				TYPE:Goods.Gem.Specific	COST:30	WT:.01	SOURCEPAGE:p.22
+Sapphire (Thoqqua)		OUTPUTNAME:Thoqqua Sapphire			TYPE:Goods.Gem.Specific	COST:50	WT:.01	SOURCEPAGE:p.24	SPROP:Found as a crystal concentration inside a Thoqqua.

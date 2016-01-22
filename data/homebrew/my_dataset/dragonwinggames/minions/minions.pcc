@@ -1,0 +1,25 @@
+# CVS $Revision: 496 $ $Author: tir-gwaith $ -- Mon Nov 18 04:21:56 2002 -- reformated by C:\Perl\PCgen\prettylst.pl v1.19 (build 213)
+# Input by Ruemere, email: ruemere@poczta.onet.pl
+CAMPAIGN:DWG - Minions 3.5
+RANK:9
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+TYPE:Dragon Wing Games.Supplement
+PUBNAMELONG:DragonWing Games
+PUBNAMESHORT:DWG
+PUBNAMEWEB:http://www.dragonwing.net
+SOURCELONG:Minions
+SOURCESHORT:Minions
+SOURCEWEB:http://www.dragonwing.net
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Oathbound: Domains of the Forge Copyright 2002, Dragon Wing Games, Inc.
+COPYRIGHT:System Reference Document Copyright 1999, 2000, Wizards of the Coast, Inc.
+COPYRIGHT:PCGen dataset conversion for the Minions Copyright 2007, PCGen Data team (Including, but not limited to Ivan A. Finzen IV (rax_the_grey))
+
+
+RACE:minions_races.lst
+BIOSET:minions_biosettings.lst
+LANGUAGE:minions_languages.lst
+DEITY:minions_deities.lst

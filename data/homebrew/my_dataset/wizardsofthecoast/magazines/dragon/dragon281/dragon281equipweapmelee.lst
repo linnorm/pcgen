@@ -1,0 +1,6 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #281	SOURCESHORT:WotC-Dragon #281	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name	Type								Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Size		Source Page
+Panther Claw	TYPE:Weapon.Exotic.Melee.Slashing.Piercing	COST:75	WT:3		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d4	SIZE:T	SOURCEPAGE:p.38
+Scimitar (Double)	TYPE:Weapon.Exotic.Melee.Slashing.Double		COST:125	WT:15		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d6	SIZE:L	SOURCEPAGE:p.38

@@ -1,0 +1,21 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Dwarf	SOURCESHORT:QuintDwarf	SOURCEWEB:http://mongoosepublishing.com
+# Original Entry by: Brian Lubkeman
+
+# Weapon Name			Type			Nb Hands
+Armour Blades			TYPE:Martial
+Bolt Driver				TYPE:Martial
+Crossbow (Axe-bladed, Bow)	TYPE:Simple		HANDS:2
+Crossbow (Axe-bladed, Axe)	TYPE:Martial	HANDS:2
+Rock Crusher			TYPE:Exotic
+#Runecannon (Defender)		TYPE:Exotic		HANDS:2
+#Runecannon (Long)		TYPE:Exotic		HANDS:2
+#Runecannon (Offhand)		TYPE:Exotic
+#Runecannon (Short)		TYPE:Exotic
+#Runecannon (Stationary)	TYPE:Exotic		HANDS:2
+Runecannon				TYPE:Exotic
+Shield Hook				TYPE:Martial
+Socket Haft (Spear)		TYPE:Simple		HANDS:2
+Socket Haft (Battleaxe)		TYPE:Martial
+Socket Haft (Warhammer)		TYPE:Martial
+Springspear				TYPE:Martial

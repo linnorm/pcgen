@@ -1,0 +1,22 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak  09/18/03
+SOURCELONG:Lord of the Iron Fortress	SOURCESHORT:LordIronF	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name			Output Name						Type				Cost		Weight	Source Page
+Necklace (Ruby/Gold)		OUTPUTNAME:Ruby Studded Gold Necklace	TYPE:Goods.General	COST:4200	WT:.01	SOURCEPAGE:p.14
+Iron Message Piece									TYPE:Goods.General	COST:0	WT:.01	SOURCEPAGE:p.19
+Carpet											TYPE:Goods.General	COST:100	WT:100	SOURCEPAGE:p.23
+Tapestry											TYPE:Goods.General	COST:100	WT:100	SOURCEPAGE:p.23
+Silk Wall Hangings									TYPE:Goods.General	COST:300	WT:10		SOURCEPAGE:p.32
+Silk Wall Hangings (Cheap)								TYPE:Goods.General	COST:25	WT:10		SOURCEPAGE:p.32
+Gold Tiger Statue										TYPE:Goods.General	COST:900	WT:1		SOURCEPAGE:p.32
+Silver Chalice w/ Obsidian								TYPE:Goods.General	COST:100	WT:.5		SOURCEPAGE:p.32
+Box Key											TYPE:Goods.General	COST:0	WT:.01	SOURCEPAGE:p.32
+Jasmine Perfume (Flask)									TYPE:Goods.General	COST:100	WT:.01	SOURCEPAGE:p.32
+Silver Mirror										TYPE:Goods.General	COST:1000	WT:10		SOURCEPAGE:p.32
+Bronze Skull Chalice									TYPE:Goods.General	COST:55	WT:.01	SOURCEPAGE:p.33
+Hellish Wine (Cask)									TYPE:Goods.General	COST:300	WT:10		SOURCEPAGE:p.33
+Jade Dragon Statuette									TYPE:Goods.General	COST:350	WT:.01	SOURCEPAGE:p.33
+Lydzin Bust (Gold)									TYPE:Goods.General	COST:670	WT:20		SOURCEPAGE:p.33
+Gold Chain w/ Emerald Pendant								TYPE:Goods.General	COST:1100	WT:.01	SOURCEPAGE:p.33
+Platinum Tiara w/ Diamonds								TYPE:Goods.General	COST:3900	WT:1		SOURCEPAGE:p.33

@@ -1,0 +1,6 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Fri Oct 19 20:16:09 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Demonology	SOURCESHORT:Demonology	SOURCEWEB:http://www.mongoosepublishing.com	SOURCEDATE:2003-01
+
+
+# Equipment Name	Type			Cost		Weight	Source Page		Special Property
+Rod (Summoning)	TYPE:Magic.Rod	COST:15000	WT:0		SOURCEPAGE:p.43	SPROP:Provides +1 to summoning checks.

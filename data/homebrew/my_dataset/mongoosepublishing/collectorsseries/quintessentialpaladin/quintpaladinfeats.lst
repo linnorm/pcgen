@@ -1,0 +1,28 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Paladin	SOURCESHORT:QuintPaladin	SOURCEWEB:http://mongoosepublishing.com
+
+# Feat Name			Output Name					Type
+Agile Mount Dismount	OUTPUTNAME:Agile Mount-Dismount	TYPE:General
+Armour Agility								TYPE:General
+Armour Adroitness								TYPE:General
+Aura of Trust								TYPE:Special
+Born Leader									TYPE:General
+Deflective Shield								TYPE:General.Fighter
+Divine Inspiration							TYPE:Special
+Domain Favour								TYPE:Special
+Empathic Awareness							TYPE:General
+Extra Smiting								TYPE:Special
+Healing Touch								TYPE:Special
+Holy Charge									TYPE:Special
+Improved Shield Parry							TYPE:General
+Improved Special Mount							TYPE:Special
+Improved Smite								TYPE:Special
+Increased Empathy								TYPE:General
+Learned									TYPE:General
+Pure of Heart								TYPE:General
+Remote Healing								TYPE:Metamagic
+Remove Enchantment							TYPE:Special
+Shaft Fighting								TYPE:General.Fighter
+Shield Parry								TYPE:General.Fighter
+Shield Rush									TYPE:General.Fighter
+True of Purpose								TYPE:General

@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Advanced Player's Manual	SOURCESHORT:AdvPlayerMan	SOURCEWEB:http://www.greenronin.com
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Automatic Languages	Save checks bonus											Combat bonus
+CLASS:Psychic	HD:6		TYPE:Base.PC	ABB:Psy		MAXLEVEL:20	SOURCEPAGE:pg. 180	LANGAUTO:Literacy		BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Psychic	STARTSKILLPTS:6	CSKILL:Bluff|Concentration|TYPE=Craft|Diplomancy|Gather Information|Intimidate|TYPE=Knowledge|Listen|TYPE=Perform|TYPE=Profession|Psychic Sense|Psychic Shield|Search|Sense Motive|Spot

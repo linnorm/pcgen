@@ -1,0 +1,17 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+## Sandals of the Tiger's Leap are from Sword and Fist.
+## Sharette's Sash is Sunite Sash from Magic of Faerun minus the Handfire spell.
+
+# Equipment Name			Product Identity?	Output Name					Type						Contains			Cost		Weight	Slot Needed	Required Skill			Source Page		Combat bonus				Bonus to skill																										Stat bonus					Special Property
+Amulet of Ley Power		NAMEISPI:YES	OUTPUTNAME:Amulet of Ley Power	TYPE:Magic.Wondrous.Amulet						COST:2500	WT:0									SOURCEPAGE:Ch.10							BONUS:SKILL|Use Ley Line|5|TYPE=Competence																											SPROP:Provides a +5 bonus to Use Ley Line skill
+Sandals of the Tiger's Leap										TYPE:Magic.Wondrous.Boot						COST:3500	WT:1		SLOTS:2	PRESKILL:1,Jump=5,Tumble=5	SOURCEPAGE:p.77																																									SPROP:Can do a flying kick on a charge which deals double normal unarmed damage.
+Sharette's Sash												TYPE:Magic.Wondrous.Belt						COST:16000	WT:1												BONUS:COMBAT|AC|2|TYPE=Deflection																													BONUS:STAT|CHA|2|TYPE=Enhancement
+
+Runic Tools (+5)												TYPE:Goods.Tools.Artisan						COST:100	WT:1																		BONUS:SKILL|Craft (Armorsmithing),Craft (Blacksmithing),Craft (Coppersmithing),Craft (Stonecarving),Craft (Stonemasonry),Craft (Weaponsmithing)|5|TYPE=Circumstance
+Runic Tools (+10)												TYPE:Goods.Tools.Artisan						COST:400	WT:1																		BONUS:SKILL|Craft (Armorsmithing),Craft (Blacksmithing),Craft (Coppersmithing),Craft (Stonecarving),Craft (Stonemasonry),Craft (Weaponsmithing)|10|TYPE=Circumstance
+Runic Tools (+15)												TYPE:Goods.Tools.Artisan						COST:900	WT:1																		BONUS:SKILL|Craft (Armorsmithing),Craft (Blacksmithing),Craft (Coppersmithing),Craft (Stonecarving),Craft (Stonemasonry),Craft (Weaponsmithing)|15|TYPE=Circumstance
+
+SOURCESHORT:TomeBlood	SOURCEWEB:http://www.wizards.com/
+Belt of Many Pockets											TYPE:Magic.Wondrous.Belt.Container	CONTAINS:*640|Any=64	COST:11000	WT:1									SOURCEPAGE:p.75

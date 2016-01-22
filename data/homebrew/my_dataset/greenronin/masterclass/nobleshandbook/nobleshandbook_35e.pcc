@@ -1,0 +1,35 @@
+# CVS $Revision$ $Author$ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Orginal Entry: rax_the_grey
+CAMPAIGN:The Noble's Handbook
+GAMEMODE:35e
+RANK:6
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+TYPE:Green Ronin Publishing.Supplement.Master Class
+PUBNAMELONG:Green Ronin
+PUBNAMESHORT:Ronin
+PUBNAMEWEB:http://www.greenronin.com
+SOURCELONG:The Noble's Handbook
+SOURCESHORT:nobleshandbook
+SOURCEWEB:http://www.greenronin.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:The Nobles's Handbook, Copyright 2003, Green Ronin Publishing;Author Rodney Thompson
+COPYRIGHT:PCGen dataset conversion for The Noble's Handbook 2007, Including, but not limited to rax_the_grey
+
+# This alternate pcc is based on "Noble's Handbook 3.5 Update" from http://www.greenronin.com/errata/index.php?id=1302
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+CLASS:nobleshandbook_classes.lst
+CLASS:nobleshandbook_classes_prestige.lst
+FEAT:nobleshandbook_feats.lst
+FEAT:nobleshandbook_feats_hidden.lst
+SKILL:nobleshandbook_skills.lst
+
+# EQUIPMENT:nobleshandbook_equip_rodsstaffswands.lst
+# EQUIPMENT:nobleshandbook_equip_weap_melee_specific.lst
+# EQUIPMENT:nobleshandbook_equip_wondrousitems.lst

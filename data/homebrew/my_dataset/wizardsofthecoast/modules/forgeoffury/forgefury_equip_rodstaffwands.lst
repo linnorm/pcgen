@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 09/16/03
+SOURCELONG:The Forge of Fury	SOURCESHORT:ForgeFury	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name						Type			Cost		Weight	Base Item for EQMOD	Modifier													Source Page
+Wand of Light (FF)					TYPE:Magic.Wand	COST:375	WT:.01	BASEITEM:Wand		EQMOD:SE_50TRIGGER|SPELLNAME[Silence]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[20]		SOURCEPAGE:p.13
+Wand of Magic Missile (3rd-level caster) (FF)	TYPE:Magic.Wand	COST:2250	WT:.01	BASEITEM:Wand		EQMOD:SE_50TRIGGER|SPELLNAME[Magic Missile]SPELLLEVEL[1]CASTERLEVEL[3]CHARGES[32]	SOURCEPAGE:p.28

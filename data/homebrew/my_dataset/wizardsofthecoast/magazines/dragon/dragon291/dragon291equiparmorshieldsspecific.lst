@@ -1,0 +1,7 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #291	SOURCESHORT:WotC-Dragon #291	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name				Required Proficiency						Type							Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus					Special Property
+Badger Armor (Half-Plate +1)		PROFICIENCY:ARMOR|Badger Armor (Half-Plate +1)		TYPE:Magic.Armor.Heavy.Suit			COST:9562	WT:50		ACCHECK:-7		MAXDEX:0		SOURCEPAGE:p.49	SPELLFAILURE:40		BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE	SPROP:Can polymorph into badger or dire badger once per day
+Doppelganger Armor (Leather +1)	PROFICIENCY:ARMOR|Doppelganger Armor (Leather +1)	TYPE:Magic.Armor.Light.Suit.Nonmetal	COST:22160	WT:15		ACCHECK:0		MAXDEX:6		SOURCEPAGE:p.50	SPELLFAILURE:10		BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE	SPROP:Store someone image for latter use with an improve Alter Self
+Trapfinder Armor (Leather +2)		PROFICIENCY:ARMOR|Trapfinder Armor (Leather +2)		TYPE:Magic.Armor.Light.Suit.Nonmetal	COST:12960	WT:15		ACCHECK:0		MAXDEX:6		SOURCEPAGE:p.52	SPELLFAILURE:10		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	SPROP:Find Traps and detect magic traps three times a day

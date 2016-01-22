@@ -1,0 +1,9 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 7	SOURCESHORT:SWG7	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Class Name	Hit Dice	Type			Source Page			Save checks bonus																										Combat bonus		Modify VAR
+CLASS:Vehicle Ace	HD:8		TYPE:PC.Prestige	SOURCEPAGE:pg.104-105	BONUS:CHECKS|BASE.FORTITUDE|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:COMBAT|BAB|3*CL/4	BONUS:VAR|ForcePoint|CL
+# Class Name	Req. Att.	Required Feat										Required Skill
+CLASS:Vehicle Ace	PREATT:3	PREFEAT:2,Weapon Group Proficiency (Vehicle Weapons),Vehicle Dodge	PRESKILL:1,Pilot=8	PRESKILL:1,Repair=6
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Vehicle Ace	STARTSKILLPTS:4	CSKILL:Computer Use|TYPE=Knowledge|Pilot|TYPE=Profession|Repair|Spot

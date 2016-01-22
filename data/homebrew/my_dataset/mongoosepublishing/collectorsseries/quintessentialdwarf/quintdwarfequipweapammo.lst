@@ -1,0 +1,22 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Dwarf	SOURCESHORT:QuintDwarf	SOURCEWEB:http://mongoosepublishing.com
+# Original Entry by: Brian Lubkeman
+
+# Equipment Name		Type				Cost		Weight	Source Page		Base Quantity	Critical Hit Multiplier		Critical Hit Range	Damage		Range
+#RUNECANNON -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Equipment Name			Type					Cost		Weight	Base Quantity	Critical Hit Multiplier	Critical Hit Range	Damage	Range			Source Page
+Runecannon (Ball)			TYPE:Ammunition.Standard	COST:1.5	WT:.1					CRITMULT:x2			CRITRANGE:2			DAMAGE:4d10	RANGE:20		SOURCEPAGE:pg. 45
+Runecannon (Ball/10)		TYPE:Ammunition.Standard	COST:15	WT:1		BASEQTY:10		CRITMULT:x2			CRITRANGE:2			DAMAGE:4d10	RANGE:20		SOURCEPAGE:pg. 45
+Runecannon (Ball/50)		TYPE:Ammunition.Standard	COST:65	WT:5		BASEQTY:50		CRITMULT:x2			CRITRANGE:2			DAMAGE:4d10	RANGE:20		SOURCEPAGE:pg. 45
+Runecannon (Fire)			TYPE:Ammunition.Standard	COST:1	WT:.1					CRITMULT:x3			CRITRANGE:1			DAMAGE:2d8	RANGE:5		SOURCEPAGE:pg. 45
+Runecannon (Fire/10)		TYPE:Ammunition.Standard	COST:10	WT:1		BASEQTY:10		CRITMULT:x3			CRITRANGE:1			DAMAGE:2d8	RANGE:5		SOURCEPAGE:pg. 45
+Runecannon (Fire/50)		TYPE:Ammunition.Standard	COST:50	WT:5		BASEQTY:50		CRITMULT:x3			CRITRANGE:1			DAMAGE:2d8	RANGE:5		SOURCEPAGE:pg. 45
+Runecannon (Poison)		TYPE:Ammunition.Standard	COST:1	WT:.1					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	RANGE:10		SOURCEPAGE:pg. 45
+Runecannon (Poison/10)		TYPE:Ammunition.Standard	COST:10	WT:1		BASEQTY:10		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	RANGE:10		SOURCEPAGE:pg. 45
+Runecannon (Poison/50)		TYPE:Ammunition.Standard	COST:50	WT:5		BASEQTY:50		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	RANGE:10		SOURCEPAGE:pg. 45
+Runecannon (Razor Wings)	TYPE:Ammunition.Standard	COST:1.5	WT:.1					CRITMULT:x4			CRITRANGE:1			DAMAGE:2d10	RANGE:5		SOURCEPAGE:pg. 45
+Runecannon (Razor Wings/10)	TYPE:Ammunition.Standard	COST:15	WT:1		BASEQTY:10		CRITMULT:x4			CRITRANGE:1			DAMAGE:2d10	RANGE:5		SOURCEPAGE:pg. 45
+Runecannon (Razor Wings/50)	TYPE:Ammunition.Standard	COST:65	WT:5		BASEQTY:50		CRITMULT:x4			CRITRANGE:1			DAMAGE:2d10	RANGE:5		SOURCEPAGE:pg. 45
+Runecannon (Spikes)		TYPE:Ammunition.Standard	COST:1	WT:.1					CRITMULT:x2			CRITRANGE:2			DAMAGE:3d6	RANGE:Cone 40	SOURCEPAGE:pg. 45
+Runecannon (Spikes/10)		TYPE:Ammunition.Standard	COST:10	WT:1		BASEQTY:10		CRITMULT:x2			CRITRANGE:2			DAMAGE:3d6	RANGE:Cone 40	SOURCEPAGE:pg. 45
+Runecannon (Spikes/50)		TYPE:Ammunition.Standard	COST:50	WT:5		BASEQTY:50		CRITMULT:x2			CRITRANGE:2			DAMAGE:3d6	RANGE:Cone 40	SOURCEPAGE:pg. 45

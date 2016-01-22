@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Author Art Gopher -- Fri May 30
+SOURCELONG:The Sunless Citadel	SOURCESHORT:SunlessC	SOURCEWEB:http://www.wizards.com/
+
+#Specific Magic Items
+# Equipment Name			Output Name					Type									Cost		Weight	Source Page		Special Property
+Azan-gund (Night Caller)	OUTPUTNAME:Azan-gund, '[NAME]'	TYPE:Magic.Wondrous.Nephelium.Instrument.Resizable	COST:3000	WT:1		SOURCEPAGE:p.32	SPROP:1/week can animate dead by playing over a grave.

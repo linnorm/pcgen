@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Vigil Watch - Warren of the Ratmen	SOURCESHORT:VigilWatch	SOURCEWEB:http://www.swordsorcery.com
+
+#Exotic Ranged Weapons
+# Equipment Name	Type								Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Source Page		Special Property
+Firesand Caster	TYPE:Weapon.Exotic.Ranged.Standard.Fire		COST:200	WT:30		CRITMULT:-			CRITRANGE:-			DAMAGE:1d6	RANGE:20	SIZE:S	SOURCEPAGE:p.88	SPROP:Continues to burn for 2 rounds
+Flicknife		TYPE:Weapon.Exotic.Ranged.Standard.Piercing	COST:3	WT:.1		CRITMULT:x2			CRITRANGE:1			DAMAGE:1	RANGE:5	SIZE:S	SOURCEPAGE:p.88
+
+#Exotic Grenade Weapons
+#Equipment Name		Type									Cost			Weight	Critical Hit Multiplier		Critical Hit Range		Damage					Range		Size
+Firesand Orb	TYPE:Weapon.Exotic.Ranged.Standard.Fire		COST:20	WT:2		CRITMULT:-			CRITRANGE:-			DAMAGE:1d6	RANGE:10	SIZE:S	SOURCEPAGE:p.88	SPROP:Splash Damage

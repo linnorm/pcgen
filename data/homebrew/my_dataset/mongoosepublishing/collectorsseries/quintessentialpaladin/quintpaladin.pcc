@@ -1,0 +1,22 @@
+# CVS $Revision$ $Author$ -- Sat Oct 25 22:06:57 2003 -- reformated by prettylst.pl v1.30 (build 316)
+CAMPAIGN:Mongoose - Collectors Series - Quintessential Paladin
+GAMEMODE:35e
+TYPE:Mongoose.Collector Series
+RANK:9
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Paladin
+SOURCESHORT:QuintPaladin
+SOURCEWEB:http://mongoosepublishing.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:D20 System Rules & Content Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson
+COPYRIGHT:Open game content from The Quintessential Paladin Copyright 2002, Mongoose Publishing.
+
+CLASS:quintpaladinclasses.lst
+#EQUIPMENT:quintpaladinequiparmorshields.lst
+#EQUIPMENT:quintpaladinequipweapammo.lst
+#EQUIPMENT:quintpaladinequipweapranged.lst
+#EQUIPMENT:quintpaladinequipweapmelee.lst
+EQUIPMENT:quintpaladinequip.lst
+FEAT:quintpaladinfeats.lst
+SKILL:quintpaladinskills.lst
+#WEAPONPROF:quintpaladinweapprofs.lst

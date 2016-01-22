@@ -1,0 +1,15 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original Entry by Barak  06/26/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name			Type					Cost		Weight	Source Page		Special Property
+Armband of Reduction		TYPE:Magic.Wondrous.Armband	COST:2000	WT:1		SOURCEPAGE:p.154	SPROP:You may reduce your height by half once per day (2 hr duration)
+Black Thurible			TYPE:Magic.Wondrous				WT:1		SOURCEPAGE:p.154	SPROP:Does not work without Incense of Dreaming
+Contact medallion			TYPE:Magic.Wondrous.Amulet	COST:5000	WT:0		SOURCEPAGE:p.154	SPROP:Once per day you may speak a command word and forge a telepathic bond
+Everful Mug				TYPE:Magic.Wondrous		COST:800	WT:0		SOURCEPAGE:p.154	SPROP:With a command word this common-looking mug fills with water, cheap ale or watery wine (3/day)
+Hammersphere			TYPE:Magic.Wondrous		COST:2500	WT:0		SOURCEPAGE:p.154	SPROP:When held aloft and activated with a command word, the sphere conjures forth a giant hammer
+Incense of Dreaming		TYPE:Magic.Wondrous				WT:0		SOURCEPAGE:p.154	SPROP:Must be used with a Black Thurible or a Torch of Revealing
+Phylactery of Change		TYPE:Magic.Wondrous		COST:11200	WT:0		SOURCEPAGE:p.154	SPROP:You may invoke a polymorph self effect with an indefinite duration (once/day)
+Purple Robe of Tharizdun	TYPE:Magic.Wondrous.Robe			WT:1		SOURCEPAGE:p.154	SPROP:These robes protect to from the cold peculiar to the temples of the Dark God
+Stalwart Eye			TYPE:Magic.Wondrous		COST:10000	WT:2		SOURCEPAGE:p.155	SPROP:This Tiny birdlike item allows you to speak a command word and see through it's eyes
+Torch of Revealing		TYPE:Magic.Wondrous						SOURCEPAGE:p.155	SPROP:When Incense of Dreaming is burned in it, secret magically hidden objects in temples and shrines devoted to Tharizdun

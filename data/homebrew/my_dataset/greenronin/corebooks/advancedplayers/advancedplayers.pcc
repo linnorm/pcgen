@@ -1,0 +1,33 @@
+# CVS $Revision$ $Author$ -- Fri Oct  6 22:31:49 2006 -- reformated by prettylst.pl v1.35 (build 561)
+#Author: Andrew Maitland
+CAMPAIGN:GR - Advanced Player's Manual - Source Book
+GAMEMODE:35e
+TYPE:Green Ronin Publishing.Core
+RANK:5
+GENRE:Fantasy
+BOOKTYPE:Supplement
+PUBNAMELONG:Green Ronin
+PUBNAMESHORT:Ronin
+PUBNAMEWEB:http://www.greenronin.com
+SOURCELONG:Green Ronin - Advanced Player's Manual
+SOURCESHORT:Adv.Players
+SOURCEWEB:www.greenronin.com
+SOURCEDATE:2005-01
+ISOGL:YES
+COPYRIGHT:Green Ronin Publishing
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Green Ronin Publishing Copyright 2002, Green Ronin, Inc.
+COPYRIGHT:System Reference Document Copyright 1999, 2000, Wizards of the Coast, Inc.
+COPYRIGHT:PCGen dataset conversion for Advanced Player's Manual Copyright 2002-2003, PCgen Data Team including, but not limited to, Magus Knightcrawler, Andrew McDougall (Tir Gwaith).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+CLASS:advancedplayers_class.lst
+FEAT:advancedplayers_feats.lst
+SKILL:advancedplayers_skills.lst
+
+#SKILL:advancedplayers_skill2.lst
+###SKILL2 makes psychic skills get preface of Psychic- for easier testing.
+#SPELL:advancedplayers_spells.lst
+#  Still Working on Spells

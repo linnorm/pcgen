@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Minions	SOURCESHORT:Minions	SOURCEWEB:http://www.dragonwing.net
+
+# Race Name	Favored Class	Starting Feats	Size		Move			Face/Space	Reach		Vision		Automatic Languages	Bonus Languages				Combat bonus						Stat bonus								Feat					Nb Legs	Nb Hands	Natural Attacks																				Main Race Type	Race Subtype		Type			Level Adjustment	Source Page
+Knük		FAVCLASS:Ranger	STARTFEATS:1	SIZE:M	MOVE:Walk,30	FACE:5	REACH:5	VISION:Low-light	LANGAUTO:Knük		LANGBONUS:Avian,Canine,Common,Elven	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|2	BONUS:STAT|DEX|4	BONUS:STAT|WIS|4	FEAT:Multiweapon Fighting	LEGS:2	HANDS:5	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*4,1d4|Bite,Weapon.Natural.Melee.Bludgeoning.Piercing.Slashing,*1,1d6	RACETYPE:Humanoid	RACESUBTYPE:Feline	TYPE:Humanoid	LEVELADJUSTMENT:3	SOURCEPAGE:pg. 64

@@ -1,0 +1,21 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+
+## Need better way to do firearm profs.  Three profs is too klugey.  --Rax
+
+# Block: Simple
+# Weapon Name		Type														Nb Hands
+Mechanik's Wrench		TYPE:Simple
+Katrena's Hook		TYPE:Melee.Exotic.Slashing.Double.Exotic.Monk.MeleeSlashing.MeleePiercing.Piercing
+Menoth's Sting		TYPE:Exotic.Thrown.Piercing.RangedPiercing.Bludgeoning.RangedBludgeoning
+Battleblade (Caspian)	TYPE:Melee.Slashing.Martial.Sword.MeleeSlashing
+Battleglaive		TYPE:Melee.Slashing.Exotic.Sword.MeleeSlashing.TwoHanded
+Maul				TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.Hammer.TwoHanded
+
+# Block: Exotic
+# Weapon Name		Type														Nb Hands
+Pistol			TYPE:Exotic
+Rifle				TYPE:Exotic													HANDS:2
+Shield Gun			TYPE:Exotic
+Small Arms			TYPE:Exotic
+Claymore (Nyss)		TYPE:Martial.Exotic.Melee.Slashing.MeleeSlashing.Sword.TwoHanded

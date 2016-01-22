@@ -1,0 +1,11 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 6	SOURCESHORT:SWG6	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Equipment Name			Type		Cost		Weight	Source Page
+Thermoguard Jumpsuit		TYPE:Items	COST:2500	WT:5		SOURCEPAGE:p.92
+Camoflage Poncho(Artic)		TYPE:Items	COST:50	WT:0.5	SOURCEPAGE:p.92
+Camoflage Poncho(Desert)	TYPE:Items	COST:50	WT:0.5	SOURCEPAGE:p.92
+Camoflage Poncho(Forest)	TYPE:Items	COST:50	WT:0.5	SOURCEPAGE:p.92
+Camoflage Poncho(Jungle)	TYPE:Items	COST:50	WT:0.5	SOURCEPAGE:p.92
+Camoflage Poncho(Swamp)		TYPE:Items	COST:50	WT:0.5	SOURCEPAGE:p.92
+Camoflage Poncho(Urban)		TYPE:Items	COST:50	WT:0.5	SOURCEPAGE:p.92

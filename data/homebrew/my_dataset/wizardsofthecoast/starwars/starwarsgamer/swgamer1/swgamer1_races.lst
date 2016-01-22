@@ -1,0 +1,10 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 1	SOURCESHORT:SWG1	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Race Name	Favored Class			Starting Feats	Size		Move				Automatic Languages			Bonus Languages	Save checks bonus							Combat bonus			Bonus to skill					Stat bonus														Feat		Source Page
+Em'liy	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30		LANGAUTO:Basic,Em'liy			LANGBONUS:ALL															BONUS:SKILL|Hide,Move Silently,Survival|2	BONUS:STAT|CON|2	BONUS:STAT|CHA|-2												SOURCEPAGE:p.54
+Iskalonian	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,10,Swim,14	LANGAUTO:Chuhkyvi,Iskalonian,Basic	LANGBONUS:ALL															BONUS:SKILL|Listen=2=Swim=8			BONUS:STAT|INT|2	BONUS:STAT|WIS|-2												SOURCEPAGE:p.56
+Stenax	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,10,Fly,10	LANGAUTO:Stenax				LANGBONUS:ALL																						BONUS:STAT|STR|2	BONUS:STAT|CON|2	BONUS:STAT|INT|-2	BONUS:STAT|WIS|-2	BONUS:STAT|CHA|-4	FEAT:Infamy	SOURCEPAGE:p.58
+S'kytri	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,10,Fly,10	LANGAUTO:Basic				LANGBONUS:ALL	BONUS:CHECKS|Willpower|1																	BONUS:STAT|STR|2	BONUS:STAT|CON|2	BONUS:STAT|WIS|2									SOURCEPAGE:p.61
+Nagai		FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30		LANGAUTO:Basic,Nagaian			LANGBONUS:ALL	BONUS:CHECKS|Fortitude|-1	BONUS:CHECKS|Reflex|2													BONUS:STAT|STR|-2	BONUS:STAT|DEX|2												SOURCEPAGE:p.63
+Zeltron	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30		LANGAUTO:Basic				LANGBONUS:ALL										BONUS:COMBAT|Initiative|1	BONUS:SKILL|TYPE=Entertain|3			BONUS:STAT|WIS|-2	BONUS:STAT|CHA|4												SOURCEPAGE:p.66

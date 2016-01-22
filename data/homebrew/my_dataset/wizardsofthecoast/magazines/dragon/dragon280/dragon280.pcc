@@ -1,0 +1,15 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #280
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #280
+SOURCESHORT:WotC-Dragon #280
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon280classes.lst
+EQUIPMENT:dragon280equip.lst
+EQUIPMENT:dragon280equipwondrousitems.lst
+FEAT:dragon280feats.lst
+SPELL:dragon280spells.lst

@@ -1,0 +1,7 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #84	SOURCESHORT:WotC-Dungeon #84	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+#Rods
+# Equipment Name		Type			Cost		Weight	Source Page
+Rod (Viscid Globs)	TYPE:Magic.Rod	COST:6000	WT:0		SOURCEPAGE:p.53

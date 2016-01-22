@@ -1,0 +1,41 @@
+# CVS $Revision: 1.14 $ $Author: cchandler $
+CAMPAIGN:WotC - The Standing Stone
+RANK:5
+GAMEMODE:DnD
+GENRE:Fantasy
+BOOKTYPE:Module
+PUBNAMELONG:Wizards of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://www.wizards.com/
+SETTING:Dungeons and Dragons
+TYPE:Wizards of the Coast.Module
+SOURCELONG:The Standing Stone
+SOURCESHORT:StandingS
+SOURCEWEB:http://www.wizards.com/
+ISD20:YES
+ISOGL:NO
+ISLICENSED:YES
+COPYRIGHT:Dungeons & Dragons, D&D, Dungeon Master, and the Wizards of the Coast logo are registered trademarks owned by Wizards of the Coast, Inc.  The d20 System logo is a trademark of Wizards of the Coast, Inc.. All Wizards characters, character names, and the distinctive likenesses thereof are trademarks owned by Wizards of the Coast, Inc.  Distributed to the hobby, toy, and comic trade in the United States and Canada by regional distributors.  Distributed in the United States to the book trade by St. Martin's Press.  Distributed in Canada to the book trade by Fenn Ltd.  Distributed worldwide by Wizards of the Coast. Inc. and regional distributors.  This material is protected under the copyright laws of the United States of America. Any reproduction or unauthorized use of the material or artwork contained herein is prohibited without the express written permission of Wizards of the Coast. Inc. This product is a work of ficton.  Any similarity to actual people, organizations, places, or events is purely coincidental.  �2001 Wizards of the Coast.  Made in the U.S.A.
+RACE:standingstone_races.lst
+TEMPLATE:standingstone_templates.lst
+EQUIPMENT:standingstone_equip_rings.lst
+EQUIPMENT:standingstone_equip.lst
+EQUIPMENT:standingstone_equip_rodsstaffswands.lst
+SPELL:standingstone_spells.lst
+
+LICENSE:SOFTWARE LICENSE AND LIMITED WARRANTY
+LICENSE:PLEASE READ THIS LICENSE CAREFULLY BEFORE INSTALLING OR USING THE SOFTWARE.  BY USING THE SOFTWARE, YOU ARE AGREEING TO BE BOUND BY THE TERMS OF THIS LICENSE.  IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DELETE THE SOFTWARE AND ALL RELATED FILES FROM YOUR COMPUTER, AND PROMPTLY RETURN THIS PACKAGE AND ITS CONTENTS TO THE PLACE OF PURCHASE.
+LICENSE:The computer software, artwork, music, and other components included in this product (collectively the "Software") are the copyrighted property of Wizards of the Coast, Inc. ("Wizards").  The Software is licensed (not sold) to you, and Wizards owns all copyright, trade secret, patent and other proprietary rights in the Software.  You may use the Software on a single computer.  You may not:  (1) copy (other than once for back-up purposes), distribute, rent, lease or sublicense all or any portion of the Software; (2) modify or prepare derivative works of the Software; (3) transmit the Software over a network, by telephone, or electronically using any means; (4) design or distribute unauthorized levels; or (5) reverse engineer, decompile or disassemble the Software. You may transfer the Software, but only if the recipient agrees to accept the terms and conditions of this Agreement.  If you transfer the Software, you must transfer all components and documentation and erase any copies residing on computer equipment.  Your license is automatically terminated if you transfer the Software.
+LICENSE:Wizards warrants to the original consumer purchaser that the media furnished in this product will be free from defects in materials and workmanship under normal use for a period of ninety (90) days from the date of purchase (as evidenced by your receipt).  If the media supplied as part of this product proves to be defective, and provided that the consumer purchaser returns the media to Wizards, Wizards will replace the defective media.  You expressly acknowledge and agree that use of the Software is at your sole risk.  Except for the limited ninety (90) day warranty on the media set forth above, the Software and any related documentation or materials are provided "AS IS" and without warranty of any kind.  WIZARDS EXPRESSLY DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  WIZARDS DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE SOFTWARE WILL MEET YOUR REQUIREMENTS, OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE SOFTWARE WILL BE CORRECTED.  THE ENTIRE RISK AS TO THE RESULTS AND PERFORMANCE OF THE SOFTWARE IS ASSUMED BY YOU AND YOU (AND NOT WIZARDS) ASSUME THE ENTIRE COST OF ALL SERVICING, REPAIR AND/OR CORRECTION.  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU.
+LICENSE:UNDER NO CIRCUMSTANCES INCLUDING NEGLIGENCE SHALL WIZARDS, OR ITS DIRECTORS, OFFICERS, EMPLOYEES OR AGENTS, BE LIABLE TO YOU FOR ANY INCIDENTAL, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOST DATA, LOSS OF BUSINESS INFORMATION, AND THE LIKE) ARISING OUT OF THE POSSESSION, USE, OR MALFUNCTION OF THE SOFTWARE, INCLUDING WITHOUT LIMITATION DAMAGE TO PROPERTY AND, TO THE EXTENT PERMITTED BY LAW, DAMAGES FOR PERSONAL INJURY, EVEN IF WIZARDS OR A WIZARDS AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR LOSS.  SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.
+LICENSE:THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY HAVE OTHER RIGHTS DEPENDING ON THE LAWS IN YOUR STATE.  YOU AGREE THAT THE LIABILITY OF WIZARDS ARISING OUT OF ANY KIND OF LEGAL CLAIM (WHETHER IN CONTRACT, TORT, OR OTHERWISE) WILL NOT EXCEED THE AMOUNT YOU ORIGINALLY PAID FOR THE USE OF THE SOFTWARE.
+LICENSE:If the Software is acquired under agreement with the U.S. government or any contractor therewith, it is acquired as "commercial computer software" subject to the provisions hereof, as specified in 48 CFR 12.212 of the FAR and, if acquired for Department of Defense (DoD) units, 48 CFR 227-7202 of the DoD FAR Supplement, or sections succeeding thereto.
+LICENSE:Dungeons & Dragons, D&D, and the Wizards of the Coast logo are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc.
+LICENSE:(c) Wizards of the Coast, Inc.
+LICENSE:Dungeons & Dragons, D&D, Dungeon Master, and the Wizards of the Coast logo are registered trademarks owned by Wizards of the Coast, Inc.  The d20 System logo is a trademark of Wizards of the Coast, Inc.. All Wizards characters, character names, and the distinctive likenesses thereof are trademarks owned by Wizards of the Coast, Inc.  Distributed to the hobby, toy, and comic trade in the United States and Canada by regional distributors.  Distributed in the United States to the book trade by St. Martin's Press.  Distributed in Canada to the book trade by Fenn Ltd.  Distributed worldwide by Wizards of the Coast. Inc. and regional distributors.  This material is protected under the copyright laws of the United States of America. Any reproduction or unauthorized use of the material or artwork contained herein is prohibited without the express written permission of Wizards of the Coast. Inc. This product is a work of ficton.  Any similarity to actual people, organizations, places, or events is purely coincidental.  �2001 Wizards of the Coast.  Made in the U.S.A.
+LICENSE:This is a work of fiction.  All of the characters and events portrayed in this game are fictional.  Any resemblance to real persons, living or dead, or actual events, is purely coincidental.
+LICENSE:We recommend that you retain this document for future reference.
+LICENSE:Wizards of the Coast, Inc. P.O. Box 707, Renton, Washington 98057-0707
+
+HELP:help/cmp/wizardsofthecoast/StandingS/placeholder.txt
+

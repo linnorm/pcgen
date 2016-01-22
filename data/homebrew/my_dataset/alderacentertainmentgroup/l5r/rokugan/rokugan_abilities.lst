@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+
+# Ability Name				Category of Ability		Type				Visible	Automatically Gained Weapon Prof.
+Ninja Weapon Proficiencies		CATEGORY:Special Ability	TYPE:Internal		VISIBLE:NO	AUTO:WEAPONPROF|Blowgun|Chain|Dagger|Dart|Sword (Bastard)|Kusari-gama|Shuriken|Sword (Short)
+Storm Legion Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal		VISIBLE:NO	AUTO:WEAPONPROF|Chain|Chijiriki|Jitte|Kama|Kusari-gama|Nunchaku|Sai|Shikomi-zue|Siangham|Tonfa
+
+Ancestral Daisho				CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		DESC:Ancestral Daisho +%1|AncestralDaisho						DEFINE:AncestralDaisho|0
+Improved Void Use				CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		DESC:You gain and additional +1 Void bonus when spending a Void point.  You may spend an additonal Void point on a single roll.

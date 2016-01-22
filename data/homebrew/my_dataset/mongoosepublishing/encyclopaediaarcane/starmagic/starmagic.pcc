@@ -1,0 +1,31 @@
+# CVS $Revision$ $Author$ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+CAMPAIGN:Mongoose - Encyclopaedia Arcane - Star Magic 3.5
+GAMEMODE:35e
+RANK:9
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+TYPE:Mongoose.Encyclopaedia Arcane
+PUBNAMELONG:Mongoose Publishing
+PUBNAMESHORT:Mongoose
+PUBNAMEWEB:http://mongoosepublishing.com
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Star Magic
+SOURCESHORT:Star Magic
+SOURCEWEB:http://www.mongoosepublishing.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:PCGen dataset conversion for Encyclopaedia Arcane - Star Magic Copyright 2007, PCGen Data Team (including, but not limited to: Rax the Grey)
+
+
+# Do not remove the EXTRAFILE comment.
+
+#EXTRAFILE:OGL.txt
+CLASS:starmagic_classes.lst
+EQUIPMENT:starmagic_equip_artifacts.lst
+EQUIPMENT:starmagic_equip_rings.lst
+EQUIPMENT:starmagic_equip_rodsstaffswands.lst
+EQUIPMENT:starmagic_equip_weap_melee_specific.lst
+EQUIPMENT:starmagic_equip_wondrousitems.lst
+FEAT:starmagic_feats.lst
+SKILL:starmagic_skills.lst
+SPELL:starmagic_spells.lst

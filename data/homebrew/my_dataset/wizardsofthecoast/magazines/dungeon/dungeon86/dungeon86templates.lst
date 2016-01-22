@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dungeon #86	SOURCESHORT:WotC-Dungeon #86	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+# Template Name	Hit Dice Size	Challenge Rating	Damage Reduction	Template		Source Page			Special ABility						Define			Combat bonus				Stat bonus								Add to vision			Feat			Removable?		Vision
+Huecuva		HITDIE:12		CR:2			DR:15/Silver	TEMPLATE:Undead	SOURCEPAGE:p.72,74	SAB:Huecuva Blight	SAB:Turn Resistance 2	DEFINE:LOCK.CON|10	BONUS:COMBAT|AC|4|TYPE=Natural	BONUS:STAT|STR|2	BONUS:STAT|INT|-6	BONUS:STAT|CHA|2	BONUS:VISION|Darkvision|60	FEAT:Toughness	REMOVABLE:YES	VISION:Darkvision (0')
+
+#I haven't figured out how to add two levels of undead and subtract 3 charcater levels

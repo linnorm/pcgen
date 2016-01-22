@@ -1,0 +1,31 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+
+
+##Block: Second Story Man
+# Ability Name						Category of Ability		Type						Visible	Define							Description								Bonus to skill					Modify VAR							Source Page
+CATEGORY=Special Ability|Defensive Roll.MOD						TYPE:SSMAbilities
+CATEGORY=Special Ability|Improved Evasion.MOD						TYPE:SSMAbilities.BodgerAbilities
+CATEGORY=Special Ability|Skill Mastery.MOD						TYPE:SSMAbilities.BodgerAbilities
+CATEGORY=Special Ability|Extra Feat.MOD							TYPE:SSMAbilities.BodgerAbilities
+
+# Ability Name						Category of Ability		Type						Visible	Define							Description								Bonus to skill					Modify VAR							Source Page
+Always Prepared						CATEGORY:Special Ability	TYPE:SSMAbilities				VISIBLE:YES									DESC:Always Prepared																					SOURCEPAGE:pg. 136
+Expert Climber						CATEGORY:Special Ability	TYPE:SSMAbilities				VISIBLE:YES									DESC:Expert Climber						BONUS:SKILL|Climb|10|TYPE=Competence									SOURCEPAGE:pg. 136
+Sure Footed							CATEGORY:Special Ability	TYPE:SSMAbilities				VISIBLE:YES									DESC:Sure Footed							BONUS:SKILL|Balance|10|TYPE=Competence									SOURCEPAGE:pg. 136
+
+# Ability Name						Category of Ability		Type						Visible	Define							Description								Bonus to skill					Modify VAR							Source Page
+An Ear For Locks						CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES									DESC:An ear for locks																					SOURCEPAGE:pg. 135
+Assess Mechanism						CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES									DESC:Assess Mechanism																					SOURCEPAGE:pg. 136
+An Ear For Traps						CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES									DESC:An ear for traps																					SOURCEPAGE:pg. 136
+An Ear For Footsteps					CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES									DESC:An ear for footsteps																				SOURCEPAGE:pg. 136
+
+
+##Block: Warcaster
+# Ability Name						Category of Ability		Type						Visible	Define							Description								Bonus to skill					Modify VAR							Source Page
+Augment Jack						CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES									DESC:Augment Jack (Su) %1 foot range.|WCAugmentRange								BONUS:VAR|WCAugmentRange|(CL=Warcaster*10)	SOURCEPAGE:pg. 141
+Sense Cortex						CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES									DESC:Sense Cortex (Su)																					SOURCEPAGE:pg. 141
+Warcaster Adept						CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES									DESC:Warcaster Adept (Su)																				SOURCEPAGE:pg. 142
+Warcaster Focus						CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DEFINE:WCAugmentRange|0	DEFINE:WCFocusPoints|0	DESC:Warcaster Focus, up to %1 points|WCFocusPoints								BONUS:VAR|WCFocusPoints|(CL=Warcaster+2)		SOURCEPAGE:pg. 141
+#Warcaster Weapons						CATEGORY:Special Ability	TYPE:Internal				VISIBLE:YES	MULT:YES	SELECT:2	CHOOSE:PROFICIENCY|WEAPON|UNIQUE|TYPE=Simple|TYPE=Martial	AUTO:WEAPONPROF|%LIST
+

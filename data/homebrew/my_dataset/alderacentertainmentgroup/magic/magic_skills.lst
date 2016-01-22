@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Sat Oct 25 22:06:57 2003 -- reformated by prettylst.pl v1.30 (build 316)
+SOURCELONG:Alderac Entertainment Group - Magic	SOURCESHORT:Magic	SOURCEWEB:http://alderac.com/d20
+
+# Skill Name		Key Stat	Untrained?		Type					Source Page
+Knowledge (Metallurgy)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:pg. 44

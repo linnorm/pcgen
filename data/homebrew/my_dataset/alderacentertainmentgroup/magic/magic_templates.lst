@@ -1,0 +1,6 @@
+SOURCELONG:Alderac Entertainment Group - Magic	SOURCESHORT:Magic	SOURCEWEB:http://alderac.com/d20
+
+###Block: Cloaked Fist Change to Dragon
+# Template Name	Output Name			Visible		Main Race Type
+ClF Dragon		OUTPUTNAME:Dragon		VISIBLE:EXPORT	RACETYPE:Dragon	BONUS:VAR|ClfBreathDice|2	ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep|Immunity To Paralysis
+

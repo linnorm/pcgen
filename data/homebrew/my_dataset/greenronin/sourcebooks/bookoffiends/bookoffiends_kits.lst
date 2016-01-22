@@ -1,0 +1,20 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Book of Fiends	SOURCESHORT:BoF	SOURCEWEB:http://www.greenronin.com
+
+
+
+STARTPACK:Default Demon (Jahi)	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Jahi)]
+RACE:Demon (Jahi)	!PRERACE:1,%
+NAME:Demon (Jahi)
+ALIGN:CE
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+SKILL:Bluff				RANK:6
+SKILL:Concentration		RANK:3
+SKILL:Diplomacy			RANK:8
+SKILL:Gather Information	RANK:6
+SKILL:Perform (Dance)		RANK:6
+FEAT:Dodge
+FEAT:Improved Initiative
+FEAT:Mobility
+FEAT:Spell Penetration
+

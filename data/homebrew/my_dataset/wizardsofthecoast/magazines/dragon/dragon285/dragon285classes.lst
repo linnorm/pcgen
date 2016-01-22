@@ -1,0 +1,38 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #285	SOURCESHORT:WotC-Dragon #285	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus									Combat bonus
+CLASS:Lightbearer	HD:8		TYPE:PC.Prestige	ABB:Ltb		MAXLEVEL:10	SOURCEPAGE:p.70	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Willpower|(CL/2)+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required AL		Required Feat		Required Race			Required Skill
+CLASS:Lightbearer	PREALIGN:LG,NG,CG	PREFEAT:1,Alertness	PRERACE:1,Gnome|Halfling	PRESKILL:1,Knowledge (Religion)=8	PRESKILL:2,Knowledge (Local),Diplomacy=4
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Lightbearer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Knowledge (Religion)|Knowledge (Local)|Spellcraft|Heal|Listen|TYPE.Profession|Spot|Wilderness Lore|Diplomacy|Intimidate
+1	SAB:Detect Evil	SAB:Light
+2	SAB:Resist Elements
+3	SAB:Deflect attacks +% |2	SAB:Share Aura
+4	SAB:Provide Healing
+5	SAB:Darkvision
+6	SAB:Deflect attacks +% |2
+7	SAB:Dispel evil
+8	SAB:Holy word
+9	SAB:Deflect attacks +% |2
+10	SAB:Resist spells
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Automatically Gained Weapon Prof.	Save checks bonus																Combat bonus
+CLASS:Silverstar	HD:8		TYPE:PC.Prestige	ABB:SvS		MAXLEVEL:10	SOURCEPAGE:p.84-85	AUTO:WEAPONPROF|SIMPLE			BONUS:CHECKS|BASE.Fortitude,Willpower|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required AL	Req. Att.	Required Deity	Required Feat							Required Skill						Req. Spell Type
+CLASS:Silverstar	PREALIGN:CG	PREATT:4	PREDEITY:1,Selune	PREFEAT:4,Blind-Fight,Dodge,Mobility,Spring Attack	PRESKILL:2,Intuit Direction,Sense Motive=2	PRESPELLTYPE:2,Divine=1
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Silverstar	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Knowledge (Arcana)|Knowledge (Geography)|Knowledge (Local)|Knowledge (Nature)|Knowledge (The Planes)|Knowledge (Religion)|Scry|Spellcraft|Heal|Intuit Direction|TYPE.Profession|Sense Motive|Wilderness Lore|Diplomacy
+# Class Name	Spell Stat		Spell Type
+CLASS:Silverstar	SPELLSTAT:WIS	SPELLTYPE:WIS
+1	SAB:Moon Spells							ADD:SPELLCASTER||Divine	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency
+2	SAB:Lunar Sight							ADD:SPELLCASTER||Divine
+3	SAB:Moon Hand +%|1						ADD:SPELLCASTER||Divine
+4	SAB:Tears of Selune %/day|1					ADD:SPELLCASTER||Divine
+5	SAB:Prophet's Sight %/day|1					ADD:SPELLCASTER||Divine
+6	SAB:Selunite Lycanthrope					ADD:SPELLCASTER||Divine
+7	SAB:Moonshield							ADD:SPELLCASTER||Divine
+8	SAB:Prophet's Sight %/day|1					ADD:SPELLCASTER||Divine
+9	SAB:Moon Hand +%|1	SAB:Tears of Selune %/day|1	ADD:SPELLCASTER||Divine
+10	SAB:Moonfire							ADD:SPELLCASTER||Divine

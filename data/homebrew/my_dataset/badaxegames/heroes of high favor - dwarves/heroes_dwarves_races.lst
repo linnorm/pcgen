@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Heroes of High Favor - Dwarves	SOURCESHORT:HoHF - Dwarves	SOURCEWEB:x
+
+# Race Name	Class Skill
+Dwarf.MOD	CSKILL:Knowledge (Dwarves)

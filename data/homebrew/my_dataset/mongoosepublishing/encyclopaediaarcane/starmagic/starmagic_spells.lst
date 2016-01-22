@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Star Magic	SOURCESHORT:Star Magic	SOURCEWEB:http://www.mongoosepublishing.com
+
+
+# Spell Name			Classes of caster							School						Type				Components				Casting Time			Range			Target Area or Effect					Duration								Save Info					Spell Resistance				Description																	Combat bonus										Bonus to HP									Stat bonus								Choose									Source Page
+
+# Spell Name	Classes of caster				School	Sub-School			Type		Components	Casting Time			Range		Target Area or Effect	Duration					Save Info				Spell Resistance	Req. Known Spell			Description																													Source Page
+Shadow		CLASSES:Bard,Sorcerer,Wizard=1	SCHOOL:Star	SUBSCHOOL:Star		TYPE:Arcane	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:20' radius	DURATION:Concentration			SAVEINFO:None			SPELLRES:No							DESC:One target per channel level is denied ability to threaten a critical hit.																	SOURCEPAGE:pg. 26
+Thunder		CLASSES:Bard,Sorcerer,Wizard=1	SCHOOL:Star	SUBSCHOOL:Star		TYPE:Arcane	COMPS:V, S	CASTTIME:1 standard action	RANGE:Long	TARGETAREA:10' radius	DURATION:Instant				SAVEINFO:Fortitude Negates	SPELLRES:Yes						DESC:Those caught in the area of effect may take no actions for a number of rounds equal to the channel level.												SOURCEPAGE:pg. 27
+
+The Cloud		CLASSES:Bard,Sorcerer,Wizard=3	SCHOOL:Star	SUBSCHOOL:Constellation	TYPE:Arcane	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:500' radius	DURATION:(CASTERLEVEL*5) rounds	SAVEINFO:Reflex half		SPELLRES:No		PRESPELL:2,Shadow,Thunder	DESC:Open a hole in the thunder's prison allowing 10% per channel level over 3rd that 1d6 random target get hit with a lightning bolt for 5d6 + 1d6 per channel level over 3rd.	SOURCEPAGE:pg. 28

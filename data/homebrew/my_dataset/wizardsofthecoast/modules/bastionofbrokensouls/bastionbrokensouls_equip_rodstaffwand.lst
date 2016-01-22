@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name				Type			Cost		Weight	Base Item for EQMOD	Modifier													Source Page
+Wand of Hold Person (13 Charges)	TYPE:Magic.Wand	COST:1170	WT:.01	BASEITEM:Wand		EQMOD:SE_50TRIGGER|SPELLNAME[Hold Person]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[13]	SOURCEPAGE:p.40
+Wand of Searing Light (48 Charges)	TYPE:Magic.Wand	COST:13500	WT:.01	BASEITEM:Wand		EQMOD:SE_50TRIGGER|SPELLNAME[Searing Light]SPELLLEVEL[]CASTERLEVEL[]CHARGES[48]	SOURCEPAGE:p.40

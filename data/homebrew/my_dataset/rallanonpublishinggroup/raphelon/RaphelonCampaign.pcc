@@ -1,0 +1,574 @@
+# CVS $Revision$ $Author$ -- Thu Feb 26 13:34:58 2004 -- reformated by prettylst.pl v1.31 (build 327)
+CAMPAIGN:Rallanon Publishing Group - Raphelon - The Wings of Raphelon
+GAMEMODE:rpg|35e
+TYPE:Campaign
+RANK:9
+SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon
+SOURCESHORT:WngRaph
+SOURCEWEB:http://raxstower.finzen.com
+INFOTEXT:This includes custom material and modifiers for The Wings of Raphelon campaign.
+ISOGL:NO
+COPYRIGHT:Copyright 2003-2004 Ivan A. Finzen IV
+GENRE:Fantasy
+BOOKTYPE:Campaign Setting
+PUBNAMELONG:Rallanon Publishing Group
+PUBNAMESHORT:RPG
+PUBNAMEWEB:http://groups.msn.com/raxstower
+SETTING:Wings of Raphelon
+ISLICENSED:YES
+
+
+
+OPTION:pcgen.options.autoGenerateMagic=false
+OPTION:pcgen.options.paperName=Letter
+OPTION:pcgen.options.language=en
+OPTION:pcgen.options.optionAllowedInSources=true
+OPTION:pcgen.options.abilitiesShownAsTab=true
+OPTION:pcgen.options.autoFeatsRefundable=false
+OPTION:pcgen.options.freeClothesAtFirst=true
+OPTION:pcgen.options.loadMasterworkAndMagicFromLst=true
+OPTION:pcgen.options.ChooserSingleChoiceMethod=1
+OPTION:pcgen.options.purchaseMethodName=High-Powered
+OPTION:pcgen.options.cleanupTempFiles=1
+OPTION:pcgen.options.applyLoadPenaltyToACandSkills=true
+OPTION:pcgen.options.hpMaxAtFirstLevel=true
+OPTION:pcgen.options.applyWeightPenaltyToSkills=true
+OPTION:pcgen.options.showFeatDialogAtLevelUp=true
+OPTION:pcgen.options.hpPct=75
+OPTION:pcgen.options.showTipOfTheDay=false
+OPTION:pcgen.options.skillIncrementBefore=true
+OPTION:pcgen.options.weaponProfPrintout=true
+OPTION:pcgen.options.showOGLOnLoad=false
+OPTION:pcgen.options.showHPDialogAtLevelUp=true
+OPTION:pcgen.options.loadCampaignsWithPC=true
+OPTION:pcgen.options.expertGUI=true
+OPTION:pcgen.options.hpRollMethod=3
+OPTION:pcgen.options.tabPlacement=TOP
+OPTION:pcgen.options.showD20InfoAtStart=false
+OPTION:pcgen.options.rollMethod=9
+
+
+##Block: Begin standard includes
+
+##Block: Basics
+CLASS:@\d20ogl\srd35\basics\rsrd_classes_base.lst|(EXCLUDE:Sorcerer)
+CLASS:@\d20ogl\srd35\basics\rsrd_classes_npc.lst
+COMPANIONMOD:@\d20ogl\srd35\basics\rsrd_companionmods.lst
+DOMAIN:@\d20ogl\srd35\basics\rsrd_domains.lst
+DOMAIN:@\d20ogl\srd35\basics\rsrd_domains_divine.lst
+EQUIPMENT:@\d20ogl\srd35\basics\rsrd_equip.lst
+EQUIPMENT:@\d20ogl\srd35\basics\rsrd_equip_armorshields.lst
+EQUIPMENT:@\d20ogl\srd35\basics\rsrd_equip_basetypes.lst
+EQUIPMENT:@\d20ogl\srd35\basics\rsrd_equip_weap_ammo.lst
+EQUIPMENT:@\d20ogl\srd35\basics\rsrd_equip_weap_melee.lst
+EQUIPMENT:@\d20ogl\srd35\basics\rsrd_equip_weap_natural.lst
+EQUIPMENT:@\d20ogl\srd35\basics\rsrd_equip_weap_ranged.lst
+EQUIPMOD:@\d20ogl\srd35\basics\rsrd_equipmods_base.lst
+EQUIPMOD:@\d20ogl\srd35\basics\rsrd_equipmods_enhancing.lst
+FEAT:@\d20ogl\srd35\basics\rsrd_feats.lst
+FEAT:@\d20ogl\srd35\basics\rsrd_feats_hidden.lst
+FEAT:@\d20ogl\srd35\basics\rsrd_feats_hidden2.lst
+FEAT:@\d20ogl\srd35\basics\rsrd_feats_monster.lst
+KIT:@\d20ogl\srd35\basics\rsrd_kits_races__animals.lst
+KIT:@\d20ogl\srd35\basics\rsrd_kits_races__base.lst
+LANGUAGE:@\d20ogl\srd35\basics\rsrd_languages.lst
+RACE:@\d20ogl\srd35\basics\rsrd_races__animals.lst
+RACE:@\d20ogl\srd35\basics\rsrd_races__base.lst
+SKILL:@\d20ogl\srd35\basics\rsrd_skills.lst|(EXCLUDE:Knowledge (Architecture and Engineering))
+SPELL:@\d20ogl\srd35\basics\rsrd_spells.lst
+SPELL:@\d20ogl\srd35\basics\rsrd_spells_divine.lst
+TEMPLATE:@\d20ogl\srd35\basics\rsrd_templates_types.lst
+WEAPONPROF:@\d20ogl\srd35\basics\rsrd_weaponprofs.lst
+
+##Block: Advanced
+CLASS:@\d20ogl\srd35\advanced\rsrd_classes_prestige.lst|(EXCLUDE:Blackguard)
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_armorshields_specific.lst
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_potions.lst
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_rings.lst
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_rodsstaffswands.lst
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_scrolls.lst
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_treasure_coinsgems.lst|(EXCLUDE:Coin (Platinum)|Coin (Gold)|Coin (Silver)|Coin (Copper))
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_weap_ammo_specific.lst
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_weap_melee_specific.lst
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_weap_ranged_specific.lst
+EQUIPMENT:@\d20ogl\srd35\advanced\rsrd_equip_wondrousitems.lst
+EQUIPMOD:@\d20ogl\srd35\advanced\rsrd_equipmods_treasure_base.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_armor_shields.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_art.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_base.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_coins.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_gems.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_goods.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_items.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_magic_items.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_mundane_items.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_potions.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_rings.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_rods.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_scrolls.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_staffs.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_wands.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_weapons.lst
+KIT:@\d20ogl\srd35\advanced\rsrd_kits_treasure_wondrous_items.lst
+
+##Block: Monsters
+CLASS:@\d20ogl\srd35\monsters\rsrd_classes_monsters_dragons.lst
+CLASS:@\d20ogl\srd35\monsters\rsrd_classes_monsters_specific.lst
+FEAT:@\d20ogl\srd35\monsters\rsrd_feats_templates.lst
+FEAT:@\d20ogl\srd35\monsters\rsrd_feats_templates.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races__vermin.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_a_b.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_a_b_extras.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_a_b_treasure.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_c_d.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_e_f.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_g_h.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_g_h_extras.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_i_j.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_k_l.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_k_l_extras.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_m_n.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_m_n_extras.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_o_p.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_o_p_extras.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_q_r.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_s_t.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_s_t_extras.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_u_v.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_u_v_extras.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_w_x.lst
+KIT:@\d20ogl\srd35\monsters\rsrd_kits_races_y_z.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races__dragons.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races__vermin.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_a_b.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_c_d.lst|(EXCLUDE:Centaur|Dwarf (Deep)|Dwarf (Derro)|Dwarf (Duergar)|Dwarf (Mountain))
+RACE:@\d20ogl\srd35\monsters\rsrd_races_e_f.lst|(EXCLUDE:Elf (Aquatic)|Elf (Drow)|Elf (Grey)|Elf (Wild)|Elf (Wood))
+RACE:@\d20ogl\srd35\monsters\rsrd_races_g_h.lst|(EXCLUDE:Gnoll|Gnome (Forest)|Gnome (Svirfneblin)|Halfling (Deep)|Halfling (Tallfellow)|Hobgoblin)
+RACE:@\d20ogl\srd35\monsters\rsrd_races_i_j.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_k_l.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_m_n.lst|(EXCLUDE:Minotaur)
+RACE:@\d20ogl\srd35\monsters\rsrd_races_o_p.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_q_r.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_s_t.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_u_v.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_w_x.lst
+RACE:@\d20ogl\srd35\monsters\rsrd_races_y_z.lst
+TEMPLATE:@\d20ogl\srd35\monsters\rsrd_templates.lst
+TEMPLATE:@\d20ogl\srd35\monsters\rsrd_templates_monsters.lst
+
+##Block: Psionics
+PCC:@\d20ogl\srd35\psionics\rsrd_psionics.pcc
+
+##Block: Epic
+CLASS:@\d20ogl\srd35\epic\rsrd_classes_base_epic.lst
+CLASS:@\d20ogl\srd35\epic\rsrd_classes_prestige_epic.lst|(EXCLUDE:Blackguard)
+CLASS:@\d20ogl\srd35\epic\rsrd_classes_epic.lst
+FEAT:@\d20ogl\srd35\epic\rsrd_feats_epic.lst
+FEAT:@\d20ogl\srd35\epic\rsrd_feats_hidden_epic.lst
+RACE:@\d20ogl\srd35\epic\rsrd_races_dragons_epic.lst
+TEMPLATE:@\d20ogl\srd35\epic\rsrd_templates_epic.lst
+SKILL:@\d20ogl\srd35\epic\rsrd_skills_epic.lst
+EQUIPMENT:@\d20ogl\srd35\epic\rsrd_equip_epic.lst
+EQUIPMOD:@\d20ogl\srd35\epic\rsrd_equipmods_epic_enhancing.lst
+SPELL:@\d20ogl\srd35\epic\rsrd_spells_epic.lst
+FEAT:@\d20ogl\srd35\epic_psionics\rsrd_feats_psionic_epic.lst
+CLASS:@\d20ogl\srd35\epic_psionics\rsrd_classes_psionic_epic.lst
+CLASS:@\d20ogl\srd35\epic_psionics\rsrd_classes_psionic_prestige_epic.lst
+
+##Block: Divine
+FEAT:@\d20ogl\srd35\divine\rsrd_divine_feats_sda.lst
+TEMPLATE:@\d20ogl\srd35\divine\rsrd_divine_templates.lst
+FEAT:@\d20ogl\srd35\basics\rsrd_feats_divine.lst
+
+
+##Block: Ex-SRD
+PCC:@\my_dataset\MyStuff\wizardsofthecoast\supplements\exsrd\exsrd.pcc
+
+##Block: Book of Vile Darkness
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_vile_darkness\bkovd_d20_fantasy_v35e.pcc
+
+##Block: Book of Exalted Deeds
+COMPANIONMOD:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_companionmod.lst
+CLASS:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_class_monster.lst
+CLASS:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_class_prestige.lst
+DOMAIN:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_domain.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_potionpoison.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_armorshield.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_general.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_weap_melee.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_wondrous.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_ring.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_rodstaffwand.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_weap_ammo.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equip_weap_ranged.lst
+EQUIPMOD:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_equipmod.lst
+FEAT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_feat.lst
+LANGUAGE:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_language.lst
+RACE:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_race.lst
+SPELL:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_mod_spell.lst
+SPELL:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_spell.lst
+TEMPLATE:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_mod_template.lst
+TEMPLATE:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_template.lst
+WEAPONPROF:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\book_of_exalted_deeds\bkoed_d20_fantasy_v35e_weaponprof.lst
+
+##Block: Fiend Folio
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\fiend_folio\fndfol_d20_fantasy_v35e.pcc
+
+##Block: Heroes of Battle
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\heroes_of_battle\hrsbat_d20_fantasy_v35e.pcc
+
+##Block: Player's Handbook II
+PCC:@\my_dataset\MyStuff\wizardsofthecoast\supplements\playershandbookII\playershandbookII.pcc
+
+##Block: Dragon Magic
+PCC:@\my_dataset\MyStuff\wizardsofthecoast\supplements\dragonmagic\dragonmagic.pcc
+
+##Block: Spell Compendium
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\spell_compendium\splcmp_d20_fantasy_v35e.pcc
+
+##Block: Heroes of Horror
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\heroes_of_horror\hrshor_d20_fantasy_v35e.pcc
+
+##Block: Libris Mortis
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\libris_mortis\libmor_d20_fantasy_v35e.pcc
+
+##Block: Complete Adventurer
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\complete_adventurer\cmpadv_d20_fantasy_v35e.pcc
+
+##Block: Complete Warrior
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\complete_warrior\cmpwar_d20_fantasy_v35e.pcc
+
+##Block: Complete Arcane
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\complete_arcane\cmparc_d20_fantasy_v35e.pcc
+
+##Block: Complete Divine
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\complete_divine\cmpdvn_d20_fantasy_v35e.pcc
+
+##Block: Miniatures Handbook
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\miniatures_handbook\minihb_d20_fantasy_v35e.pcc
+
+##Block: Arms and Equipment Guide
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_potionpoison.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_armorshield.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_wondrous.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_mod_equip.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_general.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_weap_melee.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_ring.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_mod_equip_general.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_rodstaffwand.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_weap_ammo.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equip_weap_ranged.lst
+EQUIPMOD:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_equipmod.lst
+WEAPONPROF:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\arms_and_equipment_guide\armseg_d20_fantasy_v35e_weaponprof.lst
+
+##Block: Enemies and Allies
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\enemies_and_allies\nmyaly_d20_fantasy_v30e_equip_ring.lst
+FEAT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\enemies_and_allies\nmyaly_d20_fantasy_v30e_feat.lst
+SPELL:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\enemies_and_allies\nmyaly_d20_fantasy_v30e_spell.lst
+
+##Block: Manual of the Planes
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\manual_of_the_planes\motpln_d20_fantasy_v35e.pcc
+
+##Block: Monster Manual 2
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\monster_manual_2\mmanl2_d20_fantasy_v35e.pcc
+
+##Block: Monster Manual 3
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\monster_manual_3\mmanl3_d20_fantasy_v35e.pcc
+
+##Block: Draconomicon
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\generic\supplement\draconomicon\draco_d20_fantasy_v35e.pcc
+
+##Block: Dragon 275
+EQUIPMENT:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon275\dragon275equipweapmelee.lst
+EQUIPMENT:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon275\dragon275equipweapranged.lst
+FEAT:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon275\dragon275feats.lst
+SPELL:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon275\dragon275spells.lst
+WEAPONPROF:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon275\dragon275weapprofs.lst
+
+##Block: Dragon 280
+CLASS:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon280\dragon280classes.lst
+EQUIPMENT:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon280\dragon280equip.lst
+EQUIPMENT:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon280\dragon280equipwondrousitems.lst
+FEAT:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon280\dragon280feats.lst
+SPELL:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon280\dragon280spells.lst
+
+##Block: Dragon 285
+CLASS:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon285\dragon285classes.lst
+EQUIPMENT:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon285\dragon285equip.lst
+FEAT:@\my_dataset\MyStuff\wizardsofthecoast\magazines\dragon\dragon285\dragon285feats.lst
+
+##Block: Forgotten Realms CS
+CLASS:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_class_prestige.lst
+DOMAIN:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_domain.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_equip_general.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_equip_weap_melee.lst
+FEAT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_feat.lst
+SPELL:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_mod_spell.lst
+SPELL:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_spell.lst
+TEMPLATE:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_template.lst
+WEAPONPROF:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\campaign_setting\forgotten_realms_campaign_setting\frcs_d20_fantasy_v35e_weaponprof.lst
+
+##Block: Lords of Darkness
+CLASS:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_class_prestige.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_equip_armorshield.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_equip_ring.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_equip_general.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_equip_weap_melee.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_equip_wondrous.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_equip_weap_ranged.lst
+EQUIPMOD:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_equipmod.lst
+FEAT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_feat.lst|(EXCLUDE:Tattoo Magic)
+SPELL:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_spell.lst
+TEMPLATE:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\lords_of_darkness\lrddrk_d20_fantasy_v35e_template.lst
+
+##Block: Magic of Faerun
+PCC:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\magic_of_faerun\magfae_d20_fantasy_v35e.pcc
+
+##Block: Monsters of Faerun
+CLASS:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\monsters_of_faerun\monfae_d20_fantasy_v35e_class_prestige.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\monsters_of_faerun\monfae_d20_fantasy_v35e_equip_armorshield.lst
+EQUIPMENT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\monsters_of_faerun\:monfae_d20_fantasy_v35e_equip_weap_melee.lst
+FEAT:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\monsters_of_faerun\monfae_d20_fantasy_v35e_feat.lst
+RACE:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\monsters_of_faerun\monfae_d20_fantasy_v35e_race.lst|(EXCLUDE:Planetouched, Genasi (Air)|Planetouched, Genasi (Earth)|Planetouched, Genasi (Fire)|Planetouched, Genasi (Water))
+SPELL:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\monsters_of_faerun\monfae_d20_fantasy_v35e_spell.lst
+TEMPLATE:@\vendordata\cmp\rules_system_v35e\wizards_of_the_coast\forgotten_realms\supplement\monsters_of_faerun\monfae_d20_fantasy_v35e_template.lst|(EXCLUDE:Beast of Xvim|Spectral Harpist|Zhentarim Spirit)
+
+##Block: Dragons
+CLASS:@\permissioned\alderacentgroup\dragons\dragonsclasses.lst
+EQUIPMENT:@\permissioned\alderacentgroup\dragons\dragonsequip.lst
+EQUIPMOD:@\permissioned\alderacentgroup\dragons\dragonsequipmods.lst
+EQUIPMENT:@\permissioned\alderacentgroup\dragons\dragonsequipweapmelee.lst
+FEAT:@\permissioned\alderacentgroup\dragons\dragonsfeats.lst|(EXCLUDE:Greedy Eyes)
+SPELL:@\permissioned\alderacentgroup\dragons\dragonsspells.lst
+WEAPONPROF:@\permissioned\alderacentgroup\dragons\dragonsweapprofs.lst
+
+##Block: Dungeons
+EQUIPMENT:@\permissioned\alderacentgroup\dungeons\dungeonsequipwondrousitems.lst
+FEAT:@\permissioned\alderacentgroup\dungeons\dungeonsfeats.lst
+SPELL:@\permissioned\alderacentgroup\dungeons\dungeonsspells.lst
+
+##Block: Evil
+CLASS:@\d20ogl\alderacentertainmentgroup\evil\evil_classes.lst
+DOMAIN:@\d20ogl\alderacentertainmentgroup\evil\evil_domains.lst
+EQUIPMENT:@\d20ogl\alderacentertainmentgroup\evil\evil_equip_artifacts.lst
+EQUIPMENT:@\d20ogl\alderacentertainmentgroup\evil\evil_equip_wondrousitems.lst
+FEAT:@\d20ogl\alderacentertainmentgroup\evil\evil_feats.lst
+RACE:@\d20ogl\alderacentertainmentgroup\evil\evil_races.lst
+SKILL:@\d20ogl\alderacentertainmentgroup\evil\evil_skills.lst|(INCLUDE:Knowledge (Demonology))
+SPELL:@\my_dataset\MyStuff\3.5Conversions\evil_spells.lst
+
+##Block: Undead
+CLASS:@\permissioned\alderacentgroup\undead\undeadclasses.lst
+DOMAIN:@\permissioned\alderacentgroup\undead\undeaddomains.lst|(EXCLUDE:Undead)
+EQUIPMENT:@\permissioned\alderacentgroup\undead\undeadequip.lst
+EQUIPMOD:@\permissioned\alderacentgroup\undead\undeadequipmods.lst
+EQUIPMENT:@\permissioned\alderacentgroup\undead\undeadequippotionspoisons.lst
+EQUIPMENT:@\permissioned\alderacentgroup\undead\undeadequiprings.lst
+EQUIPMENT:@\permissioned\alderacentgroup\undead\undeadequiprodstaffwands.lst
+EQUIPMENT:@\permissioned\alderacentgroup\undead\undeadequipwondrousitems.lst
+FEAT:@\permissioned\alderacentgroup\undead\undeadfeats.lst
+SKILL:@\permissioned\alderacentgroup\undead\undeadskills.lst
+SPELL:@\permissioned\alderacentgroup\undead\undeadspells.lst
+TEMPLATE:@\permissioned\alderacentgroup\undead\undeadtemplates.lst
+
+##Block: War
+CLASS:@\permissioned\alderacentgroup\war\warclasses.lst|(EXCLUDE:Warmage)
+DOMAIN:@\permissioned\alderacentgroup\war\wardomains.lst
+FEAT:@\permissioned\alderacentgroup\war\warfeats.lst
+SKILL:@\permissioned\alderacentgroup\war\warskills.lst|(EXCLUDE:Craft (Gunsmith))
+SPELL:@\permissioned\alderacentgroup\war\warspells.lst
+
+##Block: Magic
+PCC:@\my_dataset\MyStuff\alderacentertainmentgroup\magic\magic.pcc
+
+##Block: Spells and Spellcraft
+PCC:@\d20ogl\fantasyflightgames\legendsandlairs\spellsandspellcraft\spellsspellcraft.pcc
+
+##Block: School of Evocation
+PCC:@\my_dataset\MyStuff\fantasyflightgames\legendsandlairs\schoolofevocation\schoolevocation.pcc
+
+##Block: Path of Magic
+PCC:@\my_dataset\MyStuff\fantasyflightgames\legendsandlairs\pathofmagic\pathmagic.pcc
+
+##Block: School of Illusion
+PCC:@\my_dataset\MyStuff\fantasyflightgames\legendsandlairs\schoolofillusion\schoolillusion.pcc
+
+##Block: Mythic Races
+PCC:@\my_dataset\MyStuff\fantasyflightgames\legendsandlairs\mythicraces\mythicraces.pcc
+
+##Block: Cityworks
+PCC:@\my_dataset\MyStuff\fantasyflightgames\legendsandlairs\cityworks\cityworks.pcc
+
+##Block: Quintessential Rogue
+CLASS:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueclasses.lst
+#CLASS:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueconcepts.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequip.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequiparmorshields.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequippotionspoisons.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequipweapammo.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequipweapammospecific.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequipweapmelee.lst
+EQUIPMENT:@\my_dataset\MyStuff\3.5Conversions\quintrogue_equip_weap_melee_specific.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequipweapranged.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequipwondrousitems.lst
+EQUIPMOD:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueequipmods.lst
+FEAT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintroguefeats.lst
+FEAT:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogue_feats_hidden.lst
+SKILL:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueskills.lst
+WEAPONPROF:@\permissioned\mongoose\collectorsseries\quintessentialrogue\quintrogueweapprofs.lst
+
+##Block: Quintessential Fighter
+CLASS:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterclasses.lst|(EXCLUDE:Officer of War)
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterequip.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterequiparmorshields.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterequipweapammo.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterequipweapblackpowder.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterequipweapmelee.lst
+EQUIPMENT:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterequipweapranged.lst
+FEAT:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterfeats.lst|(EXCLUDE:Improved Weapon Focus)
+SKILL:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterskills.lst
+WEAPONPROF:@\permissioned\mongoose\collectorsseries\quintessentialfighter\quintfighterweapprofs.lst
+
+##Block: Quintessential Wizard
+PCC:@\my_dataset\MyStuff\mongoosepublishing\collectorsseries\quintessentialwizard\quintwizard.pcc
+
+##Block: Chaos Magic
+PCC:@\d20ogl\mongoosepublishing\encyclopaediaarcane\chaosmagic\chaosmagic.pcc
+
+##Block: Demonology
+PCC:@\my_dataset\MyStuff\mongoosepublishing\encyclopaediaarcane\demonology\demonology.pcc
+
+##Block: Necromancy
+SPELL:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_spells.lst
+SKILL:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_skills.lst
+CLASS:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_classes.lst
+FEAT:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_feats.lst
+TEMPLATE:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_templates.lst
+COMPANIONMOD:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_companionmods.lst
+EQUIPMENT:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_equip_wondrousitems.lst
+EQUIPMENT:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_equip_weap_melee_specific.lst
+EQUIPMENT:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_equip_rings.lst
+EQUIPMENT:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_equip_artifacts.lst
+EQUIPMENT:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_equip_potionsscrolls.lst
+EQUIPMENT:@\d20ogl\mongoosepublishing\encyclopaediaarcane\necromancy\necromancy_equip_rodsstaffswands.lst
+
+##Block: Slayer's Guide to Centaurs
+BIOSET:@\permissioned\mongoose\slayersguides\centaurs\slayerscentbiosettings.lst
+CLASS:@\permissioned\mongoose\slayersguides\centaurs\slayerscentclasses.lst
+RACE:@\permissioned\mongoose\slayersguides\centaurs\slayerscentraces.lst
+
+##Block: Slayer's Guide to Minotaurs
+#PCC:@\d20ogl\mongoosepublishing\slayersguides\minotaurs\slayersminotaur.pcc
+
+##Block: Slayer's Guide to Gnolls
+BIOSET:@\permissioned\mongoose\slayersguides\gnolls\slayersgnollbiosettings.lst
+LANGUAGE:@\permissioned\mongoose\slayersguides\gnolls\slayersgnolllanguages.lst
+RACE:@\permissioned\mongoose\slayersguides\gnolls\slayersgnollraces.lst
+
+##Block: Slayer's Guide to Hobgoblins
+BIOSET:@\permissioned\mongoose\slayersguides\hobgoblins\slayershobgobbiosettings.lst
+LANGUAGE:@\permissioned\mongoose\slayersguides\hobgoblins\slayershobgoblanguages.lst
+RACE:@\permissioned\mongoose\slayersguides\hobgoblins\slayershobgobraces.lst
+SPELL:@\permissioned\mongoose\slayersguides\hobgoblins\slayershobgobspells.lst
+
+##Block: Slayer's Guide to Troglodytes
+CLASS:@\permissioned\mongoose\slayersguides\troglodytes\slayerstroglodytesclasses.lst
+DEITY:@\permissioned\mongoose\slayersguides\troglodytes\slayerstroglodytesdeities.lst
+SPELL:@\permissioned\mongoose\slayersguides\troglodytes\slayerstroglodytesspells.lst
+
+##Block: Hollowfaust
+CLASS:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_classes.lst
+EQUIPMOD:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_eqmodifiers.lst
+FEAT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_feats.lst
+SKILL:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_skills.lst
+SPELL:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_spells.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_rings.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_staves.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_weapons.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\hollowfaustcityofnecromancers\hollowfaust_wondrous.lst
+
+##Block: Relics and Rituals
+DOMAIN:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_domains.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_armorshields_specific.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_artifacts.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_potions.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_potionspoisons.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_rings.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_rodsstaffswands.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_scrolls.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_weap_ammo_specific.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_weap_melee_specific.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_weap_ranged_specific.lst
+EQUIPMENT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_equip_wondrousitems.lst
+FEAT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_feats.lst
+FEAT:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_feats_hidden.lst
+SKILL:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_skills.lst
+SPELL:@\my_dataset\MyStuff\3.5Conversions\relicsrituals_spells.lst
+TEMPLATE:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_templates.lst
+WEAPONPROF:@\d20ogl\swordandsorcerystudios\scarredlands\relicsrituals\relicsrituals_weaponprofs.lst
+FEAT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsrituals_feat_mods.lst
+
+##Block: Relics and Rituals 2
+CLASS:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2classes.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equip.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equiparmorshields.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equipmagictattoos.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equippotionspoisons.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equiprings.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equiprodstaffwands.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equipscrolls.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equipweapammo.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equipweapmelee.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equipweapranged.lst
+EQUIPMENT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2equipwondrousitems.lst
+FEAT:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2feats.lst
+SPELL:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2powers.lst
+SKILL:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2skills.lst
+SPELL:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2spells.lst
+WEAPONPROF:@\my_dataset\MyStuff\swordandsorcery\sourcebooks\scarredlands\relicsandrituals2\relicritual2weapprofs.lst
+
+##Block: Book of Hallowed Might
+PCC:@\d20ogl\malhavocpress\bookofhallowedmight\hallowedmight.pcc
+
+##Block: Spells and Spellcraft -- Bastion Press
+PCC:@\my_dataset\MyStuff\dragonwinggames\spellsandmagic\spellsandmagic.pcc
+
+##Block: Book of the Righteous
+PCC:@\my_dataset\MyStuff\greenronin\sourcebooks\bookrighteous\bookrighteous.pcc
+
+##Block: Book of Fiends
+PCC:@\my_dataset\MyStuff\greenronin\sourcebooks\bookoffiends\bookoffiends.pcc
+
+##Block: Psychic's Handbook
+PCC:@\my_dataset\MyStuff\greenronin\sourcebooks\psychicshandbook\psychicshandbook.pcc
+
+##Block: My Alpha -- The Book of Roguish Luck
+PCC:@\my_dataset\MyStuff\malhavocpress\bookofroguishluck\bookofroguishluck.pcc
+
+##Block: My Alpha -- Cry Havoc
+PCC:@\my_dataset\MyStuff\malhavocpress\cryhavoc\cryhavoc.pcc
+
+##Block: My Alpha -- Dark Arts of Necromancy
+PCC:@\my_dataset\MyStuff\anubium\darkartsofnecromancy\darkartsofnecromancy.pcc
+
+##Block: My Alpha -- Book of Erotic Fantasy
+PCC:@\my_dataset\MyStuff\valarproject\bookoferoticfantasy\bookoferoticfantasy.pcc
+
+##Block: Alpha -- Complete Book of Eldritch Might
+LSTEXCLUDE:completeeldritch_deities.lst
+PCC:@\alpha\malhavocpress\completebookofeldritchmight\completeeldritch.pcc
+
+##Block: Alpha -- Faeries
+PCC:@\my_dataset\MyStuff\dragonwinggames\faeries\faeries.pcc
+
+##Block: Alpha -- Witch's Handbook
+PCC:@\my_dataset\MyStuff\greenronin\masterclass\witchshandbook\witchshandbook_35e.pcc
+
+##Block: End standard includes
+
+
+##Block: My Stuff
+PCC:@\my_dataset\rallanonpublishinggroup\raphelon\wingsofraphelon\wor.pcc
+

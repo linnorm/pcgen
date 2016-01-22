@@ -1,0 +1,31 @@
+# CVS $Revision$ $Author$ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+CAMPAIGN:BP - Wildwood
+RANK:2
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Campaign Setting
+SETTING:Oathbound
+TYPE:Bastion Press.Oathbound
+PUBNAMELONG:Bastion Press
+PUBNAMESHORT:Bastion
+PUBNAMEWEB:http://www.bastionpress.com
+SOURCELONG:Wildwood
+SOURCESHORT:Wildwood
+SOURCEWEB:http://www.bastionpress.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Oathbound: Domains of the Forge Copyright 2002, Bastion Press, Inc.
+COPYRIGHT:System Reference Document Copyright 1999, 2000, Wizards of the Coast, Inc.
+COPYRIGHT:PCGen dataset conversion for the Oathbound: Domains of the Forge Copyright 2003-2005, PCGen Data team (Including, but not limited to Andrew McDougall (Tir Gwaith), Jonathan Weisman (bd), John Sussenberger, Paul W. King, Paul Grosse, Hugo Perez (Emperorfranz), Patryk Adamski (Ruemere))
+
+ISLICENSED:YES
+LICENSE:FILE=data\d20ogl\bastionpress\oathbound\oathboundpermission.htm
+
+RACE:wildwood_races.lst
+BIOSET:wildwood_biosettings.lst
+CLASS:wildwood_classes.lst
+CLASS:wildwood_classes_races.lst
+CLASS:wildwood_classes_prestigeraces.lst
+FEAT:wildwood_feats_hidden.lst
+LANGUAGE:wildwood_languages.lst
+TEMPLATE:wildwood_templates.lst

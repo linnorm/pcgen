@@ -1,0 +1,3 @@
+
+# Ability Category			Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object	Type of Object				Plural description for UI	Display Location
+ABILITYCATEGORY:Samurai Feat		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:FEAT		TYPE:BadgerClan.BoarClan.Moshi.CrabClan.CraneClan.DragonClan.DragonflyClan.Toritaka.FoxClan.HareClan.LionClan.MantisClan.MonkeyClan.OxClan.PhoenixClan.ScorpionClan.SnakeClan.SparrowClan.UnicornClan.AllClans.Technique				PLURAL:Samurai Feats		DISPLAYLOCATION:Feats

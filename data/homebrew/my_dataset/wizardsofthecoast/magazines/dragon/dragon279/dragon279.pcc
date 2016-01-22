@@ -1,0 +1,17 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #279
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #279
+SOURCESHORT:WotC-Dragon #279
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon279classes.lst
+EQUIPMENT:dragon279equiparmorshields.lst
+EQUIPMENT:dragon279equip.lst
+EQUIPMENT:dragon279equipweapammo.lst
+EQUIPMOD:dragon279equipmods.lst
+FEAT:dragon279feats.lst
+SPELL:dragon279spells.lst

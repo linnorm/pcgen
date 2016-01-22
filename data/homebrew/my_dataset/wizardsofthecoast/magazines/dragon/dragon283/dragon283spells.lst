@@ -1,0 +1,28 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #283	SOURCESHORT:WotC-Dragon #283	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Spell Name			Classes of caster
+Bless.MOD				CLASSES:Flame Steward=1
+Cure Light Wounds.MOD		CLASSES:Flame Steward=1
+Endure Elements.MOD		CLASSES:Flame Steward=1
+Light.MOD				CLASSES:Flame Steward=1
+Summon Monster I.MOD		CLASSES:Flame Steward=1
+Consecrate.MOD			CLASSES:Flame Steward=2
+Continual Flame.MOD		CLASSES:Flame Steward=2
+Cure Moderate Wounds.MOD	CLASSES:Flame Steward=2
+Resist Elements.MOD		CLASSES:Flame Steward=2
+Summon Monster II.MOD		CLASSES:Flame Steward=2
+Cure Serious Wounds.MOD		CLASSES:Flame Steward=3
+Protection From Elements.MOD	CLASSES:Flame Steward=3
+Remove Blindness/Deafness.MOD	CLASSES:Flame Steward=3
+Remove Disease.MOD		CLASSES:Flame Steward=3
+Summon Monster III.MOD		CLASSES:Flame Steward=3
+Cure Critical Wounds.MOD	CLASSES:Flame Steward=4
+Quench.MOD				CLASSES:Flame Steward=4
+Searing Light.MOD			CLASSES:Flame Steward=4
+Summon Monster IV.MOD		CLASSES:Flame Steward=4
+Fire Shield.MOD			CLASSES:Flame Steward=5
+Healing Circle.MOD		CLASSES:Flame Steward=5
+Summon Monster V.MOD		CLASSES:Flame Steward=5
+Wall of Fire.MOD			CLASSES:Flame Steward=5
+

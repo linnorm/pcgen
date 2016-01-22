@@ -1,0 +1,22 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:SSS - The Wise and the Wicked
+GAMEMODE:3e
+TYPE:Sword and Sorcery Studios.Scarred Lands
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+RANK:9
+SOURCELONG:The Wise and the Wicked
+SOURCESHORT:WiseandWicked
+SOURCEWEB:http://www.swordsorcery.com
+
+EQUIPMENT:wisewickedequip.lst
+EQUIPMENT:wisewickedequiparmorshields.lst
+EQUIPMENT:wisewickedequipmagictattoos.lst
+EQUIPMENT:wisewickedequippotionspoisons.lst
+EQUIPMENT:wisewickedequiprodstaffwands.lst
+EQUIPMENT:wisewickedequipweapmeleespecific.lst
+EQUIPMENT:wisewickedequipwondrousitems.lst
+SPELL:wisewickedspells.lst
+
+ARMORPROF:wisewicked_armorprof.lst

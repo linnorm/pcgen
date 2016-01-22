@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Dwarf	SOURCESHORT:QuintDwarf	SOURCEWEB:http://mongoosepublishing.com
+# Original Entry by: Brian Lubkeman
+
+# Modifier Name	Unique Key	Type		Cost		Visible		Type granted	Source Page		Required Type			Bonus Equipment Modifiers	Special Property	Change Armor Type
+Armour Blades	KEY:ARMRAB	TYPE:Armor	COST:100	VISIBLE:YES		ITYPE:Bladed	SOURCEPAGE:pg. 45						BONUS:EQM|WEIGHTADD|10		SPROP:Bladed
+Articulation	KEY:ARMRARM	TYPE:Armor	COST:500	VISIBLE:QUALIFY	ITYPE:Articulated	SOURCEPAGE:pg. 46	PRETYPE:1,Armor.Medium.Suit						SPROP:Articulated	ARMORTYPE:Heavy|Medium
+Articulation	KEY:ARMRARH	TYPE:Armor	COST:500	VISIBLE:QUALIFY	ITYPE:Articulated	SOURCEPAGE:pg. 46	PRETYPE:1,Armor.Heavy.Suit						SPROP:Articulated	ARMORTYPE:Heavy|Medium
+Reinforcement	KEY:ARMRRE	TYPE:Armor	COST:300	VISIBLE:YES		ITYPE:Reinforced	SOURCEPAGE:pg. 46						BONUS:EQM|WEIGHTADD|15		SPROP:Reinforced

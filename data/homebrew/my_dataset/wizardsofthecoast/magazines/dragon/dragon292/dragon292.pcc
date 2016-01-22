@@ -1,0 +1,14 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #292
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #292
+SOURCESHORT:WotC-Dragon #292
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon292classes.lst
+SPELL:dragon292spells.lst
+FEAT:dragon292feats.lst
+RACE:dragon292races.lst

@@ -1,0 +1,29 @@
+# CVS $Revision: 496 $ $Author: tir-gwaith $ -- Sat Jul 13 08:19:36 2002 -- reformated by prettylst.pl v1.16 (build 169)
+CAMPAIGN:DWG - Alchemy and Herbalists 3.5 - Source Book
+GAMEMODE:35e
+RANK:3
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+TYPE:Dragon Wing Games.Supplement
+PUBNAMELONG:DragonWing Games
+PUBNAMESHORT:DWG
+PUBNAMEWEB:http://www.dragonwing.net
+SOURCELONG:Dragon Wing Games - Alchemy and Herbalists
+SOURCESHORT:AlchemyHrb
+SOURCEWEB:www.bastionpress.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Alchemy &amp Herbalists Copyright 2002, Dragon Wing Games, Inc.
+COPYRIGHT:System Reference Document Copyright 1999, 2000, Wizards of the Coast, Inc.
+COPYRIGHT:PCGen dataset conversion for Alchemy &amp Herbalists Copyright 2002-2003, PCgen Data Team including, but not limited to, Magus Knightcrawler, Andrew McDougall (Tir Gwaith).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+EQUIPMENT:alchemyherbalistequipwondrousitems.lst
+EQUIPMENT:alchemyherbalistequipherbs.lst
+FEAT:alchemyherbalistfeats.lst
+CLASS:alchemyherbalistclasses.lst
+SKILL:alchemyherbalistskills.lst
+SPELL:alchemyherbalistspells.lst

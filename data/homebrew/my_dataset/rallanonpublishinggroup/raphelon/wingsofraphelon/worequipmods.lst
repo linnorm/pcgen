@@ -1,0 +1,25 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon	SOURCESHORT:WngRaph	SOURCEWEB:http://raxstower.finzen.com
+
+###Block:Armor
+# Modifier Name	Unique Key	Type			Cost		Type granted	Source Page							BONUS:EQM			BONUS:EQMARMOR							Special Property	Apply to both heads
+
+###Block:Weapon
+# Modifier Name	Unique Key	Type				Special Property
+Holy Symbol		KEY:HLYSYM	TYPE:Weapon.Shield	SPROP:Weapon functions as a holy symbol
+Summon Sword	KEY:SUMSWD	TYPE:Weapon			SPROP:Summon Sword 1/day
+
+###Block: Armor materials
+# Modifier Name	Unique Key		Type					Cost			Visible		Type granted			Keys to ignore	Cost before resizing	Source Page									Required Type				Combat bonus						BONUS:EQM							BONUS:EQMARMOR																				Change Armor Type
+
+###Block: Weapon materials
+# Modifier Name	Unique Key		Type					Cost										Type granted			Keys to ignore		Source Page									Required Type	BONUS:EQM			Weapon prop. bonus												Apply to both heads
+
+###Block: Amummution/Ranged weapons
+SOURCESHORT:QuintFight	SOURCEWEB:http://mongoosepublishing.com
+# Modifier Name	Unique Key		Type		Cost		Type granted	Source Page			Bonus Weapon Modifiers		Special Property								Apply to both heads
+Bow Stabilizer	KEY:QUINTFSBL	TYPE:Weapon	COST:100	ITYPE:Ranged	SOURCEPAGE:pg. 114	BONUS:EQMWEAPON|RANGEADD|20	SPROP:This addes 20 feet to the bow's range increment.	ASSIGNTOALL:YES
+
+###Block:EXCLUDEEQ: Any item with the properties listed will not be allowed to be edited
+# Modifier Name	Visible	Type granted
+EXCLUDEEQ_MUNDANE	VISIBLE:NO	ITYPE:Masterwork.Silvered.Adamantine.Mithral.Darkwood

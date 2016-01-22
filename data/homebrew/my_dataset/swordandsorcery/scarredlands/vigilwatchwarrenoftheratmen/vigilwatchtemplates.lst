@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Vigil Watch - Warren of the Ratmen	SOURCESHORT:VigilWatch	SOURCEWEB:http://www.swordsorcery.com
+
+# Template Name		Visible	Source Page		Required Race		Bonus Number of Feats	Favored Class				Feat
+Illusionist			VISIBLE:NO	SOURCEPAGE:p.78	PRERACE:1,Slitheren					FAVOREDCLASS:Wizard.Illusionist
+Necromancer			VISIBLE:NO	SOURCEPAGE:p.78	PRERACE:1,Slitheren					FAVOREDCLASS:Wizard.Necromancer
+Exotic Weapon Prof.	VISIBLE:NO	SOURCEPAGE:p.78	PRERACE:1,Slitheren	BONUS:FEAT|POOL|1
+Ambidexterity		VISIBLE:NO	SOURCEPAGE:p.78	PRERACE:1,Slitheren											FEAT:Ambidexterity

@@ -1,0 +1,7 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Darkside Sourcebook	SOURCESHORT:DSSB	SOURCEWEB:http://www.wizards.com/starwars
+
+# Equipment Name			Type					Cost		Weight	Critical Hit Range	Damage	Size		Source Page
+Lanvarok (Sith)			TYPE:Weapon.Exotic.Melee	COST:4000	WT:5.8	CRITRANGE:1			DAMAGE:3d4	SIZE:M	SOURCEPAGE:p.58
+Lanvarok (Massai(Melee))	TYPE:Weapon.Primitive.Melee	COST:0	WT:0		CRITRANGE:2			DAMAGE:2d8	SIZE:M	SOURCEPAGE:p.58
+Sith Sword				TYPE:Weapon.Melee.Exotic	COST:6000	WT:6.5	CRITRANGE:2			DAMAGE:2d6	SIZE:L	SOURCEPAGE:p.60

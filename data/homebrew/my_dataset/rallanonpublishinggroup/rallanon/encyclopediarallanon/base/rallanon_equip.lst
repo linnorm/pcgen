@@ -1,0 +1,13 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+###Block:Mundane Container Name
+# Equipment Name	Output Name				Type							Contains					Cost		Weight
+Coin Purse							TYPE:Goods.Container.General.Resizable	CONTAINS:5|Gem=50|Coin=50|Total=50	COST:1	WT:0.5
+Quiver (Large)	OUTPUTNAME:Quiver, [NAME]	TYPE:Goods.Container.General			CONTAINS:UNLIM|Ammunition=50		COST:4	WT:2
+Quiver (Small)	OUTPUTNAME:Quiver, [NAME]	TYPE:Goods.Container.General			CONTAINS:UNLIM|Ammunition=20		COST:2	WT:1
+Veil (Silk)		OUTPUTNAME:Veil, Silk		TYPE:Goods.Resizable.Headgear									COST:3	WT:0
+Outfit (Courtesan's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable			COST:30	WT:2		SOURCEPAGE:Equipment.rtf
+
+Potion Belt (Masterwork)	TYPE:Goods.General.Masterwork.Container	CONTAINS:5|Potion=10|Vial=10				COST:60	WT:1		SOURCELONG:Forgotten Realms Campaign Setting	SOURCESHORT:frcs		SOURCEPAGE:p.96
+Scroll Organizer			TYPE:Goods.Tools.Container			CONTAINS:7.5|Scroll=15|Documents=15|Paper=15	COST:5	WT:0.5	SOURCELONG:Forgotten Realms Campaign Setting	SOURCESHORT:frcs		SOURCEPAGE:p.96

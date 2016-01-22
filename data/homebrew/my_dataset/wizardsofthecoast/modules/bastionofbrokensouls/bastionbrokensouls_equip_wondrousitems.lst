@@ -1,0 +1,11 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name						Type						Cost		Weight	Requires Modification?	Source Page		Special Property
+Blood Mark							TYPE:Magic.Wondrous.Amulet.Gem	COST:252000	WT:.01	MODS:NO			SOURCEPAGE:p.46	SPROP:+20 Competence bonus to Scry to scry the nearest living descendent of Dydd. Will pull in direction of nearest living descendent.
+Bracers of Exit						TYPE:Magic.Wondrous.Bracer		COST:11200	WT:.01	MODS:NO			SOURCEPAGE:p.46	SPROP:Wearer can negate one dimensional anchor effect per day.
+Ring of Greater Counterspelling			TYPE:Magic.Wondrous.Ring		COST:16000	WT:.01	MODS:NO			SOURCEPAGE:p.46	SPROP:Will automatically counter whichever spell was stored in the ring.
+Ring of Positive Energy Protection			TYPE:Magic.Wondrous.Ring		COST:16000	WT:.01	MODS:NO			SOURCEPAGE:p.46	SPROP:Constantly confers the benefits of the spell positive energy protection.
+Torture Bracelet						TYPE:Alchemical.Wondrous.Bracer	COST:300	WT:.01	MODS:NO			SOURCEPAGE:p.46	SPROP:Mechanical bracelet which causes damage to balance the healing effects of the positive energy plane.
+Ring of Greater Counterspelling (Timestop)	TYPE:Magic.Wondrous.Ring		COST:16000	WT:.01	MODS:NO			SOURCEPAGE:p.40	SPROP:Will automatically counter the timestop spell.

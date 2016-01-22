@@ -1,0 +1,31 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wildwood	SOURCESHORT:Wildwood	SOURCEWEB:http://www.bastionpress.com
+
+
+##Block: Prestige Races
+
+# Class Name		Hit Dice	Abbreviation	Max Level	Source Page			Save checks bonus											Combat bonus
+CLASS:Focus of the Claw	HD:8		ABB:FoClw		MAXLEVEL:4	SOURCEPAGE:pg. 171	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Focus of the Claw	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Hide|Intimidate|Listen|Move Silently|Spot|Survival
+1	SAB:Prestige Race - Deadly Creature
+2	SAB:Prestige Race - Lethal Creature
+3	SAB:Prestige Race - Razor Creature	BONUS:COMBAT|TOHIT.Natural|1|TYPE=Enhancement	BONUS:COMBAT|DAMAGE.Natural|1|TYPE=Enhancement
+4	SAB:Prestige Race - Edged Creature
+
+# Class Name			Hit Dice	Abbreviation	Max Level	Source Page			Save checks bonus											Combat bonus
+CLASS:Focus of the Serpent	HD:8		ABB:FoSrp		MAXLEVEL:3	SOURCEPAGE:pg. 177	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Focus of the Serpent	STARTSKILLPTS:2	CSKILL:Balance|Climb|TYPE.Craft|Escape Artist|Hide|Listen|Move Silently|Spot|Survival|Swim
+1	SAB:Prestige Race - Slithering Creature
+2	SAB:Prestige Race - Circulatory Creature
+3	SAB:Prestige Race - Venomous Creature	ADD:FEAT|Small Poisoned Bite,Medium Poisoned Bite,Large Poisoned Bite
+
+# Class Name		Hit Dice	Abbreviation	Max Level	Source Page			Save checks bonus								Combat bonus
+CLASS:Focus of the Wyrm	HD:8		ABB:FoWym		MAXLEVEL:4	SOURCEPAGE:pg. 179	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Focus of the Wyrm	STARTSKILLPTS:2	CSKILL:Bluff|TYPE.Craft|Hide|Knowledge (Arcana)|TYPE.Profession|Spellcraft|Spot|Use Magic Device
+1			DR:1/Bludgeoning	SAB:Prestige Race - Scaled Creature		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE
+2						SAB:Prestige Race - Winged Creature										TEMPLATE:FoWym Winged Creature
+3	SR:5+TL				SAB:Prestige Race - Spellbound Creature
+4						SAB:Prestige Race - Draconic Creature									TEMPLATE:FoWym Draconic Creature

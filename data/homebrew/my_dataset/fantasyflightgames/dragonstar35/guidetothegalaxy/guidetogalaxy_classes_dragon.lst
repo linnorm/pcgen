@@ -1,0 +1,115 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Fantasy Flight Games - Dragonstar - Guide to Galaxy	SOURCESHORT:GuideGalaxy	SOURCEWEB:http://www.fantasyflightgames.com/dragonstar.html
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Automatic Languages	Levels per Feat	Define		Save checks bonus								Combat bonus
+CLASS:Space Dragon	HD:12		TYPE:Monster	ABB:SpcDr		MAXLEVEL:99	SOURCEPAGE:Dragon	LANGAUTO:Literacy		LEVELSPERFEAT:4	DEFINE:DAge|1	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL
+# Class Name		Required Race		Reg. Race Type
+CLASS:Space Dragon	PRERACE:1,Dragon (Space	PRERACETYPE:Dragon
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Space Dragon	STARTSKILLPTS:6	CSKILL:Listen|Spot|Search|Bluff|Concentration|Diplomacy|Escape Artist|TYPE.Knowledge
+1		SAB:Space Subtype	SAB:Breath Weapon(Su) %' Cone of Void %d10 vacum DC %|(SIZE-1)*20MAX30|(2*DAge)|BreathWeaponDC																																				DEFINE:BreathWeaponDC|16
+2																					BONUS:COMBAT|AC|CL=Space Dragon|TYPE=NaturalArmor.REPLACE
+3
+4
+5
+6
+7
+8
+9
+10																																																BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2
+11
+12
+13		SAB:Fly(Sp)																																													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|1									ADD:SPELLCASTER|Sorcerer
+14																															BONUS:PCLEVEL|Sorcerer|1
+15																															BONUS:PCLEVEL|Sorcerer|1
+16																															BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|3
+17																															BONUS:PCLEVEL|Sorcerer|1
+18																															BONUS:PCLEVEL|Sorcerer|1
+19	SR:19	SAB:Frightful Presence(Ex) % ft DC %|DAge*30|FPres																					BONUS:PCLEVEL|Sorcerer|1	BONUS:SKILLRANK|Spellcraft|CLASSLEVEL=Space Dragon|PRESTAT:1,INT=12	BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2	DEFINE:FPres|(CLASSLEVEL=Space Dragon)/2+10+CHA
+20																															BONUS:PCLEVEL|Sorcerer|1
+21																															BONUS:PCLEVEL|Sorcerer|1
+22	SR:21																														BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|1
+23																															BONUS:PCLEVEL|Sorcerer|1
+24																															BONUS:PCLEVEL|Sorcerer|1
+25																															BONUS:PCLEVEL|Sorcerer|1
+25	SR:23																														BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|3
+26																															BONUS:PCLEVEL|Sorcerer|1
+27																															BONUS:PCLEVEL|Sorcerer|1
+28	SR:24	SAB:Total Protection 3/day																									BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2
+29																															BONUS:PCLEVEL|Sorcerer|1
+30																															BONUS:PCLEVEL|Sorcerer|1
+31	SR:26																														BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|3
+32																															BONUS:PCLEVEL|Sorcerer|1
+33																															BONUS:PCLEVEL|Sorcerer|1
+34																															BONUS:PCLEVEL|Sorcerer|1
+34	SR:28	SAB:Tractor Beam 3/day																										BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|1
+35																															BONUS:PCLEVEL|Sorcerer|1
+36																															BONUS:PCLEVEL|Sorcerer|1
+37	SR:30																														BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|4
+38																															BONUS:PCLEVEL|Sorcerer|1
+39																															BONUS:PCLEVEL|Sorcerer|1
+40	SR:32	SAB:Implosion 3/day																										BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2
+41																															BONUS:PCLEVEL|Sorcerer|1
+42																															BONUS:PCLEVEL|Sorcerer|1
+43																															BONUS:PCLEVEL|Sorcerer|1
+44																															BONUS:PCLEVEL|Sorcerer|1
+45																															BONUS:PCLEVEL|Sorcerer|1
+46																															BONUS:PCLEVEL|Sorcerer|1
+48																															BONUS:PCLEVEL|Sorcerer|1
+49																															BONUS:PCLEVEL|Sorcerer|1
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Automatic Languages	Levels per Feat	Define		Save checks bonus								Combat bonus
+CLASS:Star Dragon	HD:12		TYPE:Monster	ABB:StrDr		MAXLEVEL:99	SOURCEPAGE:Dragon	LANGAUTO:Literacy		LEVELSPERFEAT:4	DEFINE:DAge|1	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL
+# Class Name	Required Race		Reg. Race Type
+CLASS:Star Dragon	PRERACE:1,Dragon (Star	PRERACETYPE:Dragon
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Star Dragon	STARTSKILLPTS:6	CSKILL:Listen|Spot|Search|Bluff|Concentration|Diplomacy|Escape Artist|TYPE.Knowledge
+1		SAB:Breath Weapon(Su) % ft Line of High-Energy Radiation %d10 Radiation DC %|(SIZE-1)*20|(2*DAge)|BreathWeaponDC																																				DEFINE:BreathWeaponDC|16
+2																					BONUS:COMBAT|AC|CL=Star Dragon|TYPE=NaturalArmor.REPLACE
+3
+4
+5
+6
+7
+8
+9
+10
+11																																																BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2
+12
+13
+14		SAB:Fly(Sp)																																													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2
+15
+16
+17																																																BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2									ADD:SPELLCASTER|Sorcerer
+18																															BONUS:PCLEVEL|Sorcerer|1
+19																															BONUS:PCLEVEL|Sorcerer|1
+20	SR:21	SAB:Frightful Presence(Ex) % ft DC %|DAge*30|FPres																					BONUS:PCLEVEL|Sorcerer|1	BONUS:SKILLRANK|Spellcraft|CLASSLEVEL=Space Dragon|PRESTAT:1,INT=12	BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|3	DEFINE:FPres|(CLASSLEVEL=Space Dragon)/2+10+CHA
+21																															BONUS:PCLEVEL|Sorcerer|1
+22																															BONUS:PCLEVEL|Sorcerer|1
+23	SR:23																														BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|1
+24																															BONUS:PCLEVEL|Sorcerer|1
+25																															BONUS:PCLEVEL|Sorcerer|1
+26	SR:25																														BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|3
+27																															BONUS:PCLEVEL|Sorcerer|1
+28																															BONUS:PCLEVEL|Sorcerer|1
+29	SR:27	SAB:Total Protection 3/day																									BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2
+30																															BONUS:PCLEVEL|Sorcerer|1
+31																															BONUS:PCLEVEL|Sorcerer|1
+32	SR:28																														BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|3
+33																															BONUS:PCLEVEL|Sorcerer|1
+34																															BONUS:PCLEVEL|Sorcerer|1
+35	SR:30	SAB:Tractor Beam 3/day																										BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2
+36																															BONUS:PCLEVEL|Sorcerer|1
+37																															BONUS:PCLEVEL|Sorcerer|1
+38	SR:31																														BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|3
+39																															BONUS:PCLEVEL|Sorcerer|1
+40																															BONUS:PCLEVEL|Sorcerer|1
+41	SR:33	SAB:Sunburst 3/day																										BONUS:PCLEVEL|Sorcerer|1													BONUS:VAR|DAge|1	BONUS:VAR|BreathWeaponDC|2
+42																															BONUS:PCLEVEL|Sorcerer|1
+43																															BONUS:PCLEVEL|Sorcerer|1
+44																															BONUS:PCLEVEL|Sorcerer|1
+45																															BONUS:PCLEVEL|Sorcerer|1
+46																															BONUS:PCLEVEL|Sorcerer|1
+48																															BONUS:PCLEVEL|Sorcerer|1
+49																															BONUS:PCLEVEL|Sorcerer|1

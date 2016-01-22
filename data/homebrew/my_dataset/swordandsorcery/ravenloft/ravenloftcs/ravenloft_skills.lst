@@ -1,0 +1,24 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Skill Name				Key Stat	Untrained?		Classes				Type					Source Page
+Craft (Clockmaking)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft		SOURCEPAGE:p.45
+Craft (Gunsmithing)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft		SOURCEPAGE:p.45
+Hypnosis					KEYSTAT:CHA	USEUNTRAINED:NO	CLASSES:Monk|Sorcerer|Wizard	TYPE:Charisma			SOURCEPAGE:p.46
+Knowledge (Ravenloft)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Aberration)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Beast)				KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Construct)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Dragon)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Elemental)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Fey)				KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Giant)				KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Humanoid)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Magical Beast)		KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Monstrous Humanoid)	KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Ooze)				KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Outsider)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Shapechanger)		KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Undead)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+Knowledge (Vermin)			KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge	SOURCEPAGE:p.46
+

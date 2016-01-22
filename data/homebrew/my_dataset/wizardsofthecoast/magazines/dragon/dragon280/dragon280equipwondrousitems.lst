@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #280	SOURCESHORT:WotC-Dragon #280	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name	Type				Cost		Weight	Source Page
+Portal Dust		TYPE:Magic.Wondrous	COST:12000	WT:0		SOURCEPAGE:p.71

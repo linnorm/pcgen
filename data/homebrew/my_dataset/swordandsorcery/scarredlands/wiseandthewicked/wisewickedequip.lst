@@ -1,0 +1,5 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:The Wise and the Wicked	SOURCESHORT:WiseandWicked	SOURCEWEB:http://www.swordsorcery.com
+# Equipment Name	Type				Cost		Weight	Source Page
+Clinging Flame	TYPE:Goods.Alchemical	COST:750	WT:0		SOURCEPAGE:p.
+

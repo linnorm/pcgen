@@ -1,0 +1,103 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Tue Feb 24 11:55:36 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Hollowfaust - City of Necromancers	SOURCESHORT:Hollowfaust	SOURCEWEB:http://www.swordsorcery.com
+
+# Class Name	Hit Dice	Type			Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Animator	HD:4		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.111	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required Feat												Required Skill															Req. Known Spell							Required Spell School
+CLASS:Animator	PREFEAT:3,Skill Focus(Knowledge (Anatomy)),Spell Focus(Necromancy%),Spell Mastery	PRESKILL:4,Knowledge (Anatomy)=8,Knowledge (Arcana)=8,Knowledge (Undead)=8,Craft (Alchemy)=8	PRESPELL:3,Animate Vermin,Cadaver Dance,Gentle Repose	PRESPELLSCHOOL:4,Necromancy=1
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Animator	STARTSKILLPTS:2	CSKILL:Alchemy|Concentration|TYPE.Craft|Heal|TYPE.Knowledge|TYPE.Profession|Spellcraft
+# Class Name	Spell Stat		Spell Type
+#1					BONUS:VAR|TurnTimesBase|3+CHA|TYPE=NoStack						ADD:ABILITY|FEAT|AUTOMATIC|Basic Turning,Turn Undead,Rebuke Undead
+#1					BONUS:VAR|TurnLevelBase|CL=Animator
+#1					BONUS:VAR|TurnDamagePlusBase|CL=Animator
+#1					BONUS:VAR|TurnCheckBase|CHA|TYPE=NoStack
+###Block: Turn Undead stuff
+1	BONUS:ABILITYPOOL|Turn Undead|1|TYPE=ClassAbility	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|CL|TYPE=Level.REPLACE		ABILITY:Special Ability|AUTOMATIC|Basic Turning|Cleric Turning
+1																		ADD:SPELLCASTER|ANY
+2																		ADD:SPELLCASTER|ANY
+3	SAB:Animate Dead															ADD:SPELLCASTER|ANY
+4													DEFINE:AllowExtraTurning|1	ADD:SPELLCASTER|ANY
+5																		ADD:SPELLCASTER|ANY
+6	SAB:Create Undead															ADD:SPELLCASTER|ANY
+7	SAB:Control Undead														ADD:SPELLCASTER|ANY
+8																		ADD:SPELLCASTER|ANY
+9	SAB:Golem Creation														ADD:SPELLCASTER|ANY
+10	SAB:Destruction															ADD:SPELLCASTER|ANY
+
+
+# Class Name	Hit Dice	Type			Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Mourner	HD:6		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.113	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required Feat				Required Skill						Var. Min. Value
+CLASS:Mourner	PREFEAT:1,Skill Focus(TYPE.Perform)	PRESKILL:2,Knowledge (Undead)=7,TYPE.Perform=7	PREVARGTEQ:(var("BL=Bard")+var("CL=Bard")),4
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Mourner	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Concentration|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Intuit Direction|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Scry|Sense Motive|Speak Language|Spellcraft|Tumble|Use Magic Device|Survival
+# Class Name	Spell Stat		Spell Type
+1											ADD:SPELLCASTER|ANY	ADD:ABILITY|FEAT|AUTOMATIC|Simple Weapon Proficiency,Armor Proficiency (Light),Armor Proficiency (Medium),Shield Proficiency	SPELLS:Phantom Howl|1|ClassAbility	AUTO:WEAPONPROF|SIMPLE	WEAPONBONUS:Longbow|Longbow (Composite)|Longsword|Rapier|Sap|Shortbow (Composite)|Sword (Short)|Shortbow|Whip
+2	SAB:Speak with Souls							ADD:SPELLCASTER|ANY
+3											ADD:SPELLCASTER|ANY																						SPELLS:Dirge of Woe|1|ClassAbility
+4	SAB:Resolute Aura			BONUS:SKILL|Intimidate|CL	ADD:SPELLCASTER|ANY
+5	SAB:Song of Vengeance							ADD:SPELLCASTER|ANY
+6	SAB:Find the Truth							ADD:SPELLCASTER|ANY
+7	SAB:Hymn of Life								ADD:SPELLCASTER|ANY
+8	SAB:Wrath of the Righteous						ADD:SPELLCASTER|ANY
+9											ADD:SPELLCASTER|ANY																						SPELLS:Doomwail|1|ClassAbility
+10	SAB:Lay the Dead to Rest						ADD:SPELLCASTER|ANY
+
+
+# Class Name		Hit Dice	Type			Max Level	Source Page		Automatically Gained Weapon Prof.																														Save checks bonus															Combat bonus
+CLASS:Shade Touched	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.115	AUTO:WEAPONPROF|Crossbow (Hand)|Crossbow (Light)|Dagger|Dagger (Punching)|Dart|Mace (Light)|Sap|Shortbow|Shortbow (Composite)|Sword (Short)|Club|Crossbow (Heavy)|Mace (Heavy)|Morningstar|Quarterstaff|Rapier	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Feat					Required Skill
+CLASS:Shade Touched	PREFEAT:3,Combat Reflexes,Dodge,Mobility	PRESKILL:1,TYPE.Perform=5	PRESKILL:2,Hide=8,Move Silently=8	PRESKILL:2,Listen=7,Spot=7
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Shade Touched	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Spot|Tumble|Use Rope|Sleight of Hand
+1	SAB:Shade's Kiss +%d6 DC %|ShadesKissDamage|ShadesKissDC																												DEFINE:ShadesKissDamage|1	DEFINE:ShadesKissDC|14
+2	SAB:Drain Resistance +%|DrainResistance	SAB:Shadow Cloak									BONUS:SKILL|Hide|5	BONUS:SKILL|Move Silently|5											DEFINE:DrainResistance|CL/2
+3	SAB:Chill Aura	SAB:Mantle of Twilight %/day - % rounds|MantleofTwilightPerDay|MantleofTwilightRounds																				DEFINE:MantleofTwilightPerDay|CL/3	DEFINE:MantleofTwilightRounds|CL
+4																												BONUS:VAR|ShadesKissDamage|1	BONUS:VAR|ShadesKissDC|4
+5																			BONUS:SKILL|Hide|5	BONUS:SKILL|Move Silently|5
+7																												BONUS:VAR|ShadesKissDamage|1	BONUS:VAR|ShadesKissDC|4
+8																			BONUS:SKILL|Hide|5	BONUS:SKILL|Move Silently|5
+10																												BONUS:VAR|ShadesKissDamage|1	BONUS:VAR|ShadesKissDC|4
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Speaker of the Dead	HD:4		TYPE:PC.Prestige	ABB:Speaker		MAXLEVEL:10	SOURCEPAGE:p.117	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name			Required Feat																						Required Skill
+CLASS:Speaker of the Dead	PREFEAT:1,Skill Focus(Knowledge (Historical personalities)),Skill Focus(Knowledge (Local personalities))	PREFEAT:1,Spell Focus(Necromancy%)	PRESKILL:1,Knowledge (Historical personalities)=8,Knowledge (Local personalities)=8	PRESKILL:3,Knowledge (Arcana)=8,Knowledge (Genealogy)=8,Knowledge (Undead)=8
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Speaker of the Dead	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft
+# Class Name			Spell Stat		Spell Type
+1	SAB:Speak with the Dead %/day|CL												ADD:SPELLCASTER|ANY
+2	SAB:Guidance +%|CL/2														ADD:SPELLCASTER|ANY
+3									BONUS:VAR|TurnTimesBase|3+CHA|TYPE=NoStack		ADD:ABILITY|FEAT|AUTOMATIC|Basic Turning,Turn Undead,Rebuke Undead
+3									BONUS:VAR|TurnLevelBase|CL=Speaker of the Dead
+3									BONUS:VAR|TurnDamagePlusBase|CL=Speaker of the Dead
+3									BONUS:VAR|TurnCheckBase|CHA|TYPE=NoStack
+3																		ADD:SPELLCASTER|ANY
+4																		ADD:SPELLCASTER|ANY
+5	SAB:Spiritual Possession % rounds per day|CL										ADD:SPELLCASTER|ANY
+6																		ADD:SPELLCASTER|ANY
+7																		ADD:SPELLCASTER|ANY	ADD:ABILITY|FEAT|AUTOMATIC|Extra Turning
+8																		ADD:SPELLCASTER|ANY
+9	SAB:Exorcism															ADD:SPELLCASTER|ANY
+10																		ADD:SPELLCASTER|ANY
+
+
+# Class Name		Hit Dice	Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:The Unfailing	HD:12		ABB:Unf		MAXLEVEL:10	SOURCEPAGE:p.119	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat								Required Skill
+CLASS:The Unfailing	PREATT:5	PREFEAT:4,Endurance,Great Fortitude,Iron Will,Toughness	PRESKILL:2,Listen=5,Spot=5
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:The Unfailing	STARTSKILLPTS:2	CSKILL:Intimidate|Listen|Sense Motive|Spot
+1			SAB:Harm's Way														ADD:ABILITY|FEAT|AUTOMATIC|Simple Weapon Proficiency,Armor Proficiency (Light),Armor Proficiency (Medium),Armor Proficiency (Heavy),Shield Proficiency,Martial Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Martial
+2	DR:1/-	SAB:Drain Resistance +%|DrainResistance					DEFINE:DrainResistance|CL/2
+3			SAB:Critical Immunity (Piercing Weapons)
+4																			ADD:ABILITY|FEAT|AUTOMATIC|Improved Initiative
+5											BONUS:DR|-|2
+6			SAB:Critical Immunity (Slashing Weapons)
+7			SAB:Undying
+8											BONUS:DR|-|2
+9			SAB:Critical Immunity (Bludgeoning Weapons)
+10			SAB:Wraithsight
+

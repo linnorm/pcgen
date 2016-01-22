@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Star Magic	SOURCESHORT:Star Magic	SOURCEWEB:http://www.mongoosepublishing.com
+
+
+# Skill Name		Key Stat	Untrained?		Type					Source Page
+Knowledge (Astrology)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:pg. 40
+Profession (Astrologer)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:pg. 40
+

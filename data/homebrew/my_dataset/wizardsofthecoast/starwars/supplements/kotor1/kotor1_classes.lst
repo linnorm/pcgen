@@ -1,0 +1,15 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Kights of the Old Republic 1	SOURCESHORT:kotor1	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: Base Classes
+
+# Class Name		Hit Dice	Type				Abbreviation	Source Page		Save checks bonus														Combat bonus						Modify VAR
+CLASS:Jedi Sentinel	HD:8		TYPE:PC.Base.Force.Jedi	ABB:JedS		SOURCEPAGE:pg. 18	BONUS:CHECKS|BASE.Reflex,BASE.Willpower|2+(CL/2)	BONUS:CHECKS|BASE.Fortitude|(CL+3)*2/5	BONUS:COMBAT|BAB|CL*(3/4)|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|(CL+3)*2/5+2	BONUS:VAR|Reputation|((CL-1)/4)+1
+# Class Name		Prohibited Class
+CLASS:Jedi Sentinel	!PRECLASS:1,Jedi Consular=1,Jedi Guardian=1
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Jedi Sentinel	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Computer Use|TYPE=Craft|Disguise|Gather Information|Intimidate|TYPE=Knowledge|Pilot|TYPE=Profession|Read/Write Language|Search|Sense Motive|Spot|Speak Language|Treat Injury
+1	BONUS:VAR|ForceUser|CL	BONUS:VAR|JediLevel|CL	DEFINE:ForceUser|0	DEFINE:JediLevel|0	AUTO:WEAPONPROF|Lightsaber
+
+
+#Block: Prestige Classes

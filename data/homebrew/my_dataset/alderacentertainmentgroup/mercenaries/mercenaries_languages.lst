@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Alderac Entertainment Group - Mercenaries	SOURCESHORT:Mercenaries	SOURCEWEB:http://alderac.com/d20
+
+# Language		Type					Var. Min. Value
+Alchemical Cant	TYPE:Read.Alchemical.Secret	PREVARGTEQ:AlchemicalCant,1

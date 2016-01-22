@@ -1,0 +1,7 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Wed Jun  1 19:57:55 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AEG	SOURCEWEB:http://www.wizards.com/starwars
+
+#Darkside Feats
+# Feat Name				Type				Visible	Req. Att.	Required Class							Required Feat							Required Stat	Var. Min. Value							Special Ability						Define							Description																				Multiple?	Choose			Bonus to skill		Source Page
+#Drain Force				TYPE:Force.Darkside														PREFEAT:4,Force Sensitive,Alter,Control,Sith Sorcery				PREVARGTEQ:DarksidePoints,6																					DESC:You are able to draw life energy from living beings, gradually absorbing it into yourself.																SOURCEPAGE:p.17
+

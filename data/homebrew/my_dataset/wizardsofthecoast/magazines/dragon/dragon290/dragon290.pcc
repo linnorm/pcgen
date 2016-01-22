@@ -1,0 +1,16 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #290
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #290
+SOURCESHORT:WotC-Dragon #290
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon290classes.lst
+DEITY:dragon290deities.lst
+EQUIPMENT:dragon290equipweapmelee.lst
+FEAT:dragon290feats.lst
+SKILL:dragon290skills.lst
+WEAPONPROF:dragon290weapprofs.lst

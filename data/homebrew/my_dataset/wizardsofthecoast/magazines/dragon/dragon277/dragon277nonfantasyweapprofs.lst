@@ -1,0 +1,15 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #277	SOURCESHORT:WotC-Dragon #277	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Weapon Name	Type
+DiM Rifle		TYPE:Exotic
+DiM Pistol		TYPE:Exotic
+DiM Gun		TYPE:Exotic
+Shocker		TYPE:Exotic
+Slivershot		TYPE:Exotic
+Spirit Bow		TYPE:Exotic
+Pistol		TYPE:Exotic
+Hunting Rifle	TYPE:Exotic
+Sniper Rifle	TYPE:Exotic
+SMG			TYPE:Exotic
+HMG			TYPE:Exotic
+Artillery Piece	TYPE:Exotic

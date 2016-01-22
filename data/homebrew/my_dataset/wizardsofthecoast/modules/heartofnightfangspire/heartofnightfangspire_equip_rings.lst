@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/17/03
+SOURCELONG:Heart of Nightfang Spire	SOURCESHORT:HeartNight	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Type			Cost		Weight	Source Page		Special Property
+Ring of Magic Fang	TYPE:Magic.Ring	COST:6000	WT:.01	SOURCEPAGE:p.32	SPROP:+1 enhancement bonus to one of bearers natural attacks

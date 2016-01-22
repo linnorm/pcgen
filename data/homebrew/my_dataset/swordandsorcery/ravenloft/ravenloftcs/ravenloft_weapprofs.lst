@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Weapon Name	Type
+Firearms		TYPE:Exotic
+Rapier (Parthian)	TYPE:Exotic
+Bayonet		TYPE:Simple
+Straight Razor	TYPE:Simple
+

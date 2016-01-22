@@ -1,0 +1,19 @@
+# CVS $Revision$ $Author$ -- Sun Jan  9 12:26:39 2005 -- reformated by prettylst.pl v1.34 (build 451)
+# Created by Rax the Grey
+CAMPAIGN:Monsternomicon Volume I
+RANK:2
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:RSRD
+SETTING:Iron Kingdoms
+TYPE:Privateer Press.Iron Kingdoms
+SOURCELONG:Monsternomicon Volume I
+SOURCESHORT:Monsternomicon1
+SOURCEWEB:http://www.ironkingdoms.com
+ISOGL:YES
+
+
+ABILITY:monsternomicon1_abilities.lst
+RACE:monsternomicon1_races.lst
+SKILL:monsternomicon1_skills.lst
+TEMPLATE:monsternomicon1_templates.lst

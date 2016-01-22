@@ -1,0 +1,11 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 5	SOURCESHORT:SWG5	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Class Name	Hit Dice	Max Level	Source Page		Define
+CLASS:Slicer	HD:6		MAXLEVEL:10	SOURCEPAGE:pg.	DEFINE:BAB|CL/2	DEFINE:FORTBASE|CL/3	DEFINE:REFLEXBASE|1+CL/5+(CL+3)/5	DEFINE:WILLBASE|1+CL/5+(CL+3)/5
+# Class Name	Req. Att.	Required Feat					Required Skill
+CLASS:Slicer	PREATT:3	PREFEAT:1,Skill Emphasis (Computer Use)	PRESKILL:1,Computer Use=7	PRESKILL:3,Disable Device=3,Forgery=3,Repair=3
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Slicer	STARTSKILLPTS:8	CSKILL:Appraise|Bluff|Computer Use|TYPE=Craft|Disable Device|Escape Artist|Forgery|Gather Information|Hide|TYPE=Knowledge|Move Silently|TYPE=Profession|Read/Write|Repair|Search
+1	BONUS:SKILL|Computer Use|(CL/3)+1	BONUS:VAR|Decode|(CL/3)+1	DEFINE:Decode|0
+#Level 2,5 and 8 Special Ability: Choose either a feat from among Fame, Gearhead, Infamy, Low Profile, or Skill Emphasis (any class skill) or Skill Mastery (choose one skill from the following list and you can take 10 no matter what: Computer Use, Disable Device, Forgery, Gather Information, or Repair).

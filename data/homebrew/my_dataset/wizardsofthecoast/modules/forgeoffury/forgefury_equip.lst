@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 09/16/03
+SOURCELONG:The Forge of Fury	SOURCESHORT:ForgeFury	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Type						Cost		Weight	Source Page
+Borgol's Gold Ring	TYPE:Goods.General.Ring.Resizable	COST:120	WT:.01	SOURCEPAGE:p.16
+Iron Door Key		TYPE:Goods.General			COST:0	WT:.01	SOURCEPAGE:p.21
+Gold/Ruby Necklace	TYPE:Goods.General.Amulet		COST:900	WT:.01	SOURCEPAGE:p.22

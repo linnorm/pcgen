@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+# Equipment Name				Output Name									Type											Cost		Weight	Contains				Source Page							Required Proficiency			Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Weapon prop. bonus
+
+
+###Block:OA Specific Ranged weapons
+##Simple Ranged Weapons
+# Equipment Name	Output Name				Type														Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Source Page		Special Property
+Blowgun							TYPE:Weapon.Simple.Ranged.Piercing.Standard.Wooden.Container.Projectile.Blowgun	COST:1	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1	RANGE:10	SIZE:S	SOURCEPAGE:p.72
+
+##Exotic Ranged Weapons
+Fukimi-Bari							TYPE:Weapon.Exotic.Ranged.Piercing.Standard.Metal.Dart					COST:1	WT:0.1	CRITMULT:x2			CRITRANGE:1			DAMAGE:1	RANGE:10	SIZE:T	SOURCEPAGE:p.72	SPROP:You can shoot up to 3 of these darts at the same target from your mouth.
+Chakram							TYPE:Weapon.Exotic.Ranged.Slashing.Standard.Thrown						COST:15	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d4	RANGE:30	SIZE:S	SOURCEPAGE:p.72
+Blowgun (Greater)	OUTPUTNAME:[NAME] Blowgun	TYPE:Weapon.Simple.Ranged.Piercing.Standard.Container.Projectile.Blowgun		COST:10	WT:4		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d3	RANGE:10	SIZE:L	SOURCEPAGE:p.72

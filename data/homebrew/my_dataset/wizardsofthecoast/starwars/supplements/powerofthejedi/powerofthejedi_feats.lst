@@ -1,0 +1,44 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Power of the Jedi	SOURCESHORT:PotJ	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: General Feats
+# Feat Name								Type				Visible	Req. Att.	Required Feat										Required Skill		Var. Min. Value			Description																		Multiple?	Choose							Source Page
+
+
+#Block: Force Feats
+# Feat Name								Type								Required Feat				Required Stat	Var. Max. Value			Description											Source Page
+Battle Meditation							TYPE:Force							PREFEAT:2,Alter,Force Sensitive	PRESTAT:1,WIS=13	PREVARLTEQ:DarksidePoints,2	DESC:You can influence battles by envisioning an outcome you desire.	SOURCEPAGE:pg. 15
+
+#Block: .MODed Feats
+Acrobatic.MOD							TYPE:JediWeaponMasterKnight
+Advanced Martial Arts.MOD					TYPE:JediWeaponMaster
+Ambidexterity.MOD							TYPE:JediWeaponMaster
+Burst of Speed.MOD						TYPE:JediWeaponMasterKnight.JediScholarKnight
+Cleave.MOD								TYPE:JediWeaponMasterKnight
+Defensive Martial Arts.MOD					TYPE:JediWeaponMaster
+Dodge.MOD								TYPE:JediWeaponMasterKnight
+Exotic Weapon Proficiency.MOD					TYPE:JediWeaponMaster
+Force Mastery.MOD							TYPE:JediWeaponMasterKnight.JediScholarKnight
+Force Mind.MOD							TYPE:JediWeaponMasterKnight.JediScholarKnight
+Improved Critical.MOD						TYPE:JediWeaponMaster
+Improved Disarm.MOD						TYPE:JediWeaponMaster
+Improved Martial Arts.MOD					TYPE:JediWeaponMaster
+Improved Trip.MOD							TYPE:JediWeaponMaster
+Improved Two Weapon Fighting.MOD				TYPE:JediWeaponMaster
+Knight Defense.MOD						TYPE:JediWeaponMasterKnight.JediScholarKnight
+Knight Mind.MOD							TYPE:JediWeaponMasterKnight.JediScholarKnight
+Knight Speed.MOD							TYPE:JediWeaponMasterKnight.JediScholarKnight
+Lightsaber Defense.MOD						TYPE:JediWeaponMasterKnight.JediScholarKnight
+Martial Arts.MOD							TYPE:JediWeaponMaster
+Mobility.MOD							TYPE:JediWeaponMasterKnight
+Two Weapon Fighting.MOD						TYPE:JediWeaponMaster
+Weapon Finesse.MOD						TYPE:JediWeaponMaster
+Weapon Focus.MOD							TYPE:JediWeaponMaster
+Weapon Group Proficiency (Blaster Pistols).MOD		TYPE:JediWeaponMaster
+Weapon Group Proficiency (Blaster Rifles).MOD		TYPE:JediWeaponMaster
+Weapon Group Proficiency (Heavy Weapons).MOD		TYPE:JediWeaponMaster
+Weapon Group Proficiency (Primitive Weapons).MOD	TYPE:JediWeaponMaster
+Weapon Group Proficiency (Simple Weapons).MOD		TYPE:JediWeaponMaster
+Weapon Group Proficiency (Slugthrowers).MOD		TYPE:JediWeaponMaster
+Weapon Group Proficiency (Vehicle Weapons).MOD		TYPE:JediWeaponMaster
+Weapon Group Proficiency (Vibro Weapons).MOD		TYPE:JediWeaponMaster

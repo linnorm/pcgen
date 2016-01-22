@@ -1,0 +1,122 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+# Skill Name					Key Stat	Untrained?		Skill Penalty Apply	Exclusive?		Classes																																Type						Required Class		Source, Long Desc.						Source, Short Desc.	Source Page				Bonus to skill
+Craft (Autopsy)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Basketweaving)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art																			SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Bookbinding)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art																			SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Brewing)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Calligraphy)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Candle Making)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Clockmaking)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Cooking)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Coppersmithing)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Dragonsmithing)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Flower Arranging)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Gemcutting)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art																			SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Glassmaking)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Landscape Gardening)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Locksmithing)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Origami)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Papermaking)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Poisonmaking)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Scrimshaw)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art																			SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Silkmaking)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Tailoring)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Tattooing)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Weaving)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art																			SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Knowledge (Algoria)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Anarch Lore)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Ancient History)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Ancient Kish)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Ardos)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Athega)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Axiomat Lore)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Bellagon)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Bencadrad Alliance)		KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Bloodlands)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Bonadan)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Candon)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Celestial Lore)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Code of Martial Honor)		KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Court Protocol)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Creature Lore)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Dentros)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Durinar)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Elemental Lore)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Enchanted Wood)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Fiend Lore)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Grass Sea)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Haknaar)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Kharsiris)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Kish)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Kuraek)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Landorn)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Law)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO		CLASSES:Cleric[PREDEITY:1,Gordan]																											TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Li-Ming)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Literature)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Mathematics)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Military)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Mysidia)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Nyarsk)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Pantorka)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Politics)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Roton)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Scrogothia)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (War)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO		CLASSES:Barbarian|Fighter|Marshal|Paladin|Ranger																								TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Weaponry)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Knowledge (Zhar)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
+Perform (Acrobatics)				KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Perform (Chanting)				KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Perform (Crowd Working)				KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Perform (Jesting)					KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Perform (Miming)					KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Perform (Poetry)					KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Perform (Rhetoric)				KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Perform (Sexual Techniques)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Perform (Storytelling)				KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Perform.Charisma.Art.Agariim																		SOURCEPAGE:Chap.4, Skills
+Profession (Astrologer)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:p.18
+Profession (Cartographer)			KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Chef)					KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Courier)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Courtesan)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Courtier)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Engineer)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Farmer)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Fisher)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Gambler)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Guide)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Herbalist)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Housekeeper)			KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Lawyer)				KEYSTAT:WIS	USEUNTRAINED:NO																																									TYPE:Wisdom.Profession																				SOURCEPAGE:p.53
+Profession (Masseur)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Mortician)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Mountaineer)			KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Prostitute)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Rancher)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Sailor)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Scribe)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Torturer)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Profession (Trader)				KEYSTAT:WIS	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Wisdom.Profession																				SOURCEPAGE:Chap.4, Skills
+Research						KEYSTAT:INT	USEUNTRAINED:YES	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Alienist|Archmage|Bard|Bargainer|Binder|Cleric|Demon Summoner|Demonologist|Loremaster|Mage of the Arcane Order|Master Alchemist|Possessed|Spectral Loremaster|Wizard				TYPE:Intelligence																					SOURCEPAGE:Chap.4, Skills
+Ritual Casting					KEYSTAT:CON	USEUNTRAINED:NO								CLASSES:Cleric|Druid|Sorcerer|Wizard																											TYPE:Constitution																					SOURCEPAGE:p.128			BONUS:SKILL|Ritual Casting|2|PRESKILL:1,Concentration=5
+Use Ley Line					KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Sorcerer|Wizard																														TYPE:Charisma																					SOURCEPAGE:Chap.4, Skills
+
+
+#Skills modified for Rallanon
+Craft (Painting).MOD																																																	TYPE:Intelligence.Craft.Art.Agariim
+Craft (Pottery).MOD																																																	TYPE:Intelligence.Craft.Art
+Craft (Sculpting).MOD																																																	TYPE:Intelligence.Craft.Art
+Craft (Woodworking).MOD																																																	TYPE:Intelligence.Craft.Art
+Knowledge (Local).MOD																																																	TYPE:.CLEAR	TYPE:Disallowed		PRECLASS:1,Disallowed
+
+
+Perform (Act).MOD																																																		TYPE:Perform.Charisma.Art.Agariim
+Perform (Comedy).MOD																																																	TYPE:Perform.Charisma.Art.Agariim
+Perform (Dance).MOD																																																	TYPE:Perform.Charisma.Art.Agariim
+Perform (Keyboard Instruments).MOD																																															TYPE:Perform.Charisma.Art.Agariim
+Perform (Oratory).MOD																																																	TYPE:Perform.Charisma.Art.Agariim
+Perform (Percussion Instruments).MOD																																														TYPE:Perform.Charisma.Art.Agariim
+Perform (String Instruments).MOD																																															TYPE:Perform.Charisma.Art.Agariim
+Perform (Wind Instruments).MOD																																															TYPE:Perform.Charisma.Art.Agariim
+Perform (Sing).MOD																																																	TYPE:Perform.Charisma.Art.Agariim

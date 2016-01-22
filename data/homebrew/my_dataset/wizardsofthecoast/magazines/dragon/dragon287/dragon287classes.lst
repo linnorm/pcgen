@@ -1,0 +1,159 @@
+# CVS $Revision: 1.10 $ $Author: jujutsunerd $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Required Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class		RTM = Required to Memorize Spells	PRSA = Pre-Required Special Ability		RL = Required Languages to be this class		MRST = Minimum Required Saving Throw (type Fort/Ref/Will)
+# DS = Define Special	AA = Add Ability to class (feat/skill)	CT = Class Type (PC/NPC/Template/Monster)
+
+SOURCELONG:Wizards of the Coast - Dragon Magazine #287	SOURCESHORT:WotC-Dragon #287	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Sensate	HD:6		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.48	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE
+# Class Name	Required Feat								Required Skill
+CLASS:Sensate	PREFEAT:1,Alertness	PREFEAT:1,Skill Focus(Knowledge%)	PRESKILL:1,Intuit Direction=5	PRESKILL:2,Spot,Listen=7
+# Class Name	Skill Pts/Lvl
+CLASS:Sensate	STARTSKILLPTS:2
+1						SAB:Darkvision (60')	SAB:Heightened Senses +% |5					BONUS:SKILL|Intuit Direction,Listen,Sense Motive,Spot,Wilderness Lore|5	AUTO:FEAT|Simple Weapon Proficiency|Armor Proficiency (Light)
+2						SAB:Dramatic recount
+3						SAB:Sense Link (%/day)|1
+4						SAB:Heightened Senses +% |5									BONUS:SKILL|Intuit Direction,Listen,Sense Motive,Spot,Wilderness Lore|5
+5						SAB:Energy Acceptance	SAB:Sense Link (%/day)|1
+6						SAB:Sensory Overload (equal)
+7						SAB:Heightened Senses +% |5	SAB:Sense Link (%/day)|1				BONUS:SKILL|Intuit Direction,Listen,Sense Motive,Spot,Wilderness Lore|5
+8	SA:.CLEAR.Sensory Overload	SAB:Sensory Overload (double)	SAB:Shared Spell Experience
+9						SAB:Scent	SAB:Sense Link (%/day)|1
+10	SA:.CLEAR.Sensory Overload	SAB:Blindsight	SAB:Heightened Senses +% |5	SAB:Sensory Overload (triple)	BONUS:SKILL|Intuit Direction,Listen,Sense Motive,Spot,Wilderness Lore|5
+
+
+# Class Name	Hit Dice	Type			Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Sinker	HD:10		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.49	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat						Required Skill
+CLASS:Sinker	PREATT:5	PREFEAT:3,Great Fortitude,Power Attack,Sunder	PRESKILL:1,Disable Device=5	PRESKILL:1,Knowledge (Architecture and engineering)=3
+# Class Name	Skill Pts/Lvl
+CLASS:Sinker	STARTSKILLPTS:2
+# Class Name	Spell Stat		Spell Type		Memorize
+CLASS:Sinker	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO
+1			SAB:Entropic Blow (%/day)|1						AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency
+2			SAB:Sifting
+3	CAST:0,0	SAB:Destructive Expertise	SAB:Entropic Blow (%/day)|1
+4	CAST:0,1,0
+5	CAST:0,2,1	SAB:Entropic Blow (%/day)|1
+6	CAST:0,2,2
+7	CAST:0,3,2	SAB:Entropic Blow (%/day)|1
+8	CAST:0,3,3
+9	CAST:0,4,3	SAB:Entropic Blow (%/day)|1
+10	CAST:0,4,4	SAB:Disintegrate
+
+
+# Class Name	Hit Dice	Type			Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Xaositect	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.52	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:B|TYPE=Base.REPLACE
+# Class Name	Required AL		Req. Att.	Required Check Base
+CLASS:Xaositect	PREALIGN:CG,CN,CE	PREATT:4	PRECHECKBASE:1,FORTITUDE=2	PRECHECKBASE:1,REFLEX=2	PRECHECKBASE:1,WILLPOWER=2
+# Class Name	Skill Pts/Lvl
+CLASS:Xaositect	STARTSKILLPTS:2
+1	SAB:Chaotic Contagion	SAB:Hide from the Law	SAB:No Rhyme or Reason		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency
+2	SAB:Babble (% ft.)|10
+3	SAB:Confusion Aura (% ft.)|5
+4	SAB:Babble (% ft.)|10	SAB:Chance's Friend (%/day)|1
+5	SAB:Chaotic Defense	SAB:Confusion Aura (% ft.)|5
+6	SAB:Babble (% ft.)|10	SAB:Burst of Chaos
+7	SAB:Chance's Friend (%/day)|1	SAB:Confusion Aura (% ft.)|5	SAB:Spark of Life
+8	SAB:Babble (% ft.)|10
+9	SAB:Confusion Aura (% ft.)|5	SAB:Law's Bane
+10	SAB:Babble (% ft.)|10	SAB:Chance's Friend (%/day)|1	SAB:Chance's Master
+# Insight bonus to AC (Battlemind) implemented as BONUS:COMBAT|AC , once the splitting of the boni is coded, this needs to be changed to the appropriate tag. (BONUS:COMBAT|AC.Insight , or
+# something like that.) Same about the Insight bonus to Initiative (Heightened Instinct).
+
+
+# Class Name	Hit Dice	Type			Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Cipher	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.52	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE
+# Class Name	Required Feat							Required Skill
+CLASS:Cipher	PREFEAT:3,Improved Initiative,Power Attack,Sunder	PRESKILL:1,Balance=5	PRESKILL:2,Jump,Knowledge (Religion)=10
+# Class Name	Skill Pts/Lvl
+CLASS:Cipher	STARTSKILLPTS:2
+1	SAB:Locate Weakness											AUTO:FEAT|Improved Unarmed Strike
+2	SAB:Evasion	SAB:Heightened Instinct +% |1			BONUS:COMBAT|Initiative|1
+3	SAB:Self Mastery +% |1
+4	SAB:Battlemind +% |1	SAB:Improved Evasion		BONUS:COMBAT|AC|1
+5	SAB:Heightened Instinct +% |1					BONUS:COMBAT|Initiative|1
+6	SAB:Move Without Barrier	SAB:Self Mastery +% |1
+7	SAB:Battlemind +% |1						BONUS:COMBAT|AC|1
+8	SAB:Clarity of Vision	SAB:Heightened Instinct +% |1	BONUS:COMBAT|Initiative|1
+9	SAB:Self Mastery +% |1
+10	SAB:Battlemind +% |1	SAB:Thought is Action		BONUS:COMBAT|AC|1
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																										Combat bonus
+CLASS:Athar		HD:8		TYPE:PC.Prestige	ABB:Ath		MAXLEVEL:10	SOURCEPAGE:p.45-46	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.WILLPOWER|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Check Base		Required Skill				Req. Spell Type
+CLASS:Athar		PREATT:7	PRECHECKBASE:1,WILLPOWER=3	PRESKILL:1,Knowledge (Religion)=10	PRESPELLTYPE:1,Divine=1
+# Class Name	Skill Pts/Lvl
+CLASS:Athar		STARTSKILLPTS:2
+1	SAB:Spell Immunity
+2	SAB:Divine Resistance
+3	SAB:Divine and Holy Damage Immunity	ADD:SPELLCASTER||Divine
+4	SAB:Banishment				ADD:SPELLCASTER||Divine
+5	SAB:Divine Prevention			ADD:SPELLCASTER||Divine
+6	SAB:Divine Cancellation			ADD:SPELLCASTER||Divine
+7	SAB:Divine Retribution			ADD:SPELLCASTER||Divine
+8	SAB:Divine Interference			ADD:SPELLCASTER||Divine
+9	SAB:Nondetection				ADD:SPELLCASTER||Divine
+10	SAB:Divine Disavowal			ADD:SPELLCASTER||Divine
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																										Combat bonus
+CLASS:Taker		HD:6		TYPE:PC.Prestige	ABB:Tkr		MAXLEVEL:10	SOURCEPAGE:p.51-52	BONUS:CHECKS|BASE.FORTITUDE|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.REFLEX|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat												Required Skill
+CLASS:Taker		PREATT:4	PREFEAT:1,Skill Focus (Bluff),Skill Focus (Diplomacy),Skill Focus (Intimidate)	PRESKILL:3,Bluff,Diplomacy,Intimidate=5
+# Class Name	Skill Pts/Lvl
+CLASS:Taker		STARTSKILLPTS:4
+# Class Name	Spell Stat		Spell Type		Memorize
+CLASS:Taker		SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO
+1	CAST:0,0		SAB:Survival Skill
+2	CAST:0,1		SAB:Larger than Life %/day|1
+3	CAST:0,2,0		SAB:Survival Skill
+4	CAST:0,3,1		SAB:Aura of Confidence %/day|1
+5	CAST:0,3,2		SAB:Survival Skill						BONUS:STAT|CHA|1
+6	CAST:0,3,3,0	SAB:Larger than Life %/day|1
+7	CAST:0,3,3,1	SAB:Survival Skill
+8	CAST:0,3,3,2	SAB:Aura of Confidence %/day|1
+9	CAST:0,3,3,2,0	SAB:Survival Skill
+10	CAST:0,3,3,3,1	SAB:Larger than Life %/day|1	SAB:Supreme Confidence	BONUS:STAT|CHA|1
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																									Combat bonus					WEAPONAUTO
+CLASS:Dreadmaster	HD:8		TYPE:PC.Prestige	ABB:Drd		MAXLEVEL:10	SOURCEPAGE:p.82-83	BONUS:CHECKS|BASE.FORTITUDE|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE
+# Class Name	Required AL	Req. Att.	Required Deity	Required Feat										Required Skill							Req. Spell Type
+CLASS:Dreadmaster	PREALIGN:LE	PREATT:4	PREDEITY:1,Bane	PREFEAT:3,Leadership,Skill Focus (Intimidate),Spell Focus (Enchantment)	PRESKILL:1,Intimidate=5	PRESKILL:1,Sense Motive=4	PRESPELLTYPE:3,Divine=1
+# Class Name	Skill Pts/Lvl
+CLASS:Dreadmaster	STARTSKILLPTS:2
+1	SAB:Dominating Aura %'|DomAura									DEFINE:DomAura|20	ADD:SPELLCASTER||ANY	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency
+2	SAB:Insidious Insight														ADD:SPELLCASTER||ANY
+3											BONUS:VAR|DomAura|10				ADD:SPELLCASTER||ANY
+4	SAB:Rodcraft															ADD:SPELLCASTER||ANY
+5											BONUS:VAR|DomAura|10				ADD:SPELLCASTER||ANY
+6	SAB:Enhanced Leadership +%|2													ADD:SPELLCASTER||ANY
+7											BONUS:VAR|DomAura|10				ADD:SPELLCASTER||ANY
+8	SAB:Enhanced Leadership +%|2	SAB:Fanatical Loyalty									ADD:SPELLCASTER||ANY
+9	SAB:Special Cohort							BONUS:VAR|DomAura|10				ADD:SPELLCASTER||ANY
+10	SAB:Enhanced Leadership +%|2	SAB:Second Special Cohort								ADD:SPELLCASTER||ANY
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																						Combat bonus					WEAPONAUTO
+CLASS:Fiend Slayer	HD:8		TYPE:PC.Prestige	ABB:FTk		MAXLEVEL:10	SOURCEPAGE:p.84-85	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name		Required AL				Req. Att.	Required Skill										Required Casting Type
+CLASS:Fiend Slayer	PREALIGN:LG,LN,LE,TN,NE,CN,CE	PREATT:4	PRESKILL:1,Knowledge (Arcana)=5	PRESKILL:1,Knowledge (The Planes)=2	PRESPELLCAST:1,Protection from Evil
+# Class Name		Skill Pts/Lvl
+CLASS:Fiend Slayer	STARTSKILLPTS:4
+# Class Name		Spell Stat		Spell Type
+CLASS:Fiend Slayer	SPELLSTAT:CHA	SPELLTYPE:Arcane
+1	CAST:0,0		SAB:Fiend Hunting +%|1	SAB:Fiend Skin +%|1		BONUS:COMBAT|AC|TYPE=Natural|1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency
+2	CAST:0,1		SAB:Detect Fiends	SAB:See in Darkness
+3	CAST:0,1,0		SAB:Fiend Hunting +%|1
+4	CAST:0,1,1		SAB:Fiend Skin +%|1	SAB:Smite Fiends			BONUS:COMBAT|AC|TYPE=Natural|2
+5	CAST:0,1,1,0	SAB:Spurn Fiend's Touch
+6	CAST:0,1,1,1	SAB:Fiend Hunting +%|1
+7	CAST:0,2,1,1,0	SAB:Clutches of Vengeance	SAB:Fiend Skin +%|1	BONUS:COMBAT|AC|TYPE=Natural|3
+8	CAST:0,2,1,1,1	SAB:Fiendbane Shout
+9	CAST:0,2,2,1,1	SAB:Fiend Hunting +%|1
+10	CAST:0,2,2,2,1	SAB:Fiend Skin +%|1	SAB:Neutralize Evil		BONUS:COMBAT|AC|TYPE=Natural|4

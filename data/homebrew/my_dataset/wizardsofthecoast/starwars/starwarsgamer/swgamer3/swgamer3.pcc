@@ -1,0 +1,26 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $
+CAMPAIGN:Star Wars Gamer Issue 3
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Magazine
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Magazine
+SOURCELONG:Star Wars Gamer 3
+SOURCESHORT:SWG3
+SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+INFOTEXT:Star Wars Gamer Magazine
+
+BIOSET:swgamer3_biosettings.lst
+CLASS:swgamer3_classes.lst
+EQUIPMENT:swgamer3_equip.lst
+EQUIPMENT:swgamer3_equip_armorshields.lst
+EQUIPMENT:swgamer3_equip_weap_melee.lst
+EQUIPMENT:swgamer3_equip_weap_ranged.lst
+FEAT:swgamer3_feats.lst
+RACE:swgamer3_races.lst
+SKILL:swgamer3_skills.lst
+TEMPLATE:swgamer3_templates.lst
+WEAPONPROF:swgamer3_weapprofs.lst

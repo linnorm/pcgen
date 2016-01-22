@@ -1,0 +1,21 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Star Magic	SOURCESHORT:Star Magic	SOURCEWEB:http://www.mongoosepublishing.com
+
+
+# Class Name
+CLASS:Wizard.MOD
+SUBCLASS:Magi	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Star	KNOWNSPELLSFROMSPECIALTY:1	PROHIBITED:Necromancy
+SUBCLASSLEVEL:1	AUTO:FEAT|Magi Learning Bonus
+
+
+# Class Name	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus					Hit Dice Size
+CLASS:Magus		TYPE:PC.Prestige	ABB:Mag		MAXLEVEL:5	SOURCEPAGE:pg. 48	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	HITDIE:4
+# Class Name	Required Feat		Required Sub-school				Req. Spell Type		Required Subclass
+CLASS:Magus		PREFEAT:1,Spell Mastery	PRESPELLSCHOOLSUB:10,Constellation=3	PRESPELLTYPE:1,Arcane=6	PRESUBCLASS:1,Magi
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Magus		STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft
+1	SAB:Superior Spell Focus (Star) +%|SuperiorSpellFocus		BONUS:VAR|SuperiorSpellFocus|2	DEFINE:SuperiorSpellFocus|0		ADD:SPELLCASTER|Arcane
+2	SAB:Focused Spell Penetration +%|FocusedSpellPenetration	BONUS:VAR|FocusedSpellPenetration|2	DEFINE:FocusedSpellPenetration|0	ADD:SPELLCASTER|Arcane
+3											BONUS:VAR|SuperiorSpellFocus|2							ADD:SPELLCASTER|Arcane	ADD:ABILITY|FEAT|AUTOMATIC|TYPE=Magus
+4											BONUS:VAR|FocusedSpellPenetration|2							ADD:SPELLCASTER|Arcane
+5											BONUS:VAR|SuperiorSpellFocus|2							ADD:SPELLCASTER|Arcane

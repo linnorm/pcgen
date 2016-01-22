@@ -1,0 +1,16 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:The Standing Stone	SOURCESHORT:StandingS	SOURCEWEB:http://www.wizards.com/
+#Needs HD increase to D12
+
+# Template Name			CR	Visible	Damage Reduction	Template																																							Source Page		Special Ability																										Required Size	Maximum Size	Combat bonus					Bonus to skill					Stat bonus							Feat							Removable?		Type		Vision			Natural Attacks
+Gravewight				CR:1	VISIBLE:YES	DR:5/+1		TEMPLATE:Undead	TEMPLATE:CHOOSE:Gravewight Slam - Dimunitive|Gravewight Slam - Tiny|Gravewight Slam - Small|Gravewight Slam - Medium|Gravewight Slam - Large|Gravewight Slam - Huge|Gravewight Slam - Gargantuan|Gravewight Slam - Colossal	SOURCEPAGE:p.31	SAB:Energy Drain (Su)	SAB:Fear Aura (Su)	SAB:Frightful Presence (Su)	SAB:Turn Resistance +4 (Ex)	SAB:Cold and Electricity Resistance 20	SAB:Fire Resistance 10							BONUS:COMBAT|AC|4|Type=NaturalArmor.Stack	BONUS:SKILL|Move Silently|8|TYPE=Racial	BONUS:STAT|STR,CHA|4	BONUS:STAT|DEX,WIS|2	FEAT:Blind-Fight|Improved Initiative	REMOVABLE:NO	TYPE:Undead	VISION:Darkvision (60')	
+
+Gravewight Slam - Dimunitive		VISIBLE:NO																																																																														PRESIZELTEQ:D																																							NATURALATTACKS:Slam,Weapon.Natural.Melee.Bludgeoning,*1,1d1
+Gravewight Slam - Tiny			VISIBLE:NO																																																																											PRESIZEEQ:T																																											NATURALATTACKS:Slam,Weapon.Natural.Melee.Bludgeoning,*1,1d2
+Gravewight Slam - Small			VISIBLE:NO																																																																											PRESIZEEQ:S																																											NATURALATTACKS:Slam,Weapon.Natural.Melee.Bludgeoning,*1,1d3
+Gravewight Slam - Medium		VISIBLE:NO																																																																											PRESIZEEQ:M																																											NATURALATTACKS:Slam,Weapon.Natural.Melee.Bludgeoning,*1,1d4
+Gravewight Slam - Large			VISIBLE:NO																																																																											PRESIZEEQ:L																																											NATURALATTACKS:Slam,Weapon.Natural.Melee.Bludgeoning,*1,1d6
+Gravewight Slam - Huge			VISIBLE:NO																																																																											PRESIZEEQ:H																																											NATURALATTACKS:Slam,Weapon.Natural.Melee.Bludgeoning,*1,1d8
+Gravewight Slam - Gargantuan		VISIBLE:NO																																																																											PRESIZEEQ:G																																											NATURALATTACKS:Slam,Weapon.Natural.Melee.Bludgeoning,*1,2d6
+Gravewight Slam - Colossal		VISIBLE:NO																																																																											PRESIZEEQ:C																																											NATURALATTACKS:Slam,Weapon.Natural.Melee.Bludgeoning,*1,2d8
+

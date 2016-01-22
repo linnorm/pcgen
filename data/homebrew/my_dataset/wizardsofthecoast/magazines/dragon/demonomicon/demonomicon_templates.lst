@@ -1,0 +1,4 @@
+SOURCELONG:Wizards of the Coast - Demonomicon of Iggwilv	SOURCESHORT:WotC-demonomicon	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Template Name		Hit Dice Size	Challenge Rating	Visible	Damage Reduction	Level Adjustment	Template		Source, Long Desc.			Source, Short Desc.	Source Page		Special ABility																					Required AL		Prohibited Race									Prohibited Template		Required Text				Combat bonus																	Stat bonus														Add 					Type			Vision			Hit Dice												Natural Attacks
+Clawed Hands Deformity							VISIBLE:NO																																																																																																																																		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Finesseable,*2,1d6

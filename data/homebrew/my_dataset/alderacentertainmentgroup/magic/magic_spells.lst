@@ -1,0 +1,75 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Alderac Entertainment Group - Magic	SOURCESHORT:Magic	SOURCEWEB:http://alderac.com/d20
+
+##Block: New Spells
+# Spell Name			Classes of caster			School							Type		Components		Casting Time			Range			Target Area or Effect							Duration					Save Info				Spell Resistance	Description																																													Source Page
+Trademark				CLASSES:Magesmith,Sorcerer=0	SCHOOL:Transmutation					TYPE:Arcane	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch		TARGETAREA:One item being forged					DURATION:Permanent			SAVEINFO:None			SPELLRES:No		DESC:The magesmith imprints his personal trademark onto an item.																																				SOURCEPAGE:pg. 45
+Distance Punch			CLASSES:Arcane Monk=5		SCHOOL:Transmutation					TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You								DURATION:(CASTERLEVEL)/3 rounds	SAVEINFO:None			SPELLRES:No		DESC:You may strike foes with your unarmed attacks up to 60' away.																																			SOURCEPAGE:pg. 61
+Ghost's Touch			CLASSES:Arcane Monk=1		SCHOOL:Transmutation					TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You								DURATION:(CASTERLEVEL)/3 rounds	SAVEINFO:None			SPELLRES:No		DESC:You ignore opponent's Armor and Shield bonuses to AC on next attack. You may also attack incorporeal creatures with no miss chance.																							SOURCEPAGE:pg. 61
+Hundred Legged Dragon Dance	CLASSES:Arcane Monk=6		SCHOOL:Evocation		DESCRIPTOR:Fire		TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft.-radius emanation, centered on you		DURATION:Instantaneous			SAVEINFO:Reflex half		SPELLRES:Yes	DESC:You craft your ki into a small horde of rampaging dragons that do (CASTERLEVEL)d4 damage. Further, those who fail their Reflex saves are knocked prone and set on fire for 1d6 rounds.														SOURCEPAGE:pg. 61
+Hurricane Kick			CLASSES:Arcane Monk=2		SCHOOL:Transmutation					TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You								DURATION:1 round				SAVEINFO:None			SPELLRES:No		DESC:Your melee attacks affect all threatened creatures. When you roll to attack check the result against all potential target's AC.  All creatures you hit take damage from the attack. You only roll for damage once and apply the result to all successful attacks.		SOURCEPAGE:pg. 62
+Jumping Monkey Whirlwind	CLASSES:Arcane Monk=5		SCHOOL:Transmutation					TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You								DURATION:(CASTERLEVEL)/3 rounds	SAVEINFO:None			SPELLRES:No		DESC:When using the Full Attack action you may move your full movement speed between attacks.																															SOURCEPAGE:pg. 62
+Reverse Foe's Strength		CLASSES:Arcane Monk=3		SCHOOL:Transmutation					TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You								DURATION:(CASTERLEVEL)/3 rounds	SAVEINFO:None			SPELLRES:No		DESC:Once per round you may choose an opponent's attack to redirect towards themself. The opponent makes a normal attack roll and, if it hits the opponent's AC, does normal damage to themself.														SOURCEPAGE:pg. 62
+Storm of Fists			CLASSES:Arcane Monk=6		SCHOOL:Conjuration	SUBSCHOOL:Creation	TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You								DURATION:(CASTERLEVEL) rounds		SAVEINFO:None			SPELLRES:No		DESC:You conjure a group of (CASTERLEVEL)/5 ghostly fists. These fists may attack with your normal unarmed attack roll and do your normal unarmed attack damage.																			SOURCEPAGE:pg. 62
+Sundering Strike			CLASSES:Arcane Monk=1		SCHOOL:Transmutation					TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You								DURATION:(CASTERLEVEL)/2 rounds	SAVEINFO:None			SPELLRES:No		DESC:Your unarmed attacks ignore the hardness of any target struck.																																			SOURCEPAGE:pg. 62
+
+
+##Block: Arcane Monk
+Detect Magic.MOD		CLASSES:Arcane Monk=0
+Disrupt Undead.MOD		CLASSES:Arcane Monk=0
+Flare.MOD		CLASSES:Arcane Monk=0
+Guidance.MOD		CLASSES:Arcane Monk=0
+Resistance.MOD		CLASSES:Arcane Monk=0
+Read Magic.MOD		CLASSES:Arcane Monk=0
+Virtue.MOD		CLASSES:Arcane Monk=0
+Burning Hands.MOD		CLASSES:Arcane Monk=1
+Chill Touch.MOD		CLASSES:Arcane Monk=1
+Endure Elements.MOD		CLASSES:Arcane Monk=1
+Entropic Shield.MOD		CLASSES:Arcane Monk=1
+Expeditious Retreat.MOD		CLASSES:Arcane Monk=1
+Inflict Light Wounds.MOD		CLASSES:Arcane Monk=1
+Mage Armor.MOD		CLASSES:Arcane Monk=1
+Magic Weapon.MOD		CLASSES:Arcane Monk=1
+Shield.MOD		CLASSES:Arcane Monk=1
+Shocking Grasp.MOD		CLASSES:Arcane Monk=1
+True Strike.MOD		CLASSES:Arcane Monk=1
+Acid Arrow.MOD		CLASSES:Arcane Monk=2
+Bull's Strength.MOD		CLASSES:Arcane Monk=2
+Cat's Grace.MOD		CLASSES:Arcane Monk=2
+Death Knell.MOD		CLASSES:Arcane Monk=2
+Bear's Endurance.MOD		CLASSES:Arcane Monk=2
+Ghoul Touch.MOD		CLASSES:Arcane Monk=2
+Inflict Moderate Wounds.MOD		CLASSES:Arcane Monk=2
+Invisibility.MOD		CLASSES:Arcane Monk=2
+Mirror Image.MOD		CLASSES:Arcane Monk=2
+Resist Energy.MOD		CLASSES:Arcane Monk=2
+Contagion.MOD		CLASSES:Arcane Monk=3
+Haste.MOD		CLASSES:Arcane Monk=3
+Inflict Serious Wounds.MOD		CLASSES:Arcane Monk=3
+Keen Edge.MOD		CLASSES:Arcane Monk=3
+Protection from Energy.MOD		CLASSES:Arcane Monk=3
+Vampiric Touch.MOD		CLASSES:Arcane Monk=3
+Water Walk.MOD		CLASSES:Arcane Monk=3
+Air Walk.MOD		CLASSES:Arcane Monk=4
+Enervation.MOD		CLASSES:Arcane Monk=4
+Freedom of Movement.MOD		CLASSES:Arcane Monk=4
+Fire Shield.MOD		CLASSES:Arcane Monk=4
+Magic Weapon (Greater).MOD		CLASSES:Arcane Monk=4
+Invisibility (Greater).MOD		CLASSES:Arcane Monk=4
+Inflict Critical Wounds.MOD		CLASSES:Arcane Monk=4
+Polymorph.MOD		CLASSES:Arcane Monk=4
+Poison.MOD		CLASSES:Arcane Monk=4
+Shout.MOD		CLASSES:Arcane Monk=4
+Stoneskin.MOD		CLASSES:Arcane Monk=4
+Dimension Door.MOD		CLASSES:Arcane Monk=5
+Fly.MOD		CLASSES:Arcane Monk=5
+Lightning Bolt.MOD		CLASSES:Arcane Monk=5
+Righteous Might.MOD		CLASSES:Arcane Monk=5
+Slay Living.MOD		CLASSES:Arcane Monk=5
+Telekinesis.MOD		CLASSES:Arcane Monk=5
+Cone of Cold.MOD		CLASSES:Arcane Monk=6
+Harm.MOD		CLASSES:Arcane Monk=6
+Iron Body.MOD		CLASSES:Arcane Monk=6
+Haste (Mass).MOD		CLASSES:Arcane Monk=6
+Repulsion.MOD		CLASSES:Arcane Monk=6
+Transformation.MOD		CLASSES:Arcane Monk=6

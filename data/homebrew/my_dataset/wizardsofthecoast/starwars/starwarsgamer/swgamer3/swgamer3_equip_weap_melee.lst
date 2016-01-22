@@ -1,0 +1,14 @@
+# CVS $Revision: 1.6 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 3	SOURCESHORT:SWG3	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+# Equipment Name	Type					Cost		Weight	Critical Hit Range	Damage			Size		Source Page
+Heavy Spanner	TYPE:Weapon.Melee.SWSimple	COST:10	WT:1.8	CRITRANGE:1			DAMAGE:1d6			SIZE:M	SOURCEPAGE:p.35
+Droid Spike		TYPE:Weapon.Melee.Primitive	COST:60	WT:1.5	CRITRANGE:1			DAMAGE:1d8			SIZE:L	SOURCEPAGE:p.116
+Droid Hand		TYPE:Weapon.Melee.Primitive	COST:0	WT:0.5	CRITRANGE:1			DAMAGE:1d6			SIZE:T	SOURCEPAGE:p.283
+Droid Claw		TYPE:Weapon.Melee.Primitive	COST:0	WT:0.5	CRITRANGE:1			DAMAGE:1d8			SIZE:T	SOURCEPAGE:p.283
+Droid Force Pike	TYPE:Weapon.Melee.Vibro		COST:500	WT:1.8	CRITRANGE:1			DAMAGE:2d8(1d6/15)	SIZE:L	SOURCEPAGE:p.116
+Droid Vibro-Ax	TYPE:Weapon.Melee.Vibro		COST:500	WT:11		CRITRANGE:1			DAMAGE:2d10			SIZE:L	SOURCEPAGE:p.116
+Droid Vibroblade	TYPE:Weapon.Melee.Vibro		COST:250	WT:1.8	CRITRANGE:1			DAMAGE:2d6			SIZE:M	SOURCEPAGE:p.116
+Droid Vibrodagger	TYPE:Weapon.Melee.Vibro		COST:200	WT:1		CRITRANGE:1			DAMAGE:2d4			SIZE:S	SOURCEPAGE:p.116
+Droid Club/Baton	TYPE:Weapon.SWSimple.Melee	COST:15	WT:1.5	CRITRANGE:1			DAMAGE:1d6			SIZE:M	SOURCEPAGE:p.116
+Droid Knife		TYPE:Weapon.SWSimple.Melee	COST:25	WT:1		CRITRANGE:1			DAMAGE:1d4			SIZE:S	SOURCEPAGE:p.116
+Droid Stun Baton	TYPE:Weapon.SWSimple.Melee	COST:500	WT:1.8	CRITRANGE:1			DAMAGE:0(1d6/12)		SIZE:M	SOURCEPAGE:p.116

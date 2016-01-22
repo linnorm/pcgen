@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #293	SOURCESHORT:WotC-Dragon #293	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name				Type			Cost		Weight	Source Page
+Poison (Slarkfish)			TYPE:Goods.Poison	COST:100	WT:0		SOURCEPAGE:p.75
+Poison (Nightviper)			TYPE:Goods.Poison	COST:600	WT:0		SOURCEPAGE:p.75
+Poison (Saldruth's Viper Venom)	TYPE:Goods.Poison	COST:300	WT:0		SOURCEPAGE:p.75
+Poison (Udderfish)			TYPE:Goods.Poison	COST:400	WT:0		SOURCEPAGE:p.75
+Poison (Numbfish Jelly)			TYPE:Goods.Poison	COST:300	WT:0		SOURCEPAGE:p.75
+Poison (Pauper's)				TYPE:Goods.Poison	COST:40	WT:0		SOURCEPAGE:p.75

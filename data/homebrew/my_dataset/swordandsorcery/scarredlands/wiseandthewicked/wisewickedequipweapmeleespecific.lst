@@ -1,0 +1,15 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Wise and the Wicked	SOURCESHORT:WiseandWicked	SOURCEWEB:http://www.swordsorcery.com
+# Equipment Name			Required Proficiency				Type								Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Damage	Size		Source Page		Combat bonus					Weapon prof. bonus						Weapon prop. bonus
+Staff +1 (Fey)			PROFICIENCY:WEAPON|Quarterstaff		TYPE:Magic.Weapon.Simple.Melee.Bludgeoning	COST:13300	WT:5		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6					SIZE:L	SOURCEPAGE:p.13																	BONUS:WEAPON|DAMAGE,TOHIT|1
+Anteas' Battleblade		PROFICIENCY:WEAPON|Sword (Two-Bladed)	TYPE:Magic.Weapon.Exotic.Melee.Slashing.Double	COST:86700	WT:15		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	ALTDAMAGE:1d8		SIZE:L	SOURCEPAGE:p.19																	BONUS:WEAPON|DAMAGE,TOHIT|5
+Darkaxe				PROFICIENCY:WEAPON|Battleaxe			TYPE:Magic.Weapon.Martial.Melee.Slashing		COST:98310	WT:7		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8					SIZE:M	SOURCEPAGE:p.54																	BONUS:WEAPON|DAMAGE,TOHIT|2
+Scepter of Chardun		PROFICIENCY:WEAPON|Mace (Heavy)		TYPE:Magic.Weapon.Simple.Melee.Bludgeoning	COST:18312	WT:12		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8					SIZE:M	SOURCEPAGE:p.73																	BONUS:WEAPON|DAMAGE,TOHIT|2
+Land Shark Battle Gloves	PROFICIENCY:WEAPON|Gauntlet (Spiked)	TYPE:Magic.Weapon.Simple.Melee.Piercing		COST:111305	WT:6		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4					SIZE:T	SOURCEPAGE:p.77	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE										BONUS:WEAPON|DAMAGE,TOHIT|5
+Karbrud'S Fang			PROFICIENCY:WEAPON|Dagger			TYPE:Magic.Weapon.Simple.Melee.Piercing		COST:184552	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d4					SIZE:T	SOURCEPAGE:p.86																	BONUS:WEAPON|DAMAGE,TOHIT|3
+Bloodfang				PROFICIENCY:WEAPON|Kukri			TYPE:Magic.Weapon.Exotic.Melee.Slashing		COST:38310	WT:3		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d4					SIZE:T	SOURCEPAGE:p.89								BONUS:WEAPONPROF=Kukri|CRITRANGEADD|1|PREALIGN:2,5,8	BONUS:WEAPON|DAMAGE,TOHIT|1
+Venom Lash				PROFICIENCY:WEAPON|Whip				TYPE:Magic.Weapon.Exotic.Ranged.Slashing		COST:11301	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6					SIZE:M	SOURCEPAGE:p.90																	BONUS:WEAPON|DAMAGE,TOHIT|1
+Steel fist of vengeance		PROFICIENCY:WEAPON|Gauntlet (Spiked)	TYPE:Magic.Weapon.Simple.Melee.Piercing		COST:154000	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4					SIZE:T	SOURCEPAGE:p.106
+Seven Venom Dagger		PROFICIENCY:WEAPON|Dagger			TYPE:Magic.Weapon.Simple.Melee.Piercing		COST:41302	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4					SIZE:T	SOURCEPAGE:p.113																	BONUS:WEAPON|DAMAGE,TOHIT|4
+Irontusk				PROFICIENCY:WEAPON|Sword (Two-Bladed)	TYPE:Magic.Weapon.Exotic.Melee.Slashing.Double	COST:80700	WT:20		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d8	ALTDAMAGE:1d8		SIZE:L	SOURCEPAGE:p.124																	BONUS:WEAPON|DAMAGE,TOHIT|3
+

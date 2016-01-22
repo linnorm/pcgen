@@ -1,0 +1,116 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Psychic's Handbook	SOURCESHORT:psychicshandbook	SOURCEWEB:http://www.greenronin.com
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Beastmaster	HD:8		TYPE:PC.Prestige	ABB:Bmr		MAXLEVEL:10	SOURCEPAGE:p.10	BONUS:CHECKS|BASE.Reflex,BASE.Willpower|CL/3	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required Feat				Required Skill
+CLASS:Beastmaster	PREFEAT:2,Psychic Ability,Telepathy	PRESKILL:3,Handle Animal=7,Mental Contact=7,Survival=7
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Beastmaster	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentrate|Handle Animal|Hide|Jump|Knowledge (Nature)|Listen|Move Silently|Ride|Spot|Survival|Swim
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+# Firestarter requires ( Psychic Ability and Pyrokinesis ) OR Wild Talent (Pyrokinesis)
+# Since I don't know how to code the OR in the PREFEAT, I am just using the Pyrokinesis skill as the limiter,
+# because it cannot be selected unless the character has either Psychic Ability and Pyrokinesis OR the Wild Talent (Pyrokinesis) FEATS
+#
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Firestarter	HD:4		TYPE:PC.Prestige	ABB:Fsr		MAXLEVEL:10	SOURCEPAGE:p.11	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Willpower|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required Skill
+CLASS:Firestarter	PRESKILL:1,Pyrokinesis=8
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Firestarter	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Intimidate|Knowledge (Psionics)|Listen|TYPE=Perform|TYPE=Profession|Pyrokinesis|Search|Sense Motive|Spot
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Ghost Stalker	HD:8		TYPE:PC.Prestige	ABB:Ghu		MAXLEVEL:10	SOURCEPAGE:p.13	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Willpower|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Feat					Required Skill
+CLASS:Ghost Stalker	PREFEAT:2,Psychic Ability,Clairsentience	PRESKILL:1,Psychic Sense=8
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Ghost Stalker	STARTSKILLPTS:4	CSKILL:Heal|Knowledge (Spirits)|Listen|TYPE=Profession|Search|Spot|Survival
+1
+2
+3
+4
+5	CSKILL:Dimensional Phase
+6
+7
+8
+9
+10
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Mind Hunter	HD:8		TYPE:PC.Prestige	ABB:Mhu		MAXLEVEL:10	SOURCEPAGE:p.14	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Willpower|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Check		Multiple Requirements						Required Skill				Required Text
+CLASS:Mind Hunter	PREATT:5	PRECHECK:1,Willpower=3	PREMULT:3,[PREFEAT:1,Track],[!PREFEAT:1,TYPE=Psychic]	PRESKILL:1,Knowledge (Psionics)=3	PRETEXT:Must have overcome a psychic creature in single combat
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Mind Hunter	STARTSKILLPTS:6	CSKILL:Climb|Concentration|TYPE=Craft|Hide|Intimidate|Jump|Knowledge (Psionics)|Listen|Move Silently|TYPE=Profession|Search|Sense Motive|Spot|Survival
+1	CSKILL:Psychic Sense	CSKILL:Psychic Shield
+2	CSKILL:Psychic Static
+3	CSKILL:Drain Power
+4	CSKILL:Drain Vitality
+5
+6
+7
+8
+9
+10
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus									Combat bonus
+CLASS:Psychic Adept	HD:8		TYPE:PC.Prestige	ABB:Pad		MAXLEVEL:10	SOURCEPAGE:p.16	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Willpower|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Feat						Required Skill
+CLASS:Psychic Adept	PREFEAT:2,Psychic Ability,Psychometabolism	PRESKILL:3,Balance=8,Body Control=8,Concentration=8
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Psychic Adept	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|Escape Artist|Heal|Hide|Jump|Knowledge (Psionics)|Listen|Move Silently|TYPE=Profession|Search|Sense Motive|Spot|Swim|Tumble
+1
+2
+2	BONUS:VAR|MonkACLvl|CL=Psychic Adept
+3
+4
+5
+6
+7
+8
+9
+10
+
+# Psychic Healer requires ( Psychic Ability and Psychometabolism ) OR Wild Talent (Psychic Healing)
+# Since I don't know how to code the OR in the PREFEAT, I am just using the Psychic Healing skill as the limiter,
+# because it cannot be selected unless the character has either Psychic Ability and Psychometabolism OR the Wild Talent (Psychic Healing) FEATS
+#
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Psychic Healer	HD:6		TYPE:PC.Prestige	ABB:Phl		MAXLEVEL:10	SOURCEPAGE:p.17	BONUS:CHECKS|BASE.Reflex,BASE.Willpower|CL/3	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Required Skill
+CLASS:Psychic Healer	PRESKILL:2,Heal=6,Psychic Healing=6
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Psychic Healer	STARTSKILLPTS:6	CSKILL:Concentration|TYPE=Craft|Intimidate|Knowledge (Psionics)|Heal|Listen|TYPE=Profession|Search|Sense Motive|Spot
+1	BONUS:SKILL|Psychic Healing|3
+2
+3
+4
+5
+6
+7
+8
+9
+10

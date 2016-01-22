@@ -1,0 +1,6 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Fri Oct 19 20:16:09 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Demonology	SOURCESHORT:Demonology	SOURCEWEB:http://www.mongoosepublishing.com	SOURCEDATE:2003-01
+
+
+# Equipment Name		Required Proficiency		Type															Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Wield Category	Size		Source Page		Special Property
+Demon's Bane (Dagger)	PROFICIENCY:WEAPON|Dagger	TYPE:Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger	COST:25000	WT:1		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4	WIELD:Light		SIZE:M	SOURCEPAGE:p.42	SPROP:Counts as a +5 dagger against fiends. The fiend must also make a DC: 20 Will save or be instantly dismissed to its home plane. Treated as a normal dagger against all other creatures.

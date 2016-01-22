@@ -1,0 +1,13 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Cry Havoc	SOURCESHORT:CryHavoc	SOURCEWEB:http://www.montecook.com
+
+
+# Feat Name				Type				Req. Att.	Required Feat				Required Stat		Special ABility			Define			Description																		Multiple?		Modify VAR				Source Page
+Battle Leader			TYPE:General										PRESTAT:1,CHA=11											DESC:You can lead troops in battle and inspire them to do spectacular deeds.															SOURCEPAGE:pg. 103
+Battlecry				TYPE:General				PREFEAT:1,Battle Leader			PRESTAT:1,CHA=11		SAB:Battlecry %/day|Battlecry	DEFINE:Battlecry|0	DESC:You can lead a group of allies in a bloodcurdling group shout that improves their martial prowess in melee.				BONUS:VAR|Battlecry|3+CHA	SOURCEPAGE:pg. 104
+Coordinated Melee Attack	TYPE:General		PREATT:1							PRESTAT:1,INT=11											DESC:You gain bonuses on your melee attacks when you and your friends gang up on an opponent.												SOURCEPAGE:pg. 104
+Coordinated Missile Attack	TYPE:General		PREATT:1							PRESTAT:1,INT=11											DESC:You gain bonuses on your missile attack rolls when you and your friends shoot or throw at the same target.									SOURCEPAGE:pg. 104
+Heroic Frenzy			TYPE:General.Fighter	PREATT:5	PREFEAT:2,Cleave,Combat Expertise	PRESTAT:2,INT=13,STR=13										DESC:You can make extra attacks against foes that outnumber you.																	SOURCEPAGE:pg. 104
+Infectious Courage		TYPE:General				PREFEAT:1,Battle Leader			PRESTAT:1,CHA=11											DESC:Your deeds of courage on the battlefield can inspire others.																	SOURCEPAGE:pg. 104
+Mass Turning			TYPE:General				PREFEAT:2,Extra Turning,Widen Spell														DESC:You can turn large numbers of undead creatures at once.									MULT:YES STACK:NO						SOURCEPAGE:pg. 105
+War Spell				TYPE:Metamagic				PREFEAT:2,Enlarge Spell,Widen Spell														DESC:You can cast spells over very large areas and at very great ranges.															SOURCEPAGE:pg. 105

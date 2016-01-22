@@ -1,0 +1,31 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Language	Type			Source Page
+Akiri		TYPE:Spoken		SOURCEPAGE:p.147
+Balok		TYPE:Spoken		SOURCEPAGE:p.28
+Darkonese	TYPE:Spoken		SOURCEPAGE:p.28
+Falkovnian	TYPE:Spoken		SOURCEPAGE:p.115 p.116 p.118 p.123 p.127 p.130 p.131 p.167
+Forfarian	TYPE:Spoken		SOURCEPAGE:p.112 p.115
+Grabenite	TYPE:Spoken		SOURCEPAGE:p.132
+Lamordian	TYPE:Spoken		SOURCEPAGE:p.116 p.118 p.127 p.131 p.138
+Luktar	TYPE:Spoken		SOURCEPAGE:p.112 p.115 p.123
+Mordentish	TYPE:Spoken		SOURCEPAGE:p.29
+Nidalan	TYPE:Spoken		SOURCEPAGE:p.157
+Odiaran	TYPE:Spoken		SOURCEPAGE:p.169
+Patterna	TYPE:Spoken		SOURCEPAGE:p.35
+Pharazian	TYPE:Spoken		SOURCEPAGE:p.147 p.149
+Rajian	TYPE:Spoken		SOURCEPAGE:p.161
+Rokuma	TYPE:Spoken		SOURCEPAGE:p.159 p.170
+Sanguine	TYPE:Spoken		SOURCEPAGE:p.153
+Sithican	TYPE:Spoken		SOURCEPAGE:p.112 p.125 p.132 p.140 p.142 p.145
+Souragnian	TYPE:Spoken		SOURCEPAGE:p.159 p.172
+Tepestani	TYPE:Spoken		SOURCEPAGE:p.116 p.141
+Thaani	TYPE:Spoken		SOURCEPAGE:p.112
+Tralaks	TYPE:Written	SOURCEPAGE:p.35
+Vassi		TYPE:Spoken		SOURCEPAGE:p.29
+Vechorite	TYPE:Spoken		SOURCEPAGE:p.144
+Voros		TYPE:Spoken		SOURCEPAGE:p.154
+Wildspeak	TYPE:Spoken		SOURCEPAGE:p.151
+Zherisian	TYPE:Spoken		SOURCEPAGE:p.164
+

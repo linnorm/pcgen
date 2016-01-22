@@ -1,0 +1,9 @@
+SOURCELONG:Monsternomicon Volume I	SOURCESHORT:Monsternomicon1	SOURCEWEB:http://www.ironkingdoms.com
+
+# Ability Name					Category of Ability		Type								Visible	Define				Description
+Beguile						CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural			VISIBLE:YES						DESC:You may try to charm a member of the opposite sex %1/day. DC %2 CL %3|BeguileTimes|BeguileDC|BeguileCL
+Iron Lich ~ Cold Vulnerability		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES						DESC:An iron lich is slowed one round per 10 points of Cold damage dealt. The effects are not cumulative.
+Iron Lich ~ Firebox Vulnerability		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES						DESC:An iron lich's firebox fails when completely submerged in water or any other liquid. An iron lich is stunned when its firebox is unlit.
+Iron Lich ~ Reliance on Fuel			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES						DESC:An iron lich requires necrotite to function. They require refuling (5 lbs) every 12 hours.  Strenuous activity halves this time.
+Iron Lich ~ Special Healing			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES						DESC:An iron lich is not affected by heal spells.  Mending restores 1 HP, Iron Body cures all damage done.
+Soul Sight						CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural			VISIBLE:YES						DESC:You have the ability to see souls as if permanently affected by the Reveal Souls spell.

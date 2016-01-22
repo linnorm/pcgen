@@ -1,0 +1,56 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Equipment Name					Output Name				Type						Contains				Cost		Weight	Source Page
+All-Temperature Cloak									TYPE:Items.Cape									COST:100	WT:1.5	SOURCEPAGE:pg. 140
+Aquata Breather										TYPE:Items										COST:350	WT:0.2	SOURCEPAGE:pg. 140
+Atmosphere Canister/Filter (Breath Mask)						TYPE:Items										COST:100	WT:1		SOURCEPAGE:pg. 140
+Bacta (1 Liter/300 to Fill)								TYPE:Items										COST:100	WT:2		SOURCEPAGE:pg. 140
+Bacta Tank											TYPE:Items										COST:100000	WT:500	SOURCEPAGE:pg. 140
+Breath Mask											TYPE:Items										COST:200	WT:2		SOURCEPAGE:pg. 140
+Code Cylinder										TYPE:Items										COST:500	WT:0.1	SOURCEPAGE:pg. 141
+Comlink											TYPE:Items										COST:200	WT:0.1	SOURCEPAGE:pg. 141
+Credit Chip											TYPE:Items.Container			CONTAINS:1500|Currency=1500	COST:100	WT:0.1	SOURCEPAGE:pg. 141
+Datacard (Datapad/1 Program)								TYPE:Items.Datacard								COST:300	WT:0.02	SOURCEPAGE:pg. 141
+#Datacards (Datapad/Blank/10)			TYPE:Items.Datacard						COST:10	WT:.2		SOURCEPAGE:pg. 141
+Datacard (Datapad/Blank)								TYPE:Items.Datacard								COST:1	WT:0.02	SOURCEPAGE:pg. 141
+Datapad											TYPE:Items.Tools.Container		CONTAINS:2|Datacard=2		COST:1000	WT:3		SOURCEPAGE:pg. 141
+Electrobinoculars										TYPE:Items.Eyegear								COST:1000	WT:1		SOURCEPAGE:pg. 141
+Energy Cell											TYPE:Items										COST:10	WT:0.1	SOURCEPAGE:pg. 141
+Field Kit											TYPE:Items										COST:500	WT:7		SOURCEPAGE:pg. 141
+Flight Suit											TYPE:Items.Clothing								COST:250	WT:3		SOURCEPAGE:pg. 142
+Fusion Lantern										TYPE:Items										COST:25	WT:2		SOURCEPAGE:pg. 142
+Glow Rod											TYPE:Items										COST:10	WT:1		SOURCEPAGE:pg. 142
+Grappling Spike Launcher								TYPE:Items										COST:50	WT:0.3	SOURCEPAGE:pg. 142
+Holoprojector (Personal)								TYPE:Items										COST:1000	WT:0.5	SOURCEPAGE:pg. 142
+Holorecorder										TYPE:Items										COST:3000	WT:1		SOURCEPAGE:pg. 142
+Liquid Cable Dispenser									TYPE:Items										COST:25	WT:0.2	SOURCEPAGE:pg. 142
+Macrobinoculars										TYPE:Items.Eyegear								COST:600	WT:0.8	SOURCEPAGE:pg. 142
+Medical Kit											TYPE:Items.Tools									COST:25	WT:1		SOURCEPAGE:pg. 142
+Medpac											TYPE:Items.Tools									COST:100	WT:1		SOURCEPAGE:pg. 142
+Power Pack											TYPE:Items										COST:25	WT:0.1	SOURCEPAGE:pg. 142
+Recording Rod										TYPE:Items										COST:500	WT:1		SOURCEPAGE:pg. 143
+Robes (Jedi Knight)				OUTPUTNAME:[NAME] Robes		TYPE:Items.Robe									COST:0	WT:3
+Robes (Jedi Master)				OUTPUTNAME:[NAME] Robes		TYPE:Items.Robe									COST:0	WT:3
+Robes (Padawan)					OUTPUTNAME:[NAME] Robes		TYPE:Items.Robe									COST:0	WT:3
+Security Kit										TYPE:Items.Tools									COST:750	WT:1		SOURCEPAGE:pg. 143
+Sensor Pack											TYPE:Items.Tools									COST:1500	WT:9		SOURCEPAGE:pg. 143
+Surgery Kit											TYPE:Items.Tools									COST:1000	WT:1		SOURCEPAGE:pg. 143
+Tool Kit (Low)										TYPE:Items.Tools									COST:5	WT:1		SOURCEPAGE:pg. 81
+Tool Kit (Medium)										TYPE:Items.Tools									COST:50	WT:1		SOURCEPAGE:pg. 81
+Tool Kit (High)										TYPE:Items.Tools									COST:150	WT:1		SOURCEPAGE:pg. 81
+Tool Kit (Extreme)									TYPE:Items.Tools									COST:1000	WT:1		SOURCEPAGE:pg. 81
+Tool Kit (Astronomical)									TYPE:Items.Tools									COST:3000	WT:1		SOURCEPAGE:pg. 81
+
+SOURCESHORT:MSRD	SOURCEWEB:http://www.wizards.com/D20/article.asp?x=msrd
+Clothing Outfit (Business)			OUTPUTNAME:[NAME] Outfit	TYPE:Items.Clothing								COST:12	WT:3		SOURCEPAGE:msrdequipmentgeneral.rtf
+Clothing Outfit (Casual)			OUTPUTNAME:[NAME] Outfit	TYPE:Items.Clothing								COST:8	WT:2		SOURCEPAGE:msrdequipmentgeneral.rtf
+Clothing Outfit (Formal)			OUTPUTNAME:[NAME] Outfit	TYPE:Items.Clothing								COST:15	WT:3		SOURCEPAGE:msrdequipmentgeneral.rtf
+Clothing Outfit (Normal Everday)		OUTPUTNAME:[NAME] Clothing	TYPE:Items.Clothing.Resizable							COST:0	WT:3		SOURCEPAGE:msrdequipmentgeneral.rtf
+Fatigues											TYPE:Items.Clothing								COST:9	WT:3		SOURCEPAGE:msrdequipmentgeneral.rtf
+Outerwear (Coat)					OUTPUTNAME:[NAME]			TYPE:Items.Robe									COST:8	WT:2		SOURCEPAGE:msrdequipmentgeneral.rtf
+Outerwear (Fatigue Jacket)			OUTPUTNAME:[NAME]			TYPE:Items.Robe									COST:7	WT:2		SOURCEPAGE:msrdequipmentgeneral.rtf
+Outerwear (Overcoat)				OUTPUTNAME:[NAME]			TYPE:Items.Robe									COST:9	WT:3		SOURCEPAGE:msrdequipmentgeneral.rtf
+Outerwear (Parka)					OUTPUTNAME:[NAME]			TYPE:Items.Robe									COST:9	WT:3		SOURCEPAGE:msrdequipmentgeneral.rtf
+Uniform											TYPE:Items.Clothing								COST:9	WT:2		SOURCEPAGE:msrdequipmentgeneral.rtf
+Utility Belt										TYPE:Items.Clothing.Belt.Container	CONTAINS:UNLIM|Tools=5		COST:9	WT:2		SOURCEPAGE:msrdequipmentgeneral.rtf

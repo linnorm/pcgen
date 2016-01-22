@@ -1,0 +1,22 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:Mongoose - Collectors Series - Quintessential Wizard
+GAMEMODE:35e
+TYPE:Mongoose.Collector Series
+RANK:9
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Wizard
+SOURCESHORT:QuintWizard
+SOURCEWEB:http://mongoosepublishing.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:D20 System Rules & Content Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson
+COPYRIGHT:Open game content from The Quintessential Wizard Copyright 2001, Mongoose Publishing.
+
+CLASS:quintwizardclasses.lst
+#EQUIPMENT:quintwizardequiparmorshields.lst
+#EQUIPMENT:quintwizardequipweapammo.lst
+#EQUIPMENT:quintwizardequipweapranged.lst
+#EQUIPMENT:quintwizardequipweapmelee.lst
+EQUIPMENT:quintwizardequip.lst
+FEAT:quintwizardfeats.lst
+SKILL:quintwizardskills.lst
+#WEAPONPROF:quintwizardweapprofs.lst

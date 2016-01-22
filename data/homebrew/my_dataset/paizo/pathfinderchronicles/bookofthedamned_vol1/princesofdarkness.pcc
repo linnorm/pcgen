@@ -1,0 +1,26 @@
+# Created by Rax the Grey
+CAMPAIGN:Book of the Damned Volume 1: Princes of Darkness
+RANK:4
+GAMEMODE:Pathfinder
+GENRE:Fantasy
+#BOOKTYPE:
+SETTING:Pathfinder
+TYPE:Paizo.Pathfinder Chronicles
+SOURCELONG:Princes of Darkness
+SOURCESHORT:PrinceofDark
+SOURCEWEB:http://www.paizo.com
+ISOGL:YES
+#Author's emails
+# Rax the Grey: raxthegrey@gmail.com
+
+
+#ABILITYCATEGORY:princesofdarkness_ability_categories.lst
+#FEAT:princesofdarkness_feats.lst
+#FEAT:princesofdarkness_feats_hidden.lst
+#SKILL:princesofdarkness_skills.lst
+ABILITY:princesofdarkness_abilities_class.lst
+CLASS:princesofdarkness_classes_prestige.lst
+KIT:princesofdarkness_kits.lst
+RACE:princesofdarkness_races_companions.lst
+SPELL:princesofdarkness_spells.lst
+

@@ -1,0 +1,90 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Green Ronin - Advanced Player's Manual	SOURCESHORT:Adv.Players	SOURCEWEB:www.greenronin.com	SOURCEDATE:2005-01
+# Original Entry by: Aaron Divinsky, Psychic Added by Andrew Maitland
+### COMMENTS:
+### CLARIFICATION: Not sure how to implement a given rule.  Not enough information or ambiguous information in the source.
+### ERRATA: This is obviously an error in the source.  The code still follows the source but if an official errata is released it should be changed.
+
+# Feat Name					Output Name			Type				Visible	Req. Att.	Required Feat															Multiple Requirements															Required Skill								Required Stat	Description																							Stackable?	Multiple?	Choose																																																																																																																		Bonus to HP						Misc bonus				Cross-Class Skill							Source Page
+Armored Caster								TYPE:General		VISIBLE:YES																																																			DESC:You are skilled at wielding magic energies even while wearing armor.																																																																																																																																										BONUS:MISC|SPELLFAILURE|-10										SOURCEPAGE:p. 53
+Crushing Charge								TYPE:General		VISIBLE:YES	PREATT:10	PREFEAT:2,Improved Bull Rush,Power Attack																																										DESC:You can grind your foes underfoot with your powerful charge attacks.																																																																																																																																																								SOURCEPAGE:p. 53
+Coordinated Melee Attack						TYPE:General		VISIBLE:YES	PREATT:1																																														PRESTAT:1,INT=11	DESC:You gain bonuses to your melee attacks when you and your allies gang up on an opponent.																																																																																																																																																					SOURCEPAGE:p. 54
+Fighting Withdrawal							TYPE:General		VISIBLE:YES			PREFEAT:1,Combat Expertise																																									PRESTAT:1,INT=13	DESC:You can keep attacking while trying to pull out of combat.																																																																																																																																																										SOURCEPAGE:p. 54
+Frightful Charge								TYPE:General.Fighter	VISIBLE:YES	PREATT:5																																				PRESKILL:1,Intimidate=3							PRESTAT:1,CHA=11	DESC:Your charge is so frightening that foes flee before you.																																																																																																																																																										SOURCEPAGE:p. 54
+Improved Coordinated Melee Attack					TYPE:General		VISIBLE:YES	PREATT:5	PREFEAT:1,Combat Reflexes																																									PRESTAT:1,INT=11	DESC:With aid from your allies, you can make an extra melee attack against a foe.																																																																																																																																																							SOURCEPAGE:p. 54
+Rapid Sniping								TYPE:General		VISIBLE:YES	PREATT:6																																				PRESKILL:1,Hide=5								PRESTAT:1,DEX=13	DESC:You can quickly conceal yourself when sniping with a ranged weapon.																																																																																																																																																								SOURCEPAGE:p. 54
+Share Lesser Divination							TYPE:General		VISIBLE:YES			PREFEAT:1,Spell Focus (Divination)																																											DESC:When you cast a low-level divination spell, nearby allies also gain the benefits of the spell.																																																																																																																																																				SOURCEPAGE:p. 54
+Taunt										TYPE:General		VISIBLE:YES																																						PRESKILL:1,Bluff=3										DESC:You can make a foe's temper get the better of her.																																																																																																																																																											SOURCEPAGE:p. 55
+Thread Focus								TYPE:General		VISIBLE:YES																																																PRESTAT:1,INT=13	DESC:Choose a thread, such as the Thread of Air. Spells in that thread that you cast are more potent than normal.						STACK:NO	MULT:YES																																																																																																																																									SOURCEPAGE:p. 55
+Wrath of the Faithful							TYPE:General		VISIBLE:YES			PREFEAT:1,Extra Turning																																PRESKILL:1,Knowledge (Religion)=5								DESC:You can use the forces of positive or negative energy to bolster your allies.																																																																																																																																																							SOURCEPAGE:p. 55
+
+
+##### Psychic preface was to let me group all the skills together for ease of checking, all the coding will work either way.
+###Psychic Feats:
+Combat Concentration							TYPE:General						PREFEAT:1,Psychic Ability																																												DESC:You can use your psychic skills in combat.
+Mental Fortitude								TYPE:General																																																			PRESTAT:1,WIS=13	DESC:You are particularly resistant to psychic attack.															STACK:YES	MULT:YES	CHOOSE:NOCHOICE
+Skill Aptitude								TYPE:General																																																						DESC:You?re talented in particular skills.																			MULT:YES	CHOOSE:SKILLSNAMEDTOCSKILL|CROSSCLASS
+Wild Talent Psychic			OUTPUTNAME:Wild Talent	TYPE:General																																																						DESC:You have the potential to learn and use a single psychic skill.													STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|Adaptation|Apport|Blink Teleport|Body Control|Combat Sense|Cryokinesis|Dimensional Phase|Domination|Drain Ability (STR)|Drain Ability (DEX)|Drain Ability (CON)|Drain Ability (INT)|Drain Ability (WIS)|Drain Ability (CHA)|Drain Emotion|Drain Power|Drain Vitality|Dreamwalk|Empathy|Empathic Projection|Enhance Ability|Enhance Senses|Illusion|Life Drain|Life Extension|Mental Contact|Mind Reading|Photokinesis|Precognition|Psychic Blast|Psychic Healing|Psychic Sense|Psychic Shield|Psychic Static|Psychic Surgery|Psychometry|Pyrokinesis|Remote Viewing|Sense Minds|Sleep|Suggestion|Telekinesis|Telekinetic Blast|Telekinetic Grip|Telekinetic Shield|Teleport|Psychic Weapon													CCSKILL:%
+#Wild Talent name is already taken by the RSRD. Key doesn't work, but Outputname works well.
+
+Apport Arrows								TYPE:Psychic						PREFEAT:1,Psychoportation																															PRESKILL:1,Apport=5,Psychic (Apport)=5				PRESTAT:1,WIS=13	DESC:You can teleport away incoming arrows, as well as crossbow bolts, spears, and other shot or thrown weapons.
+Craft Psychic Construct							TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychoportation,Psychometabolism,Psychokinesis,Telepathy,Clairsentience																																DESC:You can create and empower psychic constructs.
+Cure Blindness/Deafness							TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychometabolism																												PRESKILL:1,Psychic Healing=5,Psychic (Psychic Healing)=5				DESC:You can use the Psychic Healing skill to cure blindness and deafness.
+Cure Disease								TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychometabolism																												PRESKILL:1,Psychic Healing=5,Psychic (Psychic Healing)=5				DESC:You can use the Psychic Healing skill to cure diseases.
+Cure Poison									TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychometabolism																												PRESKILL:1,Psychic Healing=5,Psychic (Psychic Healing)=5				DESC:You can use the Psychic Healing skill to eliminate poisons.
+Divert Teleport								TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychoportation											PREMULT:1,[PRESKILL:2,Psychic Sense=5,Apport=10],[PRESKILL:2,Psychic (Psychic Sense)=5,Psychic (Apport)=10]														DESC:You can focus your psychic energy to redirect the apportation or teleportation of others.
+Energy Shield								TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychokinesis																													PRESKILL:1,Telekinesis=7,Psychic (Telekinesis)=7					DESC:You have the ability to psychokinetically shield yourself from harmful energy.
+Erase Signature								TYPE:Psychic						PREFEAT:2,Psychic Ability,Telepathy,Clairsentience																											PRESKILL:1,Psychic Sense=1,Psychic (Psychic Sense)=1		PRESTAT:1,WIS=13	DESC:You can eliminate evidence of psychic signatures (your own or others?).
+Flight									TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychokinesis																													PRESKILL:1,Telekinesis=1,Psychic (Telekinesis)=1					DESC:Telekinetic flight is easier for you.
+Greater Psychic Focus							TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychic Focus																																										DESC:Your psychic skills within a particular talent are more potent than normal.
+Imbue Weapon								TYPE:Psychic						PREFEAT:1,Psychic Ability																																												DESC:You can focus your powers to imbue a melee weapon with psychic force.
+Mental Recovery								TYPE:Psychic						PREFEAT:1,Psychic Ability																																									PRESTAT:1,WIS=13	DESC:You recover more quickly from the strain of using psychic abilities.
+Mind Over Matter								TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychomentabolism																																						PRESTAT:1,WIS=13	DESC:Your mental strength allows you to heal faster.
+Mind Switch									TYPE:Psychic						PREFEAT:2,Psychic Ability,Telepathy																																											DESC:You have the potential to learn the Mind Switch skill.
+Mind Trap									TYPE:Psychic						PREFEAT:2,Psychic Ability,Telepathy																														PRESKILL:1,Psychic Shield=7,Psychic (Psychic Shield)=7				DESC:You can psychically act against anyone who tries to overcome your mental defenses.
+Multitasking								TYPE:Psychic						PREFEAT:1,Psychic Ability																																									PRESTAT:1,WIS=13	DESC:You can maintain multiple psychic skills with less difficulty.													STACK:YES	MULT:YES	CHOOSE:NOCHOICE
+Psychic Channeling							TYPE:Psychic																																																						DESC:You can channel spell energy to fuel your psychic abilities.
+Pyschic Companion								TYPE:Psychic																																																						DESC:You have a psychic companion creature.
+Psychic Focus								TYPE:Psychic						PREFEAT:1,Psychic Ability																																												DESC:Your psychic skills within a particular talent are more potent than normal.
+Psychic Invisibility							TYPE:Psychic						PREFEAT:2,Psychic Ability,Telepathy																														PRESKILL:1,Mental Contact=6,Psychic (Mental Contact)=6				DESC:You can focus your energies to block your presence from the minds of others.
+Psychic Link								TYPE:Psychic																																																						DESC:You have a mental connection with someone.
+Psychic Reflection							TYPE:Psychic						PREFEAT:2,Psychic Ability,Telepathy																														PRESKILL:1,Psychic Shield=8,Psychic (Psychic Shield)=8				DESC:You can reflect psychic effects back at their originator.
+Psychic Severance								TYPE:Psychic						PREFEAT:2,Psychic Ability,Telepathy																														PRESKILL:1,Psychic Surgery=10,Psychic (Psychic Surgery)=10				DESC:You can remove another creature?s psychic talents.
+Psychic Stamina								TYPE:Psychic						PREFEAT:2,Psychic Ability,Psychometabolism																																						PRESTAT:1,WIS=13	DESC:Your mental strength reinforces your physical endurance.																																																																																																																																					BONUS:HP|CURRENTMAX|TL*(max(CON,WIS)-CON)
+Sensitive									TYPE:Psychic						PREFEAT:2,Psychic Ability,Telepathy																																								PRESTAT:1,WIS=13	DESC:You are particularly sensitive to the emotions and attitudes of other creatures.
+Shield Penetration							TYPE:Psychic						PREFEAT:1,Psychic Ability																																												DESC:You are adept at overcoming the resistance of Psychic Shields with your powers.
+Truth Reading								TYPE:Psychic						PREFEAT:3,Psychic Ability,Telepathy,Sensitive																																									DESC:You can sense when someone is lying to you.
+
+###METAPSYCHIC
+Direct Talent								TYPE:Metapsychic						PREFEAT:1,Psychic Ability																																												DESC:Choose a psychic skill you already have that requires mental contact. You can now use this skill without the need for mental contact.
+Empower Talent								TYPE:Metapsychic						PREFEAT:1,Psychic Ability																																									PRESTAT:1,WIS=13	DESC:You can strengthen the effects of your psychic skills.
+Extend Talent								TYPE:Metapsychic						PREFEAT:1,Psychic Ability																																									PRESTAT:1,WIS=13	DESC:You?re more adept at affecting multiple targets with your psychic skills.
+Maximize Talent								TYPE:Metapsychic						PREFEAT:1,Psychic Ability																																									PRESTAT:1,WIS=13	DESC:Using this feat, you can maximize the effects of your psychic skills.
+Quicken Talent								TYPE:Metapsychic						PREFEAT:1,Psychic Ability																																									PRESTAT:1,WIS=15	DESC:You can use psychic skills more quickly than normal.
+Reduced Strain								TYPE:Metapsychic						PREFEAT:1,Psychic Ability																															PRESKILL:1,TYPE.Psychic=5									DESC:One of your psychic skills causes less strain on you.															STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE=Psychic
+Subtle Talent								TYPE:Metapsychic						PREFEAT:1,Psychic Ability																																									PRESTAT:1,WIS=13	DESC:You can use your psychic skills with less chance of anyone noticing your activities.
+Widen Talent								TYPE:Metapsychic						PREFEAT:1,Psychic Ability																																									PRESTAT:1,WIS=13	DESC:You can affect a radius with a single use of a psychic skill.
+
+
+
+###These make/add skills
+Psychic Ability								TYPE:Psychic																																																						DESC:You have the potential to acquire psychic feats and skills.																																																																																																																																																	CCSKILL:Psychic Sense|Psychic Shield
+Clairsentience								TYPE:Psychic Talent					PREFEAT:1,Psychic Ability																																												DESC:You have the potential to learn clairsentience skills.																																																																																																																																																		CCSKILL:TYPE=Clairsentience
+Dimensional Shift								TYPE:Psychic Talent					PREFEAT:2,Psychic Ability,Psychoportation																																										DESC:You have the potential to learn the Dimensional Shift skill.																																																																																																																																																	CCSKILL:Dimensional Shift|Psychic (Dimensional Shift)
+Psychic Weapon								TYPE:Psychic Talent					PREFEAT:1,Psychic Ability																																												DESC:You have the potential to learn the Psychic Weapon skill.																																																																																																																																																	CCSKILL:Psychic Weapon|Psychic (Psychic Weapon)
+Psychokinesis								TYPE:Psychic Talent					PREFEAT:1,Psychic Ability																																												DESC:You have the potential to learn psychokinesis skills.																																																																																																																																																		CCSKILL:TYPE=Psychokinesis
+Psychometabolism								TYPE:Psychic Talent					PREFEAT:1,Psychic Ability																																												DESC:You have the potential to learn psychometabolism skills.																																																																																																																																																	CCSKILL:TYPE=Psychometabolism
+Psychoportation								TYPE:Psychic Talent					PREFEAT:1,Psychic Ability																																												DESC:You have the potential to learn psychoportation skills.																																																																																																																																																	CCSKILL:TYPE=Psychoportation
+Telepathy									TYPE:Psychic Talent					PREFEAT:1,Psychic Ability																																												DESC:You have the potential to learn telepathy skills.
+
+
+
+
+
+
+
+
+
+#
+#EOF
+#

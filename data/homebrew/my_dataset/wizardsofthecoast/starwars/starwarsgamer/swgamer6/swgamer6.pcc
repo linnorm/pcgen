@@ -1,0 +1,18 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $
+CAMPAIGN:Star Wars Gamer Issue 6
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Magazine
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Magazine
+SOURCELONG:Star Wars Gamer 6
+SOURCESHORT:SWG6
+SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+INFOTEXT:Star Wars Gamer Magazine
+
+BIOSET:swgamer6_biosettings.lst
+EQUIPMENT:swgamer6_equip.lst
+RACE:swgamer6_races.lst

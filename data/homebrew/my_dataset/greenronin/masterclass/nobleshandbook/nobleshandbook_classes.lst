@@ -1,0 +1,26 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Noble's Handbook	SOURCESHORT:nobleshandbook	SOURCEWEB:http://www.greenronin.com
+
+# Class Name			Output Name		Hit Dice	Type			Abbreviation	Source Page		Save checks bonus											Combat bonus
+CLASS:Noble (Green Ronin)	OUTPUTNAME:Noble	HD:8		TYPE:Base.PC	ABB:GRNbl		SOURCEPAGE:p.6	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Will,BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name			Restricted AL
+CLASS:Noble (Green Ronin)	!PREALIGN:
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Noble (Green Ronin)	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Concentration|TYPE=Craft|Diplomacy|Gather Information|Intimidate|TYPE=Knowledge|Listen|TYPE=Perform|TYPE=Profession|Ride|Sense Motive|Speak Language
+###Block: Proficiencies
+1																																										AUTO:FEAT|All Automatic Proficiencies|All Martial Weapon Proficiencies|Martial Weapon Proficiency|Simple Weapon Proficiency
+1																																										AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1	SAB:Breeding (Ex)																																			ADD:FEAT|TYPE=Breeding	AUTO:FEAT|Noble House
+2	SAB:Inspire %/day (Ex)|NobleInspire	SAB:Material Aid (Ex)						BONUS:VAR|NobleInspire|CL/2								DEFINE:NobleInspire|0
+3	SAB:Retinue (Ex)	SAB:Influence +% (Ex) %/week|NobleInfluenceBonus|NobleInfluenceTimes	BONUS:VAR|NobleInfluenceBonus|1	BONUS:VAR|NobleInfluenceTimes|CL/2	DEFINE:NobleInfluenceBonus|0	DEFINE:NobleInfluenceTimes|0
+4	SAB:Connection (x%) (Ex)|NobleConnection									BONUS:VAR|NobleConnection|1								DEFINE:NobleConnection|0
+5	SAB:Organise +% for % people (Ex)|NobleOrganiseBonus|NobleOrganiseTimes				BONUS:VAR|NobleOrganiseBonus|CL/5	BONUS:VAR|NobleOrganiseTimes|CL/2	DEFINE:NobleOrganiseBonus|0	DEFINE:NobleOrganiseTimes|0
+6																																										AUTO:FEAT|Leadership
+8																BONUS:VAR|NobleInfluenceBonus|1
+9																BONUS:VAR|NobleConnection|1
+11																																						ADD:FEAT|TYPE=Breeding
+13																BONUS:VAR|NobleInfluenceBonus|1
+14																BONUS:VAR|NobleConnection|1
+16																																						ADD:FEAT|TYPE=Breeding
+18																BONUS:VAR|NobleInfluenceBonus|1
+19																BONUS:VAR|NobleConnection|1

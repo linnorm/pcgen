@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Thu Mar  8 10:42:31 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+SOURCELONG:Anubium - Dark Arts of Necromancy	SOURCESHORT:DAoN	SOURCEWEB:http://www.anubium.com
+
+
+# Domain Name	Spells							BONUS:DC			Source Page		Description																												List of Domain Spells by Level
+#Dream											BONUS:DC|DOMAIN.Dream|1	SOURCEPAGE:p.90	DESC:You can cast dream domain spells ans those involving sleep at +1 caster level. You can also cast snooze as a 0-level spell.								SPELLLEVEL:DOMAIN|Dream=0|Snooze|Dream=1|Sleep|Dream=2|Dreamspeak|Dream=3|Nap|Dream=4|Fitful Sleep|Dream=5|Sleepwalking|Dream=6|Sleepless Curse|Dream=7|Improved Nap|Dream=8|Recurring Nightmare|Dream=9|Mind Blank
+# Domain Name
+Dead
+Fog
+Gloom
+Pestilence
+Slaughter
+Spirit
+Torture
+Vermin

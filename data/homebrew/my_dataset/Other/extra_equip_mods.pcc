@@ -1,0 +1,8 @@
+CAMPAIGN:Extra Equip Mods
+GAMEMODE:35e
+TYPE:Other.Supplement
+RANK:9
+
+
+EQUIPMOD:extra_equip_mods.lst
+

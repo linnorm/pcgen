@@ -1,0 +1,32 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #247	SOURCESHORT:WotC-Dragon #247	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+#Name						TYPE				Cost		Weight
+# Equipment Name				Type				Cost		Weight	Source Page		Special Property
+Glass Guardian				TYPE:Magic.Wondrous	COST:1000	WT:0		SOURCEPAGE:p.59	SPROP:AC11/2hp, Reflect back upon the caster of any magic that enter's or starts within a 10ft radius, globes fall to the ground useless after 1 use
+Apron of the Alchemist			TYPE:Magic.Wondrous	COST:2500	WT:4		SOURCEPAGE:p.82	SPROP:AC+3 to attacks from the front/sides, does not prevent spellcasting, +3 bonus on saving throws from fire and acid from the front
+Nalkor's Apron				TYPE:Magic.Wondrous	COST:5000	WT:4		SOURCEPAGE:p.82	SPROP:Whenever the wearer is in an explosion that does more than 1d8 of damage the wearer and apron are teleported to a pre-determined location
+Tools of Art +1				TYPE:Magic.Wondrous	COST:1500	WT:0		SOURCEPAGE:p.82	SPROP:These tools add a bonus (+1 to +5) to a specific profeciency (such as woodworking, stonemasonry etc) Rank in such skill is not required
+Tools of Art +2				TYPE:Magic.Wondrous	COST:2200	WT:0		SOURCEPAGE:p.82	SPROP:These tools add a bonus (+1 to +5) to a specific profeciency (such as woodworking, stonemasonry etc) Rank in such skill is not required
+Tools of Art +3				TYPE:Magic.Wondrous	COST:3000	WT:0		SOURCEPAGE:p.82	SPROP:These tools add a bonus (+1 to +5) to a specific profeciency (such as woodworking, stonemasonry etc) Rank in such skill is not required
+Tools of Art +4				TYPE:Magic.Wondrous	COST:4500	WT:0		SOURCEPAGE:p.82	SPROP:These tools add a bonus (+1 to +5) to a specific profeciency (such as woodworking, stonemasonry etc) Rank in such skill is not required
+Tools of Art +5				TYPE:Magic.Wondrous	COST:6000	WT:0		SOURCEPAGE:p.82	SPROP:These tools add a bonus (+1 to +5) to a specific profeciency (such as woodworking, stonemasonry etc) Rank in such skill is not required
+Magic Tar					TYPE:Magic.Wondrous	COST:500	WT:10		SOURCEPAGE:p.83	SPROP:When used to seal a boat's hull, no water will seep through the boards, repels creatures that normally adhere to a boat's hull
+Flag of the Warsmith			TYPE:Magic.Wondrous	COST:30000	WT:0		SOURCEPAGE:p.83	SPROP:When put upon a pole above a tent large enuf tp support a smithy all relevant tools appear for a smith, can be used 8hours/day or when flag is removed
+Nalkor's Tape measure			TYPE:Magic.Wondrous	COST:2000	WT:0		SOURCEPAGE:p.83	SPROP:When activated an Unseen Servant appears and takes measurements of one humanoid and writes them on a piece of parchment
+Barrel of Potions Storing		TYPE:Magic.Wondrous	COST:25000	WT:0		SOURCEPAGE:p.83	SPROP:Can store 100 potions, when potion's name is written on the parchment and spigot is turned that potion empties out, barrel crumbles when last one taken
+Jadon's Mortar				TYPE:Magic.Wondrous	COST:50	WT:50		SOURCEPAGE:p.83	SPROP:Mortar hardens within 4 rounds of salt being spread over it, 1 ounce of mercury dissolves 1 lb of mortar
+Knife of Decoration			TYPE:Magic.Wondrous	COST:2500	WT:0		SOURCEPAGE:p.84	SPROP:When a Carpenter uses this knife to decorate wood it increases the worth by 1d20 + 15%, with a 5% chance of ruining the item, comes in 50lb bags
+Nalkor's Book of Servants		TYPE:Magic.Wondrous	COST:7000	WT:0		SOURCEPAGE:p.84	SPROP:Book contains 1d4+1 Unseen Servant spells, when a user needs the services of one of the servants he writes down the task in the book
+Fitting Doll (Male or Female)		TYPE:Magic.Wondrous	COST:4000	WT:0		SOURCEPAGE:p.84	SPROP:When command word is spoken and the doll is touched the doll changes to the size of the person touching it, must be of same gender as doll
+Fitting Doll (Gender Changing)	TYPE:Magic.Wondrous	COST:6000	WT:0		SOURCEPAGE:p.84	SPROP:When command word is spoken and the doll is touched the doll changes to the size of the person touching it, doll changes in gender as well as size
+Easel of Pageturning			TYPE:Magic.Wondrous	COST:2500	WT:0		SOURCEPAGE:p.84	SPROP:Can be commanded to open a book to a specific page, skip one page foreward, skip one page back, or close the book, can not open locked or magical bound books
+Changing Mold (Small)			TYPE:Magic.Wondrous	COST:5000	WT:0		SOURCEPAGE:p.84	SPROP:When commanded can change form to any type of appropriate item/weapon mold for a smith, can create a mold for a small weapon/item or 15 tiny items
+Changing Mold (Medium)			TYPE:Magic.Wondrous	COST:9000	WT:0		SOURCEPAGE:p.84	SPROP:When commanded can change form to any type of appropriate item/weapon mold for a smith, can create a mold for a medium weapon/item, 3 small, 30 tiny items
+Changing Mold (Large)			TYPE:Magic.Wondrous	COST:15000	WT:0		SOURCEPAGE:p.84	SPROP:When commanded can change form to any type of appropriate item/weapon mold for a smith, can create a mold for a Large weapon/item, 7 small, 70 tiny items
+Mold of 1000 Candles			TYPE:Magic.Wondrous	COST:1500	WT:0		SOURCEPAGE:p.86	SPROP:This Candle mold automatically makes 1d2 candles a day, if wax is poured in 4d2 candles/day are made for 1 week. Candles dissappear within 48 hours of non-use
+Pot of Metal Melting			TYPE:Magic.Wondrous	COST:4000	WT:0		SOURCEPAGE:p.86	SPROP:This large pot can melt 10lbs of metal/day of all types placed within after command word is spoken, Magical items get a saving throw, radiates no heat
+Diamond Scales of Chalacha		TYPE:Magic.Wondrous	COST:6000	WT:0		SOURCEPAGE:p.86	SPROP:When a gem is placed on one side of the scales an illusion appears on other side of gold coins equal to the worth of the gem
+Dan's Dough Doubler			TYPE:Magic.Wondrous	COST:2000	WT:0		SOURCEPAGE:p.86	SPROP:This large wooden plate doubles thie size of dough kneeded upon it's surface, can be used 5X/day for up to 10lbs of dough per use
+Jerimiah's Box of Knife Sharpening	TYPE:Magic.Wondrous	COST:2000	WT:0		SOURCEPAGE:p.86	SPROP:18 in. long x 9 in. wide x 5 in. tall, Any blade placed inside over night (12 hours minimum) receives a +1attack or proficency bonus for the first 3 attacks/checks
+Vial of Nalkor				TYPE:Magic.Wondrous	COST:10000	WT:0		SOURCEPAGE:p.86	SPROP:When a potion is poured into the vial the name of the potion appears on the outside with a 75% accuracy

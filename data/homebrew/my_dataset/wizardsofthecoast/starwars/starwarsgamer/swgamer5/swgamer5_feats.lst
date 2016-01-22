@@ -1,0 +1,13 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 5	SOURCESHORT:SWG5	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+#Block: Special Feats
+# Feat Name			Type		Description						Choose					Selections
+Skill Mastery		TYPE:Slicer	DESC:Can always take 10 on these skills	CHOOSE:SKILLSNAMED|TYPE=SkillMaster	SELECT:1
+
+#Block: .MODed Skills
+Fame.MOD			TYPE:Slicer
+Gearhead.MOD		TYPE:Slicer
+Infamy.MOD			TYPE:Slicer
+Low Profile.MOD		TYPE:Slicer
+Skill Emphasis.MOD	TYPE:Slicer

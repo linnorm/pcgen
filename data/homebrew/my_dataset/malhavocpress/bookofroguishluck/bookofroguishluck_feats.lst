@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Book of Roguish Luck	SOURCESHORT:BoRL	SOURCEWEB:http://www.montecook.com
+
+###Block: ironborn
+# Feat Name	Type			Required Class			Required Skill		Required Stat	Innate Spells										Description							Source Page
+Dark Halo	TYPE:Eldritch	PRECLASS:1,SPELLCASTER=9	PRESKILL:1,Hide=10	PRESTAT:1,CHA=17	SPELLS:Innate|TIMES=3|Darkness	SPELLS:Innate|TIMES=ATWILL|Douse	DESC:Darkness loves and embraces you.		SOURCEPAGE:pg. 70
+Keymaster	TYPE:General						PRESKILL:1,Open Lock=8																DESC:You pick locks faster than anyone else.	SOURCEPAGE:pg. 70

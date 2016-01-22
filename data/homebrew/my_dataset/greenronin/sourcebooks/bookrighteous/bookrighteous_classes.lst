@@ -1,0 +1,214 @@
+# CVS $Revision: 314 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Arcana - The Book of the Righteous	SOURCESHORT:BookRight	SOURCEWEB:http://www.greenronin.com
+# Original Entry by: Beaver, updated by Tir Gwaith, Corrected by rax_the_grey
+
+#SA Domain ability.. at 1st level they gain 4 abilities from their domain(s) and at 2nd level 2 from their Domain(s) - nothing after that.
+#This is going to require some rethinking of how domain abilities are done in data files and a CHOOSE:DOMAINABILITY(>list<) tag
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Ex Class			Source Page			Define		Save checks bonus											Combat bonus		Add domain number		Modify VAR
+CLASS:Holy Warrior	HD:10		TYPE:Base.PC	ABB:HlyW		MAXLEVEL:20	EXCLASS:Ex Holy Warrior	SOURCEPAGE:p.243		DEFINE:SMLevel|0	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL	BONUS:DOMAIN|NUMBER|2	BONUS:VAR|SMLevel|CL
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Holy Warrior	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride
+# Class Name		Spell Stat		Spell Type		Automatically Known Spell Levels				Craft Level Mult.	Caster level
+CLASS:Holy Warrior	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	ITEMCREATE:0.5	BONUS:CASTERLEVEL|Holy Warrior|CL/2|PRECLASS:1,Holy Warrior=4
+SUBCLASS:Holy Warrior	ABB:HlyW	COST:0	SOURCEPAGE:p.243
+SUBCLASSLEVEL:3	SAB:Gift of God (%)|GiftOfGod	BONUS:VAR|GiftOfGod|CL/3	DEFINE:GiftOfGod|0
+SUBCLASSLEVEL:5	SAB:Special Mount/Compainion
+###Block:
+SUBCLASS:Eagle of Urian	NAMEISPI:YES	ABB:EoU	COST:0	SPELLLIST:2|Eagle of Urian|Holy Warrior	PREALIGN:NG	PREDEITY:1,Urian	CSKILL:Balance|Spot|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.41
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Eagle of Urian=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Read Magic,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Eagle of Urian=2|Remove Paralysis,Resist Energy,Shield Other,Whispering Wind,Wind Wall
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Eagle of Urian=3|Cure Moderate Wounds,Dispel Magic,Fly,Heal Mount,Magic Circle against Evil,Magic Weapon (Greater),Prayer,Remove Blindness/Deafness
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Eagle of Urian=4|Air Walk,Cure Serious Wounds,Death Ward,Dispel Evil,Freedom of Movement,Holy Sword
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Gust of Wind %/week|GustOfWind		BONUS:VAR|GustOfWind|min(CL/3,3)	DEFINE:GustOfWind|0
+SUBCLASSLEVEL:8	SAB:Summon Giant Celestial Eagle
+SUBCLASSLEVEL:12	SAB:Control Winds %/week|ControlWinds	BONUS:VAR|ControlWinds|(CL-9)/3	DEFINE:ControlWinds|0
+###Block:
+SUBCLASS:Warden of Rontra	NAMEISPI:YES	ABB:WoR	COST:0	SPELLLIST:2|Warden of Rontra|Holy Warrior	PREALIGN:LG	PREDEITY:1,Rontra	CSKILL:Appraise|Knowledge (Nature)|Survival|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.52
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Warden of Rontra=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Resistance,Rontra's Blessing,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Warden of Rontra=2|Consecrate,Delay Poison,Remove Paralysis,Resist Energy,Shield Other
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Warden of Rontra=3|Cure Moderate Wounds,Dispel Magic,Heal Animal Companion,Magic Circle against Evil,Magic Weapon (Greater),Plant Growth,Prayer,Remove Blindness/Deafness
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Warden of Rontra=4|Cure Serious Wounds,Death Ward,Dispel Evil,Freedom of Movement,Holy Sword,Neutralize Poison
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Meld into Stone %/week|MeldStone	BONUS:VAR|MeldStone|min(CL/3,3)	DEFINE:MeldStone|0
+SUBCLASSLEVEL:6	SAB:Special Compainion
+SUBCLASSLEVEL:12	SAB:Dismissal %/week|Dismissal		BONUS:VAR|Dismissal|(CL-9)/3		DEFINE:Dismissal|0
+###Block:
+SUBCLASS:Ascetic of Shalimyr	NAMEISPI:YES	ABB:AoS	COST:0	SPELLLIST:2|Ascetic of Shalimyr|Holy Warrior	PREALIGN:CG	PREDEITY:1,Shalimyr	CSKILL:Use Rope|Swim|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.63
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Ascetic of Shalimyr=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Remove Fear,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Ascetic of Shalimyr=2|Delay Poison,Remove Paralysis,Resist Energy,Shield Other
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Ascetic of Shalimyr=3|Cure Moderate Wounds,Dispel Magic,Fly,Heal Animal Companion,Magic Weapon (Greater),Remove Blindness/Deafness,Remove Curse,Remove Disease,Water Breathing,Water Walk
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Ascetic of Shalimyr=4|Control Water,Cure Serious Wounds,Freedom of Movement,Holy Sword,Neutralize Poison,Restoration
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Calm Emotions%/week|CalmEmotions		BONUS:VAR|CalmEmotions|min(CL/3,3)	DEFINE:CalmEmotions|0
+SUBCLASSLEVEL:5	SAB:Special Mount/Compainion
+SUBCLASSLEVEL:12	SAB:Neutralize Poison %/week|NeutralizePoison	BONUS:VAR|NeutralizePoison|(CL-9)/3	DEFINE:NeutralizePoison|0
+###Block:
+SUBCLASS:Faithful Son of Morwyn	NAMEISPI:YES	ABB:FS	COST:0	SPELLLIST:2|Faithful Son of Morwyn|Holy Warrior	PREALIGN:LG	PREDEITY:1,Morwyn	CSKILL:Diplomacy|Heal|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.78
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Faithful Son of Morwyn=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Entropic Shield,Protection from Evil,Resistance,Shield of Faith,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Faithful Son of Morwyn=2|Aid,Calm Emotions,Cure Moderate Wounds,Delay Poison,Shield Other
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Faithful Son of Morwyn=3|Cure Serious Wounds,Dispel Magic,Heal Mount,Magic Circle against Evil,Magic Vestment,Remove Blindness/Deafness,Remove Disease,Remove Paralysis
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Faithful Son of Morwyn=4|Death Ward,Dispel Evil,Freedom of Movement,Holy Sword,Neutralize Poison,Spell Immunity
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Transference %/week|Transference			BONUS:VAR|Transference|min(CL/3,3)		DEFINE:Transference|0
+SUBCLASSLEVEL:5	SAB:Special Mount/Compainion
+SUBCLASSLEVEL:12	SAB:Greater Transference %/week|GreaterTransference	BONUS:VAR|GreaterTransference|(CL-9)/3	DEFINE:GreaterTransference|0
+###Block:
+SUBCLASS:Crusader of Terak	NAMEISPI:YES	ABB:CoT	COST:0	SPELLLIST:2|Crusader of Terak|Holy Warrior	PREALIGN:LG	PREDEITY:1,Terak (LG),Terak (LN)	CSKILL:Jump|Swim|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.90
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Crusader of Terak=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Remove Fear,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Crusader of Terak=2|Delay Poison,Bear's Endurance,Remove Paralysis,Resist Energy,Shield Other
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Crusader of Terak=3|Cure Moderate Wounds,Dispel Magic,Heal Mount,Magic Vestment,Magic Weapon (Greater),Prayer,Remove Blindness/Deafness,Wind Wall
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Crusader of Terak=4|Cure Serious Wounds,Death Ward,Divine Power,Freedom of Movement,Holy Sword,Sending
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Keen Edged %/week|KeenEdged		BONUS:VAR|KeenEdged|min(CL/3,3)	DEFINE:KeenEdged|0
+SUBCLASSLEVEL:5	SAB:Special Mount
+SUBCLASSLEVEL:6	SAB:Celestial Lion * (See Text p.91)
+SUBCLASSLEVEL:12	SAB:Status %/week|Status			BONUS:VAR|Status|(CL-9)/3		DEFINE:Status|0
+###Block:
+SUBCLASS:Joyous Brother of Zheenkeef	NAMEISPI:YES	ABB:JBoZ	COST:0	SPELLLIST:2|Joyous Brother of Zheenkeef|Holy Warrior	PREALIGN:CG	PREDEITY:1,Zheenkeef	CSKILL:Gather Information|Spot|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.100
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Joyous Brother of Zheenkeef=1|Bless,Bless Water,Bless Weapon,Comprehend Languages,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Read Magic,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Joyous Brother of Zheenkeef=2|Delay Poison,Remove Paralysis,Resist Energy,Shield Other,Undetectable Alignment
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Joyous Brother of Zheenkeef=3|Create Food and Wine,Cure Moderate Wounds,Discern Lies,Dispel Magic,Heal Animal Companion,Magic Weapon (Greater),Prayer,Remove Blindness/Deafness
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Joyous Brother of Zheenkeef=4|Cure Serious Wounds,Dispel Evil,Divination,Freedom of Movement,Holy Sword,Tongues
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Emotion (Hope) %/week|EmotionHope				BONUS:VAR|EmotionHope|min(CL/3,3)		DEFINE:EmotionHope|0
+SUBCLASSLEVEL:5	SAB:Animal Compainion
+SUBCLASSLEVEL:12	SAB:Emotion (Hope)- Self Only %/week|EmotionHopeSelfOnly	BONUS:VAR|EmotionHopeSelfOnly|(CL-9)/3	DEFINE:EmotionHopeSelfOnly|0
+###Block:
+SUBCLASS:Mage Guard of Tinel	NAMEISPI:YES	ABB:MGoT	COST:0	SPELLLIST:2|Mage Guard of Tinel|Holy Warrior	PREALIGN:CG	PREDEITY:1,Tinel (CG),Tinel (TN)	CSKILL:Gather Information|Knowledge (Arcana)|Spellcraft|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.113
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Mage Guard of Tinel=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Undead,Divine Favor,Endure Elements,Identify,Magic Aura,Magic Weapon,Protection from Evil,Read Magic,Resistance,Undetectable Alignment,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Mage Guard of Tinel=2|Invisibility Purge,Remove Paralysis,Resist Energy,Shield Other,Silence
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Mage Guard of Tinel=3|Cure Moderate Wounds,Discern Lies,Dispel Magic,Heal Animal Companion,Magic Circle against Evil,Magic Weapon (Greater),Nondetection,Prayer,Remove Blindness/Deafness
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Mage Guard of Tinel=4|Cure Serious Wounds,Death Ward,Dimensional Anchor,Dispel Evil,Freedom of Movement,Holy Sword
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Dispel Magic %/week|DispelMagic		BONUS:VAR|DispelMagic|min(CL/3,3)	DEFINE:DispelMagic|0
+SUBCLASSLEVEL:5	SAB:Celestial Animal Compainion*
+SUBCLASSLEVEL:12	SAB:Spell Immunity %/week|SpellImmunity	BONUS:VAR|SpellImmunity|(CL-9)/3	DEFINE:SpellImmunity|0
+###Block:
+SUBCLASS:Obediant Brother of Mormekar	NAMEISPI:YES	ABB:OBoM	COST:0	SPELLLIST:2|Obediant Brother of Mormekar|Holy Warrior	PREALIGN:NG	PREDEITY:1,Mormekar	CSKILL:Heal|Spot|Knowledge (Undead)|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.121
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Obediant Brother of Mormekar=1|Bless,Bless Water,Bless Weapon,Cure Light Wounds,Detect Poison,Detect Return,Detect Undead,Divine Favor,Hide from Undead,Magic Weapon,Protection from Evil,Read Magic,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Obediant Brother of Mormekar=2|Consecrate,Delay Poison,Remove Paralysis,Resist Energy,Restoration (Lesser),Shield Other
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Obediant Brother of Mormekar=3|Dispel Magic,Heal Mount,Magic Circle against Evil,Magic Weapon (Greater),Nondetection,Prayer,Remove Blindness/Deafness,Searing Light
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Obediant Brother of Mormekar=4|Death Ward,Dispel Evil,Freedom of Movement,Holy Sword,Mark of Evil,Restoration,Touch of Return
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Death Ward %/week|DeathWard	BONUS:VAR|DeathWard|min(CL/3,6)	DEFINE:DeathWard|0
+SUBCLASSLEVEL:5	SAB:Special Mount
+###Block:
+SUBCLASS:Officer of Maal	NAMEISPI:YES	ABB:OoM	COST:0	SPELLLIST:2|Officer of Maal|Holy Warrior	PREALIGN:LG	PREDEITY:1,Maal	CSKILL:Diplomacy|Sense Motive|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.132
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Officer of Maal=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Chaos,Protection from Evil,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Officer of Maal=2|Delay Poison,Remove Paralysis,Resist Energy,Shield Other,Zone of Truth
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Officer of Maal=3|Cure Moderate Wounds,Discern Lies,Dispel Magic,Heal Mount,Magic Circle against Chaos,Magic Weapon (Greater),Prayer,Protection from Energy
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Officer of Maal=4|Death Ward,Dispel Chaos,Freedom of Movement,Holy Sword,Mark of Justice,Restoration
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Discern Lies %/week|DiscernLies	BONUS:VAR|DiscernLies|min(CL/3,3)	DEFINE:DiscernLies|0
+SUBCLASSLEVEL:5	SAB:Special Mount
+SUBCLASSLEVEL:12	SAB:Mark of Evil %/week|MarkofEvil	BONUS:VAR|MarkofEvil|(CL-9)/3		DEFINE:MarkofEvil|0
+###Block:
+SUBCLASS:Hero of Darmon	NAMEISPI:YES	ABB:HoD	COST:0	SPELLLIST:2|Hero of Darmon|Holy Warrior	PREALIGN:CG	PREDEITY:1,Darmon	CSKILL:Bluff|Diplomacy|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.143
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Hero of Darmon=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Read Magic,Resistance,Rope Trick
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Hero of Darmon=2|Delay Poison,Remove Paralysis,Resist Energy,Undetectable Alignment,Whispering Wind
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Hero of Darmon=3|Cure Moderate Wounds,Dispel Magic,Heal Mount,Magic Circle against Evil,Magic Weapon (Greater),Prayer,Remove Blindness/Deafness,Tongues
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Hero of Darmon=4|Cure Serious Wounds,Dimension Door,Dispel Evil,Holy Sword,Neutralize Poison,Sending
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Freedom of Movement %/week|FreedomofMovement	BONUS:VAR|FreedomofMovement|min(CL/3,6)	DEFINE:FreedomofMovement|0
+SUBCLASSLEVEL:5	SAB:Special Mount
+###Block:
+SUBCLASS:Aesthete of Aymara	NAMEISPI:YES	ABB:AoA	COST:0	SPELLLIST:2|Aesthete of Aymara|Holy Warrior	PREALIGN:CG	PREDEITY:1,Aymara	CSKILL:Appraise|TYPE=Perform|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.153
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Aesthete of Aymara=1|Bless,Bless Water,Bless Weapon,Charm Person,Create Water,Cure Light Wounds,Detect Poison,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Read Magic,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Aesthete of Aymara=2|Delay Poison,Enthrall,Remove Paralysis,Resist Energy,Shield Other
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Aesthete of Aymara=3|Clairaudience/Clairvoyance,Cure Moderate Wounds,Dispel Magic,Heal Mount/Animal Companion,Magic Circle against Evil,Magic Weapon (Greater),Remove Blindness/Deafness,Sculpt Sound
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Aesthete of Aymara=4|Cure Serious Wounds,Death Ward,Dispel Evil,Holy Sword,Legend Lore
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Fair Light %/week|FairLight	BONUS:VAR|FairLight|min(CL/3,6)	DEFINE:FairLight|0
+SUBCLASSLEVEL:5	SAB:Special Mount
+SUBCLASSLEVEL:7	SAB:Pegasus (See Text)
+###Block:
+SUBCLASS:Arcstone of Korak	NAMEISPI:YES	ABB:AoK	COST:0	SPELLLIST:2|Arcstone of Korak|Holy Warrior	PREALIGN:NG	PREDEITY:1,Korak	CSKILL:Appraise|Knowledge (Lost Treasures)|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.165
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Arcstone of Korak=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Read Magic,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Arcstone of Korak=2|Bear's Endurance,Find Traps,Make Whole,Resist Energy,Shield Other
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Arcstone of Korak=3|Cure Moderate Wounds,Dispel Magic,Glyph of Warding,Heal Mount,Magic Circle against Evil,Magic Weapon (Greater),Obscure Object
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Arcstone of Korak=4|Death Ward,Dispel Evil,Divine Power,Freedom of Movement,Hallow,Holy Sword
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Remove Curse %/week|RemoveCurse							BONUS:VAR|RemoveCurse|min(CL/3,6)	DEFINE:RemoveCurse|0
+SUBCLASSLEVEL:5	SAB:Special Mount
+SUBCLASSLEVEL:7	SAB:Celestial Bull (See Text)
+SUBCLASSLEVEL:12	SAB:Can use 'Remove Curse' ability to also Dispel Magic (See Text)
+###Block:
+SUBCLASS:Swan Knight of Naryne	NAMEISPI:YES	ABB:SKoN	COST:0	SPELLLIST:2|Swan Knight of Naryne|Holy Warrior	PREALIGN:LG	PREDEITY:1,Naryne	CSKILL:Diplomacy|Knowledge (Nobility and Royalty)|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.191
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Swan Knight of Naryne=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Read Magic,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Swan Knight of Naryne=2|Delay Poison,Remove Paralysis,Resist Energy,Shield Other,Undetectable Alignment
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Swan Knight of Naryne=3|Cure Moderate Wounds,Discern Lies,Dispel Magic,Heal Mount,Magic Circle against Evil,Magic Weapon (Greater),Prayer,Remove Blindness/Deafness
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Swan Knight of Naryne=4|Cure Serious Wounds,Death Ward,Dispel Evil,Freedom of Movement,Holy Sword,Neutralize Poison
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Helping Hand %/week|HelpingHand	BONUS:VAR|HelpingHand|min(CL/3,3)	DEFINE:HelpingHand|0
+SUBCLASSLEVEL:5	SAB:Special Mount/Compainion
+SUBCLASSLEVEL:12	SAB:Heal Noble %/week|HealNoble	BONUS:VAR|HealNoble|(CL-9)/3		DEFINE:HealNoble|0
+###Block:
+SUBCLASS:Purified of Canelle	NAMEISPI:YES	ABB:PoC	COST:0	SPELLLIST:2|Purified of Canelle|Holy Warrior	PREALIGN:CG	PREDEITY:1,Canelle	CSKILL:Jump|Swim|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.197
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Purified of Canelle=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Magic Weapon,Protection from Evil,Read Magic,Resistance,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Purified of Canelle=2|Bull's Strength,Delay Poison,Bear's Endurance,Remove Paralysis,Resist Energy,Undetectable Alignment
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Purified of Canelle=3|Cat's Grace,Cure Moderate Wounds,Dispel Magic,Heal Mount,Magic Circle against Evil,Magic Weapon (Greater),Prayer,Remove Blindness/Deafness
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Purified of Canelle=4|Cure Serious Wounds,Death Ward,Dispel Evil,Freedom of Movement,Holy Sword,Restoration
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Remove Disease %/week|RemoveDisease		BONUS:VAR|RemoveDisease|min(CL/3,3)	DEFINE:RemoveDisease|0
+SUBCLASSLEVEL:5	SAB:Special Mount
+SUBCLASSLEVEL:6	SAB:Celestial Warhorse* (see text p.198)
+SUBCLASSLEVEL:12	SAB:Neutralize Poison %/week|NeutralizePoison	BONUS:VAR|NeutralizePoison|(CL-9)/3	DEFINE:NeutralizePoison|0
+###Block:
+SUBCLASS:Hunter of Thellyne	NAMEISPI:YES	ABB:HHoT	COST:0	SPELLLIST:2|Hunter of Thellyne|Holy Warrior	PREALIGN:NG	PREDEITY:1,Thellyne	CSKILL:Survival|Concentration|TYPE=Craft|Handle Animal|Knowledge (Religion)|TYPE=Profession|Ride	SOURCEPAGE:p.203
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Hunter of Thellyne=1|Bless,Bless Water,Bless Weapon,Create Water,Cure Light Wounds,Detect Poison,Detect Undead,Divine Favor,Endure Elements,Protection from Evil,Read Magic,Resistance,Speak with Animals,Virtue
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Hunter of Thellyne=2|Delay Poison,Remove Paralysis,Resist Energy,Shield Other,Snare
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Hunter of Thellyne=3|Control Plants,Cure Moderate Wounds,Dispel Magic,Heal Animal Companion,Magic Circle against Evil,Magic Weapon (Greater),Remove Blindness/Deafness,Tree Shape
+SUBCLASSLEVEL:1	SPELLLEVEL:CLASS|Hunter of Thellyne=4|Cure Serious Wounds,Dispel Evil,Freedom of Movement,Holy Sword,Neutralize Poison,Tree Stride
+###Block: level specific
+SUBCLASSLEVEL:3	SAB:Protection from Energy %/week|ProtectionEnergy	BONUS:VAR|ProtectionEnergy|CL/3	DEFINE:ProtectionEnergy|0
+SUBCLASSLEVEL:5	SAB:Celestial Animal Compainion
+#
+#
+#Holy Warrior shared features
+#
+#
+###Block: Proficiencies
+1	AUTO:FEAT|Armor Proficiency (Heavy)|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1	AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+1	AUTO:FEAT|Shield Proficiency
+###Block: Normal Level Progression
+1				BONUS:CHECKS|Fortitude,Reflex,Will|max(CHA,0)	BONUS:VAR|HolyWarrior|var("CL=Holy Warrior")	BONUS:VAR|LayOnHands|max(CHA,0)*CL|PREFEAT:1,Holy Warrior Lay on Hands	DEFINE:HolyWarrior|0
+1																																DEFINE:AllowImprovedTurning|1	DEFINE:AllowExtraTurning|1
+3																																										BONUS:VAR|PaladinTurnLVL|CL		ABILITY:Special Ability|AUTOMATIC|Basic Turning|Turn Undead|Paladin Turn Undead
+4	CAST:0,0
+5	CAST:0,0
+6	CAST:0,1
+7	CAST:0,1
+8	CAST:0,1,0
+9	CAST:0,1,0
+10	CAST:0,1,1
+11	CAST:0,1,1,0
+12	CAST:0,1,1,1
+13	CAST:0,1,1,1
+14	CAST:0,2,1,1,0
+15	CAST:0,2,1,1,1
+16	CAST:0,2,2,1,1
+17	CAST:0,2,2,2,1
+18	CAST:0,3,2,2,1
+19	CAST:0,3,3,3,2
+20	CAST:0,3,3,3,3
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Source Page		Visible	Save checks bonus											Combat bonus
+CLASS:Ex Holy Warrior	HD:10		TYPE:Base.PC	ABB:XHlyW		SOURCEPAGE:p.245	VISIBLE:NO	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL
+###Block: Proficiencies
+1	AUTO:FEAT|Armor Proficiency (Heavy)|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1	AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+1	AUTO:FEAT|Shield Proficiency
+
+
+CLASS:Ix	PRERACE:1,Ix
+
+
+CLASS:Metteron	PRERACE:1,Metteron
+
+
+CLASS:Raguel	PRERACE:1,Raguel
+

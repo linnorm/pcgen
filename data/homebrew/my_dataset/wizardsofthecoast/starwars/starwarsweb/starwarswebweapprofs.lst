@@ -1,0 +1,25 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Weapon Name					Type
+Alliance Adjucator (Silenced Holdout)	TYPE:Slugthrower
+Bayonet						TYPE:Simple
+Combat Knife					TYPE:Simple
+Coyn'Skar						TYPE:Exotic
+D'skar						TYPE:Simple
+Doublebladed Vibrostave				TYPE:Exotic
+Grenade Mortar					TYPE:HeavyWeapon
+Heavy Blaster Carbine				TYPE:BlasterRifle
+Heavy Blaster Rifle				TYPE:BlasterRifle
+Microgrenade Launcher				TYPE:HeavyWeapon
+Mistryl Climbing Claws				TYPE:Exotic
+Mistryl Shockwhip					TYPE:Exotic
+Molecular Stilletto				TYPE:Simple
+Repeating Blaster Carbine			TYPE:BlasterRifle
+Rocket Launcher					TYPE:HeavyWeapon
+Sat'skar						TYPE:Simple
+Sniper Blaster Rifle				TYPE:BlasterRifle
+Stinger						TYPE:Exotic
+Subrepeating Blaster				TYPE:BlasterPistol
+Vac-Blades						TYPE:Slugthrower
+Vibrobayonet					TYPE:Vibro

@@ -1,0 +1,53 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Advanced Player's Manual	SOURCESHORT:AdvPlayerMan	SOURCEWEB:http://www.greenronin.com
+
+#Block:General Skills
+# Skill Name		Key Stat	Untrained?		Exclusive?		Type									Source Page			Description
+Knowledge (Psychic)	KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:pg. 183
+
+##Block:Psychic Skills
+# Skill Name		Key Stat	Untrained?		Exclusive?		Type									Source Page			Description
+Adaptation			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 186	DESC:You can adapt your body to survive in hostile environments.
+Apport			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychoportation			SOURCEPAGE:pg. 186	DESC:You can teleport objects or creatures to other locations.
+Blink Teleport				USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:None.Psychic.Psychoportation				SOURCEPAGE:pg. 186	DESC:You can teleport rapidly to avoid attacks.
+Body Control		KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 186	DESC:You have mental control over your body.
+Combat Sense		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Clairsentience				SOURCEPAGE:pg. 187	DESC:You can improve your ability in combat by sensing the flow of events around you.
+Cryokinesis			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychokinesis			SOURCEPAGE:pg. 187
+Dimensional Phase				USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:None.Psychic.Psychoportation				SOURCEPAGE:pg. 186
+Dimensional Shift		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.DimensionalShift		SOURCEPAGE:pg. 187
+Domination			KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 188
+Drain Ability		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 188
+Drain Emotion		KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 188
+Drain Power			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 188
+Drain Vitality		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 189
+Dreamwalk			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Telepathy					SOURCEPAGE:pg. 189
+Empathy			KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Telepathy					SOURCEPAGE:pg. 189
+Empathic Projection	KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 189
+Enhance Ability		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 190
+Enhance Senses		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism.Clairsentience	SOURCEPAGE:pg. 190
+Illusion			KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 190
+Life Drain			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 191
+Life Extension		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 191
+Mental Contact		KEYSTAT:CHA	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 191
+Mind Reading		KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 192
+Mindswitch			KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Mindswitch				SOURCEPAGE:pg. 192
+Photokinesis		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychokinesis			SOURCEPAGE:pg. 192
+Precognition		KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Clairsentience				SOURCEPAGE:pg. 193
+Psychic Blast		KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 193
+Psychic Healing		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Psychometabolism			SOURCEPAGE:pg. 193
+Psychic Sense		KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Wisdom.Psychic						SOURCEPAGE:pg. 194
+Psychic Shield		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic						SOURCEPAGE:pg. 195
+Psychic Static		KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 195
+Psychic Surgery		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Telepathy					SOURCEPAGE:pg. 195
+Psychic Weapon		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.PsychicWeapon				SOURCEPAGE:pg. 196
+Psychometry			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Clairsentience				SOURCEPAGE:pg. 197
+Pyrokinesis			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychokinesis			SOURCEPAGE:pg. 197
+Remote Viewing		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Clairsentience				SOURCEPAGE:pg. 197
+Sense Minds			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic.Telepathy					SOURCEPAGE:pg. 198
+Sleep				KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 198
+Suggestion			KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Psychic.Telepathy				SOURCEPAGE:pg. 198
+Telekinesis			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychokinesis			SOURCEPAGE:pg. 199
+Telekinetic Blast		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychokinesis			SOURCEPAGE:pg. 199
+Telekinetic Grip		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychokinesis			SOURCEPAGE:pg. 199
+Telekinetic Shield	KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychokinesis			SOURCEPAGE:pg. 199
+Teleport			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic.Psychoportation			SOURCEPAGE:pg. 200

@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Wildwood	SOURCESHORT:Wildwood	SOURCEWEB:http://www.bastionpress.com
+
+
+#CLASS:Barbarian	HD:12		TYPE:Base.PC	ABB:Brb		EXCLASS:Ex Barbarian	SOURCEPAGE:ClassesI.rtf	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required AL
+#CLASS:Barbarian	PREALIGN:NG,TN,NE,CG,CN,CE
+# Class Name	Skill Pts/Lvl	Class Skill
+#CLASS:Barbarian	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Listen|Ride|Survival|Swim
+

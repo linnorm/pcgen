@@ -1,0 +1,34 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Dwarf	SOURCESHORT:QuintDwarf	SOURCEWEB:http://mongoosepublishing.com
+
+# Spell Name	Classes of caster				Domains granting the spell	School			Sub-School			Type				Components	Casting Time		Range			Target Area or Effect		Duration									Save Info		Spell Resistance	Cost		Description								Source Page
+Detect Hazard	CLASSES:Sorcerer,Wizard,Bard=2	DOMAINS:Mining=1			SCHOOL:Divination						TYPE:Arcane.Divine	COMPS:V M	CASTTIME:5 minutes	RANGE:Medium	TARGETAREA:Quarter circle	DURATION:Concentration, up to (CASTERLEVEL) minutes (D)	SAVEINFO:None	SPELLRES:No		COST:100	DESC:Detects mining hazards and traps			SOURCEPAGE:p.81
+Extract Ore		CLASSES:Sorcerer,Wizard=3|Druid=4	DOMAINS:Mining=3			SCHOOL:Conjuration	SUBSCHOOL:Summoning	TYPE:Arcane.Divine	COMPS:V S	CASTTIME:1 hour		RANGE:Touch		TARGETAREA:Touch			DURATION:(CASTERLEVEL) hours						SAVEINFO:None	SPELLRES:No				DESC:Extracts purified ore					SOURCEPAGE:p.82
+Forge Mastery	CLASSES:Sorcerer,Wizard,Bard=1	DOMAINS:Smith=1			SCHOOL:Divination						TYPE:Arcane.Divine	COMPS:V S	CASTTIME:1 action		RANGE:Touch		TARGETAREA:Touch			DURATION:(CASTERLEVEL) hours						SAVEINFO:None	SPELLRES:No				DESC:+2 enhancement bonus to certain Craft checks	SOURCEPAGE:p.82
+Pick Hands		CLASSES:Sorcerer,Wizard=5		DOMAINS:Mining=4			SCHOOL:Transmutation					TYPE:Arcane.Divine	COMPS:V S M	CASTTIME:1 action		RANGE:Touch		TARGETAREA:Touch			DURATION:(CASTERLEVEL) hours						SAVEINFO:None	SPELLRES:No				DESC:hands/forearms become +1 light picks			SOURCEPAGE:p.82
+
+###Block:SPELL.MOD generated from the old CLASSSPELL files
+# Spell Name			Domains granting the spell
+Augury.MOD				DOMAINS:Secrets=2
+Blade Barrier.MOD			DOMAINS:Smith=6
+Discern Location.MOD		DOMAINS:Secrets=8
+Divination.MOD			DOMAINS:Secrets=4
+False Vision.MOD			DOMAINS:Secrets=5
+Magic Weapon (Greater).MOD	DOMAINS:Smith=4
+Imprisonment.MOD			DOMAINS:Mining=9
+Insanity.MOD			DOMAINS:Secrets=7
+Locate Object.MOD			DOMAINS:Smith=3
+Magic Stone.MOD			DOMAINS:Mining=1
+Make Whole.MOD			DOMAINS:Smith=2
+Miracle.MOD				DOMAINS:Smith=9
+Obscure Object.MOD		DOMAINS:Secrets=3
+Obscuring Mist.MOD		DOMAINS:Secrets=1
+Refuge.MOD				DOMAINS:Smith=7
+Righteous Might.MOD		DOMAINS:Smith=5
+Scry.MOD				DOMAINS:Secrets=6
+Shield of Law.MOD			DOMAINS:Smith=8
+Stone Shape.MOD			DOMAINS:Mining=4
+Stone Tell.MOD			DOMAINS:Mining=6
+Transmute Mud to Rock.MOD	DOMAINS:Mining=8
+Transmute Rock to Mud.MOD	DOMAINS:Mining=7
+Weird.MOD				DOMAINS:Secrets=9

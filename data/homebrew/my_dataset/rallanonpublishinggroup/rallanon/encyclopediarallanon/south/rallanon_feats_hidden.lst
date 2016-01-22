@@ -1,0 +1,119 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+## Block:Asaatth Feats
+# Feat Name				Type				Visible		Required Class			Required Feat					Required Var. value		Define														Description																					Stackable?	Multiple?	Choose					Selections	Bonus to skill																	Modify VAR					Weapon prof. bonus										Class Skill	Source Page
+Asaatth Keen Senses		TYPE:Special		VISIBLE:NO																																		DESC:Sees three times better than a human in low-light and darkvision 60'.  Scent creatures in 30' as partial action.																																																							SOURCEPAGE:Creature Collection I, p.12
+Asaatth Poison			TYPE:Special		VISIBLE:NO																																		DESC:Fort. save DC:14 or toxic shock for 2d4+2 min.																																																																		SOURCEPAGE:Creature Collection I, p.12
+
+## Block: Agariim Slave Girl Feats
+ASG Arrow Shield			TYPE:Special		VISIBLE:NO							PREFEAT:1,Bodyguard																								DESC:You protect allies from missle weapons.															STACK:NO	MULT:NO
+ASG Improved Critical		TYPE:Special		VISIBLE:NO																																																												CHOOSE:WEAPONPROFS|TYPE.Finesseable																												BONUS:WEAPONPROF=%LIST|CRITRANGEDOUBLE|1|Type=NonStackingCrit
+ASG Skill Focus			TYPE:Special		VISIBLE:NO																																																												CHOOSE:SKILLSNAMED|TYPE.Agariim	SELECT:1	BONUS:SKILL|LIST|3
+ASG Weapon Focus			TYPE:Special		VISIBLE:NO																																																												CHOOSE:WEAPONPROFS|TYPE.Finesseable																												BONUS:WEAPONPROF=%LIST|TOHIT|1
+ASG Weapon Specialization	TYPE:Special		VISIBLE:NO							PREFEAT:1,Weapon Focus,ASG Weapon Focus																																																																																BONUS:WEAPONPROF=%LIST|DAMAGE|2
+Charming Demeanor			TYPE:Special		VISIBLE:NO																			DEFINE:Charming Demeanor|0																																																																BONUS:VAR|Charming Demeanor|CHA
+Style and Grace			TYPE:Special		VISIBLE:NO
+Talent				TYPE:Special		VISIBLE:NO
+Versatile				TYPE:Special		VISIBLE:NO																																																																																																										CSKILL:LIST
+
+
+##Block: OA Hidden Feats
+# Feat Name				Type				Visible		Required Class			Required Feat					Required Var. value		Define														Description																					Stackable?	Multiple?	Choose					Selections	Bonus to skill																	Modify VAR					Weapon prof. bonus										Class Skill	Source Page
+Crab Bonus Feat I			TYPE:CrabBonus		VISIBLE:NO														PREVAREQ:SamuraiFeatLVL,2
+Crab Bonus Feat II		TYPE:CrabBonus		VISIBLE:NO							PREFEAT:1,TYPE=CrabBonus			PREVAREQ:SamuraiFeatLVL,4
+Crab Bonus Feat III		TYPE:CrabBonus		VISIBLE:NO							PREFEAT:2,TYPE=CrabBonus			PREVAREQ:SamuraiFeatLVL,7
+Crab Bonus Feat IV		TYPE:CrabBonus		VISIBLE:NO							PREFEAT:3,TYPE=CrabBonus			PREVAREQ:SamuraiFeatLVL,10
+Crab Bonus Feat V			TYPE:CrabBonus		VISIBLE:NO							PREFEAT:4,TYPE=CrabBonus			PREVAREQ:SamuraiFeatLVL,13
+Crab Bonus Feat VI		TYPE:CrabBonus		VISIBLE:NO							PREFEAT:5,TYPE=CrabBonus			PREVAREQ:SamuraiFeatLVL,16
+Crab Bonus Feat VII		TYPE:CrabBonus		VISIBLE:NO							PREFEAT:6,TYPE=CrabBonus			PREVAREQ:SamuraiFeatLVL,19
+
+Crane Bonus Feat I		TYPE:CraneBonus		VISIBLE:NO														PREVAREQ:SamuraiFeatLVL,2
+Crane Bonus Feat II		TYPE:CraneBonus		VISIBLE:NO							PREFEAT:1,TYPE=CraneBonus			PREVAREQ:SamuraiFeatLVL,4
+Crane Bonus Feat III		TYPE:CraneBonus		VISIBLE:NO							PREFEAT:2,TYPE=CraneBonus			PREVAREQ:SamuraiFeatLVL,7
+Crane Bonus Feat IV		TYPE:CraneBonus		VISIBLE:NO							PREFEAT:3,TYPE=CraneBonus			PREVAREQ:SamuraiFeatLVL,10
+Crane Bonus Feat V		TYPE:CraneBonus		VISIBLE:NO							PREFEAT:4,TYPE=CraneBonus			PREVAREQ:SamuraiFeatLVL,13
+Crane Bonus Feat VI		TYPE:CraneBonus		VISIBLE:NO							PREFEAT:5,TYPE=CraneBonus			PREVAREQ:SamuraiFeatLVL,16
+Crane Bonus Feat VII		TYPE:CraneBonus		VISIBLE:NO							PREFEAT:6,TYPE=CraneBonus			PREVAREQ:SamuraiFeatLVL,19
+
+Dragon Bonus Feat I		TYPE:DragonBonus		VISIBLE:NO														PREVAREQ:SamuraiFeatLVL,2
+Dragon Bonus Feat II		TYPE:DragonBonus		VISIBLE:NO							PREFEAT:1,TYPE=DragonBonus			PREVAREQ:SamuraiFeatLVL,4
+Dragon Bonus Feat III		TYPE:DragonBonus		VISIBLE:NO							PREFEAT:2,TYPE=DragonBonus			PREVAREQ:SamuraiFeatLVL,7
+Dragon Bonus Feat IV		TYPE:DragonBonus		VISIBLE:NO							PREFEAT:3,TYPE=DragonBonus			PREVAREQ:SamuraiFeatLVL,10
+Dragon Bonus Feat V		TYPE:DragonBonus		VISIBLE:NO							PREFEAT:4,TYPE=DragonBonus			PREVAREQ:SamuraiFeatLVL,13
+Dragon Bonus Feat VI		TYPE:DragonBonus		VISIBLE:NO							PREFEAT:5,TYPE=DragonBonus			PREVAREQ:SamuraiFeatLVL,16
+Dragon Bonus Feat VII		TYPE:DragonBonus		VISIBLE:NO							PREFEAT:6,TYPE=DragonBonus			PREVAREQ:SamuraiFeatLVL,19
+
+Lion Bonus Feat I			TYPE:LionBonus		VISIBLE:NO														PREVAREQ:SamuraiFeatLVL,2
+Lion Bonus Feat II		TYPE:LionBonus		VISIBLE:NO							PREFEAT:1,TYPE=LionBonus			PREVAREQ:SamuraiFeatLVL,4
+Lion Bonus Feat III		TYPE:LionBonus		VISIBLE:NO							PREFEAT:2,TYPE=LionBonus			PREVAREQ:SamuraiFeatLVL,7
+Lion Bonus Feat IV		TYPE:LionBonus		VISIBLE:NO							PREFEAT:3,TYPE=LionBonus			PREVAREQ:SamuraiFeatLVL,10
+Lion Bonus Feat V			TYPE:LionBonus		VISIBLE:NO							PREFEAT:4,TYPE=LionBonus			PREVAREQ:SamuraiFeatLVL,13
+Lion Bonus Feat VI		TYPE:LionBonus		VISIBLE:NO							PREFEAT:5,TYPE=LionBonus			PREVAREQ:SamuraiFeatLVL,16
+Lion Bonus Feat VII		TYPE:LionBonus		VISIBLE:NO							PREFEAT:6,TYPE=LionBonus			PREVAREQ:SamuraiFeatLVL,19
+
+Phoenix Bonus Feat I		TYPE:PhoenixBonus		VISIBLE:NO														PREVAREQ:SamuraiFeatLVL,2
+Phoenix Bonus Feat II		TYPE:PhoenixBonus		VISIBLE:NO							PREFEAT:1,TYPE=PhoenixBonus			PREVAREQ:SamuraiFeatLVL,4
+Phoenix Bonus Feat III		TYPE:PhoenixBonus		VISIBLE:NO							PREFEAT:2,TYPE=PhoenixBonus			PREVAREQ:SamuraiFeatLVL,7
+Phoenix Bonus Feat IV		TYPE:PhoenixBonus		VISIBLE:NO							PREFEAT:3,TYPE=PhoenixBonus			PREVAREQ:SamuraiFeatLVL,10
+Phoenix Bonus Feat V		TYPE:PhoenixBonus		VISIBLE:NO							PREFEAT:4,TYPE=PhoenixBonus			PREVAREQ:SamuraiFeatLVL,13
+Phoenix Bonus Feat VI		TYPE:PhoenixBonus		VISIBLE:NO							PREFEAT:5,TYPE=PhoenixBonus			PREVAREQ:SamuraiFeatLVL,16
+Phoenix Bonus Feat VII		TYPE:PhoenixBonus		VISIBLE:NO							PREFEAT:6,TYPE=PhoenixBonus			PREVAREQ:SamuraiFeatLVL,19
+
+Scorpion Bonus Feat I		TYPE:ScorpionBonus	VISIBLE:NO														PREVAREQ:SamuraiFeatLVL,2
+Scorpion Bonus Feat II		TYPE:ScorpionBonus	VISIBLE:NO							PREFEAT:1,TYPE=ScorpionBonus			PREVAREQ:SamuraiFeatLVL,4
+Scorpion Bonus Feat III		TYPE:ScorpionBonus	VISIBLE:NO							PREFEAT:2,TYPE=ScorpionBonus			PREVAREQ:SamuraiFeatLVL,7
+Scorpion Bonus Feat IV		TYPE:ScorpionBonus	VISIBLE:NO							PREFEAT:3,TYPE=ScorpionBonus			PREVAREQ:SamuraiFeatLVL,10
+Scorpion Bonus Feat V		TYPE:ScorpionBonus	VISIBLE:NO							PREFEAT:4,TYPE=ScorpionBonus			PREVAREQ:SamuraiFeatLVL,13
+Scorpion Bonus Feat VI		TYPE:ScorpionBonus	VISIBLE:NO							PREFEAT:5,TYPE=ScorpionBonus			PREVAREQ:SamuraiFeatLVL,16
+Scorpion Bonus Feat VII		TYPE:ScorpionBonus	VISIBLE:NO							PREFEAT:6,TYPE=ScorpionBonus			PREVAREQ:SamuraiFeatLVL,19
+
+Unicorn Bonus Feat I		TYPE:UnicornBonus		VISIBLE:NO														PREVAREQ:SamuraiFeatLVL,2
+Unicorn Bonus Feat II		TYPE:UnicornBonus		VISIBLE:NO							PREFEAT:1,TYPE=UnicornBonus			PREVAREQ:SamuraiFeatLVL,4
+Unicorn Bonus Feat III		TYPE:UnicornBonus		VISIBLE:NO							PREFEAT:2,TYPE=UnicornBonus			PREVAREQ:SamuraiFeatLVL,7
+Unicorn Bonus Feat IV		TYPE:UnicornBonus		VISIBLE:NO							PREFEAT:3,TYPE=UnicornBonus			PREVAREQ:SamuraiFeatLVL,10
+Unicorn Bonus Feat V		TYPE:UnicornBonus		VISIBLE:NO							PREFEAT:4,TYPE=UnicornBonus			PREVAREQ:SamuraiFeatLVL,13
+Unicorn Bonus Feat VI		TYPE:UnicornBonus		VISIBLE:NO							PREFEAT:5,TYPE=UnicornBonus			PREVAREQ:SamuraiFeatLVL,16
+Unicorn Bonus Feat VII		TYPE:UnicornBonus		VISIBLE:NO							PREFEAT:6,TYPE=UnicornBonus			PREVAREQ:SamuraiFeatLVL,19
+
+Shaman Bonus Feat I		TYPE:ShamanBonus		VISIBLE:NO														PREVAREQ:ShamanFeatLVL,4
+Shaman Bonus Feat II		TYPE:ShamanBonus		VISIBLE:NO							PREFEAT:1,TYPE=ShamanBonus			PREVAREQ:ShamanFeatLVL,8
+Shaman Bonus Feat III		TYPE:ShamanBonus		VISIBLE:NO							PREFEAT:2,TYPE=ShamanBonus			PREVAREQ:ShamanFeatLVL,12
+Shaman Bonus Feat IV		TYPE:ShamanBonus		VISIBLE:NO							PREFEAT:3,TYPE=ShamanBonus			PREVAREQ:ShamanFeatLVL,16
+Shaman Bonus Feat V		TYPE:ShamanBonus		VISIBLE:NO							PREFEAT:4,TYPE=ShamanBonus			PREVAREQ:ShamanFeatLVL,20
+
+Bear Form				TYPE:Special		VISIBLE:NO																			DEFINE:BearForm|0	DEFINE:BearFormBlack|0	DEFINE:BearFormBrown|0	DEFINE:BearFormDire|0	DESC:Class Special Ability																																																																						SOURCEPAGE:p.35
+Weapon Finesse (Katana)		TYPE:Special		VISIBLE:NO																																																																																													BONUS:WEAPONPROF=Katana|TOHIT|(STRMAXDEX+SHIELDACCHECK)-STR|TYPE=NotRanged			SOURCEPAGE:p.41
+
+Arrowroot				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can heal wounds in another character by touch.																																																																		SOURCEPAGE:p.50
+Bamboo				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can add the number of tattoos he possesses as an enhancement bonus to his CON Score.																																																												SOURCEPAGE:p.50
+Bat					TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can add the number of tattoos he possesses as an enhancement bonus to his DEX Score.																																																												SOURCEPAGE:p.50
+Bellflower				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can add his CHA mod as an enhancement bonus to any of his ability scores.																																																													SOURCEPAGE:p.50
+Butterfly				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can add the number of tattoos he possesses as an enhancement bonus to his WIS Score.																																																												SOURCEPAGE:p.50
+Centipede				TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=5																												DESC:Once per week the tattooed monk can shadow walk.																																																																		SOURCEPAGE:p.50
+Chameleon				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:The monk can use alter self.																																																																					SOURCEPAGE:p.50
+Cloud					TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=5																												DESC:The monk can cast Commune with Greater Spirit.																																																																		SOURCEPAGE:p.50
+Crab					TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Gains damage reduction equal to 2 per tatoo.																																																																		SOURCEPAGE:p.50
+Crane					TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=5																												DESC:Gains a gradual immunity to bodily decay.																																																																			SOURCEPAGE:p.50
+Crow					TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:He becomes immune to the Shadowlands Taint for a limited amount of time.																																																														SOURCEPAGE:p.50
+Chrysanthemum			TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=7																												DESC:Being in sunlight will heal wounds.																																																																				SOURCEPAGE:p.50
+Dragon				TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=5																												DESC:Can use Fire Breath.																																																																						SOURCEPAGE:p.50
+Dragonfly				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Gains dodge bonus to AC equal to the number of tattoos the monk has.																																																														SOURCEPAGE:p.50
+Falcon				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:The Tattooed Monk is immune to fear, magical or otherwise.																																																																SOURCEPAGE:p.50
+Lion					TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Once per day per tattoo, the tattooed monk may Smite a foe.																																																																SOURCEPAGE:p.50
+Monkey				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Gains +1 bonus per tattoo to Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Open Lock, Pick Pocket, and Tumble.													BONUS:SKILL|Balance,Climb,Escape Artist,Hide,Jump,Move Silently,Open Lock,Pick Pocket,Tumble|(TattooFeatLVL+1)/2																						SOURCEPAGE:p.50
+Moon (Crescent)			TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=7																												DESC:Can use Ethereal jaunt as a spell-like ability.																																																																		SOURCEPAGE:p.50
+Moon (Full)				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can gain a +2 luck bonus on attack, skill, or ability checks.																																																															SOURCEPAGE:p.51
+Mountain				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can take on the immovability of the mountain.																																																																		SOURCEPAGE:p.51
+Nightingale				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:The tattooed monk can cure his own wounds.																																																																			SOURCEPAGE:p.51
+Ocean					TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=9																												DESC:The tattooed monk with an ocean tattoo never needs to eat,sleep,or drink.																																																													SOURCEPAGE:p.51
+Phoenix				TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=7																												DESC:The tattooed monk gains spell resistance equal to his class level + 15.																																																														SOURCEPAGE:p.51
+Pine					TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:The tattooed monk gains the benefits of the Endurance and Remain Conscious feats.																																																												SOURCEPAGE:p.51
+Scorpion				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can force her opponent to use her lowest ability score modifier when attacking.																																																												SOURCEPAGE:p.51
+Spider				TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=3																												DESC:The tattoed monk's touch delivers a contact poison.																																																																	SOURCEPAGE:p.51
+Sun					TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:+2 luck bonus on a single attack roll, skill check, or ability check.																																																														SOURCEPAGE:p.51
+Tiger					TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can fight unarmed with a +1 bonus on all attack rolls and deal 1d6 extra damage.																																																												SOURCEPAGE:p.51
+Tortoise				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:Can use his level as the number of ranks in a skill he does not possess.																																																														SOURCEPAGE:p.51
+Unicorn				TYPE:Tattoo			VISIBLE:EXPORT																																	DESC:The tattooed monk gains the power of good fortune.																																																																	SOURCEPAGE:p.51
+Wasp					TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=3																												DESC:The tattooed monk can use haste on himself.																																																																		SOURCEPAGE:p.51
+White Mask				TYPE:Tattoo			VISIBLE:EXPORT	PRECLASS:1,Tattooed Monk=3																												DESC:Immune to detect toughts, detect lies, and others.																																																																	SOURCEPAGE:p.51

@@ -1,0 +1,18 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name						Output Name								Required Proficiency		Type												Cost		Weight	Base Item for EQMOD	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier			Range		Size		Source Page		Weapon prop. bonus
+Greatsword (+4/dancing)					OUTPUTNAME:+4 Dancing Greatsword				PROFICIENCY:WEAPON|Greatsword		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Metal.Sword		COST:128350	WT:15		BASEITEM:Greatsword	CRITMULT:x2			CRITRANGE:2			DAMAGE:2d6	EQMOD:DANCE|PLUS4W			SIZE:L	SOURCEPAGE:p.17
+Greatsword (+3)															PROFICIENCY:WEAPON|Greatsword		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Metal.Sword		COST:18350	WT:15		BASEITEM:Greatsword	CRITMULT:x2			CRITRANGE:2			DAMAGE:2d6	EQMOD:PLUS3W				SIZE:L	SOURCEPAGE:p.17
+Warhammer (+5/Brilliant Energy/Gargantuan)	OUTPUTNAME:+5 Gargantuan Brilliant Energy Warhammer	PROFICIENCY:WEAPON|Warhammer		TYPE:Magic.Weapon.Martial.Melee.Bludgeoning.Specific.Metal.Hammer		COST:162312	WT:8		BASEITEM:Warhammer	CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:PLUS5W|BRI_EN_M			SIZE:G	SOURCEPAGE:p.19
+Sword (Short/+5/Chaotic)				OUTPUTNAME:+5 Chaotic Short Sword				PROFICIENCY:WEAPON|Sword (Short)	TYPE:Magic.Weapon.Martial.Melee.Piercing.Specific.Metal.Sword		COST:98310	WT:3		BASEITEM:Sword (Short)	CRITMULT:x2			CRITRANGE:2			DAMAGE:1d6	EQMOD:PLUS5W|CHAOS_M			SIZE:S	SOURCEPAGE:p.35
+Longsword (+3)						OUTPUTNAME:+3 longsword						PROFICIENCY:WEAPON|Longsword		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Metal.Sword		COST:18315	WT:4		BASEITEM:Longsword	CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	EQMOD:PLUS3W				SIZE:M	SOURCEPAGE:p.37
+Longsword (+4/Unholy)					OUTPUTNAME:Flesh Farewell					PROFICIENCY:WEAPON|Longsword		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Metal.Sword		COST:72315	WT:4		BASEITEM:Longsword	CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	EQMOD:PLUS4W|UNHLY_M			SIZE:M	SOURCEPAGE:p.38
+Greataxe (+3)						OUTPUTNAME:Bloody							PROFICIENCY:WEAPON|Greataxe		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Metal.Axe			COST:18320	WT:20		BASEITEM:Greataxe		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d12	EQMOD:PLUS3W				SIZE:L	SOURCEPAGE:p.38
+Greataxe (+4)						OUTPUTNAME:Bloodier						PROFICIENCY:WEAPON|Greataxe		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Metal.Axe			COST:32320	WT:20		BASEITEM:Greataxe		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d12	EQMOD:PLUS4W				SIZE:L	SOURCEPAGE:p.38
+Morningstar (+1)						OUTPUTNAME:+1 Morningstar					PROFICIENCY:WEAPON|Morningstar		TYPE:Magic.Weapon.Simple.Melee.Bludgeoning.Piercing.Specific.Metal.Mace	COST:2308	WT:8		BASEITEM:Morningstar	CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	EQMOD:PLUS1W				SIZE:M	SOURCEPAGE:p.39
+Sword (Short/+2)						OUTPUTNAME:+2 Sword, Short					PROFICIENCY:WEAPON|Sword (Short)	TYPE:Magic.Weapon.Martial.Melee.Piercing.Specific.Metal.Sword		COST:8310	WT:3		BASEITEM:Sword (Short)	CRITMULT:x2			CRITRANGE:2			DAMAGE:1d6	EQMOD:PLUS2W				SIZE:S	SOURCEPAGE:p.40
+Greatsword (+1/Vorpal)					OUTPUTNAME:+1 Vorpal Greatsword				PROFICIENCY:WEAPON|Greatsword		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific.Metal.Sword		COST:72350	WT:15		BASEITEM:Greatsword	CRITMULT:x2			CRITRANGE:2			DAMAGE:2d6	EQMOD:PLUS1W|VORPAL			SIZE:L	SOURCEPAGE:p.41
++5 Mighty Whip (+4 str bonus)													PROFICIENCY:WEAPON|Whip			TYPE:Magic.Weapon.Exotic.Ranged.Slashing.Specific.Whip			COST:72800	WT:6		BASEITEM:Whip		CRITMULT:x2			CRITRANGE:1			DAMAGE:2d6	EQMOD:PLUS1W		RANGE:15	SIZE:S	SOURCEPAGE:p.41	BONUS:WEAPON|DAMAGE|STRMIN4

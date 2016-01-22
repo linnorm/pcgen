@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Anubium - Dark Arts of Necromancy	SOURCESHORT:DAoN	SOURCEWEB:http://www.anubium.com
+
+
+# Skill Name		Key Stat	Untrained?		Type					Source Page		Bonus to skill												Special ABility
+Craft (Taxidermy)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft		SOURCEPAGE:pg. 12
+Knowledge (Anatomy)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:pg. 17	BONUS:SKILL|Heal|SynergyBonus|PRESKILL:1,Knowledge (Anatomy)=5|TYPE=Synergy.STACK
+Knowledge (Necrology)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:pg. 17															SAB:+2 to rebuke attempts vs corporeal undead and +2 to Spellcraft checks dealing with necromantic magic|PRESKILL:1,Knowledge (Necrology)=5
+Knowledge (Spirit Lore)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:pg. 17															SAB:+2 to rebuke attempts and Sense Motive vs incorporeal undead|PRESKILL:1,Knowledge (Spirit Lore)=5
+Profession (Butcher)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:pg. 12

@@ -1,0 +1,19 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:AEG - Mercenaries Source Book 3.5 Conversion
+GAMEMODE:35e
+TYPE:Alderac Entertainment Group.Sourcebook
+RANK:9
+SOURCELONG:Alderac Entertainment Group - Mercenaries
+SOURCESHORT:Mercenaries
+SOURCEWEB:http://alderac.com/d20
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+
+
+ARMORPROF:mercenaries_armorprof.lst
+CLASS:mercenaries_classes_base.lst
+CLASS:mercenaries_classes_prestige.lst
+FEAT:mercenaries_feats.lst
+LANGUAGE:mercenaries_languages.lst
+SKILL:mercenaries_skills.lst
+SPELL:mercenaries_spells.lst

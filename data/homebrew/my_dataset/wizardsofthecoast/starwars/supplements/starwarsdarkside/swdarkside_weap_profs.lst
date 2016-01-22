@@ -1,0 +1,8 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Darkside Sourcebook	SOURCESHORT:DSSB	SOURCEWEB:http://www.wizards.com/starwars
+
+# Weapon Name			Type
+Lanvarok (Sith)			TYPE:Exotic
+Lanvarok (Massai(Ranged))	TYPE:Exotic
+Lanvarok (Massai(Melee))	TYPE:Weapon.Primitive.Melee
+Sith Sword				TYPE:Exotic

@@ -1,0 +1,17 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Equipment Name				Type		Cost		Weight	Bonus to skill				Special Property
+AN/PC-325 Calliope Headset Comlink	TYPE:Items	COST:300	WT:0.3							SPROP:300hours of use at 40km range.
+Camouflage					TYPE:Items	COST:250	WT:1.5
+Circuit Disruptor				TYPE:Items	COST:600	WT:1.6							SPROP:Attached to a droid (melee attack if in combat) causes the droid to shut down untill removed.  Ineffective against droids magnetically shielded, or with 5 or more natural armor.
+Climbing Boots and Gloves		TYPE:Items	COST:250	WT:1		BONUS:SKILL|Climb|2
+Comset					TYPE:Items	COST:300	WT:7
+Electrobinocular Visor			TYPE:Items	COST:3000	WT:0.5
+Medical Backpack				TYPE:Items	COST:250	WT:1.5
+Motion Sensor				TYPE:Items	COST:500	WT:4
+Posion Sensor Ring			TYPE:Items	COST:6000	WT:0.1							SPROP:Within 20cm of a known contaminate the ring will change colors.
+Sabaac Deck					TYPE:Items	COST:25	WT:0.2
+Shadowsuit					TYPE:Items	COST:2000	WT:1.5	BONUS:SKILL|Hide,Move Silently|4
+Skifter					TYPE:Items	COST:700	WT:0.2							SPROP:successful Sleight of Hand roll Vs. opposed Spot to use, +3 bonus to Bluff and Profession (Gambler) rolls)
+Sonic Sensor				TYPE:Items	COST:500	WT:4

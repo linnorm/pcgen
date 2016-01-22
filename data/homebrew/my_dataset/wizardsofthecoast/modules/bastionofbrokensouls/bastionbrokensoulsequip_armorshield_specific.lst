@@ -1,0 +1,11 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Fri Oct  3 16:38:52 2003 -- reformated by prettylst.pl v1.30 (build 309)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name		Type										Cost		Weight	AC Penalty Check	Maximum DEX Bonus	MODS		Source Page		% of Spell Failure	Combat bonus
++1 Full plate		TYPE:Magic.Armor.Heavy.Suit.Metal.Masterwork.Specific	PROFICIENCY:ARMOR|+1 Full plate		COST:2650	WT:50		ACCHECK:-6		MAXDEX:1		MODS:NO	SOURCEPAGE:p.39	SPELLFAILURE:35		BONUS:COMBAT|AC|9|TYPE=Armor.REPLACE
++3 Breastplate		TYPE:Magic.Armor.Medium.Suit.Specific.Masterwork.Metal	PROFICIENCY:ARMOR|+3 Breastplate	COST:9350	WT:30		ACCHECK:-4		MAXDEX:3		MODS:NO	SOURCEPAGE:p.40	SPELLFAILURE:25		BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE
++3 Studded Leather	TYPE:Magic.Armor.Light.Suit.Specific.Masterwork.Metal	PROFICIENCY:ARMOR|+3 Studded Leather		COST:9175	WT:20		ACCHECK:-1		MAXDEX:5		MODS:NO	SOURCEPAGE:p.35	SPELLFAILURE:15		BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
++4 Full Plate		TYPE:Magic.Armor.Heavy.Suit.Metal.Masterwork.Specific	PROFICIENCY:ARMOR|+4 Full Plate		COST:17650	WT:50		ACCHECK:-6		MAXDEX:1		MODS:NO	SOURCEPAGE:p.29	SPELLFAILURE:35		BONUS:COMBAT|AC|12|TYPE=Armor.REPLACE
++5 Breastplate		TYPE:Magic.Armor.Medium.Suit.Specific.Masterwork.Metal	PROFICIENCY:ARMOR|+5 Breastplate	COST:25350	WT:30		ACCHECK:-4		MAXDEX:3		MODS:NO	SOURCEPAGE:p.38	SPELLFAILURE:25		BONUS:COMBAT|AC|10|TYPE=Armor.REPLACE

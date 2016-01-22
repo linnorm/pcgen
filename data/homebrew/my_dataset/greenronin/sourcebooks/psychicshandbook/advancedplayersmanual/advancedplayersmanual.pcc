@@ -1,0 +1,18 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $
+CAMPAIGN:Green Ronin - Advanced Player's Manual
+RANK:9
+GAMEMODE:35e
+PUBNAMELONG:Green Ronin
+PUBNAMESHORT:Ronin
+PUBNAMEWEB:http://www.greenronin.com
+TYPE:Green Ronin Publishing.Core
+SOURCELONG:Advanced Player's Manual
+SOURCESHORT:AdvPlayerMan
+SOURCEWEB:http://www.greenronin.com
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 1999, 2000, Wizards of the Coast, Inc.
+
+
+CLASS:advancedplayersmanual_classes.lst
+FEAT:advancedplayersmanual_feats.lst
+SKILL:advancedplayersmanual_skills.lst

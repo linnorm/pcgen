@@ -1,0 +1,1 @@
+I haven't figured out how to add two levels of undead and subtract 3 charcater levels for the Huecuva template. template

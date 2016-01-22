@@ -1,0 +1,11 @@
+# CVS $Revision: 1.1 $ $Author: mynex $ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #287|SOURCESHORT:WotC-Dragon #287|SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Class Name	Class Skills (All skills are seperated by a pipe delimiter "|")
+Sensate		Swim|Balance|Ride|Tumble|Concentration|Craft |Knowledge |Spellcraft|Heal|Listen|Spot|Animal Empathy|Bluff|Disguise|Gather Information|Handle Animal|Perform
+Sinker		Disable Device|Knowledge (Architecture and engineering)|Innuendo|Sense Motive|Bluff|Disguise
+Xaositect		Craft|Decipher Script|Forgery|Knowledge |Read Lips|Search|Innuendo|Sense Motive|Bluff|Diplomacy|Gather Information|Intimidate|Use Magic Device
+Cipher		Climb|Jump|Swim|Balance|Escape Artist|Hide|Move Silently|Ride|Tumble|Concentration|Sense Motive
+Athar			Concentration|Craft |Knowledge (Religion)|Spellcraft|Innuendo|Listen|Profession |Intimidate
+Taker			Concentration|Appraise|Forgery|Knowledge |Read Lips|Search|Innuendo|Listen|Profession |Sense Motive|Wilderness Lore|Bluff|Diplomacy|Gather Information|Intimidate
+Dreadmaster		Ride|Concentration|Craft |Knowledge (Arcana)|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Knowledge (Nobility and Royalty)|Knowledge (Religion)|Scry|Speak Language|Spellcraft|Profession |Sense Motive|Bluff|Diplomac|Gather Information|Intimidate
+Fiend Slayer	Climb|Jump|Hide|Move Silently|Concetration|Knowledge (Religion)|Knowledge (Arcana)|Knowledge (The Planes)|Heal|Intuit Direction|Profession |Search|Sense Motive|Spot|Wilderness Lore|Bluff

@@ -1,0 +1,35 @@
+# CVS $Revision: $ $Author: $ -- Wed Jan 19 21:04:03 2005 -- reformated by prettylst.pl v1.33 (build 421)
+SOURCELONG:Liber Mechanika	SOURCESHORT:LM	SOURCEWEB:http://www.ironkingdoms.com
+#Original Entry by: Rax the Grey
+
+##NOTE: Remove SRD paper & parchment and replace with LM paper -- Rax
+Paper (Sheet).FORGET
+Parchment (Sheet).FORGET
+
+
+##Block: Gear
+# Equipment Name				Type													Cost		Weight	Modifier					Source Page				Bonus to skill																					Special Property
+Alchemist's Beard				TYPE:Goods.General										COST:125	WT:0.5			SOURCEPAGE:pg. 58
+Alchemist's Beard Filter		TYPE:Goods.General										COST:125	WT:0.1			SOURCEPAGE:pg. 58
+Anvil						TYPE:Goods.Tools.Artisan.WeaponsmithingTools.BlacksmithingTools.ArmorsmithingTools							COST:20	WT:30								SOURCEPAGE:pg. 58
+Calligraphy Set				TYPE:Goods.General.Writing.Documents							COST:10	WT:0.5		SOURCEPAGE:pg. 58
+Artisan's Tools (Clockwork)		TYPE:Goods.Tools.Artisan.ClockworkTools							COST:500	WT:15								SOURCEPAGE:pg. 58			BONUS:SKILL|Craft (Clockwork)|2|TYPE=Equipment
+Artisan's Tools (Demolition)		TYPE:Goods.Tools.Artisan.DemolitionTools							COST:500	WT:20								SOURCEPAGE:pg. 58			BONUS:SKILL|Craft (Demolitions)|2|TYPE=Equipment
+Artisan's Tools (Drafting)		TYPE:Goods.Tools.Artisan.DraftingTools							COST:3	WT:5								SOURCEPAGE:pg. 59			SPROP:Grants a +2 equipment bonus to Craft (Mechanika) checks to draft schematics
+Artisan's Tools (Gunsmith)		TYPE:Goods.Tools.Artisan.GunsmithTools							COST:150	WT:25								SOURCEPAGE:pg. 59			BONUS:SKILL|Craft (Gunsmithing)|2|TYPE=Circumstance
+Artisan's Tools (Mechanika)		TYPE:Goods.Tools.Artisan.MechanikaTools							COST:75	WT:30								SOURCEPAGE:pg. 59			BONUS:SKILL|Craft (Mechanika)|2|TYPE=Equipment
+Artisan's Tools (Steam Engine)	TYPE:Goods.Tools.Artisan.SteamEngineTools							COST:150	WT:15								SOURCEPAGE:pg. 59			BONUS:SKILL|Craft (Steam Engine)|2|TYPE=Equipment
+Artisan's Tools (Trapmaking)		TYPE:Goods.Tools.Artisan.TrapmakingTools							COST:500	WT:12								SOURCEPAGE:pg. 59			BONUS:SKILL|Craft (Trapmaking)|2|TYPE=Equipment
+Deck of Cards				TYPE:Goods.General.Games.Cards								COST:1	WT:0.5		SOURCEPAGE:pg. 58
+Dice (Gambling)				TYPE:Goods.General.Games.Dice									COST:1	WT:0.25		SOURCEPAGE:pg. 58
+Dye (Exotic/Pint)				TYPE:Goods.General										COST:2	WT:1			SOURCEPAGE:pg. 58
+Dye (Standard/Pint)			TYPE:Goods.General										COST:0.2	WT:1			SOURCEPAGE:pg. 58
+#Foundry Tools
+Fountain Pen				TYPE:Goods.General.Writing									COST:0.3	WT:0		SOURCEPAGE:pg. 58
+Gaming Set (Simple)			TYPE:Goods.General.Games									COST:5	WT:2		SOURCEPAGE:pg. 58
+Paper (Rag/Sheet)				TYPE:Goods.General.Writing.Documents							COST:0.01	WT:0		SOURCEPAGE:pg. 58
+Paper (Good/Sheet)			TYPE:Goods.General.Writing.Documents							COST:0.05	WT:0		SOURCEPAGE:pg. 58
+Paper (Schematic sized/Sheet)		TYPE:Goods.General.Writing.Documents							COST:0.1	WT:0		SOURCEPAGE:pg. 58
+Portable Forge				TYPE:Goods.Tools											COST:300	WT:50		SOURCEPAGE:pg. 58
+Tool Harness				TYPE:Goods.Tools											COST:0.5	WT:1		SOURCEPAGE:pg. 58
+Steam Plant (Portable)			TYPE:Goods.Tools											COST:235	WT:20		SOURCEPAGE:pg. 58

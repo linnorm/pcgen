@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Le Games - Coupons and Feats	SOURCESHORT:Coupons&Feats	SOURCEWEB:http://www.thelegames.com
+
+###Block:New Feats
+# Feat Name		Type			Required Feat		Req. Special Ability		Required Skill			Special ABility									Description											Combat bonus							Source Page
+Animal Defender	TYPE:General					PRESA:1,Animal Companion (Ex)																	DESC:You are able work with your Animal Companion to be one in combat.	BONUS:COMBAT|AC|1|PREAPPLY:ANYPC|TYPE=Circumstance	SOURCEPAGE:pg. 2
+Bardic Scream	TYPE:General	PREFEAT:1,Bardic Music						PRESKILL:1,TYPE.Perform=5	SAB:Bardic Scream; Line 15'x5' 1d6 dmg plus possible deafness	DESC:You are able to tap into the magic of music and channel it.											SOURCEPAGE:pg. 2
+Blood Casting	TYPE:General	PREFEAT:1,NotDone																																												SOURCEPAGE:pg. 3
+Critical Smite	TYPE:General	PREFEAT:1,NotDone																																												SOURCEPAGE:pg. 3
+Raging Shout	TYPE:General	PREFEAT:1,NotDone																																												SOURCEPAGE:pg. 3
+Spontaneous Luck	TYPE:General	PREFEAT:1,NotDone																																												SOURCEPAGE:pg. 3

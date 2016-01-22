@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 17 10:04:29 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+#Melee Weapons Name	TYPE											Cost		Weight	Weapon Size	Base Damage		Critical Range	Critical Multiplier	Required Proficiency		Bonuses #1					Special Properties
+#Mundane
+# Equipment Name	Type
+Claw.MOD		TYPE:Monk
+Bite.MOD		TYPE:Monk

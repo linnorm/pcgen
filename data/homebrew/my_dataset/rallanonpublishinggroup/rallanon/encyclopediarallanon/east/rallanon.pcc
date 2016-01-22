@@ -1,0 +1,70 @@
+# CVS $Revision$ $Author$ -- Sat Nov  1 20:01:47 2003 -- reformated by prettylst.pl v1.31 (build 327)
+CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon East
+GAMEMODE:35e|rpg
+TYPE:Rallanon Publishing Group.Rallanon
+RANK:9
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
+INFOTEXT:This includes 3.5e Rallanon custom material and modifiers for other information.
+ISOGL:NO
+COPYRIGHT:Copyright 1989-2004 Ivan A. Finzen IV
+GENRE:Fantasy
+BOOKTYPE:Campaign Setting
+PUBNAMELONG:Rallanon Publishing Group
+PUBNAMESHORT:RPG
+PUBNAMEWEB:http://raxstower.finzen.com
+SETTING:Rallanon
+ISLICENSED:YES
+
+
+OPTION:pcgen.options.autoGenerateMagic=false
+OPTION:pcgen.options.paperName=Letter
+OPTION:pcgen.options.language=en
+OPTION:pcgen.options.optionAllowedInSources=true
+OPTION:pcgen.options.abilitiesShownAsTab=true
+OPTION:pcgen.options.autoFeatsRefundable=false
+OPTION:pcgen.options.freeClothesAtFirst=true
+OPTION:pcgen.options.loadMasterworkAndMagicFromLst=true
+OPTION:pcgen.options.ChooserSingleChoiceMethod=1
+OPTION:pcgen.options.purchaseMethodName=High-Powered
+OPTION:pcgen.options.cleanupTempFiles=1
+OPTION:pcgen.options.applyLoadPenaltyToACandSkills=true
+OPTION:pcgen.options.hpMaxAtFirstLevel=true
+OPTION:pcgen.options.applyWeightPenaltyToSkills=true
+OPTION:pcgen.options.showFeatDialogAtLevelUp=true
+OPTION:pcgen.options.hpPct=75
+OPTION:pcgen.options.showTipOfTheDay=false
+OPTION:pcgen.options.skillIncrementBefore=true
+OPTION:pcgen.options.weaponProfPrintout=true
+OPTION:pcgen.options.showOGLOnLoad=false
+OPTION:pcgen.options.showHPDialogAtLevelUp=false
+OPTION:pcgen.options.loadCampaignsWithPC=true
+OPTION:pcgen.options.expertGUI=true
+OPTION:pcgen.options.hpRollMethod=3
+OPTION:pcgen.options.tabPlacement=TOP
+OPTION:pcgen.options.showD20InfoAtStart=false
+OPTION:pcgen.options.rollMethod=9
+
+
+BIOSET:rallanon_biosettings.lst
+CLASS:rallanon_classes_base.lst
+CLASS:rallanon_classes_prestige.lst
+COMPANIONMOD:rallanon_companionmods.lst
+DEITY:rallanon_deities.lst
+DEITY:rallanon_deities_sorcerer.lst
+DOMAIN:rallanon_domains.lst
+DOMAIN:rallanon_domains_arcane.lst
+EQUIPMENT:rallanon_equip.lst
+EQUIPMENT:rallanon_equip_coins.lst
+EQUIPMENT:rallanon_equip_specific.lst
+EQUIPMENT:rallanon_equip_weap_melee.lst
+EQUIPMENT:rallanon_equip_weap_natural.lst
+EQUIPMENT:rallanon_equip_weap_ranged.lst
+EQUIPMOD:rallanon_equipmods.lst
+FEAT:rallanon_feats.lst
+FEAT:rallanon_feats_hidden.lst
+LANGUAGE:rallanon_languages.lst
+RACE:rallanon_races.lst
+SKILL:rallanon_skills.lst
+SPELL:rallanon_spells.lst
+TEMPLATE:rallanon_templates.lst
+WEAPONPROF:rallanon_weapprofs.lst

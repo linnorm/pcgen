@@ -1,0 +1,6 @@
+SOURCELONG:Dragon Wing Games - Spells and Magic	SOURCESHORT:SpellsandMagic	SOURCEWEB:http://www.dragonwing.net
+
+# Spell Name			Classes of caster								Domains granting the spell	School			Sub-School				Spell Descriptors			Components			Casting Time				Range				Target Area														Duration									Save Info								Spell Resistance					Description																	Source Page
+Forest Invisibility		CLASSES:Druid,Ranger=2												SCHOOL:Illusion		SUBSCHOOL:Glamour					TYPE:Divine			COMPS:V, S, DF	CASTTIME:1 action		RANGE:Personal or Touch	TARGETAREA:One creature																DURATION:(CASTERLEVEL*10) minutes					SAVEINFO:None							SPELLRES:No		DESC:The spell functions as Invisibility, but only in forested or natural surroundings that offer cover.												SOURCEPAGE:p.73
+
+

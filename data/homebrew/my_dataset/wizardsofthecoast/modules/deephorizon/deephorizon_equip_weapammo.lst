@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 09/16/03
+SOURCELONG:Deep Horizon	SOURCESHORT:DeepH	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Output Name					Type							Cost		Weight	Source Page		Weapon prop. bonus
+Crossbow Bolt (+2)	OUTPUTNAME:[NAME] Crossbow Bolt	TYPE:Ammunition.Standard.Wooden.Bolt	COST:167	WT:.1		SOURCEPAGE:p.11	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement

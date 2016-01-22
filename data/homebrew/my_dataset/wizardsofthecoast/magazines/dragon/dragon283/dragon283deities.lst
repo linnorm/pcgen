@@ -1,0 +1,108 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #283	SOURCESHORT:WotC-Dragon #283	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+#Name					Domains						Follower AL		Desc of Deity/Title					Holy Item	Deity Weapon	Deity AL	Source Material
+# Deity Name		Domains																					Desciption of Deity/Title		Holy Item	Deity Weapon	Alignment	Source Page
+Aphrodite			DOMAINS:Good,Luck,Protection,Trickery	DOMAINS:Good,Luck,Protection,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of Love			SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.34
+Apollo			DOMAINS:Good,Healing,Knowledge,Sun	DOMAINS:Good,Healing,Knowledge,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Sun			SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.34
+Ares				DOMAINS:Chaos,Destruction,Strength,War	DOMAINS:Chaos,Destruction,Strength,War|PREALIGN:LN,LE,NG,TN,NE,CG,CN,CE				DESC:God of War				SYMBOL:None	DEITYWEAP:None	ALIGN:CN	SOURCEPAGE:p.34
+Artemis			DOMAINS:Animal,Luck,Protection,Trickery	DOMAINS:Animal,Luck,Protection,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of the Moon		SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.34
+Athena			DOMAINS:Good,Knowledge,Law,War	DOMAINS:Good,Knowledge,Law,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of Wisdom			SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.34
+Demeter			DOMAINS:Animal,Earth,Plant,Protection	DOMAINS:Animal,Earth,Plant,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of Nature			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.34
+Dionysus			DOMAINS:Animal,Chaos,Luck,Trickery	DOMAINS:Animal,Chaos,Luck,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Wine				SYMBOL:None	DEITYWEAP:None	ALIGN:CN	SOURCEPAGE:p.34
+Hades				DOMAINS:Death,Destruction,Earth,Magic	DOMAINS:Death,Destruction,Earth,Magic|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of the Underworld		SYMBOL:None	DEITYWEAP:None	ALIGN:NE	SOURCEPAGE:p.34
+Hecate			DOMAINS:Knowledge,Magic,Travel,Trickery	DOMAINS:Knowledge,Magic,Travel,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of Magic			SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.34
+Hephaestus			DOMAINS:Earth,Fire,Protection,Strength	DOMAINS:Earth,Fire,Protection,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of the Blacksmiths		SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.34
+Hera				DOMAINS:Healing,Luck,Protection,Strength	DOMAINS:Healing,Luck,Protection,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Queen of the Gods			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.34
+Hermes			DOMAINS:Luck,Magic,Travel,Trickery	DOMAINS:Luck,Magic,Travel,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Messengers			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.34
+Hestia			DOMAINS:Good,Healing,Luck,Protection	DOMAINS:Good,Healing,Luck,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of the Hearth		SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.34
+Poseidon			DOMAINS:Chaos,Magic,Trickery,Water	DOMAINS:Chaos,Magic,Trickery,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Sea			SYMBOL:None	DEITYWEAP:None	ALIGN:CN	SOURCEPAGE:p.34
+Zeus				DOMAINS:Air,Destruction,Good,Strength	DOMAINS:Air,Destruction,Good,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:King of Gods, God of Thunder	SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.34
+#Celtic
+Arawn				DOMAINS:Death,Evil,Magic	DOMAINS:Death,Evil,Magic|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of the Dead			SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.35
+Brigit			DOMAINS:Chaos,Fire,Knowledge	DOMAINS:Chaos,Fire,Knowledge|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:Goddess of Fire and Poetry	SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.35
+Balor				DOMAINS:Destruction,Evil,Law	DOMAINS:Destruction,Evil,Law|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:King of the Fomor			SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.35
+Cairbre			DOMAINS:Chaos,Knowledge,Luck	DOMAINS:Chaos,Knowledge,Luck|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of Music				SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.35
+Dagda				DOMAINS:Good,Protection,Strength	DOMAINS:Good,Protection,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:The Good God				SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.35
+Danu				DOMAINS:Good,Healing,Magic	DOMAINS:Good,Healing,Magic|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:The Mother Goddess			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.35
+Dianchet			DOMAINS:Good,Healing,Protection	DOMAINS:Good,Healing,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Healing			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.35
+Goibniu			DOMAINS:Magic,Protection,Strength	DOMAINS:Magic,Protection,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Smithwork			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.35
+Lugh of the Long Arm	DOMAINS:Knowledge,Luck,Magic,Sun	DOMAINS:Knowledge,Luck,Magic,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:None					SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.35
+Mannanan Mac Lir		DOMAINS:Air,Magic,Water,Trickery	DOMAINS:Air,Magic,Water,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Sea			SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.35
+The Morrigan		DOMAINS:Chaos,Destruction,War	DOMAINS:Chaos,Destruction,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:Goddess of War			SYMBOL:None	DEITYWEAP:None	ALIGN:CN	SOURCEPAGE:p.35
+Nuada of the Silver Arm	DOMAINS:Good,Law,War	DOMAINS:Good,Law,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE									DESC:None					SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.35
+Oghma				DOMAINS:Knowledge,Luck,Magic,Trickery	DOMAINS:Knowledge,Luck,Magic,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of Knowledge			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.35
+#Egyptian
+Ra				DOMAINS:Good,Knowledge,Protection,Sun	DOMAINS:Good,Knowledge,Protection,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of the Sun			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.36
+Anubis			DOMAINS:Death,Law,Luck,Protection	DOMAINS:Death,Law,Luck,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Dead			SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.36
+Apep				DOMAINS:Chaos,Death,Destruction,Evil	DOMAINS:Chaos,Death,Destruction,Evil|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Serpent of Chaos			SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.36
+Bast				DOMAINS:Animal,Chaos,Luck,Trickery	DOMAINS:Animal,Chaos,Luck,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of Cats			SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.36
+Bes				DOMAINS:Luck,Protection,Travel,Trickery	DOMAINS:Luck,Protection,Travel,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of Luck				SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.36
+Geb				DOMAINS:Earth,Plant,Protection,Strength	DOMAINS:Earth,Plant,Protection,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of the Earth			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.36
+Horus				DOMAINS:Destruction,Sun,Law,War	DOMAINS:Destruction,Sun,Law,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Vengeance			SYMBOL:None	DEITYWEAP:None	ALIGN:LN	SOURCEPAGE:p.36
+Isis				DOMAINS:Good,Healing,Magic,Water	DOMAINS:Good,Healing,Magic,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of Magic			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.36
+Nephthys			DOMAINS:Chaos,Good,Knowledge,Protection	DOMAINS:Chaos,Good,Knowledge,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of Wealth			SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.36
+Osiris			DOMAINS:Death,Good,Law,Plant	DOMAINS:Death,Good,Law,Plant|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of the Underworld		SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.36
+Seker				DOMAINS:Good,Protection,Strength,Sun	DOMAINS:Good,Protection,Strength,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of Light				SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.36
+Set				DOMAINS:Death,Evil,Law,Trickery	DOMAINS:Death,Evil,Law,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Evil				SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.36
+Shu				DOMAINS:Air,Good,Law,Sun	DOMAINS:Air,Good,Law,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of the Sky			SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.36
+Thoth				DOMAINS:Knowledge,Luck,Magic,Travel	DOMAINS:Knowledge,Luck,Magic,Travel|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Knowledge			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.36
+#Aztec
+Quetzalcoatl		DOMAINS:Air,Law,Magic,Travel	DOMAINS:Air,Law,Magic,Travel|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of the Air			SYMBOL:None	DEITYWEAP:None	ALIGN:LN	SOURCEPAGE:p.37
+Camatli			DOMAINS:Luck,Protection,Trickery	DOMAINS:Luck,Protection,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Fate				SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.37
+Camazotz			DOMAINS:Chaos,Evil,Travel	DOMAINS:Chaos,Evil,Travel|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:The Bat God				SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.37
+Chalchiuhtlicue		DOMAINS:Luck,Protection,Water	DOMAINS:Luck,Protection,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:Goddess of Water and Love	SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.37
+Huhueteotl			DOMAINS:Chaos,Destruction,Fire	DOMAINS:Chaos,Destruction,Fire|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Fire				SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.37
+Huitzilopochtli		DOMAINS:Destruction,Strength,War	DOMAINS:Destruction,Strength,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of War				SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.37
+Itzamna			DOMAINS:Healing,Magic,Protection	DOMAINS:Healing,Magic,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Medicine			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.37
+Micatlantecuhtli		DOMAINS:Death,Evil,Law	DOMAINS:Death,Evil,Law|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE									DESC:God of Death				SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.37
+Tezcatlipoca		DOMAINS:Chaos,Destruction,Evil,Sun	DOMAINS:Chaos,Destruction,Evil,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Sun			SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.37
+Tlaloc			DOMAINS:Evil,Trickery,Water	DOMAINS:Evil,Trickery,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of Rain				SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.37
+Tlazolteotl			DOMAINS:Chaos,Evil,Trickery,Thievery	DOMAINS:Chaos,Evil,Trickery,Thievery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of Vice			SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.37
+Xochipilli			DOMAINS:Knowledge,Luck,Trickery	DOMAINS:Knowledge,Luck,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Luck				SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.37
+#Chinese
+Shang-Ti			DOMAINS:Air,Law,Plants,Sun	DOMAINS:Air,Law,Plants,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of the Heavens			SYMBOL:None	DEITYWEAP:None	ALIGN:LN	SOURCEPAGE:p.38
+Chih-Chiang Fyu-Ya	DOMAINS:Travel,Trickery,War	DOMAINS:Travel,Trickery,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of Archers			SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.38
+Chih Sung-Tzu		DOMAINS:Air,Travel,Water	DOMAINS:Air,Travel,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:Lord of Rain				SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.38
+Chung Kuel			DOMAINS:Knowledge,Law,Luck	DOMAINS:Knowledge,Law,Luck|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of Truth and Testing		SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.38
+Fei Lien and Feng Po	DOMAINS:Air,Good,Protection	DOMAINS:Air,Good,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:Counts of the Wind			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.38
+Huan-Ti			DOMAINS:Strength,Protection,War	DOMAINS:Strength,Protection,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of War				SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.38
+Kuan Yin			DOMAINS:Good,Healing,Protection	DOMAINS:Good,Healing,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of Mercy			SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.38
+Lei Kung			DOMAINS:Air,Destruction,Strength	DOMAINS:Air,Destruction,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Duke of Thunder			SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.38
+Lu Yueh			DOMAINS:Chaos,Destruction,Death	DOMAINS:Chaos,Destruction,Death|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Epidemics			SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.38
+No Cha			DOMAINS:Knowledge,Luck,Trickery,Thievery	DOMAINS:Knowledge,Luck,Trickery,Thievery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of Thieves			SYMBOL:None	DEITYWEAP:None	ALIGN:NE	SOURCEPAGE:p.38
+Shan Hai Ching		DOMAINS:Air,Luck,Water	DOMAINS:Air,Luck,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE									DESC:God of Wind and Sea		SYMBOL:None	DEITYWEAP:None	ALIGN:LN	SOURCEPAGE:p.38
+Tou Mu			DOMAINS:Chaos,Evil,Destruction,Fire	DOMAINS:Chaos,Evil,Destruction,Fire|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of the Northern Star	SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.38
+Wen Chung			DOMAINS:Air,Chaos,Travel	DOMAINS:Air,Chaos,Travel|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:Minister of Thunder		SYMBOL:None	DEITYWEAP:None	ALIGN:CN	SOURCEPAGE:p.38
+Yen-Wang-Yeh		DOMAINS:Death,Knowledge,Magic	DOMAINS:Death,Knowledge,Magic|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of the Dead			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.38
+#Norse
+Odin				DOMAINS:Knowledge,Magic,Travel,Trickery	DOMAINS:Knowledge,Magic,Travel,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:The All-Father			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.39
+Balder			DOMAINS:Good,Luck,Protection,Sun	DOMAINS:Good,Luck,Protection,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Light				SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.39
+Bragi				DOMAINS:Knowledge,Luck,Travel,Trickery	DOMAINS:Knowledge,Luck,Travel,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of Poetry			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.39
+Frey				DOMAINS:Good,Magic,Protection,Sun	DOMAINS:Good,Magic,Protection,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Elves				SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.39
+Freya				DOMAINS:Good,Magic,Healing,Protection	DOMAINS:Good,Magic,Healing,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of Magic			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.39
+Frigga			DOMAINS:Healing,Law,Protection,Strength	DOMAINS:Healing,Law,Protection,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Queen of the Gods			SYMBOL:None	DEITYWEAP:None	ALIGN:LN	SOURCEPAGE:p.39
+Heimdall			DOMAINS:Good,Knowledge,Law,Protection	DOMAINS:Good,Knowledge,Law,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of Sentries			SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.39
+Hela				DOMAINS:Death,Destruction,Evil,Trickery	DOMAINS:Death,Destruction,Evil,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of the Underworld	SYMBOL:None	DEITYWEAP:None	ALIGN:NE	SOURCEPAGE:p.39
+Loki				DOMAINS:Chaos,Evil,Fire,Trickery,Thievery	DOMAINS:Chaos,Evil,Fire,Trickery,Thievery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of Trickery			SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.39
+Sif				DOMAINS:Good,Protection,Strength,War	DOMAINS:Good,Protection,Strength,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of Warriors		SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.39
+Surtur			DOMAINS:Destruction,Evil,Fire,Sun	DOMAINS:Destruction,Evil,Fire,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:King of the fire Giants		SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.39
+Thor				DOMAINS:Air,Chaos,Strength,War	DOMAINS:Air,Chaos,Strength,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Thunder			SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.39
+Tyr				DOMAINS:Good,Law,Protection,War	DOMAINS:Good,Law,Protection,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Justice			SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.39
+Thrym				DOMAINS:Destruction,Evil,Strength,War	DOMAINS:Destruction,Evil,Strength,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:King of the Frost Giants		SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.39
+Uller				DOMAINS:Animals,Chaos,Luck,Travel	DOMAINS:Animals,Chaos,Luck,Travel|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Archers			SYMBOL:None	DEITYWEAP:None	ALIGN:CN	SOURCEPAGE:p.39
+#Mix And Match Pantheon
+Amora				DOMAINS:Air,Good,Healing	DOMAINS:Air,Good,Healing|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:Goddess of Love			SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.39
+Aos				DOMAINS:Luck,Travel,Trickery	DOMAINS:Luck,Travel,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:God of Wealth			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.39
+Argena			DOMAINS:Good,Healing,Protection,Trickery	DOMAINS:Good,Healing,Protection,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of the Moon		SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.39
+Corellon Larethian	DOMAINS:Chaos,Good,Plant,Protection	DOMAINS:Chaos,Good,Plant,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Woodlands		SYMBOL:None	DEITYWEAP:None	ALIGN:CG	SOURCEPAGE:p.39
+Coreth			DOMAINS:Animal,Earth,Plant,Sun	DOMAINS:Animal,Earth,Plant,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of Nature			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.39
+Garl Glittergold		DOMAINS:Good,Protection,Trickery	DOMAINS:Good,Protection,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Illusions and Humor	SYMBOL:None	DEITYWEAP:None	ALIGN:NG	SOURCEPAGE:p.39
+Gruumsh			DOMAINS:Destruction,Evil,Strength,War	DOMAINS:Destruction,Evil,Strength,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:God of Violence			SYMBOL:None	DEITYWEAP:None	ALIGN:CE	SOURCEPAGE:p.39
+Hishrak			DOMAINS:Destruction,Evil,Law,War	DOMAINS:Destruction,Evil,Law,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Tyranny			SYMBOL:None	DEITYWEAP:None	ALIGN:LE	SOURCEPAGE:p.39
+Intara			DOMAINS:Knowledge,Magic,Trickery	DOMAINS:Knowledge,Magic,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of Magic			SYMBOL:None	DEITYWEAP:None	ALIGN:TN	SOURCEPAGE:p.39
+Moradin			DOMAINS:Earth,Good,Law,Protection	DOMAINS:Earth,Good,Law,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Forge			SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.39
+Neleva			DOMAINS:Destruction,Law,Protection,Strength	DOMAINS:Destruction,Law,Protection,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE	DESC:Goddess of Retribution		SYMBOL:None	DEITYWEAP:None	ALIGN:LN	SOURCEPAGE:p.39
+Romas				DOMAINS:Air,Chaos,Water	DOMAINS:Air,Chaos,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE									DESC:God of the Sea			SYMBOL:None	DEITYWEAP:None	ALIGN:CN	SOURCEPAGE:p.39
+Solis				DOMAINS:Good,Healing,Strength,Sun	DOMAINS:Good,Healing,Strength,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Sun			SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.39
+Uria				DOMAINS:Death,Destruction,Evil	DOMAINS:Death,Destruction,Evil|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of Death			SYMBOL:None	DEITYWEAP:None	ALIGN:NE	SOURCEPAGE:p.39
+Yondalla			DOMAINS:Good,Law,Protection	DOMAINS:Good,Law,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE							DESC:Goddess of the Hearth		SYMBOL:None	DEITYWEAP:None	ALIGN:LG	SOURCEPAGE:p.39

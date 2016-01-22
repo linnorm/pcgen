@@ -1,0 +1,6 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #291	SOURCESHORT:WotC-Dragon #291	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Equipment Name				Type					Cost		Weight	Base Quantity	Source Page
+Bolts (Underwater Crossbow)		TYPE:Ammunition.Exotic.Wooden	COST:.2	WT:.5		BASEQTY:1		SOURCEPAGE:p.62
+Bolts (Underwater Crossbow/10)	TYPE:Ammunition.Exotic.Wooden	COST:2	WT:5		BASEQTY:10		SOURCEPAGE:p.62
+Bolts (Underwater Crossbow/50)	TYPE:Ammunition.Exotic.Wooden	COST:10	WT:25		BASEQTY:50		SOURCEPAGE:p.62

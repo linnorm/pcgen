@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wildwood	SOURCESHORT:Wildwood	SOURCEWEB:http://www.bastionpress.com
+
+
+# Feat Name			Visible	Required Size	Special ABility						Define					Natural Attacks
+Small Poisoned Bite	VISIBLE:YES	PRESIZEEQ:S		DESC:Poisoned Bite (DC:%)(Ex)|PoisonedBiteDC	DEFINE:PoisonedBiteDC|10+(TL/2)+CON	NATURALATTACKS:Bite,Weapon.Natural.Melee.Bludgeoning.Piercing.Slashing.Poison,*1,1d4
+Medium Poisoned Bite	VISIBLE:YES	PRESIZEEQ:M		DESC:Poisoned Bite (DC:%)(Ex)|PoisonedBiteDC	DEFINE:PoisonedBiteDC|10+(TL/2)+CON	NATURALATTACKS:Bite,Weapon.Natural.Melee.Bludgeoning.Piercing.Slashing.Poison,*1,1d6
+Large Poisoned Bite	VISIBLE:YES	PRESIZEEQ:L		DESC:Poisoned Bite (DC:%)(Ex)|PoisonedBiteDC	DEFINE:PoisonedBiteDC|10+(TL/2)+CON	NATURALATTACKS:Bite,Weapon.Natural.Melee.Bludgeoning.Piercing.Slashing.Poison,*1,1d8

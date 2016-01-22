@@ -1,0 +1,7 @@
+# CVS $Revision: 1.2 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #291	SOURCESHORT:WotC-Dragon #291	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Feat Name		Type			Required Lvl	Required Race	Required Stat	Description									Source Page
+Bend Spell		TYPE:Metamagic										DESC:Makes spells ignore cover.					SOURCEPAGE:p.31
+Magically Adept	TYPE:General	PRELEVEL:MAX=1	PRERACE:1,Gnome	PRESTAT:1,INT=10	DESC:Different innate magical abilities.				SOURCEPAGE:p.31
+Scathing Wit	TYPE:General										DESC:Can use insults to make opponents suffer penalties.	SOURCEPAGE:p.31
+Wildspeak		TYPE:General				PRERACE:1,Gnome	PRESTAT:1,CHA=15	DESC:Can Speak With Animals CHA-bonus times per day.		SOURCEPAGE:p.31

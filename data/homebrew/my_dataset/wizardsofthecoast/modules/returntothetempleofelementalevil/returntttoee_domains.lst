@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original Entry by Barak 06/27/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+
+# Domain Name	Define										Save checks bonus						Bonus to skill						Stat bonus										Modify VAR																									Source Page		Description
+Madness		DEFINE:Insanity|0	DEFINE:NewWisModPlus|0	DEFINE:NewWisModMinus|0	BONUS:CHECKS|Willpower|(-1*WIS)+NewWisModMinus	BONUS:SKILL|STAT.WIS|(-1*WIS)+NewWisModMinus	BONUS:STAT|BASESPELLSTAT:Class=Cleric|(-1*WIS)+NewWisModPlus	BONUS:VAR|Insanity|CL=Cleric/2	BONUS:VAR|NewWisModPlus|((WISSCORE+Insanity)/2).TRUNC-5	BONUS:VAR|NewWisModMinus|((WISSCORE-Insanity)/2).TRUNC-5	SOURCEPAGE:p.162	DESC:You gain an 'Insanity score' equal to half your class level (add cleric levels to prestige class levels for this purpose).
+Force																																																																			SOURCEPAGE:p.162	DESC:Once per day you may re-roll any damage roll and take the better of the two rolls

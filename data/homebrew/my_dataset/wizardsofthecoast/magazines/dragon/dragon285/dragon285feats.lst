@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #285	SOURCESHORT:WotC-Dragon #285	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Feat Name				Type			Req. Att.	Required Feat					Required Size	Required Skill				Required Stat	Description																								Bonus to skill						Source Page
+Nobody's Fool			TYPE:General																			PRESTAT:1,WIS=13	DESC: You naturally think of things in the most efficient way possible and tend to react to situations more gracefully and rapidly than most people.	BONUS:SKILL|Sense Motive,Gather Information|2	SOURCEPAGE:p.33
+Hill Fighter			TYPE:General	PREATT:2																				DESC:You are skilled at fighting from higher ground.																									SOURCEPAGE:p.98
+Wall Breaker			TYPE:General			PREFEAT:1,Power Attack													PRESTAT:1,STR=13	DESC:You have a knack for destroying inanimate objects.																								SOURCEPAGE:p.98
+Fast Rider				TYPE:General													PRESKILL:2,Handle Animal,Ride=1				DESC:You are a talented rider, able to get better performance from any animal you ride.																			SOURCEPAGE:p.98
+Improved Mounted Archery	TYPE:General			PREFEAT:2,Mounted Combat,Mounted Archery				PRESKILL:1,Ride=1							DESC:You make ranged attacks from a mount almost as well as you can from the ground.																			SOURCEPAGE:p.99
+Low Blow				TYPE:General	PREATT:4	PREFEAT:2,Dodge,Mobility															DESC:You can get underfoot and attack creatures larger than you.																							SOURCEPAGE:p.33
+Improved Low Blow			TYPE:General	PREATT:4	PREFEAT:3,Dodge,Mobility,Low Blow														DESC:You are especially good at using the Low Blow feat.																								SOURCEPAGE:p.33
+Swarmfighting			TYPE:General	PREATT:1								PRESIZEEQ:S								PRESTAT:1,DEX=13	DESC:You and allies with this feat can coordinate melee attacks against a single target and are adept at fighting side by side in close quarters.									SOURCEPAGE:p.33

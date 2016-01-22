@@ -1,0 +1,16 @@
+# CVS $Revision: 1.00 $ $Author: rax_the_grey $
+CAMPAIGN:The Le Games - Coupons and Feats
+GAMEMODE:35e
+TYPE:The Le Games.Supplement
+RANK:9
+SOURCELONG:The Le Games - Coupons and Feats
+SOURCESHORT:Coupons&Feats
+SOURCEWEB:http://www.thelegames.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson
+COPYRIGHT:Coupons and Feats, © 2006 The’ Le. Published by The Le Games, http://www.TheLeGames.com
+COPYRIGHT:Pocket Sourcebooks, © 2006 The’ Le. Published by The Le Games, http://www.TheLeGames.com
+COPYRIGHT:PCGen dataset conversion for Coupons and Feats Copyright 2006, rax_the_grey (Ivan A. Finzen IV)
+
+FEAT:couponsandfeats_feats.lst

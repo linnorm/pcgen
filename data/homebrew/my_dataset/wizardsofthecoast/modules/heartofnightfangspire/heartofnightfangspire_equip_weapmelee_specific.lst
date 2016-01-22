@@ -1,0 +1,10 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/17/03
+SOURCELONG:Heart of Nightfang Spire	SOURCESHORT:HeartNight	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name			Output Name					Required Proficiency	Type													Cost		Weight	Base Item for EQMOD	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier		Range		Size		Source Page		Weapon prop. bonus		Special Property
+Longsword (Masterwork)		OUTPUTNAME:[NAME] Longsword		PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Martial.Melee.Slashing.specific.Metal.Sword				COST:315	WT:4		BASEITEM:Longsword	CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	EQMOD:WEAPMW			SIZE:M	SOURCEPAGE:p.8
+Pale Piercer									PROFICIENCY:WEAPON|Dagger	TYPE:Magic.Weapon.Simple.Melee.Ranged.Piercing.Specific.Thrown.Metal.Dagger	COST:50302	WT:1						CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4				RANGE:10	SIZE:T	SOURCEPAGE:p.8	BONUS:WEAPON|DAMAGE,TOHIT|3	SPROP:+2 better and +2d6 bonus damage vs. ghosts
+Kukri +2 (Keen)			OUTPUTNAME:+1 Kukri (Keen)		PROFICIENCY:WEAPON|Kukri		TYPE:Magic.Weapon.Exotic.Melee.Slashing.Specific.Metal.Dagger			COST:18308	WT:3		BASEITEM:Kukri		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d4	EQMOD:KEEN				SIZE:T	SOURCEPAGE:p.19
+Battleaxe +1 (Icy Burst)	OUTPUTNAME:+1 Icy Burst Battleaxe	PROFICIENCY:WEAPON|Battleaxe	TYPE:Weapon.Martial.Melee.Slashing.Specific.Metal.Axe					COST:18310	WT:7		BASEITEM:Battleaxe	CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:ICE_BR_M			SIZE:M	SOURCEPAGE:p.98
+

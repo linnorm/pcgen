@@ -1,0 +1,45 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Thu Feb 24 17:18:22 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon	SOURCESHORT:EncRal	SOURCEWEB:http://groups.msn.com/raxstower
+
+
+##OA Specific Armor and Shields
+###Block: Armors
+#Light Armor---------------------------------------------------------------------------------------------------------------------
+# Equipment Name	Type							Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
+Cord			TYPE:Armor.Light.Suit.Standard.Nonmetal	PROFICIENCY:ARMOR|Cord	COST:15	WT:15		ACCHECK:-1		MAXDEX:5		SOURCEPAGE:p.76	SPELLFAILURE:5		BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE
+Bone			TYPE:Armor.Light.Suit.Standard.Nonmetal	PROFICIENCY:ARMOR|Bone	COST:20	WT:20		ACCHECK:-3		MAXDEX:4		SOURCEPAGE:p.76	SPELLFAILURE:15		BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE
+Ashigaru		TYPE:Armor.Light.Suit.Standard.Nonmetal	PROFICIENCY:ARMOR|Ashigaru	COST:25	WT:20		ACCHECK:-1		MAXDEX:5		SOURCEPAGE:p.76	SPELLFAILURE:15		BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE
+Leather Scale	TYPE:Armor.Light.Suit.Standard.Nonmetal	PROFICIENCY:ARMOR|Leather Scale	COST:35	WT:20		ACCHECK:-2		MAXDEX:6		SOURCEPAGE:p.76	SPELLFAILURE:15		BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE
+
+#Medium Armor------------------------------------------------------------------------------------------------
+Dhenuka		TYPE:Armor.Medium.Suit.Standard.Nonmetal	PROFICIENCY:ARMOR|Dhenuka	COST:30	WT:25		ACCHECK:-5		MAXDEX:1		SOURCEPAGE:p.76	SPELLFAILURE:25		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Brigandine		TYPE:Armor.Medium.Suit.Standard.Nonmetal	PROFICIENCY:ARMOR|Brigandine	COST:30	WT:40		ACCHECK:-5		MAXDEX:2		SOURCEPAGE:p.76	SPELLFAILURE:30		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Partial		TYPE:Armor.Medium.Suit.Standard.Nonmetal	PROFICIENCY:ARMOR|Partial	COST:50	WT:30		ACCHECK:-3		MAXDEX:4		SOURCEPAGE:p.76	SPELLFAILURE:25		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Lamellar		TYPE:Armor.Medium.Suit.Standard.Metal	PROFICIENCY:ARMOR|Lamellar	COST:150	WT:35		ACCHECK:-4		MAXDEX:3		SOURCEPAGE:p.76	SPELLFAILURE:30		BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+
+#Heavy Armor------------------------------------------------------------------------------------------------------
+Great			TYPE:Armor.Heavy.Suit.Standard.Metal	PROFICIENCY:ARMOR|Great	COST:1000	WT:45		ACCHECK:-5		MAXDEX:2		SOURCEPAGE:p.76	SPELLFAILURE:40		BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+
+###Block: Shields--------------------
+# Equipment Name	Type							Cost		Weight	AC Penalty Check	Nb Hands	Source Page		% of Spell Failure	Combat bonus					Special Property
+Chahar-Aina		TYPE:ExtraArmor.Medium.Standard.Metal	PROFICIENCY:ARMOR|Chahar-Aina	COST:75	WT:10		ACCHECK:-1		HANDS:0	SOURCEPAGE:p.76	SPELLFAILURE:5		BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE
+Dastana		TYPE:Gauntlet.Light.Standard.Metal		COST:25	WT:5		ACCHECK:-1		HANDS:0	SOURCEPAGE:p.76	SPELLFAILURE:5		BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE
+Tessen		TYPE:Shield.Standard.Metal			COST:12	WT:1		ACCHECK:-1				SOURCEPAGE:p.76	SPELLFAILURE:5		BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE
+Kappa Shell		TYPE:Shield.Standard.Metal			COST:30	WT:45		ACCHECK:-10				SOURCEPAGE:p.76	SPELLFAILURE:50									SPROP:See Text
+
+###Block: OA Specific Barding-----------------------------------------------------------------------------------------------
+# Equipment Name			Type									Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Move			Source Page		% of Spell Failure	Combat bonus
+#Light Weight ----------------------------------------------------------------------------------------------------
+# Equipment Name				Output Name							Type									Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
+Barding (Padded/Elephant)		OUTPUTNAME:Barding, Padded (Elephant)		TYPE:Armor.Light.Standard.Nonmetal.Barding.Mount	PROFICIENCY:ARMOR|Barding (Light)	COST:40	WT:50		ACCHECK:0		MAXDEX:8		SOURCEPAGE:p.78	SPELLFAILURE:5		BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE
+Barding (Leather/Elephant)		OUTPUTNAME:Barding, Leather (Elephant)		TYPE:Armor.Light.Standard.Nonmetal.Barding.Mount	PROFICIENCY:ARMOR|Barding (Light)	COST:80	WT:75		ACCHECK:0		MAXDEX:6		SOURCEPAGE:p.78	SPELLFAILURE:10		BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE
+Barding (Studded Leather/Elephant)	OUTPUTNAME:Barding, Studded Leather (Elephant)	TYPE:Armor.Light.Standard.Metal.Barding.Mount	PROFICIENCY:ARMOR|Barding (Light)		COST:200	WT:100	ACCHECK:-1		MAXDEX:5		SOURCEPAGE:p.78	SPELLFAILURE:15		BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE
+
+#Medium Weight -------------------------------------------------------------------------------------------------------------
+Barding (Hide/Elephant)			OUTPUTNAME:Barding, Hide (Elephant)			TYPE:Armor.Medium.Standard.Nonmetal.Barding.Mount	PROFICIENCY:ARMOR|Barding (Medium)	COST:120	WT:125	ACCHECK:-3		MAXDEX:4		SOURCEPAGE:p.78	SPELLFAILURE:20		BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE
+Barding (Scale Mail/Elephant)		OUTPUTNAME:Barding, Scale Mail (Elephant)		TYPE:Armor.Medium.Standard.Metal.Barding.Mount	PROFICIENCY:ARMOR|Barding (Medium)		COST:400	WT:150	ACCHECK:-4		MAXDEX:3		SOURCEPAGE:p.78	SPELLFAILURE:25		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Barding (Chainmail/Elephant)		OUTPUTNAME:Barding, Chainmail (Elephant)		TYPE:Armor.Medium.Standard.Metal.Barding.Mount	PROFICIENCY:ARMOR|Barding (Medium)		COST:1200	WT:200	ACCHECK:-5		MAXDEX:2		SOURCEPAGE:p.78	SPELLFAILURE:30		BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+
+#Heavy Weight -------------------------------------------------------------------------------------------------------------
+Barding (Splint Mail/Elephant)	OUTPUTNAME:Barding, Splint Mail (Elephant)	TYPE:Armor.Heavy.Standard.Metal.Barding.Mount	PROFICIENCY:ARMOR|Barding (Heavy)		COST:1600	WT:225	ACCHECK:-7		MAXDEX:0		SOURCEPAGE:p.78	SPELLFAILURE:40		BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Barding (Banded Mail/Elephant)	OUTPUTNAME:Barding, Banded Mail (Elephant)	TYPE:Armor.Heavy.Standard.Metal.Barding.Mount	PROFICIENCY:ARMOR|Barding (Heavy)		COST:2000	WT:175	ACCHECK:-6		MAXDEX:1		SOURCEPAGE:p.78	SPELLFAILURE:35		BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE

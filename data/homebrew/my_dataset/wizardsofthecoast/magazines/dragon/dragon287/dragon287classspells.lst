@@ -1,0 +1,26 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #287|SOURCESHORT:WotC-Dragon #287|SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# #'s (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) Indicate level that spell belongs to) -- Spells seperated by a Pipe Delimiter "|"
+CLASS:Sinker
+1	Chill Touch|Doom|Erase|Inflict Light Wounds|True Strike
+2	Blindness/Deafness|Death Knell|Inflict Moderate Wounds|Shatter
+CLASS:Fiend Slayer
+1	Detect Evil|Endure Elements|Magic Weapon|Protection from Evil|Remove Fear|Summon Monster I
+2	Bull's Strength|Cat's Grace|Endurance|Resist Elements|See Invisibility|Summon Monster II
+3	Dispel Magic|Magic Vestments|Protection from Elements|Searing Light|Summon Monster III
+4	Banishment|Freedom of Movement|Greater Magic Weapon|Summon Monster IV
+CLASS:Taker
+1	Cure Light wounds|Endure elements|Enlarge|Expeditious Retreat|Sanctuary|True Strike
+2	Bull's Strength|Cat's Grace|Cure Moderate Wounds|Darkvision|Edurance|Lesser Restoration|Resist Elements
+3	Cure Serious Wounds|Haste|Nondetection|Protection from Elements|Remove Disease|Tongues
+4	Cure Critical Wounds|Neutralize Poison|Remove Curse|Restoration|Stoneskin
+CLASS:Thunder
+1	Shatter
+2	Soundburst
+3	Call Lightning
+4	Lightning Bolt
+5	Shout
+6	Chain Lightning
+7	Control Weather
+8	Power Word, Stun
+9	Storm of Vengeance

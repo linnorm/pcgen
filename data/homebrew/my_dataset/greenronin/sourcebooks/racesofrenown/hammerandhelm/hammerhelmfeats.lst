@@ -1,0 +1,64 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Green Ronin Publishing  - Races of Reknown - Hammer & Helm	SOURCESHORT:HammerHelm	SOURCEWEB:http://www.greenronin.com
+
+# Feat Name				Type					Req. Att.	Required Feat							Prohibited Feat				Required Lvl	Required Race	Required Skill						Required Casting Type						Required Stat	Required Text		Var. Must Be Grater	Special ABility				Description																			Stackable?	Multiple?	Choose				Selections	Bonus to skill					Source Page
+Artisan				TYPE:General																										PRESKILL:3,TYPE.Craft,TYPE.Craft,TYPE.Craft=1																											DESC:You have a knack for learning Craft skills													STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE.Craft	SELECT:3	BONUS:SKILL|LIST|2|TYPE=Competence		SOURCEPAGE:pg.14
+Aspect of Command			TYPE:Bloodgift					PREFEAT:1,Drakeblood																																			PRESTAT:1,CHA=14															DESC:Your family's ancient bond with dragons makes you more commanding.																											SOURCEPAGE:pg.14
+Aspect of Fear			TYPE:Bloodgift					PREFEAT:2,Aspect of Command,Drakeblood																																PRESTAT:1,CHA=16									SAB:Fear(Su) (%/day)|CHA		DESC:You can tap into your draconic heritage to unsettle foes with your mere presence.																								SOURCEPAGE:pg.14
+Back-to-Back			TYPE:General			PREATT:1																																																								DESC:You are skilled at fighting back-to-back with a trusted ally.																											SOURCEPAGE:pg.14
+Blood of Magic			TYPE:Bloodgift.Metamagic			PREFEAT:1,Drakeblood	PREFEAT:2,TYPE=Metamagic																					PRESPELLCAST:MEMORIZE=N	PRESPELLCAST:TYPE=Arcane												SAB:Fast Metamagic(Ex) (%/day)|CHA	DESC:Your draconic heritage allows you to ally metamagic feats to your spells quickly and instinctively.																					SOURCEPAGE:pg.14
+Boar's Charge			TYPE:General																																											PRESTAT:1,STR=13															DESC:You can bypass foes more readily in combat.																														SOURCEPAGE:pg.15
+#Clanheart Magic			TYPE:General																												PRECLASS:SPELLCASTER=1																					DESC:You have access to clanheart spells.																																																			DOMAIN:Clanheart																																																																SOURCEPAGE:pg.15
+Deepblood				TYPE:PrimeBloodgift													!PREFEAT:1,TYPE=PrimeBloodgift	PRELEVEL:MAX=1	PRERACE:1,Dwarf																		PRESTAT:1,WIS=11															DESC:Your family has an ancient bond with shadow and deep places.																												SOURCEPAGE:pg.15
+Deepsight				TYPE:Bloodgift					PREFEAT:1,Deepblood																																																				DESC:Your family's ancient bond with the deep places of the earth enhances your darkvision.					STACK:YES	MULT:YES															SOURCEPAGE:pg.15
+Divine Flame			TYPE:Bloodgift					PREFEAT:1,Forgeblood																																			PRESTAT:1,CHA=12					PREVARGT:Turn Undead,0							DESC:Your ancestral tie with elemental fire allows you to channel positive or negetive energy through your weapon.																			SOURCEPAGE:pg.15
+Drakeblood				TYPE:PrimeBloodgift													!PREFEAT:1,TYPE=PrimeBloodgift	PRELEVEL:MAX=1	PRERACE:1,Dwarf																		PRESTAT:1,CHA=12															DESC:Your family has an ancient bond with dragons.																							BONUS:SKILL|Intimidate|3|TYPE=Racial	SOURCEPAGE:pg.15
+Dreamchild				TYPE:Bonding					PREFEAT:1,Oath of Dreams																																					PRETEXT:Bonding Ritual											DESC:You further bond your being to the magical essence of the woodlands, gaining more aspects of fey creatures.																				SOURCEPAGE:pg.15
+Earth Harmonics			TYPE:General
+Earth's Armor			TYPE:Bloodgift
+Exotic Armor Proficiency	TYPE:General
+Fires Within			TYPE:Bloodgift
+Flameborn Sorcery			TYPE:General
+Forgeblood				TYPE:PrimeBloodgift
+Giantfoe				TYPE:General
+Greater Pledge of Flame		TYPE:Bonding
+Greater Pledge of Frost		TYPE:Bonding
+Improved Dispelling		TYPE:General
+Infuse Casting			TYPE:General
+Instinctive Siege Engine Use	TYPE:General
+Lock Shields			TYPE:General
+Low to the Ground			TYPE:General
+Master Artisan			TYPE:General
+Mountain's Youth			TYPE:General
+Mystic Endurance			TYPE:SpellChanneling
+Mystic Force			TYPE:SpellChanneling
+Mystic Presence			TYPE:SpellChanneling
+Mystic Resistance			TYPE:SpellChanneling
+Mystic Sight			TYPE:SpellChanneling
+Mystic Stealth			TYPE:SpellChanneling
+Mystic Summoning			TYPE:SpellChanneling
+Mystic Turning			TYPE:SpellChanneling
+Oath of Dreams			TYPE:Bonding
+Oath of Iron			TYPE:Bonding
+Pledge of Flame			TYPE:Bonding
+Pledge of Frost			TYPE:Bonding
+Pledge of Shadow			TYPE:Bonding
+Protected Archery			TYPE:General
+Protected Casting			TYPE:General
+Rapid Siege Engine Use		TYPE:General
+Remote Casting			TYPE:Metamagic
+Rocklike				TYPE:Bloodgift
+Seaborn Sorcery			TYPE:General
+Shadowblend				TYPE:Bloodgift
+Shield Wall				TYPE:General
+Skybond				TYPE:Bonding
+Skyborn Sorcery			TYPE:General
+Skystride				TYPE:Bonding
+Soul of Iron			TYPE:Bonding
+Stoic					TYPE:General
+Stonebinder				TYPE:Bloodgift
+Stoneblood				TYPE:PrimeBloodgift
+Stoneborn Sorcery			TYPE:General
+Stonelord				TYPE:Bloodgift
+Tandem Fighting			TYPE:General
+Wisdom of Ages			TYPE:General

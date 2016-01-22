@@ -1,0 +1,15 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original Entry by Barak 07/09/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Doomdreamer	HD:8		TYPE:PC.Prestige	ABB:Ddr		MAXLEVEL:5	SOURCEPAGE:p.162	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Willpower|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required Feat				Required Skill							Req. Known Spell																																														Required Text
+CLASS:Doomdreamer	PREFEAT:1,Spell Focus(Necromancy)	PRESKILL:2,Knowledge (Arcana),Knowledge (Religion)=9	PRESPELL:3,Random Action,Tharizdun's Touch,Rage,Confusion,Bolts of Bedevilment,Phantasmal Killer,Insanity,Tharizdun's Maddening Scream,Weird,Mage Armor,Magic Missile,Blast of Force,Otiluke's Resilient Sphere,Wall of Force,Repulsion,Forcecage,Otiluke's Telekinetic Sphere,Annihilation	PRETEXT:Must have had a dream involving communication with Tharizdun, the Dark God
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Doomdreamer	STARTSKILLPTS:2	CSKILL:Alchemy|Concentration|Intimidate|Knowledge (Religion)|TYPE.Profession|Scry|Spellcraft
+1	ADD:SPELLCASTER||Divine						BONUS:VAR|Insanity|CL=Doomdreamer/2	DEFINE:DoomdreamerSecretQualify|CL=Doomdreamer+INT	ADD:FEAT|1|TYPE=DoomdreamerSecret	
+2	ADD:SPELLCASTER||Divine	SAB:Dark Lore (Su)
+3	ADD:SPELLCASTER||Divine	SAB:Chill Soul (Su) 1/day																ADD:FEAT|1|TYPE=DoomdreamerSecret	
+4	ADD:SPELLCASTER||Divine	SAB:Maddening Howl (Sp) 1/day
+5	ADD:SPELLCASTER||Divine	SAB:Dark Communion (Sp) 1/week																ADD:FEAT|1|TYPE=DoomdreamerSecret	

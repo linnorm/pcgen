@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon	SOURCESHORT:WngRaph	SOURCEWEB:http://raxstower.finzen.com
+
+###Block:Mundane Container Name
+# Equipment Name	Type							Contains					Cost		Weight
+Coin Purse		TYPE:Goods.Container.General.Resizable	CONTAINS:5|Gem=50|Coin=50|Total=50	COST:1	WT:0.5
+Quiver (Large)	TYPE:Goods.Container.General									COST:4	WT:2
+Quiver (Small)	TYPE:Goods.Container.General									COST:2	WT:1

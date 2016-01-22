@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+
+# Ability Name		Category of Ability		Type						Visible	Define				Description								Allow Follower			Allowed Companions																												Source Page
+Augment Necromancy	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DEFINE:AugmentNecromancy|0	DESC:Augment Necromancy %1 (Su)|AugmentNecromancy
+Necromantic Command	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES						DESC:Necromantic Command (Su)
+Necromantic Devotion	CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES						DESC:Necromantic Devotion
+Summon Skull Familiar	CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES	DEFINE:FMLevel|0												FOLLOWERS:SkullFamiliar|1	COMPANIONLIST:SkullFamiliar|Dwarf Skull Familiar,Elf Skull Familiar,Gnome Skull Familiar,Half Elf Skull Familiar,Half Orc Skull Familiar,Halfling Skull Familiar,Human Skull Familiar	SOURCEPAGE:pg. 3
+Withstand Undead		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DEFINE:WithstandUndead|0	DESC:Withstand Undead +%1 (Su)|WithstandUndead

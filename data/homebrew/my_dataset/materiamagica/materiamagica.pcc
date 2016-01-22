@@ -1,0 +1,11 @@
+# CVS $Revision$ $Author$ -- Thu Feb 26 13:34:58 2004 -- reformated by prettylst.pl v1.31 (build 327)
+CAMPAIGN:Materia Magica
+GAMEMODE:3e|35e
+TYPE:Other.Supplement
+RANK:9
+SOURCELONG:Materia Magica
+SOURCESHORT:MatMag
+
+
+EQUIPMENT:materiamagicaequipwondrousitems.lst
+

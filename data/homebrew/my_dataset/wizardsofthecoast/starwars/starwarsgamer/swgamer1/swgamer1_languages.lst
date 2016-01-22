@@ -1,0 +1,9 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Star Wars Gamer 1	SOURCESHORT:SWG1	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Language	Type
+Em'liy	TYPE:Spoken.Read
+Chuhkyvi	TYPE:Spoken.Read
+Iskalonian	TYPE:Spoken.Read
+Stenax	TYPE:Spoken.Read
+Nagaian	TYPE:Spoken.Read

@@ -1,0 +1,7 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #249	SOURCESHORT:WotC-Dragon #249	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Equipment Name				Required Proficiency				Type							Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Source Page		Bonus to skill				Special Property					ATTACKS
+Bow of Hunting (Shortbow)		PROFICIENCY:WEAPON|Shortbow			TYPE:Magic.Weapon.Martial.Ranged.Piercing	COST:900	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6	RANGE:60	SIZE:M	SOURCEPAGE:p.84	BONUS:SKILL|Profession (Hunter)|4	SPROP:+4 bonus while using bow to hunt	ATTACKS:1
+Bow of Hunting (Longbow)		PROFICIENCY:WEAPON|Longbow			TYPE:Magic.Weapon.Martial.Ranged.Piercing	COST:900	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6	RANGE:60	SIZE:M	SOURCEPAGE:p.84	BONUS:SKILL|Profession (Hunter)|4	SPROP:+4 bonus while using bow to hunt	ATTACKS:1
+Bow of Hunting (Shortbow/Composite)	PROFICIENCY:WEAPON|Shortbow (Composite)	TYPE:Magic.Weapon.Martial.Ranged.Piercing	COST:900	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6	RANGE:60	SIZE:M	SOURCEPAGE:p.84	BONUS:SKILL|Profession (Hunter)|4	SPROP:+4 bonus while using bow to hunt	ATTACKS:1
+Bow of Hunting (Longbow/Composite)	PROFICIENCY:WEAPON|Longbow (Composite)	TYPE:Magic.Weapon.Martial.Ranged.Piercing	COST:900	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6	RANGE:60	SIZE:M	SOURCEPAGE:p.84	BONUS:SKILL|Profession (Hunter)|4	SPROP:+4 bonus while using bow to hunt	ATTACKS:1

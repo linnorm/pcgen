@@ -1,0 +1,19 @@
+# CVS $Revision: 1.2 $ $Author: cchandler $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+# Original Entrry by BArak 06/27/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+
+###Block:Minor Artifacts
+# Equipment Name			Type					Weight	Source Page		Save checks bonus			Combat bonus					Bonus to skill			Special Property
+Demonstone				TYPE:Magic.Artifact.Minor	WT:0		SOURCEPAGE:p.155	BONUS:CHECKS|ALL|1|TYPE=Luck	BONUS:COMBAT|TOHIT,DAMAGE|1|TYPE=Luck	BONUS:SKILL|ALL|1|TYPE=Luck	SPROP:Grants +1 luck bonus to attacks,damage,saves and skills.  Attempts to subvert character to Chaotic Evil.
+Elemental Power Gem (Air)	TYPE:Magic.Artifact.Minor	WT:0		SOURCEPAGE:p.156																		SPROP:When touched transports you and anyone within 50' to the Air Elemental node
+Elemental Power Gem (Earth)	TYPE:Magic.Artifact.Minor	WT:0		SOURCEPAGE:p.156																		SPROP:When touched transports you and anyone within 50' to the Earth Elemental node
+Elemental Power Gem (Fire)	TYPE:Magic.Artifact.Minor	WT:0		SOURCEPAGE:p.156																		SPROP:When touched transports you and anyone within 50' to the Fire Elemental node
+Elemental Power Gem (Water)	TYPE:Magic.Artifact.Minor	WT:0		SOURCEPAGE:p.156																		SPROP:When touched transports you and anyone within 50' to the Water Elemental node
+
+
+###Block:Major artifacts
+# Equipment Name		Type					Weight	Source Page		Virtual Feat		Innate Spells																																																																		Modify VAR
+Orb of Oblivion		TYPE:Magic.Artifact.Major	WT:0		SOURCEPAGE:p.156	VFEAT:Negative Levels	SPELLS:Innate|TIMES=ATWILL|Cause Fear|Detect Evil|Detect Good|Discern Lies	SPELLS:Innate|TIMES=1|Insanity	SPELLS:Innate|TIMES=1|Fly|PREEQUIP:1,Elemental Power Gem (Air)	SPELLS:Innate|TIMES=1|Wall of Stone|PREEQUIP:1,Elemental Power Gem (Earth)	SPELLS:Innate|TIMES=1|Flame Strike|PREEQUIP:1,Elemental Power Gem (Fire)	SPELLS:Innate|TIMES=1|Wall of Ice|PREEQUIP:1,Elemental Power Gem (Water)	BONUS:VAR|NegLevels|1|PREALIGN:0,3,6
+Orb of Silvery Death	TYPE:Magic.Artifact.Major	WT:0		SOURCEPAGE:p.156	VFEAT:Negative Levels	SPELLS:Innate|TIMES=ATWILL|Cause Fear|Detect Evil|Detect Good|Discern Lies|Poison	SPELLS:Innate|TIMES=1|Fly|PREEQUIP:1,Elemental Power Gem (Air)	SPELLS:Innate|TIMES=1|Wall of Stone|PREEQUIP:1,Elemental Power Gem (Earth)	SPELLS:Innate|TIMES=1|Flame Strike|PREEQUIP:1,Elemental Power Gem (Fire)	SPELLS:Innate|TIMES=1|Wall of Ice|PREEQUIP:1,Elemental Power Gem (Water)						BONUS:VAR|NegLevels|1|PREALIGN:0,3,6
+

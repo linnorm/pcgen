@@ -1,0 +1,23 @@
+# CVS $Revision: 1.0 $ $Author: ericbeaudoin $
+CAMPAIGN:Arms and Equipment Guide
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Sourcebook
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Supplement
+SOURCELONG:Arms and Equipment Guide
+SOURCESHORT:AEG
+SOURCEWEB:http://www.wizards.com/starwars
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+
+
+#CLASS:armsequip_classes.lst
+EQUIPMENT:armsequip_equip.lst
+EQUIPMENT:armsequip_equip_weap_melee.lst
+EQUIPMENT:armsequip_equip_weap_ranged.lst
+EQUIPMOD:armsequip_equipmods.lst
+#FEAT:armsequip_feats.lst
+SKILL:armsequip_skills.lst
+WEAPONPROF:armsequip_weap_profs.lst

@@ -1,0 +1,6 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Star Wars Gamer 5	SOURCESHORT:SWG5	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+AGESET:0|Adulthood
+RACENAME:Chiss	SEX:Male[BASEHT:58|HTDIEROLL:2d10|BASEWT:120|WTDIEROLL:2d4|TOTALWT:BASEWT+(HTDIEROLL*WTDIEROLL)]Female[BASEHT:53|HTDIEROLL:2d10|BASEWT:85|WTDIEROLL:2d4|TOTALWT:BASEWT+(HTDIEROLL*WTDIEROLL)]
+### Old tag for race Chiss=> AGE:15:1:4:1:6:2:6

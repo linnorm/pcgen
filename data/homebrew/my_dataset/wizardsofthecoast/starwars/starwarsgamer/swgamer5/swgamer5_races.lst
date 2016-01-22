@@ -1,0 +1,6 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 5	SOURCESHORT:SWG5	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+#corrected from issue 7
+# Race Name	Favored Class			Starting Feats	Size		Move			Vision		Automatic Languages	Bonus Languages	Type			Source Page
+Chiss		FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30	VISION:Low-Light	LANGAUTO:Basic		LANGBONUS:ALL	TYPE:Humaniod	SOURCEPAGE:p.

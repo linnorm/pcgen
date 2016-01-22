@@ -1,0 +1,78 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Magic	SOURCESHORT:Magic	SOURCEWEB:http://alderac.com/d20
+
+
+##Block: Magesmith Abilities
+# Ability Name				Category of Ability		Type								Visible	Special Ability													Define									Modify VAR																	Source Page
+Hearth Flame				CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Supernatural	VISIBLE:YES	DESC:Sacrifice 500XP into a prepared furnace or fire pit to create a fire that consumes 1/10 the normal fuel, has no chance to ignite nearby objects, and provides a +%1 bonus to all Craft skill checks that use it.|HearthFlameBonus	DEFINE:HearthFlameBonus|0	SOURCEPAGE:pg. 46
+Trademark					CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:You create a trademark with which you may mark your work.  You recieve a +%1 bonus to Diplomacy checks when dealing with patrons.|TrademarkBonus	DEFINE:TrademarkBonus|0		SOURCEPAGE:pg. 46
+Craft Lesser Magic Arms and Armor	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:If you have access to your Hearth Flame you may make magic items without the requisite feat or level. These magic items take 1d6 fewer days to create and cost 1/2 the normal XP. The enchantment is temporary and only lasts 1d4 uses before fading.		SOURCEPAGE:pg. 46
+Unnatural Forge				CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Supernatural	VISIBLE:YES	DESC:You may modify weapons to deal damage of a type different than the listed type. You may change the mundane damage type to another mundane damage type.|PREVARLT:MagesmithLVL|10		DESC:You may modify weapons to deal damage of a type different than the listed type. You may change the mundane damage type to either a diffent mundane type or an elemental type.|PREVARGT:MagesmithLVL|9	SOURCEPAGE:pg. 46
+Apprentice					CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:Apprentice magesmiths may recieve a stipend of %1 gp/month and gain aid from their masters. In exchange, they are expected to help around the smithy.|ApprenticeStipend	DEFINE:ApprenticeStipend|0	SOURCEPAGE:pg. 45
+Journeyman					CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:You may now work the forge unsupervised and may supervise appentices if allowed by your master. You earn 75% of the profit of items you make at your master's forge.		SOURCEPAGE:pg. 47
+Master					CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:You are now freed from your indenture. You no longer report to a master and may set up your own forge. You may keep all profits from your endevors and take on apprentices and journeymen of your own.					SOURCEPAGE:pg. 47
+Grand Master				CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:Your skill is known in a wide area. For each journeyman or master magesmith working with you you may reduce the crafting time of and item by 1 day or make 1 additional copy of the item (paying normal costs). You may be aided by up to %1 people in this fashion.|GrandMasterAids	DEFINE:GrandMasterAids|0				SOURCEPAGE:pg. 48
+##I added the Craft Reserve ability from the Eberron Artificer class to make magic item creation feasible for the class.  -- Rax the Grey
+Craft Reserve				CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:You gain a reserve of %1 XP to use for crafting magical items. This reserve does not carry over to the next level.|CraftReserve		DEFINE:CraftReserve|0	SOURCELONG:Eberron Campaign Setting	SOURCESHORT:ebrncs	SOURCEPAGE:pg. 31
+
+
+##Block: Arcane Monk Abilities
+# Ability Name	Category of Ability		Type											Visible	Special Ability													Define									Modify VAR																	Source Page
+Flurry of Spells	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary.AttackOption	VISIBLE:YES	DESC:Flurry of Spells (Ex) %1 spells|FlurryofSpells							DEFINE:FlurryofSpells|0							BONUS:VAR|FlurryofSpells|1|PRECLASS:1,Arcane Monk=4	BONUS:VAR|FlurryofSpells|1|PRECLASS:1,Arcane Monk=12	SOURCEPAGE:pg. 56
+Arcane Strike	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural.AttackOption		VISIBLE:YES	DESC:Arcane Strike (Su) %1/day for %2 rounds each|ArcaneStrikeTimes|ArcaneStrikeDuration	DEFINE:ArcaneStrikeTimes|0	DEFINE:ArcaneStrikeDuration|0	BONUS:VAR|ArcaneStrikeTimes|3	BONUS:VAR|ArcaneStrikeDuration|10+STR							SOURCEPAGE:pg. 57
+Thunderstrike	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Extraordinary.AttackOption		VISIBLE:YES	DESC:You may cast touch spells as attack actions that do not provoke attacks of opportunity.																																						SOURCEPAGE:pg. 57
+
+
+###Block: Monk of the Cloaked Fist Abilities
+# Ability Name		Category of Ability		Type										Visible	Special Ability													Define									Modify VAR																	Source Page
+Smite Law		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DEFINE:SmiteLawToHit|max(CHA,0)	DEFINE:SmiteLawDamage|0		DEFINE:SmiteLaw|0		DESC:+%1 with one normal melee attack for +%2 extra damge %3/day|SmiteLawToHit|SmiteLawDamage|SmiteLaw		SOURCEPAGE:pg. 59
+Smite Chaos		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DEFINE:SmiteChaosToHit|max(CHA,0)	DEFINE:SmiteChaosDamage|0	DEFINE:SmiteChaos|0	DESC:+%1 with one normal melee attack for +%2 extra damge %3/day|SmiteChaosToHit|SmiteChaosDamage|SmiteChaos	SOURCEPAGE:pg. 59
+Detect Good		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.SpellLike.Sense			VISIBLE:YES	DEFINE:DetectGoodLVL|DetectLVL						SPELLS:Class|TIMES=ATWILL|CASTERLEVEL=DetectGoodLVL|Detect Good,11+WIS			PREABILITY:1,CATEGORY=Special Ability,Smite Good																														SOURCEPAGE:pg. 59		BENEFIT:At will, a cloaked fist can use Detect Good, as the spell.
+Detect Chaos	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.SpellLike.Sense			VISIBLE:YES	DEFINE:DetectChaosLVL|DetectLVL						SPELLS:Class|TIMES=ATWILL|CASTERLEVEL=DetectChaosLVL|Detect Chaos,11+WIS			PREABILITY:1,CATEGORY=Special Ability,Smite Chaos																														SOURCEPAGE:pg. 59		BENEFIT:At will, a cloaked fist can use Detect Chaos, as the spell.
+Detect Law		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.SpellLike.Sense			VISIBLE:YES	DEFINE:DetectLawLVL|DetectLVL							SPELLS:Class|TIMES=ATWILL|CASTERLEVEL=DetectLawLVL|Detect Law,11+WIS				PREABILITY:1,CATEGORY=Special Ability,Smite Law																														SOURCEPAGE:pg. 59		BENEFIT:At will, a cloaked fist can use Detect Law, as the spell.
+Detect Evil(ClF)	OUTPUTNAME:Detect Evil		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.SpellLike.Sense	VISIBLE:YES	DEFINE:DetectEvilLVL|DetectLVL	SPELLS:Class|TIMES=ATWILL|CASTERLEVEL=DetectEvilLVL|Detect Evil,11+WIS			PREABILITY:1,CATEGORY=Special Ability,Smite Evil																									SOURCEPAGE:pg. 59		BENEFIT:At will, a cloaked fist can use Detect Evil, as the spell.
+Protection from Law	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.SpellLike			VISIBLE:YES	DEFINE:ProtectLawLVL|ProtectLVL		DEFINE:ProtectLawTimes|ProtectTimes					SPELLS:Class|TIMES=ProtectLawTimes|CASTERLEVEL=ProtectLawLVL|Protection from Law,11+WIS				PREABILITY:1,CATEGORY=Special Ability,Smite Law																														SOURCEPAGE:pg. 59		BENEFIT:%1 times a day, a cloaked fist can use Protection from Law, as the spell.|ProtectLawTimes
+Protection from Chaos	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.SpellLike			VISIBLE:YES	DEFINE:ProtectChaosLVL|ProtectLVL		DEFINE:ProtectChaosTimes|ProtectTimes					SPELLS:Class|TIMES=ProtectChaosTimes|CASTERLEVEL=ProtectChaosLVL|Protection from Chaos,11+WIS				PREABILITY:1,CATEGORY=Special Ability,Smite Chaos																														SOURCEPAGE:pg. 59		BENEFIT:%1 times a day, a cloaked fist can use Protection from Chaos, as the spell.|ProtectChaosTimes
+Protection from Good	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.SpellLike			VISIBLE:YES	DEFINE:ProtectGoodLVL|ProtectLVL		DEFINE:ProtectGoodTimes|ProtectTimes					SPELLS:Class|TIMES=ProtectGoodTimes|CASTERLEVEL=ProtectGoodLVL|Protection from Good,11+WIS				PREABILITY:1,CATEGORY=Special Ability,Smite Good																														SOURCEPAGE:pg. 59		BENEFIT:%1 times a day, a cloaked fist can use Protection from Good, as the spell.|ProtectGoodTimes
+Protection from Evil	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.SpellLike			VISIBLE:YES	DEFINE:ProtectEvilLVL|ProtectLVL		DEFINE:ProtectEvilTimes|ProtectTimes					SPELLS:Class|TIMES=ProtectEvilTimes|CASTERLEVEL=ProtectEvilLVL|Protection from Evil,11+WIS				PREABILITY:1,CATEGORY=Special Ability,Smite Evil																														SOURCEPAGE:pg. 59		BENEFIT:%1 times a day, a cloaked fist can use Protection from Evil, as the spell.|ProtectEvilTimes
+
+Breath Weapon			KEY:ClF Breath Weapon ~ Acid				CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1/day spit a gob of Acid 60' and make a ranged touch attack, damage %2d%3 acid|ClfBreathTimes|ClFBreathDamage|ClFBreathDice
+Breath Weapon			KEY:ClF Breath Weapon ~ Electricity		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1/day spit a gob of Electricity 60' and make a ranged touch attack, damage %2d%3 acid|ClfBreathTimes|ClFBreathDamage|ClFBreathDice
+Breath Weapon			KEY:ClF Breath Weapon ~ Fire				CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1/day spit a gob of Fire 60' and make a ranged touch attack, damage %2d%3 acid|ClfBreathTimes|ClFBreathDamage|ClFBreathDice
+Breath Weapon			KEY:ClF Breath Weapon ~ Cold				CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1/day spit a gob of Cold 60' and make a ranged touch attack, damage %2d%3 acid|ClfBreathTimes|ClFBreathDamage|ClFBreathDice
+
+ClF Black Dragon	OUTPUTNAME:Black Dragon Aspect	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint black scales which improve your AC.
+ClF Blue Dragon	OUTPUTNAME:Blue Dragon Aspect		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint blue scales which improve your AC.
+ClF Green Dragon	OUTPUTNAME:Green Dragon Aspect	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint green scales which improve your AC.
+ClF Red Dragon	OUTPUTNAME:Red Dragon Aspect		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint red scales which improve your AC.
+ClF White Dragon	OUTPUTNAME:White Dragon Aspect	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint white scales which improve your AC.
+ClF Brass Dragon	OUTPUTNAME:Brass Dragon Aspect	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint brass scales which improve your AC.
+ClF Bronze Dragon	OUTPUTNAME:Bronze Dragon Aspect	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint bronze scales which improve your AC.
+ClF Copper Dragon	OUTPUTNAME:Copper Dragon Aspect	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint copper scales which improve your AC.
+ClF Gold Dragon	OUTPUTNAME:Gold Dragon Aspect		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint gold scales which improve your AC.
+ClF Silver Dragon	OUTPUTNAME:Silver Dragon Aspect	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement	DESC:You grow faint silver scales which improve your AC.
+
+Angelic Aspect A		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:NO	BONUS:SKILL|Bluff,Diplomacy|2
+#Angelic Aspect B		CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural			VISIBLE:YES	DESC:
+Angelic Aspect C		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:Gain +2 AC vs Evil creatures|PREABILITY:1,CATEGORY=Special Ability,Smite Evil	DESC:Gain +2 AC vs Good creatures|PREABILITY:1,CATEGORY=Special Ability,Smite Good	DESC:Gain +2 AC vs Chaotic creatures|PREABILITY:1,CATEGORY=Special Ability,Smite Chaos	DESC:Gain +2 AC vs Lawful creatures|PREABILITY:1,CATEGORY=Special Ability,Smite Law
+#Angelic Aspect D		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Angelic Aspect E		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DEFINE:FlameStrikeLVL|0		DEFINE:FlameStrikeTimes|0	SPELLS:Class|TIMES=FlameStrikeTimes|CASTERLEVEL=FlameStrikeLVL|Flame Strike,11+WIS
+Angelic Aspect F		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:Gain +2 to attack and damage vs opposed alignment. Barehanded strikes deal Divine energy damage instead of physical damage.
+Demonic Aspect A		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Demonic Aspect B		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Demonic Aspect C		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Demonic Aspect D		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Demonic Aspect E		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Demonic Aspect F		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+#Draconic Aspect A		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES
+#Draconic Aspect B		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES		VISION:Darkvision (120')
+#Draconic Aspect C		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:Gain clawed talons which add 2 to unarmed damage.	BONUS:COMBAT|DAMAGE.Unarmed|2
+#Draconic Aspect D		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+#Draconic Aspect E		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+#Draconic Aspect F		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Godlike Aspect A		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Godlike Aspect B		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Godlike Aspect C		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Godlike Aspect D		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Godlike Aspect E		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:
+Godlike Aspect F		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:

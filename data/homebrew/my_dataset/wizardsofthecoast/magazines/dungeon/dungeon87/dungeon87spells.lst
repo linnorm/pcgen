@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+SOURCELONG:Wizards of the Coast - Dungeon #87	SOURCESHORT:WotC-Dungeon #87	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+# Spell Name	School			Spell Descriptors			Components	Casting Time	Range		Target Area or Effect	Duration			Save Info			Spell Resistance	Description			Source Page
+Tharizdun's Touch	SCHOOL:Enchantment	DESCRIPTOR:Mind-Affecting	COMPS:V S	CASTTIME:1 action	RANGE:Touch	TARGETAREA:na		DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Creature touched	SOURCEPAGE:p.

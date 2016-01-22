@@ -1,0 +1,9 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 09/18/03
+SOURCELONG:Lord of the Iron Fortress	SOURCESHORT:LordIronF	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Output Name					Type							Cost		Weight	AC Penalty Check	Base Item for EQMOD	Modifier		Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
+Chainmail (+2)		OUTPUTNAME:+2 Chainmail			TYPE:Armor.Medium.Suit.Specific.Metal	PROFICIENCY:ARMOR|Chainmail (+2)	COST:4300	WT:40		ACCHECK:-5									MAXDEX:2		SOURCEPAGE:p.13	SPELLFAILURE:30		BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Chainmail (+1/Shadow)	OUTPUTNAME:+1 Shadow Chainmail	TYPE:Armor.Medium.Suit.Specific.Metal	PROFICIENCY:ARMOR|Chainmail (+1/Shadow)	COST:4300	WT:40		ACCHECK:-5		BASEITEM:Chainmail	EQMOD:Shadow	MAXDEX:2		SOURCEPAGE:p.104	SPELLFAILURE:30		BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Full Plate (+1)		OUTPUTNAME:+1 Full Plate		TYPE:Armor.Heavy.Suit.Specific.Metal	PROFICIENCY:ARMOR|Full Plate (+1)	COST:2650	WT:50		ACCHECK:-6									MAXDEX:1		SOURCEPAGE:p.13	SPELLFAILURE:35		BONUS:COMBAT|AC|9|TYPE=Armor.REPLACE
+Full Plate (+3)		OUTPUTNAME:+1 Full Plate		TYPE:Armor.Heavy.Suit.Specific.Metal	PROFICIENCY:ARMOR|Full Plate (+3)	COST:2650	WT:50		ACCHECK:-6									MAXDEX:1		SOURCEPAGE:p.16	SPELLFAILURE:35		BONUS:COMBAT|AC|11|TYPE=Armor.REPLACE

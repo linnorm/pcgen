@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+# Equipment Name	Required Proficiency			Type							Cost		Weight			Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
+Ashigaru		PROFICIENCY:ARMOR|Ashigaru		TYPE:Armor.Light.Suit.Standard.Metal	COST:25	WT:20		EQMOD:STEEL	MAXDEX:5		SOURCEPAGE:p.59	SPELLFAILURE:15		BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE
+Great Armor		PROFICIENCY:ARMOR|Great Armor		TYPE:Armor.Heavy.Suit.Standard.Metal	COST:300	WT:45		EQMOD:STEEL	MAXDEX:2		SOURCEPAGE:p.59	SPELLFAILURE:40		BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Lamellar		PROFICIENCY:ARMOR|Lamellar		TYPE:Armor.Medium.Suit.Standard.Metal	COST:150	WT:35		EQMOD:STEEL	MAXDEX:3		SOURCEPAGE:p.59	SPELLFAILURE:30		BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+Light Hide		PROFICIENCY:ARMOR|Light Hide		TYPE:Armor.Light.Suit.Standard.Nonmetal	COST:10	WT:20				MAXDEX:6		SOURCEPAGE:p.59	SPELLFAILURE:10		BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE
+Naga Armor		PROFICIENCY:ARMOR|Naga Armor		TYPE:Armor.Medium.Suit.Standard.Metal	COST:125	WT:40		EQMOD:STEEL	MAXDEX:4		SOURCEPAGE:p.59	SPELLFAILURE:20		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Partial Armor	PROFICIENCY:ARMOR|Partial Armor	TYPE:Armor.Medium.Suit.Standard.Metal	COST:50	WT:30		EQMOD:STEEL	MAXDEX:4		SOURCEPAGE:p.59	SPELLFAILURE:25		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Tessen								TYPE:Shield.Standard.Metal			COST:12	WT:1		EQMOD:STEEL				SOURCEPAGE:p.59	SPELLFAILURE:5		BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE

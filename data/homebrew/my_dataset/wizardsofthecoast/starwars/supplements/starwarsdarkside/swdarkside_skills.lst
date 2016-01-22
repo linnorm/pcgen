@@ -1,0 +1,18 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Darkside Sourcebook	SOURCESHORT:DSSB	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: General Skills
+# Skill Name			Key Stat	Untrained?		Type							Required Feat						Source Page
+Knowledge (Sith Lore)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge											SOURCEPAGE:p.12
+Knowledge (Culture - Witch)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge											SOURCEPAGE:p.27
+Read Language					USEUNTRAINED:NO	TYPE:None.Language												SOURCEPAGE:p.12
+Write Language					USEUNTRAINED:NO	TYPE:None.Language												SOURCEPAGE:p.12
+Speak Language					USEUNTRAINED:NO	TYPE:None.Language												SOURCEPAGE:p.13
+
+#Block: Force Skills
+Alchemy				KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Force.Sorcery.Darkside	PREFEAT:2,Force Sensitive,Sith Sorcery		SOURCEPAGE:p.13
+Control Mind			KEYSTAT:CHA	USEUNTRAINED:NO	TYPE:Charisma.Force.Alter.Darkside		PREFEAT:3,Force Sensitive,Alter,Force Mind	SOURCEPAGE:p.13
+Drain Energy			KEYSTAT:CON				TYPE:Constitution.Force.Alter.Darkside	PREFEAT:2,Force Sensitive,Alter			SOURCEPAGE:p.14
+Drain Knowledge			KEYSTAT:CON	USEUNTRAINED:NO	TYPE:Constitution.Force.Sense.Darkside	PREFEAT:2,Force Sensitive,Sense			SOURCEPAGE:p.15
+Illusion				KEYSTAT:CHA	USEUNTRAINED:NO	TYPE:Charisma.Force.Alter			PREFEAT:2,Force Sensitive,Alter			SOURCEPAGE:p.15
+Transfer Essence			KEYSTAT:CHA	USEUNTRAINED:NO	TYPE:Charisma.Force.Sorcery.Darkside	PREFEAT:2,Force Sensitive,Sith Sorcery		SOURCEPAGE:p.16

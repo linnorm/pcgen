@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Psychic's Handbook	SOURCESHORT:psychicshandbook	SOURCEWEB:http://www.greenronin.com
+
+
+# Race Name	Output Name		Favored Class	Skills/Level		Starting Feats	Size		Move			Reach		Automatic Languages	Bonus to skill								Class Skill									Feat						Special ABility							Type			Source Page
+Illam		OUTPUTNAME:Illam	FAVCLASS:Psychic	XTRASKILLPTSPERLVL:1	STARTFEATS:1	SIZE:M	MOVE:Walk,30	REACH:5	LANGAUTO:Common		BONUS:SKILL|Mental Contact,Psychic Shield|2|TYPE=Racial	CSKILL:Empathy|Mental Contact|Psychic Sense|Psychic Shield	FEAT:Psychic Ability|Telepathy	SAB:+1 skill point per level for psychic abilities	TYPE:Humanoid	SOURCEPAGE:Web Enhancement,p. 2

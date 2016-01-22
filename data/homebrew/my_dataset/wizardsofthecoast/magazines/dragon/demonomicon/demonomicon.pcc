@@ -1,0 +1,15 @@
+CAMPAIGN:WotC - DnD Magazines - Demonomicon of Iggwilv
+GAMEMODE:35e
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Demonomicon of Iggwilv
+SOURCESHORT:WotC-demonomicon
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+#CLASS:demonomicon_classes_prestige.lst
+#EQUIPMENT:demonomicon_equippotionspoisons.lst
+FEAT:demonomicon_feats.lst
+#RACE:demonomicon_races.lst
+SPELL:demonomicon_spells.lst
+TEMPLATE:demonomicon_templates.lst

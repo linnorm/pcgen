@@ -1,0 +1,34 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+## Original Entry by: Rax the Grey
+
+
+###Exotic Ranged Weapons
+##Firearms
+# Equipment Name				Output Name						Required Proficiency			Type												Contains			Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage		Modifier			Wield Category	Range		Size		Source Page
+Blunderbuss												PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Bludgeoning.Piercing.Rifle.Firearm.Metal	CONTAINS:1|Round=1	COST:150	WT:16		CRITMULT:x3			CRITRANGE:1			DAMAGE:4d4						WIELD:TwoHanded	RANGE:5	SIZE:M	SOURCEPAGE:pg. 185
+Carbine (Military)										PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:600	WT:10		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d8						WIELD:TwoHanded	RANGE:150	SIZE:M	SOURCEPAGE:pg. 186
+Grappling Gun											PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Bludgeoning.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:500	WT:12		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8						WIELD:TwoHanded	RANGE:30	SIZE:M	SOURCEPAGE:pg. 186
+# TODO: Add small damage for Harpoon Gun  --Rax
+Harpoon Gun												PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:500	WT:12		CRITMULT:x3			CRITRANGE:1			DAMAGE:2d6+1					WIELD:TwoHanded	RANGE:60	SIZE:M	SOURCEPAGE:pg. 186
+Pistol (Clockwerk Arms Pepperbox)	OUTPUTNAME:Clockwerk Arms Pepperbox		PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Exotic.Ranged.Piercing.Pistol.Firearm.Metal			CONTAINS:1|Round=4	COST:325	WT:8		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d4-2					WIELD:OneHanded	RANGE:20	SIZE:M	SOURCEPAGE:pg. 181
+Pistol (Military)											PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Exotic.Ranged.Piercing.Pistol.Firearm.Metal			CONTAINS:1|Round=1	COST:300	WT:5		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d6						WIELD:OneHanded	RANGE:80	SIZE:S	SOURCEPAGE:pg. 187
+Pistol (Musket)											PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Exotic.Ranged.Piercing.Pistol.Firearm.Metal			CONTAINS:1|Round=1	COST:175	WT:5		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8						WIELD:OneHanded	RANGE:20	SIZE:M	SOURCEPAGE:pg. 187
+Pistol (Pinlock)											PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Exotic.Ranged.Piercing.Pistol.Firearm.Metal			CONTAINS:1|Round=1	COST:150	WT:5		CRITMULT:x2			CRITRANGE:1			DAMAGE:2d3						WIELD:OneHanded	RANGE:30	SIZE:M	SOURCEPAGE:pg. 187
+Pistol (Radliffe Quad Iron)		OUTPUTNAME:Radliffe Quad Iron			PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Exotic.Ranged.Piercing.Pistol.Firearm.Metal			CONTAINS:1|Round=1	COST:375	WT:6		CRITMULT:x3			CRITRANGE:2			DAMAGE:4d4						WIELD:OneHanded	RANGE:20	SIZE:M	SOURCEPAGE:pg. 182
+Pistol (Rynnish Holdout)		OUTPUTNAME:Rynnish Holdout Pistol		PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Exotic.Ranged.Piercing.Pistol.Firearm.Metal			CONTAINS:1|Round=1	COST:225	WT:2		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d4-2					WIELD:OneHanded	RANGE:20	SIZE:M	SOURCEPAGE:pg. 183
+Pistol (Small)											PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Exotic.Ranged.Piercing.Pistol.Firearm.Metal			CONTAINS:1|Round=1	COST:200	WT:4		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d4						WIELD:OneHanded	RANGE:40	SIZE:S	SOURCEPAGE:pg. 187
+Rifle (Clockwerk Arms Revolving)	OUTPUTNAME:Clockwerk Arms Revolving Rifle	PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=3	COST:900	WT:20		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d6-2					WIELD:TwoHanded	RANGE:120	SIZE:M	SOURCEPAGE:pg. 182
+Rifle (Long)											PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:500	WT:10		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d6						WIELD:TwoHanded	RANGE:160	SIZE:M	SOURCEPAGE:pg. 187
+Rifle (Military)											PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:600	WT:15		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d8						WIELD:TwoHanded	RANGE:200	SIZE:M	SOURCEPAGE:pg. 187
+Rifle (Musket)				OUTPUTNAME:Musket					PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:400	WT:12		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d12						WIELD:TwoHanded	RANGE:100	SIZE:M	SOURCEPAGE:pg. 187
+Rifle (Pinlock)											PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:350	WT:12		CRITMULT:x2			CRITRANGE:1			DAMAGE:2d4						WIELD:TwoHanded	RANGE:140	SIZE:M	SOURCEPAGE:pg. 187
+Rifle (Radliffe Twoshot)		OUTPUTNAME:Radliffe Twoshot Rifle		PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:625	WT:10		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d6-2					WIELD:TwoHanded	RANGE:140	SIZE:M	SOURCEPAGE:pg. 182
+Rifle (Serricsteel Long)		OUTPUTNAME:Serricsteel Long Rifle		PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal.SerricSteel	CONTAINS:1|Round=1	COST:800	WT:8		CRITMULT:x2			CRITRANGE:3			DAMAGE:2d6						WIELD:TwoHanded	RANGE:160	SIZE:M	SOURCEPAGE:pg. 184
+Rifle (Serricsteel Military)		OUTPUTNAME:Serricsteel Military Rifle	PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal.SerricSteel	CONTAINS:1|Round=1	COST:900	WT:12		CRITMULT:x2			CRITRANGE:3			DAMAGE:2d8						WIELD:TwoHanded	RANGE:200	SIZE:M	SOURCEPAGE:pg. 184
+Rifle (Vanar Liberator)			OUTPUTNAME:Vanar Liberator			PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:725	WT:20		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d8+2					WIELD:TwoHanded	RANGE:240	SIZE:M	SOURCEPAGE:pg. 184
+Rifle (Vislovski)				OUTPUTNAME:Vislovski Rifle			PROFICIENCY:WEAPON|Rifle		TYPE:Weapon.Exotic.Ranged.Piercing.Rifle.Firearm.Metal			CONTAINS:1|Round=1	COST:600	WT:14		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d6+2					WIELD:TwoHanded	RANGE:180	SIZE:M	SOURCEPAGE:pg. 184
+Rynnish Walking Stick										PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Exotic.Ranged.Piercing.Pistol.Firearm.Metal			CONTAINS:1|Round=1	COST:375	WT:4		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d4-2					WIELD:TwoHanded	RANGE:20	SIZE:M	SOURCEPAGE:pg. 183
+# NOTE: Proficiency is a guess for the Rynnish Walking Stick, and the Blunderbuss.  --Rax
+
+Menoth's Sting											PROFICIENCY:WEAPON|Menoth's Sting	TYPE:Weapon.Exotic.Ranged.Piercing.Bludgeoning.Standard.Monk.Thrown					COST:1	WT:.1		CRITMULT:x2			CRITRANGE:1			DAMAGE:1		EQMOD:STEEL.THROWN_AMMO	WIELD:Light		RANGE:10	SIZE:M	SOURCEPAGE:pg. 194

@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Vigil Watch - Warren of the Ratmen	SOURCESHORT:VigilWatch	SOURCEWEB:http://www.swordsorcery.com
+
+#Exotic Melee Weapons
+# Equipment Name	Type								Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Damage	Size		Source Page		Attack roll bonus
+Hookstaff		TYPE:Weapon.Exotic.Melee.Standard.Piercing	COST:27	WT:12		CRITMULT:x4			CRITRANGE:1			DAMAGE:1d8	ALTDAMAGE:1d8		SIZE:M	SOURCEPAGE:p.88
+Nail Sheaths	TYPE:Weapon.Exotic.Melee.Unarmed.Slashing		COST:50	WT:1																		SOURCEPAGE:p.88	BONUS:TOHIT|TYPE=Unarmed|3
+Tail Knife		TYPE:Weapon.Exotic.Melee.Standard.Piercing	COST:65	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6					SIZE:S	SOURCEPAGE:p.88
+Tail Mace		TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning	COST:45	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6					SIZE:S	SOURCEPAGE:p.88
+Whipsword		TYPE:Weapon.Exotic.Melee.Standard.Slashing	COST:200	WT:3		CRITMULT:x3			CRITRANGE:1			DAMAGE:2d4					SIZE:S	SOURCEPAGE:p.88

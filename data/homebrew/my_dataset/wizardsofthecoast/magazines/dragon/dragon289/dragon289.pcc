@@ -1,0 +1,13 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #289
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #289
+SOURCESHORT:WotC-Dragon #289
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon289classes.lst
+FEAT:dragon289feats.lst
+TEMPLATE:dragon289templates.lst

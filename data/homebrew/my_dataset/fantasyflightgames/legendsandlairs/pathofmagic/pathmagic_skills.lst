@@ -1,0 +1,14 @@
+# CVS $Revision: 302 $ $Author: tir-gwaith $ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Path of Magic	SOURCESHORT:Magic	SOURCEWEB:http://www.fantasyflightgames.com/llpom.html
+# Original Entry by: Ratheof Blithwyn
+
+
+# Skill Name		Key Stat	Untrained?		Exclusive?		Type					Source Page
+Craft (Firearms)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence			SOURCEPAGE:srdskillsi.rtf
+Knowledge (Dragons)	KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.142
+Knowledge (Outsiders)	KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.34
+Perform (Juggling)	KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform		SOURCEPAGE:p.19
+Perform (Wit)		KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform		SOURCEPAGE:p.19
+Perform (Sing)		KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform		SOURCEPAGE:p.19
+Profession (Singer)	KEYSTAT:WIS	USEUNTRAINED:NO				TYPE:Wisdom.Profession		SOURCEPAGE:p.19
+#

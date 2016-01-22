@@ -1,0 +1,6 @@
+# CVS $Revision: 625 $ $Author: tir-gwaith $ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Malhavoc Press - Book of Hallowed Might	SOURCESHORT:BoHM	SOURCEWEB:http://www.montecook.com
+#Original Author: kingpaul, Updated by Beaver
+
+# Equipment Name	Product Identity?	Type					Cost		Weight	Source Page		Special Property
+Holy Elixir		NAMEISPI:YES	TYPE:Magic.Potion.Consumable	COST:1400	WT:0		SOURCEPAGE:p.42	SPROP:The imbiber of this potion deals an additional +2d6 points of damage to creatures of evil alignment for one hour.

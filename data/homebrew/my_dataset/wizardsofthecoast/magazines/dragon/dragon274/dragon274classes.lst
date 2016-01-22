@@ -1,0 +1,25 @@
+# CVS $Revision: 1.4 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Required Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class		RTM = Required to Memorize Spells	PRSA = Pre-Required Special Ability		RL = Required Languages to be this class		MRST = Minimum Required Saving Throw (type Fort/Ref/Will)
+# DS = Define Special	AA = Add Ability to class (feat/skill)	CT = Class Type (PC/NPC/Template/Monster)
+
+SOURCELONG:Wizards of the Coast - Dragon Magazine #274	SOURCESHORT:WotC-Dragon #274	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																Combat bonus
+CLASS:Mystic	HD:4		TYPE:PC.Prestige	ABB:Mys		MAXLEVEL:10	SOURCEPAGE:p.49-50	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:B|TYPE=Base.REPLACE
+# Class Name	Required Feat																	Required Skill
+CLASS:Mystic	PREFEAT:1,Spell Focus	PREFEAT:1,Spell Penetration	PREFEAT:1,TYPE=ItemCreation	PREFEAT:1,TYPE=Metamagic	PRESKILL:1,Knowledge (Religion)=5	PRESKILL:2,Spellcraft,Knowledge (Arcana)=10
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Mystic	STARTSKILLPTS:2	CSKILL:Alchemy|Concentration|Craft |Knowledge |Scry|Spellcraft
+1	SAB:Spell Secret (%)|1
+2						ADD:LANGUAGE(Abyssal,Aquan,Auran,Celestial,Common,Draconic,Dwarven,Elven,Gnome,Goblin,Giant,Gnoll,Halfling,Ignan,Infernal,Orc,Sylvan,Terran,Undercommon)1
+3	SAB:Spell Secret (%)|1
+4						ADD:LANGUAGE(Abyssal,Aquan,Auran,Celestial,Common,Draconic,Dwarven,Elven,Gnome,Goblin,Giant,Gnoll,Halfling,Ignan,Infernal,Orc,Sylvan,Terran,Undercommon)1
+5	SAB:Spell Secret (%)|1
+6						ADD:LANGUAGE(Abyssal,Aquan,Auran,Celestial,Common,Draconic,Dwarven,Elven,Gnome,Goblin,Giant,Gnoll,Halfling,Ignan,Infernal,Orc,Sylvan,Terran,Undercommon)1
+7	SAB:Spell Secret (%)|1
+8	SAB:Permanent Maximize Spell	ADD:LANGUAGE(Abyssal,Aquan,Auran,Celestial,Common,Draconic,Dwarven,Elven,Gnome,Goblin,Giant,Gnoll,Halfling,Ignan,Infernal,Orc,Sylvan,Terran,Undercommon)1
+9	SAB:Spell Secret (%)|1
+10	SAB:Permanent Quicken Spell	ADD:LANGUAGE(Abyssal,Aquan,Auran,Celestial,Common,Draconic,Dwarven,Elven,Gnome,Goblin,Giant,Gnoll,Halfling,Ignan,Infernal,Orc,Sylvan,Terran,Undercommon)1

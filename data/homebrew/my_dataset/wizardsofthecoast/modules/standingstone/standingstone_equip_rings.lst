@@ -1,0 +1,5 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:The Standing Stone	SOURCESHORT:StandingS	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Output Name				Type			Cost		Weight	Source Page		Special Property
+Ring (Misdirection)	OUTPUTNAME:Ring of [NAME]	TYPE:Magic.Ring	COST:7000	WT:0		SOURCEPAGE:p.32	SPROP:Wearer is under a continuous Misdirection effect

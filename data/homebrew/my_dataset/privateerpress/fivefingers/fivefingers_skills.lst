@@ -1,0 +1,13 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Five Fingers	SOURCESHORT:FF	SOURCEWEB:http://www.ironkingdoms.com
+#Original Entry by: Rax the Grey
+
+#Block: New Skills
+# Skill Name			Key Stat	Untrained?		Type					Source Page			Bonus to skill
+#Knowledge (Laws)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:pg. 196
+Profession (Extortionist)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:pg. 106	BONUS:SKILL|Profession (Extortionist)|SynergyBonus|PRESKILL:1,Intimidate=5|TYPE=Synergy.STACK
+Profession (Entertainer)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:pg. 106	BONUS:SKILL|Profession (Entertainer)|SynergyBonus|PRESKILL:1,TYPE.Perform=5|TYPE=Synergy.STACK
+Profession (Gambler)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:pg. 107
+Profession (Smuggler)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:pg. 108	BONUS:SKILL|Profession (Smuggler)|SynergyBonus|PRESKILL:1,Forgery=5|TYPE=Synergy.STACK
+Profession (Con Artist)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:pg. 108	BONUS:SKILL|Profession (Con Artist)|SynergyBonus|PRESKILL:1,Bluff=5|TYPE=Synergy.STACK
+Profession (Street Rat)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:pg. 108

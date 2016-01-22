@@ -1,0 +1,24 @@
+SOURCELONG:Dragon Wing Games - Spells and Magic	SOURCESHORT:SpellsandMagic	SOURCEWEB:http://www.dragonwing.net
+
+# Feat Name			Type			Required Class			Required Feat					Required Stat	Required Text										Description												Ability												Modify VAR										Source Page
+Activate Rune		TYPE:General													PRESTAT:1,CON=12													DESC:You may activate inscribed runes.		SOURCEPAGE:pg. 3
+Attune Extra Rune		TYPE:General	PRECLASS:1,NotDone=1
+Blood Power			TYPE:Metamagic	PRECLASS:1,SPELLCASTER.Arcane=3		PREHP:10	DESC:You are able to use your life force to power arcane spells, enabling you to cast more spells per day in exchange for taking physical damage. You take %1 points of damage per spell level.|BloodPowerDamage	DEFINE:BloodPowerDamage|5	SOURCEPAGE:pg. 3
+Cone Control		TYPE:Metamagic									PRESKILL:1,Spellcraft=15	PRETEXT:Must be able to use a breath weapon or cast an offensive spell with a conical area of effect.	DESC:You are able to direct any spell or breath weapon with an area of effect of 'cone' at specific targets rather than covering an area.	SOURCEPAGE:pg. 3
+Craft Necromantic Focus	TYPE:ItemCreation	PRECLASS:1,SPELLCASTER=7	PREFEAT:2,Craft Wondrous Item,Shadehand																DESC:You can create necromantic foci.																															SOURCEPAGE:pg. 3
+Draconic Will		TYPE:General							PREFEAT:1,Iron Will	BONUS:CHECKS|Will|2	DESC:Your willpower is a thing of legend.	SOURCEPAGE:pg. 3
+Essence Mastery		TYPE:Metamagic	PRESKILL:1,Craft (Alchemy)	PRECLASS:1,Reflecting Master=1	DESC:You are able to add additional essences to the internal fluid of a mirror with less difficulty than other reflecting masters.	SOURCEPAGE:pg. 3
+Eye of Knowledge		TYPE:General	PRESTAT:1,CON=15			PRECLASS:1,Rune Mage=6	DESC:You may learn and attune one extra rune. You also receive a +2 bonus to all checks to learn runes, attune to runes, or create runestones or runestaves.	SOURCEPAGE:pg. 3	BONUS:SKILL|Search,Spot|-2	BONUS:COMBAT|TOHIT|-2
+Instinctive Reflection	TYPE:Metamagic	PREFEAT:1,Combat Reflexes	DESC:Your reflexes instinctively assist you in deflecting spells cast at you.	SOURCEPAGE:pg. 3
+Item Breaker		TYPE:General	PRECLASS:1,NotDone=1
+Learn Rune			TYPE:General	PRECLASS:1,NotDone=1
+Lightburst			TYPE:Metamagic	PRECLASS:1,NotDone=1
+Mite Fighter		TYPE:General	PRECLASS:1,NotDone=1
+Rapid Movement		TYPE:General	PRECLASS:1,NotDone=1
+Shadecall			TYPE:General						PREFEAT:2,Shadehand,Shadetounge		PRESTAT:1,CHA=15													DESC:You can create undead.																																	SOURCEPAGE:pg. 4
+Shadehand			TYPE:General						PREFEAT:2,Shadesight,Great Fortitude	PRESTAT:1,CON=15													DESC:You generate, store, and project necromantic energy from your body.																									SOURCEPAGE:pg. 4
+Shadesight			TYPE:General													PRESTAT:1,WIS=15	PRETEXT:Must have suffered a negative level from an undead attack.	DESC:You can sense the aura of death and necromantic energy.																											SOURCEPAGE:pg. 4
+Shadetounge			TYPE:General						PREFEAT:1,Shadesight				PRESTAT:1,CHA=15													DESC:You can command undead.									ABILITY:Special Ability|AUTOMATIC|Basic Turning|Cleric Turning|Rebuke Undead	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|(TL/2)|TYPE=Level	SOURCEPAGE:pg. 5
+Shrug Off			TYPE:General	PRECLASS:1,NotDone=1
+Totem Link			TYPE:General	PRECLASS:1,NotDone=1
+

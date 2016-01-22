@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 24 17:25:33 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Alderac Entertainment Group - Magic	SOURCESHORT:Magic	SOURCEWEB:http://alderac.com/d20
+
+# Feat Name			Type			Required Class			Required Feat					Description								Source Page
+Craft Prosthetic Item	TYPE:ItemCreation	PRECLASS:1,Spellcaster=10	PREFEAT:1,Craft Magical Arms and Armor	DESC:You can replace lost limbs with prosthetics.	SOURCEPAGE:pg. 48
+Soulbinding			TYPE:ItemCreation						PREFEAT:1,TYPE=ItemCreation			DESC:You may sacrifice an intelligent being when creating a magic item to reduce the gold and experience costs of creation. This also makes creating an intelligent item more likely.	SOURCEPAGE:pg. 178
+

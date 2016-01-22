@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 20:25:10 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Fantasy Flight Games - Dragonstar - Starfarer's Handbook	SOURCESHORT:StarfarerH	SOURCEWEB:http://www.fantasyflightgames.com/dragonstar.html
+
+# Skill Name			Key Stat	Untrained?		Skill Penalty Apply	Exclusive?		Classes																										Type					Required Feat				Bonus to skill																				Source Page
+Craft (Computer Program)	KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO																												TYPE:Intelligence.Craft		PREFEAT:1,Technical Proficiency																							SOURCEPAGE:p.71
+Craft (Scrimshaw)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO																												TYPE:Intelligence.Craft.Art																													SOURCEPAGE:Chap.9, Skills
+Craft (Necrotechnology)		KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO																												TYPE:Intelligence.Craft		PREFEAT:1,Technical Proficiency																							SOURCEPAGE:p.71
+Craft (Weaving)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO																												TYPE:Intelligence.Craft		PREFEAT:1,Technical Proficiency																							SOURCEPAGE:p.71
+Knowledge (Creature Lore)	KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO																												TYPE:Intelligence.Knowledge																													SOURCEPAGE:Chap.9, Skills
+Knowledge (Plane of Earth)	KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO																												TYPE:Intelligence.Knowledge																													SOURCEPAGE:Chap.9, Skills
+Knowledge (Plane of Fire)	KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO																												TYPE:Intelligence.Knowledge																													SOURCEPAGE:Chap.9, Skills
+Knowledge (Mathematics)		KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO																												TYPE:Intelligence.Knowledge																													SOURCEPAGE:Chap.9, Skills
+Profession (Housekeeper)	KEYSTAT:WIS	USEUNTRAINED:NO																																			TYPE:Wisdom.Profession																														SOURCEPAGE:MonstersK-L.rtf
+Research.MOD															CLASSES:Alienist|Archmage|Bard(Monte Cook's)|Bargainer|Binder|Demon Summoner|Demonologist|Mage of the Arcane Order|Master Alchemist|Possessed|Spectral Loremaster	
+Use Ley Line			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:YES	CLASSES:Sorcerer|Wizard																								TYPE:Charisma																															SOURCEPAGE:Chap.9, Skills

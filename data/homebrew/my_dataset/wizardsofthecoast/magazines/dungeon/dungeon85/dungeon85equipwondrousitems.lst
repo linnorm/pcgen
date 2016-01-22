@@ -1,0 +1,7 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #85	SOURCESHORT:WotC-Dungeon #85	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+# Equipment Name	Type				Cost		Weight	Source Page		Special Property
+Beads of Stasis	TYPE:Magic.Wondrous	COST:8100			SOURCEPAGE:p.90	SPROP: Up to 10 HD in 10 foot radius placed in temporal stasis. Reflex save (DC 23) negates
+Robe of the Deep	TYPE:Magic.Wondrous	COST:15000	WT:1		SOURCEPAGE:p.90	SPROP: Constant free movement and waterbreathing. destroyed by direct sunlight.

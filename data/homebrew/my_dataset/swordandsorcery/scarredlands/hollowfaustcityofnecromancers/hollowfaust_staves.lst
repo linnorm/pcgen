@@ -1,0 +1,5 @@
+# CVS $Revision: 1.1 $ $Author: rax_the_grey $ -- Tue Feb 24 11:55:36 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Hollowfaust - City of Necromancers	SOURCESHORT:Hollowfaust	SOURCEWEB:http://www.swordsorcery.com
+
+# Equipment Name	Required Proficiency			Type												Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Damage	Wield Category	Size		Source Page			Weapon prop. bonus
+Ebon Staff		PROFICIENCY:WEAPON|Quarterstaff	TYPE:Magic.Staff.Weapon.Simple.Melee.Bludgeoning.Double.Quarterstaff	COST:20750	WT:5		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	ALTDAMAGE:1d6		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:pg. 103	BONUS:WEAPON|DAMAGE,TOHIT|1|TYPE=Enhancement

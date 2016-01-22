@@ -1,0 +1,4 @@
+Change Knowledge (Demonology)/Knowledge (Demon Lore) to Knowledge (Fiend Lore)
+Change Demonologist prereqs to 8 ranks of Knowledge (Fiend Lore) and knowledge of either Abyssal or Infernal
+Demonologist levels stack with Sorcerer/Wizard/etc for familiar computations
+

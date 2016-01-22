@@ -1,0 +1,26 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:SSS - Ravenloft Campaign Setting 3.5
+GAMEMODE:35e
+TYPE:Sword and Sorcery Studios.Ravenloft
+RANK:9
+SOURCELONG:Ravenloft Campaign Setting
+SOURCESHORT:RavenloftCS
+SOURCEWEB:http://www.swordsorcery.com
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+
+RACE:ravenloft_races.lst
+FEAT:ravenloft_feats.lst
+SKILL:ravenloft_skills.lst
+DEITY:ravenloft_deities.lst
+DOMAIN:ravenloft_domains.lst
+EQUIPMOD:ravenloft_equipmods.lst
+EQUIPMENT:ravenloft_equip.lst
+EQUIPMENT:ravenloft_equip_weap_ammo.lst
+EQUIPMENT:ravenloft_equip_weap_melee.lst
+EQUIPMENT:ravenloft_equip_weap_ranged.lst
+WEAPONPROF:ravenloft_weapprofs.lst
+LANGUAGE:ravenloft_language.lst
+SPELL:ravenloft_spells.lst
+TEMPLATE:ravenloft_templates.lst

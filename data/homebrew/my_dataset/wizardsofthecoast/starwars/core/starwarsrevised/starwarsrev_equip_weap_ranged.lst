@@ -1,0 +1,27 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Equipment Name			Type											Cost		Weight	Critical Hit Range	Damage	Modifier		Range		Size		Source Page		Weapon prop. bonus	Special Property
+Blaster (E-Web)			TYPE:Weapon.Ranged.HeavyWeapon.Energy.Multifire.Autofire		COST:8000	WT:38		CRITRANGE:2			DAMAGE:6d8	EQMOD:MULTIF	RANGE:80	SIZE:L	SOURCEPAGE:p.132
+Blaster (Heavy Repeating)	TYPE:Weapon.Ranged.HeavyWeapon.Energy.Multifire.Autofire.Tripod	COST:4000	WT:12		CRITRANGE:2			DAMAGE:4d8	EQMOD:MULTIF	RANGE:30	SIZE:L	SOURCEPAGE:p.132
+Blaster (Heavy)			TYPE:Weapon.Ranged.BlasterPistol.Energy.Multifire			COST:750	WT:1.3	CRITRANGE:1			DAMAGE:3d8				RANGE:8	SIZE:M	SOURCEPAGE:p.132					SPROP:Stun Setting DC18
+Blaster (Hold-Out)		TYPE:Weapon.Ranged.BlasterPistol.Energy					COST:300	WT:0.5	CRITRANGE:1			DAMAGE:3d4				RANGE:4	SIZE:S	SOURCEPAGE:p.132					SPROP:Stun Setting DC10
+Blaster (Light Repeating)	TYPE:Weapon.Ranged.BlasterRifle.Energy.Multifire.Autofire		COST:2000	WT:6		CRITRANGE:2			DAMAGE:3d8	EQMOD:MULTIF	RANGE:40	SIZE:L	SOURCEPAGE:p.132
+Blaster (Sporting)		TYPE:Weapon.Ranged.BlasterPistol.Energy					COST:300	WT:1		CRITRANGE:1			DAMAGE:3d4				RANGE:8	SIZE:S	SOURCEPAGE:p.132					SPROP:Stun Setting DC12
+Blaster Cannon			TYPE:Weapon.Ranged.HeavyWeapon.Energy					COST:3000	WT:18		CRITRANGE:2			DAMAGE:4d8				RANGE:40	SIZE:L	SOURCEPAGE:p.132
+Blaster Carbine			TYPE:Weapon.Ranged.BlasterRifle.Energy.Multifire			COST:900	WT:2.2	CRITRANGE:2			DAMAGE:3d8				RANGE:20	SIZE:M	SOURCEPAGE:p.132					SPROP:Stun Setting DC15
+Blaster Pistol			TYPE:Weapon.Ranged.BlasterPistol.Energy.Multifire			COST:500	WT:1		CRITRANGE:1			DAMAGE:3d6				RANGE:10	SIZE:S	SOURCEPAGE:p.132					SPROP:Stun Setting DC15
+Blaster Rifle			TYPE:Weapon.Ranged.BlasterRifle.Energy.Multifire			COST:1000	WT:4.5	CRITRANGE:2			DAMAGE:3d8				RANGE:40	SIZE:M	SOURCEPAGE:p.132					SPROP:Stun Setting DC18
+Blaster Rifle (Sport)		TYPE:Weapon.Ranged.BlasterRifle.Energy					COST:800	WT:4		CRITRANGE:2			DAMAGE:3d6				RANGE:40	SIZE:M	SOURCEPAGE:p.132					SPROP:Stun Setting DC15
+Bow					TYPE:Weapon.Ranged.Primitive.Piercing					COST:300	WT:1.4	CRITRANGE:1			DAMAGE:1d8				RANGE:12	SIZE:M	SOURCEPAGE:p.132
+Bowcaster				TYPE:Weapon.Ranged.Exotic.Energy						COST:1500	WT:8		CRITRANGE:2			DAMAGE:3d10				RANGE:10	SIZE:L	SOURCEPAGE:p.132
+Electro-Net				TYPE:Weapon.Ranged.Exotic							COST:300	WT:7		CRITRANGE:0			DAMAGE:0				RANGE:2	SIZE:M	SOURCEPAGE:p.132					SPROP:Stun Setting DC12
+Grenade (Frag)			TYPE:Weapon.Ranged.Simple.Slashing						COST:200	WT:0.5	CRITRANGE:1			DAMAGE:4d6				RANGE:4	SIZE:T	SOURCEPAGE:p.132	BONUS:WEAPON|DAMAGE|1
+Grenade (Stun)			TYPE:Weapon.Ranged.Simple.Energy						COST:250	WT:0.5	CRITRANGE:0			DAMAGE:0				RANGE:4	SIZE:T	SOURCEPAGE:p.132					SPROP:Stun Setting DC15/12
+Ion Gun (Pistol)			TYPE:Weapon.Ranged.BlasterPistol.Energy					COST:250	WT:1		CRITRANGE:1			DAMAGE:3d6				RANGE:8	SIZE:S	SOURCEPAGE:p.132					SPROP:Stun Setting DC15
+Ion Gun (Rifle)			TYPE:Weapon.Ranged.BlasterRifle.Energy					COST:800	WT:3.1	CRITRANGE:2			DAMAGE:3d8				RANGE:30	SIZE:M	SOURCEPAGE:p.132					SPROP:Stun Setting DC18
+Net					TYPE:Weapon.Ranged.Primitive							COST:25	WT:4.5	CRITRANGE:0			DAMAGE:0				RANGE:2	SIZE:M	SOURCEPAGE:p.132
+Sling					TYPE:Weapon.Ranged.Primitive.Bludgeoning					COST:35	WT:0.3	CRITRANGE:1			DAMAGE:1d4				RANGE:6	SIZE:S	SOURCEPAGE:p.132
+Slugthrowerthrower (Pistol)	TYPE:Weapon.Ranged.Slugthrower.Piercing.Multifire			COST:275	WT:1.4	CRITRANGE:1			DAMAGE:2d6				RANGE:10	SIZE:S	SOURCEPAGE:p.132
+Slugthrowerthrower (Rifle)	TYPE:Weapon.Ranged.Slugthrower.Piercing.Multifire			COST:300	WT:4		CRITRANGE:1			DAMAGE:2d8				RANGE:20	SIZE:M	SOURCEPAGE:p.132
+Thermal Detonator			TYPE:Weapon.Ranged.Simple.Energy						COST:200	WT:0.5	CRITRANGE:1			DAMAGE:8d6				RANGE:4	SIZE:T	SOURCEPAGE:p.132	BONUS:WEAPON|DAMAGE|6

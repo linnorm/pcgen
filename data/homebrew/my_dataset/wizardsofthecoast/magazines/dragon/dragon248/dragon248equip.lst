@@ -1,0 +1,52 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #248	SOURCESHORT:WotC-Dragon #248	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+
+# Equipment Name		Type			Cost		Weight	Source Page
+Chalcedony			TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:p.42
+Chryscola			TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:p.43
+Plasma			TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:p.43
+Serpentine			TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:p.43
+Prase				TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:p.42
+Tourmaline (Black)	TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:p.42
+Tourmaline (Clear)	TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:p.42
+Tiger's eye (Red)		TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:p.43
+Calmazul			TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:p.42
+Tourmaline (Green)	TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:p.42
+Tourmaline (Pink)		TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:p.42
+Tourmaline (Red)		TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:p.42
+Tourmaline (Blue)		TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:p.42
+Tourmaline (Violet)	TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:p.42
+Coral (Black)		TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:p.42
+Cairngorm			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.42
+Morion			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.42
+Watermelon Stone		TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.42
+Scapolite			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.42
+Coral (Black)		TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.42
+Beryl				TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.42
+Cat's Eye			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.42
+Goshenite			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.42
+Andalusite			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:p.43
+Moralla			TYPE:Goods.Gem	COST:150	WT:0		SOURCEPAGE:p.42
+Morganite			TYPE:Goods.Gem	COST:150	WT:0		SOURCEPAGE:p.42
+Moonstone (Pink)		TYPE:Goods.Gem	COST:150	WT:0		SOURCEPAGE:p.42
+Coral (Blue)		TYPE:Goods.Gem	COST:150	WT:0		SOURCEPAGE:p.42
+Coral (Violet)		TYPE:Goods.Gem	COST:150	WT:0		SOURCEPAGE:p.42
+Kunzite			TYPE:Goods.Gem	COST:200	WT:0		SOURCEPAGE:p.42
+Benitoite			TYPE:Goods.Gem	COST:200	WT:0		SOURCEPAGE:p.43
+Coral (Gold)		TYPE:Goods.Gem	COST:200	WT:0		SOURCEPAGE:p.42
+Coral (Red)			TYPE:Goods.Gem	COST:200	WT:0		SOURCEPAGE:p.42
+Hawk's Eye			TYPE:Goods.Gem	COST:200	WT:0		SOURCEPAGE:p.42
+Iris				TYPE:Goods.Gem	COST:200	WT:0		SOURCEPAGE:p.42
+Rosterite			TYPE:Goods.Gem	COST:200	WT:0		SOURCEPAGE:p.42
+Coral (Angel Skin)	TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:p.42
+Tanzanite			TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:p.42
+Light Pearl			TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:p.42
+Titanite			TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:p.43
+Sunstone			TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:p.43
+Pearl (Deep Royal)	TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:p.42
+Pearl (Deep Rose Pink)	TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:p.42
+Pearl (Deep Gold)		TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:p.42
+Pearl (Spring Green)	TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:p.42
+
+

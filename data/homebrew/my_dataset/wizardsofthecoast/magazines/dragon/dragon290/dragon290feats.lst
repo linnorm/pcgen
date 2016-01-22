@@ -1,0 +1,4 @@
+# CVS $Revision: 1.2 $ $Author: tir-gwaith $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #290	SOURCESHORT:WotC-Dragon #290	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Feat Name		Type			Required Feat				Description			Source Page
+Improved Grapple	TYPE:General	PREFEAT:1,Improved Unarmed Strike	DESC:See Text p.91	SOURCEPAGE:p.91

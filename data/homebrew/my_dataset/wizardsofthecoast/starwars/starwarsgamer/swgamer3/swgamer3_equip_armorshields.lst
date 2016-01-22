@@ -1,0 +1,10 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# Sat 2 Feb 2002 - started by balesir
+SOURCELONG:Star Wars Gamer 3	SOURCESHORT:SWG3	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Equipment Name			Required Proficiency					Type					Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page						Combat bonus
+Droid Blast Protection		PROFICIENCY:ARMOR|Droid Blast Protection		TYPE:SWDroid.Armor.Light	COST:500	WT:3		ACCHECK:-1		MAXDEX:5		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Droid Combat Armour		PROFICIENCY:ARMOR|Droid Combat Armour		TYPE:SWDroid.Armor.Light	COST:1500	WT:8		ACCHECK:-3		MAXDEX:4		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+Droid Light Battle Armour	PROFICIENCY:ARMOR|Droid Light Battle Armour	TYPE:SWDroid.Armor.Medium	COST:2000	WT:13		ACCHECK:-4		MAXDEX:3		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Droid Medium Battle Armour	PROFICIENCY:ARMOR|Droid Medium Battle Armour	TYPE:SWDroid.Armor.Medium	COST:6000	WT:16		ACCHECK:-5		MAXDEX:3		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Droid Heavy Battle Armour	PROFICIENCY:ARMOR|Droid Heavy Battle Armour	TYPE:SWDroid.Armor.Heavy	COST:12000	WT:35		ACCHECK:-7		MAXDEX:0		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|9|TYPE=Armor.REPLACE

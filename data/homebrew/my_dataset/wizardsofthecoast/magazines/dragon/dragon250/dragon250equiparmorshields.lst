@@ -1,0 +1,8 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #250	SOURCESHORT:WotC-Dragon #250	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name				Required Proficiency						Type							Cost		Weight	Required Class		Required Race	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus					Special Property
+Soldier's Armor (Breastplate +1)	PROFICIENCY:ARMOR|Soldier's Armor (Breastplate +1)	TYPE:Armor.Heavy.Suit.Magic.Specific	COST:16000	WT:10		PRECLASS:1,FIGHTER=1	PRERACE:1,HUMAN	ACCHECK:-2		MAXDEX:5		SOURCEPAGE:p.96	SPELLFAILURE:25		BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE	SPROP:Breastplate +1, Immune to rust,Wearer is completely immune to bleeding attacks
+Divine Armor (Breastplate +2)		PROFICIENCY:ARMOR|Divine Armor (Breastplate +2)		TYPE:Armor.Heavy.Suit.Magic.Specific	COST:7000	WT:30		PRECLASS:1,CLERIC=1				ACCHECK:-4		MAXDEX:3		SOURCEPAGE:p.98	SPELLFAILURE:25		BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE	SPROP:2d6 charges of the spell Protection vs. Evil
+Assassin's Armor (Leather +2)		PROFICIENCY:ARMOR|Assassin's Armor (Leather +2)		TYPE:Armor.Light.Suit.Magic.Specific	COST:7000	WT:15		PRECLASS:1,ROGUE=1				ACCHECK:0		MAXDEX:8		SOURCEPAGE:p.99	SPELLFAILURE:10		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	SPROP:Permanent effect of Blur, as per spell, Gaseous Form 1x/day
+

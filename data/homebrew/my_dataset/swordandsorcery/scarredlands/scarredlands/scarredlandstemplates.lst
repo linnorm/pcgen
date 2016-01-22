@@ -1,0 +1,26 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Scarred Lands	SOURCESHORT:ScarredLands	SOURCEWEB:http://www.swordsorcery.com
+
+# Template Name						Visible	Required Race							Prohibited Template							Stat bonus					Favored Class			Removable?		Source Index
+Region - Calastia and Sweltering Plains		VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|WIS|-2	BONUS:STAT|CHA|2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - Gascar Cities and Dunahnae			VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|STR|-2	BONUS:STAT|INT|2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - Gascar Cities and Dunahnae			VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|STR|-2	BONUS:STAT|WIS|2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - Karria, Darakeene and Albadia		VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|STR|2	BONUS:STAT|INT|-2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - Karria, Darakeene and Albadia		VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|STR|2	BONUS:STAT|WIS|-2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - Karria, Darakeene and Albadia		VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|CON|2	BONUS:STAT|INT|-2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - Karria, Darakeene and Albadia		VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|CON|2	BONUS:STAT|WIS|-2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - The Plains of Lede				VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|DEX|2	BONUS:STAT|CHA|-2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - Vesh, Cordrada and Repose Peninsula	VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|INT|-2	BONUS:STAT|WIS|2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Region - Durrover and the Kelders			VISIBLE:YES	PRERACE:1,Human																	BONUS:STAT|CON|2	BONUS:STAT|CHA|-2						REMOVABLE:YES	SOURCE:SS - Scarred Lands - DM's Screen
+Dwarf (Cleric)						VISIBLE:NO	PRERACE:1,Charduni						!PRETEMPLATE:1,Dwarf (Fighter)											FAVOREDCLASS:Cleric		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Dwarf (Fighter)						VISIBLE:NO	PRERACE:1,Dwarf (Mountain)|Charduni|Dwarf (Forsaken)	!PRETEMPLATE:1,Dwarf (Wizard)|Dwarf (Cleric)|Dwarf (Rogue)							FAVOREDCLASS:Fighter		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Dwarf (Rogue)						VISIBLE:NO	PRERACE:1,Dwarf (Forsaken)					!PRETEMPLATE:1,Dwarf (Fighter)											FAVOREDCLASS:Rogue		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Dwarf (Wizard)						VISIBLE:NO	PRERACE:1,Dwarf (Mountain)					!PRETEMPLATE:1,Dwarf (Fighter)											FAVOREDCLASS:Wizard.Wizard	REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Elf (Cleric)						VISIBLE:NO	PRERACE:1,Elf (Forsaken)					!PRETEMPLATE:1,Elf (Wizard)												FAVOREDCLASS:Cleric		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Elf (Druid)							VISIBLE:NO	PRERACE:1,Elf (Wood)						!PRETEMPLATE:1,Elf (Ranger)												FAVOREDCLASS:Druid		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Elf (Ranger)						VISIBLE:NO	PRERACE:1,Elf (Wood)						!PRETEMPLATE:1,Elf (Druid)												FAVOREDCLASS:Ranger		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Elf (Rogue)							VISIBLE:NO	PRERACE:1,Elf (Dark)						!PRETEMPLATE:1,Elf (Sorceror)												FAVOREDCLASS:Rogue		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Elf (Sorceror)						VISIBLE:NO	PRERACE:1,Elf (Dark)						!PRETEMPLATE:1,Elf (Rogue)												FAVOREDCLASS:Sorceror		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Elf (Wizard)						VISIBLE:NO	PRERACE:1,Elf (Forsaken)					!PRETEMPLATE:1,Elf (Cleric)												FAVOREDCLASS:Wizard.Wizard	REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Half-Orc (Barbarian)					VISIBLE:NO	PRERACE:1,Half-Orc						!PRETEMPLATE:1,Half-Orc (Rogue)											FAVOREDCLASS:Barbarian		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen
+Half-Orc (Rogue)						VISIBLE:NO	PRERACE:1,Half-Orc						!PRETEMPLATE:1,Half-Orc (Barbarian)											FAVOREDCLASS:Rogue		REMOVABLE:NO	SOURCE:SS - Scarred Lands - DM's Screen

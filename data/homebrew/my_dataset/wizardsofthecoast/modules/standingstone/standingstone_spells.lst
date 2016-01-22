@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+SOURCELONG:The Standing Stone	SOURCESHORT:StandingS	SOURCEWEB:http://www.wizards.com/
+
+# Spell Name	Classes of caster	School			Type		Components		Casting Time	Range		Item		Target Area or Effect				Duration			Save Info			Spell Resistance	Description													Source Page
+Create Faux Human	CLASSES:Druid=5	SCHOOL:Transmutation	TYPE:Divine	COMPS:V, S, DF	CASTTIME:1 day	RANGE:Touch	ITEM:Potion	TARGETAREA:Tiny or Small animal touched	DURATION:Instantaneous	SAVEINFO:Will Negates	SPELLRES:Yes	DESC:Transform a Tiny or Small animal into a sentient humanoid (halfling or human)	SOURCEPAGE:p.32
+

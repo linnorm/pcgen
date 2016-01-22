@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Modifier Name	Unique Key		Type		Cost			Type granted	Source Page
+Silvered		KEY:WEAPSLVR	TYPE:Weapon	COST:BASECOST*4	ITYPE:Silvered	SOURCEPAGE:p.
+

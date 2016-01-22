@@ -1,0 +1,19 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Book of Erotic Fantasy	SOURCESHORT:BoEF	SOURCEWEB:http://www.bookoferoticfantasy.com
+
+
+# Skill Name				Key Stat	Untrained?		Skill Penalty Apply	Exclusive?		Type				Source Page
+Craft (Bondage Gear)			KEYSTAT:INT	USEUNTRAINED:NO								TYPE:Intelligence.Craft	SOURCEPAGE:pg. 43
+Craft (Scarification Artist)		KEYSTAT:INT	USEUNTRAINED:NO								TYPE:Intelligence.Craft	SOURCEPAGE:pg. 43
+Craft (Sexual Items)			KEYSTAT:INT	USEUNTRAINED:NO								TYPE:Intelligence.Craft	SOURCEPAGE:pg. 43
+Craft (Tattoo Artist)			KEYSTAT:INT	USEUNTRAINED:NO								TYPE:Intelligence.Craft	SOURCEPAGE:pg. 43
+Perform (Sexual Techniques)		KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NO			EXCLUSIVE:NO	TYPE:Perform.Charisma	SOURCEPAGE:pg. 44
+Profession (Courtesan)			KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44
+Profession (Masseuse)			KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44
+Profession (Master)			KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44
+Profession (Midwife)			KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44
+Profession (Piercer)			KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44
+Profession (Prostitute)			KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44
+Profession (Purveyor)			KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44
+Profession (Scarification Artist)	KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44
+Profession (Tattoo Artist)		KEYSTAT:WIS	USEUNTRAINED:NO								TYPE:Wisdom.Profession	SOURCEPAGE:pg. 44

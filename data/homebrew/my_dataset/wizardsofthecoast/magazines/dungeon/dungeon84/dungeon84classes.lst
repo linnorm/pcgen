@@ -1,0 +1,28 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# $Author: ericbeaudoin $
+
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Rquired Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class
+
+SOURCELONG:Wizards of the Coast - Dungeon #84	SOURCESHORT:WotC-Dungeon #84	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+# Class Name		Hit Dice	Type			Source Page			Save checks bonus															Combat bonus
+CLASS:Arachnemancer	HD:6		TYPE:PC.Prestige	SOURCEPAGE:p.54-55	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*(3/4)|TYPE=Base.REPLACE
+# Class Name		Required AL		Required Skill								Req. Known Spell
+CLASS:Arachnemancer	PREALIGN:LE,NE,CE	PRESKILL:1,Climb=3	PRESKILL:1,Knowledge (Nature)=4	PRESPELL:3,Spider Climb,Summon Monster III,Web
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Arachnemancer	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Hide|Jump|Knowledge (Arcana)|Knowledge (Nature)|Jump|Move Silently|Spellcraft|Spot
+# Class Name		Spell Stat		Spell Type
+CLASS:Arachnemancer	SPELLSTAT:INT	SPELLTYPE:Arcane
+1	CAST:0,2		SAB:Poison Save Bonus +1	SAB:Speak With Spiders	SAB:Spider Magic	FEAT:Simple Weapon Proficiency
+2	CAST:0,2,1		SAB:Poison Save Bonus +2	SAB:Spiderform
+3	CAST:0,2,2		SAB:Poison Save Bonus +3	SAB:Poison Touch (1 Str)
+4	CAST:0,2,2,1	SAB:Command Spiders	SAB:Poison Save Bonus +4
+5	CAST:0,2,2,2	SAB:Poison Save Bonus +5	SAB:Poison Touch
+6	CAST:0,2,2,2,1	SAB:Poison Save Bonus +6	SAB:Poison Touch (1d3 Str)
+7	CAST:0,2,2,2,2	SAB:Poison Save Bonus +7
+8	CAST:0,3,3,2,2	SAB:Poison Save Bonus +8	SAB:Poison Touch
+9	CAST:0,3,3,3,2	SAB:Poison Save Bonus +9	SAB:Poison Touch (1d6 Str)
+10	CAST:0,3,3,3,3	SAB:Poison Save Bonus +10	SAB:Spider Blast

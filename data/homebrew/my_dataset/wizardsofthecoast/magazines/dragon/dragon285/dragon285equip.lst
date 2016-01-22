@@ -1,0 +1,13 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #285	SOURCESHORT:WotC-Dragon #285	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name				Type						Cost		Weight	Source Page
+Footsaw Trap				TYPE:Goods.General.Halfling		COST:700	WT:15		SOURCEPAGE:p.
+Instant Campfire				TYPE:Goods.Alchemical.Halfling	COST:50	WT:10		SOURCEPAGE:p.
+Stone Sleeve				TYPE:Goods.General.Halfling		COST:2	WT:0		SOURCEPAGE:p.
+Wagon Shields (6)				TYPE:Goods.General.Halfling		COST:75	WT:240	SOURCEPAGE:p.
+Wagon Shields with arrowslits (6)	TYPE:Goods.General.Halfling		COST:100	WT:240	SOURCEPAGE:p.
+Halfling Trail Bread			TYPE:Goods.Food.Halfling		COST:50	WT:1		SOURCEPAGE:p.
+Grondiel's Chicken Soup			TYPE:Goods.Food.Halfling		COST:70	WT:1		SOURCEPAGE:p.
+Moonmoss Pudding				TYPE:Goods.Food.Halfling		COST:150	WT:1		SOURCEPAGE:p.
+Zumzum Cake					TYPE:Goods.Food.Halfling		COST:75	WT:1		SOURCEPAGE:p.

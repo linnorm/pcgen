@@ -1,0 +1,19 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Equipment Name					Required Proficiency			Type						Cost		Weight	Critical Hit Range	Damage			Range		Size		Source Page
+Alliance Adjucator (Silenced Holdout)							TYPE:Weapon.Ranged.Slugthrower	COST:300	WT:0.7	CRITRANGE:1			DAMAGE:3d4			RANGE:3	SIZE:S	SOURCEPAGE:conversions.swrpgnetwork.com
+Blaster Pistol (Blastech DH-17)		PROFICIENCY:WEAPON|Blaster Pistol	TYPE:Weapon.Ranged.BlasterPistol	COST:800	WT:1		CRITRANGE:1			DAMAGE:2d8(1d6/15)	RANGE:10	SIZE:S	SOURCEPAGE:conversions.swrpgnetwork.com
+Explosive Charge											TYPE:Weapon.Ranged.Explosives		COST:100	WT:0.2					DAMAGE:2d6/1d6		RANGE:2	SIZE:L	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Grenade Mortar											TYPE:Weapon.Ranged.HeavyWeapon	COST:3500	WT:60						DAMAGE:4d6/2d6		RANGE:100	SIZE:L	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Heavy Blaster Carbine										TYPE:Weapon.Ranged.BlasterRifle	COST:1800	WT:4.4	CRITRANGE:2			DAMAGE:4d8			RANGE:20	SIZE:L	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Heavy Blaster Rifle										TYPE:Weapon.Ranged.BlasterRifle	COST:2000	WT:9		CRITRANGE:2			DAMAGE:4d8			RANGE:40	SIZE:L	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Heavy Slugthrower (Pistol)									TYPE:Weapon.Ranged.Slugthrower	COST:300	WT:1.7	CRITRANGE:1			DAMAGE:2d8			RANGE:8	SIZE:M	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Magna-Caster											TYPE:Weapon.Ranged.Slugthrower	COST:2000	WT:2.2	CRITRANGE:1			DAMAGE:4d8			RANGE:10	SIZE:M	SOURCEPAGE:conversions.swrpgnetwork.com
+Microgrenade Launcher										TYPE:Weapon.Ranged.HeavyWeapon	COST:2500	WT:5						DAMAGE:3d6/1d6		RANGE:30	SIZE:M	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Mine													TYPE:Weapon.Ranged.Explosives		COST:400	WT:2						DAMAGE:8d6/4d6		RANGE:8	SIZE:S	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Repeating Blaster Carbine									TYPE:Weapon.Ranged.BlasterRifle	COST:1800	WT:3		CRITRANGE:2			DAMAGE:3d8			RANGE:20	SIZE:M	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Rocket Launcher											TYPE:Weapon.Ranged.HeavyWeapon	COST:1500	WT:10						DAMAGE:5d6/3d6		RANGE:50	SIZE:L	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Sniper Blaster Rifle										TYPE:Weapon.Ranged.BlasterRifle	COST:20000	WT:90		CRITRANGE:2			DAMAGE:6d8			RANGE:80	SIZE:L	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Subrepeating Blaster										TYPE:Weapon.Ranged.BlasterPistol	COST:1000	WT:1.5	CRITRANGE:1			DAMAGE:3d6			RANGE:10	SIZE:M	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Vac-Blades												TYPE:Weapon.Ranged.Slugthrower	COST:700	WT:0.4	CRITRANGE:1			DAMAGE:2d6			RANGE:8	SIZE:T	SOURCEPAGE:conversions.swrpgnetwork.com

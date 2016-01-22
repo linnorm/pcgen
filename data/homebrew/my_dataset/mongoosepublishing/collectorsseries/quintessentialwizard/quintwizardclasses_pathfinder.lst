@@ -1,0 +1,14 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Wizard	SOURCESHORT:QuintWizard	SOURCEWEB:http://mongoosepublishing.com
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Wordbearer	HD:4		TYPE:PC.Prestige	ABB:WdB		MAXLEVEL:5	SOURCEPAGE:pg. 34	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required Feat		Required Skill				Req. Known Spell
+CLASS:Wordbearer	PREFEAT:1,Quicken Spell	PRESKILL:1,Knowledge (Arcana)=13	PRESPELL:1,Power Word Blind,Power Word Kill,Power Word Stun
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Wordbearer	STARTSKILLPTS:2	CSKILL:TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft
+1	SAB:Word of Power- Sleep
+2	SAB:Word of Power- Terror
+3	SAB:Word of Power- Pain
+4	SAB:Word of Power- Destroy
+5	SAB:Word of Power- Annihilate

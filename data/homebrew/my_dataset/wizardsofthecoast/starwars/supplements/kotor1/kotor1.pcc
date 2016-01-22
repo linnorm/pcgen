@@ -1,0 +1,17 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $
+CAMPAIGN:Kights of the Old Republic 1
+RANK:9
+GAMEMODE:StarWars
+GENRE:sciencefiction
+BOOKTYPE:Sourcebook
+SETTING:Star Wars
+TYPE:Net.Supplement
+SOURCELONG:Kights of the Old Republic 1
+SOURCESHORT:kotor1
+SOURCEWEB:http://www.wizards.com/starwars
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+
+
+CLASS:kotor1_classes.lst
+FEAT:kotor1_feats.lst

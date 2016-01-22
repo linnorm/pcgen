@@ -1,0 +1,95 @@
+# CVS $Revision: 1.7 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# Sat 2 Feb 2002 - started by balesir
+SOURCELONG:Star Wars Gamer 3	SOURCESHORT:SWG3	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+#Droid bodies/chassis
+# Equipment Name				Type									Contains								Cost			Weight	AC Penalty Check	Maximum DEX Bonus	Source Page						Combat bonus					Bonus to skill										Stat bonus								Special Property
+Humanoid (thorax+head)			TYPE:SWDroid.Chassis.Container				CONTAINS:1000|Mount=6|Weaponmount=2|DroidBrain=1
+Astromech (barrel+dome)			TYPE:SWDroid.Chassis.Container				CONTAINS:1000|Mount=6|Weaponmount=1|DroidBrain=1
+Treadwell (geometric body)		TYPE:SWDroid.Chassis.Container				CONTAINS:1000|Mount=6|Weaponmount=6|DroidBrain=1
+Insectoid (abdomen+thorax+head)	TYPE:SWDroid.Chassis.Container				CONTAINS:1000|Mount=4|Weaponmount=4|DroidBrain=1
+
+#Manipulators, Arms and Probes
+#Equipment Name				Type							Cost		Weight	Prerequisite	Capacity
+Simple Probe Arm				TYPE:SWDroid.Appendage.Mount.Container												COST:5		WT:0.5
+Computer Interface Probe		TYPE:SWDroid.Appendage.Mount														COST:10		WT:0.5
+Hypodermic Probe				TYPE:SWDroid.Appendage.Mount														COST:10		WT:0.5
+Telescopic Appendage			TYPE:SWDroid.Appendage.Mount.Container												COST:25		WT:2.0
+Humanoid Digital Manipulator Arm	TYPE:SWDroid.Appendage.Mount														COST:400		WT:3.0
+Tool Mount					TYPE:SWDroid.Appendage.Mount.Container												COST:10		WT:0.2
+Weapon Mount				TYPE:SWDroid.Appendage.Mount.Weaponmount.Container	CONTAINS:10|Any=1|Weapon=1					COST:30		WT:1.0
+
+#Accessories
+#Equipment Name				Type					Cost		Weight	Prerequisite	Special and bonuses
+Locked Access				TYPE:SWDroid.Accessories														COST:50		WT:0.5
+Magnetic Feet				TYPE:SWDroid.Accessories														COST:80		WT:5
+Environmental Compensation (Heat)	TYPE:SWDroid.Accessories														COST:100		WT:4																																											SPROP:Unaffected by heat (up to red hot)
+Environmental Compensation (Cold)	TYPE:SWDroid.Accessories														COST:100		WT:4																																											SPROP:Unaffected by cold
+Environmental Compensation (Dust)	TYPE:SWDroid.Accessories														COST:100		WT:4																																											SPROP:Unaffected by environmental dust
+Environmental Compensation (Water)	TYPE:SWDroid.Accessories														COST:100		WT:4																																											SPROP:Unaffected by water immersion
+Heuristic Processor			TYPE:SWDroid.Accessories														COST:2000		WT:5																																											SPROP:Allows use of untrained skills
+Improved Sensor Package			TYPE:SWDroid.Accessories.Sensors													COST:200		WT:2.5																					BONUS:SKILL|Listen,Spot,Search|2|TYPE=Equipment														SPROP:Wide spectrum sight and hearing
+Infrared Vision Package			TYPE:SWDroid.Accessories.Sensors													COST:150		WT:1.5																																										SPROP:Gives Darkvision
+Low-light Vision Package		TYPE:SWDroid.Accessories.Sensors													COST:200		WT:2																																											SPROP:Gives Low-light vision
+Telescopic Vision Package		TYPE:SWDroid.Accessories.Sensors													COST:100		WT:1.5																																										SPROP:Range penalty for vision -1 per 40m
+360 Degree Vision Package		TYPE:SWDroid.Accessories.Sensors													COST:200		WT:1																																											SPROP:+2 equipment bonus vs. surprise
+Motion Sensor Package			TYPE:SWDroid.Accessories.Sensors													COST:100		WT:1																						BONUS:SKILL|Spot|2|TYPE=Equipment
+Sonic Sensor Package			TYPE:SWDroid.Accessories.Sensors													COST:100		WT:1																						BONUS:SKILL|Listen|2|TYPE=Equipment
+Diagnostics Package			TYPE:SWDroid.Accessories														COST:250		WT:4																																											SPROP:+4 equipment bonus to Repair for diagnosis
+Vocabulator					TYPE:SWDroid.Accessories														COST:50		WT:0.5																																										SPROP:Allows droid to speak
+Comlink					TYPE:SWDroid.Accessories														COST:250		WT:0.1
+Translator Unit (DC30)			TYPE:SWDroid.Accessories														COST:50
+Translator Unit (DC25)			TYPE:SWDroid.Accessories														COST:150		WT:0.5
+Translator Unit (DC20)			TYPE:SWDroid.Accessories														COST:300		WT:1
+Translator Unit (DC15)			TYPE:SWDroid.Accessories														COST:500		WT:2
+Translator Unit (DC10)			TYPE:SWDroid.Accessories														COST:750		WT:4
+Translator Unit (DC5)			TYPE:SWDroid.Accessories														COST:1000		WT:8
+Recording Unit (audio)			TYPE:SWDroid.Accessories														COST:100		WT:2
+Recording Unit (video)			TYPE:SWDroid.Accessories														COST:250		WT:5
+Recording Unit (holo)			TYPE:SWDroid.Accessories														COST:400		WT:5
+Self Destruct				TYPE:SWDroid.Accessories														COST:250		WT:5
+Internal Storage				TYPE:SWDroid.Accessories.Container				CONTAINS:1|Any=10							COST:50		WT:0
+Rust Inhibitor				TYPE:SWDroid.Accessories														COST:40																																													SPROP:+2 Fort. save vs. rust
+# ?ric Beaudoin - 2002.06.25 - The BONUS:DR tags has been added for 2.6.9 but the
+# three following entries already had it although not with the right syntax.
+# I'm commenting out the BONUS:DR tags for now.
+#Shields (DR5)				TYPE:SWDroid.Accessories.Shields				COST:1000		WT:10											SOURCE:StarWars Core Rulebook p.289								PRERACE:Droid							BONUS:DR|5
+#Shields (DR10)				TYPE:SWDroid.Accessories.Shields				COST:2000		WT:20											SOURCE:StarWars Core Rulebook p.289								PRERACE:Droid							BONUS:DR|10
+#Shields (DR15)				TYPE:SWDroid.Accessories.Shields				COST:3000		WT:30											SOURCE:StarWars Core Rulebook p.289								PRERACE:Droid							BONUS:DR|15
+Shields (DR5)				TYPE:SWDroid.Accessories.Shields													COST:1000		WT:10
+Shields (DR10)				TYPE:SWDroid.Accessories.Shields													COST:2000		WT:20
+Shields (DR15)				TYPE:SWDroid.Accessories.Shields													COST:3000		WT:30
+Fire Extinguisher				TYPE:SWDroid.Accessories.Tools													COST:50		WT:3
+Spare Fire Extinguisher Cartridge	TYPE:SWDroid.Accessories														COST:1		WT:1
+Flame Thrower				TYPE:SWDroid.Accessories.Tools													COST:400		WT:7																																											SPROP:8m flame burst (Ref.save or 2d8+2 Dmg.)
+Flame Thrower Cartridge (10 burst)	TYPE:SWDroid.Accessories														COST:20		WT:5
+Security Protocols Package		TYPE:SWDroid.Accessories														COST:400		WT:4																						BONUS:SKILL|Bluff|Listen|Search|Sense Motive|Spot|1|TYPE=Equipment
+Spring Loaded Launcher			TYPE:SWDroid.Accessories														COST:150		WT:0.5																																										SPROP:Fire up to 4kg projectile up to 30m as attack action, DC5 to hit square
+Welding Laser				TYPE:SWDroid.Accessories.Tools													COST:300		WT:1.5																																										SPROP:+4 Repair to fix ship hull or similar, +3 Repair at GM discretion
+Droid Code Cylinder			TYPE:SWDroid.Accessories														COST:500		WT:0.1
+Inbuilt Datapad				TYPE:SWDroid.Accessories														COST:1000		WT:3
+Inbuilt Grappling Spike Launcher	TYPE:SWDroid.Accessories.Tools													COST:50		WT:0.3
+Inbuilt Holoprojector (Personal)	TYPE:SWDroid.Accessories														COST:1000		WT:0.5
+Inbuilt Liquid Cable Dispenser	TYPE:SWDroid.Accessories														COST:25		WT:0.2
+Inbuilt Medpac Unit			TYPE:SWDroid.Accessories.Tools													COST:100		WT:1																																											SPROP:Heals 1 WP
+Medpack Unit Refill			TYPE:SWDroid.Accessories														COST:100		WT:1
+Inbuilt Security Kit			TYPE:SWDroid.Accessories.Tools													COST:500		WT:1																						BONUS:SKILL|Disable Device|2|TYPE=Equipment														SPROP:+2 to Repair for security
+Inbuilt Security Kit (Deluxe)		TYPE:SWDroid.Accessories.Tools													COST:1000		WT:1.2																					BONUS:SKILL|Disable Device|4|TYPE=Equipment														SPROP:+4 to Repair for security
+Inbuilt Tool Kit				TYPE:SWDroid.Accessories.Tools													COST:250		WT:1																						BONUS:SKILL|Repair|2|TYPE=Equipment																SPROP:+2 to some craft checks
+
+
+#Droid Brains
+#Equipment Name				Type				Cost		Weight		Prerequisite	Special and bonuses
+Verbobrain					TYPE:SWDroid.DroidBrain															COST:500		WT:5																						BONUS:SKILL|Diplomacy,Knowledge (Etiquette)|4|TYPE=Equipment		BONUS:STAT|CHA|2|TYPE=Equipment	BONUS:STAT|WIS|-2	SPROP:Translator (DC5)
+Remote Processor (5 km.range)		TYPE:SWDroid.DroidBrain															COST:1000		WT:10
+Remote Processor (50 km.range)	TYPE:SWDroid.DroidBrain															COST:10000		WT:100
+Remote Processor (500 km.range)	TYPE:SWDroid.DroidBrain															COST:100000		WT:1000
+Remote Processor (5000 km.range)	TYPE:SWDroid.DroidBrain															COST:1000000	WT:10000
+Remote Receiver				TYPE:SWDroid.DroidBrain															COST:50		WT:1															BONUS:COMBAT|Initiative|-2
+
+#Droid Armour
+# Equipment Name				Type									Contains								Cost			Weight	AC Penalty Check	Maximum DEX Bonus	Source Page						Combat bonus					Bonus to skill										Stat bonus								Special Property
+Droid Blast Protection			TYPE:SWDroid.Armor.Light														COST:500		WT:3		ACCHECK:-1		MAXDEX:5		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Droid Combat Armour			TYPE:SWDroid.Armor.Light														COST:1500		WT:8		ACCHECK:-3		MAXDEX:4		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+Droid Light Battle Armour		TYPE:SWDroid.Armor.Medium														COST:2000		WT:13		ACCHECK:-4		MAXDEX:3		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE
+Droid Medium Battle Armour		TYPE:SWDroid.Armor.Medium														COST:6000		WT:16		ACCHECK:-5		MAXDEX:3		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Droid Heavy Battle Armour		TYPE:SWDroid.Armor.Heavy														COST:12000		WT:35		ACCHECK:-7		MAXDEX:0		SOURCEPAGE:p.121, converted for droids	BONUS:COMBAT|AC|9|TYPE=Armor.REPLACE

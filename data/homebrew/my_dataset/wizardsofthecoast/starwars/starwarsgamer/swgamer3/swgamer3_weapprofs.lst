@@ -1,0 +1,27 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# Sun Feb  23 Converted by balesir
+SOURCELONG:Star Wars Gamer 3	SOURCESHORT:SWG3	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+# Weapon Name				Type			Nb Hands
+Droid Club/Baton				TYPE:SWSimple
+Droid Force Pike				TYPE:Vibro		HANDS:2
+Droid Knife					TYPE:SWSimple
+Droid Spike					TYPE:Primitive
+Droid Stun Baton				TYPE:SWSimple
+Droid Vibro-Ax				TYPE:Vibro
+Droid Vibroblade				TYPE:Vibro
+Droid Vibrodagger				TYPE:Vibro
+Droid Blaster Pistol			TYPE:BlasterP
+Droid Blaster (Heavy)			TYPE:BlasterP
+Droid Blaster (Hold-Out)		TYPE:BlasterP
+Droid Blaster (Sporting)		TYPE:BlasterP
+Droid Ion Gun (Pistol)			TYPE:BlasterP
+Droid Blaster Carbine			TYPE:BlasterR
+Droid Blaster Rifle			TYPE:BlasterR
+Droid Blaster Rifle (Sport)		TYPE:BlasterR
+Droid Blaster (Light Repeating)	TYPE:BlasterR
+Droid Ion Gun (Rifle)			TYPE:BlasterR
+Droid Net Caster				TYPE:Primitive
+Droid Slugthrower (Pistol)		TYPE:Slug
+Droid Slugthrower (Rifle)		TYPE:Slug
+Droid Hand					TYPE:SWSimple
+Droid Claw					TYPE:MartialArts

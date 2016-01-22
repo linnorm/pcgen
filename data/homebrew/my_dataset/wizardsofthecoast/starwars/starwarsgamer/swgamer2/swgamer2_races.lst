@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 2	SOURCESHORT:SWG2	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Race Name	Favored Class			Starting Feats	Size		Move			Automatic Languages	Bonus Languages	Bonus to skill						Stat bonus											Feat		Source Page
+Duros		FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30	LANGAUTO:Basic		LANGBONUS:ALL									BONUS:STAT|STR|-2	BONUS:STAT|DEX|2	BONUS:STAT|CON|-2	BONUS:STAT|INT|2	FEAT:Spacer	SOURCEPAGE:p.76
+Talid		FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30	LANGAUTO:Basic		LANGBONUS:ALL	BONUS:SKILL|Handle Animal,Hide,Ride,Survival|2	BONUS:STAT|DEX|-2	BONUS:STAT|CON|2									SOURCEPAGE:p.74

@@ -1,0 +1,21 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Tue Jun  7 14:56:06 2005 -- reformated by prettylst.pl v1.34 (build 455)
+CAMPAIGN:Hero's Guide
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Sourcebook
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Supplement
+SOURCELONG:Hero's Guide
+SOURCESHORT:HeroGuide
+SOURCEWEB:http://www.wizards.com/starwars
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+
+
+CLASS:herosguide_classes.lst
+EQUIPMENT:herosguide_equip.lst
+EQUIPMOD:herosguide_equipmods.lst
+FEAT:herosguide_feats.lst
+FEAT:herosguide_feats_hidden.lst
+SKILL:herosguide_skills.lst

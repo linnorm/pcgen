@@ -1,0 +1,20 @@
+SOURCELONG:Dragon Wing Games - Spells and Magic	SOURCESHORT:SpellsandMagic	SOURCEWEB:http://www.dragonwing.net
+
+
+# Ability Name		Category of Ability		Type									Visible	Define														Description																	Source Page
+Shadeseer Energy Drain	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AttackOption	DESC:Energy Drain %1/day DC:%2|ShadeseerEnergyDrainPerDay|ShadeseerEnergyDrainDC	BONUS:VAR|ShadeseerEnergyDrainDC|10+(var("CL=Shadeseer")/2)+CHA	BONUS:VAR|ShadeseerEnergyDrainPerDay|1	DEFINE:ShadeseerEnergyDrainPerDay|0	DEFINE:ShadeseerEnergyDrainDC|0	SOURCEPAGE:pg. 56
+Undead Servitor		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural			DESC:Character attracts a Ghast, Ghoul, Shadow, Skeleton, Wight, Wraith, or Zombie servitor.	SOURCEPAGE:pg. 56
+
+
+Blood Fuel			CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You only take %1 points of damage per spell level instead of 5 when using Blood Power.|BloodPowerDamage	SOURCEPAGE:pg. 6
+Blood Fuel I		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:NO		BONUS:VAR|BloodPowerDamage|-1	SOURCEPAGE:pg. 6
+Blood Fuel II		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:NO		BONUS:VAR|BloodPowerDamage|-1	SOURCEPAGE:pg. 6
+Blood Fuel III		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:NO		BONUS:VAR|BloodPowerDamage|-1	SOURCEPAGE:pg. 6
+Ability Fuel		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You may power your spells with ability damage instead of hit points. You take %1 points of temporary ability damage per spell level.|AbilityFuelDamage		SOURCEPAGE:pg. 6
+Ability Fuel I		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:NO	DEFINE:AbilityFuelDamage|2
+Ability Fuel II		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:NO	BONUS:VAR|AbilityFuelDamage|-1
+Blood Mixing		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You may reduce the monetary cost of creating a potion or scroll by 100gp per hp of blood.	SOURCEPAGE:pg. 7
+Blood Mastery		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You may power your spells with the life force of others.	SOURCEPAGE:pg. 7
+Fortitude Fuel		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You may use your Fortitude to power your spells. You take a -1 penalty to all Fortitude saves per spell level.	SOURCEPAGE:pg. 7
+Blood Burn			CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You may permanently sacrifice hp to gain extra spell slots. You gain 1 spell slot level per 3 points sacrificed.	SOURCEPAGE:pg. 7
+

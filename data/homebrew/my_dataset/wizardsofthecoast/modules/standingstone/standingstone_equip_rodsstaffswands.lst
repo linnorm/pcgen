@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:The Standing Stone	SOURCESHORT:StandingS	SOURCEWEB:http://www.wizards.com/
+
+###Block:Staves
+# Equipment Name	Type			Cost		Weight	Source Page		Special Property
+Undying Staff	TYPE:Magic.Staff	COST:27375	WT:0		SOURCEPAGE:p.32	SPROP:Animate Dead (1 charge) ~ Create Undead (2 charges)

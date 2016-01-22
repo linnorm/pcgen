@@ -1,0 +1,22 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $
+CAMPAIGN:Star Wars Gamer Issue 5
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Magazine
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Magazine
+SOURCELONG:Star Wars Gamer 5
+SOURCESHORT:SWG5
+SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+INFOTEXT:Star Wars Gamer Magazine
+
+BIOSET:swgamer5_biosettings.lst
+CLASS:swgamer5_classes.lst
+EQUIPMENT:swgamer5_equip_weap_ranged.lst
+FEAT:swgamer5_feats.lst
+RACE:swgamer5_races.lst
+SKILL:swgamer5_skills.lst
+WEAPONPROF:swgamer5_weaponprof.lst

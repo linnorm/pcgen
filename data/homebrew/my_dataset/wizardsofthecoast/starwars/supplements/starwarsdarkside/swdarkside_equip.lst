@@ -1,0 +1,8 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Darkside Sourcebook	SOURCESHORT:DSSB	SOURCEWEB:http://www.wizards.com/starwars
+
+# Equipment Name		Type		Cost		Weight	Source Page		Special Property
+Alchemical Apparatus	TYPE:Items	COST:10000			SOURCEPAGE:p.65
+Fusion Lantern		TYPE:Items	COST:25	WT:2		SOURCEPAGE:p.
+Sith Amulet			TYPE:Items	COST:0			SOURCEPAGE:p.66	SPROP:dark side energy blast's;  See pg. 66 Dark Side Sourcebook
+Sith Talisman		TYPE:Items	COST:0			SOURCEPAGE:p.67	SPROP:Absorbs damage; see pg. 67 Dark Side Sourcebook

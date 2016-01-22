@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Output Name					Required Proficiency	Type			Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Size		Source Page		Weapon prop. bonus					Special Property
+Rod (Force)			OUTPUTNAME:Rod of [NAME]		TYPE:Magic.Rod	COST:125000	WT:3		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	SIZE:M	SOURCEPAGE:p.155	BONUS:WEAPON|DAMAGE,TOHIT|1TYPE=Enhancement	SPROP:Blast of Force/Wall of Force/Blade of Force (any combination 5/day)
+Tentacle Rod (Greater)	OUTPUTNAME:[NAME] Tentacle Rod					TYPE:Magic.Rod	COST:21000	WT:3														SOURCEPAGE:p.155
+Tentacle Rod (Lesser)	OUTPUTNAME:[NAME] Tentacle Rod					TYPE:Magic.Rod	COST:57000	WT:3														SOURCEPAGE:p.155

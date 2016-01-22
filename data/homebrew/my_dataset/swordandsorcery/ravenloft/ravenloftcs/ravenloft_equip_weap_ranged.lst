@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Equipment Name			Required Proficiency		Type						Contains				Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Wield Category	Range		Size		Source Page
+Pistol				PROFICIENCY:WEAPON|Firearms	TYPE:Weapon.Exotic.Ranged.Piercing	CONTAINS:UNLIM|PistolBullet=1	COST:250	WT:3		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10	WIELD:OneHanded	RANGE:50	SIZE:S	SOURCEPAGE:p.56
+Musket				PROFICIENCY:WEAPON|Firearms	TYPE:Weapon.Exotic.Ranged.Piercing	CONTAINS:UNLIM|RifleBullet=1	COST:500	WT:10		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d12	WIELD:TwoHanded	RANGE:150	SIZE:M	SOURCEPAGE:p.56
+Rapier (Parthian/Firearm)	PROFICIENCY:WEAPON|Firearms	TYPE:Weapon.Exotic.Ranged.Piercing	CONTAINS:UNLIM|PistolBullet=1	COST:300	WT:5		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10	WIELD:OneHanded	RANGE:50	SIZE:M	SOURCEPAGE:p.56
+

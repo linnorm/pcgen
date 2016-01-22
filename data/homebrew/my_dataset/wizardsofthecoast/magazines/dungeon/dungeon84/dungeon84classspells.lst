@@ -1,0 +1,9 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Thu Feb 26 13:34:58 2004 -- reformated by prettylst.pl v1.31 (build 327)
+# $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #84|SOURCESHORT:WotC-Dungeon #84|SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+# #'s (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) Indicate level that spell belongs to) -- Spells seperated by a Pipe Delimiter "|"
+CLASS:Arachnemancer
+1	Cause Fear|Spider Climb|Spider Friendship|Summon Monstrous Spider I
+2	Spiderskin|Summon Monstrous Spider II|Summon Spider Swarm|Web
+3	Giant Vermin|Neutralize Poison|Poison|Summon Monstrous Spider III
+4	Spider Plague|Summon Monstrous Spider IV|Wall Of Webs

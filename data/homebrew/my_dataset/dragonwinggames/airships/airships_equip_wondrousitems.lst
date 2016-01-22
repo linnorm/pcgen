@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Dragon Wing Games - Airships	SOURCESHORT:Airships	SOURCEWEB:http://www.dragonwing.net
+
+# Equipment Name		Type				Cost		Weight
+Arcane Tethers		TYPE:Goods			COST:5000	WT:0
+Incense of Navigation	TYPE:Goods.Incense	COST:1925	WT:1
+Lightning Canister	TYPE:Goods			COST:1000	WT:5

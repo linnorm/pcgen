@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Equipment Name			Type							Cost		Weight	Source Page
+Bullet (Pistol)			TYPE:Ammunition.PistolBullet			COST:.3	WT:.2		SOURCEPAGE:p.
+Bullet (Rifle)			TYPE:Ammunition.RifleBullet			COST:.3	WT:.2		SOURCEPAGE:p.
+Bullet (Pistol/Silvered)	TYPE:Ammunition.PistolBullet.Silvered	COST:1.5	WT:.2		SOURCEPAGE:p.
+Bullet (Rifle/Silvered)		TYPE:Ammunition.RifleBullet.Silvered	COST:1.5	WT:.2		SOURCEPAGE:p.
+

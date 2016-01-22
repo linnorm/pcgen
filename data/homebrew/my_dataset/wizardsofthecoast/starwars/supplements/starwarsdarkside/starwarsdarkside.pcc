@@ -1,0 +1,23 @@
+# CVS $Revision: 2.0 $ $Author: ericbeaudoin $
+CAMPAIGN:Darkside Source Book
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Sourcebook
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Supplement
+SOURCELONG:Darkside Sourcebook
+SOURCESHORT:DSSB
+SOURCEWEB:http://www.wizards.com/starwars
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+
+
+CLASS:swdarkside_classes.lst
+EQUIPMENT:swdarkside_equip.lst
+EQUIPMENT:swdarkside_equip_weap_melee.lst
+EQUIPMENT:swdarkside_equip_weap_ranged.lst
+FEAT:swdarkside_feats.lst
+LANGUAGE:swdarkside_languages.lst
+SKILL:swdarkside_skills.lst
+WEAPONPROF:swdarkside_weap_profs.lst

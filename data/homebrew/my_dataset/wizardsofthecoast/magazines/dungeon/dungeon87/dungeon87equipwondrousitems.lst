@@ -1,0 +1,9 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #87	SOURCESHORT:WotC-Dungeon #87	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+# Equipment Name		Type				Cost		Weight	Source Page			Special Property
+Brazier of Warmth		TYPE:Magic.Wondrous	COST:1500	WT:12		SOURCEPAGE:p.91		SPROP:Heats 30 fot. radius to 70 degrees
+Shalm of the Fifth Wind	TYPE:Magic.Wondrous	COST:15310	WT:2		SOURCEPAGE:p.133		SPROP:casts the following spells 1/day based on Perform Check; hold person, scare and soundburst
+Talisman of White Rage	TYPE:Magic.Wondrous	COST:40000			SOURCEPAGE:p.98-99	SPROP:Incite rage in white dragons
+

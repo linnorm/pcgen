@@ -1,0 +1,20 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Feat Name				Type					Visible	Required Class				Prohibited Class				Required Var. value	Special ABility							Define							Stackable?	Multiple?	Choose									Selections	Add 									Bonus to skill		Bonus to skill rank	Modify VAR						Class Skill
+Dark Side Skill Emphasis	TYPE:Special			VISIBLE:NO																																				MULT:YES	CHOOSE:SKILLSNAMED|TYPE=DarkSide																BONUS:SKILL|LIST|3
+Deflect Defense Base		TYPE:Special			VISIBLE:NO																	SAB:Deflect (Defense +%)|DeflectDefence													MULT:NO
+Deflect Defense			TYPE:Special			VISIBLE:NO																																																																			BONUS:VAR|DeflectDefence|1|TYPE=Dodge
+Deflect Attack Base		TYPE:Special			VISIBLE:NO																	SAB:Deflect (Attack -%)|DeflectAttack													MULT:NO
+Deflect Attack			TYPE:Special			VISIBLE:NO																																																																			BONUS:VAR|DeflectAttack|-1
+Expert				TYPE:Special			VISIBLE:NO
+Instant Mastery			TYPE:Special			VISIBLE:NO																																		STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE=Intelligence|!TYPE=Force|NORANK																BONUS:SKILLRANK|LIST|4
+Jedi Knight				TYPE:Special			VISIBLE:NO													PREVAREQ:JediLevel,7																				MULT:NO													ADD:FEAT|TYPE=JediKnightBonus
+Jedi Knight Base			TYPE:Special.JediKnightBonus	VISIBLE:NO							!PRECLASS:1,TYPE=Jedi.Prestige=1	PREVAREQ:JediLevel,7																				MULT:NO													ADD:FEAT|Weapon Focus (Lightsaber),TYPE=JediKnight
+Jedi Knight Ace			TYPE:Special.JediKnightBonus	VISIBLE:NO	PRECLASS:1,Jedi Ace=1									PREVAREQ:JediLevel,7																				MULT:NO													ADD:FEAT|Skill Emphasis (Pilot),TYPE=JediAceKnight
+Jedi Knight Investigator	TYPE:Special.JediKnightBonus	VISIBLE:NO	PRECLASS:1,Jedi Investigator=1							PREVAREQ:JediLevel,7																				MULT:NO													ADD:FEAT|TYPE=JediInvestigatorKnight
+Lightsaber Damage Bonus Base	TYPE:Special			VISIBLE:NO																	SAB:Lightsaber Damage Bonus (+%d8)|LightsaberDamage											MULT:NO
+Lightsaber Damage Bonus		TYPE:Special			VISIBLE:NO																																		STACK:YES	MULT:YES	CHOOSE:STRING|+1d8 Lightsaber Damage																							BONUS:VAR|LightsaberDamage|1
+Sneak Attack			TYPE:Special			VISIBLE:NO																	SAB:Sneak Attack +%d%|SneakAttack|SneakAttackDie	DEFINE:SneakAttackDie|6	DEFINE:SneakAttack|0
+Tech Specialty			TYPE:Special			VISIBLE:NO
+Extra Class Skill			TYPE:Special			VISIBLE:NO																																		STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|CROSSCLASS						SELECT:1																									CSKILL:%LIST

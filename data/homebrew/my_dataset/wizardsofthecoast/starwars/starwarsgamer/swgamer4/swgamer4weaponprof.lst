@@ -1,0 +1,4 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Star Wars Gamer #4	SOURCESHORT:SWG4	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+# Weapon Name	Type			Nb Hands
+Ryyk Blade		TYPE:SWSimple	HANDS:1

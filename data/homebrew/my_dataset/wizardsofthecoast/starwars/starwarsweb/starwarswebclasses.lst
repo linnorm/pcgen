@@ -1,0 +1,146 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+##Block: Prestige Classes
+#Class Name		Hit Dice	Type			Source Page					Define																			DEF		REP
+
+# Class Name	Hit Dice	Type			Max Level	Source Page									Save checks bonus														Combat bonus						Modify VAR
+CLASS:Gunslinger	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:http://www.swrpgnetwork.com/entry.php?s=&id=941	BONUS:CHECKS|BASE.Reflex|(2+(CL/2))	BONUS:CHECKS|BASE.Fortitude,BASE.Willpower|((CL+3)*2/5)	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|((CL+3)*2/5)	BONUS:VAR|Reputation|((CL+1)*2/3)	BONUS:VAR|ForcePoints|CL
+# Class Name	Req. Att.	Required Feat								Required Skill
+CLASS:Gunslinger	PREATT:5	PREFEAT:3,Improved Initiative,Quick Draw,Point Blank Shot	PRESKILL:3,Intimidate=6,Sense Motive=6,Spot=6
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Gunslinger	STARTSKILLPTS:4	CSKILL:Bluff|Climb|TYPE=Craft|Gather Information|Handle Animal|Intimidate|Jump|TYPE=Knowledge|Listen|Pilot|TYPE=Profession|Ride|Search|Spot|Sense Motive|Survival|Swim
+1	SAB:Crack Shot +%|CrackShot								BONUS:VAR|CrackShot|1		DEFINE:CrackShot|0
+2	SAB:Deadly Accuracy +%d6|DeadlyAccuracy						BONUS:VAR|DeadlyAccuracy|1	DEFINE:DeadlyAccuracy|0
+3													BONUS:VAR|CrackShot|1
+4								BONUS:COMBAT|Initiative|2
+5													BONUS:VAR|CrackShot|1
+6													BONUS:VAR|DeadlyAccuracy|1
+7													BONUS:VAR|CrackShot|1
+8								BONUS:COMBAT|Initiative|2
+9													BONUS:VAR|CrackShot|1
+10													BONUS:VAR|DeadlyAccuracy|1
+
+# Class Name			Hit Dice	Type			Max Level	Source Page											Save checks bonus														Combat bonus					Modify VAR
+CLASS:Imperial Royal Guard	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:http://www.swrpgnetwork.com/entry.php?s=&id=685 (Modified)	BONUS:CHECKS|BASE.Reflex|(2+(CL/2))	BONUS:CHECKS|BASE.Fortitude,BASE.Willpower|((CL+3)*2/5)	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+1)*2/3	BONUS:VAR|Reputation|(CL+3)*2/5	BONUS:VAR|ForcePoints|CL
+# Class Name			Req. Att.	Required Feat					Required Skill	Required Stat
+CLASS:Imperial Royal Guard	PREATT:6	PREFEAT:2,Lightning Reflexes,Power Attack	PRESKILL:1,Spot=5	PRESTAT:1,DEX=15
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Imperial Royal Guard	STARTSKILLPTS:4	CSKILL:Bluff|Climb|TYPE=Craft|Demolitions|Disable Device|Intimidate|Jump|TYPE=Knowledge|Listen|Move Silently|TYPE=Profession|Spot|Survival|Tumble
+1																																										AUTO:FEAT|Cleave|Weapon Group Proficiency (Vibro Weapons)
+2																	ADD:FEAT|Ambidexterity,Great Cleave,Heroic Surge,Improved Initiative,Martial Artist,Supreme Cleave,Two Weapon Fighting,Weapon Finesse,Weapon Focus
+3	SAB:Crippling Blow %/Day|CripplingBlow	BONUS:VAR|CripplingBlow|1	DEFINE:CripplingBlow|0
+4	SAB:Lethal Efficiency
+5	SAB:Long Live the Emperor
+6								BONUS:VAR|CripplingBlow|1
+7	SAB:Anticipate opponents
+8																	ADD:FEAT|Ambidexterity,Great Cleave,Heroic Surge,Improved Initiative,Martial Artist,Supreme Cleave,Two Weapon Fighting,Weapon Finesse,Weapon Focus
+9								BONUS:VAR|CripplingBlow|1
+10	SAB:Steadfast Defenders
+
+# Class Name	Hit Dice	Type			Max Level	Source Page									Save checks bonus										Combat bonus					Modify VAR
+CLASS:Sniper	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:http://www.swrpgnetwork.com/entry.php?s=&id=943	BONUS:CHECKS|BASE.Fortitude,BASE.Willpower,BASE.Reflex|((CL+3)*2/5)	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|CL*1/2	BONUS:VAR|ForcePoints|CL
+# Class Name	Req. Att.	Required Feat											Required Skill
+CLASS:Sniper	PREATT:4	PREFEAT:4,Point Blank Shot,Precise Shot,Far Shot,Weapon Focus (Blaster Rifle)	PRESKILL:3,Spot=7,Hide=5,Move Silently=5
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Sniper	STARTSKILLPTS:4	CSKILL:Climb|Computer Use|Hide|Jump|TYPE=Knowledge|Listen|Move Silently|Repair|Sense Motive|Spot|Survival|Treat Injury
+1	SAB:Rifle Expert +%|RifleExpert								BONUS:COMBAT|DAMAGE.BlasterRifle|RifleExpert	BONUS:COMBAT|TOHIT.BlasterRifle|RifleExpert	BONUS:VAR|RifleExpert|(CL=Sniper+1)/2	DEFINE:RifleExpert|0
+2	SAB:Deadly Strike (Flatfooted; Surprised; Helpless)|PREVARLT:CL,6
+6	SAB:Deadly Strike (Flatfooted; Surprised; Helpless; No Dex)|PREVARLT:CL,10
+10	SAB:Deadly Strike (Any)
+
+
+
+# Class Name	Hit Dice	Type			Source Page					Define																				DEF		REP
+# CLASS:Flyboy	HD:8		TYPE:PC.Prestige	SOURCEPAGE:www.swrpgnetwork.com	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|1+(CL/5)+((CL+1)/5)	DEF:0,-2	REP:7
+# Class Name	Req. Att.	Required Feat												Required Skill
+# CLASS:Flyboy	PREATT:6	PREFEAT:2,Starship Operation (Space Transport),Starship Dodge (Space Transport)	PRESKILL:1,Pilot=9
+# Class Name	Skill Pts/Lvl	Class Skill
+# CLASS:Flyboy	STARTSKILLPTS:4	CSKILL:Astrogate|Computer Use|TYPE.Craft|Pilot|TYPE.Profession|Repair|Spot
+# 1	SAB:Transport Defense
+# 2	SAB:Familiarity +%|1
+# 4	SAB:Familiarity +%|1
+# 5	SAB:Transport Evasion
+# 6	SAB:Familiarity +%|1
+# 8	SAB:Familiarity +%|1
+# 9	SAB:Improved Transport Evasion
+# 10	SAB:Familiarity +%|1
+
+# Class Name	Hit Dice	Type			Source Page					Attack Cycle	Define																			DEF		REP
+# CLASS:Intruder	HD:8		TYPE:PC.Prestige	SOURCEPAGE:www.swrpgnetwork.com	ATTACKCYCLE:UAB|3	DEFINE:BAB|CL	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|1+(CL/5)+((CL+1)/5)	DEF:0,-2	REP:7
+# Class Name	Req. Att.	Required Feat				Required Skill
+# CLASS:Intruder	PREATT:5	PREFEAT:2,Martial Artist,Stealthy	PRESKILL:2,Hide,Move Silently=9
+# Class Name	Skill Pts/Lvl	Class Skill
+# CLASS:Intruder	STARTSKILLPTS:4	CSKILL:Climb|Computer Use|Demolitions|Disguise|Escape Artist|Hide|Intimidate|Jump|TYPE.Knowledge|Listen|Move Silently|Sense Motive|Spot|Tumble
+# 1	UATT:1	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10	SAB:Master Martial Artist (d8)																			FEAT:Weapongroup Blaster pistol,Weapongroup Simple,Weapongroup Slug,Weapongroup Vibro
+# 3	UATT:3	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10
+# 4	UATT:4	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10	SAB:Sneak Attack +%d%|Sneak Attack|Sneak Attack Die	BONUS:VAR|Sneak Attack|1	DEFINE:Sneak Attack Die|6	DEFINE:Sneak Attack|0
+# 5	UATT:5	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12	SAB:Master Martial Artist (d10)																																	SUBSA:Master Martial Artist (d8)
+# 6	UATT:6	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12										BONUS:VAR|Sneak Attack|1
+# 7	UATT:7	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12
+# 8	UATT:8	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12										BONUS:VAR|Sneak Attack|1
+# 9	UATT:9	UDAM:1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12,4d8	SAB:Master Martial Artist (d12)																																	SUBSA:Master Martial Artist (d10)
+# 10	UATT:10	UDAM:1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12,4d8										BONUS:VAR|Sneak Attack|1
+
+# Class Name		Hit Dice	Type			Source Page					Define																				DEF		REP
+# CLASS:Combat Engineer	HD:8		TYPE:PC.Prestige	SOURCEPAGE:www.swrpgnetwork.com	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|1+(CL/5)+((CL+1)/5)	DEF:4,0	REP:7
+# Class Name		Req. Att.	Required Feat			Required Skill
+# CLASS:Combat Engineer	PREATT:5	PREFEAT:2,Gearhead,Cautious	PRESKILL:4,Computer Use,Repair,Demolitions,Disable Device=9
+# Class Name		Skill Pts/Lvl	Class Skill
+# CLASS:Combat Engineer	STARTSKILLPTS:6	CSKILL:Climb|Computer Use|TYPE.Craft|Demolitions|Disable Device|Hide|TYPE.Knowledge|Listen|Move Silently|Search|Spot|Treat Injury
+# 1	SAB:Skill Mastery	SAB:Technology Bonus					BONUS:SKILL|Computer Use,Demolitions,Disable Device,Repair|1
+# 2	SAB:Jury-rig +%|Jury-rig				BONUS:VAR|Jury-rig|2												DEFINE:Jury-rig|0
+# 3												BONUS:SKILL|Computer Use,Demolitions,Disable Device,Repair|1
+# 4	SAB:Evasion
+# 5												BONUS:SKILL|Computer Use,Demolitions,Disable Device,Repair|1
+# 6								BONUS:VAR|Jury-rig|2
+# 7												BONUS:SKILL|Computer Use,Demolitions,Disable Device,Repair|1
+# 8	SAB:Improved Evasion
+# 9												BONUS:SKILL|Computer Use,Demolitions,Disable Device,Repair|1
+# 10								BONUS:VAR|Jury-rig|2
+
+# Class Name	Hit Dice	Type			Source Page					Define																DEF		REP
+# CLASS:Bodyguard	HD:10		TYPE:PC.Prestige	SOURCEPAGE:www.swrpgnetwork.com	DEFINE:BAB|CL	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|CL/3	DEF:4,0	REP:7
+# Class Name	Req. Att.	Required Feat					Required Skill
+# CLASS:Bodyguard	PREATT:5	PREFEAT:2,Alertness,Improved Initiative	PRESKILL:3,Search,Sense Motive,Spot=4
+# Class Name	Skill Pts/Lvl	Class Skill
+# CLASS:Bodyguard	STARTSKILLPTS:6	CSKILL:Climb|Disable Device|Intimidate|Jump|TYPE.Knowledge|Listen|TYPE.Profession|Sense Motive|Search|Spot
+# 1	SAB:Harm's Way			FEAT:Weapon Group Proficiency (vibro weapons)
+# 2	SAB:Defensive Strike
+# 3	SAB:Dodge Attack +%|1
+# 4	SAB:Defensive Strike +%|1									SUBSA:Defensive Strike
+# 5	SAB:Dodge Attack +%|1
+# 6	SAB:Defensive Strike +%|1
+# 7	SAB:Dodge Attack +%|1
+# 8	SAB:Defensive Strike +%|1
+# 9	SAB:Dodge Attack +%|1
+# 10	SAB:Defensive Strike +%|1
+
+# Class Name			Hit Dice	Type			Source Page					Define																		DEF		REP
+# CLASS:Master Martial Artist	HD:8		TYPE:PC.Prestige	SOURCEPAGE:www.swrpgnetwork.com	DEFINE:BAB|CL	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|2+(CL/2)	DEF:0,-2	REP:7
+# Class Name			Req. Att.	Required Feat					Required Skill
+# CLASS:Master Martial Artist	PREATT:6	PREFEAT:3,Expertise,Dodge,Martial Artist	PRESKILL:1,Tumble=6
+# Class Name			Skill Pts/Lvl	Class Skill
+# CLASS:Master Martial Artist	STARTSKILLPTS:6	CSKILL:Climb|TYPE.Craft|Escape Artist|Diplomacy|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Profession|Spot|Swim|Tumble
+# 1	SAB:Quick Strikes	SAB:Unarmed Mastery +%|1
+# 2								ADD:FEAT(TYPE=Master)
+# 3	SAB:Unarmed Mastery +%|1
+# 4								ADD:FEAT(TYPE=Master)
+# 5	SAB:Unarmed Mastery +%|1
+# 6								ADD:FEAT(TYPE=Master)
+# 7	SAB:Unarmed Mastery +%|1
+# 8								ADD:FEAT(TYPE=Master)
+# 9	SAB:Unarmed Mastery +%|1
+# 10								ADD:FEAT(TYPE=Master)
+
+# Class Name		Hit Dice	Type			Source Page					Define																		DEF		REP	Class Special Ability
+# CLASS:Master Thief	HD:6		TYPE:PC.Prestige	SOURCEPAGE:www.swrpgnetwork.com	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|CL/3	DEFINE:WILLBASE|1+(CL/5)+((CL+1)/5)	DEF:0,-2	REP:7	SPECIALS:Uncanny Dodge|Master Thief|0|2,5
+# Class Name		Required Feat		Required Skill
+# CLASS:Master Thief	PREFEAT:1,Stealthy	PRESKILL:2,Hide,Move Silently=8	PRESKILL:3,Disable Device,Sleight Of Hand,Gather Information=6
+# Class Name		Skill Pts/Lvl	Class Skill
+# CLASS:Master Thief	STARTSKILLPTS:8	CSKILL:Computer Use|Disable Device|Escape Artist|Climb|Disguise|Spot|Listen|Search|TYPE.Knowledge|Move Silently|Hide|Gather Information
+# 1	SAB:Calling Card	SAB:Key Information
+# 3	SAB:Master of Stealth +%|2			BONUS:SKILL|Hide,Move Silently|2
+# 6	SAB:Master of Stealth +%|2			BONUS:SKILL|Hide,Move Silently|2
+# 9	SAB:Master of Stealth +%|2			BONUS:SKILL|Hide,Move Silently|2
+# 10	SAB:No Cell Can Hold Me

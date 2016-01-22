@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: mynex $ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #289|SOURCESHORT:WotC-Dragon #289|SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Class Name		Class Skills (All skills are seperated by a pipe delimiter "|")
+Poison Fist			Climb|Jump|Swim|Balance|Disable Device|Escape|Artist|Hide|Open Lock|Move Silently|Tumble|Craft|Forgery|Knowledge (Local)|Read Lips|Search|Innuendo|Listen|Sense Motive|Spot|Bluff|Disguise|Gather Information|Intimidate
+Ghost-Faced Killer	Climb|Jump|Swim|Hide|Open Lock|Move Silently|Tumble|Concentration|Search|Listen|Spot|Bluff|Iaijutsu Focus|Intimidate
+Weightless Foot		Climb|Jump|Swim|Balance|Escape Artist|Hide|Move Silently|Tumble|Concentration|Search|Listen|Spot|Diplomacy|Iaijutsu Focus

@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar  3 12:25:14 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+# Template Name	Visible	Level Adjustment	Template									Source Page			Special ABility					Required Race	Bonus to skill				Stat bonus								BONUSSKILLPOINTS		Favored Class			Feat					Subrace
+Naga Bloodlines	VISIBLE:NO				TEMPLATE:CHOOSE:Asp|Chameleon|Cobra|Constrictor|Greensnake	SOURCEPAGE:p.27									PRERACE:1,Naga
+
+#template	visible	subrace			favoredclass													leveladjustment	bonus								source
+Asp			VISIBLE:NO	LEVELADJUSTMENT:1											SOURCEPAGE:p.27		SAB:Spit Venom														BONUS:STAT|STR|1											FAVOREDCLASS:Fighter							SUBRACE:Asp
+Chameleon		VISIBLE:NO														SOURCEPAGE:p.27-28											BONUS:SKILL|Hide,Move Silently|2														FAVOREDCLASS:Rogue							SUBRACE:Chameleon
+Cobra			VISIBLE:NO														SOURCEPAGE:p28																		BONUS:STAT|STR|-2	BONUS:STAT|DEX|-2	BONUS:STAT|INT|2					FAVOREDCLASS:Shugenja		FEAT:Depths of the Akasha	SUBRACE:Cobra
+Constrictor		VISIBLE:NO	LEVELADJUSTMENT:2											SOURCEPAGE:p28		SAB:Improved Grab(Ex)	SAB:Constrict(Ex)										BONUS:STAT|STR|2											FAVOREDCLASS:Fighter|Monk						SUBRACE:Constrictor
+Greensnake		VISIBLE:NO														SOURCEPAGE:p28																		BONUS:STAT|CHA|1							BONUSSKILLPOINTS:1	FAVOREDCLASS:Courtier							SUBRACE:Greensnake

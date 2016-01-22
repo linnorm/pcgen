@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Cry Havoc	SOURCESHORT:CryHavoc	SOURCEWEB:http://www.montecook.com
+
+# Skill Name				Key Stat	Untrained?		Classes			Type				Source Page
+Profession (Military Commander)	KEYSTAT:WIS	USEUNTRAINED:NO	CLASSES:Marshal|Fighter	TYPE:Wisdom.Profession	SOURCEPAGE:pg. 102

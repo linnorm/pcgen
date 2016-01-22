@@ -1,0 +1,6 @@
+
+# Ability Category						Visible		Editable or Static?	Change Pool?	Fractional values?	Pool				Category of Object		Type of Object			Plural description for UI			Display Location
+ABILITYCATEGORY:Bodger Special Ability			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO						CATEGORY:Special Ability	TYPE:BodgerAbilities		PLURAL:Bodger Special Abilities		DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Second Story Man Special Ability	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO						CATEGORY:Special Ability	TYPE:SSMAbilities			PLURAL:Second Story Man Special Abilities	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Favored Terrain				VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		POOL:FavoredTerrains	CATEGORY:Special Ability	TYPE:FavoredTerrain		PLURAL:Favored Terrains				DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Favored Terrain Bonus			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		POOL:FavoredTBonuses	CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	PLURAL:Favored Terrain Bonuses		DISPLAYLOCATION:Class Abilities

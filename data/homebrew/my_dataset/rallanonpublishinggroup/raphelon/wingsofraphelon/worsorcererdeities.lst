@@ -1,0 +1,104 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon	SOURCESHORT:WngRaph	SOURCEWEB:http://raxstower.finzen.com
+
+# Sorcerer Bloodlines
+## Celestials
+# Deity Name				Domains																		Desciption of Deity/Title		Holy Item	Deity Weapon	Pantheon		Required Class
+Bloodline (Archon)			DOMAINS:Arcane_Celestia,Arcane_Healing,Arcane_Light,Arcane_Summoning,Arcane_Transport					DESC:Archon Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Eladrin)			DOMAINS:Arcane_Celestia,Arcane_Chaos,Arcane_Light,Arcane_Summoning								DESC:Eladrin Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Fiends
+Bloodline (Devilblood/Devilpact)	DOMAINS:Arcane_Anathema,Arcane_Evil,Arcane_Law,Arcane_Summoning,Arcane_Trickery,Arcane_Tyranny				DESC:Devil Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Demonblood/Demonpact)	DOMAINS:Arcane_Anathema,Arcane_Chaos,Arcane_Destruction,Arcane_Evil,Arcane_Hatred,Arcane_Summoning			DESC:Demon Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Succubus)			DOMAINS:Arcane_Anathema,Arcane_Beguiling,Arcane_Chaos,Arcane_Evil									DESC:Succubus Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Dragons
+Bloodline (Dragon; Bahamut)		DOMAINS:Arcane_Air,Arcane_Celestia,Arcane_Erudition,Arcane_Good,Arcane_Law							DESC:Bahamut Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Gold)		DOMAINS:Arcane_Erudition,Arcane_Flame,Arcane_Good,Arcane_Law,Arcane_Luck							DESC:Gold Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Silver)		DOMAINS:Arcane_Air,Arcane_Erudition,Arcane_Frost,Arcane_Good,Arcane_Law								DESC:Silver Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Green)		DOMAINS:Arcane_Acid,Arcane_Evil,Arcane_Law,Arcane_Plant,Arcane_Tyranny								DESC:Green Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Black)		DOMAINS:Arcane_Acid,Arcane_Evil,Arcane_Law,Arcane_Plant										DESC:Black Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Blue)		DOMAINS:Arcane_Erudition,Arcane_Evil,Arcane_Glamour,Arcane_Law,Arcane_Lightning						DESC:Blue Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Red)			DOMAINS:Arcane_Chaos,Arcane_Erudition,Arcane_Evil,Arcane_Flame									DESC:Red Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Brass)		DOMAINS:Arcane_Chaos,Arcane_Erudition,Arcane_Flame,Arcane_Good,Arcane_Weather							DESC:Brass Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Copper)		DOMAINS:Arcane_Chaos,Arcane_Good,Arcane_Stone,Arcane_Trickery									DESC:Copper Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Tiamat)		DOMAINS:Arcane_Anathema,Arcane_Destruction,Arcane_Erudition,Arcane_Evil,Arcane_Law						DESC:Tiamat Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Amethyst)		DOMAINS:Arcane_Erudition,Arcane_Mind,Arcane_Strength											DESC:Amethyst Dragon Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Crystal)		DOMAINS:Arcane_Beguiling,Arcane_Chaos,Arcane_Light,Arcane_Mind									DESC:Crystal Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Emerald)		DOMAINS:Arcane_Erudition,Arcane_Law,Arcane_Mind,Arcane_Music									DESC:Emerald Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Sapphire)		DOMAINS:Arcane_Erudition,Arcane_Law,Arcane_Mind,Arcane_Stone									DESC:Sapphire Dragon Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dragon; Topaz)		DOMAINS:Arcane_Chaos,Arcane_Mind,Arcane_Wave,Arcane_Weather										DESC:Topaz Dragon Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Elemental
+Bloodline (Elemental; Air)		DOMAINS:Arcane_Craft,Arcane_Erudition,Arcane_Trickery,Arcane_Wind									DESC:Air Elemental Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Elemental; Earth)		DOMAINS:Arcane_Metal,Arcane_Protection,Arcane_Stone,Arcane_Strength								DESC:Earth Elemental Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Elemental; Fire)		DOMAINS:Arcane_Flame,Arcane_Renewal,Arcane_Vitality,Arcane_War									DESC:Fire Elemental Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Elemental; Water)		DOMAINS:Arcane_Beguiling,Arcane_Change,Arcane_Destiny,Arcane_Wave									DESC:Water Elemental Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Grue; Air)			DOMAINS:Arcane_Destruction,Arcane_Erudition,Arcane_Evil,Arcane_Trickery,Arcane_Wind						DESC:Air Grue Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Grue; Earth)			DOMAINS:Arcane_Destruction,Arcane_Evil,Arcane_Stone,Arcane_Strength								DESC:Earth Grue Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Grue; Fire)			DOMAINS:Arcane_Destruction,Arcane_Evil,Arcane_Flame,Arcane_War									DESC:Fire Grue Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Grue; Water)			DOMAINS:Arcane_Change,Arcane_Destruction,Arcane_Evil,Arcane_Wave									DESC:Water Grue Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Fey
+Bloodline (Dryad)				DOMAINS:Arcane_Bewitching Ways,Arcane_Chaos,Arcane_Good,Arcane_Plnat,Arcane_Renewal						DESC:Dryad Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Nymph)				DOMAINS:Arcane_Beguiling,Arcane_Chaos,Arcane_Glamour,Arcane_Good									DESC:Nymph Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Celtic Giant)		DOMAINS:Arcane_Chaos,Arcane_Strength,Arcane_Wildshape											DESC:Celtic Giant Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Sprite)			DOMAINS:Arcane_Chaos,Arcane_Glamour,Arcane_Wildshape,Arcane_Wind									DESC:Sprite Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Naiad/Siren)			DOMAINS:Arcane_Beguiling,Arcane_Chaos,Arcane_Fate,Arcane_Wave									DESC:Siren Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Oread)				DOMAINS:Arcane_Beguiling,Arcane_Chaos,Arcane_Fate,Arcane_Stone									DESC:Oread Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Sylph)				DOMAINS:Arcane_Beguiling,Arcane_Chaos,Arcane_Fate,Arcane_Wind									DESC:Sylph Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Sidhe; Seelie)		DOMAINS:Arcane_Bewitching Ways,Arcane_Destiny,Arcane_Glamour,Arcane_Good							DESC:Seelie Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Sidhe; Unseelie)		DOMAINS:Arcane_Bewitching Ways,Arcane_Destiny,Arcane_Evil,Arcane_Glamour,Arcane_Misfortune				DESC:Unseelie Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Pooka)				DOMAINS:Arcane_Glamour,Arcane_Trickery,Arcane_Wildshape										DESC:Pooka Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Genies
+Bloodline (Genie; Dao)			DOMAINS:Arcane_Evil,Arcane_Glamour,Arcane_Sorcery,Arcane_Stone									DESC:Dao Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Genie; Djinn)		DOMAINS:Arcane_Chaos,Arcane_Glamour,Arcane_Good,Arcane_Sorcery,Arcane_Wind							DESC:Djinn Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Genie; Efreet)		DOMAINS:Arcane_Evil,Arcane_Flame,Arcane_Glamour,Arcane_Law,Arcane_Sorcery							DESC:Efreet Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Genie; Marid)		DOMAINS:Arcane_Chaos,Arcane_Glamour,Arcane_Sorcery,Arcane_Wave									DESC:Marid Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Giants
+Bloodline (Giant; Cloud)		DOMAINS:Arcane_Evil,Arcane_Good,Arcane_Strength,Arcane_Wind										DESC:Cloud Giant Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Giant; Fire)			DOMAINS:Arcane_Evil,Arcane_Flame,Arcane_Law,Arcane_Strength										DESC:Fire Giant Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Giant; Frost)		DOMAINS:Arcane_Chaos,Arcane_Evil,Arcane_Frost,Arcane_Strength									DESC:Frost Giant Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Giant; Hill)			DOMAINS:Arcane_Chaos,Arcane_Evil,Arcane_Strength											DESC:Hill Giant Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Giant; Stone)		DOMAINS:Arcane_Craft,Arcane_Music,Arcane_Stone,Arcane_Strength									DESC:Stone Giant Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Giant; Storm)		DOMAINS:Arcane_Chaos,Arcane_Good,Arcane_Strength,Arcane_Weather									DESC:Storm Giant Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Hags
+Bloodline (Hag; Annis)			DOMAINS:Arcane_Change,Arcane_Chaos,Arcane_Evil,Arcane_Strength									DESC:Annis Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Green)			DOMAINS:Arcane_Change,Arcane_Chaos,Arcane_Evil,Arcane_Glamour									DESC:Green Hag Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Night)			DOMAINS:Arcane_Anathema,Arcane_Erudition,Arcane_Evil,Arcane_Sorcery								DESC:Night Hag Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Sea)			DOMAINS:Arcane_Anathema,Arcane_Change,Arcane_Chaos,Arcane_Evil,Arcane_Wave							DESC:Sea Hag Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Brine)			DOMAINS:Arcane_Erudition,Arcane_Evil,Arcane_Sorcery,Arcane_Wave									DESC:Brine Hag Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Cavern)			DOMAINS:Arcane_Darkness,Arcane_Evil,Arcane_Law,Arcane_Sorcery,Arcane_Stone							DESC:Cavern Hag Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Ice)			DOMAINS:Arcane_Evil,Arcane_Ice,Arcane_Law,Arcane_Sorcery										DESC:Ice Hag Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Moon)			DOMAINS:Arcane_Evil,Arcane_Glamour,Arcane_Law,Arcane_Sorcery									DESC:Moon Hag Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Storm)			DOMAINS:Arcane_Chaos,Arcane_Evil,Arcane_Sorcery,Arcane_Wind										DESC:Storm Hag Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Hag; Swamp)			DOMAINS:Arcane_Animal,Arcane_Evil,Arcane_Law,Arcane_Plant,Arcane_Sorcery							DESC:Swamp Hag Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Miscellaneous Monsters
+Bloodline (Githyanki)			DOMAINS:Arcane_Evil,Arcane_Mind,Arcane_Transport											DESC:Githyanki Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Githzerai)			DOMAINS:Arcane_Mind,Arcane_Transport,Arcane_War												DESC:Githzerai Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Lamia)				DOMAINS:Arcane_Beguiling,Arcane_Chaos,Arcane_Evil,Arcane_Glamour									DESC:Lamia Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Naga; Dark)			DOMAINS:Arcane_Chaos,Arcane_Evil,Arcane_Poison												DESC:Dark Naga Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Naga; Guardian)																					DESC:Guardian Naga Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Naga; Spirit)		DOMAINS:Arcane_Beguiling,Arcane_Chaos,Arcane_Evil,Arcane_Poison,Arcane_Sorcery						DESC:Spirit Naga Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Naga; Water)			DOMAINS:Arcane_Poison,Arcane_Sorcery,Arcane_Wave											DESC:Water Naga Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Ogre Mage)			DOMAINS:Arcane_Change,Arcane_Evil,Arcane_Law,Arcane_Sorcery										DESC:Ogre Mage Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Sphinx; Andro-)		DOMAINS:Arcane_Chaos,Arcane_Good,Arcane_Healing,Arcane_Protection									DESC:Andro-Sphinx Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Sphinx; Gyno-)		DOMAINS:Arcane_Ars Grammatica,Arcane_Destiny,Arcane_Erudition,Arcane_Soul							DESC:Gyno-Sphinx Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Titan)				DOMAINS:Arcane_Change,Arcane_Chaos,Arcane_Erudition,Arcane_Good,Arcane_Sorcery,Arcane_Strength				DESC:Titan Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Unicorn)			DOMAINS:Arcane_Animal,Arcane_Celestia,Arcane_Chaos,Arcane_Good,Arcane_Healing							DESC:Unicorn Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Yuan-Ti)			DOMAINS:Arcane_Chaos,Arcane_Evil,Arcane_Feral,Arcane_Mind,Arcane_Poison								DESC:Yuan-Ti Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+## Others
+Bloodline (Ancestor; Divine)		DOMAINS:Arcane_Erudition,Arcane_Protection,Arcane_Soul										DESC:Divine Ancestor Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Ancestor; Mystic)		DOMAINS:Arcane_Erudition,Arcane_Protection,Arcane_Sorcery										DESC:Mystic Ancestor Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Banshee)			DOMAINS:Arcane_Beguiling,Arcane_Death,Arcane_Destiny,Arcane_Music									DESC:Banshee Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Arcane Creation)		DOMAINS:Arcane_Sorcery,Arcane_Soul,Arcane_Vitality											DESC:Arcane Creation Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Arcanovore)			DOMAINS:Arcane_Animal,Arcane_Feral,Arcane_Poison,Arcane_Vitality									DESC:Arcanovore Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dhampyri)			DOMAINS:Arcane_Anathema,Arcane_Beguiling,Arcane_Death,Arcane_Wildshape								DESC:Dhampyri Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Divine Child)		DOMAINS:Arcane_Anathema,Arcane_Celestia,Arcane_Death,Arcane_Evil,Arcane_Good,Arcane_Healing				DESC:Divine Child Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Dreamchild)			DOMAINS:Arcane_Change,Arcane_Dream,Arcane_Evil,Arcane_Glamour,Arcane_Good							DESC:Dreamchild Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Forbidden Union)		DOMAINS:Arcane_Anathema,Arcane_Beguiling,Arcane_Celestia,Arcane_Evil,Arcane_Good						DESC:Forbidden Union Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Ghost-Touched)		DOMAINS:Arcane_Bewitching Ways,Arcane_Death,Arcane_Destiny,Arcane_Glamour,Arcane_Locus,Arcane_Soul,Arcane_Undeath	DESC:Ghost Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Leyline born)		DOMAINS:Arcane_Erudition,Arcane_Locus,Arcane_Sorcery,Arcane_Stone									DESC:Leyline Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Lich; Evil or Good)	DOMAINS:Arcane_Evil,Arcane_Good,Arcane_Sorcery,Arcane_Soul,Arcane_Undeath							DESC:Lich Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Ooze-Blooded)		DOMAINS:Arcane_Acid,Arcane_Trickery,Arcane_Wildshape											DESC:Ooze Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Phoenix)			DOMAINS:Arcane_Flame,Arcane_Soul,Arcane_Vitality											DESC:Phoenix Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Polymorphed Union)		DOMAINS:Arcane_Beguiling,Arcane_Change,Arcane_Sorcery,Arcane_Transport								DESC:Polymorphed Union Bloodline	SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Reborn Hero)			DOMAINS:Arcane_Destiny,Arcane_Good,Arcane_Soul,Arcane_Vitality									DESC:Reborn Hero Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Tainted)			DOMAINS:Arcane_Erudition,Arcane_Evil,Arcane_Misfortune,Arcane_Sorcery								DESC:Tainted Bloodline			SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1
+Bloodline (Wereborn)			DOMAINS:Arcane_Animal,Arcane_Feral,Arcane_Strength,Arcane_Vitality								DESC:Werecreature Bloodline		SYMBOL:None	DEITYWEAP:None	PANTHEON:Sorcerer	PRECLASS:1,Sorcerer=1

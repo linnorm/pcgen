@@ -1,0 +1,16 @@
+# CVS $Revision: $ $Author: $ -- Wed Jan 19 21:04:03 2005 -- reformated by prettylst.pl v1.33 (build 421)
+SOURCELONG:Liber Mechanika	SOURCESHORT:LM	SOURCEWEB:http://www.ironkingdoms.com
+## Original Entry by: Rax the Grey
+
+
+##Block: Firearms Customization
+# Modifier Name				Unique Key		Type						Cost				Visible		Type granted		Keys to replace	Source Page			Required Type			Bonus Equipment Modifiers				Modify the item cost																																			Weapon prop. bonus																				Special Property																													Apply to both heads
+##NOTE: There's no way to have a popup to choose the number of barrels to add so I've added entries for 1, 2, and 3 extra barrels. -- Rax
+Balanced Multi-barreled 1		KEY:MULT_BRL1	TYPE:Weapon.Firearm			COST:BASECOST*(3/4)	VISIBLE:QUALIFY								SOURCEPAGE:pg. 54		PRETYPE:1,Firearm			BONUS:EQM|WEIGHTMULT|1.3																																																																		SPROP:The firearm has one extra barrel added.
+Balanced Multi-barreled 2		KEY:MULT_BRL2	TYPE:Weapon.Firearm			COST:BASECOST*(6/4)	VISIBLE:QUALIFY								SOURCEPAGE:pg. 54		PRETYPE:1,Firearm			BONUS:EQM|WEIGHTMULT|1.6																																																																		SPROP:The firearm has two extra barrels added.
+Balanced Multi-barreled 3		KEY:MULT_BRL3	TYPE:Weapon.Firearm			COST:BASECOST*(9/4)	VISIBLE:QUALIFY								SOURCEPAGE:pg. 54		PRETYPE:1,Firearm			BONUS:EQM|WEIGHTMULT|1.9																																																																		SPROP:The firearm has three extra barrels added.
+Bracer Pistol				KEY:BRCR_PIS	TYPE:Weapon.Firearm			COST:150			VISIBLE:QUALIFY								SOURCEPAGE:pg. 54		PRETYPE:1,Pistol																																																																									SPROP:The pistol is attached to a bracer and may be fired while holding another weapon.
+#Ghordson Breechlock			KEY:GHORD_BRLK
+
+
+#Ghordson Breechlock Ammo		KEY:GHORD_BRLK_AM	TYPE:Ammunition

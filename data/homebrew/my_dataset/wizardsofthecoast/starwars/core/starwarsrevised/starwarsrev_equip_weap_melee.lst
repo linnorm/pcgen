@@ -1,0 +1,25 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Equipment Name			Required Proficiency				Type											Alternative Type		Cost		Weight	Required Feat				Critical Hit Range	Damage	Alternative Damage	Range		Size		Source Page		Weapon prof. bonus											Special Property
+Atlatl											TYPE:Weapon.Melee.Exotic.Bludgeoning									COST:50	WT:1.5							CRITRANGE:1			DAMAGE:2d4							SIZE:M	SOURCEPAGE:p.131
+Cesta												TYPE:Weapon.Melee.Exotic.Bludgeoning									COST:100	WT:1.8							CRITRANGE:1			DAMAGE:2d4							SIZE:L	SOURCEPAGE:p.131
+Club/Baton											TYPE:Weapon.Melee.Ranged.Simple.Bludgeoning								COST:15	WT:1.5							CRITRANGE:1			DAMAGE:1d6					RANGE:2	SIZE:M	SOURCEPAGE:p.131
+Combat Gloves										TYPE:Weapon.Melee.Simple											COST:200	WT:1																				SIZE:M	SOURCEPAGE:p.131	BONUS:WEAPONPROF=Unarmed Strike|DAMAGE|2	BONUS:WEAPONPROF=Martial Strike|DAMAGE|2
+Force Pike											TYPE:Weapon.Melee.Vibro.Piercing										COST:500	WT:1.8							CRITRANGE:1			DAMAGE:2d8							SIZE:L	SOURCEPAGE:p.133															SPROP:Stun Setting DC15
+Gaderffii											TYPE:Weapon.Melee.Exotic.Double.Slashing					ALTTYPE:Melee.Piercing	COST:50	WT:2								CRITRANGE:1			DAMAGE:1d8	ALTDAMAGE:1d6				SIZE:L	SOURCEPAGE:p.133
+Knife												TYPE:Weapon.Melee.Ranged.Simple.Piercing									COST:25	WT:1								CRITRANGE:1			DAMAGE:1d4					RANGE:2	SIZE:S	SOURCEPAGE:p.133
+Lightsaber				PROFICIENCY:WEAPON|Lightsaber			TYPE:Weapon.Melee.Exotic.Energy.Selfcraftable.Lightsaber						COST:3000	WT:1								CRITRANGE:2			DAMAGE:2d8							SIZE:M	SOURCEPAGE:p.133
+Lightsaber (Double)		PROFICIENCY:WEAPON|Lightsaber (Double)	TYPE:Weapon.Melee.Exotic.Energy.Selfcraftable.Lightsaber.Double					COST:7000	WT:2								CRITRANGE:2			DAMAGE:2d8	ALTDAMAGE:2d8				SIZE:M	SOURCEPAGE:p.134
+Longsword											TYPE:Weapon.Melee.Exotic.Slashing										COST:150	WT:2								CRITRANGE:1			DAMAGE:1d8							SIZE:M	SOURCEPAGE:p.134
+Mace (Light)										TYPE:Weapon.Melee.Simple.Bludgeoning									COST:50	WT:2.5							CRITRANGE:1			DAMAGE:1d6							SIZE:S	SOURCEPAGE:p.134
+Martial Strike			PROFICIENCY:WEAPON|Martial Strike		TYPE:Weapon.Melee.MartialArts.Unarmed.Bludgeoning							COST:0	WT:0		PREFEAT:1,Martial Arts			CRITRANGE:1			DAMAGE:1d4							SIZE:T	SOURCEPAGE:p.112
+Martial Strike (Improved)	PROFICIENCY:WEAPON|Martial Strike		TYPE:Weapon.Melee.MartialArts.Unarmed.Bludgeoning							COST:0	WT:0		PREFEAT:1,Improved Martial Arts	CRITRANGE:2			DAMAGE:2d4							SIZE:T	SOURCEPAGE:p.111
+Martial Strike (Advanced)	PROFICIENCY:WEAPON|Martial Strike		TYPE:Weapon.Melee.MartialArts.Unarmed.Bludgeoning							COST:0	WT:0		PREFEAT:1,Advanced Martial Arts	CRITRANGE:3			DAMAGE:3d4							SIZE:T	SOURCEPAGE:p.105
+Quarterstaff										TYPE:Weapon.Melee.Simple.Double.Bludgeoning								COST:65	WT:1.8							CRITRANGE:1			DAMAGE:1d6	ALTDAMAGE:1d6				SIZE:L	SOURCEPAGE:p.134
+Spear												TYPE:Weapon.Melee.Ranged.Primitive.Piercing								COST:60	WT:1.5							CRITRANGE:1			DAMAGE:1d8					RANGE:4	SIZE:M	SOURCEPAGE:p.134
+Stun Baton											TYPE:Weapon.Melee.Simple.Bludgeoning									COST:500	WT:1.8							CRITRANGE:0			DAMAGE:0							SIZE:M	SOURCEPAGE:p.134															SPROP:Stun Setting DC15
+Unarmed Strike										TYPE:Weapon.Melee.Simple.Unarmed.Bludgeoning								COST:0	WT:0								CRITRANGE:0			DAMAGE:1d3							SIZE:T	SOURCEPAGE:p.132
+Vibro-Ax											TYPE:Weapon.Melee.Vibro.Slashing										COST:500	WT:2								CRITRANGE:1			DAMAGE:2d10							SIZE:L	SOURCEPAGE:p.134
+Vibroblade											TYPE:Weapon.Melee.Vibro.Slashing										COST:250	WT:1.8							CRITRANGE:1			DAMAGE:2d6							SIZE:M	SOURCEPAGE:p.134
+Vibrodagger											TYPE:Weapon.Melee.Vibro.Slashing										COST:200	WT:1								CRITRANGE:1			DAMAGE:2d4							SIZE:S	SOURCEPAGE:p.134

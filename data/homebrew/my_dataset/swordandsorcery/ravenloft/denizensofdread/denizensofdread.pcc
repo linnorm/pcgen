@@ -1,0 +1,15 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:SSS - Denizens of Dread 3.5
+GAMEMODE:35e
+TYPE:Sword and Sorcery Studios.Ravenloft
+RANK:9
+SOURCELONG:Denizens of Dread 3.5
+SOURCESHORT:denizensofdread
+SOURCEWEB:http://www.swordsorcery.com
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+
+
+ABILITY:denizensofdread_abilities.lst
+TEMPLATE:denizensofdread_templates.lst

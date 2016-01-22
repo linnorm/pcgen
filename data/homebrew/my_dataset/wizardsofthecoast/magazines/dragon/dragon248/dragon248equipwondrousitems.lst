@@ -1,0 +1,5 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #248	SOURCESHORT:WotC-Dragon #248	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+#Name					TYPE				Cost		Weight
+# Equipment Name		Type				Cost		Weight	Source Page		Special Property
+Sending Stones (Pair)	TYPE:Magic.Wondrous	COST:2500	WT:0		SOURCEPAGE:p.60	SPROP:Any verbal message spoken by a person touching one stone is emitted by the secon (12 seconds max message) 2x/day

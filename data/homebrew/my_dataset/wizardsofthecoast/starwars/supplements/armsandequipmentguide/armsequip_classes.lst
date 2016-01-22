@@ -1,0 +1,24 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Wed Jun  1 19:57:55 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AEG	SOURCEWEB:http://www.wizards.com/starwars
+
+##Block: Prestige Classes
+
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Source Page		Define																					DEF		REP
+# CLASS:Dark Side Devotee	HD:8		TYPE:PC.Prestige.Force	ABB:DSD		SOURCEPAGE:p.	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|1+(CL/5)+((CL+1)/5)	DEFINE:WILLBASE|2+(CL/2)	DEF:8,0	REP:8
+# Class Name		Req. Att.	Required Feat			Required Skill		Req. Dark Side	PREREPUTATION
+# CLASS:Dark Side Devotee	PREATT:2	PREFEAT:1,Force Sensitive	PRESKILL:1,Intimidate=4	PREVARGTEQ:DarksidePoints,3	PREVARGTEQ:Reputation,1
+# Class Name		Skill Pts/Lvl	Class Skill
+# CLASS:Dark Side Devotee	STARTSKILLPTS:6	CSKILL:TYPE.Craft|Handle Animal|Hide|TYPE.Knowledge|Listen|TYPE.Profession|Sense Motive|Spot|Survival
+# 1						BONUS:VAR|ForceUser|CL	DEFINE:ForceUser|0	ADD:FEAT(Darkside Skill Emphasis)	FEATAUTO:Weapon Group Proficiency (Simple Weapons)|Weapon Group Proficiency (Blaster Pistols)|Alter
+# 2	SA:Dark Side Talisman +%|2
+# 3																				FEATAUTO:Sense
+# 4														ADD:FEAT(Darkside Skill Emphasis)
+# 5																				FEATAUTO:Control
+# 6	SA:Force Weapon +%d4|1
+# 7														ADD:FEAT(Darkside Skill Emphasis)
+# 8	SA:Dark Side Talisman +%|2
+# 9	SA:Force Weapon +%d4|1
+# 10														ADD:FEAT(Darkside Skill Emphasis)
+

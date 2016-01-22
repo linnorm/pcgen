@@ -1,0 +1,59 @@
+# CVS $Revision: 1.8 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Required Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class		RTM = Required to Memorize Spells	PRSA = Pre-Required Special Ability		RL = Required Languages to be this class		MRST = Minimum Required Saving Throw (type Fort/Ref/Will)
+# DS = Define Special	AA = Add Ability to class (feat/skill)	CT = Class Type (PC/NPC/Template/Monster)	PRA = Pre-Required Alignment
+
+SOURCELONG:Wizards of the Coast - Dragon Magazine #289	SOURCESHORT:WotC-Dragon #289	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Max Level	Source Page			Save checks bonus																		Combat bonus
+CLASS:Poison Fist	HD:6		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.47-48	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE
+# Class Name	Required AL				Req. Att.	Required Feat												Required Skill
+CLASS:Poison Fist	PREALIGN:LN,LE,TN,NE,CN,CE	PREATT:3	PREFEAT:5,Dodge,Improved Unarmed Strike,Great Fortitude,Mobility,Stunning Fist	PRESKILL:1,Intimidate=5	PRESKILL:2,Hide,Move Silently=8
+# Class Name	Skill Pts/Lvl
+CLASS:Poison Fist	STARTSKILLPTS:6
+1	SAB:Poison Use	SAB:Totem Form %/day|1																														ADD:Clan(Snake,Scorpion,Spider)
+2	SAB:Sneak Attack +%d%|Sneak Attack|Sneak Attack Die														BONUS:VAR|Sneak Attack|1	DEFINE:Sneak Attack Die|6	DEFINE:Sneak Attack|0
+3	SAB:Acrobatics +%|10	SAB:Totem Form %/day|1								BONUS:SKILL|Balance,Climb,Jump,Tumble|10
+4	SAB:Natural AC +%|1	SAB:Venomous Blow %/day|1				BONUS:COMBAT|AC|1
+5	SAB:Totem Form %/day|1																			BONUS:VAR|Sneak Attack|1
+6	SAB:Totem Aspect	SAB:Venomous Blow %/day|1																													ADD:Totem Aspect Ability(Cobra's Breath(Snake),Ray of Enfeeblement(Scorpion),Spider Climb(Spider))
+7	SAB:Acrobatics +%|10	SAB:Poison Immunity	SAB:Totem Form %/day|1				BONUS:SKILL|Balance,Climb,Jump,Tumble|10
+8	SAB:Venomous Blow %/day|1																		BONUS:VAR|Sneak Attack|1
+9	SAB:Natural AC +%|1	SAB:Totem Form %/day|1					BONUS:COMBAT|AC|1
+10	SAB:Improved Venomous Blow	SAB:Venomous Blow %/day|1
+
+# Class Name			Hit Dice	Type			Max Level	Source Page			Save checks bonus																Combat bonus					WEAPONAUTO
+CLASS:Ghost-Faced Killer	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.49-50	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name			Required AL		Req. Att.	Required Feat									Required Skill
+CLASS:Ghost-Faced Killer	PREALIGN:LE,NE,CE	PREATT:5	PREFEAT:4,Death Blow,Improved Initiative,Power Attack,Quickdraw	PRESKILL:2,Concentration,Intimidate=4	PRESKILL:2,Hide,Move Silently=6
+# Class Name			Skill Pts/Lvl
+CLASS:Ghost-Faced Killer	STARTSKILLPTS:2
+1	SAB:Beyond Sight %/day|1																				AUTO:FEAT|Armor Proficiency (Light)
+2	SAB:Sneak Attack +%d%|Sneak Attack|Sneak Attack Die		BONUS:VAR|Sneak Attack|1	DEFINE:Sneak Attack Die|6	DEFINE:Sneak Attack|0
+3	SAB:Beyond Sight %/day|1	SAB:Death Attack
+4	SAB:Frightful Attack
+5	SAB:Beyond Sight %/day|1						BONUS:VAR|Sneak Attack|1
+6	SAB:Beyond Touch %/day|1
+7	SAB:Beyond Sight %/day|1	SAB:Spirit Sword %/day|1
+8	SAB:Beyond Touch %/day|1	SAB:Ghost Sight (Ethereal)	BONUS:VAR|Sneak Attack|1
+9	SAB:Beyond Sight %/day|1	SAB:Spirit Sword %/day|1
+10	SAB:Beyond Touch %/day|1	SAB:Ghost Sight (Invisible)
+
+# Class Name		Hit Dice	Type			Max Level	Source Page			Save checks bonus																	Combat bonus					WEAPONAUTO
+CLASS:Weightless Foot	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.51-52	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name		Required AL			Req. Att.	Required Check Base	Required Feat							Req. Special Ability	Required Skill
+CLASS:Weightless Foot	PREALIGN:LG,LN,NG,TN	PREATT:4	PRECHECKBASE:1,REFLEX=2	PREFEAT:4,Dodge,Iron Will,Mobility,Point Blank Shot	PRESA:1,Evasion		PRESKILL:1,Balance=8	PRESKILL:1,Jump=6	PRESKILL:3,Climb,Concentration,Tumble=4
+# Class Name		Skill Pts/Lvl
+CLASS:Weightless Foot	STARTSKILLPTS:4
+1	SAB:Leap of the Clouds	SAB:Slow Fall (% ft.)|20
+2	SAB:Light Step (+%)|10									BONUS:SKILL|Move Silently|10			VFEAT:Spring Attack
+3	SAB:Acrobatics +%|10	SAB:Slow Fall (% ft.)|10				BONUS:SKILL|Balance,Climb,Jump,Tumble|10
+4	SAB:Purity of body	SAB:Trackless Step												VFEAT:Shot on the Run
+5	SAB:Dry Feet	SAB:Light Step (+%)|10	SAB:Slow Fall (% ft.)|20
+6	SAB:Purity of Mind	SAB:Uncanny Step
+7	SAB:Acrobatics +%|10	SAB:Light as a Feather					BONUS:SKILL|Balance,Climb,Jump,Tumble|10
+8	SAB:Light as Air
+9	SAB:Improved Evasion	SAB:Purity of Spirit
+10	SAB:Weightlessness

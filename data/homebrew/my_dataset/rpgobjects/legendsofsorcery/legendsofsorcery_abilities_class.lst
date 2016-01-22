@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Legends of Sorcery	SOURCESHORT:LoS	SOURCEWEB:http://www.rpgobjects.com
+
+
+# Ability Name	Category of Ability		Type						Visible	Description														Source Page
+Ipecac		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DESC:The alchemist can create a simple purgative to aid the victim of an ingested poison.	SOURCEPAGE:pg. 5
+Advanced Acid	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DESC:The alchemist can create a powerful acid that does %1d6 damage|AdvancedAcidDamage	SOURCEPAGE:pg. 6

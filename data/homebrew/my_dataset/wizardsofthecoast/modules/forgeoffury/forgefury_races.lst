@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:The Forge of Fury	SOURCESHORT:ForgeFury	SOURCEWEB:http://www.wizards.com/
+
+# Due to how Natural Weapons work code wise, the Tongue attack comes out with the wrong attack numbers
+
+# Race Name			Size		Move				Reach		Vision		Required AL	Save checks bonus																		Combat bonus																Bonus to skill rank																						Stat bonus																				Nb Legs	Nb Hands	Natural Attacks																					Special Ability			HITDICE	SKILLMULT	Type		Hit Dice Advancement	CR	Source Page
+Subterranean Lizard	SIZE:L	MOVE:Walk,40,Climb,40	REACH:10	VISION:Low-light	PREALIGN:TN	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|5|PREDEFAULTMONSTER:Y	BONUS:CHECKS|BASE.Willpower|1|PREDEFAULTMONSTER:Y	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE	BONUS:COMBAT|BAB|4|PREDEFAULTMONSTER:Y|TYPE=Base.REPLACE	BONUS:SKILLRANK|Climb|6|PREDEFAULTMONSTER:Y	BONUS:SKILLRANK|Listen,Spot|3|PREDEFAULTMONSTER:Y	BONUS:SKILLRANK|Hide|1|PREDEFAULTMONSTER:Y	BONUS:STAT|STR|8	BONUS:STAT|DEX,CON|6	BONUS:STAT|WIS|4	BONUS:STAT|INT,CHA|-8	BONUS:STAT|CON|1|PREDEFAULTMONSTER:Y	LEGS:2	HANDS:2	NATURALATTACKS:Bite,Weapon.Natural.Melee.Bludgeoning.Piercing.Slashing,*1,2d6|Tongue,Weapon.Natural.Ranged.Bludgeoning.Subdual,*1,1d4	SAB:Improved Grab (tongue)(Ex)	HITDICE:6,8	SKILLMULT:1	TYPE:Animal	HITDICEADVANCEMENT:6,9	CR:3	SOURCEPAGE:p.32

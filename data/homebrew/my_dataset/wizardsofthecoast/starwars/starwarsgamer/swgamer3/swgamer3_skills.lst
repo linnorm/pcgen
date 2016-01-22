@@ -1,0 +1,9 @@
+# CVS $Revision: 1.4 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# Thurs Feb 21 2002
+SOURCELONG:Star Wars Gamer 3	SOURCESHORT:SWG3	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+# Skill Name		Key Stat	Untrained?		Type
+Knowledge (Childcare)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge
+Profession (Teacher)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+Profession (Casinos)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+Knowledge (Gambling)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge
+Knowledge (Recreation)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge

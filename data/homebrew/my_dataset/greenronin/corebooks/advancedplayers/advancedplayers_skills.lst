@@ -1,0 +1,58 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Green Ronin - Advanced Player's Manual	SOURCESHORT:Adv.Players	SOURCEWEB:www.greenronin.com	SOURCEDATE:2005-01
+SOURCESHORT:Adv.Players
+
+#Green Ronin - Advanced Players
+# Skill Name		Key Stat	Untrained?		Exclusive?		Type									Visible	Required Feat					Source Page
+Knowledge (Psychic)	KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge
+
+###Psychic Skill
+Adaptation			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Apport			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychoportation.Psychic			VISIBLE:YES	PREFEAT:1,Psychoportation			SOURCEPAGE:Advanced Players
+Blink Teleport				USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Psychoportation.Psychic					VISIBLE:YES	PREFEAT:1,Psychoportation			SOURCEPAGE:Advanced Players
+Body Control		KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Combat Sense		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Clairsentience.Psychic				VISIBLE:YES	PREFEAT:1,Clairsentience			SOURCEPAGE:Advanced Players
+Cryokinesis			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychokinesis.Psychic			VISIBLE:YES	PREFEAT:1,Psychokinesis				SOURCEPAGE:Advanced Players
+Dimensional Phase				USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Psychoportation.Psychic					VISIBLE:YES	PREFEAT:1,Psychoportation			SOURCEPAGE:Advanced Players
+Dimensional Shift		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychic					VISIBLE:YES	PREFEAT:1,Dimensional Shift			SOURCEPAGE:Advanced Players
+Domination			KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Drain Ability (STR)	KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Drain Ability (DEX)	KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Drain Ability (CON)	KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Drain Ability (INT)	KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Drain Ability (WIS)	KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Drain Ability (CHA)	KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Drain Emotion		KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Drain Power			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Drain Vitality		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Dreamwalk			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Telepathy.Psychic					VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Empathy			KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Wisdom.Telepathy.Psychic					VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Empathic Projection	KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Enhance Ability		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Enhance Senses		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Clairsentience.Psychic	VISIBLE:YES	PREFEAT:1,Clairsentience,Psychometabolism	SOURCEPAGE:Advanced Players
+Illusion			KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Life Drain			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Life Extension		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Mental Contact		KEYSTAT:CHA	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Mind Reading		KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Mind Switch			KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Mind Switch				SOURCEPAGE:Advanced Players
+Photokinesis		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychokinesis.Psychic			VISIBLE:YES	PREFEAT:1,Psychokinesis				SOURCEPAGE:Advanced Players
+Precognition		KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Wisdom.Clairsentience.Psychic				VISIBLE:YES	PREFEAT:1,Clairsentience			SOURCEPAGE:Advanced Players
+Psychic Blast		KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Psychic Healing		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychometabolism.Psychic			VISIBLE:YES	PREFEAT:1,Psychometabolism			SOURCEPAGE:Advanced Players
+Psychic Sense		KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:YES	TYPE:Wisdom.Psychic						VISIBLE:YES	PREFEAT:1,Psychic Ability			SOURCEPAGE:Advanced Players
+Psychic Shield		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic						VISIBLE:YES	PREFEAT:1,Psychic Ability			SOURCEPAGE:Advanced Players
+Psychic Static		KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Telepathy.Psychic					VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Psychic Surgery		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Telepathy.Psychic					VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Psychic Weapon		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Psychic						VISIBLE:YES	PREFEAT:1,Psychic Weapon			SOURCEPAGE:Advanced Players
+Psychometry			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Clairsentience.Psychic				VISIBLE:YES	PREFEAT:1,Clairsentience			SOURCEPAGE:Advanced Players
+Pyrokinesis			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychokinesis.Psychic			VISIBLE:YES	PREFEAT:1,Psychokinesis				SOURCEPAGE:Advanced Players
+Remote Viewing		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Clairsentience.Psychic				VISIBLE:YES	PREFEAT:1,Clairsentience			SOURCEPAGE:Advanced Players
+Sense Minds			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Wisdom.Telepathy.Psychic					VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Sleep				KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Suggestion			KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma.Telepathy.Psychic				VISIBLE:YES	PREFEAT:1,Telepathy				SOURCEPAGE:Advanced Players
+Telekinesis			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychokinesis.Psychic			VISIBLE:YES	PREFEAT:1,Psychokinesis				SOURCEPAGE:Advanced Players
+Telekinetic Blast		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychokinesis.Psychic			VISIBLE:YES	PREFEAT:1,Psychokinesis				SOURCEPAGE:Advanced Players
+Telekinetic Grip		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychokinesis.Psychic			VISIBLE:YES	PREFEAT:1,Psychokinesis				SOURCEPAGE:Advanced Players
+Telekinetic Shield	KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychokinesis.Psychic			VISIBLE:YES	PREFEAT:1,Psychokinesis				SOURCEPAGE:Advanced Players
+Teleport			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Intelligence.Psychoportation.Psychic			VISIBLE:YES	PREFEAT:1,Psychoportation			SOURCEPAGE:Advanced Players

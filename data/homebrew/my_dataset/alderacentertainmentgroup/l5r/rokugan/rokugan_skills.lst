@@ -1,0 +1,26 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+# Skill Name			Key Stat	Untrained?		Exclusive?		Classes						Type					Source Page		Bonus to skill
+Battle				KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:NO	CLASSES:Barbarian|Fighter|Paladin|Ranger	TYPE:Wisdom				SOURCEPAGE:p.44
+#Craft (Poison)			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Craft																	SOURCEPAGE:p.45
+Game (Go)				KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:NO	CLASSES:Bard					TYPE:Wisdom.Game			SOURCEPAGE:p.44
+Game (Kemari)			KEYSTAT:DEX	USEUNTRAINED:YES	EXCLUSIVE:NO	CLASSES:Bard					TYPE:Dexterity.Game		SOURCEPAGE:p.44
+Game (Sadane)			KEYSTAT:CHA	USEUNTRAINED:YES	EXCLUSIVE:NO	CLASSES:Bard					TYPE:Charisma.Game		SOURCEPAGE:p.44
+Game (Shogi)			KEYSTAT:WIS	USEUNTRAINED:YES	EXCLUSIVE:NO	CLASSES:Bard					TYPE:Wisdom.Game			SOURCEPAGE:p.44
+Game (Sumai)			KEYSTAT:STR	USEUNTRAINED:YES	EXCLUSIVE:NO	CLASSES:Bard					TYPE:Strength.Game		SOURCEPAGE:p.44
+Knowledge (Akasha)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Ancestors)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Bushido)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Elements)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO	CLASSES:Monk					TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Etiquette)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Fortunes)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO	CLASSES:Monk					TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Herbalism)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Law)			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Maho)			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Research)		KEYSTAT:INT	USEUNTRAINED:YES	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	BONUS:SKILL|Knowledge (Research)|SynergyBonus|PRESKILL:1,Gather Information=5|TYPE=Synergy.STACK	SOURCEPAGE:p.45
+Knowledge (Shintao)		KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO	CLASSES:Monk					TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Knowledge (Spirit Realms)	KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO								TYPE:Intelligence.Knowledge	SOURCEPAGE:p.44
+Mimic					KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:NO	CLASSES:Bard|Druid|Rogue			TYPE:Charisma			SOURCEPAGE:p.45	BONUS:SKILL|Mimic|SynergyBonus|PRESKILL:1,Listen=5|TYPE=Synergy.STACK
+Profession (Sailor)		KEYSTAT:WIS	USEUNTRAINED:NO											TYPE:Wisdom.Profession		SOURCEPAGE:MonstersS.rtf
+Tea Ceremony			KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:NO	CLASSES:Samurai|Shugenja			TYPE:Wisdom.Art			SOURCEPAGE:p.45

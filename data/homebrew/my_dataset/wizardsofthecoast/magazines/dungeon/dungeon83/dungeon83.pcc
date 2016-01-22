@@ -1,0 +1,14 @@
+# CVS $Revision: 1.1 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dungeon Issue #83
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dungeon #83
+SOURCESHORT:WotC-Dungeon #83
+SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+EQUIPMENT:dungeon83equipnonfantasyweapranged.lst
+RACE:dungeon83races.lst
+SKILL:dungeon83skills.lst
+WEAPONPROF:dungeon83nonfantasyweapprofs.lst

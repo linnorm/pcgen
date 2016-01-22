@@ -1,0 +1,11 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak  09/16/03
+SOURCELONG:Deep Horizon	SOURCESHORT:DeepH	SOURCEWEB:http://www.wizards.com/
+
+###Block:Simple weap profs
+# Weapon Name		Type
+Grenadelike Weapons	TYPE:Simple
+
+###Block:Exotic Weapon Profs
+# Weapon Name	Type
+Notbora		TYPE:Exotic

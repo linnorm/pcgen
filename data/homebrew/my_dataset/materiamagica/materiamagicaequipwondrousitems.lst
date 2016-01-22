@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Materia Magica	SOURCESHORT:MatMag
+
+# Equipment Name		Type					Cost		Weight	Source Page	Add 					Bonus to skill					Stat bonus
+Necklace of the Cat	TYPE:Magic.Wondrous.Amulet	COST:7500	WT:0		SOURCEPAGE:	ADD:FEAT|1|Lightning Reflexes	BONUS:SKILL|Balance,Hide,Move Silently|5	BONUS:STAT|DEX|2|TYPE=Enhancement
+

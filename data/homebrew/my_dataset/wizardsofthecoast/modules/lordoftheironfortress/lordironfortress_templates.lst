@@ -1,0 +1,5 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Lord of the Iron Fortress	SOURCESHORT:LordIronF	SOURCEWEB:http://www.wizards.com/
+
+# Template Name	Visible	Source Page		Special Ability													Required AL				Prohibited Template		Spell Res.		Hit Dice
+Axiomatic		VISIBLE:YES	SOURCEPAGE:p.43	SAB:Smite Chaos deal +% damage vs a chaotic opponent|((HD)MIN(20))	SAB:Linked Minds (Ex)	PREALIGN:LG,LN,LE,NG,TN,NE	!PRETEMPLATE:1,Incorporeal	SR:((2*HD)MIN25)	HD:1-3:SAB:Resistance to Fire,Electricity,Cold,Sonic of 5	HD:4-7:SAB:Resistance to Fire,Electricity,Cold,Sonic of 10	HD:8-11:SAB:Resistance to Fire,Electricity,Cold,Sonic of 15	HD:12+:SAB:Resistance to Fire,Electricity,Cold,Sonic of 20	

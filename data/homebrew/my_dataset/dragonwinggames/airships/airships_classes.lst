@@ -1,0 +1,19 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Dragon Wing Games - Airships	SOURCESHORT:Airships	SOURCEWEB:http://www.dragonwing.net
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Airship Saboteur	HD:6		TYPE:PC.Prestige	ABB:ASb		MAXLEVEL:10	SOURCEPAGE:pg. 71	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Feat		Required Skill
+CLASS:Airship Saboteur	PREFEAT:1,Alertness	PRESKILL:1,Craft (Alchemy)=4	PRESKILL:2,Balance=6,Move Silently=6	PRESKILL:1,Disguise=8	PRESKILL:1,Disable Device=10
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Airship Saboteur	STARTSKILLPTS:4	CSKILL:Balance|TYPE=Craft|Disable Device|Disguise|Hide|Jump|Move Silently|Open Lock|TYPE=Profession|Search|Spot|Use Magic Device|Use Rope
+1	SAB:Wing Use (Ex)																							AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency
+2	SAB:Aerial Hiding (Ex)
+3	SAB:Explosives (Ex)
+4	SAB:Locate Officer (Ex)
+5																	SPELLS:Innate|CASTERLEVEL=10|Feather Fall,11+INT
+6					BONUS:VAR|SneakAttack|1		ABILITY:Special Ability|AUTOMATIC|Sneak Attack
+7																	SPELLS:Innate|CASTERLEVEL=10|Fly,13+INT
+8	SAB:Engine Wrecker (Ex)
+9	SAB:Take Down (Ex)
+10	SAB:Ship Killer (Ex)

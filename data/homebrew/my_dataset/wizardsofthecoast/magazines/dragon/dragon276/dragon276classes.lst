@@ -1,0 +1,23 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #276	SOURCESHORT:WotC-Dragon #276	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus					WEAPONAUTO
+CLASS:Hunter of the Dead	HD:8		TYPE:PC.Prestige	ABB:Hun		MAXLEVEL:10	SOURCEPAGE:p.62	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name			Required AL				Req. Att.	Req. Special Ability	Required Skill				Required Text
+CLASS:Hunter of the Dead	PREALIGN:LG,LN,NG,TN,CG,CN	PREATT:5	PRESA:1,Turn Undead	PRESKILL:1,Knowledge (Undead)=5	PRETEXT:Must have lost one level or had one ability score point permanently drained by an undead creature
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Hunter of the Dead	STARTSKILLPTS:2	CSKILL:Concentration|Heal|Knowledge (Religion)|Knowledge (Undead)|TYPE.Profession|Ride|Search
+# Class Name			Spell Stat		Spell Type		Memorize		Automatically Known Spell Levels
+CLASS:Hunter of the Dead	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:YES	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4
+1	CAST:0,0		SAB:Detect Undead													AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency
+2	CAST:0,1		SAB:Smite Undead %/day|Smite Undead	BONUS:VAR|Smite Undead|1	DEFINE:Smite Undead|0
+3	CAST:0,1,0		SAB:Spurn Death's Touch
+4	CAST:0,1,1
+5	CAST:0,1,1,0	SAB:True Death
+6	CAST:0,1,1,1
+7	CAST:0,2,1,1,0
+8	CAST:0,2,1,1,1	SAB:Positive Energy Burst
+9	CAST:0,2,2,1,1
+10	CAST:0,2,2,2,1	SAB:Sealed Life
+
+#This was copied directly from the DotF class file to make sure that everything was the same

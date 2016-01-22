@@ -1,0 +1,6 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #281	SOURCESHORT:WotC-Dragon #281	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Weapon Name	Type
+Panther Claw	TYPE:Exotic
+Scimitar (Double)	TYPE:Exotic
+Staff (Bladed)	TYPE:Exotic

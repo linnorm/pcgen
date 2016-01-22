@@ -1,0 +1,52 @@
+# CVS $Revision: 1.5 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Droid Feats - Manufacturer
+SOURCELONG:Star Wars Gamer 3	SOURCESHORT:SWG3	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+#Table 1 - Droid Makers
+# Feat Name									Type			Visible		Description																						Save checks bonus		Combat bonus						Add to base move											Bonus to skill																		Stat bonus		Bonus				More language
+Manufactured by Accutronics						TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Accutronics																																										BONUS:SKILL|Knowledge (Childcare),Profession (Teacher)|2|TYPE=Equipment
+Manufactured by Arakyd Industries					TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Arakyd Industries																																									BONUS:SKILL|Diplomacy,Gather Information,Hide,Intimidate|1|TYPE=Equipment
+Manufactured by Balmorran Arms					TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Balmorran Arms																												BONUS:MOVEADD|LIGHTMEDIUMHEAVYOVERLOAD|.IF.MOVE.GTEQ.2.THEN.-2.ELSE.0		BONUS:SKILL|Spot,Search|2|TYPE=Equipment
+Manufactured by Cybot Galactica					TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Cybot Galactica																																									BONUS:SKILL|LIST|2|TYPE=Equipment
+Manufactured by Geentech						TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Geentech																																										BONUS:SKILL|LIST|4|TYPE=Equipment																		BONUS:GOLD|-200
+Manufactured by Genetech Corporation				TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Genetech Corporation																																								BONUS:SKILL|Gather Information,TYPE=Knowledge|2|TYPE=Equipment
+Manufactured by Imperial Department of Military Research	TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by the Imperial Department of Military Research																																				BONUS:SKILL|LIST|1|TYPE=Equipment
+Manufactured by Industrial Automation				TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Industrial Automation																																								BONUS:SKILL|LIST|1|TYPE=Equipment
+Manufactured by Les Tech						TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Les Tech (get -1 to Will Save if tempted by unknown or new)																																		BONUS:SKILL|Gather Information,Search|2|TYPE=Equipment
+Manufactured by LeisureMech Enterprises				TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by LeisureMech Enterprises																																								BONUS:SKILL|Bluff,Diplomacy,Intimidate|1|TYPE=Equipment	BONUS:SKILL|LIST|1|TYPE=Equipment					BONUS:STAT|INT|-2
+Manufactured by Loronar Corporation					TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Loronar Corporation (roll d20 for your extra quirk)
+Manufactured by Medtech Industries					TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Medtech Industries															BONUS:CHECKS|Reflex|-4									BONUS:MOVEADD|LIGHTMEDIUMHEAVYOVERLOAD|.IF.MOVE.GTEQ.2.THEN.2-MOVE.ELSE.0	BONUS:SKILL|Treat Injury|8|TYPE=Equipment														BONUS:STAT|DEX|-2
+Manufactured by MerenData						TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by MerenData																																										BONUS:SKILL|LIST|4|TYPE=Equipment															BONUS:STAT|CHA|-2
+Manufactured by Rebel Alliance Research & Development		TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Rebel Alliance Research & Development																																					BONUS:SKILL|LIST|1|TYPE=Equipment
+Manufactured by Roche							TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Roche Hive Mechanical Apparatus Design and Construction Activity for Those Who Need the Hive's Machines																										BONUS:SKILL|Diplomacy,Bluff|-3	BONUS:SKILL|STAT=STR,STAT=DEX,STAT=CON,STAT=INT,STAT=WIS,STAT=CHA|1|TYPE=Equipment
+Manufactured by Serv-O-Droid						TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Serv-O-Droid (roll d20 for your extra quirk)																																				BONUS:SKILL|Computer Use,TYPE=Knowledge|2|TYPE=Equipment
+Manufactured by Sienar Intelligence Systems			TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Sienar Intelligence Systems																																							BONUS:SKILL|Spot|4|TYPE=Equipment
+Manufactured by SoroSuub Corporation				TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by SoroSuub Corporation																																								BONUS:SKILL|Survival,LIST|2|TYPE=Equipment
+Manufactured by Ulban Arms Inc.					TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Ulban Arms Inc.																																									BONUS:SKILL|Spot,Listen|2|TYPE=Equipment
+Manufactured by Veril Line Systems					TYPE:DroidMaker	VISIBLE:EXPORT	DESC:You were manufactured by Veril Line Systems (Must leave 4 skill points unspent)																																		BONUS:SKILL|LIST|6|TYPE=Equipment
+
+#Table 2 - Droid Quirks
+#Name			Type			Bonuses																		PreRace		Description												Visible?	Source Index
+Alien Design								TYPE:DroidQuirk	VISIBLE:YES		DESC:You were built to resemble an unusual alien species																																							BONUS:SKILL|Diplomacy|-4|TYPE=Computer	BONUS:SKILL|Intimidate|4|TYPE=Computer
+Adventurous									TYPE:DroidQuirk	VISIBLE:YES		DESC:You have a knack for getting into and out of trouble																																							BONUS:SKILL|Escape Artist|4|TYPE=Computer
+Amenable									TYPE:DroidQuirk	VISIBLE:YES		DESC:You can't help but get along with other droids and beings																																						BONUS:SKILL|Diplomacy|4|TYPE=Computer	BONUS:SKILL|Intimidate|-4|TYPE=Computer
+Courteous									TYPE:DroidQuirk	VISIBLE:YES		DESC:You can communicate politely with many species																																								BONUS:SKILL|Diplomacy|2|TYPE=Computer																					BONUS:LANGUAGES|2
+Faithful									TYPE:DroidQuirk	VISIBLE:YES		DESC:You are good at helping out; +3 instead of +2 from an Aid action
+Honest									TYPE:DroidQuirk	VISIBLE:YES		DESC:You are honest, even when it hurts (DC15 Will check)																																							BONUS:SKILL|TYPE=Knowledge|4|TYPE=Computer
+Reliable									TYPE:DroidQuirk	VISIBLE:YES		DESC:You are trustworthy and have a friendly demeanor																																								BONUS:SKILL|Diplomacy,Gather Information|2
+Pompous									TYPE:DroidQuirk	VISIBLE:YES		DESC:You are inflicted with a superiority complex toward all other beings
+Discontinued Line								TYPE:DroidQuirk	VISIBLE:YES		DESC:The line you came from has been obsolete for years (-2 to Repair on you)																																				BONUS:SKILL|Bluff|2|TYPE=Circumstance	BONUS:SKILL|Survival|2|TYPE=Computer
+Previous Job								TYPE:DroidQuirk	VISIBLE:YES		DESC:You have a useful skill from previous employment																																								BONUS:SKILL|LIST|4|TYPE=Equipment
+Deliberate									TYPE:DroidQuirk	VISIBLE:YES		DESC:You focus on your current task, no matter what (may take 10 even under stress)																																			BONUS:SKILL|Listen,Search,Spot|-2
+Talkative									TYPE:DroidQuirk	VISIBLE:YES		DESC:You are a classic chatterbox and love the sound of your own voice												BONUS:CHECKS|Reflex|-1																						BONUS:SKILL|Bluff,Diplomacy|2	BONUS:SKILL|Gather Information|-2
+Aggressive									TYPE:DroidQuirk	VISIBLE:YES		DESC:Fights seem to find you - or is it the other way about?																	BONUS:COMBAT|TOHIT-PRIMARY,TOHIT-SECONDARY|1																																					BONUS:CLASS|DEFENSE|-1
+Paranoid									TYPE:DroidQuirk	VISIBLE:YES		DESC:The whole world is out to get you!!																	BONUS:CHECKS|Reflex|1	BONUS:COMBAT|Initiative|1																	BONUS:SKILL|Diplomacy,Gather Information,Intimidate|-2	BONUS:SKILL|Listen,Spot|2
+Inquisitive									TYPE:DroidQuirk	VISIBLE:YES		DESC:Curiosity often gets the better of you																																									BONUS:SKILL|Diplomacy|-2	BONUS:SKILL|Gather Information,LIST|2
+Obsessive									TYPE:DroidQuirk	VISIBLE:YES		DESC:You focus obsessively on one thing at the expense of others (must leave 3 skill points unspent)																																BONUS:SKILL|LIST|3
+Argumentative								TYPE:DroidQuirk	VISIBLE:YES		DESC:You always have to get the last word, should you ever actually end an argument...																																		BONUS:SKILL|Bluff,Intimidate|2|TYPE=Computer	BONUS:SKILL|Diplomacy,Sense Motive|-2|TYPE=Computer
+Slow										TYPE:DroidQuirk	VISIBLE:YES		DESC:Your servos have developed a timing glitch that no mechanic seems able to fix																						BONUS:MOVEADD|LIGHTMEDIUMHEAVYOVERLOAD|.IF.MOVE.GTEQ.2.THEN.-2.ELSE.0		BONUS:SKILL|Search|4|TYPE=Computer
+Quick										TYPE:DroidQuirk	VISIBLE:YES		DESC:Your servo speed has been cranked up - either deliberately or due to a fault...													BONUS:COMBAT|TOHIT-PRIMARY,TOHIT-SECONDARY|-1																																					BONUS:CLASS|DEFENSE|1
+Hidden Persona								TYPE:DroidQuirk	VISIBLE:YES		DESC:You have a secret, secondary personality that will be triggered by... who knows what?
+No quirk 1									TYPE:DroidQuirk	VISIBLE:DISPLAY	DESC:You have no quirks and stick quite correctly to your cor programming
+No quirk 2 (NPC droid)							TYPE:DroidQuirk	VISIBLE:DISPLAY	DESC:You have no quirks and stick quite correctly to your cor programming
+No quirk 3 (NPC droid)							TYPE:DroidQuirk	VISIBLE:DISPLAY	DESC:You have no quirks and stick quite correctly to your cor programming

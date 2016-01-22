@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Domain Name	Source Page		Description
+Mists			SOURCEPAGE:p.55	DESC:Once per day, you may call on the shield of Ezra, a film of luminous mist that envelops your body for (CASTERLEVEL) rounds. The form of protection granted is determined by your alignment. Lawful good: 25/Magic and Evil and Adamantine damage reduction vs. metal weapons. Lawful neutral: 15/Magic damage reduction vs. all physical attacks. Neutral: +10 to all Fortitude and Reflex saves vs. damaging spells. Lawful evil: +10 to all Will saves vs. mind-affecting spells and effects. This is a supernatural ability.
+Repose		SOURCEPAGE:p.55	DESC:You can grant final rest by tracing your deity's symbol on a newly dead body. That corpse then receives a Will save (using your Will save bonus) to resist any attempt to transform it into an undead creature, including the animate dead and create undead spells and the create spawn ability of undead creatures. This is a spell-like ability you can use once per day.
+

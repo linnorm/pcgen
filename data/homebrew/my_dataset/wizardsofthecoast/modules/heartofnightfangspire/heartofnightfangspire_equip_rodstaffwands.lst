@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/17/03
+SOURCELONG:Heart of Nightfang Spire	SOURCESHORT:HeartNight	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Type			Cost		Weight	Base Item for EQMOD	Modifier													Source Page
+Wand of Mage Armor (NF)	TYPE:Magic.Wand	COST:2250	WT:.01	BASEITEM:Wand		EQMOD:SE_50TRIGGER|SPELLNAME[Mage Armor]SPELLLEVEL[1]CASTERLEVEL[3]CHARGES[27]	SOURCEPAGE:p.6
+Wand of Sleep (NF)	TYPE:Magic.Wand	COST:2250	WT:.01	BASEITEM:Wand		EQMOD:SE_50TRIGGER|SPELLNAME[Sleep]SPELLLEVEL[1]CASTERLEVEL[3]CHARGES[22]		SOURCEPAGE:p.6
+

@@ -1,0 +1,10 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Star Wars Gamer 5	SOURCESHORT:SWG5	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+#Block: .MODed Skills
+# Skill Name		Type
+Computer Use.MOD		TYPE:SkillMaster
+Disable Device.MOD	TYPE:SkillMaster
+Forgery.MOD			TYPE:SkillMaster
+Gather Information.MOD	TYPE:SkillMaster
+Repair.MOD			TYPE:SkillMaster

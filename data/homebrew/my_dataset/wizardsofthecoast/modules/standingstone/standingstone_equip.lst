@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 09/16/03
+SOURCELONG:The Standing Stone	SOURCESHORT:StandingS	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name	Type				Cost		Weight	Source Page
+Silver Earrings	TYPE:Goods.General	COST:5	WT:.01	SOURCEPAGE:p.6

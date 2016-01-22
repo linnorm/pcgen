@@ -1,0 +1,5 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #278	SOURCESHORT:WotC-Dragon #278	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name	Type				Cost		Weight	AC Penalty Check	Source Page		% of Spell Failure	Combat bonus
+Grasping Shield	TYPE:Shield.Dwarven	COST:50	WT:10		ACCHECK:-1		SOURCEPAGE:p.85	SPELLFAILURE:5		BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE

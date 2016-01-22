@@ -1,0 +1,14 @@
+# CVS $Revision: 1.4 $ $Author: jujutsunerd $
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #287
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #287
+SOURCESHORT:WotC-Dragon #287
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon287classes.lst
+DEITY:dragon287deities.lst
+DOMAIN:dragon287domains.lst
+FEAT:dragon287feats.lst

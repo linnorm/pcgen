@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/15/03
+SOURCELONG:The Speaker in Dreams	SOURCESHORT:SpeakerD	SOURCEWEB:http://www.wizards.com/
+
+# Race Name	Size		Move				Reach		Vision		Required AL	Save checks bonus																		Combat bonus														Bonus to skill rank						Stat bonus																					Racial HD Class Skills	Default Monster Feat	Nb Legs	Nb Hands	Natural Attacks											Special Ability								HITDICE	SKILLMULT	MONSTERCLASS			Type			CR	Source Page
+Wyste		SIZE:H	MOVE:Walk,10,Swim,40	REACH:10	VISION:Blindsight	PREALIGN:TN	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|1|PREDEFAULTMONSTER:Y	BONUS:CHECKS|BASE.Willpower|4|PREDEFAULTMONSTER:Y	BONUS:COMBAT|BAB|1|PREDEFAULTMONSTER:Y|TYPE=Base.REPLACE	BONUS:COMBAT|AC|9|TYPE=NaturalArmor	BONUS:SKILLRANK|Listen,Spot|2|PREDEFAULTMONSTER:Y	BONUS:STAT|STR|12	BONUS:STAT|DEX|2	BONUS:STAT|CON|10	BONUS:STAT|INT|-9	BONUS:STAT|CHA|-2	BONUS:STAT|DEX,WIS|1|PREDEFAULTMONSTER:Y	MONCSKILL:Listen|Spot	MFEAT:Alertness		LEGS:0	HANDS:7	NATURALATTACKS:Tentacle Rake,Weapon.Natural.Melee.Piercing.Slashing,*7,1d4	SAB:Improved Grab (Ex)	SAB:Bite (Ex)	SAB:Acid Immunity	HITDICE:5,8	SKILLMULT:1	MONSTERCLASS:Aberration:5	TYPE:Aberration	CR:5	SOURCEPAGE:p.314

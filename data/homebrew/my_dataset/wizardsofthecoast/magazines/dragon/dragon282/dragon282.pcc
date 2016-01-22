@@ -1,0 +1,12 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #282
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #282
+SOURCESHORT:WotC-Dragon #282
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon282classes.lst
+FEAT:dragon282feats.lst

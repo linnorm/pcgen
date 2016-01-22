@@ -1,0 +1,33 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #174	SOURCESHORT:WotC-Dragon #174	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+#Name								TYPE					Cost		Weight
+
+# Equipment Name			Type				Cost		Weight	Source Page		Special Property
+Ioun Stone (Clear Sphere)	TYPE:Magic.Wondrous	COST:12000	WT:0		SOURCEPAGE:p.93	SPROP:+ 1 to spell resistance
+Ioun Stone (Pure White)		TYPE:Magic.Wondrous	COST:1000	WT:0		SOURCEPAGE:p.93	SPROP:+ 1 bonus to CHA vs. beings of the same race
+Ioun Stone (Silvery mirror)	TYPE:Magic.Wondrous	COST:1500	WT:0		SOURCEPAGE:p.93	SPROP:+ 1 on saves vs. gaze-type petrification attacks
+Ioun Stone (Deep Purple)	TYPE:Magic.Wondrous	COST:10000	WT:0		SOURCEPAGE:p.93	SPROP:Grants infravision(60ft range), or doubles existing infravision range
+Ioun Stone (Bright Silver)	TYPE:Magic.Wondrous	COST:10000	WT:0		SOURCEPAGE:p.93	SPROP:User + 200 lbs. of possessions can go ethereal for one hour (2d10Charges)
+Ioun Stone (Soft Black)		TYPE:Magic.Wondrous	COST:15000	WT:0		SOURCEPAGE:p.93	SPROP:Protection vs. draining attacks (vampire, specter, energy drain, etc)
+Ioun Stone (Bright White)	TYPE:Magic.Wondrous	COST:1500	WT:0		SOURCEPAGE:p.93	SPROP:+ 1 to all saving throws vs. acids
+Ioun Stone (Deep Black)		TYPE:Magic.Wondrous	COST:15000	WT:0		SOURCEPAGE:p.93	SPROP:Allows user to see in magical darkness (30ft range)
+Ioun Stone (Rainbow)		TYPE:Magic.Wondrous	COST:10000	WT:0		SOURCEPAGE:p.93	SPROP:User + 200 lbs. of possessions can polymorph self for one hour (2d10 Charges)
+Ioun Stone (Orange)		TYPE:Magic.Wondrous	COST:10000	WT:0		SOURCEPAGE:p.93	SPROP:Grants bonus to WILL saves vs mind-affecting spells as if the person has a 20 WIS
+Ioun Stone (Pulsing red)	TYPE:Magic.Wondrous	COST:1500	WT:0		SOURCEPAGE:p.93	SPROP:+ 1 to saving throws vs. fire-based attacks
+Ioun Stone (Flickering white)	TYPE:Magic.Wondrous	COST:1500	WT:0		SOURCEPAGE:p.93	SPROP:+ 1 to saving throws vs. cold-based attacks
+Ioun Stone (Brown)		TYPE:Magic.Wondrous	COST:10000	WT:0		SOURCEPAGE:p.93	SPROP:User + 200 lbs. of possessions can assume gaseous form one hour (2d10 Charges)
+Ioun Stone (Green)		TYPE:Magic.Wondrous	COST:1500	WT:0		SOURCEPAGE:p.93	SPROP:+ 1 to saving throws vs. gas-based attacks
+Ioun Stone (Gold)			TYPE:Magic.Wondrous	COST:10000	WT:0		SOURCEPAGE:p.93	SPROP:User + 200 lbs. of possessions can go astral for one hour (2d10 Charges)
+Ioun Stone (Yellow)		TYPE:Magic.Wondrous	COST:5000	WT:0		SOURCEPAGE:p.93	SPROP:Stone sheds Daylight on command as per spell
+Ioun Stone (Silver)		TYPE:Magic.Wondrous	COST:10000	WT:0		SOURCEPAGE:p.93	SPROP:Negates rear-attack bonuses against user from any source
+Ioun Stone (Copper)		TYPE:Magic.Wondrous	COST:5000	WT:0		SOURCEPAGE:p.93	SPROP:Allows user to read magic at will
+Ioun Stone (Silver)		TYPE:Magic.Wondrous	COST:1500	WT:0		SOURCEPAGE:p.93	SPROP:+ 1 to saving throws vs. electrical attacks
+Ioun Stone (Brass)		TYPE:Magic.Wondrous	COST:6000	WT:0		SOURCEPAGE:p.93	SPROP:Adds 2d4 + 2 hp to user on command, usable once per day (2d10 Charges)
+Ioun Stone (Cerulean blue)	TYPE:Magic.Wondrous	COST:35000	WT:0		SOURCEPAGE:p.93	SPROP:Bestows freedom of movement on user, as per the magical ring
+Ioun Stone (Blue Green)		TYPE:Magic.Wondrous	COST:25000	WT:0		SOURCEPAGE:p.93	SPROP:Bestows Water Breathing in 10ft radius sphere at will
+Ioun Stone (Puce)			TYPE:Magic.Wondrous	COST:12000	WT:0		SOURCEPAGE:p.93	SPROP:Bestows ESP ability at will, can scan surface thoughts of 1 person/round (30ft range)
+Ioun Stone (Rainbow)		TYPE:Magic.Wondrous	COST:7000	WT:0		SOURCEPAGE:p.93	SPROP:User can levitate at will
+Ioun Stone (Maroon)		TYPE:Magic.Wondrous	COST:20000	WT:0		SOURCEPAGE:p.93	SPROP:User can be harmed only by magical weapons and spells (then taking full damage)
+Ioun Stone (Clear Pink)		TYPE:Magic.Wondrous	COST:50000	WT:0		SOURCEPAGE:p.93	SPROP:Upon death the soul is transferred to the stone where it can be Ressurected
+Ioun Stone (Light Blue)		TYPE:Magic.Wondrous	COST:8000	WT:0		SOURCEPAGE:p.93	SPROP:Allows user to understand all spoken languages
+Ioun Stone (Pale Yellow)	TYPE:Magic.Wondrous	COST:15000	WT:0		SOURCEPAGE:p.93	SPROP:Bestows water walk ability at will

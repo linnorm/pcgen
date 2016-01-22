@@ -1,0 +1,21 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Fri Oct 19 20:16:09 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Demonology	SOURCESHORT:Demonology	SOURCEWEB:http://www.mongoosepublishing.com	SOURCEDATE:2003-01
+
+##Block: Demonologist
+# Ability Name			Unique Key						Category of Ability		Type						Description
+Siphon Demonic Energy		KEY:Siphon Demonic Energy ~ Demonologist	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:You may fuel your spellcasting with fiendish energies.
+Extended Instruction		KEY:Extended Instruction ~ Demonologist	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:The limit for each instruction to a summoned fiend increases to 12 words.	!PREABILITY:1,CATEGORY=Special Ability,Full Instruction
+Lesser Control			KEY:Lesser Control ~ Demonologist		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:The time limit a summoned fiend may stay in the material world increases to 2 hours.  Further, additional Control checks add 2 hours to this time instead of 1.	!PREABILITY:1,CATEGORY=Special Ability,Greater Control
+Multiple Summoning		KEY:Multiple Summoning ~ Demonologist	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:You may now summon more than one fiend at a time.
+Demonic Vulnerability		KEY:Demonic Vulnerability ~ Demonologist	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:You add +1 to your casting level when targeting fiends with arcane magic spells.
+Full Instruction			KEY:Full Instruction ~ Demonologist	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:The word limit for summoned fiends increases to 20 words.
+Greater Control			KEY:Greater Control ~ Demonologist		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:The time limit a summoned fiend may stay in the material world increases to 3 hours.  Further, additional Control checks add 3 hours to this time.
+
+
+##Block: Binder
+Demonic Binding			KEY:Demonic Binding ~ Binder			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:You have %1 Demonic Ability slots available for binding.|DemonicAbilitySlots
+
+
+##Block: Possessed
+Demonic Possession		KEY:Demonic Possession ~ Possessed		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:%1/day|DemonPos
+Additional Demonic Trait	KEY:Additional Demonic Trait ~ Possessed	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	DESC:%1|DemonicTrait

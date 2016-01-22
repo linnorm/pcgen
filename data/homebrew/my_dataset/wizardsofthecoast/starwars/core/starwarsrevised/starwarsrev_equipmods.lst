@@ -1,0 +1,32 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: Armor
+# Modifier Name			Unique Key		Naming Option	Type				Cost					Visible		Type granted	Keys to replace			Source Page							Required Type		Bonus to skill				Bonus Armor Modifiers				Weapon prop. bonus												Special Property							Choose									Apply to both heads
+Mastercraft (+1)			KEY:ARMRMW+1	NAMEOPT:NOLIST	TYPE:Armor.Shield		COST:BASECOST			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:ARMRMW+2,ARMRMW+3	SOURCEPAGE:p.113																BONUS:EQMARMOR|EDR|1|TYPE=ENHANCEMENT																SPROP:Mastercraft (+1 DR)															ASSIGNTOALL:YES
+Mastercraft (+2)			KEY:ARMRMW+2	NAMEOPT:NOLIST	TYPE:Armor.Shield		COST:(BASECOST*3)			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:ARMRMW+1,ARMRMW+3	SOURCEPAGE:p.113																BONUS:EQMARMOR|EDR|2|TYPE=ENHANCEMENT																SPROP:Mastercraft (+2 DR)															ASSIGNTOALL:YES
+Mastercraft (+3)			KEY:ARMRMW+3	NAMEOPT:NOLIST	TYPE:Armor.Shield		COST:(BASECOST*7)			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:ARMRMW+1,ARMRMW+2	SOURCEPAGE:p.113																BONUS:EQMARMOR|EDR|3|TYPE=ENHANCEMENT																SPROP:Mastercraft (+3 DR)															ASSIGNTOALL:YES
+
+#Block: Weapon
+Mastercraft (+1)			KEY:WEAPMW+1	NAMEOPT:NOLIST	TYPE:Weapon			COST:BASECOST			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:WEAPMW+2,WEAPMW+3	SOURCEPAGE:p.113																							BONUS:WEAPON|DAMAGE|1|TYPE=ENHANCEMENT									SPROP:Mastercraft (+1 DR)															ASSIGNTOALL:YES
+Mastercraft (+2)			KEY:WEAPMW+2	NAMEOPT:NOLIST	TYPE:Weapon			COST:(BASECOST*3)			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:WEAPMW+1,WEAPMW+3	SOURCEPAGE:p.113																							BONUS:WEAPON|DAMAGE|2|TYPE=ENHANCEMENT									SPROP:Mastercraft (+2 DR)															ASSIGNTOALL:YES
+Mastercraft (+3)			KEY:WEAPMW+3	NAMEOPT:NOLIST	TYPE:Weapon			COST:(BASECOST*7)			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:WEAPMW+1,WEAPMW+2	SOURCEPAGE:p.113																							BONUS:WEAPON|DAMAGE|3|TYPE=ENHANCEMENT									SPROP:Mastercraft (+3 DR)															ASSIGNTOALL:YES
+
+#Block: Tools
+Mastercraft (+1)			KEY:TOOLMW+1	NAMEOPT:NOLIST	TYPE:Tools			COST:BASECOST			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:TOOLMW+2,TOOLMW+3	SOURCEPAGE:p.136																																						SPROP:Applies EXTRA +1 Bonus beyond normal.												ASSIGNTOALL:YES
+Mastercraft (+2)			KEY:TOOLMW+2	NAMEOPT:NOLIST	TYPE:Tools			COST:(BASECOST*3)			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:TOOLMW+1,TOOLMW+3	SOURCEPAGE:p.136																																						SPROP:Applies EXTRA +2 Bonus beyond normal.												ASSIGNTOALL:YES
+Mastercraft (+3)			KEY:TOOLMW+3	NAMEOPT:NOLIST	TYPE:Tools			COST:(BASECOST*7)			VISIBLE:QUALIFY	ITYPE:Mastercraft	REPLACES:TOOLMW+1,TOOLMW+2	SOURCEPAGE:p.136																																						SPROP:Applies EXTRA +3 Bonus beyond normal.												ASSIGNTOALL:YES
+
+Add Type				KEY:ADDTYPE		NAMEOPT:NONAME	TYPE:ALL			COST:0															SOURCEPAGE:p.1																																															CHOOSE:STRING|Select desired TYPE(s)|TYPE=ALL|TITLE=STRING
+
+
+# Used for testing which items to allow editing on. Any item with the properties listed will not be allowed to be edited
+#EXCLUDEEQ_PHB											VISIBLE:NO		ITYPE:Masterwork.Adamantine.Silvered
+
+Autofire				KEY:AUTOFIRE				TYPE:Automatic							VISIBLE:QUALIFY									SOURCEPAGE:msrdequipmentweaponsandarmor.rtf																		BONUS:WEAPON|TOHIT|-4	BONUS:WEAPON|TOHIT|4								SPROP:Adds 2 dice to damage.
+Multi-fire				KEY:MULTIF					TYPE:Weapon.Ranged	COST:0				VISIBLE:QUALIFY	ITYPE:MultiF	REPLACES:AUTOFIRE			SOURCEPAGE:p.165						PRETYPE:1,Multifire														BONUS:WEAPON|ATTACKS|1	BONUS:WEAPON|TOHIT|-4	BONUS:WEAPON|TOHIT|2|PREFEAT:1,Multishot	SPROP:Multifire setting																ASSIGNTOALL:YES
+#No tripod		KEY:NOTRIPOD	TYPE:Weapon.Ranged	COST:0		VISIBLE:QUALIFY	ITYPE:NoTripod														SOURCEPAGE:p.135					PRETYPE:Tripod													BONUS:WEAPON|TOHIT|-2								SPROP:No Tripod													ASSIGNTOALL:Y
+#RapidShot		KEY:RapidShot	TYPE:Weapon.Ranged	COST:0		VISIBLE:QUALIFY	ITYPE:RapidF														SOURCEPAGE:p.115	PREFEAT:1,Rapid Shot					BONUS:WEAPON|ATTACKS|1								BONUS:WEAPON|TOHIT|-2								SPROP:Rapid Shot feat												ASSIGNTOALL:Y
+Self-Crafted			KEY:SLFCRFT					TYPE:Weapon.Melee		COST:0				VISIBLE:QUALIFY	ITYPE:Selfcrafted						SOURCEPAGE:p.175						PRETYPE:1,Selfcraftable														BONUS:WEAPON|TOHIT|1												SPROP:Self Crafted																ASSIGNTOALL:YES
+
+|Skill Bonus (Competance)	KEY:BNS_SKL_CMP				TYPE:Datacard		COST:(100*%CHOICE*%CHOICE)	VISIBLE:QUALIFY	ITYPE:Enhancement																		BONUS:SKILL|%CHOICE|TYPE=Competence																							SPROP:Competance bonus to selected skillof %CHOICE	CHOOSE:SKILLBONUS|MIN=1|MAX=5|TITLE=SKILL

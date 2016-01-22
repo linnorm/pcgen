@@ -1,0 +1,218 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Author:Andrew Maitland
+SOURCELONG:Green Ronin - Advanced Player's Manual	SOURCESHORT:Adv.Players	SOURCEWEB:www.greenronin.com	SOURCEDATE:2005-01
+SOURCESHORT:Adv.Players
+
+#ELDRITCH WEAVER
+
+# Class Name		Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus											Combat bonus					Modify VAR
+CLASS:Eldritch Weaver	HD:6		TYPE:Base.PC	ABB:EWeav		SOURCEPAGE:pg.17	LANGAUTO:Literacy		BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*1/2|TYPE=Base.REPLACE	BONUS:VAR|FMLevel|CL
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Eldritch Weaver	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher Script|Diplomacy|TYPE=Knowledge|TYPE=Profession|Spellcraft|Use Magic Device
+# Class Name		Spell Stat		Spell Type		Spellbook		Caster level
+CLASS:Eldritch Weaver	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	BONUS:CASTERLEVEL|Eldritch Weaver|CL
+
+###Block:Proficiencies
+###Block: Level progression
+1	CAST:5,1
+2	CAST:6,2
+3	CAST:6,2,0
+4	CAST:6,2,1
+5	CAST:6,3,2,0
+6	CAST:6,3,2,1
+7	CAST:6,3,2,2,0
+8	CAST:6,4,3,2,1
+9	CAST:6,4,3,2,2,0
+10	CAST:6,4,3,3,2,1
+11	CAST:6,4,4,3,2,2,0
+12	CAST:6,4,4,3,3,2,1
+13	CAST:6,4,4,4,3,2,2,0
+14	CAST:6,4,4,4,3,3,2,1
+15	CAST:6,4,4,4,4,3,3,2,0
+16	CAST:6,4,4,4,4,3,3,3,1
+17	CAST:6,4,4,4,4,4,3,3,2,0
+18	CAST:6,4,4,4,4,4,4,4,3,1
+19	CAST:6,4,4,4,4,4,4,4,3,2
+20	CAST:6,4,4,4,4,4,4,4,4,3
+
+
+#EVANGELIST
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus											Combat bonus
+CLASS:Evangelist	HD:6		TYPE:Base.PC	ABB:Evang		SOURCEPAGE:pg.21	LANGAUTO:Literacy		BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Evangelist	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Intimidate|Jump|Heal|Knowledge (Religion)|Perform|TYPE=Profession|Ride|Sleight of Hand|Spellcraft|Sense Motive|Swim|Use Magic Device|Use Rope
+# Class Name	Spell Stat		Spell Type		Automatically Known Spell Levels							Caster level
+CLASS:Evangelist	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6	BONUS:CASTERLEVEL|Evangelist|CL
+###Block:Proficiencies
+
+###Block: Turn Undead stuff
+4	BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base			DEFINE:AllowImprovedTurning|1
+4	BONUS:VAR|TurnLevelBase|CL-3|TYPE=Level.REPLACE		DEFINE:AllowExtraTurning|1
+4	BONUS:VAR|TurnDamagePlusBase|CL-3|TYPE=Level.REPLACE
+4	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base
+###Block: Spell Alignment Restrictions
+1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:,,
+1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:,,
+1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:,,
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:,,
+###Block: Level progression
+1	CAST:2
+2	CAST:3,0
+3	CAST:3,1
+4	CAST:3,2,0
+5	CAST:3,3,1
+6	CAST:3,3,2
+7	CAST:3,3,2,0
+8	CAST:3,3,3,1
+9	CAST:3,3,3,2
+10	CAST:3,3,3,2,0
+11	CAST:3,3,3,3,1
+12	CAST:3,3,3,3,2
+13	CAST:3,3,3,3,2,0
+14	CAST:4,3,3,3,3,1
+15	CAST:4,4,3,3,3,2
+16	CAST:4,4,4,3,3,2,0
+17	CAST:4,4,4,4,3,3,1
+18	CAST:4,4,4,4,4,3,2
+19	CAST:4,4,4,4,4,4,3
+20	CAST:4,4,4,4,4,4,4
+
+#SCOUT
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus												Combat bonus
+CLASS:Scout		HD:6		TYPE:Base.PC	ABB:Scout		SOURCEPAGE:pg.25	LANGAUTO:Literacy		BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Scout		STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Gather Information|Handle Animal|Heal|Hide|Jump|TYPE=Knowledge|Listen|Move Silently|TYPE=Profession|Search|Sense Motive|Spot|Survival|Swim|Tumble|Use Rope
+
+###Block:Proficiencies
+#	Class says proficient with LIGHT martial weapons. What's the best way to handle that?
+# Is there a Light Shield Proficiency only? It's a class restriction.
+# Favored weapon adds a +1 to the selected weapon from the scout list. It DOES stack with weapon focus. Might require some extra coding to get it to work correctly though.
+###Level Progression
+#Hidden Feats TYPE.ClassScout=Discern Lies,Canny Fighting,Greater Canny Fighting,Lesser Self-Healing,Self-Healing,Greater Self-Healing,Cunning Stealth,Greater Cunning Stealth,Mobile Fighting,Greater Mobile Fighting,Wild Craft,Greater Wildcraft
+6	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE
+
+
+#SPELLMASTER
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Define			Save checks bonus											Combat bonus					Modify VAR
+CLASS:Spellmaster	HD:6		TYPE:Base.PC	ABB:SPM		SOURCEPAGE:Pg.29	LANGAUTO:Literacy		DEFINE:SpellMasterSR|0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	BONUS:VAR|SpellMasterSR|CL/2
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Spellmaster	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher Script|Diplomacy|TYPE=Knowledge|TYPE=Profession|Spellcraft|Use Magic Device
+# Class Name	Spell Stat		Spell Type
+CLASS:Spellmaster	SPELLSTAT:WIS	SPELLTYPE:Arcane
+#,Wizard,Bard,Cleric,Druid,Assassin,Paladin,Ranger,Hexblade,Wu Jen		SPELLBOOK:YES	BONUS:CASTERLEVEL|Spellmaster|CL
+
+###Block:Proficiencies
+7	SR:SpellmasterSR+WIS+10
+11					BONUS:MISC|SR|5
+###Block: Level progression
+1	CAST:2,1
+2	CAST:3,1
+3	CAST:3,2
+4	CAST:3,2,1
+5	CAST:3,3,1
+6	CAST:3,3,2
+7	CAST:3,3,2,1
+8	CAST:3,3,3,1
+9	CAST:3,3,3,2
+10	CAST:3,3,3,2,1
+11	CAST:3,3,3,3,1
+12	CAST:3,3,3,3,2,1
+13	CAST:3,3,3,3,2,1
+14	CAST:4,3,3,3,3,2,1
+15	CAST:4,4,3,3,3,2,1
+16	CAST:4,4,4,3,3,2,2
+17	CAST:4,4,4,4,3,3,2
+18	CAST:4,4,4,4,4,3,3
+19	CAST:4,4,4,4,4,4,3
+20	CAST:4,4,4,4,4,4,4
+
+
+#THANEMAGE
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus											Combat bonus
+CLASS:Thanemage	HD:10		TYPE:Base.PC	ABB:ThanM		SOURCEPAGE:pg.33	LANGAUTO:Literacy		BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Thanemage	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE=Craft|Decipher Script|Handle Animal|Heal|Jump|Knowledge (Arcana)|TYPE=Profession|Ride|Spellcraft|Survival|Swim|Use Rope
+# Class Name	Spell Stat		Spell Type		Spellbook		Caster level				Use Spell List
+CLASS:Thanemage	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	BONUS:CASTERLEVEL|Thanemage|CL	SPELLLIST:1|Wizard
+
+
+###Block:Proficiencies
+###Block: Level progression
+###Spell Block
+1	CAST:2
+2	CAST:2
+3	CAST:2
+4	CAST:3,0
+5	CAST:3,0
+6	CAST:3,1
+7	CAST:3,1
+8	CAST:3,1,0
+9	CAST:3,1,0
+10	CAST:3,1,1
+11	CAST:3,1,1,0
+12	CAST:3,1,1,1
+13	CAST:3,1,1,1
+14	CAST:4,2,1,1,0
+15	CAST:4,2,1,1,1
+16	CAST:4,2,2,1,1
+17	CAST:4,2,2,2,1
+18	CAST:4,3,2,2,1
+19	CAST:4,3,3,3,2
+20	CAST:4,3,3,3,3
+
+#WARPRIEST
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus											Combat bonus
+CLASS:Warpriest	HD:10		TYPE:Base.PC	ABB:WarPr		SOURCEPAGE:pg.38	LANGAUTO:Literacy		BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Warpriest	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Handle Animal|Heal|Jump|Knowledge (Religion)|Ride|Spellcraft
+# Class Name	Spell Stat		Spell Type		Spellbook		Caster level				Use Spell List
+CLASS:Warpriest	SPELLSTAT:WIS	SPELLTYPE:Arcane	SPELLBOOK:YES	BONUS:CASTERLEVEL|Thanemage|CL	SPELLLIST:1|Wizard
+
+#Proficiency Block
+###Block: Turn Undead stuff
+7	BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base			DEFINE:AllowImprovedTurning|1
+7	BONUS:VAR|TurnLevelBase|CL-6|TYPE=Level.REPLACE		DEFINE:AllowExtraTurning|1
+7	BONUS:VAR|TurnDamagePlusBase|CL-6|TYPE=Level.REPLACE
+7	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base
+###Block: Spell Alignment Restrictions
+1					PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:,,
+1					PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:,,
+1					PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:,,
+1					PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:,,
+
+#Level Progression
+1	CAST:2,0
+2	CAST:4,1
+3	CAST:4,2,0
+4	CAST:4,3,1
+5	CAST:4,4,2
+6	CAST:4,4,3,0
+7	CAST:4,4,3,1
+8	CAST:4,4,4,2
+9	CAST:4,4,4,3,0
+10	CAST:4,4,4,3,1
+11	CAST:4,4,4,4,2
+12	CAST:4,4,4,4,3,0
+13	CAST:4,4,4,4,3,1
+14	CAST:5,4,4,4,4,2
+15	CAST:5,5,4,4,4,3,0
+16	CAST:5,5,5,4,4,3,1
+17	CAST:5,5,5,5,4,4,2
+18	CAST:5,5,5,5,5,4,3
+19	CAST:5,5,5,5,5,5,4
+20	CAST:5,5,5,5,5,5,5
+
+#PSYCHIC
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus											Combat bonus
+CLASS:Psychic	HD:4		TYPE:Base.PC	ABB:Psych		SOURCEPAGE:pg.180	LANGAUTO:Literacy		BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Psychic	STARTSKILLPTS:6	CSKILL:Bluff|Concentration|TYPE=Craft|Diplomacy|Gather Information|Intimidate|TYPE=Knowledge|Listen|TYPE=Perform|TYPE=Profession|Search|Sense Motive|Spot
+
+###Block:Proficiencies
+###Block: Level progression

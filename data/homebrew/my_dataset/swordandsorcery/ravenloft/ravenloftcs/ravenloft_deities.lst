@@ -1,0 +1,18 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 11:54:47 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Deity Name	Domains											Desciption of Deity/Title						Holy Item																	Deity Weapon			Alignment	Source Page
+Belenus		DOMAINS:Fire,Good,Sun|PREALIGN:LG,NG,TN,CG					DESC:sun god, master of fire						SYMBOL:Celtic-style Golden sunburst													DEITYWEAP:Sickle			ALIGN:NG	SOURCEPAGE:p.50
+The Eternal Order	DOMAINS:Death,Evil,Knowledge,Repose|PREALIGN:LE,TN,NE,CE			DESC:darkonian faith							SYMBOL:A hooded human skull														DEITYWEAP:Scythe			ALIGN:NE	SOURCEPAGE:p.51
+Ezra			DOMAINS:Mists,Destruction,Healing,Law,Protection|PREALIGN:LG,LN,LE,TN	DESC:guardian of the mists						SYMBOL:A silver longsword superimposed on an alabaster kite shield and adorned with a sprig of belladonna	DEITYWEAP:Longsword		ALIGN:LN	SOURCEPAGE:p.51
+Hala			DOMAINS:Healing,Magic,Plant|PREALIGN:LN,NG,TN,NE,CN				DESC:goddess of witchcraft						SYMBOL:A ring formed by 13 serpents each devouring the tail of the one before it					DEITYWEAP:Dagger			ALIGN:TN	SOURCEPAGE:p.52
+Kali			DOMAINS:Destruction,Evil,Healing,Trickery|PREALIGN:NE,CN,CE			DESC:black mother								SYMBOL:Skulls strung together on a leather necklace										DEITYWEAP:Sap			ALIGN:CE	SOURCEPAGE:p.53
+The Lawgiver	DOMAINS:Death,Evil,Law,War|PREALIGN:LN,LE,NE					DESC:iron tyrant or black lord					SYMBOL:A stout iron spear, bound in the coils of bronze									DEITYWEAP:Whip			ALIGN:LE	SOURCEPAGE:p.52
+The Morninglord	DOMAINS:Good,Luck,Protection,Sun|PREALIGN:NG,CG,CN				DESC:god of the rosy dawn						SYMBOL:A simple, rose tinted disc of gold												DEITYWEAP:Shortspear		ALIGN:CG	SOURCEPAGE:p.52
+Osiris		DOMAINS:Good,Protection,Repose,Water|PREALIGN:LG,NG,TN,CG			DESC:god of the afterworld						SYMBOL:Crossed flail and staff													DEITYWEAP:Flail (Light)		ALIGN:NG	SOURCEPAGE:p.49
+Ra			DOMAINS:Air,Good,Law,Sun|PREALIGN:LG,LN,NG					DESC:father and king of the gods					SYMBOL:An ankh superimposed on a solar disc											DEITYWEAP:Falchion		ALIGN:LG	SOURCEPAGE:p.49
+Set			DOMAINS:Death,Evil,Trickery|PREALIGN:LN,LE,NE					DESC:god of deceit and the destructive power of nature	SYMBOL:A coiled cobra															DEITYWEAP:Sword (Short)		ALIGN:LE	SOURCEPAGE:p.49
+Tvashtri		DOMAINS:Chaos,Knowledge,Magic,Plant|PREALIGN:NG,CG,CN				DESC:god of industry and invention					SYMBOL:A pinwheel fan															DEITYWEAP:Dagger (Punching)	ALIGN:CG	SOURCEPAGE:p.53
+The Wolf God	DOMAINS:Animal,Strength,Trickery|PREALIGN:NE,CN,CE				DESC:wolf god								SYMBOL:A wolf's head. Followers often use use actual wolf skulls								DEITYWEAP:ANY			ALIGN:CE	SOURCEPAGE:p.53
+Zhakata		DOMAINS:Destruction,Earth,Fire,Protection|PREALIGN:LN,LE,NE			DESC:the devourer								SYMBOL:Small reliquary containing human finger bones										DEITYWEAP:Flail			ALIGN:LE	SOURCEPAGE:p.53
+

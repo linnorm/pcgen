@@ -1,0 +1,202 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Darkside Sourcebook	SOURCESHORT:DSSB	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: Prestige Classes - Revised version
+
+# Class Name		Hit Dice	Type				Abbreviation	Source Page			Save checks bonus												Combat bonus						Modify VAR
+CLASS:Emperor's Hand	HD:8		TYPE:PC.Prestige.Force	ABB:EH		SOURCEPAGE:pg. 24/2	BONUS:CHECKS|BASE.Reflex|2+(CL/2)	BONUS:CHECKS|BASE.Fortitude,BASE.Willpower|CL/3	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|(CL+1)*2/3)	BONUS:VAR|ForcePoints|CL
+# Class Name		Req. Att.	Required Feat							Required Skill																	Var. Min. Value			Var. Max. Value
+CLASS:Emperor's Hand	PREATT:4	PREFEAT:3,Alertness,Point Blank Shot,Force Sensitive	PRESKILL:7,Bluff=4,Disable Device=4,Gather Information=4,Hide=4,Move Silently=4,Sleight of Hand=4,Survival=4	PREVARGTEQ:DarksidePoints,2	PREVARLTEQ:Reputation,2
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Emperor's Hand	STARTSKILLPTS:8	CSKILL:Bluff|Computer Use|TYPE=Craft|Demolitions|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|TYPE=Knowledge|Listen|Move Silently|Pilot|TYPE=Profession|Search|Sleight of Hand|Spot|Survival|Tumble
+1	BONUS:VAR|ForceUser|CL	DEFINE:ForceUser|0
+2	BONUS:VAR|TargetBonus|1	DEFINE:TargetBonus|0
+3	BONUS:VAR|SneakAttack|1
+4	BONUS:VAR|TargetBonus|1
+6	BONUS:VAR|TargetBonus|1
+7	BONUS:VAR|SneakAttack|1
+8	BONUS:VAR|TargetBonus|1
+10	BONUS:VAR|TargetBonus|1
+
+# Class Name		Hit Dice	Type				Abbreviation	Source Page			Save checks bonus														Combat bonus						Modify VAR
+CLASS:Dark Force Witch	HD:8		TYPE:PC.Prestige.Force	ABB:DFW		SOURCEPAGE:pg. 26/3	BONUS:CHECKS|BASE.Willpower|2+(CL/2)	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|(CL+3)*2/5	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|CL/2	BONUS:VAR|ForcePoints|CL
+# Class Name		Req. Att.	Required Feat					Required Skill												Var. Min. Value
+CLASS:Dark Force Witch	PREATT:1	PREFEAT:3,Force Sensitive,Alter,Sense	PRESKILL:1,Intimidate=2	PRESKILL:2,Knowledge (Culture - Witch)=4,Move Object=4	PREVARGTEQ:DarksidePoints,4
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Dark Force Witch	STARTSKILLPTS:6	CSKILL:Climb|TYPE=Craft|Handle Animal|Hide|Intimidate|TYPE=Knowledge|Listen|Move Silently|TYPE=Profession|Ride|Spot|Survival
+1	BONUS:VAR|FearBonus|1	BONUS:VAR|ForceUser|CL	DEFINE:FearBonus|0	DEFINE:ForceUser|0
+5	BONUS:VAR|FearBonus|1
+7	BONUS:VAR|ForceFlight|10				DEFINE:ForceFlight|0
+9	BONUS:VAR|FearBonus|1
+10	BONUS:VAR|ForceFlight|10
+
+# Class Name			Hit Dice	Type				Abbreviation	Source Page			Save checks bonus														Combat bonus						Modify VAR
+CLASS:Imperial Inquisitor	HD:10		TYPE:PC.Prestige.Force	ABB:INQ		SOURCEPAGE:pg. 29/5	BONUS:CHECKS|BASE.Willpower|2+(CL/2)	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|(CL+3)*2/5	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|CL/2	BONUS:VAR|ForcePoints|CL
+# Class Name			Req. Att.	Required Feat					Required Skill											Var. Min. Value
+CLASS:Imperial Inquisitor	PREATT:4	PREFEAT:3,Force Sensitive,Track,Sense	PRESKILL:5,Intimidate=4,See Force=4,Telepathy=4,Drain Knowledge=4,Fear=4	PREVARGTEQ:DarksidePoints,WISSCORE/2	PREVARGTEQ:Reputation,2
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Imperial Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Computer Use|TYPE=Craft|Gather Information|Intimidate|TYPE=Knowledge|TYPE=Profession|Sense Motive|Survival|Tumble
+1	BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0
+4	BONUS:VAR|LightsaberDamage|1	DEFINE:LightsaberDamage|0
+8	BONUS:VAR|LightsaberDamage|1
+
+# Class Name		Hit Dice	Type					Source Page			Define
+CLASS:Sith Acolyte	HD:8		TYPE:PC.Prestige.Force.Sith	SOURCEPAGE:pg.31-34	DEFINE:BAB|(4*CL)/6	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|1+(CL/5)+((CL+1)/5)	DEFINE:WILLBASE|2+(CL/2)
+# Class Name		Req. Att.	Required Feat					Required Language	Required Skill						Total Skill Points Req.		Var. Min. Value
+CLASS:Sith Acolyte	PREATT:3	PREFEAT:3,Force Sensitive,Alter,Sense	PRELANG:1,Sith	PRESKILL:2,Knowledge (Sith Lore)=6,See Force=6	PRESKILLTOT:TYPE.Darkside=6	PREVARGTEQ:DarksidePoints,4
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Sith Acolyte	STARTSKILLPTS:6	CSKILL:Bluff|Computer Use|TYPE=Craft|Diplomacy|Gather Information|Intimidate|TYPE=Knowledge|TYPE=Profession|Read/Write Language (Sith)|Sense Motive|Speak Language (Sith)
+1	BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0
+2
+4	BONUS:VAR|LightsaberDamage|1	DEFINE:LightsaberDamage|0
+8	BONUS:VAR|LightsaberDamage|1
+
+# Class Name	Hit Dice	Type					Source Page		Define
+CLASS:Sith Lord	HD:10		TYPE:PC.Prestige.Force.Sith	SOURCEPAGE:p.	DEFINE:BAB|CL	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|2+(CL/2)
+# Class Name	Req. Att.	Required Feat																													Required Language	Required Skill										Total Skill Points Req.		Var. Min. Value
+CLASS:Sith Lord	PREATT:6	PREFEAT:1,Exotic Weapon Proficiency (Lightsaber),Exotic Weapon Proficiency (Double Lightsaber),Exotic Weapon Proficiency (Sith Sword)	PREFEAT:4,Force Sensitive,Control,Sense,Alter	PRELANG:1,Sith	PRESKILL:1,Battlemind=6	PRESKILL:2,Knowledge (Sith Lore)=8,Intimidate=8	PRESKILLTOT:TYPE.Darkside=8	PREVARGTEQ:DarksidePoints,8
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Sith Lord	STARTSKILLPTS:6	CSKILL:Bluff|Computer Use|TYPE=Craft|Diplomacy|Gather Information|Intimidate|TYPE=Knowledge|TYPE=Profession|Read/Write Language (Sith)|Sense Motive|Speak Language (Sith)
+1	BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0
+3	BONUS:VAR|LightsaberDamage|1	DEFINE:LightsaberDamage|0
+5	BONUS:VAR|LightsaberDamage|1
+
+# Class Name		Hit Dice	Type					Source Page		Define
+CLASS:Sith Warrior	HD:10		TYPE:PC.Prestige.Force.Sith	SOURCEPAGE:p.	DEFINE:BAB|CL	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|1+(CL/5)+((CL+1)/5)
+# Class Name		Req. Att.	Required Feat																				Required Language	Required Skill										Total Skill Points Req.		Var. Min. Value
+CLASS:Sith Warrior	PREATT:4	PREFEAT:1,Exotic Weapon Proficiency (Lightsaber),Exotic Weapon Proficiency (Sith Sword)	PREFEAT:3,Force Sensitive,Control,Alter	PRELANG:1,Sith	PRESKILL:1,Intimidate=6	PRESKILL:2,Battlemind=4,Knowledge (Sith Lore)=4	PRESKILLTOT:TYPE.Darkside=4	PREVARGTEQ:DarksidePoints,6
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Sith Warrior	STARTSKILLPTS:4	CSKILL:Climb|Computer Use|TYPE=Craft|Intimidate|Jump|TYPE=Knowledge|TYPE=Profession|Swim|Tumble
+1	BONUS:VAR|ForceUser|CL						DEFINE:ForceUser|0
+3	BONUS:VAR|EnemyBonus|1	BONUS:VAR|LightsaberDamage|1	DEFINE:EnemyBonus|0	DEFINE:LightsaberDamage|0
+6	BONUS:VAR|EnemyBonus|1	BONUS:VAR|LightsaberDamage|1
+9	BONUS:VAR|EnemyBonus|1
+10	BONUS:VAR|LightsaberDamage|1
+
+
+#Block: Prestige Classes - Book version
+# Class Name		Hit Dice	Type			Abbreviation	Source Page		Define																					DEF		REP
+# CLASS:Dark Side Devotee	HD:8		TYPE:PC.Prestige.Force	ABB:DSD		SOURCEPAGE:p.	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|1+(CL/5)+((CL+1)/5)	DEFINE:WILLBASE|2+(CL/2)	DEF:8,0	REP:8
+# Class Name		Req. Att.	Required Feat			Required Skill		Req. Dark Side	PREREPUTATION
+# CLASS:Dark Side Devotee	PREATT:2	PREFEAT:1,Force Sensitive	PRESKILL:1,Intimidate=4	PREVARGTEQ:DarksidePoints,3	PREVARGTEQ:Reputation,1
+# Class Name		Skill Pts/Lvl	Class Skill
+# CLASS:Dark Side Devotee	STARTSKILLPTS:6	CSKILL:TYPE.Craft|Handle Animal|Hide|TYPE.Knowledge|Listen|TYPE.Profession|Sense Motive|Spot|Survival
+# 1						BONUS:VAR|ForceUser|CL	DEFINE:ForceUser|0	ADD:FEAT(Darkside Skill Emphasis)	FEATAUTO:Weapon Group Proficiency (Simple Weapons)|Weapon Group Proficiency (Blaster Pistols)|Alter
+# 2	SA:Dark Side Talisman +%|2
+# 3																				FEATAUTO:Sense
+# 4														ADD:FEAT(Darkside Skill Emphasis)
+# 5																				FEATAUTO:Control
+# 6	SA:Force Weapon +%d4|1
+# 7														ADD:FEAT(Darkside Skill Emphasis)
+# 8	SA:Dark Side Talisman +%|2
+# 9	SA:Force Weapon +%d4|1
+# 10														ADD:FEAT(Darkside Skill Emphasis)
+
+# Class Name			Hit Dice	Type			Abbreviation	Source Page		Define																DEF		REP
+# CLASS:Dark Side Marauder	HD:10		TYPE:PC.Prestige.Force	ABB:DSM		SOURCEPAGE:p.	DEFINE:BAB|CL	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|CL/3	DEF:9,0	REP:2
+# Class Name			Req. Att.	Required Feat					Required Skill		Req. Dark Side
+# CLASS:Dark Side Marauder	PREATT:1	PREFEAT:2,Force Sensitive,Power Attack	PRESKILL:1,Intimidate=4	PREVARGTEQ:DarksidePoints,4
+# Class Name			Skill Pts/Lvl	Class Skill
+# CLASS:Dark Side Marauder	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Intimidate|Jump|TYPE.Knowledge|TYPE.Profession|Survival|Swim|Tumble
+# 1	BONUS:VAR|ForceUser|CL	DEFINE:ForceUser|0														FEATAUTO:Weapon Group Proficiency (Blaster Pistols)|Weapon Group Proficiency (Simple Weapons)|Weapon Group Proficiency (Blaster Rifles)|Weapon Group Proficiency (Primitive Weapons)|Weapon Group Proficiency (Vibro Weapons)|Control|Rage
+# 2						ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy))
+# 3																			FEATAUTO:Alter
+# 4						ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy))
+# 5																			FEATAUTO:Sense
+# 6						ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy))
+# 8						ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy))
+# 10						ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy))
+
+# Class Name		Hit Dice	Type				Abbreviation	Source Page
+# CLASS:Emperor's Hand	HD:8		TYPE:PC.Prestige.Force	ABB:EH		SOURCEPAGE:p.	BONUS:CHECKS|BASE.Reflex|2+(CL/2)	BONUS:CHECKS|BASE.Fortitude,BASE.Willpower|CL/3	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|(CL+1)*2/3)	BONUS:VAR|ForcePoints|CL
+# Class Name		Req. Att.	Required Feat							Required Race	Required Skill															Var. Min. Value		Var. Max. Value
+# CLASS:Emperor's Hand	PREATT:4	PREFEAT:3,Alertness,Point Blank Shot,Force Sensitive	PRERACE:Human	PRESKILL:7,Bluff,Disable Device,Gather Information,Hide,Move Silently,Sleight of Hand,Survival=4	PREVARGTEQ:DarksidePoints,2	PREVARLTEQ:Reputation,4
+# Class Name		Skill Pts/Lvl	Class Skill
+# CLASS:Emperor's Hand	STARTSKILLPTS:8	CSKILL:Bluff|Computer Use|TYPE.Craft|Demolitions|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|TYPE.Knowledge|Listen|Move Silently|Pilot|TYPE.Profession|Search|Sleight of Hand|Spot|Survival|Tumble
+# 1	SA:Resource Access						BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0						FEATAUTO:Weapon Group Proficiency (Blaster Pistols)|Weapon Group Proficiency (Simple Weapons)|Weapon Group Proficiency (Blaster Rifles)|Weapon Group Proficiency (Vibro Weapons)|Alter
+# 2	SA:Authority	SA:Target Bonus +%|TargetBonus	BONUS:VAR|TargetBonus|1		DEFINE:TargetBonus|0
+# 3	SA:Sneak Attack +%d%|Sneak Attack|Sneak Attack Die	BONUS:VAR|Sneak Attack|1	DEFINE:Sneak Attack Die|6	DEFINE:Sneak Attack|0	FEATAUTO:Control
+# 4	BONUS:VAR|TargetBonus|1
+# 5																								FEATAUTO:Sense
+# 6	BONUS:VAR|TargetBonus|1
+# 7										BONUS:VAR|Sneak Attack|1
+# 8	BONUS:VAR|TargetBonus|1
+# 9	SA:Deadly Strike
+# 10	BONUS:VAR|TargetBonus|1
+
+# Class Name		Hit Dice	Type				Abbreviation	Source Page		Define																					DEF		REP
+# CLASS:Dark Force Witch	HD:8		TYPE:PC.Prestige.Force	ABB:DFW		SOURCEPAGE:p.	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|1+(CL/5)+((CL+1)/5)	DEFINE:WILLBASE|2+(CL/2)	DEF:5,0	REP:8
+# Class Name		Req. Att.	Required Feat					Required Skill											Var. Min. Value
+# CLASS:Dark Force Witch	PREATT:1	PREFEAT:3,Force Sensitive,Alter,Sense	PRESKILL:1,Intimidate=2	PRESKILL:2,Knowledge (Culture - Witch),Move Object=4	PREVARGTEQ:DarksidePoints,4	PREVARGTEQ:Reputation,1
+# Class Name		Skill Pts/Lvl	Class Skill
+# CLASS:Dark Force Witch	STARTSKILLPTS:6	CSKILL:Climb|TYPE.Craft|Handle Animal|Hide|Intimidate|TYPE.Knowledge|Listen|Move Silently|TYPE.Profession|Ride|Spot|Survival
+# 1	SA:Inspire Fear -%|FearBonus		BONUS:VAR|FearBonus|1	BONUS:VAR|ForceUser|CL	DEFINE:FearBonus|0	DEFINE:ForceUser|0	FEAT:Weapon Group Proficiency (Simple Weapons),Weapon Group Proficiency (Primitive Weapons)
+# 2	SA:Spider Walk
+# 3																							FEAT:Control
+# 4																							FEAT:Summon Storm
+# 5							BONUS:VAR|FearBonus|1
+# 6	SA:Enshroud
+# 7	SA:Force Flight (% m)|ForceFlight	BONUS:VAR|ForceFlight|10				DEFINE:ForceFlight|0
+# 9							BONUS:VAR|FearBonus|1
+# 10							BONUS:VAR|ForceFlight|10
+
+# Class Name			Hit Dice	Type				Abbreviation	Source Page		Define																				DEF		REP
+# CLASS:Imperial Inquisitor	HD:10		TYPE:PC.Prestige.Force	ABB:INQ		SOURCEPAGE:p.	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|1+(CL/5)+((CL+1)/5)	DEFINE:WILLBASE|2+(CL/2)	DEF:6,0	REP:9
+# Class Name			Req. Att.	Required Feat					Required Race	Required Skill									Var. Min. Value
+# CLASS:Imperial Inquisitor	PREATT:4	PREFEAT:3,Force Sensitive,Track,Sense	PRERACE:Human	PRESKILL:4,Intimidate,Knowledge (Jedi Lore),See Force,Telepathy=4	PREVARGTEQ:DarksidePoints,8	PREVARGTEQ:Reputation,3
+# Class Name			Skill Pts/Lvl	Class Skill
+# CLASS:Imperial Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Computer Use|TYPE.Craft|Gather Information|Intimidate|TYPE.Knowledge|TYPE.Profession|Sense Motive|Survival|Tumble
+# 1																BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0																																			FEAT:Weapon Group Proficiency (Blaster Pistols),Weapon Group Proficiency (Simple Weapons),Exotic Weapon Proficiency(Lightsaber),Control
+# 2	SA:Resource Access
+# 3																																																											FEAT:Alter
+# 4	SA:Authority	SA:Lightsaber Damage Bonus (+%d8)|LightsaberDamage|PREVAREQ:HasLDB,0	BONUS:VAR|LightsaberDamage|1	DEFINE:LightsaberDamage|0
+# 5																										ADD:Favored Enemy(Force Adept,Jedi Consular,Jedi Guardian)
+# 6	SA:High Inquisitor																																ADD:FEAT(Burst of Speed,Deflect Blasters,Dissipate Energy,Force Lightning,Lightsaber Defense,Throw Lightsaber,Weapon Focus(Lightsaber))
+# 8																BONUS:VAR|LightsaberDamage|1						ADD:Favored Enemy(Force Adept,Jedi Consular,Jedi Guardian)
+# 10	SA:Grand Inquisitor																																ADD:FEAT(Knight Speed,Deflect Blasters,Dissipate Energy,Force Lightning,Knight Defense,Throw Lightsaber,Weapon Focus(Lightsaber))
+
+# Class Name		Hit Dice	Type					Source Page			Define																				DEF		REP
+# CLASS:Sith Acolyte	HD:8		TYPE:PC.Prestige.Force.Sith	SOURCEPAGE:p.31-34	DEFINE:BAB|(4*CL)/6	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|1+(CL/5)+((CL+1)/5)	DEFINE:WILLBASE|2+(CL/2)	DEF:7,0	REP:10
+# Class Name		Req. Att.	Required Feat					Required Language	Required Skill						Total Skill Points Req.															Var. Min. Value
+# CLASS:Sith Acolyte	PREATT:3	PREFEAT:3,Force Sensitive,Alter,Sense	PRELANG:1,Sith	PRESKILL:2,Knowledge (Sith Lore),See Force=6	PRESKILLTOT:Alchemy,Control Mind,Drain Energy,Drain Knowledge,Fear,Force Grip,Illusion,Transfer Essence=6	PREVARGTEQ:DarksidePoints,4	PREVARGTEQ:Reputation,4
+# Class Name		Skill Pts/Lvl	Class Skill
+# CLASS:Sith Acolyte	STARTSKILLPTS:6	CSKILL:Bluff|Computer Use|TYPE.Craft|Diplomacy|Gather Information|Intimidate|TYPE.Knowledge|TYPE.Profession|Read/Write Language (Sith)|Sense Motive|Speak Language (Sith)
+# 1													BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0																																FEAT:Weapon Group Proficiency (Simple Weapons),Weapon Group Proficiency (Blaster Pistols),Sith Sorcery
+# 2																							ADD:FEAT(Exotic Weapon Proficiency(Lightsaber),Exotic Weapon Proficiency(Sith Sword))
+# 3																																																					FEAT:Control
+# 4	SA:Lightsaber Damage Bonus (+%d8)|LightsaberDamage|PREVAREQ:HasLDB,0	BONUS:VAR|LightsaberDamage|1	DEFINE:LightsaberDamage|0
+# 6																							ADD:FEAT(Deflect Blasters,Dissipate Energy,Drain Force,Force Mind,Knight Mind,Master Mind,Frightful Presence,Hatred,Infamy,Lightsaber Defense,Prolong Force,Rage,Throw Lightsaber)
+# 8													BONUS:VAR|LightsaberDamage|1						ADD:FEAT(Deflect Blasters,Dissipate Energy,Drain Force,Force Mind,Knight Mind,Master Mind,Frightful Presence,Hatred,Infamy,Lightsaber Defense,Prolong Force,Rage,Throw Lightsaber)
+# 10																							ADD:FEAT(Deflect Blasters,Dissipate Energy,Drain Force,Force Mind,Knight Mind,Master Mind,Frightful Presence,Hatred,Infamy,Lightsaber Defense,Prolong Force,Rage,Throw Lightsaber)
+
+# Class Name	Hit Dice	Type					Source Page		Define																	DEF		REP
+# CLASS:Sith Lord	HD:10		TYPE:PC.Prestige.Force.Sith	SOURCEPAGE:p.	DEFINE:BAB|CL	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|2+(CL/2)	DEF:10,0	REP:6
+# Class Name	Req. Att.	Required Feat																												Required Language	Required Skill										Total Skill Points Req.															Var. Min. Value
+# CLASS:Sith Lord	PREATT:6	PREFEAT:1,Exotic Weapon Proficiency(Lightsaber),Exotic Weapon Proficiency(Double Lightsaber),Exotic Weapon Proficiency(Sith Sword)	PREFEAT:4,Force Sensitive,Control,Sense,Alter	PRELANG:1,Sith	PRESKILL:1,Battlemind=6	PRESKILL:2,Knowledge (Sith Lore),Intimidate=8	PRESKILLTOT:Alchemy,Control Mind,Drain Energy,Drain Knowledge,Fear,Force Grip,Illusion,Transfer Essence=8	PREVARGTEQ:DarksidePoints,8	PREVARGTEQ:Reputation,10
+# Class Name	Skill Pts/Lvl	Class Skill
+# CLASS:Sith Lord	STARTSKILLPTS:6	CSKILL:Bluff|Computer Use|TYPE.Craft|Diplomacy|Gather Information|Intimidate|TYPE.Knowledge|TYPE.Profession|Read/Write Language (Sith)|Sense Motive|Speak Language (Sith)
+# 1																	BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0																																					FEAT:Weapon Group Proficiency (Blaster Pistols),Weapon Group Proficiency (Simple Weapons),Weapon Group Proficiency (Vibro Weapons)
+# 2	SA:Resource Access
+# 3	SA:Lightsaber Damage Bonus (+%d8)|LightsaberDamage|PREVAREQ:HasLDB,0					BONUS:VAR|LightsaberDamage|1	DEFINE:LightsaberDamage|0															ADD:FEAT(Knight Defense,Lightsaber Defense,Master Defense,Sith Sword Defense,Sith Sword Expert Defense,Sith Sword Mastery)
+# 4																																									ADD:FEAT(Drain Force,Force Lightning,Force Mastery,Force Mind,Hatred,Rage,Sith Sorcery)
+# 5	SA:Minions (Add Sith Lord level to Reputation Checks made to attract followers.)			BONUS:VAR|LightsaberDamage|1
+# 6																																									ADD:FEAT(Knight Defense,Lightsaber Defense,Master Defense,Sith Sword Defense,Sith Sword Expert Defense,Sith Sword Mastery)
+# 7																																									ADD:FEAT(Drain Force,Force Lightning,Force Mastery,Force Mind,Hatred,Rage,Sith Sorcery)
+# 8	SA:Exceptional Minions (Level limit of Sith Lord's minions is twice his Reputation score.)
+# 9																																									ADD:FEAT(Knight Defense,Lightsaber Defense,Master Defense,Sith Sword Defense,Sith Sword Expert Defense,Sith Sword Mastery)
+# 10																											ADD:Sith Master (Able to bolster the Force abilities of his minions with his own.)
+
+# Class Name		Hit Dice	Type					Source Page		Define																		DEF		REP
+# CLASS:Sith Warrior	HD:10		TYPE:PC.Prestige.Force.Sith	SOURCEPAGE:p.	DEFINE:BAB|CL	DEFINE:FORTBASE|2+(CL/2)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|1+(CL/5)+((CL+1)/5)	DEF:10,0	REP:6
+# Class Name		Req. Att.	Required Feat																				Required Language	Required Skill										Total Skill Points Req.															Var. Min. Value
+# CLASS:Sith Warrior	PREATT:4	PREFEAT:1,Exotic Weapon Proficiency(Lightsaber),Exotic Weapon Proficiency(Sith Sword)	PREFEAT:3,Force Sensitive,Control,Alter	PRELANG:1,Sith	PRESKILL:1,Intimidate=6	PRESKILL:2,Battlemind,Knowledge (Sith Lore)=4	PRESKILLTOT:Alchemy,Control Mind,Drain Energy,Drain Knowledge,Fear,Force Grip,Illusion,Transfer Essence=4	PREVARGTEQ:DarksidePoints,6	PREVARGTEQ:Reputation,4
+# Class Name		Skill Pts/Lvl	Class Skill
+# CLASS:Sith Warrior	STARTSKILLPTS:4	CSKILL:Climb|Computer Use|TYPE.Craft|Intimidate|Jump|TYPE.Knowledge|TYPE.Profession|Swim|Tumble
+# 1																	BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0																														SPECIALS:Uncanny Dodge|Sith Warrior|0|5,7	FEATAUTO:Weapon Group Proficiency (Blaster Pistols)|Weapon Group Proficiency (Simple Weapons)|Weapon Group Proficiency (Vibro Weapons)
+# 2																											ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy),Hatred,Rage,Sith Sword Defense,Sith Sword Expert Defense,Sith Sword Mastery)
+# 3	SA:Enemy Bonus +%|1	SA:Lightsaber Damage Bonus (+%d8)|LightsaberDamage|PREVAREQ:HasLDB,0	BONUS:VAR|LightsaberDamage|1	DEFINE:LightsaberDamage|0																											FEAT:Sense
+# 4																											ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy),Hatred,Rage,Sith Sword Defense,Sith Sword Expert Defense,Sith Sword Mastery)
+# 6	SA:Enemy Bonus +%|1													BONUS:VAR|LightsaberDamage|1						ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy),Hatred,Rage,Sith Sword Defense,Sith Sword Expert Defense,Sith Sword Mastery))
+# 8																											ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy),Hatred,Rage,Sith Sword Defense,Sith Sword Expert Defense,Sith Sword Mastery)
+# 9	SA:Enemy Bonus +%|1
+# 10																	BONUS:VAR|LightsaberDamage|1						ADD:FEAT(TYPE=Soldier,Armor Proficiency (Medium),Armor Proficiency (Heavy),Hatred,Rage,Sith Sword Defense,Sith Sword Expert Defense,Sith Sword Mastery)

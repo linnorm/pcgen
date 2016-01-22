@@ -1,0 +1,28 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+## Original Entry by: Rax the Grey
+
+
+# Modifier Name				Unique Key	Type									Cost		Visible		Type granted		Keys to replace	Source Page			Required Type			Bonus Equipment Modifiers				Modify the item cost																																			Weapon prop. bonus																				Special Property																													Apply to both heads
+Magelock					KEY:MGLCK	TYPE:Weapon								COST:0	VISIBLE:QUALIFY								SOURCEPAGE:pg. 109	PRETYPE:2,Masterwork,Firearm																																																																						SPROP:This firearm is designed to withstand the shock of a gun mage's spells.																			ASSIGNTOALL:YES
+Quenched Serricsteel			KEY:QSERRIC	TYPE:Ammunition.Weapon.Armor.Shield.BaseMaterial	COST:0	VISIBLE:QUALIFY	ITYPE:Metal.SerricSteel	REPLACES:STEEL	SOURCEPAGE:pg. 181	PRETYPE:1,Metal			BONUS:EQM|WEIGHTDIV|5|TYPE=Enhancement.REPLACE	BONUS:ITEMCOST|TYPE.Ammunition|0	BONUS:ITEMCOST|TYPE.Weapon|1500	BONUS:ITEMCOST|TYPE.Armor.Light|3000	BONUS:ITEMCOST|TYPE.Armor.Medium|5000	BONUS:ITEMCOST|TYPE.TYPE.Armor.Heavy|7500	BONUS:ITEMCOST|TYPE.Shield|0																								SPROP:30hp/inch and 20 hardness; Weapons ignore 15 hardness																						ASSIGNTOALL:NO
+Unquenched Serricsteel			KEY:USERRIC	TYPE:Ammunition.Weapon.Armor.Shield.BaseMaterial	COST:0	VISIBLE:QUALIFY	ITYPE:Metal.SerricSteel	REPLACES:STEEL	SOURCEPAGE:pg. 181	PRETYPE:1,Metal			BONUS:EQM|WEIGHTDIV|5|TYPE=Enhancement.REPLACE	BONUS:ITEMCOST|TYPE.Ammunition|0	BONUS:ITEMCOST|TYPE.Weapon|300	BONUS:ITEMCOST|TYPE.Armor.Light|600	BONUS:ITEMCOST|TYPE.Armor.Medium|1000	BONUS:ITEMCOST|TYPE.TYPE.Armor.Heavy|1500	BONUS:ITEMCOST|TYPE.Shield|0																									SPROP:20hp/inch and 15 hardness																										ASSIGNTOALL:NO
+
+
+Firearm Combo (Military Pistol)	KEY:MILP_W	TYPE:Weapon								COST:500	VISIBLE:QUALIFY					REPLACES:SMLP_W	SOURCEPAGE:pg. 187	PRETYPE:2,Melee,Masterwork	BONUS:EQM|WEIGHTADD|5																																											BONUS:WEAPON|TOHIT|-1|PREWIELD:1,Light	BONUS:WEAPON|TOHIT|-2|PREWIELD:1,OneHanded	BONUS:WEAPON|TOHIT|-4|PREWIELD:1,TwoHanded	SPROP:Successful hit w/ melee weapon allows free attack w/ integrated military pistol.
+Firearm Combo (Small Pistol)		KEY:SMLP_W	TYPE:Weapon								COST:400	VISIBLE:QUALIFY					REPLACES:MILP_W	SOURCEPAGE:pg. 187	PRETYPE:2,Melee,Masterwork	BONUS:EQM|WEIGHTADD|4																																											BONUS:WEAPON|TOHIT|-1|PREWIELD:1,Light	BONUS:WEAPON|TOHIT|-2|PREWIELD:1,OneHanded	BONUS:WEAPON|TOHIT|-4|PREWIELD:1,TwoHanded	SPROP:Successful hit w/ melee weapon allows free attack w/ integrated small pistol.
+
+
+##Block: Firearms Customization
+Accuracy Customization			KEY:ACC_W		TYPE:Weapon.Firearm			COST:300		VISIBLE:QUALIFY								SOURCEPAGE:pg. 188	PRETYPE:1,Firearm																																																	BONUS:WEAPON|TOHIT|1																				SPROP:The firearm is modified to be more accurate.
+Barrel Baffle				KEY:BRL_BFFL	TYPE:Weapon.Firearm			COST:40		VISIBLE:QUALIFY								SOURCEPAGE:pg. 188	PRETYPE:1,Rifle																																																	BONUS:EQMWEAPON|RANGEADD|-30																				SPROP:Prevents location of shooter by use of Listen skill.
+Breakdown Customization			KEY:FRM_BKDN	TYPE:Weapon.Firearm			COSTDOUBLE:YES	VISIBLE:QUALIFY								SOURCEPAGE:pg. 188	PRETYPE:1,Firearm																																																	BONUS:WEAPON|TOHIT|-2																				SPROP:The weapon can be broken down into several pieces and stored or smuggled more easily.
+Embellishment Customization		KEY:FRM_EMBL	TYPE:Weapon.Firearm			COST:0		VISIBLE:QUALIFY								SOURCEPAGE:pg. 188	PRETYPE:1,Firearm																																																																					SPROP:Custom engraving and filigree is added to enhance its appearance.
+Lightweight Customization		KEY:FRM_LGT		TYPE:Weapon.Firearm			COST:120		VISIBLE:QUALIFY								SOURCEPAGE:pg. 188	PRETYPE:1,Firearm																																																	BONUS:EQM|WEIGHTDIV|(3/2)																				SPROP:The firearm's weight is reduced by 1/3.
+Scope						KEY:SCOPE		TYPE:Weapon.Firearm			COST:75		VISIBLE:QUALIFY								SOURCEPAGE:pg. 189	PRETYPE:1,Firearm																																																	BONUS:EQM|WEIGHTADD|0.5																				SPROP:The range increment penalty is reduced from -2 to -1.
+
+
+Barbed					KEY:BARB	TYPE:Weapon						COST:300		VISIBLE:QUALIFY								SOURCEPAGE:pg.		PRETYPE:1,Melee,Ammunition																																															BONUS:WEAPON|DAMAGE|1																				SPROP:The weapon has sharp barbs.
+
+
+Rune Bullet					KEY:RUNEB	TYPE:Ammunition					COST:1		VISIBLE:QUALIFY								SOURCEPAGE:pg. 108	PRETYPE:1,Round																																																																								SPROP:+1d6 force damage per spell level channeled|!PRECLASS:1,Gun Mage=7	SPROP:+1d6 force damage per spell level channeled; +% spell levels|CL=Gun Mage/6|PRECLASS:1,Gun Mage=6

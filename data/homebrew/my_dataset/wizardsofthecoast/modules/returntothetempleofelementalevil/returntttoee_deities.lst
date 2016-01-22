@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 10/06/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+# Deity Name		Domains							Clergy AL			Deity Weapon	ALIGN		PANTHEON		Source Page
+Elder Elemental Eye	DOMAINS:Chaos,Evil,Madness				DOMAINS:Chaos,Evil,Madness|PREALIGN:LE,TN,NE,CE	DEITYWEAP:Dagger	ALIGN:NE	PANTHEON:Greyhawk	SOURCEPAGE:p.161
+Tharizdun			DOMAINS:Chaos,Force,Destruction,Evil,Madness	DOMAINS:Chaos,Force,Destruction,Evil,Madness|PREALIGN:LE,TN,NE,CE	DEITYWEAP:Dagger	ALIGN:NE	PANTHEON:Greyhawk	SOURCEPAGE:p.161

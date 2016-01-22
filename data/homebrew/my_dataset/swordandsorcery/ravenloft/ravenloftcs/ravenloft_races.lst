@@ -1,0 +1,25 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 11:54:47 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+## Base Races
+# Race Name			Favored Class		Starting Feats	Size		Move			Vision			Clear Automatic Languages	Automatic Languages	Bonus Languages	Bonus to skill									Stat bonus								Special ABility																													Type			Template				Source Page
+Human.MOD																			LANGAUTO:.CLEAR																																																																TEMPLATE:Ravenloft_Region
+Dwarf.MOD																			LANGAUTO:.CLEAR																																																																TEMPLATE:Ravenloft_Region
+Elf.MOD																			LANGAUTO:.CLEAR																																																																TEMPLATE:Ravenloft_Region
+Gnome.MOD																			LANGAUTO:.CLEAR																																																																TEMPLATE:Ravenloft_Region
+Half-Elf.MOD																		LANGAUTO:.CLEAR																																																																TEMPLATE:Ravenloft_Region
+Half-Orc.MOD																		LANGAUTO:.CLEAR																																																																TEMPLATE:Ravenloft_Region
+Halfling.MOD																		LANGAUTO:.CLEAR																																																																TEMPLATE:Ravenloft_Region
+
+
+## New Races
+# Race Name			Favored Class		Starting Feats	Size		Move			Vision			Clear Automatic Languages	Automatic Languages	Bonus Languages	Bonus to skill									Stat bonus								Special ABility																													Type			Template				Source Page
+Caliban			FAVCLASS:Barbarian	STARTFEATS:1	SIZE:M	MOVE:Walk,30	VISION:Darkvision (60')						LANGAUTO:Common		LANGBONUS:ALL												BONUS:STAT|STR|2	BONUS:STAT|INT|-2	BONUS:STAT|CHA|-2																																TYPE:Humanoid						SOURCEPAGE:p.30-31
+Half-Vistani(Canjar)	FAVCLASS:Wizard		STARTFEATS:1	SIZE:M	MOVE:Walk,30										LANGAUTO:Common		LANGBONUS:ALL	BONUS:SKILL|Survival,Spellcraft|2|TYPE=Racial				BONUS:STAT|WIS|2	BONUS:STAT|CHA|-2				SAB:Diluted Blood	SAB:Moon Madness	SAB:additional +2 spellcraft when learning new spells																	TYPE:Humanoid						SOURCEPAGE:p.34-36
+Half-Vistani(Corvara)	FAVCLASS:Rogue		STARTFEATS:1	SIZE:M	MOVE:Walk,30										LANGAUTO:Common		LANGBONUS:ALL	BONUS:SKILL|Survival,Open Lock,Sense Motive|2|TYPE=Racial		BONUS:STAT|WIS|2	BONUS:STAT|CHA|-2				SAB:Diluted Blood	SAB:Moon Madness																										TYPE:Humanoid						SOURCEPAGE:p.34-36
+Half-Vistani(Equaar)	FAVCLASS:Ranger		STARTFEATS:1	SIZE:M	MOVE:Walk,30										LANGAUTO:Common		LANGBONUS:ALL	BONUS:SKILL|Survival,Handle Animal,Ride|2|TYPE=Racial			BONUS:STAT|WIS|2	BONUS:STAT|CHA|-2				SAB:Diluted Blood	SAB:Moon Madness																										TYPE:Humanoid						SOURCEPAGE:p.34-36
+Half-Vistani(Kamii)	FAVCLASS:Rogue		STARTFEATS:1	SIZE:M	MOVE:Walk,30										LANGAUTO:Common		LANGBONUS:ALL	BONUS:SKILL|Survival,Craft (Blacksmithing)|2|TYPE=Racial		BONUS:STAT|WIS|2	BONUS:STAT|CHA|-2				SAB:Diluted Blood	SAB:Moon Madness	SAB:+2 bonus to metal based craft checks	SAB:can identify metals and determine where any metal item originated with a successful appraise check	TYPE:Humanoid						SOURCEPAGE:p.34-36
+Half-Vistani(Naiat)	FAVCLASS:Bard		STARTFEATS:1	SIZE:M	MOVE:Walk,30										LANGAUTO:Common		LANGBONUS:ALL	BONUS:SKILL|Survival,TYPE.Perform|2|TYPE=Racial				BONUS:STAT|WIS|2	BONUS:STAT|CHA|-2				SAB:Diluted Blood	SAB:Moon Madness	SAB:Base Outcast Rating of 0																					TYPE:Humanoid						SOURCEPAGE:p.34-36
+Half-Vistani(Vatraska)	FAVCLASS:Cleric		STARTFEATS:1	SIZE:M	MOVE:Walk,30										LANGAUTO:Common		LANGBONUS:ALL	BONUS:SKILL|Survival,Heal,Profession (Herbalist)|2|TYPE=Racial	BONUS:STAT|WIS|2	BONUS:STAT|CHA|-2				SAB:Diluted Blood	SAB:Moon Madness																										TYPE:Humanoid						SOURCEPAGE:p.34-36
+Half-Vistani(Zarovan)	FAVCLASS:Sorcerer		STARTFEATS:1	SIZE:M	MOVE:Walk,30										LANGAUTO:Common		LANGBONUS:ALL	BONUS:SKILL|Survival|2|TYPE=Racial						BONUS:STAT|WIS|2	BONUS:STAT|CHA|-2				SAB:Diluted Blood	SAB:Moon Madness	SAB:Initiative bonus of (1d10-1d4).  Roll at the start of each encounter													TYPE:Humanoid						SOURCEPAGE:p.34-36
+

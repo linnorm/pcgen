@@ -1,0 +1,9 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Template Name	Visible	Template							Special ABility				Save checks bonus			Combat bonus						Bonus to skill				Stat bonus		Feat						Temporary effect description
+Bonded Sith		VISIBLE:YES									SAB:Wounding Bond	SAB:Painful Bond						BONUS:COMBAT|TOHIT|2|TYPE=Morale|PREAPPLY:PC	BONUS:SKILL|Survival,Sense Motive|2				FEAT:Iron Will				TEMPDESC:This bonus can be applied when the character is within 1km of its battlelord.
+Sith Battlelord	VISIBLE:YES	TEMPLATE:CHOOSE:Quickening Bond|Ferocious Bond	SAB:Wounding Bond	SAB:Painful Bond	BONUS:CHECKS|Willpower|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor			BONUS:SKILL|Intimidate,Diplomacy|2	BONUS:STAT|CHA|2	FEAT:Frightful Presence|Infamy
+
+Ferocious Bond	VISIBLE:NO									SAB:Ferocious Bond
+Quickening Bond	VISIBLE:NO									SAB:Quickening Bond

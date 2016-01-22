@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+# Original entry by Barak 09/16/03
+SOURCELONG:Deep Horizon	SOURCESHORT:DeepH	SOURCEWEB:http://www.wizards.com/
+
+###Block:Exotic Melee Weapons
+# Equipment Name	Required Proficiency	Type										Alternative Type									Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Alternative Critical	Damage	Alternative Damage	Size		Source Page		Special Property
+Notbora		PROFICIENCY:WEAPON|Notbora	TYPE:Weapon.Exotic.Melee.Slashing.Standard.Double.Metal	ALTTYPE:Weapon.Exotic.Melee.Bludgeoning.Metal.Standard.Double	COST:20	WT:2		CRITMULT:x2			CRITRANGE:2			ALTCRITMULT:x2		DAMAGE:2d6	ALTDAMAGE:2d6		SIZE:H	SOURCEPAGE:p.32	SPROP:May make trip attacks.

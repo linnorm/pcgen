@@ -1,0 +1,7 @@
+# CVS $Revision: 1.3 $ $Author: tir-gwaith $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #274	SOURCESHORT:WotC-Dragon #274	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Feat Name			Type			Req. Att.	Required Feat					Required Stat	Description																					Stackable?	Multiple?	Choose					Source Page
+Ranged Disarm		TYPE:General	PREATT:5	PREFEAT:2,Point Blank Shot,Precise Shot	PRESTAT:1,DEX=13	DESC:You can perform the disarm action with this weapon.													STACK:NO	MULT:YES	CHOOSE:WEAPONPROFS|TYPE.RANGED	SOURCEPAGE:p.60
+Deflect Ranged Attack	TYPE:General	PREATT:5	PREFEAT:2,Point Blank Shot,Precise Shot	PRESTAT:1,DEX=13	DESC:You can attempt to deflect ranged weapoons that are already in flight. This attack takes the place of your normal attack.											SOURCEPAGE:p.60
+Ranged Pin			TYPE:General	PREATT:5	PREFEAT:2,Point Blank Shot,Precise Shot	PRESTAT:1,DEX=13	DESC:You can perform a ranged grapple attack against an opponent by pinning a bit of clothing to a nearby surface.													SOURCEPAGE:p.60
+Ranged Sunder		TYPE:General	PREATT:5	PREFEAT:2,Point Blank Shot,Precise Shot	PRESTAT:1,DEX=13	DESC:When attacking objects, you deal normal damage (instead of half damage) with ranged weapons.																SOURCEPAGE:p.60
