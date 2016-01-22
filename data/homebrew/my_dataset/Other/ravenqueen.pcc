@@ -12,4 +12,3 @@ DOMAIN:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsri
 DOMAIN:@/d20ogl/srd35/basics/rsrd_domains_divine.lst|(INCLUDE:Repose)
 SPELL:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsrituals_spells.lst|(INCLUDE:Inquisition|Incite|Convert|Divine Raiment)
 SPELL:@/homebrew/my_dataset/wizards_of_the_coast/supplement/frostburn/frstbn_d20_fantasy_v35e_spell.lst
-SPELL:@/homebrew/my_dataset/wizards_of_the_coast/supplement/frostburn/frstbn_d20_fantasy_v35e_mod_spell.lst|(INCLUDE:Control Weather|Ice Storm)
