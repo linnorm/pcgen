@@ -1,0 +1,529 @@
+[RULES]
+15	[SYL1]
+100	[SYL1]	[SYL3]
+[SYL1]
+[PREGENDER:M]
+Aacuna
+Ablen
+Aburago
+Adoku
+Adyja
+Aggdar
+Ahzimian
+Aleshdin
+Altamir
+Amalen
+Amar
+Amilakar
+Anarvis
+Andal
+Anferset
+Anhdel
+Ansven
+Apatos
+Arowain
+Arturr
+Ashthen
+Athaga
+Athasvero
+Azhanimahr
+B'Pareso
+Baarat
+Baenar
+Bajyr
+Balamir
+Balan
+Bandorian
+Barkam
+Beriece
+Boelain
+Boganiro
+Bolgdran
+Bonoroti
+Borokar
+Bouzaar
+Bredol
+Brenbol
+Brond
+Brovlen
+Bythok
+Cabaron
+Cafarr
+Canamus
+Cavdrol
+Cheftan
+Chelean
+Cheun
+Chojen
+Coldon
+Crend
+Culran
+Daarle
+Dadorj
+Dalorak
+Damant
+Danasan
+Dargus
+Dashy
+Datarn
+Davrosil
+Dealaan
+Defrin
+Delem
+Desgen
+Desveminh
+Domerolo
+Dothoki
+Dovizhem
+Driscall
+Dunhive
+Durmank
+Dvistasi
+Dvorn
+E'Dos
+Egrek
+Eilan
+Elamar
+Elmin
+Elskin
+Emearer
+Eresar
+Estand
+Etera
+Evloir
+Fanam
+Faupei
+Feledar
+Feranis
+Ferasol
+Fitolima
+Folikar
+Folnen
+Fonamar
+Fortind
+Fortis
+Froljar
+Geolain
+Girion
+Glandal
+Golzumak
+Gortha
+Granden
+Gruthal
+Gurthay
+Gyrjen
+Haager
+Haar
+Halaan
+Haraman
+Hashees
+Heger
+Hilano
+Hilanozh
+Hochul
+Holomar
+Hostud
+Hovaran
+Hreathwrot
+Hul'Mar
+Hurrkal
+Ichil
+Ilthan
+Izvan
+Janesh
+Jaresh
+Jepati
+Jerl
+Jish
+Jorjen
+Kabori
+Kaizil
+Khodri
+Kibik
+Kolokar
+Kotesh
+Lakaran
+Lanitorn
+Lenaiz
+Liamar
+Lokkur
+Lonvlen
+Malaran
+Maleth
+Malvus
+Mantak
+Mawhal
+Melesip
+Mennas
+Mesvanish
+Minon
+Miznamvho
+Mizovohr
+Morisato
+Movazh
+Munvaln
+Nandten
+Neaboo
+Neila
+Nelata
+Nooregaa
+Nurband
+Nyrash
+Onsar
+Oprem
+P'Ligel
+Pandren
+Parama
+Peasor
+Pesaron
+Pilamel
+Pitar
+Pulan
+Puramal
+Ragil
+Raizix
+Rastur
+Razhan
+Reenea
+Relaton
+Reolain
+Resemer
+Retara
+Rijani
+Roshanaz
+Roshnyr
+Rumar
+Rythok
+Saryf
+Saterus
+Satira
+Selemar
+Selevahn
+Semaj
+Senchet
+Senden
+Setana
+Sevlen
+Shajody
+Shanko
+Shathy
+Shazahn
+Shimantra
+Shiseth
+Shyja
+Shynath
+Sortureer
+Sturr
+Suetin
+Sulat
+Sutila
+Suvar
+Svalinh
+Svemahni
+Takano
+Taofoor
+Terrus
+Tethen
+Thakyr
+Thalnawr
+Tharnak
+Thekevi
+Thelvan
+Thurvan
+Tiva
+Tolchis
+Transen
+Urred
+Vaeniiv
+Valesin
+Vanamir
+Varin
+Vascan
+Vaxea
+Veznos
+Viljar
+Voldomar
+Vosted
+Vrasten
+Vrindon
+Vuuawa
+Weldril
+Wencrel
+Wherahzni
+Wien
+Wiuxiu
+Yufur
+Zehnim
+Zhulurahn
+Zohshanam
+[PREGENDER:F]
+Acostra
+Adagyr
+Alentarr
+Alexis
+Alixoor
+Anasvish
+Asa
+Ashny
+Aslesh
+Avil
+Benali
+Blesden
+Boebea
+Brava
+Brennor
+Bromolel
+Ceopeari
+Chada
+Cheshy
+Cosolel
+Daaralau
+Dandrel
+Daresh
+Daresvim
+Defyn
+Dela
+Dolshy
+Dorata
+Dythrok
+Ehnosham
+Elbren
+Elvled
+Emeni
+Enga
+Enshy
+Eve
+Famaril
+Fanam
+Felana
+Fitolima
+Fontharra
+Freesha
+Gaafoor
+Gimane
+Goranu
+Gulda
+Gulli
+Gytha
+Halvena
+Hava
+Helena
+Hilu'A
+Huurum
+Ilubek
+Inala
+Jolndar
+Jynko
+Kaperele
+Keilaaw
+Ki'Isa
+Kibika
+Korasela
+Koshy
+Kylsha
+Lamasaru
+Lashasvow
+Lelten
+Leshan
+Leugoo
+Lewao
+Lisanara
+Menahvna
+Mepate
+Miana
+Mindoleen
+Mindrel
+Mindril
+Minona
+Morashez
+Movamo
+Naavabi
+Naavazoor
+Neavazaar
+Nelata
+Nomishim
+Norlel
+Norvita
+Olita
+Otha
+Pakara
+Pandred
+Ranselita
+Rianoo
+Rortakk
+Rosharek
+Rothla
+Ryndar
+Sabeleen
+Sanano
+Savano
+Selguld
+Sharresh
+Shary
+Shrokker
+Sisi
+Slajen
+Sorykka
+Strolema
+Takane
+Tankarra
+Tavve
+Tealia
+Teelia
+Thanarkka
+Thelka
+Thena
+Thilla
+Thrayd
+Tomare
+Unula
+Vanazha
+Vandakeer
+Vaolai
+Vashel
+Veuza
+Vrykor
+Vurethel
+Vuubou
+Wencrel
+Yendo
+Yerjen
+Yuji
+Yulan
+Zeminah
+Zhashosa
+Ziliana
+Zoravam
+[SYL2]
+[SYL3]
+#Males & Females have the same last names
+ Abeilua
+ Abuto
+ Aluz
+ Arhomven
+ Aziri
+ B'Peratak
+ Badir
+ Balemo
+ Banakal
+ Bandeskrin
+ Bandran
+ Basteln
+ Blondol
+ Brendril
+ Brodoran
+ Castrovel
+ Celdon
+ Clentron
+ Colbrandar
+ Colfen
+ Colmen
+ Corvled
+ Crandin
+ Crel
+ Dairoo
+ Damozh
+ Danguld
+ Daresti
+ Darisek
+ Dashemmi
+ Dilomas
+ Dolcrindel
+ Dorbren
+ Dorguld
+ Dreplon
+ Dyrn
+ Edarn
+ Emfid
+ Enday
+ Epseln
+ Eramis
+ Esamil
+ Eshovim
+ Ezamil
+ Fain
+ Falama
+ Fapeki
+ Feasiari
+ Feaveu
+ Folnester
+ Fooromau
+ Foosiwain
+ Fortron
+ Galborn
+ Gazee
+ Geana
+ Ghanim
+ Gomanas
+ Gray
+ Guldselan
+ Hap'nam
+ Heran
+ Huuraew
+ Ingamin
+ Izahn
+ Kalanasi
+ Ku'Ato
+ Kuwaki
+ Laaria
+ Leenoorova
+ Lelten
+ Lesepar
+ Lorot
+ Melran
+ Mezahn
+ Minel
+ Mizani
+ Mokira
+ Mozaresh
+ Nae
+ Naizix
+ Narituir
+ Neshnamohn
+ Norcrensel
+ Ohmdalz
+ Olmcrelnel
+ P'Folosip
+ P'Mare
+ Pateris
+ Peer
+ Pocaat
+ Ragarela
+ Ragosip
+ Rancren
+ Reemae
+ Remel
+ Remosa
+ Rewano
+ Rondstern
+ Rooxea
+ Saketi
+ Seetoov
+ Sepiter
+ Setiran
+ Shenshal
+ Stron
+ Sumoraa
+ Svowmizh
+ Tarealeon
+ Thoran
+ Thronel
+ Torist
+ Torris
+ Vaotal
+ Velsin
+ Vezdor
+ Vitisar
+ Vlan
+ Vleldin
+ Volven
+ Vuria
+ Werlen
+ Whan
+ Whenonesh
+ Xookaer
+ Yahul
+ Zalden
+ Zem'Par
+ Zhamish
+ Zhasorozh
