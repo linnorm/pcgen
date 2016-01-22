@@ -4,12 +4,12 @@ TYPE:Other
 RANK:9
 
 
-ABILITY:@/my_dataset/MyStuff/swordandsorcery/scarredlands/relicsrituals/relicsrituals_abilities.lst|(INCLUDE:CATEGORY=Special Ability,MissionaryDomainGrantedPower)
+ABILITY:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsrituals_abilities.lst|(INCLUDE:CATEGORY=Special Ability,MissionaryDomainGrantedPower)
 DEITY:ravenqueen_deities.lst
-DOMAIN:@/my_dataset/rallanonpublishinggroup/rallanon/encyclopediarallanon/base/rallanon_domains.lst|(INCLUDE:Fate)
-DOMAIN:@/vendordata/cmp/rules_system_v35e/wizards_of_the_coast/generic/supplement/frostburn/frstbn_d20_fantasy_v35e_domain.lst|(INCLUDE:Winter)
-DOMAIN:@/my_dataset/MyStuff/swordandsorcery/scarredlands/relicsrituals/relicsrituals_domains.lst
+DOMAIN:@/homebrew/my_dataset/rallanonpublishinggroup/rallanon/encyclopediarallanon/base/rallanon_domains.lst|(INCLUDE:Fate)
+DOMAIN:@/homebrew/my_dataset/wizards_of_the_coast/supplement/frostburn/frstbn_d20_fantasy_v35e_domain.lst|(INCLUDE:Winter)
+DOMAIN:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsrituals_domains.lst
 DOMAIN:@/d20ogl/srd35/basics/rsrd_domains_divine.lst|(INCLUDE:Repose)
-SPELL:@/my_dataset/MyStuff/swordandsorcery/scarredlands/relicsrituals/relicsrituals_spells.lst|(INCLUDE:Inquisition|Incite|Convert|Divine Raiment)
-SPELL:@/vendordata/cmp/rules_system_v35e/wizards_of_the_coast/generic/supplement/frostburn/frstbn_d20_fantasy_v35e_spell.lst
-SPELL:@/vendordata/cmp/rules_system_v35e/wizards_of_the_coast/generic/supplement/frostburn/frstbn_d20_fantasy_v35e_mod_spell.lst|(INCLUDE:Control Weather|Ice Storm)
+SPELL:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsrituals_spells.lst|(INCLUDE:Inquisition|Incite|Convert|Divine Raiment)
+SPELL:@/homebrew/my_dataset/wizards_of_the_coast/supplement/frostburn/frstbn_d20_fantasy_v35e_spell.lst
+SPELL:@/homebrew/my_dataset/wizards_of_the_coast/supplement/frostburn/frstbn_d20_fantasy_v35e_mod_spell.lst|(INCLUDE:Control Weather|Ice Storm)
