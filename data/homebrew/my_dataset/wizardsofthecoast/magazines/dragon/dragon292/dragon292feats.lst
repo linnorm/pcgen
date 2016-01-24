@@ -2,7 +2,7 @@
 SOURCELONG:Wizards of the Coast - Dragon Magazine #292	SOURCESHORT:WotC-Dragon #292	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
 
 # Feat Name			Type			Req. Att.	Required Feat					Required Skill		Required Stat				Description												Source Page
-Avoid Critical Hit	TYPE:General	PREATT:8	PREFEAT:2,Dodge,Skill Focus (Tumble)	PRESKILL:1,Tumble=1	PRESTAT:1,DEX=13				DESC:You can sometimes avoid the most damaging blows.					SOURCEPAGE:p.114
-Improved Encumberance	TYPE:General														PRESTAT:1,CON=13				DESC:You can carry more than your strength would normally allow.			SOURCEPAGE:p.114
-Predict Outcome		TYPE:General														PRESTAT:1,CHA=13	PRESTAT:1,WIS=13	DESC:Sometimes you can learn the outcome of a situation before it happens.	SOURCEPAGE:p.114
-Predict Path		TYPE:General														PRESTAT:1,WIS=13				DESC:You have an intuitve feel for how a creature will behave.			SOURCEPAGE:p.114
+Avoid Critical Hit	CATEGORY:FEAT	TYPE:General	PREATT:8	PREFEAT:2,Dodge,Skill Focus (Tumble)	PRESKILL:1,Tumble=1	PRESTAT:1,DEX=13				DESC:You can sometimes avoid the most damaging blows.					SOURCEPAGE:p.114
+Improved Encumberance	CATEGORY:FEAT	TYPE:General														PRESTAT:1,CON=13				DESC:You can carry more than your strength would normally allow.			SOURCEPAGE:p.114
+Predict Outcome		CATEGORY:FEAT	TYPE:General														PRESTAT:1,CHA=13	PRESTAT:1,WIS=13	DESC:Sometimes you can learn the outcome of a situation before it happens.	SOURCEPAGE:p.114
+Predict Path		CATEGORY:FEAT	TYPE:General														PRESTAT:1,WIS=13				DESC:You have an intuitve feel for how a creature will behave.			SOURCEPAGE:p.114

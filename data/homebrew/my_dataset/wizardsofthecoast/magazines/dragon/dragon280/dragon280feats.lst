@@ -2,8 +2,8 @@
 SOURCELONG:Wizards of the Coast - Dragon Magazine #280	SOURCESHORT:WotC-Dragon #280	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
 
 # Feat Name			Type			Req. Special Ability	Description										Source Page
-Enspell Familiar		TYPE:General	PRESA:1,Summon Familiar	DESC:You can cast spells on your familiar over a distance.		SOURCEPAGE:p.62
-Extra Familiar		TYPE:General	PRESA:1,Summon Familiar	DESC:You have an additional familiar.					SOURCEPAGE:p.62
-Construct Familiar	TYPE:General	PRESA:1,Summon Familiar	DESC:Your familiar is a construct rather than a living being.	SOURCEPAGE:p.62
-Token Familiar		TYPE:General	PRESA:1,Summon Familiar	DESC:Your familiar can assume an innocuous, inanimate form.		SOURCEPAGE:p.62
-Undead Familiar		TYPE:General	PRESA:1,Summon Familiar	DESC:Your familiar is an undead creature.					SOURCEPAGE:p.62
+Enspell Familiar		CATEGORY:FEAT	TYPE:General	PRESA:1,Summon Familiar	DESC:You can cast spells on your familiar over a distance.		SOURCEPAGE:p.62
+Extra Familiar		CATEGORY:FEAT	TYPE:General	PRESA:1,Summon Familiar	DESC:You have an additional familiar.					SOURCEPAGE:p.62
+Construct Familiar	CATEGORY:FEAT	TYPE:General	PRESA:1,Summon Familiar	DESC:Your familiar is a construct rather than a living being.	SOURCEPAGE:p.62
+Token Familiar		CATEGORY:FEAT	TYPE:General	PRESA:1,Summon Familiar	DESC:Your familiar can assume an innocuous, inanimate form.		SOURCEPAGE:p.62
+Undead Familiar		CATEGORY:FEAT	TYPE:General	PRESA:1,Summon Familiar	DESC:Your familiar is an undead creature.					SOURCEPAGE:p.62

@@ -2,13 +2,13 @@
 SOURCELONG:Wizards of the Coast - Dragon Magazine #293	SOURCESHORT:WotC-Dragon #293	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
 
 # Feat Name				Type		Required Check Base		Required Race	Req. Special Ability	Required Template			Required Text								Description										Source Page
-Breathing Link			TYPE:Genasi	PRECHECKBASE:1,WILLPOWER=2	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Water)											DESC:You can allow a person adjacent to you to breathe water	SOURCEPAGE:p.59
-Elemental Bloodline (Air)	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=5	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Air)											DESC:You have taken on some aspects of your element			SOURCEPAGE:p.59
-Elemental Bloodline (Earth)	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=5	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Earth)											DESC:You have taken on some aspects of your element			SOURCEPAGE:p.59
-Elemental Bloodline (Fire)	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=5	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Fire)											DESC:You have taken on some aspects of your element			SOURCEPAGE:p.59
-Elemental Bloodline (Water)	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=5	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Water)											DESC:You have taken on some aspects of your element			SOURCEPAGE:p.59
-Healing Flames			TYPE:Genasi	PRECHECKBASE:1,WILLPOWER=3	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Fire)											DESC:You can heal yourself with open flames				SOURCEPAGE:p.59
-Improved Levitation		TYPE:Genasi						PRERACE:1,Genasi	PRESA:1,Levitate							PRETEXT:Able to levitate naturally as a spell-like ability	DESC:You can split up your levitation ability				SOURCEPAGE:p.61
-Rapid Swimming			TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=2	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Water)											DESC:You are one with the water						SOURCEPAGE:p.61
-Stone Colossus			TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=3	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Earth)											DESC:You can make your skin tougher						SOURCEPAGE:p.61
-Stone Slide				TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=4	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Earth)											DESC:You can meld into stone							SOURCEPAGE:p.61
+Breathing Link			CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,WILLPOWER=2	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Water)											DESC:You can allow a person adjacent to you to breathe water	SOURCEPAGE:p.59
+Elemental Bloodline (Air)	CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=5	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Air)											DESC:You have taken on some aspects of your element			SOURCEPAGE:p.59
+Elemental Bloodline (Earth)	CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=5	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Earth)											DESC:You have taken on some aspects of your element			SOURCEPAGE:p.59
+Elemental Bloodline (Fire)	CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=5	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Fire)											DESC:You have taken on some aspects of your element			SOURCEPAGE:p.59
+Elemental Bloodline (Water)	CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=5	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Water)											DESC:You have taken on some aspects of your element			SOURCEPAGE:p.59
+Healing Flames			CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,WILLPOWER=3	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Fire)											DESC:You can heal yourself with open flames				SOURCEPAGE:p.59
+Improved Levitation		CATEGORY:FEAT	TYPE:Genasi						PRERACE:1,Genasi	PRESA:1,Levitate							PRETEXT:Able to levitate naturally as a spell-like ability	DESC:You can split up your levitation ability				SOURCEPAGE:p.61
+Rapid Swimming			CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=2	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Water)											DESC:You are one with the water						SOURCEPAGE:p.61
+Stone Colossus			CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=3	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Earth)											DESC:You can make your skin tougher						SOURCEPAGE:p.61
+Stone Slide				CATEGORY:FEAT	TYPE:Genasi	PRECHECKBASE:1,FORTITUDE=4	PRERACE:1,Genasi					PRETEMPLATE:1,Genasi (Earth)											DESC:You can meld into stone							SOURCEPAGE:p.61

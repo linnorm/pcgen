@@ -2,9 +2,9 @@
 SOURCELONG:Wizards of the Coast - Dragon Magazine Annual #5	SOURCESHORT:WotC-Dragon Annual #5	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
 
 # Feat Name		Type			Description														Source Page
-Ray Burst		TYPE:Metamagic	DESC:You change the effect of a ray spell to a 30-foot radius burst centered on yourself.	SOURCEPAGE:p.26
-Ray Coning		TYPE:Metamagic	DESC:You expand a ray spell to a 30-foot cone.								SOURCEPAGE:p.26
-Ray Extension	TYPE:Metamagic	DESC:You maintain a ray spell for an additional round.						SOURCEPAGE:p.26
-Ray Focus		TYPE:General	DESC:Your ray spells are more effective than normal.							SOURCEPAGE:p.26
-Ray Splitting	TYPE:Metamagic	DESC:You can attack three adjacent targets with a ray spell.					SOURCEPAGE:p.26
+Ray Burst		CATEGORY:FEAT	TYPE:Metamagic	DESC:You change the effect of a ray spell to a 30-foot radius burst centered on yourself.	SOURCEPAGE:p.26
+Ray Coning		CATEGORY:FEAT	TYPE:Metamagic	DESC:You expand a ray spell to a 30-foot cone.								SOURCEPAGE:p.26
+Ray Extension	CATEGORY:FEAT	TYPE:Metamagic	DESC:You maintain a ray spell for an additional round.						SOURCEPAGE:p.26
+Ray Focus		CATEGORY:FEAT	TYPE:General	DESC:Your ray spells are more effective than normal.							SOURCEPAGE:p.26
+Ray Splitting	CATEGORY:FEAT	TYPE:Metamagic	DESC:You can attack three adjacent targets with a ray spell.					SOURCEPAGE:p.26
 

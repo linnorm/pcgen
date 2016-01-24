@@ -1,8 +1,8 @@
 # CVS $Revision: 1.3 $ $Author: tir-gwaith $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
 SOURCELONG:Wizards of the Coast - Dragon Magazine #279	SOURCESHORT:WotC-Dragon #279	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
 # Feat Name			Type			Req. Att.	Required Class	Required Feat						Required Skill			Required Stat				Description																		Source Page
-Grasshopper Strike	TYPE:General	PREATT:4				PREFEAT:3,Dodge,Mobility,Spring Attack		PRESKILL:2,Tumble,Jump=5	PRESTAT:1,DEX=13				DESC:You confuse your foes by leaping around in combat, seemingly never touching the ground or standing still.	SOURCEPAGE:p.63
-Hammer Fist			TYPE:General						PREFEAT:1,Improved Unarmed Strike								PRESTAT:1,STR=13				DESC:You are trained in an unarmed fighting style that emphasizes a two-handed strike.					SOURCEPAGE:p.63
-Pebble Underfoot		TYPE:General						PREFEAT:2,Expertise,Improved Trip								PRESTAT:1,INT=13				DESC:You have learned a special combat technique useful for bringing down creatures much larger than you.		SOURCEPAGE:p.63
-Staggering Blow		TYPE:General	PREATT:8	PRECLASS:1,Monk=1	PREFEAT:2,Improved Unarmed Strike,Stunning Fist						PRESTAT:1,STR=15	PRESTAT:1,WIS=13	DESC:When you hit a stunned opponent with an unarmed strike, you can stagger him.						SOURCEPAGE:p.63
-Unorthodox Flurry		TYPE:Special			PRECLASS:1,Monk=6																				DESC:You are trained in a monastic tradition that uses nontraditional weapons.						SOURCEPAGE:p.63
+Grasshopper Strike	CATEGORY:FEAT	TYPE:General	PREATT:4				PREFEAT:3,Dodge,Mobility,Spring Attack		PRESKILL:2,Tumble,Jump=5	PRESTAT:1,DEX=13				DESC:You confuse your foes by leaping around in combat, seemingly never touching the ground or standing still.	SOURCEPAGE:p.63
+Hammer Fist			CATEGORY:FEAT	TYPE:General						PREFEAT:1,Improved Unarmed Strike								PRESTAT:1,STR=13				DESC:You are trained in an unarmed fighting style that emphasizes a two-handed strike.					SOURCEPAGE:p.63
+Pebble Underfoot		CATEGORY:FEAT	TYPE:General						PREFEAT:2,Expertise,Improved Trip								PRESTAT:1,INT=13				DESC:You have learned a special combat technique useful for bringing down creatures much larger than you.		SOURCEPAGE:p.63
+Staggering Blow		CATEGORY:FEAT	TYPE:General	PREATT:8	PRECLASS:1,Monk=1	PREFEAT:2,Improved Unarmed Strike,Stunning Fist						PRESTAT:1,STR=15	PRESTAT:1,WIS=13	DESC:When you hit a stunned opponent with an unarmed strike, you can stagger him.						SOURCEPAGE:p.63
+Unorthodox Flurry		CATEGORY:FEAT	TYPE:Special			PRECLASS:1,Monk=6																				DESC:You are trained in a monastic tradition that uses nontraditional weapons.						SOURCEPAGE:p.63
