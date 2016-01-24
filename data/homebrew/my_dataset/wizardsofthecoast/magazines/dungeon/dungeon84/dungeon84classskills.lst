@@ -1,5 +1,0 @@
-# CVS $Revision: 1.1 $ $Author: ericbeaudoin $ -- Thu Feb 26 13:34:58 2004 -- reformated by prettylst.pl v1.31 (build 327)
-# $Author: ericbeaudoin $
-SOURCELONG:Wizards of the Coast - Dungeon #84|SOURCESHORT:WotC-Dungeon #84|SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
-# Class Name	Class Skills (All skills are seperated by a pipe delimiter "|")
-Arachnemancer	Climb|Concentration|Craft |Hide|Intuit Direction|Jump|Knowledge (Arcana)|Knowledge (Nature)|Jump|Move Silently|Spellcraft|Spot

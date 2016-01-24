@@ -11,8 +11,6 @@ SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
 #EXTRAFILE:Readme.txt
 
 CLASS:dungeon84classes.lst
-#CLASSSKILL:dungeon84classskills.lst
-#CLASSSPELL:dungeon84classspells.lst
 EQUIPMENT:dungeon84equiparmorshieldsspecific.lst
 EQUIPMENT:dungeon84equipweapmeleespecific.lst
 EQUIPMENT:dungeon84equiprodstaffwands.lst
