@@ -1,22 +1,6 @@
 # CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
 SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
 
-## Block:Asaatth Feats
-# Feat Name				Type				Visible		Required Class			Required Feat					Required Var. value		Special ABility																						Define														Description																					Stackable?	Multiple?	Choose					Selections	Bonus to skill																	Modify VAR					Weapon prof. bonus										Class Skill	Source Page
-Asaatth Keen Senses		TYPE:Special		VISIBLE:NO																																																										DESC:Sees three times better than a human in low-light and darkvision 60'.  Scent creatures in 30' as partial action.																																																							SOURCEPAGE:Creature Collection I, p.12
-Asaatth Poison			TYPE:Special		VISIBLE:NO																																																										DESC:Fort. save DC:14 or toxic shock for 2d4+2 min.																																																																		SOURCEPAGE:Creature Collection I, p.12
-
-## Block: Agariim Slave Girl Feats
-ASG Arrow Shield			TYPE:Special		VISIBLE:NO							PREFEAT:1,Bodyguard																																																DESC:You protect allies from missle weapons.															STACK:NO	MULT:NO
-ASG Improved Critical		TYPE:Special		VISIBLE:NO																																																																																				CHOOSE:WEAPONPROFS|TYPE.Finesseable																												BONUS:WEAPONPROF=%LIST|CRITRANGEDOUBLE|1|Type=NonStackingCrit
-ASG Skill Focus			TYPE:Special		VISIBLE:NO																																																																																				CHOOSE:SKILLSNAMED|TYPE.Agariim	SELECT:1	BONUS:SKILL|LIST|3
-ASG Weapon Focus			TYPE:Special		VISIBLE:NO																																																																																				CHOOSE:WEAPONPROFS|TYPE.Finesseable																												BONUS:WEAPONPROF=%LIST|TOHIT|1
-ASG Weapon Specialization	TYPE:Special		VISIBLE:NO							PREFEAT:1,Weapon Focus,ASG Weapon Focus																																																																																																								BONUS:WEAPONPROF=%LIST|DAMAGE|2
-Charming Demeanor			TYPE:Special		VISIBLE:NO																			SAB:Charming Demeanor %/day|Charming Demeanor																	DEFINE:Charming Demeanor|0																																																																BONUS:VAR|Charming Demeanor|CHA
-Style and Grace			TYPE:Special		VISIBLE:NO																			SAB:+4 to all Charisma-based social skills
-Talent				TYPE:Special		VISIBLE:NO																			SAB:+5 from Skill Focus instead of +3
-Versatile				TYPE:Special		VISIBLE:NO																																																																																																																																		CSKILL:LIST
-
 
 ##Block: OA Hidden Feats
 # Feat Name				Type				Visible		Required Class			Required Feat					Required Var. value		Special ABility																						Define														Description																					Stackable?	Multiple?	Choose					Selections	Bonus to skill																	Modify VAR					Weapon prof. bonus										Class Skill	Source Page

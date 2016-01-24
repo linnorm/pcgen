@@ -57,8 +57,6 @@ DOMAIN:rallanon_domains.lst
 DOMAIN:rallanon_domains_arcane.lst
 SPELL:rallanon_spells.lst
 SKILL:rallanon_skills.lst
-FEAT:rallanon_feats.lst
-FEAT:rallanon_feats_hidden.lst
 LANGUAGE:rallanon_languages.lst
 TEMPLATE:rallanon_templates.lst
 EQUIPMOD:rallanon_equipmods.lst

@@ -2,4 +2,4 @@
 SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
 
 # Feat Name			Type			Required Lvl	Description							Stackable?	Multiple?	Stat bonus
-Spellcasting Prodigy	TYPE:General	PRELEVEL:MAX=1	DESC:You have an exceptional gift for magic.	STACK:NO	MULT:YES	BONUS:STAT|BASESPELLSTAT|2
+Spellcasting Prodigy	CATEGORY:FEAT	TYPE:General	PRELEVEL:MAX=1	DESC:You have an exceptional gift for magic.	STACK:NO	MULT:YES	BONUS:STAT|BASESPELLSTAT|2
