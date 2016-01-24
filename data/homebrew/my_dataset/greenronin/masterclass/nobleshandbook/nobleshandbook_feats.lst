@@ -3,4 +3,4 @@ SOURCELONG:The Noble's Handbook	SOURCESHORT:nobleshandbook	SOURCEWEB:http://www.
 
 
 # Feat Name	Type			Required Text							Description					Source Page
-Noble House	TYPE:General	PRETEXT:You must have been granted land or title.	DESC:You may run a noble house.	SOURCEPAGE:pg. 28
+Noble House	CATEGORY=FEAT|TYPE:General	PRETEXT:You must have been granted land or title.	DESC:You may run a noble house.	SOURCEPAGE:pg. 28

@@ -2,27 +2,27 @@
 SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Paladin	SOURCESHORT:QuintPaladin	SOURCEWEB:http://mongoosepublishing.com
 
 # Feat Name			Output Name					Type
-Agile Mount Dismount	OUTPUTNAME:Agile Mount-Dismount	TYPE:General
-Armour Agility								TYPE:General
-Armour Adroitness								TYPE:General
-Aura of Trust								TYPE:Special
-Born Leader									TYPE:General
-Deflective Shield								TYPE:General.Fighter
-Divine Inspiration							TYPE:Special
-Domain Favour								TYPE:Special
-Empathic Awareness							TYPE:General
-Extra Smiting								TYPE:Special
-Healing Touch								TYPE:Special
-Holy Charge									TYPE:Special
-Improved Shield Parry							TYPE:General
-Improved Special Mount							TYPE:Special
-Improved Smite								TYPE:Special
-Increased Empathy								TYPE:General
-Learned									TYPE:General
-Pure of Heart								TYPE:General
-Remote Healing								TYPE:Metamagic
-Remove Enchantment							TYPE:Special
-Shaft Fighting								TYPE:General.Fighter
-Shield Parry								TYPE:General.Fighter
-Shield Rush									TYPE:General.Fighter
-True of Purpose								TYPE:General
+Agile Mount Dismount	OUTPUTNAME:Agile Mount-Dismount	CATEGORY:FEAT	TYPE:General
+Armour Agility								CATEGORY:FEAT	TYPE:General
+Armour Adroitness								CATEGORY:FEAT	TYPE:General
+Aura of Trust								CATEGORY:FEAT	TYPE:Special
+Born Leader									CATEGORY:FEAT	TYPE:General
+Deflective Shield								CATEGORY:FEAT	TYPE:General.Fighter
+Divine Inspiration							CATEGORY:FEAT	TYPE:Special
+Domain Favour								CATEGORY:FEAT	TYPE:Special
+Empathic Awareness							CATEGORY:FEAT	TYPE:General
+Extra Smiting								CATEGORY:FEAT	TYPE:Special
+Healing Touch								CATEGORY:FEAT	TYPE:Special
+Holy Charge									CATEGORY:FEAT	TYPE:Special
+Improved Shield Parry							CATEGORY:FEAT	TYPE:General
+Improved Special Mount							CATEGORY:FEAT	TYPE:Special
+Improved Smite								CATEGORY:FEAT	TYPE:Special
+Increased Empathy								CATEGORY:FEAT	TYPE:General
+Learned									CATEGORY:FEAT	TYPE:General
+Pure of Heart								CATEGORY:FEAT	TYPE:General
+Remote Healing								CATEGORY:FEAT	TYPE:Metamagic
+Remove Enchantment							CATEGORY:FEAT	TYPE:Special
+Shaft Fighting								CATEGORY:FEAT	TYPE:General.Fighter
+Shield Parry								CATEGORY:FEAT	TYPE:General.Fighter
+Shield Rush									CATEGORY:FEAT	TYPE:General.Fighter
+True of Purpose								CATEGORY:FEAT	TYPE:General

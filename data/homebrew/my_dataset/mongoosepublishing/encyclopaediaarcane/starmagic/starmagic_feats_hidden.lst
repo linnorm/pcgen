@@ -1,5 +1,5 @@
 SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Star Magic	SOURCESHORT:Star Magic	SOURCEWEB:http://www.mongoosepublishing.com
 
 
-Magi Learning Bonus		TYPE:Extraordinary	VISIBLE:NO	DESC:+2 bonus to Spellcraft when learning Star Magic	SOURCEPAGE:ClassesII.rtf
+Magi Learning Bonus		CATEGORY:FEAT	TYPE:Extraordinary	VISIBLE:NO	DESC:+2 bonus to Spellcraft when learning Star Magic	SOURCEPAGE:ClassesII.rtf
 

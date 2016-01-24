@@ -5,19 +5,19 @@ SOURCELONG:Anubium - Dark Arts of Necromancy	SOURCESHORT:DAoN	SOURCEWEB:http://w
 ##		Divine Necromancer doesn't work
 
 # Feat Name				Type				Required Ability										Required Feat							Required Skill					Innate Spells									Description												Stackable?	Multiple?	Choose																		Source Page
-Augment Undead			TYPE:General.DevNecro													PREFEAT:2,Spell Focus (Necromancy),Empower Undead																			DESC:Undead that you create are more powerful than normal.																											SOURCEPAGE:pg. 18
-Channel the Dead			TYPE:General.DevNecro																						PRESKILL:1,Knowledge (Spirit Lore)=6												DESC:You can contact the spirits of the dead for help with your skills.																									SOURCEPAGE:pg. 18
-Divine Necromancer		TYPE:General.DevNecro													PREFEAT:1,Spell Focus (Necromancy)				PRESKILL:1,Knowledge (Religion)=8													DESC:Necromancy is a religion for you.							STACK:YES	MULT:YES	CHOOSE:DOMAIN|Dead,Death,Destruction,Evil,Fog,Gloom,Knowledge,Magic,Pestilence,Slaughter,Spirit,Torture,Vermin	SOURCEPAGE:pg. 18
-Empower Undead			TYPE:General.DevNecro													PREFEAT:1,Spell Focus (Necromancy)																						DESC:Undead that you create are harder to turn than normal.																											SOURCEPAGE:pg. 19
-Improved Necromantic Command	TYPE:General.DevNecro	PREABILITY:1,CATEGORY=Special Ability,Necromantic Command																														DESC:You are better able to use your necromantic command class ability.																									SOURCEPAGE:pg. 19
-School Adaptation			TYPE:Metamagic.DevNecro													PREFEAT:1,TYPE=Metamagic					PRESKILL:1,Knowledge (Arcana)=12																										STACK:YES	MULT:YES	CHOOSE:NOCHOICE																	SOURCEPAGE:pg. 19
-Spirit Dissertation		TYPE:General.DevNecro													PREFEAT:1,Channel the Dead					PRESKILL:1,Knowledge (Spirit Lore)=8	SPELLS:Innate|CASTERLEVEL=(max(TL,1))|Speak with Dead,13+WIS	DESC:You can call forth and interrogate spirits of the recently deceased.																								SOURCEPAGE:pg. 20
-Spirit Familiar			TYPE:General		PREABILITY:1,CATEGORY=Special Ability,Skull Familiar,Summon Familiar	PREFEAT:1,Improved Familiar					PRESKILL:1,Knowledge (Spirit Lore)=8												DESC:You call your familiar forth from the realm of the spiritworld.																									SOURCEPAGE:pg. 20
+Augment Undead			CATEGORY:FEAT	TYPE:General.DevNecro													PREFEAT:2,Spell Focus (Necromancy),Empower Undead																			DESC:Undead that you create are more powerful than normal.																											SOURCEPAGE:pg. 18
+Channel the Dead			CATEGORY:FEAT	TYPE:General.DevNecro																						PRESKILL:1,Knowledge (Spirit Lore)=6												DESC:You can contact the spirits of the dead for help with your skills.																									SOURCEPAGE:pg. 18
+Divine Necromancer		CATEGORY:FEAT	TYPE:General.DevNecro													PREFEAT:1,Spell Focus (Necromancy)				PRESKILL:1,Knowledge (Religion)=8													DESC:Necromancy is a religion for you.							STACK:YES	MULT:YES	CHOOSE:DOMAIN|Dead,Death,Destruction,Evil,Fog,Gloom,Knowledge,Magic,Pestilence,Slaughter,Spirit,Torture,Vermin	SOURCEPAGE:pg. 18
+Empower Undead			CATEGORY:FEAT	TYPE:General.DevNecro													PREFEAT:1,Spell Focus (Necromancy)																						DESC:Undead that you create are harder to turn than normal.																											SOURCEPAGE:pg. 19
+Improved Necromantic Command	CATEGORY:FEAT	TYPE:General.DevNecro	PREABILITY:1,CATEGORY=Special Ability,Necromantic Command																														DESC:You are better able to use your necromantic command class ability.																									SOURCEPAGE:pg. 19
+School Adaptation			CATEGORY:FEAT	TYPE:Metamagic.DevNecro													PREFEAT:1,TYPE=Metamagic					PRESKILL:1,Knowledge (Arcana)=12																										STACK:YES	MULT:YES	CHOOSE:NOCHOICE																	SOURCEPAGE:pg. 19
+Spirit Dissertation		CATEGORY:FEAT	TYPE:General.DevNecro													PREFEAT:1,Channel the Dead					PRESKILL:1,Knowledge (Spirit Lore)=8	SPELLS:Innate|CASTERLEVEL=(max(TL,1))|Speak with Dead,13+WIS	DESC:You can call forth and interrogate spirits of the recently deceased.																								SOURCEPAGE:pg. 20
+Spirit Familiar			CATEGORY:FEAT	TYPE:General		PREABILITY:1,CATEGORY=Special Ability,Skull Familiar,Summon Familiar	PREFEAT:1,Improved Familiar					PRESKILL:1,Knowledge (Spirit Lore)=8												DESC:You call your familiar forth from the realm of the spiritworld.																									SOURCEPAGE:pg. 20
 
 ##Block: .MODed feats
-Combat Casting.MOD		TYPE:DevNecro
-Greater Spell Penetration.MOD	TYPE:DevNecro
-Improved Counterspell.MOD	TYPE:DevNecro
-Improved Familiar.MOD		TYPE:DevNecro
-Spell Mastery.MOD			TYPE:DevNecro
-Spell Penetration.MOD		TYPE:DevNecro
+CATEGORY=FEAT|Combat Casting.MOD		TYPE:DevNecro
+CATEGORY=FEAT|Greater Spell Penetration.MOD	TYPE:DevNecro
+CATEGORY=FEAT|Improved Counterspell.MOD	TYPE:DevNecro
+CATEGORY=FEAT|Improved Familiar.MOD		TYPE:DevNecro
+CATEGORY=FEAT|Spell Mastery.MOD			TYPE:DevNecro
+CATEGORY=FEAT|Spell Penetration.MOD		TYPE:DevNecro

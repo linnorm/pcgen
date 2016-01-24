@@ -3,18 +3,18 @@
 SOURCELONG:Arcana - The Book of the Righteous	SOURCESHORT:BookRight	SOURCEWEB:http://www.greenronin.com
 
 # Feat Name			Product Identity?	Type			Visible	Req. Att.	Required Class		Required Lvl	Required Stat	Description																	Stackable?	Multiple?	Choose		Selections	Stat bonus		Class Skill		Source Page
-Attached Soul		NAMEISPI:NO		TYPE:General												PRESTAT:1,CHA=13	DESC:You are fiercely attached to life.																											SOURCEPAGE:p.254
-Devout			NAMEISPI:NO		TYPE:General															DESC:You are completely dedicated to you god and will not be swayed by the powers opposed to your faith.																SOURCEPAGE:p.254
-Domain Specialization	NAMEISPI:NO		TYPE:Special					PRECLASS:1,Cleric=4				PRESTAT:1,WIS=13	DESC:You may spontaneously cast spells from you clerical domain.																							SOURCEPAGE:p.254
-Ear of God			NAMEISPI:NO		TYPE:General															DESC:You are watched over by your god's servant.																									SOURCEPAGE:p.254
-Famous			NAMEISPI:NO		TYPE:General									PRELEVEL:MIN=6				DESC:You may choose to put points into the Famous skill																					CSKILL:Famous	SOURCEPAGE:p.254
-Free Thinker		NAMEISPI:NO		TYPE:Special					PRECLASS:1,Cleric=1				PRESTAT:1,WIS=13	DESC:You may prepare spells at anytime.																											SOURCEPAGE:p.254
-Heretic			NAMEISPI:NO		TYPE:Special					PRECLASS:1,Cleric=1							DESC:You may be of two alignment shifts from your god and still gain spells.																					SOURCEPAGE:p.254
-Martial Instructor	NAMEISPI:NO		TYPE:General			PREATT:5											DESC:You are skilled at the training of others in the use of weapons.																						SOURCEPAGE:p.255
-Profound Faith		NAMEISPI:NO		TYPE:Special					PRECLASS:1,Cleric=1				PRESTAT:1,CHA=13	DESC:You use your faith more than your wisdom to call for aid from your god.																					SOURCEPAGE:p.256
-Religious Scholar		NAMEISPI:NO		TYPE:General															DESC:You are a leading expert in the study of one of the gods in the pantheon.																				SOURCEPAGE:p.256
+Attached Soul		NAMEISPI:NO		CATEGORY:FEAT	TYPE:General												PRESTAT:1,CHA=13	DESC:You are fiercely attached to life.																											SOURCEPAGE:p.254
+Devout			NAMEISPI:NO		CATEGORY:FEAT	TYPE:General															DESC:You are completely dedicated to you god and will not be swayed by the powers opposed to your faith.																SOURCEPAGE:p.254
+Domain Specialization	NAMEISPI:NO		CATEGORY:FEAT	TYPE:Special					PRECLASS:1,Cleric=4				PRESTAT:1,WIS=13	DESC:You may spontaneously cast spells from you clerical domain.																							SOURCEPAGE:p.254
+Ear of God			NAMEISPI:NO		CATEGORY:FEAT	TYPE:General															DESC:You are watched over by your god's servant.																									SOURCEPAGE:p.254
+Famous			NAMEISPI:NO		CATEGORY:FEAT	TYPE:General									PRELEVEL:MIN=6				DESC:You may choose to put points into the Famous skill																					CSKILL:Famous	SOURCEPAGE:p.254
+Free Thinker		NAMEISPI:NO		CATEGORY:FEAT	TYPE:Special					PRECLASS:1,Cleric=1				PRESTAT:1,WIS=13	DESC:You may prepare spells at anytime.																											SOURCEPAGE:p.254
+Heretic			NAMEISPI:NO		CATEGORY:FEAT	TYPE:Special					PRECLASS:1,Cleric=1							DESC:You may be of two alignment shifts from your god and still gain spells.																					SOURCEPAGE:p.254
+Martial Instructor	NAMEISPI:NO		CATEGORY:FEAT	TYPE:General			PREATT:5											DESC:You are skilled at the training of others in the use of weapons.																						SOURCEPAGE:p.255
+Profound Faith		NAMEISPI:NO		CATEGORY:FEAT	TYPE:Special					PRECLASS:1,Cleric=1				PRESTAT:1,CHA=13	DESC:You use your faith more than your wisdom to call for aid from your god.																					SOURCEPAGE:p.256
+Religious Scholar		NAMEISPI:NO		CATEGORY:FEAT	TYPE:General															DESC:You are a leading expert in the study of one of the gods in the pantheon.																				SOURCEPAGE:p.256
 #CHOOSE:COUNT=2|Weapon Penalty Reduction|Reduce Person	BONUS:whatever|EndsUpBeingProgramed|VAR	DEFINE:WMast|2  BONUS:VAR|WMast|COUNT[FEAT=Weapon Master]-1 -Something like this for WeapMstr
-Weapons Master		NAMEISPI:NO		TYPE:General			PREATT:4											DESC:You are suffer only a -2 penalty on non-profiencient weapons.							STACK:YES	MULT:YES												SOURCEPAGE:p.256
-Cut Arrows			NAMEISPI:NO		TYPE:General												PRESTAT:1,DEX=13	DESC:See Deflect Arrows Feat																													SOURCEPAGE:p.93
-Talesman Ability Bonus	NAMEISPI:NO		TYPE:Talesman	VISIBLE:NO																															STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	BONUS:STAT|LIST|1
+Weapons Master		NAMEISPI:NO		CATEGORY:FEAT	TYPE:General			PREATT:4											DESC:You are suffer only a -2 penalty on non-profiencient weapons.							STACK:YES	MULT:YES												SOURCEPAGE:p.256
+Cut Arrows			NAMEISPI:NO		CATEGORY:FEAT	TYPE:General												PRESTAT:1,DEX=13	DESC:See Deflect Arrows Feat																													SOURCEPAGE:p.93
+Talesman Ability Bonus	NAMEISPI:NO		CATEGORY:FEAT	TYPE:Talesman	VISIBLE:NO																															STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	BONUS:STAT|LIST|1
 

@@ -3,8 +3,8 @@ SOURCELONG:The Noble's Handbook	SOURCESHORT:nobleshandbook	SOURCEWEB:http://www.
 
 ##Block: Breeding feats
 # Feat Name			Type			Visible	Innate Spells									Stackable?	Multiple?	Choose							Selections	Automatically Gained Weapon Prof.	Bonus to skill
-Noble Arcane Training	TYPE:Breeding	VISIBLE:NO	SPELLS:Innate|CASTERLEVEL=(CL=Noble (Green Ronin))|LIST,10+CHA	STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|1|CLASS=Wizard|0			SELECT:0
-Noble Education		TYPE:Breeding	VISIBLE:NO												STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE.Knowledge			SELECT:1							BONUS:SKILL|LIST|4|TYPE=Competence
-Noble Diplomacy		TYPE:Breeding	VISIBLE:NO														MULT:NO																	BONUS:SKILL|Diplomacy|4|TYPE=Competence
-Noble Bonus Language	TYPE:Breeding	VISIBLE:NO												STACK:NO	MULT:YES
-Noble Martial Training	TYPE:Breeding	VISIBLE:NO												STACK:NO	MULT:YES	CHOOSE:PROFICIENCY|WEAPON|UNIQUE|TYPE.Exotic			AUTO:WEAPONPROF|%LIST
+Noble Arcane Training	CATEGORY=FEAT|TYPE:Breeding	VISIBLE:NO	SPELLS:Innate|CASTERLEVEL=(CL=Noble (Green Ronin))|LIST,10+CHA	STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|1|CLASS=Wizard|0			SELECT:0
+Noble Education		CATEGORY=FEAT|TYPE:Breeding	VISIBLE:NO												STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE.Knowledge			SELECT:1							BONUS:SKILL|LIST|4|TYPE=Competence
+Noble Diplomacy		CATEGORY=FEAT|TYPE:Breeding	VISIBLE:NO														MULT:NO																	BONUS:SKILL|Diplomacy|4|TYPE=Competence
+Noble Bonus Language	CATEGORY=FEAT|TYPE:Breeding	VISIBLE:NO												STACK:NO	MULT:YES
+Noble Martial Training	CATEGORY=FEAT|TYPE:Breeding	VISIBLE:NO												STACK:NO	MULT:YES	CHOOSE:PROFICIENCY|WEAPON|UNIQUE|TYPE.Exotic			AUTO:WEAPONPROF|%LIST
