@@ -1,83 +1,85 @@
-# CVS $Revision: 9288 $ $Author: eddyanthony $ -- Thu Feb  5 22:31:33 2009 -- reformated by prettylst.pl v1.39 (build 9132)
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
 SOURCELONG:Fantasy Flight Games - Dragonstar - Starfarer's Handbook	SOURCESHORT:StarfarerH	SOURCEWEB:http://www.fantasyflightgames.com/dragonstar.html	SOURCEDATE:2001-12
 
 #TINY
-# Weapon Name					Type				Nb Hands	Required Feat
-Holdout Laser					TYPE:HighTechSimple.Ranged.HighTech.Laser.Fire.Handgun.Light
-Holdout Pistol					TYPE:HighTechSimple.Ranged.HighTech.Piercing.RangedPiercing.Handgun.Light
-Taser Pistol					TYPE:HighTechSimple.Ranged.HighTech.Taser.Handgun.Light
+# Weapon Name					Type				Nb Hands	Required Ability
+Holdout Laser					TYPE:HighTechSimple
+#SIZE:T
+Holdout Pistol					TYPE:HighTechSimple
+Taser Pistol					TYPE:HighTechSimple
 
 #SMALL
-Blaster Pistol					TYPE:HighTechSimple.Ranged.HighTech.Blaster.Electricity.Handgun.OneHanded
-Laser Pistol					TYPE:HighTechSimple.Ranged.HighTech.Laser.Fire.Handgun.OneHanded
-Light AutoPistol					TYPE:HighTechSimple.Ranged.HighTech.Piercing.RangedPiercing.Handgun.OneHanded
-Heavy AutoPistol					TYPE:HighTechSimple.Ranged.HighTech.Piercing.RangedPiercing.Handgun.OneHanded
-Screamer Pistol					TYPE:HighTechSimple.Ranged.HighTech.Screamer.Sonic.Handgun.OneHanded
+Blaster Pistol					TYPE:HighTechSimple
+Laser Pistol					TYPE:HighTechSimple
+Light AutoPistol					TYPE:HighTechSimple
+Heavy AutoPistol					TYPE:HighTechSimple
+Screamer Pistol					TYPE:HighTechSimple
 
 #MEDIUM
-Blaster Carbine					TYPE:HighTechSimple.Ranged.HighTech.Blaster.Electricity.Carbine		HANDS:2
-Automatic Crossbow				TYPE:HighTechSimple.Ranged.HighTech.Piercing.RangedPiercing.Crossbow		HANDS:2
-Hunting Carbine					TYPE:HighTechSimple.Ranged.HighTech.Piercing.RangedPiercing.Carbine		HANDS:2
-Laser Carbine					TYPE:HighTechSimple.Ranged.HighTech.Laser.Fire.Carbine		HANDS:2
+Blaster Carbine					TYPE:HighTechSimple
+Automatic Crossbow				TYPE:HighTechSimple	HANDS:2
+Hunting Carbine					TYPE:HighTechSimple
+Laser Carbine					TYPE:HighTechSimple
 
 #LARGE
-Blaster Rifle					TYPE:HighTechSimple.Ranged.HighTech.Blaster.Electricity.Rifle		HANDS:2
-Hunting Rifle					TYPE:HighTechSimple.Ranged.HighTech.Piercing.RangedPiercing.Rifle		HANDS:2
-Laser Rifle						TYPE:HighTechSimple.Ranged.HighTech.Laser.Fire.Rifle		HANDS:2
-Screamer Rifle					TYPE:HighTechSimple.Ranged.HighTech.Screamer.Sonic.Rifle		HANDS:2
-Shotgun						TYPE:HighTechSimple.Ranged.HighTech.Shotgun		HANDS:2
+Blaster Rifle					TYPE:HighTechSimple
+Hunting Rifle					TYPE:HighTechSimple
+Compound Longbow					TYPE:HighTechSimple	HANDS:2
+Laser Rifle						TYPE:HighTechSimple
+Screamer Rifle					TYPE:HighTechSimple
+Shotgun						TYPE:HighTechSimple
 
 #HighTechMartial Ranged/Thrown Weapons
 #MEDIUM
-Assault Carbine					TYPE:HighTechMartial.Ranged.HighTech.Piercing.RangedPiercing.Carbine		HANDS:2
-Submachine Gun					TYPE:HighTechMartial.Ranged.HighTech.Piercing.RangedPiercing		HANDS:2
+Assault Carbine					TYPE:HighTechMartial
+Submachine Gun					TYPE:HighTechMartial
 
 #LARGE
-Assault Blaster					TYPE:HighTechMartial.Ranged.HighTech.Blaster.Electricity.Rifle		HANDS:2
-Assault Laser					TYPE:HighTechMartial.Ranged.HighTech.Laser.Fire.Rifle		HANDS:2
-Assault Rifle					TYPE:HighTechMartial.Ranged.HighTech.Piercing.RangedPiercing.Rifle		HANDS:2
-Compound Longbow					TYPE:HighTechMartial.Ranged.HighTech.Piercing.RangedPiercing.Bow		HANDS:2
-Flamethrower					TYPE:HighTechMartial.Ranged.HighTech.Fire		HANDS:2
-Grenade Launcher					TYPE:HighTechMartial.Ranged.HighTech.Explosive		HANDS:2
-Light Machinegun					TYPE:HighTechMartial.Ranged.HighTech.Piercing.RangedPiercing		HANDS:2
-Missile Launcher					TYPE:HighTechMartial.Ranged.HighTech.Explosive		HANDS:2
-Plasma Rifle					TYPE:HighTechMartial.Ranged.HighTech.Plasma.Fire.Rifle		HANDS:2
-Rocket Launcher					TYPE:HighTechMartial.Ranged.HighTech.Explosive		HANDS:2
-Rocket Launcher (Multishot)			TYPE:HighTechMartial.Ranged.HighTech.Explosive.HeavyWeapon		HANDS:2
-Sniper Rifle					TYPE:HighTechMartial.Ranged.HighTech.Piercing.RangedPiercing.Rifle		HANDS:2
+Assault Blaster					TYPE:HighTechMartial
+Assault Laser					TYPE:HighTechMartial
+Assault Rifle					TYPE:HighTechMartial
+Flamethrower					TYPE:HighTechMartial
+Grenade Launcher					TYPE:HighTechMartial
+Light Machinegun					TYPE:HighTechMartial
+
+Missile Launcher					TYPE:HighTechMartial
+Plasma Rifle					TYPE:HighTechMartial
+Rocket Launcher					TYPE:HighTechMartial
+Rocket Launcher (Multishot)			TYPE:HighTechMartial
+Sniper Rifle					TYPE:HighTechMartial
 
 #HUGE
-Blaster Cannon					TYPE:HighTechMartial.Ranged.HighTech.Blaster.Electricity.HeavyWeapon		HANDS:2
-Heavy Machinegun					TYPE:HighTechMartial.Ranged.HighTech.Piercing.RangedPiercing.HeavyWeapon		HANDS:2
-Laser Cannon					TYPE:HighTechMartial.Ranged.HighTech.Laser.Fire.HeavyWeapon		HANDS:2
+Blaster Cannon					TYPE:HighTechMartial
+Heavy Machinegun					TYPE:HighTechMartial
+Laser Cannon					TYPE:HighTechMartial
 
 #EB MOD: Added all gargantuan weapons
 #GARGANTUAN
-Plasma Cannon					TYPE:Shipweapon.Ranged.HighTech.Plasma.Fire.HeavyWeapon
-Missile Launcher (Multishot-4 shot)	TYPE:Shipweapon.Ranged.HighTech.HeavyWeapon.Explosive
-Missile Launcher (Multishot-8 shot)	TYPE:Shipweapon.Ranged.HighTech.HeavyWeapon.Explosive
-Missile Launcher (Multishot-16 shot)	TYPE:Shipweapon.Ranged.HighTech.HeavyWeapon.Explosive
-Missile Launcher (Multishot-24 shot)	TYPE:Shipweapon.Ranged.HighTech.HeavyWeapon.Explosive
+Plasma Cannon					TYPE:Shipweapon
+Missile Launcher (Multishot-4 shot)		TYPE:Shipweapon
+Missile Launcher (Multishot-8 shot)		TYPE:Shipweapon
+Missile Launcher (Multishot-16 shot)	TYPE:Shipweapon
+Missile Launcher (Multishot-24 shot)	TYPE:Shipweapon
 
 #GRENADELIKE WEAPONS
-Grenade (Adhesive)				TYPE:HighTechMartial.Thrown.HighTech.Grenade.Explosive
-Grenade (Concussion)				TYPE:HighTechMartial.Thrown.HighTech.Grenade.Bludgeoning.Explosive
-Grenade (Flash-Bang)				TYPE:HighTechMartial.Thrown.HighTech.Grenade.Explosive
-Grenade (Frag)					TYPE:HighTechMartial.Thrown.HighTech.Grenade.Piercing.Fire.Explosive
-Grenade (Incendiary)				TYPE:HighTechMartial.Thrown.HighTech.Grenade.Fire.Explosive
-Grenade (Nausea)					TYPE:HighTechMartial.Thrown.HighTech.Grenade.Explosive
-Grenade (Smoke)					TYPE:HighTechMartial.Thrown.HighTech.Grenade.Explosive
-Grenade (Stun)					TYPE:HighTechMartial.Thrown.HighTech.Grenade.Explosive
+Grenade (Adhesive)				TYPE:HighTechMartial
+Grenade (Concussion)				TYPE:HighTechMartial
+Grenade (Flash-Bang)				TYPE:HighTechMartial
+Grenade (Frag)					TYPE:HighTechMartial
+Grenade (Incendiary)				TYPE:HighTechMartial
+Grenade (Nausea)					TYPE:HighTechMartial
+Grenade (Smoke)					TYPE:HighTechMartial
+Grenade (Stun)					TYPE:HighTechMartial
 
 #Other Weapons
-Stun baton						TYPE:HighTechSimple.Simple.HighTech.Melee.Bludgeoning.Light.Electrical
-Stun gauntlets					TYPE:HighTechSimple.Simple.HighTech.Melee.Unarmed.Bludgeoning.Electrical
-Bayonet						TYPE:HighTechSimple.Simple.HighTech.Melee.Dagger.Piercing.MeleePiercing.Light
+Stun baton						TYPE:HighTechSimple
+Stun gauntlets					TYPE:HighTechSimple
+Bayonet						TYPE:HighTechSimple
 
 #Ship Weapons
-Quad Plasma Cannon(battery)			TYPE:ShipWeapon.Ranged.HighTech				PREFEAT:1,Ship_Guns
-Ion Cannon(battery)				TYPE:ShipWeapon.Ranged.HighTech				PREFEAT:1,Ship_Guns
-Torpedo Bay						TYPE:ShipWeapon.Ranged.HighTech				PREFEAT:1,Ship_Guns
+Quad Plasma Cannon(battery)			TYPE:ShipWeapon				PREABILITY:1,CATEGORY=FEAT,Ship_Guns
+Ion Cannon(battery)				TYPE:ShipWeapon				PREABILITY:1,CATEGORY=FEAT,Ship_Guns
+Torpedo Bay						TYPE:ShipWeapon				PREABILITY:1,CATEGORY=FEAT,Ship_Guns
 
 Shortbow.MOD					TYPE:HandDrawn
 Longbow.MOD						TYPE:HandDrawn
