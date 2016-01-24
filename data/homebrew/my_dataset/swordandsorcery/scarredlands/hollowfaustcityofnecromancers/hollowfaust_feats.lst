@@ -2,5 +2,5 @@
 SOURCELONG:Hollowfaust - City of Necromancers	SOURCESHORT:Hollowfaust	SOURCEWEB:http://www.swordsorcery.com
 
 # Feat Name		Type			Required Stat	Description																									Source Page
-Icy Calm		TYPE:General	PRESTAT:1,WIS=13	DESC:+4 cultural bonus save vs. fear effects.  Reduced penalties when shaken.														SOURCEPAGE:p.54
-Dire Threats	TYPE:General	PRESTAT:1,WIS=13	DESC:+2 bonus to Intimidate and Bluff check involving the threat of violence.  Increased DC to be affected by Intimidate and violence-related Bluff Checks.	SOURCEPAGE:p.54
+Icy Calm		CATEGORY:FEAT	TYPE:General	PRESTAT:1,WIS=13	DESC:+4 cultural bonus save vs. fear effects.  Reduced penalties when shaken.														SOURCEPAGE:p.54
+Dire Threats	CATEGORY:FEAT	TYPE:General	PRESTAT:1,WIS=13	DESC:+2 bonus to Intimidate and Bluff check involving the threat of violence.  Increased DC to be affected by Intimidate and violence-related Bluff Checks.	SOURCEPAGE:p.54
