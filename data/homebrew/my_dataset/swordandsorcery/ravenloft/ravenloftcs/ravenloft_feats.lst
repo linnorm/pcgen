@@ -2,17 +2,17 @@
 SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
 
 # Feat Name		Type				Required AL		Req. Att.	Required Lvl	Required Stat	Description																							Choose						Selections	Source Page
-Back to the Wall	TYPE:General.Fighter				PREATT:2							DESC:You gain a +2 bonus to attack rolls and Armor Class when you are at one quarter or less of your maximum hitpoints.														SOURCEPAGE:p.
-Cold One		TYPE:General													DESC:Mindless undead ignore you unless you attack first.  Intelligent undead must succeed at a Wisom check DC 13 to realize you are not undead.										SOURCEPAGE:p.
-Courage		TYPE:General.Fighter												DESC:You get a +4 bonus to Fear Saves.																											SOURCEPAGE:p.
-Dead Man Walking	TYPE:General.Fighter												DESC:Upon making a successful Fear or Horror save, you receive a +2 bonus to all saves and skill checks for the duration of the encounter.										SOURCEPAGE:p.
-Ethereal Empathy	TYPE:General										PRESTAT:1,WIS=13	DESC:You can sense the emotional content of ethereal resonance within a 30-foot radius with a successful Wisdom check														SOURCEPAGE:p.
-Ghostsight		TYPE:General													DESC:You can see creatures that are ethereal as if they were normally visible.																				SOURCEPAGE:p.
-Haunted		TYPE:General													DESC:The spirit of a friend, ally, or loved one has returned from the grave to watch over you as a geist.																SOURCEPAGE:p.
-Jaded			TYPE:General.Fighter												DESC:You gain a +4 bonus to all Horror saves.																										SOURCEPAGE:p.
-Lunatic		TYPE:General		PREALIGN:CG,CN,CE									DESC:Your mind and body are tied to the cycles of the moon.																								SOURCEPAGE:p.
-Open Mind		TYPE:General													DESC:You enjoy a +4 bonus to all Madness saves.																										SOURCEPAGE:p.
-Redhead		TYPE:General							PREPCLEVEL:MAX=1	PRESTAT:1,WIS=11	DESC:According to folklore people born with red hair have been marked by the fey.																				SOURCEPAGE:p.
-Reincarnated	TYPE:General							PREPCLEVEL:MAX=1				DESC:You have vague dreamlike memories of a former life.															CHOOSE:SKILLSNAMED|CROSSCLASS|EXCLUSIVE	SELECT:1	SOURCEPAGE:p.
-Voice of Wrath	TYPE:General													DESC:You gain a +4 bonus to all curse checks.																										SOURCEPAGE:p.
+Back to the Wall	CATEGORY:FEAT	TYPE:General.Fighter				PREATT:2							DESC:You gain a +2 bonus to attack rolls and Armor Class when you are at one quarter or less of your maximum hitpoints.														SOURCEPAGE:p.
+Cold One		CATEGORY:FEAT	TYPE:General													DESC:Mindless undead ignore you unless you attack first.  Intelligent undead must succeed at a Wisom check DC 13 to realize you are not undead.										SOURCEPAGE:p.
+Courage		CATEGORY:FEAT	TYPE:General.Fighter												DESC:You get a +4 bonus to Fear Saves.																											SOURCEPAGE:p.
+Dead Man Walking	CATEGORY:FEAT	TYPE:General.Fighter												DESC:Upon making a successful Fear or Horror save, you receive a +2 bonus to all saves and skill checks for the duration of the encounter.										SOURCEPAGE:p.
+Ethereal Empathy	CATEGORY:FEAT	TYPE:General										PRESTAT:1,WIS=13	DESC:You can sense the emotional content of ethereal resonance within a 30-foot radius with a successful Wisdom check														SOURCEPAGE:p.
+Ghostsight		CATEGORY:FEAT	TYPE:General													DESC:You can see creatures that are ethereal as if they were normally visible.																				SOURCEPAGE:p.
+Haunted		CATEGORY:FEAT	TYPE:General													DESC:The spirit of a friend, ally, or loved one has returned from the grave to watch over you as a geist.																SOURCEPAGE:p.
+Jaded			CATEGORY:FEAT	TYPE:General.Fighter												DESC:You gain a +4 bonus to all Horror saves.																										SOURCEPAGE:p.
+Lunatic		CATEGORY:FEAT	TYPE:General		PREALIGN:CG,CN,CE									DESC:Your mind and body are tied to the cycles of the moon.																								SOURCEPAGE:p.
+Open Mind		CATEGORY:FEAT	TYPE:General													DESC:You enjoy a +4 bonus to all Madness saves.																										SOURCEPAGE:p.
+Redhead		CATEGORY:FEAT	TYPE:General							PREPCLEVEL:MAX=1	PRESTAT:1,WIS=11	DESC:According to folklore people born with red hair have been marked by the fey.																				SOURCEPAGE:p.
+Reincarnated	CATEGORY:FEAT	TYPE:General							PREPCLEVEL:MAX=1				DESC:You have vague dreamlike memories of a former life.															CHOOSE:SKILLSNAMED|CROSSCLASS|EXCLUSIVE	SELECT:1	SOURCEPAGE:p.
+Voice of Wrath	CATEGORY:FEAT	TYPE:General													DESC:You gain a +4 bonus to all curse checks.																										SOURCEPAGE:p.
 
