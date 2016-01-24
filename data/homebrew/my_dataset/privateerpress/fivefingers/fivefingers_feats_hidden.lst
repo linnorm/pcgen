@@ -4,6 +4,6 @@ SOURCELONG:Five Fingers	SOURCESHORT:FF	SOURCEWEB:http://www.ironkingdoms.com
 
 ##Block: Agent Abilities
 # Feat Name			Type			Visible	Stackable?	Multiple?	Choose													Selections	Bonus to skill rank	Class Skill
-Agent Class Skills	TYPE:Special	VISIBLE:NO	STACK:NO	MULT:YES															SELECT:3					CSKILL:LIST
-Agent Profession		TYPE:Special	VISIBLE:NO	STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE=Profession											BONUS:SKILLRANK|%LIST|5
-Field Education		TYPE:AgentAbility	VISIBLE:NO	STACK:YES	MULT:YES	CHOOSE:SKILLSNAMED|NORANK|TYPE=Craft|TYPE=Knowledge|TYPE=Perform|TYPE=Profession			BONUS:SKILLRANK|%LIST|2
+Agent Class Skills	CATEGORY:FEAT	TYPE:Special	VISIBLE:NO	STACK:NO	MULT:YES															SELECT:3					CSKILL:LIST
+Agent Profession		CATEGORY:FEAT	TYPE:Special	VISIBLE:NO	STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE=Profession											BONUS:SKILLRANK|%LIST|5
+Field Education		CATEGORY:FEAT	TYPE:AgentAbility	VISIBLE:NO	STACK:YES	MULT:YES	CHOOSE:SKILLSNAMED|NORANK|TYPE=Craft|TYPE=Knowledge|TYPE=Perform|TYPE=Profession			BONUS:SKILLRANK|%LIST|2
