@@ -1,0 +1,48 @@
+# CVS $Revision: 1.4 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Required Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class		RTM = Required to Memorize Spells	PRSA = Pre-Required Special Ability		RL = Required Languages to be this class		MRST = Minimum Required Saving Throw (type Fort/Ref/Will)
+# DS = Define Special	AA = Add Ability to class (feat/skill)	CT = Class Type (PC/NPC/Template/Monster)
+
+# 2002.02.08 -- �ric Beaudoin -- Changed ADD:FEAT:Insidious Magic for ADD:FEAT(Insidious Magic)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #286	SOURCESHORT:WotC-Dragon #286	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Elder Druid	HD:4		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.40	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:B|TYPE=Base.REPLACE
+# Class Name	Required AL				Required Class			Required Feat						Required Skill
+CLASS:Elder Druid	PREALIGN:LG,LN,LE,TN,NE,CG,CN	PRECLASS:1,Spellcaster=1	PREFEAT:1,Skill Focus(Knowledge (History))	PRESKILL:1,Knowledge (Arcana)=10	PRESKILL:1,Knowledge (History)=5
+# Class Name	Skill Pts/Lvl
+CLASS:Elder Druid	STARTSKILLPTS:4
+# Class Name	Spell Stat		Spell Type
+CLASS:Elder Druid	SPELLSTAT:Any	SPELLTYPE:Any
+1	SAB:Communication							BONUS:VAR|UncannyDodge|1	ADD:SPELLCASTER||ANY	AUTO:FEAT|Simple Weapon Proficiency|Uncanny Dodge
+2	SAB:Druid Fire %/day|1											ADD:SPELLCASTER||ANY
+3	SAB:Sense Magic												ADD:SPELLCASTER||ANY
+4	SAB:Druid Fire %/day|1	SAB:Elder Druid Resistance						ADD:SPELLCASTER||ANY
+5										BONUS:VAR|UncannyDodge|1	ADD:SPELLCASTER||ANY
+6	SAB:Druid Fire %/day|1											ADD:SPELLCASTER||ANY
+7	SAB:Druid Sleep												ADD:SPELLCASTER||ANY
+8	SAB:Druid Fire %/day|1	SAB:Elder Druid Blade							ADD:SPELLCASTER||ANY
+9	SAB:Incredible Memory											ADD:SPELLCASTER||ANY
+10	SAB:Druid Fire %/day|1	SAB:Immolate Body								ADD:SPELLCASTER||ANY
+SOURCE:WotC - DnD Magazines - Dragon Issue #286
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																									Combat bonus					WEAPONAUTO
+CLASS:Nightcloak	HD:8		TYPE:PC.Prestige	ABB:NiC		MAXLEVEL:10	SOURCEPAGE:p.82-83	BONUS:CHECKS|BASE.FORTITUDE|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE
+# Class Name	Required AL	Req. Att.	Required Deity	Required Feat																											Required Skill								Req. Spell Type
+CLASS:Nightcloak	PREALIGN:NE	PREATT:4	PREDEITY:1,Shar	PREFEAT:1,Pernicious Magic,Tenacious Magic	PREFEAT:1,Spell Focus (Necromancy),Spell Focus (Illusion),Spell Focus (Enchantment)	PREFEAT:2,Iron Will,Shadow Weave Magic	PRESKILL:1,Perform=4	PRESKILL:2,Bluff,Move Silently=2	PRESPELLTYPE:2,Divine=1
+# Class Name	Skill Pts/Lvl
+CLASS:Nightcloak	STARTSKILLPTS:2
+# Class Name	Spell Stat		Spell Type
+CLASS:Nightcloak	SPELLSTAT:WIS	SPELLTYPE:Divine
+1	SAB:Darkness Spells		ADD:SPELLCASTER||Divine						AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency
+2	SAB:Eyes of Shar			ADD:SPELLCASTER||Divine
+3						ADD:SPELLCASTER||Divine	ADD:FEAT|1|Insidious Magic
+4	SAB:Shadow Talk			ADD:SPELLCASTER||Divine
+5	SAB:Disk of Night			ADD:SPELLCASTER||Divine
+6	SAB:True Lies			ADD:SPELLCASTER||Divine
+7	SAB:Mind of Shar			ADD:SPELLCASTER||Divine
+8	SAB:Shar's Caress			ADD:SPELLCASTER||Divine
+9	SAB:Minion of Shar		ADD:SPELLCASTER||Divine
+10	SAB:Voice of Ineffable Evil	ADD:SPELLCASTER||Divine

@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/17/03
+SOURCELONG:Heart of Nightfang Spire	SOURCESHORT:HeartNight	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name	Type					Cost		Weight	Source Page		Special Property
+Goggles of Day	TYPE:Magic.Wondrous.Eyegear	COST:4000	WT:.01	SOURCEPAGE:p.32	SPROP:User may operate w/o penalty in bright light
+Libram of Flesh	TYPE:Magic.Wondrous.Book	COST:25500	WT:5		SOURCEPAGE:p.32	SPROP:Used to create Flesh Golems (1 use left)

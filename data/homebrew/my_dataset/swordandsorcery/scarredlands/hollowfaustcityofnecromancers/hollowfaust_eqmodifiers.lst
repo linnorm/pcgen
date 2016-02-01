@@ -1,0 +1,6 @@
+# CVS $Revision: 1.4 $ $Author: ericbeaudoin $ -- Thu Mar  8 10:42:31 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+SOURCELONG:Hollowfaust - City of Necromancers	SOURCESHORT:Hollowfaust	SOURCEWEB:http://www.swordsorcery.com
+
+#Armor
+# Modifier Name	Unique Key	Type			Cost		Visible		Source Page		Multiple Requirements							Special Property
+Warded		KEY:WARDED	TYPE:Armor.Shield	COST:30000	VISIBLE:QUALIFY	SOURCEPAGE:p.102	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor|Shield]	SPROP:Gain deflection bonus to AC equal to enhancement bonus

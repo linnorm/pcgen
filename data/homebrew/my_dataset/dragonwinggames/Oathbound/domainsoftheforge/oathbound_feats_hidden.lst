@@ -1,0 +1,14 @@
+# CVS $Revision: 5014 $ $Author: eddyanthony $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Oathbound - Domains of the Forge	SOURCESHORT:Oathbound	SOURCEWEB:http://www.bastionpress.com	SOURCEDATE:2003-08
+# Input by Ruemere, email: ruemere@poczta.onet.pl
+
+
+###Block: Proficiencies
+# Feat Name			Type			Visible	Automatically Gained Weapon Prof.
+Stalker Proficiencies	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Shortbow|Saber (Fencing)|Rapier|Sap|Sword (Short)|Club|Crossbow (Heavy)|Mace (Heavy)|Morningstar|Quarterstaff|Shortstaff|Backsword (Basket Hilted)
+
+
+##Block: Hone Feats
+Precision Strike		TYPE:Special	VISIBLE:EXPORT		DESC:You gain a +%1 bonus to hit with your chosen weapon.|PrecisionStrikeBonus			BONUS:COMBAT|TOHIT|-1*PrecisionStrikeBonus	BONUS:WEAPONPROF=Unarmed Strike|TOHIT|PrecisionStrikeBonus	BONUS:WEAPONPROF=%LIST|TOHIT|(PrecisionStrikeBonus*2)|TYPE=Competence	SOURCEPAGE:p.52		DEFINE:PrecisionStrikeBonus|0	BONUS:VAR|PrecisionStrikeBonus|((var("CL=Hone")+1)/2)	MULT:NO	CHOOSE:FEAT=Weapon Specialization
+Fell Blow			TYPE:Special	VISIBLE:EXPORT		DESC:You gain a +%1 bonus to damage with your chosen weapon.|FellBlowBonus	SOURCEPAGE:p.52	DEFINE:FellBlowBonus|0	BONUS:WEAPONPROF=%LIST|DAMAGE|FellBlowBonus|TYPE=Competence	MULT:NO	CHOOSE:FEAT=Weapon Specialization
+Extended Critical		TYPE:Special	VISIBLE:EXPORT		DESC:The critical multiplier of your chosen weapon is increased by one.			BONUS:WEAPONPROF=%LIST|CRITMULTADD|1		MULT:NO	CHOOSE:FEAT=Weapon Specialization																																	SOURCEPAGE:p.52

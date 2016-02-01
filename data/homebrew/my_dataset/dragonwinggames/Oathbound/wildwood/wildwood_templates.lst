@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wildwood	SOURCESHORT:Wildwood	SOURCEWEB:http://www.bastionpress.com
+
+
+## TODO: Add choosing of dragon type for Draconic Creature breath weapon
+##Block: Focus of the Wyrm
+# Template Name				Visible	Source Page			Special ABility														Define												Modify VAR																	Weapon prof. bonus					Choose								Move		Type		Natural Attacks
+FoWym Winged Creature			VISIBLE:YES																																																																					MOVE:Fly,40			NATURALATTACKS:Wing,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d3
+FoWym Draconic Creature			VISIBLE:YES					DESC:Breath Weapon 1/hour  Dmg:%d6 DC:%|DraconicCreatureBreathDamage|DraconicCreatureBreathSave	DEFINE:DraconicCreatureBreathDamage|0	DEFINE:DraconicCreatureBreathSave|0	BONUS:VAR|DraconicCreatureBreathDamage|min(10,(TL/2))	BONUS:VAR|DraconicCreatureBreathSave|(10+(TL/2)+CON)																				TYPE:Dragon
+
+##Block: Arrival Gifts
+Arrival Gift(Weapon of Choice)	VISIBLE:YES	SOURCEPAGE:pg. 181																																																BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=Competance	CHOOSE:WEAPONPROFS|Spellcaster.Ray|ADD.Grapple|LIST

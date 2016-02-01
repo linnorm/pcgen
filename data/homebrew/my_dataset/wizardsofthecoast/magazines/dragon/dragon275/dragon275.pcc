@@ -1,0 +1,16 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #275
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #275
+SOURCESHORT:WotC-Dragon #275
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon275classes.lst
+FEAT:dragon275feats.lst
+EQUIPMENT:dragon275equipweapmelee.lst
+EQUIPMENT:dragon275equipweapranged.lst
+SPELL:dragon275spells.lst
+WEAPONPROF:dragon275weapprofs.lst

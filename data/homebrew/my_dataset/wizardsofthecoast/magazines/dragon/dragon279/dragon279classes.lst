@@ -1,0 +1,20 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #279	SOURCESHORT:WotC-Dragon #279	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																	Combat bonus					WEAPONAUTO
+CLASS:Ancestral Avenger	HD:8		TYPE:PC.Prestige	ABB:Anc		MAXLEVEL:10	SOURCEPAGE:p.84-85	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name		Req. Att.	Required Feat				Required Race		Required Skill
+CLASS:Ancestral Avenger	PREATT:5	PREFEAT:3,Alertness,Iron Will,Track	PRERACE:1,Half-Elf|Elf	PRESKILL:1,Wilderness Lore=3
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Ancestral Avenger	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Intuit Direction|Knowledge (Underdark)|Listen|TYPE.Profession|Search|Sense Motive|Spot|Wilderness Lore
+1	SAB:Drow Bane +%/+%d6|1	SAB:Underground Tracking	AUTO:FEAT|Simple Weapon Proficiency|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency|Martial Weapon Proficiency
+2	SAB:Poison Resistance
+3	SAB:Overcome Spell Resistance
+4	SAB:Drow Bane +%/+%d6|1
+5	SAB:Spider Bane
+6	SAB:Webwalking
+7	SAB:Drowing Change
+8	SAB:Drow Bane +%/+%d6|1
+9	SAB:Demon Bane
+10	SAB:Spell Resistance
+

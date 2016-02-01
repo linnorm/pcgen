@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/17/03
+SOURCELONG:Heart of Nightfang Spire	SOURCESHORT:HeartNight	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name	Output Name			Type								Cost		Weight	Source Page		Weapon prop. bonus
+Arrow (+1)		OUTPUTNAME:[NAME] Arrow	TYPE:Magic.Ammunition.Specific.Wooden.Arrow	COST:47	WT:.1		SOURCEPAGE:p.5	BONUS:WEAPON|DAMAGE,TOHIT|1|TYPE=Enhancement

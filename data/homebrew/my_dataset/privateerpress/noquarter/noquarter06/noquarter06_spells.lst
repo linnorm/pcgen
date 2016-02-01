@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:No Quarter 06	SOURCESHORT:NQ06	SOURCEWEB:http://www.ironkingdoms.com
+#Original Entry by: Rax the Grey
+
+
+##Block: New Spells
+# Spell Name	Classes of caster					School			Type		Components	Casting Time	Range		Target Area									Duration			Save Info				Spell Resistance	Description											Source Page
+Arcane Loading	CLASSES:Gun Mage=1				SCHOOL:Transmutation	TYPE:Arcane	COMPS:V, F	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:One pistol	DURATION:Concentration + (CASTERLEVEL) rounds	SAVEINFO:None	SPELLRES:No	DESC:This spell allows you to reload a pistol while doing other things.	SOURCEPAGE:pg. 16

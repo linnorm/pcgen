@@ -1,0 +1,7 @@
+
+
+
+# Ability Name									Category of Ability		Type								Visible	Define																			Description																																	Modify VAR															Source Page						Aspects
+Badger Empathy									CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			VISIBLE:YES
+Curse of Lycanthropy.MOD	DESC:Non-dwarves receive a +4 racial bonus on their Fortitude saves to avoid affliction.|PRETEMPLATE:1,Werebadger
+Rage				KEY:Rage ~ Werebadger				CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary			VISIBLE:YES																																																													DESC:A werebadger that takes damage in combat flies into a berserk rage on its next turn, clawing and biting madly until either it or its opponent is dead. It gains +4 Strength, +4 Constitution, and -2 AC. The creature cannot end its rage voluntarily.

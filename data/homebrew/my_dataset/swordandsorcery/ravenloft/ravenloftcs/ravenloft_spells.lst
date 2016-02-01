@@ -1,0 +1,23 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Spell Name		Domains granting the spell
+Antilife Shell.MOD	DOMAINS:Repose=6
+Control Undead.MOD	DOMAINS:Repose=8
+Detect Undead.MOD		DOMAINS:Repose=1
+Fog Cloud.MOD		DOMAINS:Mists=2
+Gaseous Form.MOD		DOMAINS:Mists=3
+Gentle Repose.MOD		DOMAINS:Repose=2
+Halt Undead.MOD		DOMAINS:Repose=4
+Imprisonment.MOD		DOMAINS:Mists=9
+Mind Fog.MOD		DOMAINS:Mists=5
+Obscuring Mist.MOD	DOMAINS:Mists=1
+Raise Dead.MOD		DOMAINS:Repose=5
+Resurrection.MOD		DOMAINS:Repose=7
+Speak with Dead.MOD	DOMAINS:Repose=3
+Solid Fog.MOD		DOMAINS:Mists=4
+Soul Bind.MOD		DOMAINS:Repose=9
+Teleport (Greater).MOD	DOMAINS:Mists=7
+Teleport Object.MOD	DOMAINS:Mists=8
+Wind Walk.MOD		DOMAINS:Mists=6
+

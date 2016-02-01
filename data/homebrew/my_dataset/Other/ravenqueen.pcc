@@ -1,0 +1,14 @@
+CAMPAIGN:Raven Queen
+GAMEMODE:35e
+TYPE:Other
+RANK:9
+
+
+ABILITY:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsrituals_abilities.lst|(INCLUDE:CATEGORY=Special Ability,MissionaryDomainGrantedPower)
+DEITY:ravenqueen_deities.lst
+DOMAIN:@/homebrew/my_dataset/rallanonpublishinggroup/rallanon/encyclopediarallanon/base/rallanon_domains.lst|(INCLUDE:Fate)
+DOMAIN:@/homebrew/my_dataset/wizards_of_the_coast/supplement/frostburn/frstbn_d20_fantasy_v35e_domain.lst|(INCLUDE:Winter)
+DOMAIN:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsrituals_domains.lst
+DOMAIN:@/d20ogl/srd35/basics/rsrd_domains_divine.lst|(INCLUDE:Repose)
+SPELL:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsrituals_spells.lst|(INCLUDE:Inquisition|Incite|Convert|Divine Raiment)
+SPELL:@/homebrew/my_dataset/wizards_of_the_coast/supplement/frostburn/frstbn_d20_fantasy_v35e_spell.lst

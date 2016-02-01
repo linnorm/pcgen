@@ -1,0 +1,28 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Kights of the Old Republic 1	SOURCESHORT:kotor1	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: General Feats
+# Feat Name						Type				Visible	Req. Att.	Required Feat										Required Skill		Var. Min. Value			Description																		Multiple?	Choose							Source Page
+
+
+#Block: Force Feats
+# Feat Name						Type				Visible	Req. Att.	Required Feat										Required Skill		Var. Min. Value			Description																		Multiple?	Choose							Source Page
+
+
+#Block: Hidden Feats
+# Feat Name			Type			Visible	Bonus to skill
+Sentinel's Sense		TYPE:Special	VISIBLE:NO	BONUS:SKILL|Drain Knowledge,Enhance Senses,Farseeing,Fear,See Force,Telepathy|2|TYPE=Sentinel
+
+
+#Block: .MODed Feats
+Agile Riposte.MOD		TYPE:Sentinel
+Alertness.MOD		TYPE:Sentinel
+Attuned.MOD			TYPE:Sentinel
+Cautious.MOD		TYPE:Sentinel
+Combat Reflexes.MOD	TYPE:Sentinel
+Peacemaker.MOD		TYPE:Sentinel
+Self Sufficient.MOD	TYPE:Sentinel
+Shadow.MOD			TYPE:Sentinel
+Sharp Eyed.MOD		TYPE:Sentinel
+Skeptical.MOD		TYPE:Sentinel
+Stealthy.MOD		TYPE:Sentinel

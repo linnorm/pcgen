@@ -1,0 +1,15 @@
+# CVS $Revision: 304 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Orginal Entry: Ratheof Blithwyn
+SOURCELONG:The Witch's Handbook	SOURCESHORT:witchhandbook	SOURCEWEB:http://www.greenronin.com
+
+#TODO: spells in staffs
+
+
+###Block:Staves
+# Equipment Name		Output Name					Type					Cost		Weight	Base Item for EQMOD	Requires Modification?	Source Page
+Staff (Enchantment GR)	OUTPUTNAME:Staff of Enchantment	TYPE:Magic.Staff			COST:108000	WT:5		BASEITEM:Staff						SOURCEPAGE:p.45
+Staff (Transformation)	OUTPUTNAME:Staff of [NAME]		TYPE:Magic.Staff			COST:81000	WT:5		BASEITEM:Staff						SOURCEPAGE:p.45
+Staff (Treant)		OUTPUTNAME:[NAME] Staff			TYPE:Magic.Staff			COST:74000	WT:5		BASEITEM:Staff						SOURCEPAGE:p.45
+Staff (Witch's)		OUTPUTNAME:[NAME] Staff			TYPE:Magic.Staff			COST:201000	WT:5		BASEITEM:Staff						SOURCEPAGE:p.45
+
+Rune Wand									TYPE:RuneWand.Consumable	COST:0	WT:0						MODS:REQUIRED		SOURCEPAGE:pg. 44

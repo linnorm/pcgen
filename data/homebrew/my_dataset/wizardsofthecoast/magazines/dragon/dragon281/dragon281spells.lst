@@ -1,0 +1,51 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #281	SOURCESHORT:WotC-Dragon #281	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+#1
+# Spell Name				Classes of caster
+Alarm.MOD					CLASSES:Psi-Hunter=1
+Cause Fear.MOD				CLASSES:Psi-Hunter=1
+Command.MOD					CLASSES:Psi-Hunter=1
+Doom.MOD					CLASSES:Psi-Hunter=1
+Hypnotism.MOD				CLASSES:Psi-Hunter=1
+Magic Weapon.MOD				CLASSES:Psi-Hunter=1
+Obscuring Mist.MOD			CLASSES:Psi-Hunter=1
+Shield.MOD					CLASSES:Psi-Hunter=1
+True Strike.MOD				CLASSES:Psi-Hunter=1
+
+#2
+Blur.MOD					CLASSES:Psi-Hunter=2
+Bull's Strength.MOD			CLASSES:Psi-Hunter=2
+Cat's Grace.MOD				CLASSES:Psi-Hunter=2
+Detect Thoughts.MOD			CLASSES:Psi-Hunter=2
+Endurance.MOD				CLASSES:Psi-Hunter=2
+Hypnotic Pattern.MOD			CLASSES:Psi-Hunter=2
+Locate Object.MOD				CLASSES:Psi-Hunter=2
+See Invisibility.MOD			CLASSES:Psi-Hunter=2
+
+#3
+Dispel Magic.MOD				CLASSES:Psi-Hunter=3
+Freedom of Movement.MOD			CLASSES:Psi-Hunter=3
+Greater Magic Weapon.MOD		CLASSES:Psi-Hunter=3
+Hold Person.MOD				CLASSES:Psi-Hunter=3
+Minor Globe of Invulnerability.MOD	CLASSES:Psi-Hunter=3
+Nondetection.MOD				CLASSES:Psi-Hunter=3
+Spell Immunity.MOD			CLASSES:Psi-Hunter=3
+
+#4
+Detect Scrying.MOD			CLASSES:Psi-Hunter=4
+Dimensional Anchor.MOD			CLASSES:Psi-Hunter=4
+Discern Lies.MOD				CLASSES:Psi-Hunter=4
+Emotion.MOD					CLASSES:Psi-Hunter=4
+Haste.MOD					CLASSES:Psi-Hunter=4
+Locate Creature.MOD			CLASSES:Psi-Hunter=4
+Scrying.MOD					CLASSES:Psi-Hunter=4
+
+#5
+Antimagic Field.MOD			CLASSES:Psi-Hunter=5
+Globe of Invulnerability.MOD		CLASSES:Psi-Hunter=5
+Magic Jar.MOD				CLASSES:Psi-Hunter=5
+Mind Fog.MOD				CLASSES:Psi-Hunter=5
+Telepathic Bond.MOD			CLASSES:Psi-Hunter=5
+True Seeing.MOD				CLASSES:Psi-Hunter=5
+

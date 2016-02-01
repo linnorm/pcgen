@@ -1,0 +1,375 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+#All Jedi Base Classes: Added TEMPLATE:JediKnight|PREVAREQ:JediLevel,7 to level 1 to add Jedi Knight bonus feat.  This will need to go in all other Jedi base classes.  PrCs from other sources need ADD:FEAT(Jedi Knight) on each level line to do the same
+#Jedi Investigator: Added Search to class skills per erratta
+#Darkside Devotee: Added Intimidate to class skills per erratta
+#Starship Ace: Changed Pilot skill req to 9 per erratta
+
+##Block: Base Classes
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page			Save checks bonus																Combat bonus						Modify VAR
+CLASS:Fringer	HD:6		TYPE:PC.Base	ABB:Frg		SOURCEPAGE:p.40-41	BONUS:CHECKS|BASE.Fortitude|2+(CL/2)	BONUS:CHECKS|BASE.Reflex|(CL+3)*2/5	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|((((CL+3)*2)/5)+2)	BONUS:VAR|Reputation|(CL-1)/4	BONUS:VAR|ForcePoints|CL
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Fringer	STARTSKILLPTS:6	CSKILL:Climb|TYPE=Craft|Gamble|Handle Animal|Hide|Jump|TYPE=Knowledge|Listen|Pilot|TYPE=Profession|Ride|Search|Spot|Survival|Swim
+1																		ADD:FEAT|Extra Class Skill	ADD:FEAT|TYPE=Fringer	AUTO:FEAT|Weapon Group Proficiency (Primitive Weapons)|Weapon Group Proficiency (Simple Weapons)
+2	SAB:Barter
+3	SAB:Jury-rig +%|Juryrig			BONUS:VAR|Juryrig|2				DEFINE:Juryrig|0
+4																		ADD:FEAT|Extra Class Skill
+5	SAB:Survival Bonus +%|SurvivalBonus	BONUS:VAR|SurvivalBonus|2|TYPE=Competance	DEFINE:SurvivalBonus|0
+6							BONUS:VAR|Juryrig|2
+7																		ADD:FEAT|TYPE=Fringer
+8																		ADD:FEAT|Extra Class Skill
+9							BONUS:VAR|Juryrig|2
+10							BONUS:VAR|SurvivalBonus|4|TYPE=Competance
+12																		ADD:FEAT|Extra Class Skill
+13							BONUS:VAR|Juryrig|2
+14																		ADD:FEAT|TYPE=Fringer
+16																		ADD:FEAT|Extra Class Skill
+18							BONUS:VAR|SurvivalBonus|6|TYPE=Competance
+20																		ADD:FEAT|TYPE=Fringer
+
+# Class Name	Hit Dice	Type			Source Page			Save checks bonus																Combat bonus						Modify VAR
+CLASS:Noble		HD:6		TYPE:PC.Base	SOURCEPAGE:p.42-45	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL+3)*2/5	BONUS:CHECKS|BASE.Will|2+(CL/2)	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|((((CL+3)*2)/5)+1)	BONUS:VAR|Reputation|(CL+4)/4	BONUS:VAR|ForcePoints|CL
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Noble		STARTSKILLPTS:6	CSKILL:Appraise|Computer Use|TYPE=Craft|Diplomacy|Disguise|TYPE=Entertain|TYPE=Knowledge|TYPE=Profession|Read/Write Language|Ride|Sense Motive|Speak Language
+1	SAB:Favor +%|FavorMOD			BONUS:VAR|FavorMOD|1		DEFINE:FavorMOD|0		ADD:FEAT|Extra Class Skill	AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Primitive Weapons)[PREVAREQ:PrimitiveRace,1]	AUTO:FEAT|Weapon Group Proficiency (Simple Weapons)
+2	SAB:Inspire Confidence
+3	SAB:Resource Access			BONUS:VAR|FavorMOD|1
+4	SAB:Coordinate +%|CoordinateMOD	BONUS:VAR|CoordinateMOD|1	DEFINE:CoordinateMOD|0
+6																ADD:FEAT|TYPE=Noble
+7							BONUS:VAR|FavorMOD|1
+8							BONUS:VAR|CoordinateMOD|1
+9																ADD:FEAT|TYPE=Noble
+11	SAB:Inspire Greatness
+12							BONUS:VAR|FavorMOD|1
+13							BONUS:VAR|CoordinateMOD|1
+14																ADD:FEAT|TYPE=Noble
+16							BONUS:VAR|FavorMOD|1
+18							BONUS:VAR|CoordinateMOD|1
+19																ADD:FEAT|TYPE=Noble
+20							BONUS:VAR|CoordinateMOD|1
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page			Save checks bonus												Combat bonus						Modify VAR
+CLASS:Scoundrel	HD:6		TYPE:PC.Base	ABB:Scl		SOURCEPAGE:p.45-46	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|2+(CL/2)	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|((CL+1)*0.5)+1	BONUS:VAR|Reputation|(CL+1)/4	BONUS:VAR|ForcePoints|CL
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Scoundrel	STARTSKILLPTS:8	CSKILL:Appraise|Astrogate|Balance|Bluff|Computer Use|TYPE=Craft|Demolitions|Disable Device|Disguise|Escape Artist|Forgery|Gamble|Gather Information|Hide|TYPE=Knowledge|Listen|Move Silently|Pilot|TYPE=Profession|Repair|Search|Sleight of Hand|Spot|Tumble
+1	SAB:Illicit Barter																AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Primitive Weapons)[PREVAREQ:PrimitiveRace,1]	AUTO:FEAT|Weapon Group Proficiency (Simple Weapons)
+2	SAB:Lucky x%|LuckyMOD			BONUS:VAR|LuckyMOD|1		DEFINE:LuckyMOD|0
+3	SAB:Precise Attack +%|PreciseAttack	BONUS:VAR|PreciseAttack|1	DEFINE:PreciseAttack|0
+4																ADD:FEAT|Skill Emphasis
+5																ADD:FEAT|TYPE=Scoundrel
+6							BONUS:VAR|LuckyMOD|1
+8																ADD:FEAT|Skill Emphasis
+9							BONUS:VAR|PreciseAttack|1
+10																ADD:FEAT|TYPE=Scoundrel
+12																ADD:FEAT|Skill Emphasis
+13							BONUS:VAR|LuckyMOD|1
+14							BONUS:VAR|PreciseAttack|1
+15																ADD:FEAT|TYPE=Scoundrel
+16																ADD:FEAT|Skill Emphasis
+18							BONUS:VAR|LuckyMOD|1
+20																ADD:FEAT|Skill Emphasis
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page			Save checks bonus									Combat bonus						Modify VAR
+CLASS:Scout		HD:8		TYPE:PC.Base	ABB:Sct		SOURCEPAGE:p.47-49	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|(CL+3)*2/5	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|((CL+1)*0.5)+1	BONUS:VAR|Reputation|CL/4	BONUS:VAR|ForcePoints|CL
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Scout		STARTSKILLPTS:6	CSKILL:Astrogate|Climb|Computer Use|TYPE=Craft|Demolitions|Disguise|Hide|Jump|TYPE=Knowledge|Listen|Move Silently|Pilot|TYPE=Profession|Read/Write Language|Repair|Ride|Search|Speak Language|Spot|Survival|Swim
+# TODO: Figure out how to choose skills for Skill Mastery
+1																												ADD:FEAT|TYPE=Scout					AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Blaster Rifles)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Primitive Weapons)[PREVAREQ:PrimitiveRace,1]	AUTO:FEAT|Weapon Group Proficiency (Simple Weapons)
+2	SAB:Trailblazing
+3	SAB:Heart +%|HeartMOD								BONUS:VAR|HeartMOD|1									DEFINE:HeartMOD|0
+4												BONUS:VAR|UncannyDodgeFlankingLevel|CL=Scout|TYPE=EachClass.REPLACE					ADD:FEAT|Improved Uncanny Dodge,Uncanny Dodge
+5	SAB:Skill Mastery %x IntMOD|SkillMastery	SAB:Extreme Effort	BONUS:VAR|SkillMastery|1								DEFINE:SkillMastery|0
+6																												ADD:FEAT|Evasion
+7																												ADD:FEAT|Improved Uncanny Dodge,Uncanny Dodge
+8																												ADD:FEAT|TYPE=Scout
+10												BONUS:VAR|SkillMastery|1
+11												BONUS:VAR|HeartMOD|1
+12																												ADD:FEAT|TYPE=Scout
+14												BONUS:VAR|HeartMOD|1
+15												BONUS:VAR|SkillMastery|1
+16																												ADD:FEAT|TYPE=Scout
+18												BONUS:VAR|HeartMOD|1
+20												BONUS:VAR|SkillMastery|1
+
+# Class Name	Hit Dice	Type			Source Page			Save checks bonus									Combat bonus					Modify VAR
+CLASS:Soldier	HD:10		TYPE:PC.Base	SOURCEPAGE:p.50-51	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|(CL+3)*2/5	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|((CL+1)*0.5)+2	BONUS:VAR|Reputation|((CL+2)/4)	BONUS:VAR|ForcePoints|CL
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Soldier	STARTSKILLPTS:4	CSKILL:Astrogate|Computer Use|TYPE=Craft|Demolitions|Intimidate|TYPE=Knowledge|Pilot|TYPE=Profession|Repair|Treat Injury
+1					AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Blaster Rifles)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Heavy Weapons)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Primitive Weapons)[PREVAREQ:PrimitiveRace,1]|Weapon Group Proficiency (Vibro Weapons)[PREVARNEQ:PrimitiveRace,1]	AUTO:FEAT|Armor Proficiency (Light)|Weapon Group Proficiency (Simple Weapons)
+2	ADD:FEAT|TYPE=Soldier
+3	ADD:FEAT|TYPE=Soldier
+4	ADD:FEAT|TYPE=Soldier
+6	ADD:FEAT|TYPE=Soldier
+8	ADD:FEAT|TYPE=Soldier
+10	ADD:FEAT|TYPE=Soldier
+12	ADD:FEAT|TYPE=Soldier
+14	ADD:FEAT|TYPE=Soldier
+16	ADD:FEAT|TYPE=Soldier
+18	ADD:FEAT|TYPE=Soldier
+20	ADD:FEAT|TYPE=Soldier
+
+# Class Name		Hit Dice	Type			Abbreviation	Source Page			Save checks bonus												Combat bonus						Modify VAR
+CLASS:Tech Specialist	HD:6		TYPE:PC.Base	ABB:TSp		SOURCEPAGE:p.52-54	BONUS:CHECKS|BASE.Reflex,BASE.Will|(CL+3)*2/5	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|((CL+3)*2/5)+1	BONUS:VAR|Reputation|((CL+1)/4)	BONUS:VAR|ForcePoints|CL
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Tech Specialist	STARTSKILLPTS:4	CSKILL:Astrogate|Computer Use|TYPE=Craft|Demolitions|Disable Device|TYPE=Knowledge|Pilot|TYPE=Profession|Read/Write Language|Repair|Search|Treat Injury
+1				ADD:FEAT|Skill Emphasis (Computer Use),Skill Emphasis (Repair),Skill Emphasis (Treat Injury),Skill Emphasis (TYPE.Craft)					AUTO:FEAT|Weapon Group Proficiency (Primitive Weapons)[PREVAREQ:PrimitiveRace,1]	AUTO:FEAT|Weapon Group Proficiency (Simple Weapons)
+2	SAB:Research
+# TODO: Finish feat defs for Instant Mastery, Expert, & Tech Specialty
+3																									VFEAT:Instant Mastery
+4																									VFEAT:Tech Specialty
+5																									VFEAT:Expert
+8																									VFEAT:Tech Specialty
+10																									VFEAT:Expert
+11																									VFEAT:Tech Specialty
+14																									VFEAT:Tech Specialty
+15																									VFEAT:Expert
+16																									VFEAT:Instant Mastery
+17																									VFEAT:Tech Specialty
+19																									VFEAT:Tech Specialty
+20																									VFEAT:Expert
+
+# Class Name	Hit Dice	Type				Abbreviation	Source Page			Save checks bonus													Combat bonus						Modify VAR
+CLASS:Force Adept	HD:8		TYPE:PC.Base.Force	ABB:FA		SOURCEPAGE:p.54-56	BONUS:CHECKS|BASE.Will|2+(CL/2)	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|(CL+3)*2/5	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|((CL+3)*2/5)+2	BONUS:VAR|Reputation|((CL-1)/4)
+# Class Name	Multiple Requirements
+CLASS:Force Adept	PREMULT:1,[PREVAREQ:TL,0],[PREMULT:2,[PREFEAT:1,Force Sensitive],[PRELEVEL:MIN=1]]
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Force Adept	STARTSKILLPTS:6	CSKILL:Climb|TYPE=Craft|Handle Animal|Hide|Jump|TYPE=Knowledge|Listen|TYPE=Profession|Sense Motive|Spot|Survival|Swim|Treat Injury
+1							BONUS:VAR|ForceUser|CL		DEFINE:ForceUser|0	ADD:FEAT|Alter,Control,Sense	AUTO:FEAT|Force Sensitive|Weapon Group Proficiency (Primitive Weapons)|Weapon Group Proficiency (Simple Weapons)
+2																ADD:FEAT|Alter,Control,Sense
+3																ADD:FEAT|TYPE=Adept
+4																ADD:FEAT|Alter,Control,Sense
+5	SAB:Force Weapon +%d8|ForceWeapon	BONUS:VAR|ForceWeapon|1		DEFINE:ForceWeapon|0
+6																ADD:FEAT|Skill Emphasis
+7	SAB:Comprehend Speech
+8	SAB:Force Talisman +%|ForceTalisman	BONUS:VAR|ForceTalisman|2	DEFINE:ForceTalisman|0
+9																ADD:FEAT|TYPE=Adept
+11	SAB:Force Secret
+12																ADD:FEAT|Skill Emphasis
+13							BONUS:VAR|ForceWeapon|1
+14																ADD:FEAT|TYPE=Adept
+15							BONUS:VAR|ForceTalisman|2
+16	SAB:Force Secret
+18																ADD:FEAT|Skill Emphasis
+20																ADD:FEAT|TYPE=Adept
+
+# Class Name		Hit Dice	Type				Abbreviation	Source Page			Save checks bonus												Combat bonus						Modify VAR
+CLASS:Jedi Consular	HD:8		TYPE:PC.Base.Force.Jedi	ABB:JedC		SOURCEPAGE:p.57-59	BONUS:CHECKS|BASE.Fortitude,BASE.Will|2+(CL/2)	BONUS:CHECKS|BASE.Reflex|(CL+3)*2/5	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|((CL+3)*2/5)+2	BONUS:VAR|Reputation|((CL+4)/4)
+# Class Name		Prohibited Class						Multiple Requirements
+CLASS:Jedi Consular	!PRECLASS:1,Jedi Guardian=1,Jedi Sentinel=1	PREMULT:1,[PREVAREQ:TL,0],[PREMULT:2,[PREFEAT:1,Force Sensitive],[PRELEVEL:MIN=1]]
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Jedi Consular	STARTSKILLPTS:6	CSKILL:Bluff|Computer Use|TYPE=Craft|Diplomacy|Gather Information|Intimidate|TYPE=Knowledge|Pilot|TYPE=Profession|Read/Write Language|Sense Motive|Speak Language|Treat Injury
+1	SAB:Jedi Knight|PREVARGTEQ:JediLevel,7	BONUS:VAR|ForceUser|CL	BONUS:VAR|JediLevel|CL	ADD:FEAT|Jedi Knight	ADD:FEAT|Alter,Control,Sense		AUTO:FEAT|Deflect Defense Base|!PREFEAT:1,Deflect Defense Base	AUTO:FEAT|Deflect Defense	AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Primitive Weapons)[PREVAREQ:PrimitiveRace,1]	AUTO:FEAT|Exotic Weapon Proficiency(Lightsaber)	AUTO:FEAT|Force Sensitive|Weapon Group Proficiency (Simple Weapons)	AUTO:WEAPONPROF|Lightsaber
+2																ADD:FEAT|Jedi Knight	ADD:FEAT|TYPE=Consular
+3																ADD:FEAT|Jedi Knight	ADD:FEAT|Alter,Control,Sense		AUTO:FEAT|Deflect Attack Base|!PREFEAT:1,Deflect Attack Base	AUTO:FEAT|Deflect Attack
+4																ADD:FEAT|Jedi Knight	ADD:FEAT|Alter,Control,Sense
+5	SAB:Deflect (Extend Defense and Attack)									ADD:FEAT|Jedi Knight
+6																ADD:FEAT|Jedi Knight	ADD:FEAT|Lightsaber Damage Bonuss	AUTO:FEAT|Lightsaber Damage Bonus Base|!PREFEAT:1,Lightsaber Damage Bonus Base
+7																ADD:FEAT|Jedi Knight
+8	SAB:Healing
+9																ADD:FEAT|Skill Emphasis
+10	SAB:Block																								AUTO:FEAT|Deflect Defense
+11																ADD:FEAT|TYPE=Consular
+12																ADD:FEAT|Lightsaber Damage Bonuss
+13																										AUTO:FEAT|Deflect Attack
+15																										AUTO:FEAT|Deflect Defense
+17																										AUTO:FEAT|Deflect Attack
+18																ADD:FEAT|Lightsaber Damage Bonuss
+19																ADD:FEAT|Skill Emphasis
+
+# Class Name		Hit Dice	Type				Abbreviation	Source Page			Save checks bonus													Combat bonus					Modify VAR
+CLASS:Jedi Guardian	HD:10		TYPE:PC.Base.Force.Jedi	ABB:JedG		SOURCEPAGE:p.60-62	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|2+(CL/2)	BONUS:CHECKS|BASE.Will|(CL+3)*2/5	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|((CL+1)*0.5)+2	BONUS:VAR|Reputation|((CL-1)/4)+1
+# Class Name		Prohibited Class						Multiple Requirements
+CLASS:Jedi Guardian	!PRECLASS:1,Jedi Consular=1,Jedi Sentinel=1	PREMULT:1,[PREVAREQ:TL,0],[PREMULT:2,[PREFEAT:1,Force Sensitive],[PRELEVEL:MIN=1]]
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Jedi Guardian	STARTSKILLPTS:4	CSKILL:Balance|Climb|Computer Use|TYPE=Craft|Intimidate|Jump|TYPE=Knowledge|Pilot|TYPE=Profession|Tumble
+1	SAB:Jedi Knight|PREVARGTEQ:JediLevel,7									BONUS:VAR|ForceUser|CL	BONUS:VAR|JediLevel|CL	ADD:FEAT|Jedi Knight	ADD:FEAT|Alter,Control,Sense		AUTO:FEAT|Deflect Defense Base[!PREFEAT:1,Deflect Defense Base]	AUTO:FEAT|Deflect Defense	AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)[PREVARNEQ:PrimitiveRace,1]|Weapon Group Proficiency (Primitive Weapons)[PREVAREQ:PrimitiveRace,1]	AUTO:FEAT|Exotic Weapon Proficiency(Lightsaber)	AUTO:FEAT|Force Sensitive|Weapon Group Proficiency (Simple Weapons)	AUTO:WEAPONPROF|Lightsaber
+2																								ADD:FEAT|Jedi Knight	ADD:FEAT|TYPE=Guardian
+3																								ADD:FEAT|Jedi Knight	ADD:FEAT|Alter,Control,Sense		AUTO:FEAT|Deflect Attack Base[!PREFEAT:1,Deflect Attack Base]	AUTO:FEAT|Deflect Attack
+4																								ADD:FEAT|Jedi Knight	ADD:FEAT|Alter,Control,Sense
+5																								ADD:FEAT|Jedi Knight	ADD:FEAT|Lightsaber Damage Bonus	AUTO:FEAT|Lightsaber Damage Bonus Base[!PREFEAT:1,Lightsaber Damage Bonus Base]
+6	SAB:Deflect (Extend Defense and Attack)|!PRESA:1,Deflect (Extend Defense and Attack)									ADD:FEAT|Jedi Knight
+7																								ADD:FEAT|Jedi Knight
+8																								ADD:FEAT|TYPE=Guardian
+9	SAB:Block																																AUTO:FEAT|Deflect Defense
+10																								ADD:FEAT|Lightsaber Damage Bonus
+11																																		AUTO:FEAT|Deflect Attack
+12																								ADD:FEAT|TYPE=Guardian
+13																																		AUTO:FEAT|Deflect Defense
+15																								ADD:FEAT|Lightsaber Damage Bonus
+16																																		AUTO:FEAT|Deflect Attack
+17																																		AUTO:FEAT|Deflect Defense
+18																								ADD:FEAT|TYPE=Guardian
+19																																		AUTO:FEAT|Deflect Attack
+20																								ADD:FEAT|Lightsaber Damage Bonus
+
+
+##Block: NPC Classes
+
+# Class Name	Type		Abbreviation	Max Level	Source Page		Save checks bonus							Combat bonus
+CLASS:Commoner	TYPE:NPC	ABB:Com		MAXLEVEL:1	SOURCEPAGE:p.281	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|0	BONUS:COMBAT|BAB|0|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Commoner	STARTSKILLPTS:1	CSKILL:TYPE=Craft|TYPE=Knowledge|TYPE=Profession
+1	AUTO:FEAT|Weapon Group Proficiency (Simple Weapons)
+
+# Class Name	Type		Abbreviation	Source Page		Save checks bonus												Combat bonus					Modify VAR
+CLASS:Diplomat	TYPE:NPC	ABB:Dip		SOURCEPAGE:p.282	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|2+(CL/2)	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|CL/3	BONUS:VAR|Reputation|(CL+2)/4
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Diplomat	STARTSKILLPTS:4	CSKILL:Appraise|Computer Use|Bluff|Diplomacy|Gather Information|TYPE=Knowledge|TYPE=Profession|Sense Motive|Speak Language
+1	ADD:FEAT|2|Persuasive,Trustworthy,Weapon Group Proficiency (Blaster Pistols),Weapon Group Proficiency (Simple Weapons)
+
+# Class Name	Type		Abbreviation	Source Page		Save checks bonus												Combat bonus					Modify VAR
+CLASS:Expert	TYPE:NPC	ABB:Exp		SOURCEPAGE:p.282	BONUS:CHECKS|BASE.Will,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Fortitude|2+(CL/2)	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|CL/3	BONUS:VAR|Reputation|CL/4
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Expert	STARTSKILLPTS:6	CSKILL:Appraise|Astrogate|Computer Use|TYPE=Craft|Demolitions|Disable Device|Disguise|TYPE=Entertain|Forgery|Gather Informaion|Handle Animal|TYPE=Knowledge|Pilot|TYPE=Profession|Repair|Survival|Treat Injury
+1	ADD:FEAT|2|Persuasive,Trustworthy,Weapon Group Proficiency (Blaster Pistols),Weapon Group Proficiency (Simple Weapons)
+
+# Class Name	Type		Abbreviation	Source Page		Save checks bonus												Combat bonus					Modify VAR
+CLASS:Thug		TYPE:NPC	ABB:Thg		SOURCEPAGE:p.283	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|2+(CL/2)	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|((CL-1)/3)+1	BONUS:VAR|Reputation|CL/4
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Thug		STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|TYPE=Knowledge|TYPE=Profession|Ride|Swim
+1	ADD:FEAT|2|Armor Proficiency (Light),Athletic,Toughness,Weapon Group Proficiency (Blaster Pistols),Weapon Group Proficiency (Simple Weapons),Weapon Group Proficiency (Slugthrowers),Weapon Group Proficiency (Vibro Weapons)
+
+
+##Block: Prestige Classes
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus									Combat bonus					Modify VAR
+CLASS:Bounty Hunter	HD:10		TYPE:PC.Prestige	ABB:BHu		MAXLEVEL:10	SOURCEPAGE:p.264-265	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|(CL+3)*2/5	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|(CL+1)*2/3	BONUS:VAR|ForcePoints|CL
+# Class Name		Req. Att.	Required Feat	Required Skill
+CLASS:Bounty Hunter	PREATT:6	PREFEAT:1,Track	PRESKILL:3,Gather Information=5,Intimidate=5,Move Silently=5
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Bounty Hunter	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Computer Use|TYPE=Craft|Demolitions|Disguise|Forgery|Gather Information|Hide|Intimidate|Jump|TYPE=Knowledge|Listen|Move Silently|TYPE=Profession|Search|Sense Motive|Spot|Survival
+1	SAB:Target Bonus +%|TargetBonus	BONUS:VAR|TargetBonus|(CL+1)/2	DEFINE:TargetBonus|0	AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)|Weapon Group Proficiency (Blaster Rifles)
+2							BONUS:VAR|SneakAttack|CL/2						AUTO:FEAT|Sneak Attack
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																Combat bonus					Modify VAR
+CLASS:Crimelord	HD:6		TYPE:PC.Prestige	ABB:CrL		MAXLEVEL:10	SOURCEPAGE:p.266-267	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL+3)*2/5	BONUS:CHECKS|BASE.Will|2+(CL/2)	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|(CL+1)*2/3	BONUS:VAR|ForcePoints|CL
+# Class Name	Required Feat	Required Skill
+CLASS:Crimelord	PREFEAT:1,Infamy	PRESKILL:1,Sense Motive=6	PRESKILL:3,Bluff=8,Diplomacy=8,Gather Information=8
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Crimelord	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Computer Use|TYPE=Craft|Diplomacy|Forgery|Gamble|Gather Information|Intimidate|TYPE=Knowledge|TYPE=Profession|Read/Write Language|Sense Motive|Speak Language
+1	SAB:Contact x%|ContactBonus	BONUS:VAR|ContactBonus|1	DEFINE:ContactBonus|0	AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)
+2	SAB:Resource access
+3	SAB:Inspire Fear -%|FearBonus	BONUS:VAR|FearBonus|2		DEFINE:FearBonus|0
+4						BONUS:VAR|ContactBonus|1
+5	SAB:Minions
+6						BONUS:VAR|FearBonus|2
+7						BONUS:VAR|ContactBonus|1
+8	SAB:Exceptional Minions
+9						BONUS:VAR|FearBonus|2
+10						BONUS:VAR|ContactBonus|1
+
+# Class Name		Hit Dice	Type				Abbreviation	Max Level	Source Page			Save checks bonus													Combat bonus						Modify VAR
+CLASS:Dark Side Devotee	HD:8		TYPE:PC.Prestige.Force	ABB:DSD		MAXLEVEL:10	SOURCEPAGE:p.267-268	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|(CL+3)*2/5	BONUS:CHECKS|BASE.Will|2+(CL/2)	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+7)/3	BONUS:VAR|Reputation|(CL+1)/3	BONUS:VAR|ForcePoints|CL
+# Class Name		Req. Att.	Required Feat			Required Skill		Var. Min. Value
+CLASS:Dark Side Devotee	PREATT:2	PREFEAT:1,Force Sensitive	PRESKILL:1,Intimidate=4	PREVARGTEQ:DarksidePoints,3
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Dark Side Devotee	STARTSKILLPTS:6	CSKILL:TYPE=Craft|Empathy|Handle Animal|Hide|Intimidate|TYPE=Knowledge|Listen|Move Silently|TYPE=Profession|Sense Motive|Spot|Survival
+1							BONUS:VAR|ForceUser|CL	DEFINE:ForceUser|0	ADD:FEAT|Alter,Control,Sense	ADD:FEAT|Dark Side Skill Emphasis	AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)
+2	SAB:Darkside Talisman +%|DSTalisman	BONUS:VAR|DSTalisman|2	DEFINE:DSTalisman|0
+3															ADD:FEAT|Alter,Control,Sense
+4															ADD:FEAT|Dark Side Skill Emphasis
+5															ADD:FEAT|Alter,Control,Sense
+6	SAB:Force Weapon +%d8|ForceWeapon	BONUS:VAR|ForceWeapon|1	DEFINE:ForceWeapon|0
+7															ADD:FEAT|Dark Side Skill Emphasis
+8							BONUS:VAR|DSTalisman|2
+9							BONUS:VAR|ForceWeapon|1
+10															ADD:FEAT|Dark Side Skill Emphasis
+
+# Class Name			Hit Dice	Type				Abbreviation	Max Level	Source Page			Save checks bonus												Combat bonus					Modify VAR
+CLASS:Dark Side Marauder	HD:10		TYPE:PC.Prestige.Force	ABB:DSM		MAXLEVEL:10	SOURCEPAGE:p.267-268	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|2+(CL/2)	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|(CL-1)*(1/2)	BONUS:VAR|ForcePoints|CL
+# Class Name			Req. Att.	Required Feat					Required Skill		Var. Min. Value
+CLASS:Dark Side Marauder	PREATT:1	PREFEAT:2,Force Sensitive,Power Attack	PRESKILL:1,Intimidate=4	PREVARGTEQ:DarksidePoints,4
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Dark Side Marauder	STARTSKILLPTS:4	CSKILL:Balance|Climb|TYPE=Craft|Intimidate|Jump|TYPE=Knowledge|TYPE=Profession|Survival|Swim|Tumble
+1	BONUS:VAR|ForceUser|CL	DEFINE:ForceUser|0	ADD:FEAT|Alter,Control,Sense	AUTO:FEAT|Armor Proficiency (Light)|Rage|Weapon Group Proficiency (Blaster Pistols)|Weapon Group Proficiency (Blaster Rifles)|Weapon Group Proficiency (Primitive Weapons)|Weapon Group Proficiency (Vibro Weapons)
+2									ADD:FEAT|TYPE=Marauder
+3									ADD:FEAT|Alter,Control,Sense
+4									ADD:FEAT|TYPE=Marauder
+5									ADD:FEAT|Alter,Control,Sense
+6									ADD:FEAT|TYPE=Marauder
+8									ADD:FEAT|TYPE=Marauder
+10									ADD:FEAT|TYPE=Marauder
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus													Combat bonus					Modify VAR
+CLASS:Elite Trooper	HD:10		TYPE:PC.Prestige	ABB:ETr		MAXLEVEL:10	SOURCEPAGE:p.269-270	BONUS:CHECKS|BASE.Fortitude|2+(CL/2)	BONUS:CHECKS|BASE.Reflex,BASE.Will|(CL+3)*2/5	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|((CL+3)*2/5)	BONUS:VAR|Reputation|CL/2
+# Class Name		Req. Att.	Required Feat
+CLASS:Elite Trooper	PREATT:6	PREFEAT:3,Dodge,Point Blank Shot,Precise Shot
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Elite Trooper	STARTSKILLPTS:6	CSKILL:Climb|Computer Use|Demolitions|Hide|Intimidate|Jump|TYPE=Knowledge|Listen|Move Silently|Sense Motive|Spot|Treat Injury
+1										AUTO:FEAT|Armor Proficiency (Heavy)|Armor Proficiency (Light)|Armor Proficiency (Medium)|Weapon Group Proficiency (Blaster Pistols)|Weapon Group Proficiency (Blaster Rifles)|Weapon Group Proficiency (Heavy Weapons)|Weapon Group Proficiency (Simple Weapons)|Weapon Group Proficiency (Vibro Weapons)
+2				ADD:FEAT|Weapon Focus
+5				ADD:FEAT|Weapon Specialization
+9	SAB:Deadly Strike
+
+# Class Name	Hit Dice	Type					Abbreviation	Max Level	Source Page			Save checks bonus													Combat bonus						Modify VAR
+CLASS:Jedi Ace	HD:8		TYPE:PC.Prestige.Force.Jedi	ABB:JedA		MAXLEVEL:5	SOURCEPAGE:p.272-273	BONUS:CHECKS|BASE.Reflex|2+(CL/2)	BONUS:CHECKS|BASE.Fortitude,BASE.Will|(CL+3)*2/5	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|(CL/2)+1	BONUS:VAR|Reputation|CL/2
+# Class Name	Req. Att.	Required Feat			Required Skill						Var. Min. Value
+CLASS:Jedi Ace	PREATT:4	PREFEAT:1,Force Sensitive	PRESKILL:1,Pilot=6	PRESKILL:1,See Force=4	PREVARGTEQ:JediLevel,1
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Jedi Ace	STARTSKILLPTS:6	CSKILL:Astrogate|Computer Use|TYPE=Knowledge|Pilot|TYPE=Profession|Repair|Spot
+1								BONUS:VAR|ForceUser|CL	BONUS:VAR|JediLevel|CL					ADD:FEAT|Jedi Knight	AUTO:FEAT|Starship Operation (Starfighter)
+2	SAB:Starship Focus (+%)|(ForceUser/3)													ADD:FEAT|Jedi Knight
+3	SAB:Familiarity +%|Familiarity		BONUS:VAR|Familiarity|1|TYPE=Competance		DEFINE:Familiarity|0	ADD:FEAT|Jedi Knight
+4	SAB:Starfighter Evasion																ADD:FEAT|Jedi Knight
+5	SAB:Trust the Force				BONUS:VAR|Familiarity|2|TYPE=Competance						ADD:FEAT|Jedi Knight
+
+# Class Name		Hit Dice	Type					Abbreviation	Max Level	Source Page			Save checks bonus									Combat bonus						Modify VAR
+CLASS:Jedi Investigator	HD:8		TYPE:PC.Prestige.Force.Jedi	ABB:JedI		MAXLEVEL:5	SOURCEPAGE:p.274-275	BONUS:CHECKS|BASE.Fortitude,BASE.Will,BASE.Reflex|(CL+3)*2/5	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|CL/2
+# Class Name		Required Feat						Required Skill																	Var. Min. Value
+CLASS:Jedi Investigator	PREFEAT:4,Force Sensitive,Alter,Control,Sense	PRESKILL:2,Gather Information=6,Sense Motive=6	PRESKILL:2,Enhance Senses=4,See Force=4	PRESKILL:1,Search=3	PREVARGTEQ:JediLevel,1
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Jedi Investigator	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Computer Use|TYPE=Craft|Diplomacy|Gather Information|Imtimidate|Jump|TYPE=Knowledge|TYPE=Profession|Read/Write Language|Search|Sense Motive|Speak Language|Spot
+1	SAB:Profile	SAB:Target Bonus +%|TargetBonus	BONUS:VAR|TargetBonus|1|TYPE=Competance	BONUS:VAR|ForceUser|CL	BONUS:VAR|JediLevel|CL	DEFINE:TargetBonus|0	ADD:FEAT|Jedi Knight	ADD:FEAT|TYPE=Investigator		AUTO:FEAT|Deflect Defense Base[!PREFEAT:1,Deflect Defense Base]	AUTO:FEAT|Deflect Defense
+2	SAB:Contact x%|ContactBonus				BONUS:VAR|ContactBonus|1											DEFINE:ContactBonus|0	ADD:FEAT|Jedi Knight	ADD:FEAT|Lightsaber Damage Bonus	AUTO:FEAT|Lightsaber Damage Bonus Base[!PREFEAT:1,Lightsaber Damage Bonus Base]
+3	SAB:Favor +%|FavorBonus					BONUS:VAR|TargetBonus|2|TYPE=Competance	BONUS:VAR|FavorBonus|1					DEFINE:FavorBonus|0	ADD:FEAT|Jedi Knight
+4									BONUS:VAR|ContactBonus|1															ADD:FEAT|Jedi Knight							AUTO:FEAT|Deflect Attack Base[!PREFEAT:1,Deflect Attack Base]	AUTO:FEAT|Deflect Attack
+5									BONUS:VAR|TargetBonus|3|TYPE=Competance	BONUS:VAR|FavorBonus|1									ADD:FEAT|Jedi Knight
+
+# Class Name	Hit Dice	Type					Abbreviation	Max Level	Source Page			Save checks bonus													Combat bonus						Modify VAR
+CLASS:Jedi Master	HD:8		TYPE:PC.Prestige.Force.Jedi	ABB:JedM		MAXLEVEL:10	SOURCEPAGE:p.276-277	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|(CL+3)*2/5	BONUS:CHECKS|BASE.Will|2+(CL/2)	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|(CL/2)+1	BONUS:VAR|Reputation|((CL-1)*(1/2))+1
+# Class Name	Required Skill		Total Skill Points Req.		Var. Min. Value
+CLASS:Jedi Master	PRESKILL:1,See Force=4	PRESKILLTOT:TYPE.Force=20	PREVARGTEQ:JediLevel,7
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Jedi Master	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Computer Use|TYPE=Craft|Diplomacy|Gather Information|Imtimidate|Jump|TYPE=Knowledge|Pilot|TYPE=Profession|Sense Motive|Treat Injury|Tumble
+# TODO: Make Force Secret use CHOOSE:
+1	SAB:Force Secret 1	BONUS:VAR|ForceUser|CL	BONUS:VAR|JediLevel|CL
+2													ADD:FEAT|Lightsaber Damage Bonus	AUTO:FEAT|Lightsaber Damage Bonus Base[!PREFEAT:Lightsaber Damage Bonus Base]
+3	SAB:Force Secret 2
+4													ADD:FEAT|TYPE=Master
+5																			AUTO:FEAT|Deflect Defense Base[!PREFEAT:1,Deflect Defense Base]	AUTO:FEAT|Deflect Defense
+6	SAB:Force Secret 3
+7													ADD:FEAT|Lightsaber Damage Bonus
+8													ADD:FEAT|TYPE=Master
+9													ADD:FEAT|Lightsaber Damage Bonus
+10																			AUTO:FEAT|Deflect Attack Base[!PREFEAT:1,Deflect Attack Base]	AUTO:FEAT|Deflect Attack
+
+# Class Name	Hit Dice	Type			Max Level	Source Page			Save checks bonus									Combat bonus						Modify VAR
+CLASS:Officer	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.278-279	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|(CL+3)*2/5	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|((CL-1)*(1/2))+1
+# Class Name	Req. Att.	Required Skill		Var. Min. Value
+CLASS:Officer	PREATT:4	PRESKILL:1,Diplomacy=6	PREVARGTEQ:Reputation,2
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Officer	STARTSKILLPTS:6	CSKILL:Bluff|Computer Use|TYPE=Craft|Diplomacy|Gather Information|Intimidate|TYPE=Knowledge|Read/Write Language|Sense Motive|Speak Language
+1	SAB:Leadership							AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)|Weapon Group Proficiency (Blaster Rifles)
+3	SAB:Requisition Supplies
+4						ADD:FEAT|TYPE=Officer
+5	SAB:Tactics
+7	SAB:Uncanny Survival (+%)|CL
+8						ADD:FEAT|TYPE=Officer
+9	SAB:Improved Tactics
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus													Combat bonus						Modify VAR
+CLASS:Starship Ace	HD:8		TYPE:PC.Prestige	ABB:SsA		MAXLEVEL:10	SOURCEPAGE:p.279-280	BONUS:CHECKS|BASE.Fortitude,BASE.Will|(CL+3)*2/5	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ForcePoints|CL	BONUS:VAR|ClassDefense|(CL/2)+1	BONUS:VAR|Reputation|(CL+1)/3
+# Class Name		Req. Att.	Required Feat																								Required Skill
+CLASS:Starship Ace	PREATT:6	PREFEAT:1,Starship Operation (Starfighter),Starship Operation (Space Transport)	PREFEAT:1,Starship Dodge (Starfighter),Starship Dodge (Space Transport)	PRESKILL:1,Pilot=9
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Starship Ace	STARTSKILLPTS:4	CSKILL:Astrogate|Computer Use|TYPE=Knowledge|Pilot|TYPE=Profession|Repair|Spot
+1	SAB:Starship Defense														AUTO:FEAT|Weapon Group Proficiency (Blaster Pistols)
+2	SAB:Familiarity +%|Familiarity	BONUS:VAR|Familiarity|1|TYPE=Competance	DEFINE:Familiarity|0
+4							BONUS:VAR|Familiarity|2|TYPE=Competance
+5	SAB:Starfighter Evasion
+6							BONUS:VAR|Familiarity|3|TYPE=Competance
+8							BONUS:VAR|Familiarity|4|TYPE=Competance
+9	SAB:Improved Starfighter Evasion
+10							BONUS:VAR|Familiarity|5|TYPE=Competance

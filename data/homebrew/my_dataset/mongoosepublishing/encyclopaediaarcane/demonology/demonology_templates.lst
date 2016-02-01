@@ -1,0 +1,5 @@
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Necromancy	SOURCESHORT:Necromancy	SOURCEWEB:http://www.mongoosepublishing.com	SOURCEDATE:2003-09
+
+
+# Template Name			Visible	Source Page			Combat bonus																					Modify VAR																																							Choose									Temporary effect description
+Demonic Familiar			VISIBLE:YES	SOURCEPAGE:pg. 30		DEFINE:MasterLvl|0	ABILITY:Special Ability|AUTOMATIC|Immunity To Fire|Immunity To Poison		ABILITY:Special Ability|AUTOMATIC|See in Darkness|PREVARGTEQ:MasterLvl,3		SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Invisibility (Self Only),10+CHA|PREVARGTEQ:MasterLvl,5		BONUS:VAR|AcidResistanceBonus|10|PREVARGTEQ:MasterLvl,7	BONUS:VAR|ColdResistanceBonus|10|PREVARGTEQ:MasterLvl,7	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|PREVARGTEQ:MasterLvl,7		ABILITY:Special Ability|AUTOMATIC|Telepathy|PREVARGTEQ:MasterLvl,9	BONUS:VAR|TelepathyRange|60

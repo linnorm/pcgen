@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon	SOURCESHORT:WngRaph	SOURCEWEB:http://raxstower.finzen.com
+
+# Domain Name	Define													Modify VAR					Source Page					Description
+Undeath (Good)	DEFINE:Turn Undead|3+CHA	DEFINE:AllowExtraTurning|1	DEFINE:Turn Level|0	BONUS:VAR|Turn Level|CL=Cleric	SOURCEPAGE:The Wings of Raphelon	DESC:You may turn undead
+Undeath (Evil)	DEFINE:Turn Undead|3+CHA	DEFINE:AllowExtraTurning|1	DEFINE:Turn Level|0	BONUS:VAR|Turn Level|CL=Cleric	SOURCEPAGE:The Wings of Raphelon	DESC:You may rebuke undead

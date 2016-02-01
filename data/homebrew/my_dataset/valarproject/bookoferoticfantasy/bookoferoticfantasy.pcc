@@ -1,0 +1,14 @@
+# CVS $Revision$ $Author$ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+CAMPAIGN:The Book of Erotic Fantasy
+GAMEMODE:35e
+TYPE:Supplement
+RANK:9
+SOURCELONG:The Book of Erotic Fantasy
+SOURCESHORT:BoEF
+SOURCEWEB:http://www.bookoferoticfantasy.com
+
+
+#CLASS:bookoferoticfantasy_classes.lst
+#EQUIPMENT:bookoferoticfantasy_equip.lst
+SKILL:bookoferoticfantasy_skills.lst
+#SPELL:bookoferoticfantasy_spells.lst

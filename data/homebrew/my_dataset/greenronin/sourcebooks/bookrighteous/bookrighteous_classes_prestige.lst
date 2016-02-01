@@ -1,0 +1,316 @@
+# CVS $Revision: 314 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Arcana - The Book of the Righteous	SOURCESHORT:BookRight	SOURCEWEB:http://www.greenronin.com
+# Original Entry by: Beaver, updated by Tir Gwaith
+
+# NOTE: Need to figure out 3.5 version of Oracle
+#	Below are PrC's for the various Holy orders in The Book of the Righteous
+#
+
+# Class Name				Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Deacon of the Great Church	HD:6		TYPE:PC.Prestige	ABB:Dea		MAXLEVEL:10	SOURCEPAGE:p.33	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2
+# Class Name				Required AL	Required Deity			Required Feat																																												Required Language					Required Skill
+CLASS:Deacon of the Great Church	PREALIGN:LG,LN,NG,TN,CG,CN	PREDEITY:1,The Great Church	PREFEAT:1,Skill Focus (Bluff),Skill Focus (Diplomacy),Skill Focus (Forgery),Skill Focus (Gather Information),Skill Focus (Knowledge (Religion)),Skill Focus (Knowledge (Nobility and Royalty)),Skill Focus (Knowledge (Local)),Skill Focus (Listen),Skill Focus (Sense Motive)	PRELANG:1,Dwarven,Elven,Gnome,Halfling	PRESKILL:2,Diplomacy=5,Sense Motive=5	PRESKILL:1,Knowledge (Nobility and Royalty)=3,Knowledge (Local)=3,TYPE.Knowledge=3
+# Class Name				Skill Pts/Lvl	Class Skill
+CLASS:Deacon of the Great Church	STARTSKILLPTS:8	CSKILL:Bluff|Diplomacy|Disguise|Forgery|Gather Information|Intimidate|TYPE=Knowledge|Listen|Profession (Politician)|Profession (Lawyer)|Ride|Sense Motive|Spot
+1	SAB:Special Status (Deacon)|PRELEVEL:MAX=8																														ADD:FEAT|Skill Focus(Bluff),Skill Focus(Diplomacy),Skill Focus(Forgery),Skill Focus(Knowledge (Local)),Skill Focus(Knowledge (Nobility and Royalty)),Skill Focus(Knowledge (Religion)),Skill Focus(Listen),Skill Focus(Sense Motive)
+2	SAB:Native Tongue (%)|NativeTongue																					BONUS:VAR|NativeTongue|(CL+1)/3	DEFINE:NativeTongue|0		ADD:LANGUAGE|TYPE=Spoken
+3																																						ADD:FEAT|Skill Focus(Bluff),Skill Focus(Diplomacy),Skill Focus(Forgery),Skill Focus(Knowledge (Local)),Skill Focus(Knowledge (Nobility and Royalty)),Skill Focus(Knowledge (Religion)),Skill Focus(Listen),Skill Focus(Sense Motive)
+4																																						ADD:LANGUAGE|TYPE=Spoken
+5	SAB:Master Diplomat										BONUS:SKILL|Bluff,Diplomacy,Gather Information,Sense Motive|2|TYPE=Insight												ADD:FEAT|Skill Focus(Bluff),Skill Focus(Diplomacy),Skill Focus(Forgery),Skill Focus(Knowledge (Local)),Skill Focus(Knowledge (Nobility and Royalty)),Skill Focus(Knowledge (Religion)),Skill Focus(Listen),Skill Focus(Sense Motive)
+6	SAB:Church Protection (% gp)|ChurchProtection																									DEFINE:ChurchProtection|5000	ADD:LANGUAGE|TYPE=Spoken
+7																																						ADD:FEAT|Skill Focus(Bluff),Skill Focus(Diplomacy),Skill Focus(Forgery),Skill Focus(Knowledge (Local)),Skill Focus(Knowledge (Nobility and Royalty)),Skill Focus(Knowledge (Religion)),Skill Focus(Listen),Skill Focus(Sense Motive)
+8	SAB:Special Staus (Archdeacon)
+9																											BONUS:VAR|ChurchProtection|15000						ADD:FEAT|Skill Focus(Bluff),Skill Focus(Diplomacy),Skill Focus(Forgery),Skill Focus(Knowledge (Local)),Skill Focus(Knowledge (Nobility and Royalty)),Skill Focus(Knowledge (Religion)),Skill Focus(Listen),Skill Focus(Sense Motive)
+10									BONUS:CHECKS|BASE.Fortitude|1	BONUS:SKILL|Bluff,Diplomacy,Gather Information,Sense Motive|4|TYPE=Insight	BONUS:VAR|NativeTongue|1							ADD:LANGUAGE|TYPE=Spoken
+
+
+# Class Name		Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Hawk of Urian	NAMEISPI:YES	HD:6		TYPE:PC.Prestige	ABB:Haw		MAXLEVEL:10	SOURCEPAGE:p.43	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL
+# Class Name		Required AL	Required Deity	Required Feat
+CLASS:Hawk of Urian	PREALIGN:NG,TN,CG,CN	PREDEITY:1,Urian	PREFEAT:3,Quick Draw,Point Blank Shot,Precise Shot
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Hawk of Urian	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Disguise|Handle Animal|Hide|Intimidate|Jump|Knowledge (Religion)|Knowledge (Nature)|Move Silently|Ride|Spot|Swim|Survival
+# Class Name		Spell Stat		Spell Type		Automatically Known Spell Levels				Caster level
+CLASS:Hawk of Urian	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Hawk of Urian|CL
+###Block:Spell List
+1	SPELLLEVEL:CLASS|Hawk of Urian=1|Bane,Cause Fear,Deathwatch,Detect Evil,Doom,Magic Weapon,True Strike
+1	SPELLLEVEL:CLASS|Hawk of Urian=2|Bear's Endurance,Cat's Grace,Darkness,Darkvision,Silence
+1	SPELLLEVEL:CLASS|Hawk of Urian=3|Blindness/Deafness,Cure Light Wounds,Haste,Invisibility,Keen Edge
+1	SPELLLEVEL:CLASS|Hawk of Urian=4|Bestow Curse,Divine Power,Fear,Gaseous Form,Magic Weapon (Greater)
+###Block: Proficiencies
+1	AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+1	AUTO:FEAT|Armor Proficiency (Heavy)|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1	AUTO:FEAT|Shield Proficiency
+###Block: Normal level progression
+1	CAST:0		SAB:Swift Coup de Grace (Ex)
+2	CAST:1		SAB:Bloody Murder (Ex)
+3	CAST:1,0											BONUS:VAR|SneakAttack|CL/3	ABILITY:Special Ability|AUTOMATIC|Sneak Attack
+4	CAST:1,1
+5	CAST:1,1,0		SAB:Murderous Precision (Ex) Ranged|PRELEVEL:MAX=10
+6	CAST:1,1,1
+7	CAST:2,1,1,0	SAB:Inflict Horrible Wound
+8	CAST:2,1,1,1
+9	CAST:2,2,1,1
+10	CAST:2,2,2,1	SAB:Murderous Precision (Ex) Any Weapon
+
+
+# Class Name		Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Gleaner of Rontra	NAMEISPI:YES	HD:10		TYPE:PC.Prestige	ABB:Gle		MAXLEVEL:10	SOURCEPAGE:p.54	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL
+# Class Name		Required AL	Req. Att.	Required Deity	Required Feat
+CLASS:Gleaner of Rontra	PREALIGN:LG,LN,NG,TN,CG,CN	PREATT:5	PREDEITY:1,Rontra	PREFEAT:2,Blind Fight,Iron Will
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Gleaner of Rontra	STARTSKILLPTS:2	CSKILL:Balance|Climb|TYPE=Craft|Handle Animal|Jump|Knowledge (Nature)|Listen|Move Silently|Spot|Swim|Tumble
+1	AUTO:FEAT|Gleaner of Rontra Weapon Proficiencies
+1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+###Block: Normal Level Progression
+1								SAB:Armor of the Earth (Su)|PRELEVEL:MAX=5																								BONUS:CHECKS|Will|2+ResolveEarth|TYPE=Sacred	BONUS:COMBAT|AC|max(CHA,0)|TYPE=CharismaNoStack
+3								SAB:Spell Resistance 17 vs Fear																																										BONUS:VAR|ResolveEarth|1																	DEFINE:ResolveEarth|0
+4								SAB:Lesser Bond	SAB:Power of the Earth (Unmovable +%)|PowerEarthUnmoveable	SAB:Power of the Earth (Body of Stone +%)|PowerEarthBodyStone	SAB:Power of the Earth (Tremorsense)																	BONUS:VAR|PowerEarthUnmoveable|4																DEFINE:PowerEarthUnmoveable|0	DEFINE:PowerEarthBodyStone|max(CHA,0)
+5								SAB:Armor of the Earth +%|ArmorEarth																																									BONUS:VAR|ArmorEarth|1																		DEFINE:ArmorEarth|0
+7																																																							BONUS:VAR|ResolveEarth|1
+8			SAB:.CLEAR.Power of the Earth	SAB:Shake the Earth	SAB:Power of the Earth (Tremorsense +%)|PowerEarthTremor																																		BONUS:VAR|PowerEarthUnmoveable|1	BONUS:VAR|PowerEarthTremor|1	BONUS:VAR|PowerEarthBodyStone|1	BONUS:VAR|ArmorEarth|1	DEFINE:PowerEarthTremor|0
+9																																																							BONUS:VAR|ResolveEarth|1
+10	DR:10/Magic						SAB:Greater Bond	SAB:Skin of the Earth																																									BONUS:VAR|PowerEarthUnmoveable|1	BONUS:VAR|PowerEarthTremor|1	BONUS:VAR|PowerEarthBodyStone|1
+
+
+# Class Name			Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Sail Master of Shalimyr	NAMEISPI:YES	HD:8		TYPE:PC.Prestige	ABB:Sai		MAXLEVEL:10	SOURCEPAGE:p.65	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL*3/4
+# Class Name			Required Deity		Required Skill
+CLASS:Sail Master of Shalimyr	PREDEITY:1,Shalimyr	PRESKILL:1,Profession (Sailor)=8	PRESKILL:1,Swim=4
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Sail Master of Shalimyr	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Climb|TYPE=Craft|Diplomacy|Knowledge (Boating)|Knowledge (Cartography)|Knowledge (Geography)|Knowledge (Navagation)|Knowledge (Religion)|Knowledge (Sea Lore)|TYPE=Profession|Speak Language|Spot|Swim|Use Rope
+# Class Name			Spell Stat		Spell Type		Automatically Known Spell Levels				Caster level
+CLASS:Sail Master of Shalimyr	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Sail Master of Shalimyr|CL
+###Block:Spell List
+1	SPELLLEVEL:CLASS|Sail Master of Shalimyr=1|Bless,Bless Water,Create Water,Divine Favor,Endure Elements,Flare,Know Direction,Obscuring Mist
+1	SPELLLEVEL:CLASS|Sail Master of Shalimyr=2|Animal Messenger,Animate Rope,Fog Cloud,Spider Climb
+1	SPELLLEVEL:CLASS|Sail Master of Shalimyr=3|Augury,Consecrate,Gust of Wind,Sleet Storm,Water Breathing,Water Walk
+1	SPELLLEVEL:CLASS|Sail Master of Shalimyr=4|Control Water,Divine Power,Quench,Rainbow Pattern,Solid Fog
+###Block: Proficiencies
+1	AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+###Block: Normal level progression
+1	CAST:0		SAB:Sea Legs	SAB:Divine Protection	BONUS:COMBAT|AC|CHAMAX0|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0
+2	CAST:1		SAB:Speed Ship
+3	CAST:1,0		SAB:Inspire Crew
+4	CAST:1,1		SAB:Escape Doldrums
+5	CAST:1,1,0		SAB:Speed Oars
+6	CAST:1,1,1		SAB:Hallowed Deck
+7	CAST:2,1,1,0	SAB:Fill Sails
+8	CAST:2,1,1,1	SAB:Madness of the Sea
+9	CAST:2,2,1,1	SAB:Endure Storm
+10	CAST:2,2,2,1	SAB:Holy Vessle
+
+
+# Class Name			Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:White Hand of Morwyn	NAMEISPI:YES	HD:8		TYPE:PC.Prestige	ABB:Wha		MAXLEVEL:8	SOURCEPAGE:p.80	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4
+# Class Name			Required AL	Required Deity	Required Skill
+CLASS:White Hand of Morwyn	PREALIGN:LG,LN,NG,TN,CG,CN	PREDEITY:1,Morwyn	PRESKILL:1,Profession (Herbalist)=5	PRESKILL:1,Heal=8
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:White Hand of Morwyn	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Knowledge (Religion)|Knowledge (Nature)|TYPE=Profession|Survival
+# Class Name			Spell Stat		Spell Type		Automatically Known Spell Levels				Caster level
+CLASS:White Hand of Morwyn	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|White Hand of Morwyn|CL
+###Block: Proficiencies
+1	AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+###Block: Normal Level Progression
+1	CAST:1		SAB:Lay on Hands % hp/day|LayOnHands	SAB:Empowered Healing (Su)	BONUS:COMBAT|AC|max(CHA,0)|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],1	BONUS:VAR|LayOnHands|max(CHA,0)*(CL)	DEFINE:LayOnHands|0
+2	CAST:2
+3	CAST:2,1		SAB:Bedside Manner (Ex)
+4	CAST:3,2		SAB:Use Healing Herbs (Ex)
+5	CAST:3,2,1		SAB:Brilliant Healer (Ex)
+6	CAST:3,3,2		SAB:Preventive Medicine (Ex)
+7	CAST:4,3,2,1
+8	CAST:4,3,3,2	SAB:Recall Soul (Sp)
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Master of the Way	HD:10		TYPE:PC.Prestige	ABB:Way		MAXLEVEL:10	SOURCEPAGE:p.92	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL
+# Class Name		Required AL	Req. Att.	Required Deity				Required Feat																		Required Skill
+CLASS:Master of the Way	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:5	PREDEITY:1,Terak (LG),Terak (LN)	PREFEAT:2,Quick Draw,Weapons Master	PREFEAT:2,CHECKMULT,Exotic Weapon Proficiency	PREFEAT:2,CHECKMULT,Weapon Focus	PRESKILL:3,Profession (Teacher)=3,Tumble=3,Balance=3
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Master of the Way	STARTSKILLPTS:4	CSKILL:Balance|Climb|TYPE=Craft|Jump|Knowledge (Religion)|TYPE=Perform|Profession (Teacher)|Tumble
+1	SAB:Training Expertise																																AUTO:FEAT|Martial Instructor
+2																												ADD:FEAT|Exotic Weapon Proficiency,Weapon Focus	AUTO:FEAT|Cut Arrows
+3	SAB:Assess Battle	SAB:Test of Skill	BONUS:COMBAT|INITIATIVE|WISMAX0|TYPE=Competance				BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE	BONUS:VAR|UncannyDodgeLevel|(CL+1)/3	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
+4	SAB:Way Power +%|WayPower										BONUS:FEAT|POOL|1						DEFINE:WayPower|(CL-1)/3
+5	SAB:Superior Skill
+6															BONUS:FEAT|POOL|1
+7	SAB:Armored Stance
+8															BONUS:FEAT|POOL|1	BONUS:VAR|UncannyDodge|1
+9	SAB:Shifting Blade
+10	SAB:Perfect Strike											BONUS:FEAT|POOL|1
+
+
+# Class Name			Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Oracle of ZheenKeef	NAMEISPI:YES	HD:4		TYPE:PC.Prestige	ABB:Zor		MAXLEVEL:10	SOURCEPAGE:p.102	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2
+# Class Name			Required AL	Required Deity		Required Feat			Required Skill		Required Spell School
+CLASS:Oracle of ZheenKeef	PREALIGN:NG,TN,NE,CG,CN,CE	PREDEITY:1,Zheenkeef	PREFEAT:1,Skill Focus (Scry)	PRESKILL:1,Scry=12	PRESPELLSCHOOL:5,Divination=0	PRESPELLSCHOOL:1,Divination=5
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Oracle of ZheenKeef	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Knowledge (Arcana)|Knowledge (Religion)|TYPE=Profession|Sense Motive|Spellcraft
+1	SAB:Read Fortune												ADD:SPELLCASTER|ANY
+2	SAB:Avoid Disaster											ADD:SPELLCASTER|ANY
+3											ADD:SPELLCASTER|ANY	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE	BONUS:VAR|UncannyDodgeLevel|(CL+1)/3	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
+4	SAB:Vision			BONUS:SKILL|Scry|CHAMAX0						ADD:SPELLCASTER|ANY
+5	SAB:Impart Fortune											ADD:SPELLCASTER|ANY
+6											ADD:SPELLCASTER|ANY
+7	SAB:Minor Prophecy											ADD:SPELLCASTER|ANY
+8	SAB:Sense of Doom												ADD:SPELLCASTER|ANY
+9	SAB:Fortelling												ADD:SPELLCASTER|ANY
+10	SAB:Major Prophecy							ADD:SPELLCASTER|ANY
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Hierophant	HD:4		TYPE:PC.Prestige	ABB:Hei		MAXLEVEL:2	SOURCEPAGE:p.116	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2
+# Class Name	Required Deity				Required Feat						Req. Spell Type
+CLASS:Hierophant	PREDEITY:1,Tinel (CG),Tinel (TN)	PREFEAT:5,TYPE=Metamagic,TYPE=ItemCreation	PRESPELLTYPE:1,Arcane=6,Divine=9
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Hierophant	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Gather Information|TYPE=Knowledge|Listen|TYPE=Profession|Sense Motive|Speak Language|Spot|Spellcraft|Use Magic Device
+1	SAB:Comprehend Magic (Ex)	SAB:Greater Magic			ADD:SPELLCASTER|ANY	ADD:FEAT|Brew Potion,Craft Magic Arms and Armor,Craft Rod,Craft Staff,Craft Wand,Craft Wondrous Item,Empower Spell,Enlarge Person Spell,Extend Spell,Forge Ring,Heighten Spell,Maximize Spell,Quicken Spell,Scribe Scroll,Silent Spell,Still Spell
+2	SAB:Master Magic	SAB:Staff	SAB:Status-based Progression	ADD:SPELLCASTER|ANY	ADD:FEAT|Brew Potion,Craft Magic Arms and Armor,Craft Rod,Craft Staff,Craft Wand,Craft Wondrous Item,Empower Spell,Enlarge Person Spell,Extend Spell,Forge Ring,Heighten Spell,Maximize Spell,Quicken Spell,Scribe Scroll,Silent Spell,Still Spell
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Reborn	HD:12		TYPE:PC.Prestige	ABB:Mrb		MAXLEVEL:10	SOURCEPAGE:p.123	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL
+# Class Name	Required AL	Req. Att.	Required Deity		Required Text
+CLASS:Reborn	PREALIGN:LG,LN,NG,TN,CG,CN	PREATT:3	PREDEITY:1,Mormekar	PRETEXT:Must have been evil and undergone a change to good. Wicked (See text p.124)
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Reborn	STARTSKILLPTS:2	CSKILL:Climb|TYPE=Craft|Handle Animal|Jump|Listen|Move Silently|Ride|Spot|Swim
+1			SAB:Reborn (Su)	SAB:The List + %|TheList	SAB:Cleansing	BONUS:VAR|TheList|1	DEFINE:TheList|0
+2																		BONUS:VAR|WeapSpecQualify|1			ADD:FEAT|TYPE=Fighter
+4														BONUS:VAR|TheList|1
+5																					ADD:FEAT|TYPE=Fighter
+7	DR:1/-
+8																					ADD:FEAT|TYPE=Fighter
+10														BONUS:VAR|TheList|1
+
+
+# Class Name		Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus								Combat bonus
+CLASS:Talesman of Maal	NAMEISPI:YES	HD:12		TYPE:PC.Prestige	ABB:Tal		MAXLEVEL:3	SOURCEPAGE:p.134	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL
+# Class Name		Required Deity	Required Text
+CLASS:Talesman of Maal	PREDEITY:1,Maal	PRETEXT:See text, p 135
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Talesman of Maal	STARTSKILLPTS:8	CSKILL:Balance|Bluff|Climb|Concentration|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|TYPE=Knowledge|Listen|Move Silently|Ride|Search|Sense Motive|Speak Language|Spellcraft|Spot|Swim|Tumble|Use Magic Device
+1	SR:max(CHA,0)+5	DR:10/Magic	SAB:Quest-based Level Progression	SAB:Change Nature (Su)	ADD:SPELLCASTER|ANY	ADD:FEAT|TYPE=Talesman
+2	SR:max(CHA,0)+10	DR:20/Magic	SAB:Protective Aura (Su)						ADD:SPELLCASTER|ANY	ADD:FEAT|TYPE=Talesman
+3	SR:max(CHA,0)+15	DR:20/Magic and Adamantine	SAB:Divine Wrath (Su)							ADD:SPELLCASTER|ANY	ADD:FEAT|TYPE=Talesman
+
+
+# Class Name		Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Runner of Darmon	NAMEISPI:YES	HD:8		TYPE:PC.Prestige	ABB:Run		MAXLEVEL:10	SOURCEPAGE:p.145	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4
+# Class Name		Required Deity	Required Feat					Required Language		Required Skill
+CLASS:Runner of Darmon	PREDEITY:1,Darmon	PREFEAT:4,Dodge,Mobility,Endurance,Run	PRELANG:3,ANY,[Common]	PRESKILL:2,Ride=7,Handle Animal=7
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Runner of Darmon	STARTSKILLPTS:2	CSKILL:Balance|Bluff|Climb|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Handle Animal|Hide|Jump|Knowledge (Religion)|Knowledge (Nature)|Knowledge (Geography)|Knowledge (Local)|Listen|Move Silently|Open Lock|Sleight of Hand|TYPE=Profession|Ride|Search|Sense Motive|Speak Language|Spot|Swim|Tumble|Use Rope
+# Class Name		Spell Stat		Spell Type		Automatically Known Spell Levels				Caster level
+CLASS:Runner of Darmon	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Runner of Darmon|CL
+###Block: Proficiencies
+1	AUTO:FEAT|Simple Weapon Proficiency	AUTO:WEAPONPROF|Sword (Short)
+1	AUTO:FEAT|Armor Proficiency (Light)
+###Block:Spell List
+1	SPELLLEVEL:CLASS|Runner of Darmon=1|Comprehend Languages,Detect Secret Doors,Endure Elements,Expeditious Retreat,Feather Fall,Message,Mount,Obscuring Mist
+1	SPELLLEVEL:CLASS|Runner of Darmon=2|Animal Messenger,Cat's Grace,Darkvision,Daylight,Bear's Endurance,Knock,Locate Object,Magic Mouth,Resist Energy,See Invisibility,Whispering Wind
+1	SPELLLEVEL:CLASS|Runner of Darmon=3|Create Food and Water,Haste,Phantom Steed,Speak with Dead,Speak with Plants,Water Breathing,Water Walk
+1	SPELLLEVEL:CLASS|Runner of Darmon=4|Air Walk,Dimension Door,Fly,Freedom of Movement,Scrying,Sending,Tiny Hut,Tongues
+###Block: Normal level progression
+1	CAST:0		SAB:Fast Movement			BONUS:MOVEADD|TYPE=Walk|10|PREVARLTEQ:ENCUMBERANCE,1,COUNT[EQTYPE.ARMOR.EQUIPPED.IS.HEAVY],0
+2	CAST:1		SAB:Expert Traveler																		BONUS:SKILL|Ride,Knowledge (Geography),Knowledge (Local),TYPE.Profession|2|TYPE=Competence	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE	BONUS:VAR|UncannyDodgeLevel|(CL+1)/3	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
+3	CAST:1,0																																												ADD:FEAT|Improved Initiative,Lightning Reflexes,Quick Draw,Skill Focus(Handle Animal),Skill Focus(Ride),Spring Attack,Track,Weapon Focus
+4	CAST:1,1		SAB:Continuous Travel (Su)
+5	CAST:1,1,0
+6	CAST:1,1,1																																												ADD:FEAT|Improved Initiative,Lightning Reflexes,Quick Draw,Skill Focus(Handle Animal),Skill Focus(Ride),Spring Attack,Track,Weapon Focus
+7	CAST:2,1,1,0	SAB:Perfect Follow (Su)
+8	CAST:2,1,1,1	SAB:Indefatigable (Su)
+9	CAST:2,2,1,1																																											ADD:FEAT|Improved Initiative,Lightning Reflexes,Quick Draw,Skill Focus(Handle Animal),Skill Focus(Ride),Spring Attack,Track,Weapon Focus
+10	CAST:2,2,2,1	SAB:Unshakable
+
+
+# Class Name		Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Watcher of Aymara	NAMEISPI:YES	HD:8		TYPE:PC.Prestige	ABB:Woa		MAXLEVEL:10	SOURCEPAGE:p.157	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4
+# Class Name		Required AL	Required Deity	Required Feat					Required Text
+CLASS:Watcher of Aymara	PREALIGN:LG,LN,NG,TN,CG,CN	PREDEITY:1,Aymara	PREFEAT:2,Weapon Finesse,Combat Expertise	PRETEXT:Vow of Silence
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Watcher of Aymara	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Hide|Jump|Knowledge (The Planes)|Knowledge (Religion)|Knowledge (Demon Lore)|Listen|Move Silently|TYPE=Perform|Sleight of Hand|TYPE=Profession|Search|Sense Motive|Speak Language (Infernal)|Spellcraft|Spot|Swim|Tumble
+1	AUTO:FEAT|Simple Weapon Proficiency						AUTO:WEAPONPROF|Rapier
+1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1	AUTO:FEAT|Shield Proficiency
+###Block: Normal Level Progression
+1	SAB:Discern Diabolic Power
+2	SAB:War Song +%|WarSong			BONUS:VAR|WarSong|max((CL-3)/3,0)+1		BONUS:WEAPONPROF=Rapier|TOHIT|WarSong	DEFINE:WarSong|0		ADD:SPELLCASTER|ANY
+3	SAB:Irrepressable (Ex)																					ADD:SPELLCASTER|ANY
+4	SAB:Countersong %/day|Countersong	BONUS:VAR|Countersong|(CL)+var("CL=Bard")								DEFINE:Countersong|0
+5	SAB:Untemptable																						ADD:SPELLCASTER|ANY
+6																									ADD:SPELLCASTER|ANY
+7	SAB:Beauty's Blade
+8																									ADD:SPELLCASTER|ANY
+9																									ADD:SPELLCASTER|ANY
+10	SAB:Song of Imprisonment
+
+
+# Class Name			Product Identity?	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Artificer of Korak	NAMEISPI:YES	HD:8		TYPE:PC.Prestige	ABB:Art		MAXLEVEL:10	SOURCEPAGE:p.167	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4
+# Class Name			Required Deity	Required Skill																									Required Text
+CLASS:Artificer of Korak	PREDEITY:1,Korak	PRESKILL:1,Craft (Armorsmithing)=9,Craft (Weaponsmithing)=9,Craft (Blacksmithing)=9	PRESKILL:1,Craft (Carpentry)=9,Craft (Stoneworking)=9,Craft (Locksmithing)=9	PRETEXT:Must have no less than 5 MW Items
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Artificer of Korak	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|TYPE=Craft|Disable Device|Knowledge (Arcana)|Knowledge (Religion)|Knowledge (Architecture and Engineering)|Open Lock|TYPE=Profession|Spellcraft|Use Magic Device|Use Rope
+1	AUTO:FEAT|Simple Weapon Proficiency	AUTO:WEAPONPROF|Warhammer
+1	AUTO:FEAT|Armor Proficiency (Light)
+###Block: Normal Level Progression
+1	SAB:Exceptional Craftsman (%rd Level)|ExceptionalCraft|PRELEVEL:MAX=4	DEFINE:ExceptionalCraft|(CL+2)/3	ADD:SPELLCASTER|ANY
+2	SAB:Master's Tools															ADD:SPELLCASTER|ANY	ADD:FEAT|Skill Focus(Craft%),TYPE=ItemCreation
+3	SAB:Hold Enhancement															ADD:SPELLCASTER|ANY
+4	SAB:Exceptional Craftsman (%th Level)|ExceptionalCraft									ADD:SPELLCASTER|ANY	ADD:FEAT|Skill Focus(Craft%),TYPE=ItemCreation
+5	SAB:Master Craft																ADD:SPELLCASTER|ANY	ADD:FEAT|Artificer Hidden Feat
+6	SAB:Learn Spell																ADD:SPELLCASTER|ANY	ADD:FEAT|Artificer Hidden Feat
+7																			ADD:SPELLCASTER|ANY
+8																			ADD:SPELLCASTER|ANY	ADD:FEAT|Artificer Hidden Feat
+9	SAB:Craft Relic																ADD:SPELLCASTER|ANY
+10	SAB:True Craft																ADD:SPELLCASTER|ANY	ADD:FEAT|Artificer Hidden Feat
+
+
+# Class Name
+#CLASS:Hearthkeepers of Anwyn
+# NOTE: This is a place holder for a dead order in case the GM would like to re-instate them.
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:The Breath	HD:6		TYPE:PC.Prestige	ABB:Ubr		MAXLEVEL:5	SOURCEPAGE:p.183	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4
+# Class Name	Required Feat				Required Skill										Req. Spell Type
+CLASS:The Breath	PREFEAT:2,Leadership,Iron Will	PRESKILL:2,Diplomacy=4,Sense Motive=4	PRESKILL:1,TYPE.Knowledge=8	PRESPELLTYPE:1,Arcane=3,Divine=3
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:The Breath	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Intimidate|TYPE=Knowledge|TYPE=Perform|TYPE=Profession|Ride|Sense Motive|Speak Language|Spellcraft
+1	SAB:The Bond of Unity	ADD:SPELLCASTER|ANY
+2					ADD:SPELLCASTER|ANY
+3	SAB:Touch			ADD:SPELLCASTER|ANY
+4					ADD:SPELLCASTER|ANY
+5	SAB:One Body		ADD:SPELLCASTER|ANY
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:The Arm	HD:10		TYPE:PC.Prestige	ABB:Uar		MAXLEVEL:5	SOURCEPAGE:p.184	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4
+# Class Name	Req. Att.	Required Feat
+CLASS:The Arm	PREATT:5	PREFEAT:3,Great Fortitude,Power Attack,Armor Proficiency (Heavy)
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:The Arm	STARTSKILLPTS:2	CSKILL:Balance|Climb|TYPE=Craft|Escape Artist|Handle Animal|Jump|Move Silently|TYPE=Profession|Ride|Swim
+1	AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+1	AUTO:FEAT|Armor Proficiency (Heavy)|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1	AUTO:FEAT|Shield Proficiency
+###Block: Normal Level Progression
+1	SAB:The Bond of Unity
+2					ADD:FEAT|TYPE=Fighter
+3	SAB:I Stand For You
+4					ADD:FEAT|TYPE=Fighter
+5	SAB:One Body
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:The Eye	HD:8		TYPE:PC.Prestige	ABB:Uey		MAXLEVEL:5	SOURCEPAGE:p.184	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4
+# Class Name	Required Feat			Required Skill
+CLASS:The Eye	PREFEAT:2,Track,Alertness	PRESKILL:3,Spot=8,Listen=8,Search=8
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:The Eye	STARTSKILLPTS:6	CSKILL:Climb|TYPE=Craft|Disable Device|Gather Information|Handle Animal|Hide|Knowledge (Nature)|Knowledge (Geography)|Listen|Move Silently|Open Lock|TYPE=Profession|Ride|Search|Sense Motive|Spot|Swim|Tumble|Use Rope|Survival
+1	AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1	AUTO:FEAT|Shield Proficiency
+###Block: Normal Level Progression
+1	SAB:The Bond of Unity
+2					BONUS:VAR|SneakAttack|CL/2	ABILITY:Special Ability|AUTOMATIC|Sneak Attack
+3	SAB:See Through Me	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE	BONUS:VAR|UncannyDodgeLevel|(CL+1)/3	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
+5	SAB:One Body

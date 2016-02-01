@@ -1,0 +1,20 @@
+SOURCELONG:Princes of Darkness	SOURCESHORT:PrinceofDark	SOURCEWEB:http://www.paizo.com
+#Original Entry by: Rax the Grey
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus												Combat bonus
+CLASS:Diabolist	HD:6		TYPE:PC.Prestige	ABB:Dia		MAXLEVEL:10	SOURCEPAGE:pg. 44		BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Req. Att.		Required Skill										Required Language		Required Text
+CLASS:Diabolist	PREALIGN:LN,LE,NE	PRESKILL:3,Knowledge (Planes)=5,Knowledge (Religion)=3,Spellcraft=5	PRELANG:1,Infernal	PRETEXT:Must have conjured a devil using Lesser Planar Ally or Lesser Planar Binding or similar and successfully coaxed the fiend into perfoming a task lasting longer than 1 day.
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Diabolist	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Intimidate|Knowledge (Arcana)|Knowledge (Planes)|Knowledge (Religion)|Sense Motive|Spellcraft
+1	ADD:SPELLCASTER|ANY	ABILITY:Special Ability|AUTOMATIC|Damned	ABILITY:Special Ability|AUTOMATIC|Imp Companion		ABILITY:Special Ability|AUTOMATIC|Infernal Charisma	BONUS:VAR|ImpLevel|CL
+2	ADD:SPELLCASTER|ANY	ABILITY:Special Ability|AUTOMATIC|Channel Hellfire		ABILITY:Special Ability|AUTOMATIC|Infernal Bargain
+3	ADD:SPELLCASTER|ANY	ABILITY:Special Ability|AUTOMATIC|Heresy	ABILITY:FEAT|VIRTUAL|Augment Summoning
+4	ADD:SPELLCASTER|ANY	BONUS:VAR|InfernalCharisma|2
+5	ADD:SPELLCASTER|ANY	ABILITY:Special Ability|AUTOMATIC|Hellish Soul
+6	ADD:SPELLCASTER|ANY	ABILITY:Special Ability|AUTOMATIC|Infernal Transport
+7	ADD:SPELLCASTER|ANY	BONUS:VAR|InfernalCharisma|2
+8	ADD:SPELLCASTER|ANY	ABILITY:Special Ability|AUTOMATIC|Hellfire Ray
+9	ADD:SPELLCASTER|ANY	BONUS:VAR|DiaHeresy|2
+10	ADD:SPELLCASTER|ANY	ABILITY:Special Ability|AUTOMATIC|Master Conjurer

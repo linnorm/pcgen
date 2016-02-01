@@ -1,0 +1,44 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Starships of the Galaxy	SOURCESHORT:SotG	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: Prestige Classes
+
+# Class Name		Hit Dice	Type			Max Level	Source Page		Define
+CLASS:Blockade Runner	HD:6		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p. 33	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|CL/3	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|CL/3
+# Class Name		Req. Att.	Required Feat												Required Skill
+CLASS:Blockade Runner	PREATT:4	PREFEAT:2,Starship Operation (Space Transport),Starship Dodge (Space Transport)	PRESKILL:1,Pilot=10
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Blockade Runner	STARTSKILLPTS:4	CSKILL:Astrogate|Computer Use|TYPE=Knowledge|Pilot|TYPE=Profession|Repair|Spot
+1	BONUS:VAR|Familiarity|1	DEFINE:Familiarity|0
+3	BONUS:VAR|Familiarity|1
+5	BONUS:VAR|Familiarity|1
+7	BONUS:VAR|Familiarity|1
+9	BONUS:VAR|Familiarity|1
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus													Combat bonus						Modify VAR
+CLASS:Deep Space Pilot	HD:6		TYPE:PC.Prestige	ABB:DSP		MAXLEVEL:5	SOURCEPAGE:pg.34	BONUS:CHECKS|BASE.Fortitude|2+(CL/2)	BONUS:CHECKS|BASE.Reflex,BASE.Willpower|CL/3	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+1)*0.5)+1	BONUS:VAR|Reputation|CL/4	BONUS:VAR|ForcePoints|CL
+# Class Name		Required Feat															Required Skill
+CLASS:Deep Space Pilot	PREFEAT:1,Spacer	PREFEAT:1,Starship Operation (Starfighter),Starship Operation (Space Transport)	PRESKILL:1,Pilot=9
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Deep Space Pilot	STARTSKILLPTS:6	CSKILL:Astrogate|Computer Use|TYPE=Knowledge|Pilot|TYPE=Profession|Repair|Search|Survival
+
+# Class Name		Hit Dice	Type			Max Level	Source Page		Define
+CLASS:Master Gunner	HD:6		TYPE:PC.Prestige	MAXLEVEL:5	SOURCEPAGE:p. 35	DEFINE:BAB|CL	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|2+(CL/2)	DEFINE:WILLBASE|1+(CL/5)+((CL+1)/5)
+# Class Name		Req. Att.	Required Feat	Required Skill
+CLASS:Master Gunner	PREATT:6	PREFEAT:1,Gunner	PRESKILL:1,Pilot=10
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Master Gunner	STARTSKILLPTS:4	CSKILL:Astrogate|Computer Use|TYPE=Knowledge|TYPE=Profession|Repair|Search|Treat Injury
+
+# Class Name		Hit Dice	Type			Max Level	Source Page		Define
+CLASS:Naval Officer	HD:6		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p. 36	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|1+(CL/5)+((CL+1)/5)	DEFINE:REFLEXBASE|1+(CL/5)+((CL+1)/5)	DEFINE:WILLBASE|2+(CL/2)
+# Class Name		Req. Att.	Required Feat						Required Skill
+CLASS:Naval Officer	PREATT:3	PREFEAT:1,Starship Operation (Capital Ship)	PRESKILL:1,Knowledge (Bureaucracy)=8	PRESKILL:2,Astrogate=6,Pilot=6
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Naval Officer	STARTSKILLPTS:4	CSKILL:Astrogate|Bluff|Computer Use|Diplomacy|Gather Information|TYPE=Knowledge|Pilot|TYPE=Profession|Search|Sense Motive
+1	BONUS:VAR|EnhanceCrew|1		DEFINE:EnhanceCrew|0
+3	BONUS:VAR|EnhanceCrew|1
+4	BONUS:VAR|EnhanceFleet|1	DEFINE:EnhanceFleet|0
+5	BONUS:VAR|EnhanceCrew|1
+7	BONUS:VAR|EnhanceCrew|1
+9	BONUS:VAR|EnhanceCrew|1
+10	BONUS:VAR|EnhanceFleet|1

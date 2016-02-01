@@ -1,0 +1,6 @@
+# CVS $Revision: 1.4 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #291	SOURCESHORT:WotC-Dragon #291	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Weapon Name			Type		Nb Hands	Source Page
+Dizzy-Boff Stick			TYPE:Simple			SOURCEPAGE:p.62
+Crossbow (Underwater/Light)	TYPE:Exotic	HANDS:2	SOURCEPAGE:p.62
+Crossbow (Underwater/Heavy)	TYPE:Exotic	HANDS:2	SOURCEPAGE:p.62

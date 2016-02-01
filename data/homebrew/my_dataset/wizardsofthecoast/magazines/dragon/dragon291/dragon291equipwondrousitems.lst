@@ -1,0 +1,20 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #291	SOURCESHORT:WotC-Dragon #291	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name				Type					Cost		Weight	Source Page			Combat bonus				Special Property
+Jump-Out Noisemaker			TYPE:Magic.Wondrous		COST:2700	WT:0		SOURCEPAGE:p.41								SPROP:Chimes loudly when living, corporeal creature is within 5 feet
+Warfox Harness				TYPE:Magic.Wondrous.Collar	COST:36280	WT:0		SOURCEPAGE:p.49		BONUS:COMBAT|AC|1|TYPE=Deflection	SPROP:Polymorph into a Dire Fox
+Mushroom Cap				TYPE:Magic.Wondrous.Headgear	COST:10800	WT:3		SOURCEPAGE:p.49								SPROP:Transform wearer into a small mushroom
+Neuroshield Helm				TYPE:Magic.Wondrous.Headgear	COST:46200	WT:3		SOURCEPAGE:p.50								SPROP:Neutralize Mind Blast attack, stone psionic energy to eventualy shoot out mind blast
+Portable Breach				TYPE:Magic.Wondrous		COST:90000	WT:0		SOURCEPAGE:p.51								SPROP:Create 5 x 10 ft. passage
+Bracers of Wands				TYPE:Magic.Wondrous.Bracer	COST:60000	WT:1		SOURCEPAGE:p.51								SPROP:Can use up to six equipted wands without holding drawing them
+Reading Snuff				TYPE:Magic.Wondrous		COST:315	WT:0		SOURCEPAGE:p.51								SPROP:Sprinkle on writing make it intelligible to anyone for 30 minutes
+Alad's Fire Extinguisher		TYPE:Magic.Wondrous		COST:68400	WT:6		SOURCEPAGE:p.51-52
+Spellfast Medallion (Heat Metal)	TYPE:Magic.Wondrous		COST:600	WT:1		SOURCEPAGE:p.52								SPROP:Cast Heat Metal to the attached creature or object
+Spellfast Medallion (Pain)		TYPE:Magic.Wondrous		COST:2800	WT:1		SOURCEPAGE:p.52								SPROP:Cause pain to the attached creature
+Spellfast Medallion (Gravity)		TYPE:Magic.Wondrous		COST:9100	WT:1		SOURCEPAGE:p.53								SPROP:Reverse the gravity during 13 rounds for the attached creature or object
+Spellfast Medallion (Boom)		TYPE:Magic.Wondrous		COST:9100	WT:1		SOURCEPAGE:p.53								SPROP:Explode for 13d6 of damage after being attached to a creature or object for five rounds
+Spellfast Medallion (Slow)		TYPE:Magic.Wondrous		COST:1500	WT:1		SOURCEPAGE:p.53								SPROP:Slow the attached creature for five rounds
+
+#All below p.49+
+#Blasting Pellets (didn't find the reference for that object, need to look again -- ÉB)

@@ -1,0 +1,145 @@
+# CVS $Revision: 2.0 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: Normal Skills
+# Skill Name					Key Stat	Untrained?		Skill Penalty Apply	Exclusive?		Type							Required Feat				Source Page		Choose			Bonus to skill
+Appraise						KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence											SOURCEPAGE:p.69
+Astrogate						KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence											SOURCEPAGE:p.70
+Balance						KEYSTAT:DEX	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Dexterity											SOURCEPAGE:p.77
+Bluff							KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Charisma											SOURCEPAGE:p.70
+Climb							KEYSTAT:STR	USEUNTRAINED:YES	ACHECK:YES			EXCLUSIVE:NO	TYPE:Strength											SOURCEPAGE:p.71
+Computer Use					KEYSTAT:INT	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Intelligence											SOURCEPAGE:p.71					BONUS:SKILL|Computer Use|2|PRESKILL:1,Gather Information=5|TYPE=Synergy.STACK
+Craft (Airspeeders)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Armor)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Blaster Pistols and Rifles)		KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Capital Ships)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Computers)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Costumes)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Droids)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Electronic Devices)			KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.153
+Craft (Heavy Weapons)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Holoart)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Hyperdrives)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Landspeeders)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Lightsaber)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Medpacs)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Repulsorlift Engines)			KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Painting)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft.Art									SOURCEPAGE:p.72
+Craft (Sculpture)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft.Art									SOURCEPAGE:p.72
+Craft (Simple and Primitive Weapons)	KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Slugthrowers)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Space Transports)			KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Starfighters)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Starship Weapons)			KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Sublight Drives)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Tools)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Untrained)					KEYSTAT:INT	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Vibro Weapons)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Walker Vehicles)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Craft (Wheeled and Tracked Vehicles)	KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Craft										SOURCEPAGE:p.72
+Demolitions						KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence											SOURCEPAGE:p.73
+Diplomacy						KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Charisma											SOURCEPAGE:p.73					BONUS:SKILL|Diplomacy|2|PRESKILL:1,Bluff=5|TYPE=Synergy.STACK	BONUS:SKILL|Diplomacy|2|PRESKILL:1,Sense Motive=5|TYPE=Synergy.STACK
+Disable Device					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence											SOURCEPAGE:p.74
+Disguise						KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Charisma											SOURCEPAGE:p.74
+Entertain (Ballad)				KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Chant)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Comedy)				KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Dance)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Drama)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Drums)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Epic)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Flute)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Harp)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Impersonation)			KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Kloo horn)				KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Mime)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Ode)					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Singing)				KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Storytelling)			KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Trumpet)				KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Entertain (Untrained)				KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Charisma.Entertain										SOURCEPAGE:p.75
+Escape Artist					KEYSTAT:DEX	USEUNTRAINED:YES	ACHECK:YES			EXCLUSIVE:NO	TYPE:Dexterity											SOURCEPAGE:p.76
+Forgery						KEYSTAT:INT	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Intelligence											SOURCEPAGE:p.76
+Gamble						KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Wisdom												SOURCEPAGE:p.89
+Gather Information				KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Charisma											SOURCEPAGE:p.76
+Handle Animal					KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Charisma											SOURCEPAGE:p.77
+Hide							KEYSTAT:DEX	USEUNTRAINED:YES	ACHECK:YES			EXCLUSIVE:NO	TYPE:Dexterity											SOURCEPAGE:p.77
+Intimidate						KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Charisma											SOURCEPAGE:p.77					BONUS:SKILL|Intimidate|2|PRESKILL:1,Bluff=5|TYPE=Synergy.STACK
+Jump							KEYSTAT:STR	USEUNTRAINED:YES	ACHECK:YES			EXCLUSIVE:NO	TYPE:Strength											SOURCEPAGE:p.78					BONUS:SKILL|Jump|2|PRESKILL:1,Tumble=5|TYPE=Synergy.STACK
+Knowledge (Action Vids)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Alien Species)			KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Archeology)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Architecture)			KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Astronomy)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Biology)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Bureaucracy)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Business)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Chemistry)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Engineering)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Forensics)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Genetics)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Geography)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (History)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Jedi Lore)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Medicine)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Local)					KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Physics)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Politics)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Streetwise)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Tactics)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Technology)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (Wilderness Lore)			KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Knowledge (World Lore)				KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence.Knowledge									SOURCEPAGE:p.78
+Listen						KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Wisdom												SOURCEPAGE:p.78
+Move Silently					KEYSTAT:DEX	USEUNTRAINED:YES	ACHECK:YES			EXCLUSIVE:NO	TYPE:Dexterity											SOURCEPAGE:p.79
+Pilot							KEYSTAT:DEX	USEUNTRAINED:YES	ACHECK:NONPROF		EXCLUSIVE:NO	TYPE:Dexterity											SOURCEPAGE:p.79
+Profession (Bartender)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Computer Programmer)		KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Cook)					KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Doctor)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Droid Programmer)			KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Engineer)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Gambler)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Herbalist)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Law Officer)			KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Lawyer)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Mechanic)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Moisture Farmer)			KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Slicer)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Spacehand)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Profession (Trader)				KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Wisdom.Profession										SOURCEPAGE:p.80
+Read/Write Language						USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:None.Language										SOURCEPAGE:p.80	CHOOSE:LANG|TYPE=Read
+Repair						KEYSTAT:INT	USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:Intelligence											SOURCEPAGE:p.80
+Ride							KEYSTAT:DEX	USEUNTRAINED:YES	ACHECK:NONPROF		EXCLUSIVE:NO	TYPE:Dexterity											SOURCEPAGE:p.80					BONUS:SKILL|Ride|2|PRESKILL:1,Handle Animal=5|TYPE=Synergy.STACK
+Search						KEYSTAT:INT	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Intelligence											SOURCEPAGE:p.81
+Sense Motive					KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Wisdom												SOURCEPAGE:p.81
+Sleight of Hand					KEYSTAT:DEX	USEUNTRAINED:NO	ACHECK:YES			EXCLUSIVE:NO	TYPE:Dexterity											SOURCEPAGE:p.81					BONUS:SKILL|Sleight Of Hand|2|PRESKILL:1,Bluff=5|TYPE=Synergy.STACK
+Speak Language							USEUNTRAINED:NO					EXCLUSIVE:NO	TYPE:None.Language										SOURCEPAGE:p.82	CHOOSE:LANG|TYPE=Spoken
+Spot							KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Wisdom												SOURCEPAGE:p.82
+Survival						KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Wisdom												SOURCEPAGE:p.82
+Swim							KEYSTAT:STR	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Strength											SOURCEPAGE:p.82
+Treat Injury					KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:NO	TYPE:Wisdom												SOURCEPAGE:p.82					BONUS:SKILL|Treat Injury|2|PRESKILL:1,Profession (Doctor)=5|TYPE=Synergy.STACK
+Tumble						KEYSTAT:DEX	USEUNTRAINED:NO	ACHECK:YES			EXCLUSIVE:NO	TYPE:Dexterity											SOURCEPAGE:p.83
+
+#Block: Force Skills
+# Skill Name					Key Stat	Untrained?		Skill Penalty Apply	Exclusive?		Type							Required Feat				Source Page		Choose			Bonus to skill
+Affect Mind						KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Charisma.Force.Alter			PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:p.84
+Battlemind						KEYSTAT:CON	USEUNTRAINED:NO					EXCLUSIVE:YES	TYPE:Constitution.Force.Control		PREFEAT:2,Control,Force Sensitive	SOURCEPAGE:p.84
+Drain Energy					KEYSTAT:CON	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Constitution.Force.Alter.Darkside	PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:p.85
+Empathy						KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Wisdom.Force.Sensitive			PREFEAT:1,Force Sensitive		SOURCEPAGE:p.84
+Enhance Ability					KEYSTAT:CON	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Constitution.Force.Sensitive		PREFEAT:1,Force Sensitive		SOURCEPAGE:p.85
+Enhance Senses					KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Wisdom.Force.Sense				PREFEAT:2,Sense,Force Sensitive	SOURCEPAGE:p.85
+Farseeing						KEYSTAT:WIS	USEUNTRAINED:NO					EXCLUSIVE:YES	TYPE:Wisdom.Force.Sense				PREFEAT:2,Sense,Force Sensitive	SOURCEPAGE:p.85
+Fear							KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Wisdom.Force.Sense.Darkside		PREFEAT:2,Sense,Force Sensitive	SOURCEPAGE:p.85
+Force Defense					KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Charisma.Force.Control			PREFEAT:2,Control,Force Sensitive	SOURCEPAGE:p.85
+Force Grip						KEYSTAT:INT	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Intelligence.Force.Alter.Darkside	PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:p.86
+Force Lightning					KEYSTAT:INT	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Intelligence.Force.Alter.Darkside	PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:p.86
+Force Stealth					KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Charisma.Force.Control			PREFEAT:2,Control,Force Sensitive	SOURCEPAGE:p.86
+Force Strike					KEYSTAT:INT	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Intelligence.Force.Alter			PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:p.86
+Friendship						KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:YES	TYPE:Charisma.Force.Sensitive			PREFEAT:1,Force Sensitive		SOURCEPAGE:p.86
+Heal Another					KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Wisdom.Force.Alter.LightSide		PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:p.86
+Heal Self						KEYSTAT:CHA	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Charisma.Force.Control			PREFEAT:2,Control,Force Sensitive	SOURCEPAGE:p.87
+Illusion						KEYSTAT:CHA	USEUNTRAINED:NO					EXCLUSIVE:YES	TYPE:Charisma.Force.Alter			PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:p.86
+Move Object						KEYSTAT:INT	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Intelligence.Force.Alter			PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:p.87
+See Force						KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Wisdom.Force.Sense				PREFEAT:2,Sense,Force Sensitive	SOURCEPAGE:p.88
+Telepathy						KEYSTAT:WIS	USEUNTRAINED:YES					EXCLUSIVE:YES	TYPE:Wisdom.Force.Sense				PREFEAT:2,Sense,Force Sensitive	SOURCEPAGE:p.89

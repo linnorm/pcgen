@@ -1,0 +1,17 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Cry Havoc	SOURCESHORT:CryHavoc	SOURCEWEB:http://www.montecook.com
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus											Combat bonus
+CLASS:Knight Commander	HD:10		TYPE:PC.Prestige	ABB:KnC		MAXLEVEL:10	SOURCEPAGE:pg. 126	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Armor Prof.						Req. Att.	Required Feat							Required Skill											Required Text													Req. Weapond Prof.
+CLASS:Knight Commander	PREARMORPROF:1,ARMORTYPE=Medium,ARMORTYPE=Heavy	PREATT:5	PREFEAT:3,Battle Leader,Battlecry,Infectious Courage	PRESKILL:4,Diplomacy,Profession (Military Commander),Ride,Sense Motive=4	PRETEXT:The knight commander must have commanded a unit of troops in at least one battle.	PREWEAPONPROF:1,TYPE.Martial,TYPE.Exotic
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Knight Commander	STARTSKILLPTS:4	CSKILL:Battle|Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Intimidate|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive
+1								SAB:Effective Orders (Ex)	SAB:Bonus Order +% (Ex)|BonusOrder	BONUS:VAR|BonusOrder|((CL-1)/4)+1	DEFINE:BonusOrder|0
+2								SAB:Quicken the Pace (Self) (Ex)
+3								SAB:Inspire Troops +% (Ex)|InspiretheTroops				BONUS:VAR|InspiretheTroops|1		DEFINE:InspiretheTroops|0
+4	SAB:.CLEAR.Quicken the Pace (Self) (Ex)	SAB:Quicken the Pace (Self, Allies) (Ex)
+6								SAB:Martial Celerity (Self) (Ex)
+7																			BONUS:VAR|InspiretheTroops|1
+8	SAB:.CLEAR.Martial Celerity (Self) (Ex)	SAB:Martial Celerity (Self, Allies) (Ex)
+10								SAB:Automatic Order (Ex)

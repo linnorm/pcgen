@@ -1,0 +1,38 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 11:55:36 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Divine and the Defeated	SOURCESHORT:DivineandDefeated	SOURCEWEB:http://www.swordsorcery.com
+
+# Deity Name	Domains													Desciption of Deity/Title							Holy Item																					Deity Weapon					Alignment	Source Page
+Corean		DOMAINS:Fire,Good,Law,Protection,War,Missionary|PREALIGN:LG,LN,NG				DESC:The Avenger, the Champion						SYMBOL:Four longswords forming a compass rose															DEITYWEAP:Longsword				ALIGN:LG	SOURCEPAGE:p.
+Madriel		DOMAINS:Air,Good,Healing,Plants,Sun,Missionary|PREALIGN:LG,NG,TN,CG			DESC:The Redeemer, the First Angel of Mercy				SYMBOL:Spear with a tassel of peacock feathers															DEITYWEAP:Shortspear|Longspear		ALIGN:NG	SOURCEPAGE:p.
+Tanil			DOMAINS:Animals,Chaos,Luck,Plants,Travel,Trickery,Missionary|PREALIGN:NG,CG,CN	DESC:The Huntress									SYMBOL:Three bronze arrows lying parallel																DEITYWEAP:Longbow					ALIGN:CG	SOURCEPAGE:p.
+Hedrada		DOMAINS:Knowledge,Law,Protection,Missionary,Judgment|PREALIGN:LG,LN,LE,TN		DESC:The Lawgiver, the Judge							SYMBOL:Two-handed hammer																		DEITYWEAP:Warhammer				ALIGN:LN	SOURCEPAGE:p.
+Denev			DOMAINS:Air,Animals,Earth,Fire,Plants,Water,Missionary|PREALIGN:LN,NG,TN,NE,CN	DESC:The Earth mother								SYMBOL:Stone sickle with flowering handle																DEITYWEAP:Sickle (Stone)			ALIGN:TN	SOURCEPAGE:p.
+Enkili		DOMAINS:Air,Chaos,Luck,Travel,Trickery,Missionary|PREALIGN:TN,CG,CN,CE			DESC:The Trickster, the Shapeshifter, the Unlucky			SYMBOL:Mask decorated with lightning shooting from the eyes													DEITYWEAP:Flail (Light)|Flail (Heavy)	ALIGN:CN	SOURCEPAGE:p.
+Chardun		DOMAINS:Evil,Law,Strength,War,Missionary,Domination|PREALIGN:LN,LE,NE			DESC:The Slaver, the Overlord, the Great General			SYMBOL:Blood-soaked golden scepter, crowned with a thorny laurel wreath											DEITYWEAP:Mace (Heavy)|Mace (Light)		ALIGN:LE	SOURCEPAGE:p.
+Belsameth		DOMAINS:Death,Evil,Magic,Trickery,Missionary|PREALIGN:LE,TN,NE,CE				DESC:The Slayer, the Assassin							SYMBOL:Thin silver circle on a black field (signifying the lunar eclipse)										DEITYWEAP:Dagger					ALIGN:NE	SOURCEPAGE:p.
+Vangal		DOMAINS:Chaos,Destruction,Evil,Strength,War,Missionary|PREALIGN:NE,CN,CE		DESC:The Reaver, the Ravager							SYMBOL:Cloven shield dripping blood																	DEITYWEAP:Battleaxe				ALIGN:CE	SOURCEPAGE:p.
+
+Drendari		DOMAINS:Entrancement,Shadow,Missionary|PREALIGN:TN,CG,CN,CE					DESC:The Mistress of Shadows							SYMBOL:A black silhouette of a human's left hand														DEITYWEAP:Sword (Short)				ALIGN:CN	SOURCEPAGE:p.95
+Erias			DOMAINS:Dream,Magic,Missionary|PREALIGN:NG,CG,CN						DESC:The Dream Master								SYMBOL:A crescent moon surrounded by a ring of eight stars													DEITYWEAP:Dagger					ALIGN:CG	SOURCEPAGE:p.99
+Goran			DOMAINS:Earth,Strength,Missionary|PREALIGN:LG,LN,NG						DESC:The Patron of Dwarves							SYMBOL:Two silver axes turned handle to handle, one blade up, one down, both axe heads facing outward on a reddish earthen circle	DEITYWEAP:Greataxe				ALIGN:LG	SOURCEPAGE:p.104
+Hwyrdd		DOMAINS:Luck,Protection,Trickery,Missionary|PREALIGN:LN,NG,TN,NE,CN			DESC:The Halfling God								SYMBOL:An acorn																				DEITYWEAP:Sword (Short)				ALIGN:TN	SOURCEPAGE:p.110
+Idra			DOMAINS:Entrancement,Secrets,Missionary|PREALIGN:TN,CG,CN,CE				DESC:The Goddess of Sex								SYMBOL:A grail with a dagger resting in it, point down													DEITYWEAP:Whip|Dagger				ALIGN:CN	SOURCEPAGE:p.113
+Manawe		DOMAINS:Chaos,Water,Missionary|PREALIGN:TN,CG,CN,CE						DESC:Mother of the Oceans, Queen of Sirens, the Lady of the Deeps	SYMBOL:The seaclaw																			DEITYWEAP:Longspear|Javelin			ALIGN:CN	SOURCEPAGE:p.119
+Nalthalos		DOMAINS:Constructs,Missionary|PREALIGN:LN,LE,NE							DESC:The Patron God of Dark Elves						SYMBOL:A stylized black serpent, laid horizontal, its body rising and falling in waves								DEITYWEAP:Unarmed					ALIGN:LE	SOURCEPAGE:p.125
+Nemorga		DOMAINS:Death,Gateways,Knowledge,Travel,Missionary|PREALIGN:LN,NG,TN,NE,CN		DESC:The Gatekeeper, the Executioner, the Grey King			SYMBOL:A closed book with a sheathed sword closed in it, bookmark style											DEITYWEAP:Longsword				ALIGN:TN	SOURCEPAGE:p.130
+Sethris		DOMAINS:Death,Vengeance,Missionary|PREALIGN:LE,TN,NE,CE					DESC:The Spider Queen								SYMBOL:The silhouette of a curved silver dagger on a black circle, covered in a silver spiderweb						DEITYWEAP:Longsword|Longbow			ALIGN:NE	SOURCEPAGE:p.135
+Syhana		DOMAINS:Air,Fey,Rainbow,Missionary|PREALIGN:LG,NG,TN,CG					DESC:The Cloudmaiden, the Lady of Color					SYMBOL:A rainbow																				DEITYWEAP:Rapier					ALIGN:NG	SOURCEPAGE:p.139
+
+#Aspharal		Plants,Missionary							0346		Demigod of Flowers								A multicolored collection of wild flowers
+##The Beastlords
+#D'shan
+#Fraelhia
+#Imal Wheatsheaf
+#Katashama
+#Laathsaal
+#Luchanig
+#Otossal
+#Tamul
+#Trelu
+#Volskalka
+

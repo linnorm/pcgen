@@ -1,0 +1,16 @@
+SOURCELONG:Extra Skills	SOURCESHORT:ExtraSkills	SOURCEWEB:http://raxstower.finzen.com
+
+#Original Entry by: Rax the Grey
+
+#Block: New Skills
+# Skill Name			Key Stat	Untrained?		Type					Source Page			Bonus to skill
+Craft (Brewing)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft																																					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Cooking)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft																																					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Knowledge (Law)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge
+Profession (Brewer)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+Profession (Chef)			KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+Profession (Lawyer)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+Profession (Sailor)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+Profession (Scribe)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+Profession (Trader)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:pg. 66		SOURCELONG:Dragon Wing Games - Airships	SOURCESHORT:Airships
+

@@ -1,0 +1,13 @@
+SOURCELONG:Wizards of the Coast - Demonomicon of Iggwilv	SOURCESHORT:WotC-demonomicon	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page				Save checks bonus														Combat bonus
+#CLASS:Agariim Slave Girl	HD:6		TYPE:PC.Prestige	ABB:ASG		MAXLEVEL:5	SOURCEPAGE:Ch. 3, Classes	BONUS:CHECKS|BASE.Reflex,BASE.Will|classlevel/2+2	BONUS:CHECKS|BASE.Fortitude|classlevel/3	BONUS:COMBAT|BAB|classlevel*3/4|TYPE=Base.REPLACE
+# Class Name			Required Gender	Multiple Requirements																																																					Required Skill
+#CLASS:Agariim Slave Girl	PREGENDER:Female	PREMULT:1,[PRESKILL:1,TYPE.Craft.Art=8,Hide=8,Move Silently=8,TYPE.Perform=8,Profession (Courtier)=8,Profession (Courtesan)=8,Profession (Gambler)=8,Profession (Herbalist)=8,Profession (Masseur)=8,Profession (Prostitute)=8,Profession (Scribe)=8,Profession (Torturer)=8,Sleight of Hand=8],[PREMULT:2,[PREATT:5],[PREFEAT:1,Bodyguard]]	PRESKILL:1,Tumble=5
+# Class Name			Skill Pts/Lvl	Class Skill
+#CLASS:Agariim Slave Girl	STARTSKILLPTS:4	CSKILL:Balance|Bluff|TYPE=Agariim.Craft|Diplomacy|Gather Information|Hide|Intimidate|Jump|Knowledge (Court Protocol)|Knowledge (History)|Knowledge (Literature)|Knowledge (Nobility and Royalty)|Knowledge (Politics)|Move Silently|TYPE=Perform|Profession (Courtier)|Profession (Courtesan)|Profession (Gambler)|Profession (Herbalist)|Profession (Masseur)|Profession (Prostitute)|Profession (Scribe)|Profession (Torturer)|Sense Motive|Sleight of Hand|Tumble
+#1	ADD:FEAT|ASG Skill Focus,ASG Weapon Focus
+#2	ADD:FEAT|ASG Style and Grace,Draw Attack
+#3	ADD:FEAT|ASG Improved Critical,ASG Versatile
+#4	ADD:FEAT|ASG Arrow Shield,Charming Demeanor
+#5	ADD:FEAT|ASG Talent,ASG Weapon Specialization

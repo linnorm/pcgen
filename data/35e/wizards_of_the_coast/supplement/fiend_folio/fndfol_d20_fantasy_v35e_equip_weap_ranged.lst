@@ -1,0 +1,15 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Wed May  6 18:33:48 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Equipment Name	Required Proficiency			Type												Contains			Cost		Weight	Slot Needed	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier								Nb Hands	Range		Size		Source, Long Desc.	Source, Short Desc.	Source Page		Weapon prop. bonus		Special Property
+Doubt Bomb		PROFICIENCY:WEAPON|Doubt Bomb		TYPE:Weapon.Simple.Ranged.Standard.Thrown										COST:500	WT:1												DAMAGE:1d6										HANDS:1	RANGE:10	SIZE:S	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.68						SPROP:Initial and Secondary 1d6 Wis Damage, Fort DC 15 Negates.
+Bacchae Rock	PROFICIENCY:WEAPON|Rock			TYPE:Weapon.Simple.Ranged.Bludgeoning.Specific.Thrown								COST:0	WT:0				CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6												RANGE:30	SIZE:S	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.
+Feather Flurry	PROFICIENCY:WEAPON|Feather Flurry	TYPE:Weapon.Simple.Ranged.Piercing.Specific.Thrown								COST:0	WT:0				CRITMULT:x2			CRITRANGE:1			DAMAGE:2d6												RANGE:60	SIZE:L	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.
+Cuprilach Longbow	PROFICIENCY:WEAPON|Longbow		TYPE:Weapon.Martial.Ranged.Standard.Piercing.Container.Bow.Longbow	CONTAINS:1|Arrow=1	COST:75	WT:3		SLOTS:2	CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:WOOD.MWORKW.PLUS1W.SPEED			RANGE:100	SIZE:M	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.142	BONUS:WEAPON|DAMAGE|STRMIN0
+
+
+Small Rock		PROFICIENCY:WEAPON|Rock			TYPE:Weapon.Simple.Ranged.Bludgeoning.Specific.Thrown								COST:0	WT:50				CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6												RANGE:120	SIZE:S	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.
+Medium Rock		PROFICIENCY:WEAPON|Rock			TYPE:Weapon.Simple.Ranged.Bludgeoning.Specific.Thrown								COST:0	WT:70			CRITMULT:x2			CRITRANGE:1			DAMAGE:2d6												RANGE:120	SIZE:M	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.
+
+Huge Mighty Composite Shortbow (+4 Str bonus)	OUTPUTNAME:[NAME] Shortbow STR	PROFICIENCY:WEAPON|Shortbow				TYPE:Weapon.Martial.Ranged.Standard.Piercing.Container.Projectile.Bow.Shortbow.Composite	CONTAINS:1|Arrow=1	COST:300	WT:10		SLOTS:2	CRITMULT:x3			CRITRANGE:1			DAMAGE:2d6	EQMOD:WOOD						MODS:REQUIRED		RANGE:70			SOURCEPAGE:Equipment.rtf	BONUS:WEAPON|DAMAGE|min(STR,0)	SIZE:H
+Masterwork Longbow									PROFICIENCY:WEAPON|Longbow				TYPE:Weapon.Martial.Ranged.Standard.Piercing.Container.Projectile.Bow.Longbow			CONTAINS:1|Arrow=1	COST:75	WT:3		SLOTS:2	CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:WOOD.MWORKW										RANGE:100			SOURCEPAGE:Equipment.rtf	BONUS:WEAPON|DAMAGE|min(STR,0)
+Masterwork Mighty Composite Longbow (+4 Str Bonus)	OUTPUTNAME:[NAME] Longbow STR		PROFICIENCY:WEAPON|Longbow				TYPE:Weapon.Martial.Ranged.Standard.Piercing.Container.Projectile.Bow.Longbow.Composite	CONTAINS:1|Arrow=1	COST:100	WT:3		SLOTS:2	CRITMULT:x3			CRITRANGE:1			DAMAGE:3d6	EQMOD:WOOD.MWORKW						MODS:REQUIRED		RANGE:110			SOURCEPAGE:Equipment.rtf	BONUS:WEAPON|DAMAGE|min(STR,0)

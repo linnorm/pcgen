@@ -1,0 +1,24 @@
+# CVS $Revision$ $Author$ -- Sun Dec  3 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+CAMPAIGN:Green Ronin - Book of Fiends
+RANK:9
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Book of Fiends
+TYPE:Green Ronin Publishing.Supplement
+PUBNAMELONG:Green Ronin
+PUBNAMESHORT:Ronin
+PUBNAMEWEB:http://www.greenronin.com
+SOURCELONG:Book of Fiends
+SOURCESHORT:BoF
+SOURCEWEB:http://www.greenronin.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 1999, 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Book of Fiends, Copyright 2003, Green Ronin Publishing
+COPYRIGHT:PCGen dataset conversion for The Book of the Righteous, Copyright 2006, PCGen Data Team (Ivan A. Finzen IV (raxthegrey))
+
+
+RACE:bookoffiends_races.lst
+KIT:bookoffiends_kits.lst
+

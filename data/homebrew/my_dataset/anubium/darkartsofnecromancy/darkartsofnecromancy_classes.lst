@@ -1,0 +1,32 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Anubium - Dark Arts of Necromancy	SOURCESHORT:DAoN	SOURCEWEB:http://www.anubium.com
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Devoted Necromancer	HD:4		TYPE:PC.Base	ABB:DvN		MAXLEVEL:20	SOURCEPAGE:pg. 3	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name			Required AL
+CLASS:Devoted Necromancer	PREALIGN:LN,LE,TN,NE,CN,CE
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Devoted Necromancer	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Intimidate|TYPE=Knowledge|TYPE=Profession|Ritual Casting|Research|Spellcraft|Use Ley Line
+# Class Name			Spell Stat		Spell Type		Memorize		Spellbook		Spell Scoll Prohibited												Caster level					Use Spell List
+CLASS:Devoted Necromancer	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:YES	SPELLBOOK:YES	PROHIBITED:Abjuration,Conjuration,Divination,Enchantment,Evocation,Illusion,Transmutation	BONUS:CASTERLEVEL|Devoted Necromancer|CL	SPELLLIST:1|Wizard
+1																																						ABILITY:Special Ability|AUTOMATIC|Wizard Weapon Proficiencies|All Automatic Proficiencies
+1	CAST:4,2				BONUS:VAR|FMLevel|CL																													ABILITY:Special Ability|AUTOMATIC|Summon Skull Familiar|Necromantic Devotion|Necromantic Command
+2	CAST:5,3				BONUS:VAR|AugmentNecromancy|1																												ABILITY:Special Ability|AUTOMATIC|Augment Necromancy
+3	CAST:5,3,2
+4	CAST:5,4,3				BONUS:VAR|AugmentNecromancy|1						ADD:ABILITY|FEAT|NORMAL|Greater Spell Focus (Necromancy),Spell Focus (Necromancy),TYPE=DevNecro,TYPE=ItemCreation,TYPE=Metamagic
+5	CAST:5,4,3,2			BONUS:VAR|WithstandUndead|1																												ABILITY:Special Ability|AUTOMATIC|Withstand Undead
+6	CAST:5,4,4,3
+7	CAST:5,5,4,3,2
+8	CAST:5,5,4,4,3			BONUS:VAR|AugmentNecromancy|1						ADD:ABILITY|FEAT|NORMAL|Greater Spell Focus (Necromancy),Spell Focus (Necromancy),TYPE=DevNecro,TYPE=ItemCreation,TYPE=Metamagic
+9	CAST:5,5,5,4,3,2
+10	CAST:5,5,5,4,4,3			BONUS:VAR|WithstandUndead|1
+11	CAST:5,5,5,5,4,3,2
+12	CAST:5,5,5,5,4,4,3		BONUS:VAR|AugmentNecromancy|1						ADD:ABILITY|FEAT|NORMAL|Greater Spell Focus (Necromancy),Spell Focus (Necromancy),TYPE=DevNecro,TYPE=ItemCreation,TYPE=Metamagic
+13	CAST:5,5,5,5,5,4,3,2
+14	CAST:5,5,5,5,5,4,4,3
+15	CAST:5,5,5,5,5,5,4,3,2		BONUS:VAR|WithstandUndead|1
+16	CAST:5,5,5,5,5,5,4,4,3		BONUS:VAR|AugmentNecromancy|1						ADD:ABILITY|FEAT|NORMAL|Greater Spell Focus (Necromancy),Spell Focus (Necromancy),TYPE=DevNecro,TYPE=ItemCreation,TYPE=Metamagic
+17	CAST:5,5,5,5,5,5,5,4,3,2
+18	CAST:5,5,5,5,5,5,5,4,4,3
+19	CAST:5,5,5,5,5,5,5,5,4,3
+20	CAST:5,5,5,5,5,5,5,5,4,4	BONUS:VAR|AugmentNecromancy|1	BONUS:VAR|WithstandUndead|1	ADD:ABILITY|FEAT|NORMAL|Greater Spell Focus (Necromancy),Spell Focus (Necromancy),TYPE=DevNecro,TYPE=ItemCreation,TYPE=Metamagic

@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Green Ronin Publishing  - Races of Reknown - Hammer & Helm	SOURCESHORT:HammerHelm	SOURCEWEB:http://www.greenronin.com
+
+# Deity Name	Product Identity?	Domains							Desciption of Deity/Title				Holy Item				Deity Weapon	Alignment	Pantheon		Source Page
+Era			NAMEISPI:YES	DOMAINS:Air,Animal,Earth,Fire,Plant,Water		DESC:The Earth mother, The Elements, The Anvil	SYMBOL:A blossoming tree	DEITYWEAP:None	ALIGN:NG	PANTHEON:Dwarf	SOURCEPAGE:pg.11
+Granok		NAMEISPI:YES	DOMAINS:Good,Knowledge,Stonehearth,Strength	DESC:The Forge God, The Creator			SYMBOL:A gauntleted hand	DEITYWEAP:None	ALIGN:LN	PANTHEON:Dwarf	SOURCEPAGE:pg.11
+Orbane		NAMEISPI:YES	DOMAINS:Armor,Evil,Sword,War				DESC:Strife, The Merchant, The Hammer		SYMBOL:A dwarven battlehammer	DEITYWEAP:None	ALIGN:LE	PANTHEON:Dwarf	SOURCEPAGE:pg.11

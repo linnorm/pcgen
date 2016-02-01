@@ -1,0 +1,5 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #86	SOURCESHORT:WotC-Dungeon #86	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+# Weapon Name	Type		Nb Hands
+Hoopak		TYPE:Simple	HANDS:2

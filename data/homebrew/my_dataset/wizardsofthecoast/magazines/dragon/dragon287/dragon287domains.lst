@@ -1,0 +1,7 @@
+# CVS $Revision: 1.4 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #287	SOURCESHORT:WotC-Dragon #287	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Domain Name	Source Page		Description
+Thunder		SOURCEPAGE:p.50	ABILITY:Special Ability|AUTOMATIC|Resistance To Sonic	DESC:You gain sonic resistance 5	BONUS:VAR|SonicResistanceBonus|5
+Winter		SOURCEPAGE:p.50	ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	DESC:You gain cold resistance 5	BONUS:VAR|ColdResistanceBonus|5	SPELLLEVEL:DOMAIN|Winter=1|Ray of Frost|Winter=2|Chill Metal|Winter=3|Protection from Energy|Winter=4|Sleet Storm|Winter=5|Ice Storm|Winter=6|Cone of Cold|Winter=7|Freezing Sphere|Winter=8|Simulacrum|Winter=9|Elemental Swarm
+

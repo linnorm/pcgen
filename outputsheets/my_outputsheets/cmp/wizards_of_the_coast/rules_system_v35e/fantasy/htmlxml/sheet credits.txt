@@ -1,0 +1,10 @@
+Test
+
+The csheet_dnd_CMP.htm character sheet template is derived 
+from the PCGen csheet_dnd_std.htm which is based on the work 
+of the following people:
+
+Original author: Richard O'Doherty-Gregg
+Modifications by: arcady
+Weapon & Familiar blocks by Barak
+Maintenance by Barak

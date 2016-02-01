@@ -1,0 +1,18 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Equipment Name		Required Proficiency				Type				Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		Combat bonus												Bonus Armor Modifiers
+Blast Helmet- Vest	PROFICIENCY:ARMOR|Blast Helmet- Vest	TYPE:Armor.Light		COST:500	WT:3		ACCHECK:-1		MAXDEX:5		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Light)|TYPE=Equipment.REPLACE		BONUS:EQMARMOR|EDR|2
+Combat Jumpsuit		PROFICIENCY:ARMOR|Combat Jumpsuit		TYPE:Armor.Light		COST:1500	WT:8		ACCHECK:-3		MAXDEX:4		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Light)|TYPE=Equipment.REPLACE		BONUS:EQMARMOR|EDR|3
+Flight Suit (Padded)	PROFICIENCY:ARMOR|Flight Suit (Padded)	TYPE:Armor.Light		COST:800	WT:5		ACCHECK:-2		MAXDEX:4		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Light)|TYPE=Equipment.REPLACE		BONUS:EQMARMOR|EDR|2
+
+Flight Suit (Armored)	PROFICIENCY:ARMOR|Flight Suit (Armored)	TYPE:Armor.Medium		COST:4000	WT:20		ACCHECK:-4		MAXDEX:3		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Medium)|TYPE=Equipment.REPLACE		BONUS:EQMARMOR|EDR|4
+Battle Armor (Padded)	PROFICIENCY:ARMOR|Battle Armor (Padded)	TYPE:Armor.Medium		COST:2000	WT:13		ACCHECK:-4		MAXDEX:3		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Medium)|TYPE=Equipment.REPLACE		BONUS:EQMARMOR|EDR|4
+Battle Armor (Medium)	PROFICIENCY:ARMOR|Battle Armor (Medium)	TYPE:Armor.Medium		COST:6000	WT:16		ACCHECK:-5		MAXDEX:3		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Medium)|TYPE=Equipment.REPLACE		BONUS:EQMARMOR|EDR|5
+
+Armored Spacesuit		PROFICIENCY:ARMOR|Armored Spacesuit	TYPE:Armor.Heavy		COST:10000	WT:45		ACCHECK:-6		MAXDEX:1		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Heavy)|TYPE=Equipment.REPLACE		BONUS:EQMARMOR|EDR|6
+Battle Armor (Heavy)	PROFICIENCY:ARMOR|Battle Armor (Heavy)	TYPE:Armor.Heavy		COST:12000	WT:35		ACCHECK:-7		MAXDEX:0		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Heavy)|TYPE=Equipment.REPLACE		BONUS:EQMARMOR|EDR|7
+
+Corellian Powersuit	PROFICIENCY:ARMOR|Corellian Powersuit	TYPE:Armor.Powered	COST:10000	WT:18		ACCHECK:-4		MAXDEX:0		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Powered)|TYPE=Equipment.REPLACE	BONUS:EQMARMOR|EDR|4
+Stormtrooper Armor	PROFICIENCY:ARMOR|Stormtrooper Armor	TYPE:Armor.Powered	COST:8000	WT:16		ACCHECK:-2		MAXDEX:2		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Powered)|TYPE=Equipment.REPLACE	BONUS:EQMARMOR|EDR|5
+Battleframe			PROFICIENCY:ARMOR|Battleframe			TYPE:Armor.Powered	COST:12000	WT:20		ACCHECK:-8		MAXDEX:0		SOURCEPAGE:p.138	BONUS:COMBAT|AC|0|PREFEAT:1,Armor Proficiency (Powered)|TYPE=Equipment.REPLACE	BONUS:EQMARMOR|EDR|3

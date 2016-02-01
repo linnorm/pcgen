@@ -1,0 +1,14 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Author Art Gopher -- Fri May 30
+SOURCELONG:The Sunless Citadel	SOURCESHORT:SunlessC	SOURCEWEB:http://www.wizards.com/
+
+###Block: Weapon Materials
+# Modifier Name	Unique Key		Type					Cost		Type granted	Keys to ignore		Source Page		Required Type	Apply to both heads
+Nephelium		KEY:WEAPNEPH	TYPE:Weapon.BaseMaterial	COST:100	ITYPE:Nephelium	IGNORES:WEAPMW,AMMOMW	SOURCEPAGE:p.32	PRETYPE:1,Metal	ASSIGNTOALL:Y
+
+###Block: Armor Materials
+# Modifier Name	Unique Key		Type					Cost		Visible		Type granted	Source Page		Required Type
+Nephelium		KEY:ARMRNEPL	TYPE:Armor.BaseMaterial		COST:100	VISIBLE:QUALIFY	ITYPE:Nephelium	SOURCEPAGE:p.32	PRETYPE:1,Light|Metal
+Nephelium		KEY:ARMRNEPM	TYPE:Armor.BaseMaterial		COST:100	VISIBLE:QUALIFY	ITYPE:Nephelium	SOURCEPAGE:p.32	PRETYPE:1,Medium|Metal
+Nephelium		KEY:ARMRNEPH	TYPE:Armor.BaseMaterial		COST:100	VISIBLE:QUALIFY	ITYPE:Nephelium	SOURCEPAGE:p.32	PRETYPE:1,Heavy|Metal
+Nephelium		KEY:ARMRNEPS	TYPE:Shield.BaseMaterial	COST:100	VISIBLE:QUALIFY	ITYPE:Nephelium	SOURCEPAGE:p.32	PRETYPE:1,Metal

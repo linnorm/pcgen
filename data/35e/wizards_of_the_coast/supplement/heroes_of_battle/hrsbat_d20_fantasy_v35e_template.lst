@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#CREATED BY S,R.Stephen, October 2005
+
+# Template Name	Visible		Source, Long Desc.		Source, Short Desc.	Source Page		Required Class			Misc bonus
+Armored Ease +1	VISIBLE:QUALIFY	SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.104	PRECLASS:1,Dread Commando=1	BONUS:MISC|ACCHECK|1
+Armored Ease +2	VISIBLE:QUALIFY	SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.104	PRECLASS:1,Dread Commando=1	BONUS:MISC|ACCHECK|2
+Armored Ease +3	VISIBLE:QUALIFY	SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.104	PRECLASS:1,Dread Commando=1	BONUS:MISC|ACCHECK|3
+Armored Ease +4	VISIBLE:QUALIFY	SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.104	PRECLASS:1,Dread Commando=1	BONUS:MISC|ACCHECK|4

@@ -1,0 +1,14 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 11:55:36 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mithril - City of the Golem	SOURCESHORT:Mithril	SOURCEWEB:http://www.swordsorcery.com
+
+# Modifier Name			Type					Type granted			Keys to ignore	Source Page		Required Type			Modify VAR						Bonus Equipment Modifiers	Special Property												Virtual Feat
+Mithril				TYPE:Weapon.BaseMaterial	ITYPE:Mithril.Masterwork	IGNORES:MWORKW	SOURCEPAGE:p.88	PRETYPE:1,Metal										BONUS:EQM|WEIGHTDIV|2
+Dispel Magic (Mithril)		TYPE:Weapon												SOURCEPAGE:p.88	PRETYPE:1,Enhancement,Weapon													SPROP:Area Dispel Magic 5' radius
+Flaming Burst (Mithril)		TYPE:Weapon												SOURCEPAGE:p.88	PRETYPE:1,Enhancement,Weapon													SPROP:+1d6 fire damage,on a critical hit deals extra fire damage (+%d10)|CRITMULT-1
+Holy (Mithril)			TYPE:Weapon												SOURCEPAGE:p.88	PRETYPE:1,Enhancement,Weapon	BONUS:VAR|NegLevels|1|PREALIGN:2,5,8						SPROP:+1d6 holy damage vs. evil,1 negative level bestowed to evil wielder		VFEAT:Negative Levels
+Holy Symbol (Mithril)		TYPE:Weapon												SOURCEPAGE:p.88	PRETYPE:1,Enhancement,Weapon													SPROP:Weapon functions as Holy Symbol
+Lawful (Mithril)			TYPE:Weapon												SOURCEPAGE:p.88	PRETYPE:1,Enhancement,Weapon	BONUS:VAR|NegLevels|1|PREALIGN:2,5,8						SPROP:+1d6 lawful damage vs. chaos,1 negative level bestowed to chaotic wielder	VFEAT:Negative Levels
+Spell Resistance (Mithril)	TYPE:Weapon												SOURCEPAGE:p.88	PRETYPE:1,Enhancement,Weapon													SPROP:SR 10 + Mithril Knight level 15' radius
+Summon Sword (Mithril)		TYPE:Weapon												SOURCEPAGE:p.88	PRETYPE:1,Enhancement,Weapon													SPROP:Summon Sword 1/day
+Touch attack (Mithril)		TYPE:Weapon												SOURCEPAGE:p.88	PRETYPE:1,Enhancement,Weapon													SPROP:Smite Evil becomes a touch attack
+

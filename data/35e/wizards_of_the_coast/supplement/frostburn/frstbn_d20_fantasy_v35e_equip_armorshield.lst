@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Robert Biskup January 2005
+
+#Monster
+# Equipment Name					Required Proficiency							Type						Cost		Weight	AC Penalty Check	Modifier						Maximum DEX Bonus	Source, Long Desc.	Source, Short Desc.	Source Page		% of Spell Failure	Combat bonus					Bonus Armor Modifiers						Special Property
+Midgard Dwarf Chain Shirt			PROFICIENCY:ARMOR|Midgard Dwarf Chain Shirt			TYPE:Armor.Light.Suit.Monster		COST:0	WT:25		ACCHECK:-2		EQMOD:ARMR_STEEL.ARMR_MWORK.ARMR_PLUS_2	MAXDEX:4		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.132	SPELLFAILURE:20		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	BONUS:EQMARMOR|SPELLFAILURE|-20|PRECLASS:1,Bard=1
+Frost Giant Tundra Scout Chain Shirt	PROFICIENCY:ARMOR|Frost Giant Tundra Scout Chain Shirt	TYPE:Armor.Light.Suit.Monster		COST:0	WT:25		ACCHECK:-2		EQMOD:ARMR_STEEL.ARMR_MWORK			MAXDEX:4		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.135	SPELLFAILURE:20		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	BONUS:EQMARMOR|SPELLFAILURE|-20|PRECLASS:1,Bard=1
+Winterspawn Scale Mail				PROFICIENCY:ARMOR|Winterspawn Scale Mail				TYPE:Armor.Medium.Suit.Monster	COST:0	WT:30		ACCHECK:-4		EQMOD:ARMR_STEEL.ARMR_MWORK.ARMR_PLUS_3	MAXDEX:3		SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.161	SPELLFAILURE:25		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE										SPROP:Dissipates into vapor 24 hours after the winterspawn who created them is destroyed unless the item succeeds on a DC 20 Fortitude save.

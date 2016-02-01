@@ -1,0 +1,196 @@
+[RULES]
+100	[SYL1]	[SYL3]
+[SYL1]
+[PREGENDER:M	PRERACE:Dwarf]
+Adurmak
+Adurmas
+Barkandor
+Blim
+Borli
+Durmak
+Durvak
+Fargad
+Farstad
+Forbarek
+Fulkaft
+Golzumak
+Kelterak
+Khazuk
+Lomburd
+Rurik
+Trezhek
+Ulgrum
+Urgaz
+[PREGENDER:F	PRERACE:Dwarf]
+Ada
+Adel
+Dagmar
+Edda
+Femek
+Ganila
+Gomore
+Imelka
+Kelarr
+Klass
+Kormeta
+Kuoro
+Mieka
+Zarakil
+Zomed
+[PREGENDER:M	PRERACE:Elf]
+Aladis
+Alidd
+Amator
+Anaechin
+Artesidet
+Bare
+Cevranath
+Charan
+Coronos
+Culusa
+Currund
+Cyrn
+Cyrnalar
+Daclen
+Dail
+Dashahn
+Dolothar
+Dorlanisti
+Elborn
+Elevion
+Ellerand
+Emeathelia
+Hageee
+Hulirrad
+Hulrad
+Hurell
+Jasselan
+Jumar
+Kafen
+Lendel
+Mellitee
+Menolak
+Porisal
+Selemar
+Sendir
+Serafil
+Shifan
+Sincarel
+Telarai
+Telerai
+Thalan
+Thelanaeorive
+Tomar
+Torasceine
+Weithaelin
+Werlen
+Wevelin
+[PREGENDER:F	PRERACE:Elf]
+Ameris
+Asaivelia
+Celmereian
+Colinaseti
+Culessa
+Esmaran
+Flamarze
+Halena
+Hamaka
+Hanasila
+Helana
+Ilistar
+Jelena
+Jeserel
+Laraneai
+Lura
+Mehelet
+Moridia
+Ruwana
+Sablen
+Sender
+Setita
+Tessevi
+Tultetika
+Wylee
+Zowale
+[PREGENDER:M	PRERACE:Gnome]
+Banarak
+Faerbast
+Fulmor
+Gruthal
+Gultemp
+Herjrast
+Hreslin
+Restam
+Romari
+Sil
+Ansren
+[PREGENDER:M	PRERACE:Gnome]
+Cainfreda
+Caralle
+Habamel
+Jandy
+Lulla
+Meileen
+Merabal
+Raxeen
+Salipa
+Semaneo
+Vulansa
+[PREGENDER:M	PRERACE:Halfling]
+Babaktar
+Barten
+Borin
+Furum
+Gonfllen
+Guvrokam
+Kavleta
+Nolan
+Nurdan
+Theartan
+Zandi
+[PREGENDER:M	PRERACE:Halfling]
+Arenou
+Bousrah
+Catrakkan
+Mari
+Noolau
+Sahar
+Sarshar
+Sejeyla
+Tajela
+Virda
+
+[SYL3]
+[PRERACE:Dwarf]
+ Angklin
+ Damvalk
+ Gramdal
+ Gunterm
+ Kerak
+ Talek
+ Tukurz
+ Zarduk
+[PRERACE:Gnome]
+ Whitewright
+ Bagazi
+ Chivralpa
+ Dalfort
+ Galborn
+ Gozer
+ Herit
+ Nitanni
+ Piulman
+ Tesafel
+ Zarayt
+[PRERACE:Halfling]
+ Altean
+ Bojardi
+ Brighstar
+ Kapran
+ Maleki
+ Murmalal
+ Padravan
+ Ramin
+ Sadek
+ Sapran
+ Takhti

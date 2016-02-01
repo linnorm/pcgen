@@ -1,0 +1,22 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#CREATED BY S.R.Stephen, October 2005
+
+# Weapon Name			Type
+Ballista (Light)			TYPE:Ballista
+Ballista (Heavy)			TYPE:Ballista
+Battering Ram (Adamantine)	TYPE:NoProfReq
+Battering Ram			TYPE:NoProfReq
+Dragonfire Ram			TYPE:NoProfReq
+Dragonshot Catapult (White)	TYPE:NoProfReq
+Dragonshot Catapult (Black)	TYPE:NoProfReq
+Dragonshot Catapult (Green)	TYPE:NoProfReq
+Dragonshot Catapult (Blue)	TYPE:NoProfReq
+Dragonshot Catapult (Red)	TYPE:NoProfReq
+Lightning Ballista		TYPE:NoProfReq
+Mangonel (Light)			TYPE:NoProfReq
+Mangonel (Heavy)			TYPE:NoProfReq
+Scorching Ballista		TYPE:NoProfReq
+Scorpion				TYPE:NoProfReq
+Siege Tower				TYPE:NoProfReq
+Trebuchet (Light)			TYPE:NoProfReq
+Trebuchet (Heavy)			TYPE:NoProfReq

@@ -1,0 +1,406 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+##Block: Base Classes
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus															Combat bonus
+CLASS:Courtier	HD:6		TYPE:Base.PC	ABB:Crt		SOURCEPAGE:p.33			BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Courtier	STARTSKILLPTS:8	CSKILL:Bluff|TYPE=Craft|Decipher Script|Diplomacy|TYPE=Game|Gather Information|Intimidate|Knowledge (Etiquette)|Knowledge (History)|Knowledge (Local)|Knowledge (Nobility and Royalty)|Knowledge (Research)|Research|Listen|TYPE=Perform|TYPE=Profession|Search|Sense Motive|Spot|Tea Ceremony
+1									ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies		AUTO:FEAT|Martial Weapon Proficiency (Sword (Short))|Simple Weapon Proficiency|Style and Grace|Talent|Wealth
+2											AUTO:FEAT|Iron Will
+3	SAB:Gossip
+5							ADD:FEAT|Versatile
+9											AUTO:FEAT|Leadership
+10							ADD:FEAT|Versatile
+12	SAB:The Heart Speaks
+15							ADD:FEAT|Versatile
+18	SAB:The Immovable Hand of Peace
+20							ADD:FEAT|Versatile
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus																	Combat bonus
+CLASS:Inkyo		HD:8		TYPE:Base.PC	ABB:Ink		SOURCEPAGE:p.41			BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|3*CL/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Inkyo		STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Diplomacy|Hide|Jump|Knowledge (Elements)|Knowledge (Fortunes)|Knowledge (Shintao)|Listen|Move Silently|TYPE=Perform|Search|Sense Motive|Spot|Swim|Tea Ceremony|Tumble|Survival
+1	UDAM:1,1,1d2,1d3,1d4,1d6,1d8,1d10,1d12													ADD:FEAT|Improved Unarmed Strike	ADD:FEAT|Void Use	ADD:FEAT|TYPE=Kiho	AUTO:FEAT|Armor Proficiency (Light)|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies
+2	UDAM:1,1,1d2,1d3,1d4,1d6,1d8,1d10,1d12																										AUTO:FEAT|Depths of the Void
+3	UDAM:1,1,1d2,1d3,1d4,1d6,1d8,1d10,1d12		SAB:Purity +%|Purity	BONUS:VAR|Purity|1	DEFINE:Purity|0
+4	UDAM:1,1,1d2,1d3,1d4,1d6,1d8,1d10,1d12													ADD:FEAT|TYPE=Kiho
+5	UDAM:1,1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8
+6	UDAM:1,1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8						BONUS:VAR|Purity|1
+7	UDAM:1,1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8
+8	UDAM:1,1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8
+9	UDAM:1,1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8						BONUS:VAR|Purity|1
+10	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10																									ABILITY:Special Ability|AUTOMATIC|Improved Void Use
+11	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10																									AUTO:FEAT|Depths of the Void
+12	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10					BONUS:VAR|Purity|1				ADD:FEAT|TYPE=Kiho
+13	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10	SAB:Serenity
+14	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10
+15	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12					BONUS:VAR|Purity|1
+16	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12												ADD:FEAT|TYPE=Kiho
+17	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12
+18	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12					BONUS:VAR|Purity|1
+19	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12
+20	UDAM:1d4,1d6,1d8,1d10,1d12,2d8,2d10,2d12,4d8												ADD:FEAT|TYPE=Kiho
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus															Combat bonus
+CLASS:Ninja		HD:6		TYPE:Base.PC	ABB:Nin		SOURCEPAGE:p.39			BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Ninja		STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE=Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Jump|Listen|Mimic|Move Silently|Open Lock|TYPE=Perform|Sleight of Hand|TYPE=Profession|Search|Spot|Tumble|Use Rope
+1																																			ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Ninja Weapon Proficiencies
+1	SAB:Ninja Dodge +%|Ninja Dodge							BONUS:VAR|Ninja Dodge|1		DEFINE:Ninja Dodge|0	BONUS:VAR|RogueSneakAttackLVL|CL			ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Rogue Sneak Attack
+2	SAB:Poison Use
+3																			BONUS:VAR|Sneak Attack|1	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE	BONUS:VAR|UncannyDodgeLevel|CL/4	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
+4	SAB:Speed of Darkness									BONUS:COMBAT|Initiative|INTMAX0
+5																			BONUS:VAR|Sneak Attack|1	BONUS:VAR|Ninja Dodge|1
+6
+7																			BONUS:VAR|Sneak Attack|1
+8	SAB:Shadow Run
+9																			BONUS:VAR|Sneak Attack|1
+10																			BONUS:VAR|Ninja Dodge|1															AUTO:FEAT|Blind fight
+11																			BONUS:VAR|Sneak Attack|1
+12																																					AUTO:FEAT|Deflect Arrows
+13																			BONUS:VAR|Sneak Attack|1
+15																			BONUS:VAR|Sneak Attack|1	BONUS:VAR|Ninja Dodge|1
+17																			BONUS:VAR|Sneak Attack|1
+19																			BONUS:VAR|Sneak Attack|1	BONUS:VAR|Ninja Dodge|1
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus																Combat bonus
+CLASS:Samurai	HD:10		TYPE:Base.PC	ABB:Sam		SOURCEPAGE:p.30			BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Samurai	STARTSKILLPTS:4	CSKILL:Battle|Climb|TYPE=Craft|Diplomacy|Handle Animal|Iaijutsu Focus|Intimidate|Jump|Knowledge (Law)|TYPE=Perform|TYPE=Profession|Ride|Sense Motive|Swim|Tea Ceremony	PREALIGN:LG,LN,LE
+1																											ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1	ABILITY:Special Ability|AUTOMATIC|Ancestral Daisho
+2																	BONUS:ABILITYPOOL|Samurai Feat|1
+4								BONUS:VAR|AncestralDaisho|1					BONUS:ABILITYPOOL|Samurai Feat|1
+7								BONUS:VAR|AncestralDaisho|1					BONUS:ABILITYPOOL|Samurai Feat|1
+9								BONUS:VAR|AncestralDaisho|1
+10																	BONUS:ABILITYPOOL|Samurai Feat|1
+11								BONUS:VAR|AncestralDaisho|1
+13								BONUS:VAR|AncestralDaisho|1					BONUS:ABILITYPOOL|Samurai Feat|1
+14								BONUS:VAR|AncestralDaisho|1
+15								BONUS:VAR|AncestralDaisho|1
+16								BONUS:VAR|AncestralDaisho|1					BONUS:ABILITYPOOL|Samurai Feat|1
+17								BONUS:VAR|AncestralDaisho|1
+18								BONUS:VAR|AncestralDaisho|1
+19																	BONUS:ABILITYPOOL|Samurai Feat|1
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page			Automatic Languages	Save checks bonus																Combat bonus
+CLASS:Shugenja	HD:6		TYPE:Base.PC	ABB:Shu		SOURCEPAGE:p.36-39	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Shugenja	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|TYPE=Knowledge|TYPE=Profession|Spellcraft|Tea Ceremony
+# Class Name	Spell Stat		Spell Type
+CLASS:Shugenja	SPELLSTAT:CHA	SPELLTYPE:Divine
+1	CAST:5,3				KNOWN:4,2				SAB:Sense Elements	SAB:Element Focus	AUTO:FEAT|Simple Weapon Proficiency	AUTO:WEAPONPROF|Sword (Short)	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies
+2	CAST:6,4				KNOWN:2,1
+3	CAST:6,5				KNOWN:3,1
+4	CAST:6,6,3				KNOWN:3,2,1
+5	CAST:6,6,4				KNOWN:3,2,2
+6	CAST:6,6,5,3			KNOWN:4,2,2,1
+7	CAST:6,6,6,4			KNOWN:4,3,2,1
+8	CAST:6,6,6,5,3			KNOWN:4,3,2,2,1
+9	CAST:6,6,6,6,4			KNOWN:4,3,2,2,2
+10	CAST:6,6,6,6,5,3			KNOWN:5,3,3,2,2,1
+11	CAST:6,6,6,6,6,4			KNOWN:5,3,3,2,2,2
+12	CAST:6,6,6,6,6,4,3		KNOWN:5,3,3,2,2,2,1
+13	CAST:6,6,6,6,6,6,4		KNOWN:5,3,3,2,2,2,2
+14	CAST:6,6,6,6,6,6,5,3		KNOWN:5,3,3,2,2,2,2,1
+15	CAST:6,6,6,6,6,6,6,4		KNOWN:5,3,3,2,2,2,2,2
+16	CAST:6,6,6,6,6,6,6,5,3		KNOWN:5,3,3,2,2,2,2,2,1
+17	CAST:6,6,6,6,6,6,6,6,4		KNOWN:5,3,3,2,2,2,2,2,1
+18	CAST:6,6,6,6,6,6,6,6,5,3	KNOWN:5,3,3,2,2,2,2,2,2,1
+19	CAST:6,6,6,6,6,6,6,6,6,4	KNOWN:5,3,3,2,2,2,2,2,2,1
+20	CAST:6,6,6,6,6,6,6,6,6,6	KNOWN:5,3,3,2,2,2,2,2,2,2
+
+
+##Block: Prestige classes
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Artisan	HD:6		TYPE:PC.Prestige	ABB:Art		MAXLEVEL:10	SOURCEPAGE:p.65	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required Feat					Required Skill						Required Template
+CLASS:Artisan	PREFEAT:2,Student of the Arts,Versatile	PRESKILL:1,Profession (Artisan)=5,TYPE.Craft=5	PRETEMPLATE:1,Crane
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Artisan	STARTSKILLPTS:6	CSKILL:Bluff|TYPE=Craft|Diplomacy|Gather Information|TYPE=Perform|TYPE=Profession|Spot
+1																					ADD:FEAT|Kabuki Master,Master Chef,Mocking Countenance,Origami Master,Skilled Acrobat,Soul of Music,The Kami's Grace
+2										BONUS:SKILL|Bluff,Diplomacy,Gather Information|2|Type=Competence
+3																					ADD:FEAT|Kabuki Master,Master Chef,Mocking Countenance,Origami Master,Skilled Acrobat,Soul of Music,The Kami's Grace
+4	SAB:Reputation: +1 die type to Perform for money
+5																					ADD:FEAT|Kabuki Master,Master Chef,Mocking Countenance,Origami Master,Skilled Acrobat,Soul of Music,The Kami's Grace
+6										BONUS:SKILL|Bluff,Diplomacy,Gather Information|2|Type=Competence
+7																					ADD:FEAT|Kabuki Master,Master Chef,Mocking Countenance,Origami Master,Skilled Acrobat,Soul of Music,The Kami's Grace
+8	SAB:Reputation: +2 die type to Perform for money
+9																					ADD:FEAT|Kabuki Master,Master Chef,Mocking Countenance,Origami Master,Skilled Acrobat,Soul of Music,The Kami's Grace
+10										BONUS:SKILL|Bluff,Diplomacy,Gather Information|2|Type=Competence
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Butei		HD:6		TYPE:PC.Prestige	ABB:But		MAXLEVEL:10	SOURCEPAGE:p.66	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|3*CL/4|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat							Required Skill			Required Template		Var. Min. Value
+CLASS:Butei		PREATT:5	PREFEAT:2,Skill Focus (Disguise),Skill Focus (Mimic)	PRESKILL:2,Disguise=8,Bluff=8	PRETEMPLATE:1,Scorpion	PREVARGTEQ:Sneak Attack,3
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Butei		STARTSKILLPTS:4	CSKILL:Balance|Bluff|Concentration|TYPE=Craft|Disguise|Escape Artist|Forgery|Gather Information|Hide|Knowledge (Etiquette)|Knowledge (Clan)%|Knowledge (Shintao)|Listen|Move Silently|Open Lock|TYPE=Perform|Sleight of Hand|TYPE=Profession|Sense Motive|Spot|Tumble
+1	SAB: A Thousand Hearts	SAB:Poison Use	BONUS:SKILL|Disguise,Mimic|CL
+3													BONUS:VAR|Sneak Attack|1
+4	SAB:A Thousand Faces
+5	SAB:The Scorpion's Sting								BONUS:VAR|Sneak Attack|1
+7	SAB:Piercing the Veils
+8													BONUS:VAR|Sneak Attack|1
+10	SAB:No More Masks
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Dragon Swordsmaster	HD:10		TYPE:PC.Prestige	ABB:DSM		MAXLEVEL:10	SOURCEPAGE:p.68	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name			Req. Att.	Required Feat							Required Skill									Required Template		Var. Min. Value
+CLASS:Dragon Swordsmaster	PREATT:5	PREFEAT:3,Combat Expertise,Daisho Technique,Void Use	PRESKILL:1,Iaijutsu Focus=5	PRESKILL:1,Knowledge (Arcana)=3	PRETEMPLATE:1,Dragon	PREVARGTEQ:Honor,3
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Dragon Swordsmaster	STARTSKILLPTS:4	CSKILL:Balance|TYPE=Craft|Concentration|Iaijutsu Focus|TYPE=Perform|TYPE=Profession|Ride|Sense Motive|Tumble
+1	SAB:Daisho Bonus +%|1						AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+2						ADD:FEAT|Quick Draw
+3	SAB:One with the Sword +%|2
+4	SAB:Daisho Bonus +%|1
+5	SAB:One with the Sword +%|1
+6
+7	SAB:Daisho Bonus +%|1
+8	SAB:Truth is in the Killing
+9	SAB:One with the Sword +%|1
+10	SAB:Daisho Bonus +%|1
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Elemental Guardian	HD:6		TYPE:PC.Prestige	ABB:ElG		MAXLEVEL:10	SOURCEPAGE:p.68	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|3*CL/4|TYPE=Base.REPLACE
+# Class Name			Req. Att.	Required Class		Required Feat						Required Skill									Req. Spell Type		Required Template
+CLASS:Elemental Guardian	PREATT:3	PRECLASS:1,Shugenja=1	PREFEAT:2,Ritual Magic,Superior Elemental Focus	PRESKILL:3,Spellcraft=8,Concentration=8,Knowledge (Elements)=8	PRESPELLTYPE:3,Divine=1	PRETEMPLATE:1,Phoenix
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Elemental Guardian	STARTSKILLPTS:4	CSKILL:Concentration|Heal|Knowledge (Elements)|Knowledge (Fortunes)|Knowledge (Shintao)|Spellcraft
+1						BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=1|1								ADD:SPELLCASTER|Divine	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+2						BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=1|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=2|1	ADD:SPELLCASTER|Divine
+3	SAB:Greater Element Focus	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=2|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=3|1
+4						BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=3|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=4|1	ADD:SPELLCASTER|Divine
+5						BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=4|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=5|1	ADD:SPELLCASTER|Divine
+6						BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=5|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=1|1
+7						BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=1|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=2|1	ADD:SPELLCASTER|Divine
+8						BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=2|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=3|1	ADD:SPELLCASTER|Divine
+9						BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=3|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=4|1
+10	SAB:Elemental Mastery		BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=4|1	BONUS:SPELLKNOWN|CLASS=Shugenja;LEVEL=5|1
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Emerald Magistrate	HD:8		TYPE:PC.Prestige	ABB:EMg		MAXLEVEL:10	SOURCEPAGE:p.70	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|3*CL/4|TYPE=Base.REPLACE
+# Class Name			Req. Att.	Required Feat				Required Skill
+CLASS:Emerald Magistrate	PREATT:5	PREFEAT:2,Alertness,Leadership	PRESKILL:2,Gather Information=5,Knowledge (Law)=5
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Emerald Magistrate	STARTSKILLPTS:6	CSKILL:Bluff|Diplomacy|Gather Information|Iaijutsu Focus|Intimidate|Knowledge (Law)|Ride|Search|Sense Motive|Spot
+1	SAB:Emperor's Seal		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Simple Weapon Proficiency|Martial Weapon Proficiency		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+2	SAB:Strength of Purpose +%|2
+3	SAB:Saibankan's Method
+4	SAB:Strength of Purpose +%|2
+5	SAB:For The Empire +1|1
+6	SAB:Strength of Purpose +%|2
+7	SAB:In His Name
+8	SAB:Strength of Purpose +%|2
+9	SAB:For The Empire +1|1
+10	SAB:Strength of Purpose +%|2
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Kolat Agent	HD:6		TYPE:PC.Prestige	ABB:Klt		MAXLEVEL:10	SOURCEPAGE:p.71	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|3*CL/4|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat			Required Skill								Var. Max. Value
+CLASS:Kolat Agent	PREATT:3	PREFEAT:1,Perceived Honor	PRESKILL:4,Gather Information=4,Bluff=4,Sense Motive=4	PREVARLTEQ:Honor,2
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Kolat Agent	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|TYPE=Craft|Decipher Script|Diplomacy|Disguise|Forgery|TYPE=Game|Gather Information|Hide|Intimidate|Knowledge (History)|Listen|Move Silently|Sleight of Hand|Search|Sense Motive|Spot
+1	SAB:Secret Brotherhood						ADD:FEAT|Kolat Duplicate,Kolat Versatile,Perceived Honor,Poison Use
+2					BONUS:VAR|Sneak Attack|1
+3	SAB:Tell No Secrets
+4										ADD:FEAT|Kolat Duplicate,Kolat Versatile,Perceived Honor,Poison Use
+5					BONUS:VAR|Sneak Attack|1
+6	SAB:Activate Sleeper
+7										ADD:FEAT|Kolat Duplicate,Kolat Versatile,Perceived Honor,Poison Use
+8					BONUS:VAR|Sneak Attack|1
+9										ADD:FEAT|Kolat Duplicate,Kolat Versatile,Perceived Honor,Poison Use
+10	SAB:Program Sleeper						ADD:FEAT|Kolat Duplicate,Kolat Versatile,Perceived Honor,Poison Use
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Lion's Pride	HD:10		TYPE:PC.Prestige	ABB:LPd		MAXLEVEL:10	SOURCEPAGE:p.72	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat			Required Template		Var. Min. Value
+CLASS:Lion's Pride	PREATT:6	PREFEAT:2,Iron Will,Ki Shout	PRETEMPLATE:1,Lion	PREVARGTEQ:Honor,3
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Lion's Pride	STARTSKILLPTS:4	CSKILL:Battle|Climb|Handle Animal|Intimidate|Jump|Knowledge (Nobility and Royalty)|TYPE=Perform|TYPE=Profession|Ride|Sense Motive|Swim
+1	SAB:No Man's Bride																													ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies				AUTO:FEAT|Armor Proficiency (Heavy)|Armor Proficiency (Light)|Armor Proficiency (Medium)|Simple Weapon Proficiency|Martial Weapon Proficiency
+2					BONUS:CHECKS|CHA+	ADD:FEAT|Combat Expertise,Diehard,Endurance,Great Ki Shout,Improved Disarm,Improved Initiative,Improved Trip,Toughness,Weapon Focus (Sword (Bastard)),Whirlwind Attack
+3
+4								ADD:FEAT|Combat Expertise,Diehard,Endurance,Great Ki Shout,Improved Disarm,Improved Initiative,Improved Trip,Toughness,Weapon Focus (Sword (Bastard)),Whirlwind Attack
+5	SAB:Matsu's Eyes
+6
+7								ADD:FEAT|Combat Expertise,Diehard,Endurance,Great Ki Shout,Improved Disarm,Improved Initiative,Improved Trip,Toughness,Weapon Focus (Sword (Bastard)),Whirlwind Attack
+8	SAB:Matsu's Fury
+9
+10								ADD:FEAT|Combat Expertise,Diehard,Endurance,Great Ki Shout,Improved Disarm,Improved Initiative,Improved Trip,Toughness,Weapon Focus (Sword (Bastard)),Whirlwind Attack
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Master of the Akasha	HD:6		TYPE:PC.Prestige	ABB:MAk		MAXLEVEL:10	SOURCEPAGE:p.73	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|3*CL/4|TYPE=Base.REPLACE
+# Class Name			Req. Att.	Required Feat					Required Race	Required Skill
+CLASS:Master of the Akasha	PREATT:5	PREFEAT:2,Akasha Use,Depths of the Akasha	PRERACE:1,Naga	PRESKILL:1,Knowledge (Akasha)=5
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Master of the Akasha	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Hide|Knowledge (Akasha)|Move Silently|Sense Motive
+1									CSKILL:LIST	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+2	SAB:Meditation +%|3
+3					BONUS:SKILL|Scry|1
+4	SAB:Improved Akasha Use
+5	SAB:Skill Duplication
+6	SAB:Meditation +%|2
+7	SAB:Spirit Thief
+8	SAB:Superior Akasha Use
+9	SAB:Feat Duplication
+10	SAB:Meditation +%|2
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Mastermind	HD:6		TYPE:PC.Prestige	ABB:Msm		MAXLEVEL:10	SOURCEPAGE:p.74	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required Feat														Required Skill
+CLASS:Mastermind	PREFEAT:5,Iron Will,Versatile,Leadership,Skill Focus (Sense Motive),Skill Focus (Diplomacy)	PRESKILL:4,Bluff=12,Diplomacy=12,Sense Motive=12,Knowledge (Etiquette)=12
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Mastermind	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Decipher Script|Diplomacy|Forgery|Gather Information|Intimidate|Knowledge (Local)|Knowledge (Nobility and Royalty)|Listen|Search|Sense Motive|Spot|Tea Ceremony
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Ratling Shaman	HD:4		TYPE:PC.Prestige	ABB:Nmt		MAXLEVEL:10	SOURCEPAGE:p.76	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|3*CL/4|TYPE=Base.REPLACE
+# Class Name		Required Race	Required Skill							Req. Spell Type
+CLASS:Ratling Shaman	PRERACE:1,Nezumi	PRESKILL:2,Concentration=10,Knowledge (Arcana)=10	PRESPELLTYPE:3,Arcane=1
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Ratling Shaman	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|TYPE=Knowledge|TYPE=Perform|TYPE=Profession|Spellcraft
+1	ADD:SPELLCASTER|Arcane
+2	ADD:SPELLCASTER|Arcane
+3	ADD:SPELLCASTER|Arcane
+4	ADD:SPELLCASTER|Arcane
+5	ADD:SPELLCASTER|Arcane
+6	ADD:SPELLCASTER|Arcane
+7	ADD:SPELLCASTER|Arcane
+8	ADD:SPELLCASTER|Arcane
+9	ADD:SPELLCASTER|Arcane
+10	ADD:SPELLCASTER|Arcane
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Shadowlands Veteran	HD:10		TYPE:PC.Prestige	ABB:ShV		MAXLEVEL:10	SOURCEPAGE:p.78	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name			Req. Att.	Required Feat					Required Skill
+CLASS:Shadowlands Veteran	PREATT:7	PREFEAT:3,Iron Will,Void Use,Weapon Focus	PRESKILL:2,Knowledge (Shadowlands)=4,Spot=4
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Shadowlands Veteran	STARTSKILLPTS:4	CSKILL:Climb|Heal|Hide|Intimidate|Jump|Knowledge (Shadowlands)|Listen|Move Silently|Sense Motive|Spot|Survival
+1	AUTO:FEAT|Armor Proficiency (Heavy)|Armor Proficiency (Light)|Armor Proficiency (Medium)|Simple Weapon Proficiency|Martial Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Shinjo Explorer	HD:10		TYPE:PC.Prestige	ABB:ShX		MAXLEVEL:10	SOURCEPAGE:p.79	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat	Required Skill						Required Template
+CLASS:Shinjo Explorer	PREATT:5	PREFEAT:1,Track	PRESKILL:4,Handle Animal=5,Ride=5,Survival=5	PRETEMPLATE:1,Unicorn
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Shinjo Explorer	STARTSKILLPTS:4	CSKILL:Climb|TYPE=Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Nature)|Listen|Move Silently|TYPE=Profession|Ride|Search|Spot|Swim|Use Rope|Survival
+1	SAB:Shared Stride	SAB:Animal Companion														AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+3	SAB:Absolute Direction
+5								ADD:FEAT|Exotic Weapon Proficiency,Armor Proficiency (Heavy),Shield Proficiency
+7	SAB:Animal Companion
+9								ADD:FEAT|Exotic Weapon Proficiency,Armor Proficiency (Heavy),Shield Proficiency
+10	SAB:Animal Companion
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Siegemaster	HD:8		TYPE:PC.Prestige	ABB:Sge		MAXLEVEL:10	SOURCEPAGE:p.80	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat						Required Skill											Required Template
+CLASS:Siegemaster	PREATT:5	PREFEAT:3,Alertness,Endurance,Weapon Focus	PRESKILL:1,Battle=5	PRESKILL:1,Craft (Armorer)=3,Craft (Weaponsmith)=3	PRETEMPLATE:1,Crab
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Siegemaster	STARTSKILLPTS:4	CSKILL:Battle|TYPE=Craft|Diplomacy|Disable Device|Open Lock|Ride|Sense Motive|Spot
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Armor Proficiency (Heavy)|Armor Proficiency (Light)|Armor Proficiency (Medium)|Martial Weapon Proficiency|Simple Weapon Proficiency
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Storm Legion	HD:10		TYPE:PC.Prestige	ABB:Stm		MAXLEVEL:10	SOURCEPAGE:p.81	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat							Required Skill		Required Template
+CLASS:Storm Legion	PREATT:7	PREFEAT:2,Dodge,Power Attack	PREFEAT:1,Weapon Focus	PRESKILL:1,Balance=4	PRETEMPLATE:1,Mantis
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Storm Legion	STARTSKILLPTS:4	CSKILL:Balance|Climb|TYPE=Craft|Intimidate|Jump|TYPE=Profession|Search|Spot|Swim
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Storm Legion Weapon Proficiencies		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+CLASS:Sword of Yotsu	HD:12		TYPE:PC.Prestige	ABB:Yot		MAXLEVEL:10	SOURCEPAGE:p.82	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat					Required Skill							Var. Min. Value
+CLASS:Sword of Yotsu	PREATT:4	PREFEAT:2,Alertness,Combat Expertise	PRESKILL:3,Knowledge (Law)=4,Sense Motive=4,Spot=4	PREVARGTEQ:Honor,1
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Sword of Yotsu	STARTSKILLPTS:2	CSKILL:Climb|TYPE=Craft|Diplomacy|Intimidate|Jump|Knowledge (Law)|TYPE=Profession|Ride|Sense Motive|Swim
+1																AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Martial Weapon Proficiency|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+2	ADD:FEAT|Weapon Focus (Sword (Bastard)),Weapon Focus (Sword (Short))
+3
+4
+5																AUTO:FEAT|Superior Expertise
+6
+7
+8	ADD:FEAT|Weapon Specialization (Sword (Bastard)),Weapon Specialization (Sword (Short))
+9
+10
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus															Combat bonus
+CLASS:Wasp Bounty Hunter	HD:8		TYPE:PC.Prestige	ABB:WBH		MAXLEVEL:10	SOURCEPAGE:p.84	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name			Req. Att.	Required Feat			Required Skill							Required Template		Req. Weapond Prof.
+CLASS:Wasp Bounty Hunter	PREATT:6	PREFEAT:1,Weapon Focus (Bow)	PRESKILL:2,Gather Information=4,Knowledge (Law)=4	PRETEMPLATE:1,Tsuruchi	PREWEAPONPROF:1,Bow
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Wasp Bounty Hunter	STARTSKILLPTS:4	CSKILL:Bluff|Gather Information|Hide|Intimidate|Knowledge (Law)|Move Silently|Search|Sense Motive|Spot|Survival
+1	AUTO:FEAT|Armor Proficiency (Light)|Martial Weapon Proficiency|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+##Block: .MODed classes
+
+# Class Name			Clear Prereq.	Required AL		Req. Att.	Required Feat																Required Skill
+CLASS:Iaijutsu Master.MOD	PRE:.CLEAR		PREALIGN:LG,LN,LE	PREATT:6	PREFEAT:2,Improved Initiative,Weapon Focus (Sword (Bastard))	PREFEAT:1,Quick Draw,Way of the Crane	PRESKILL:1,Iaijutsu Focus=9

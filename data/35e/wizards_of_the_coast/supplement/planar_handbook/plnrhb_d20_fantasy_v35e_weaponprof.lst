@@ -1,0 +1,15 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Simple
+# Weapon Name	Type			Nb Hands
+Muspelrule		TYPE:Simple
+Sickle (Heavy)	TYPE:Simple
+# Martial
+Lancet (Gehennan)	TYPE:Martial
+Stabaxe		TYPE:Martial
+Straightblade	TYPE:Martial
+Ripper		TYPE:Martial	HANDS:2
+# Exotic
+Jovar			TYPE:Exotic		HANDS:2
+Ramhammer		TYPE:Exotic		HANDS:2
+Annulat		TYPE:Exoitc

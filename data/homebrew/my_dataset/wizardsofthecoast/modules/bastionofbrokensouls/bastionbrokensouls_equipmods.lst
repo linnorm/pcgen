@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+
+# Modifier Name	Unique Key		Type				Plus		Source Page		Required Type		Special Property
+Dragonbane		KEY:DRGNBANE	TYPE:Weapon.Ammunition	PLUS:2	SOURCEPAGE:p.46	PRETYPE:1,Enhancement	SPROP:+2 better vs. dragons and does +2d6 bonus damage

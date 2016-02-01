@@ -1,0 +1,9 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #289	SOURCESHORT:WotC-Dragon #289	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+#Template Name		Hit Die Size	Challenge Rating	Attribute Mods					Visible	Natural Armor	Require AL		Dmg Reduction	Adj. Lvl advance	Template Name		Feats		Source											Special Abilities
+#Kaiju																																				p.68
+
+#MASTERIES
+# Template Name			Source Page		Special ABility								Required Feat																												Req. Known Spell
+Mastery, Spirit's Grasp		SOURCEPAGE:p.80	SAB:Effective level for Ki Shout goes up by one			PREFEAT:7,Improved Unarmed Strike,Iron Will,Dodge,Mobility,Expertise,Whirlwind Attack,Ki Shout															PRESPELL:1,Castigate
+Mastery, Defender's Attack	SOURCEPAGE:p.80	SAB:Can make AOO against melee opponent who misses you	PREFEAT:11,Improved Unarmed Strike,Stunning Fist,Dodge,Mobility,Expertise,Superior Expertise,Combat Reflexes,Deflect Arrows,Unbalancing Strike,Defensive Strike,Remain Conscious

@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/17/03
+SOURCELONG:Heart of Nightfang Spire	SOURCESHORT:HeartNight	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name				Output Name					Type						Cost		Weight	AC Penalty Check	Base Item for EQMOD		Modifier		Source Page		% of Spell Failure	Combat bonus
+Shield +2 (Light Fortification)	OUTPUTNAME:+2 Shield of [NAME]	TYPE:Magic.Shield.Specific.Metal	COST:9170	WT:15		ACCHECK:-2		BASEITEM:Shield (Large/Steel)	EQMOD:ARMFORL	SOURCEPAGE:p.2+	SPELLFAILURE:15		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE

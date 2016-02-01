@@ -1,0 +1,13 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 11:55:36 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Scarred Lands	SOURCESHORT:ScarredLands	SOURCEWEB:http://www.swordsorcery.com
+
+# Deity Name	Domains													Desciption of Deity/Title					Holy Item												Deity Weapon					Alignment	Source Page
+Corean		DOMAINS:Fire,Good,Law,Protection,War,Missionary|PREALIGN:LG,LN,NG				DESC:The Avenger, the Champion				SYMBOL:Four longswords forming a compass rose						DEITYWEAP:Sword (Long)				ALIGN:LG	SOURCEPAGE:p.
+Madriel		DOMAINS:Air,Good,Healing,Plants,Sun,Missionary|PREALIGN:LG,NG,TN,CG			DESC:The Redeemer, the First Angel of Mercy		SYMBOL:Spear with a tassel of peacock feathers						DEITYWEAP:Shortspear|Longspear		ALIGN:NG	SOURCEPAGE:p.
+Tanil			DOMAINS:Animals,Chaos,Luck,Plants,Travel,Trickery,Missionary|PREALIGN:NG,CG,CN	DESC:The Huntress							SYMBOL:Three bronze arrows lying parallel							DEITYWEAP:Longbow					ALIGN:CG	SOURCEPAGE:p.
+Hedrada		DOMAINS:Knowledge,Law,Protection,Missionary|PREALIGN:LG,LN,LE,TN				DESC:The Lawgiver, the Judge					SYMBOL:Two-handed hammer									DEITYWEAP:Warhammer				ALIGN:LN	SOURCEPAGE:p.
+Denev			DOMAINS:Air,Animals,Earth,Fire,Plants,Water,Missionary|PREALIGN:LN,NG,TN,NE,CN	DESC:The Earth mother						SYMBOL:Stone sickle with flowering handle							DEITYWEAP:Sickle (Stone)			ALIGN:TN	SOURCEPAGE:p.
+Enkili		DOMAINS:Air,Chaos,Luck,Travel,Trickery,Missionary,Thievery|PREALIGN:TN,CG,CN,CE	DESC:The Trickster, the Shapeshifter, the Unlucky	SYMBOL:Mask decorated with lightning shooting from the eyes				DEITYWEAP:Flail (Light)|Flail (Heavy)	ALIGN:CN	SOURCEPAGE:p.
+Chardun		DOMAINS:Evil,Law,Strength,War,Missionary|PREALIGN:LN,LE,NE					DESC:The Slaver, the Overlord, the Great General	SYMBOL:Blood-soaked golden scepter, crowned with a thorny laurel wreath		DEITYWEAP:Mace (Heavy)|Mace (Light)		ALIGN:LE	SOURCEPAGE:p.
+Belsameth		DOMAINS:Death,Evil,Magic,Trickery,Missionary,Thievery|PREALIGN:LE,TN,NE,CE		DESC:The Slayer, the Assassin					SYMBOL:Thin silver circle on a black field (signifying the lunar eclipse)	DEITYWEAP:Dagger					ALIGN:NE	SOURCEPAGE:p.
+Vangal		DOMAINS:Chaos,Destruction,Evil,Strength,War,Missionary|PREALIGN:NE,CN,CE		DESC:The Reaver, the Ravager					SYMBOL:Cloven shield dripping blood								DEITYWEAP:Battleaxe				ALIGN:CE	SOURCEPAGE:p.

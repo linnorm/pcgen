@@ -1,0 +1,10 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #279	SOURCESHORT:WotC-Dragon #279	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name		Type				Cost		Weight	Critical Hit Range	Range		Source Page
+Arrow (Blunt/20)		TYPE:Ammunition.Elven	COST:10	WT:3		CRITRANGE:1					SOURCEPAGE:p.49
+Arrow (Flight/20)		TYPE:Ammunition.Elven	COST:10	WT:2		CRITRANGE:1			RANGE:20	SOURCEPAGE:p.49
+Arrow (Signal/20)		TYPE:Ammunition.Elven	COST:10	WT:3		CRITRANGE:1					SOURCEPAGE:p.49
+Arrow (Smoke/20)		TYPE:Ammunition.Elven	COST:25	WT:4						RANGE:-10	SOURCEPAGE:p.49
+Arrow (Thunder/20)	TYPE:Ammunition.Elven	COST:35	WT:6						RANGE:-20	SOURCEPAGE:p.49
+Darts (Blowgun/10)	TYPE:Ammunition		COST:1	WT:0.5							SOURCEPAGE:p.49

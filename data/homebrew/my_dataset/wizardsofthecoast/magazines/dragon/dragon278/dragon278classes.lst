@@ -1,0 +1,20 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #278	SOURCESHORT:WotC-Dragon #278	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus					WEAPONAUTO
+CLASS:Stonelord	HD:8		TYPE:PC.Prestige	ABB:Sto		MAXLEVEL:10	SOURCEPAGE:p.92	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE
+# Class Name	Req. Att.	Required Feat		Required Language	Required Race	Required Skill
+CLASS:Stonelord	PREATT:5	PREFEAT:1,Endurance	PRELANG:1,Terran	PRERACE:1,Dwarf	PRESKILL:1,Craft (Stoneworking)=6	PRESKILL:1,Spellcraft=3
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Stonelord	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Swim
+1	SAB:Earth's Blood																										AUTO:FEAT|Simple Weapon Proficiency
+2					ADD:Stone Power(Earth's Strength,Earth's Endurance,Earthgrip,Gravity,Earth Magic,Earth Shadows,Earth Power,Stoneskin,Summon Earth Elemental)
+3	SAB:Stone Shape
+4					ADD:Stone Power(Earth's Strength,Earth's Endurance,Earthgrip,Gravity,Earth Magic,Earth Shadows,Earth Power,Stoneskin,Summon Earth Elemental)
+5	SAB:Meld Into Stone
+6					ADD:Stone Power(Earth's Strength,Earth's Endurance,Earthgrip,Gravity,Earth Magic,Earth Shadows,Earth Power,Stoneskin,Summon Earth Elemental)
+7	SAB:Stone Tell
+8					ADD:Stone Power(Earth's Strength,Earth's Endurance,Earthgrip,Gravity,Earth Magic,Earth Shadows,Earth Power,Stoneskin,Summon Earth Elemental)
+9	SAB:Earthquake
+10					ADD:Stone Power(Earth's Strength,Earth's Endurance,Earthgrip,Gravity,Earth Magic,Earth Shadows,Earth Power,Stoneskin,Summon Earth Elemental)
+

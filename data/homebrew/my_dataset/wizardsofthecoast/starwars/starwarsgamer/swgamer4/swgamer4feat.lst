@@ -1,0 +1,4 @@
+# CVS $Revision: 1.3 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer #4	SOURCESHORT:SWG4	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+# Feat Name			Type			Required Skill			Description																			Source Page
+Wookie Brachiation	TYPE:General	PRESKILL:2,Climb=4,Jump=4	DESC:You can move vertically and horizontally through trees (that can support your weight) at your base movement rate.	SOURCEPAGE:p.55

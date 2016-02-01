@@ -1,0 +1,56 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:50:00 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
+
+# Language		Product Identity?	Type
+Abyssal					TYPE:Spoken.Written
+Algorian		NAMEISPI:YES	TYPE:Spoken.Written
+Ancient Kishan	NAMEISPI:YES	TYPE:Spoken.Written
+Aquan						TYPE:Spoken
+Ardonian		NAMEISPI:YES	TYPE:Spoken.Written
+Asaatthi					TYPE:Spoken.Written
+Auran						TYPE:Spoken
+Azgarothian		NAMEISPI:YES	TYPE:Spoken.Written
+Bakemono					TYPE:Spoken
+Barbic		NAMEISPI:YES	TYPE:Spoken
+Bellagonian		NAMEISPI:YES	TYPE:Spoken.Written
+Bloodlandian	NAMEISPI:YES	TYPE:Spoken.Written
+Buso						TYPE:Spoken
+Candonian		NAMEISPI:YES	TYPE:Spoken.Written
+Celestial					TYPE:Spoken.Written
+Draconic					TYPE:Spoken.Written
+Dwarech		NAMEISPI:YES	TYPE:Spoken.Written
+Elaurin		NAMEISPI:YES	TYPE:Spoken.Written
+Eruvij		NAMEISPI:YES	TYPE:Spoken
+Giant						TYPE:Spoken
+Gnoll						TYPE:Spoken
+Gnome						TYPE:Spoken.Written
+Goblin					TYPE:Spoken
+Haknaaran		NAMEISPI:YES	TYPE:Spoken.Written
+Hengeyokai					TYPE:Spoken
+Ignan						TYPE:Spoken
+Infernal					TYPE:Spoken.Written
+Kappa						TYPE:Spoken
+Kharsirian		NAMEISPI:YES	TYPE:Spoken.Written
+Kishan		NAMEISPI:YES	TYPE:Spoken
+Lharsish		NAMEISPI:YES	TYPE:Written
+Ling-Har		NAMEISPI:YES	TYPE:Spoken.Written
+Miinowan		NAMEISPI:YES	TYPE:Spoken
+Minotaur					TYPE:Spoken.Written
+Mysidian		NAMEISPI:YES	TYPE:Spoken.Written
+Nihoric		NAMEISPI:YES	TYPE:Spoken.Written
+Nyarsk		NAMEISPI:YES	TYPE:Spoken.Written
+Orc						TYPE:Spoken
+Pantorkian		NAMEISPI:YES	TYPE:Spoken.Written
+Scrogothian		NAMEISPI:YES	TYPE:Spoken.Written
+Spirit Tongue				TYPE:Spoken.Written
+Sylvan					TYPE:Spoken
+Tasloi					TYPE:Spoken
+Telronteean		NAMEISPI:YES	TYPE:Spoken.Written
+Tengu						TYPE:Spoken
+Terran					TYPE:Spoken
+Undercommon					TYPE:Spoken
+Uuharic		NAMEISPI:YES	TYPE:Spoken.Written
+Vizhnak					TYPE:Spoken.Written
+Yeti						TYPE:Spoken
+Yuan-Ti					TYPE:Spoken.Written
+Zharan		NAMEISPI:YES	TYPE:Spoken.Written

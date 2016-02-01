@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Noble's Handbook	SOURCESHORT:nobleshandbook	SOURCEWEB:http://www.greenronin.com
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+#CLASS:Infernal Witch	HD:4		TYPE:PC.Prestige	ABB:InW		MAXLEVEL:10	SOURCEPAGE:p.12	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Required AL		Req. Spell Type		Required Text
+#CLASS:Infernal Witch	PREALIGN:LE,NE,CE	PRESPELLTYPE:Arcane,1,3	PRETEXT:The infernal witch must forge a pact with a powerful evil outsider.
+# Class Name		Skill Pts/Lvl	Class Skill
+#CLASS:Infernal Witch	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Craft (Alchemy)|Disguise|Forgery|Gather Information|Hide|Intimidate|Knowledge (Arcana)|Knowledge (Demon Lore)|Move Silently|Sense Motive|Spellcraft|Spot

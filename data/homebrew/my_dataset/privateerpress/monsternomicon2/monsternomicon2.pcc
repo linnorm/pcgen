@@ -1,0 +1,19 @@
+
+# Created by Rax the Grey
+CAMPAIGN:Monsternomicon Volume II
+RANK:2
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:RSRD
+SETTING:Iron Kingdoms
+TYPE:Privateer Press.Iron Kingdoms
+SOURCELONG:Monsternomicon Volume II
+SOURCESHORT:Monsternomicon2
+SOURCEWEB:http://www.ironkingdoms.com
+ISOGL:YES
+
+
+ABILITY:monsternomicon2_abilities.lst
+RACE:monsternomicon2_races.lst
+SKILL:monsternomicon2_skills.lst
+TEMPLATE:monsternomicon2_templates.lst

@@ -1,0 +1,5 @@
+SOURCELONG:Monsternomicon Volume II	SOURCESHORT:Monsternomicon2	SOURCEWEB:http://www.ironkingdoms.com
+
+# Ability Name					Category of Ability		Type								Visible	Define				Description
+Turn Immunity					CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural			VISIBLE:YES						DESC:Cannot be Turned or Rebuked
+Illusionary Dominion				CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural			VISIBLE:YES						DESC:Inside its tomb the deathless and retinue appear as in life until destroyed. Will save DC:%1 to reveal the illusion.|10+HD+CHA

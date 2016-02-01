@@ -1,0 +1,52 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
+
+###Block:Mundane Container Name
+# Equipment Name				Output Name						Type							Contains					Cost		Weight	Size		Source Page		Special Property
+Coin Purse												TYPE:Goods.Container.General.Resizable	CONTAINS:5|Gem=50|Coin=50|Total=50	COST:1	WT:0.5
+Quiver (Large)				OUTPUTNAME:Quiver, [NAME]			TYPE:Goods.Container.General			CONTAINS:UNLIM|Ammunition=50		COST:4	WT:2
+Quiver (Small)				OUTPUTNAME:Quiver, [NAME]			TYPE:Goods.Container.General			CONTAINS:UNLIM|Ammunition=20		COST:2	WT:1
+
+###OA Specific Equipment
+##Block: General Equipment
+Shaken (2 lbs.)											TYPE:Goods.General.Metal									COST:1	WT:2				SOURCEPAGE:p.77	SPROP:OA Caltrops
+Calligraphy Brush											TYPE:Goods.General.Resizable.Writing							COST:0.1	WT:0.01			SOURCEPAGE:p.77
+Inking Stone											TYPE:Goods.General.Resizable.Writing							COST:0.1	WT:0.01			SOURCEPAGE:p.77
+Lantern (Paper)				OUTPUTNAME:Lantern, paper			TYPE:Goods.General.Resizable									COST:0.1	WT:1				SOURCEPAGE:p.77
+
+##Block: Class Tools
+Prayer Beads											TYPE:Goods.Tools.Resizable									COST:1	WT:0.01			SOURCEPAGE:p.77
+Bell (Small)				OUTPUTNAME:Bell, small				TYPE:Goods.Tools.Resizable.Metal								COST:1	WT:0.01			SOURCEPAGE:p.77
+Gong													TYPE:Goods.Tools.Resizable.Metal								COST:1	WT:0.01			SOURCEPAGE:p.77
+Prayer Wheel											TYPE:Goods.Tools.Resizable									COST:25	WT:1				SOURCEPAGE:p.77
+Bell (Large)				OUTPUTNAME:Bell, large				TYPE:Goods.Tools.Resizable									COST:25	WT:1				SOURCEPAGE:p.77
+Ofuda (Set)					OUTPUTNAME:Set of Ofuda (Blank)		TYPE:Goods.Book											COST:15	WT:3				SOURCEPAGE:p.77
+
+##Block: Food and Lodging
+Tea (Gallon)											TYPE:Goods.General.Food										COST:0.2	WT:8				SOURCEPAGE:p.77
+Fruit Brandy (Gallon)										TYPE:Goods.General.Food										COST:0.2	WT:8				SOURCEPAGE:p.77
+Beer (Gallon)											TYPE:Goods.General.Food										COST:0.2	WT:8				SOURCEPAGE:p.77
+Mead (Gallon)											TYPE:Goods.General.Food										COST:0.2	WT:8				SOURCEPAGE:p.77
+Tea (Mug)												TYPE:Goods.General.Food										COST:0.04	WT:1				SOURCEPAGE:p.77
+Fruit Brandy (Mug)										TYPE:Goods.General.Food										COST:0.04	WT:1				SOURCEPAGE:p.77
+Beer (Mug)												TYPE:Goods.General.Food										COST:0.04	WT:1				SOURCEPAGE:p.77
+Mead (Mug)												TYPE:Goods.General.Food										COST:0.04	WT:1				SOURCEPAGE:p.77
+Vinegar												TYPE:Goods.General.Food										COST:0.01	WT:0.5			SOURCEPAGE:p.77
+Sake (Pitcher)				OUTPUTNAME:Sake, pitcher			TYPE:Goods.General.Food										COST:0.2	WT:6				SOURCEPAGE:p.107
+Shochu (Bottle)				OUTPUTNAME:Shochu, bottle			TYPE:Goods.General.Food										COST:10	WT:1.5			SOURCEPAGE:p.107
+
+##Block: Mounts and Related Gear
+Elephant (Work)				OUTPUTNAME:Elephant, work			TYPE:Goods.Mount.Container			CONTAINS:1200|Any=1200			COST:2000	WT:0.01	SIZE:H	SOURCEPAGE:p.78
+Elephant (War)				OUTPUTNAME:Elephant, war			TYPE:Goods.Mount.Container			CONTAINS:1200|Any=1200			COST:2000	WT:0.01	SIZE:H	SOURCEPAGE:p.78
+Howdah												TYPE:Goods.Mount.Container.Transportation	CONTAINS:UNLIM|Any=9999			COST:200	WT:100	SIZE:H	SOURCEPAGE:p.78	SPROP:A platform for riders on an elephant's back. A Howdah can carry up to 4 medium sized creatures.
+
+
+##Block: Special and Superior Items
+Eggshell Grenade (Dust)			OUTPUTNAME:Eggshell Grenade, dust		TYPE:Goods.Alchemical										COST:10	WT:0.01			SOURCEPAGE:p.78
+Eggshell Grenade (Flashpowder)	OUTPUTNAME:Eggshell Grenade, flashpowder	TYPE:Goods.Alchemical										COST:60	WT:0.01			SOURCEPAGE:p.78
+Eggshell Grenade (Pepper)		OUTPUTNAME:Eggshell Grenade, pepper		TYPE:Goods.Alchemical										COST:10	WT:0.01			SOURCEPAGE:p.78
+Eggshell Grenade (Poison Smoke)	OUTPUTNAME:Eggshell Grenade, poison smoke	TYPE:Goods.Alchemical										COST:150	WT:0.01			SOURCEPAGE:p.78
+Flash Paper (Square)										TYPE:Goods.Alchemical										COST:5	WT:0.01			SOURCEPAGE:p.78
+Jade Powder (Flask)										TYPE:Goods.Liquid.Alchemical									COST:100	WT:0.01			SOURCEPAGE:p.78
+Liquid Smoke (Flask)										TYPE:Goods.Liquid.Alchemical									COST:20	WT:0.01			SOURCEPAGE:p.78
+Sleeping Fire (Flask)										TYPE:Goods.Liquid.Alchemical									COST:40	WT:0.01			SOURCEPAGE:p.78

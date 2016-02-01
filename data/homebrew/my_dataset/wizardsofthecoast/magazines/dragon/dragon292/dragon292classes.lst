@@ -1,0 +1,55 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #292	SOURCESHORT:WotC-Dragon #292	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																	Combat bonus
+CLASS:Darkwood Stalker	HD:8		TYPE:PC.Prestige	ABB:DwS		MAXLEVEL:10	SOURCEPAGE:p.58-59	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Willpower|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat		Required Language	Required Race		Required Skill
+CLASS:Darkwood Stalker	PREATT:5	PREFEAT:2,Dodge,Track	PRELANG:1,Orc	PRERACE:1,Elf|Half-Elf	PRESKILL:5,Hide,Listen,Move Silently,Spot,Wilderness Lore=5
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Darkwood Stalker	STARTSKILLPTS:4	CSKILL:Climb|Jump|Swim|Hide|Move Silently|Ride|Use Rope|TYPE.Craft|Knowledge (Nature)|Search|Heal|Intuit Direction|Listen|TYPE.Profession|Spot|Wilderness Lore
+1	SAB:Ancient Foe(Orcs)+%|1
+2	SAB:Uncanny Dodge(Dex bonus to AC)
+3	SAB:Sneak Attack +%d%|Sneak Attack|Sneak Attack Die		BONUS:VAR|Sneak Attack|1	DEFINE:Sneak Attack Die|6	DEFINE:Sneak Attack|0
+4	SAB:Ancient Foe(Orcs)+%|1	SAB:Darkvision %|30
+5	SAB:Uncanny Dodge(can't be flanked)
+6											BONUS:VAR|Sneak Attack|1
+7	SAB:Ancient Foe(Orcs)+%|1	SAB:Darkvision %|30
+8	SAB:Uncanny Dodge(+1 vs. traps)
+9											BONUS:VAR|Sneak Attack|2
+10	SAB:Ancient Foe(Orcs)+%|1	SAB:Dodge Critical 1/day
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																Combat bonus
+CLASS:Cave Stalker	HD:8		TYPE:PC.Prestige	ABB:CSk		MAXLEVEL:5	SOURCEPAGE:p.53-54	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Willpower|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat			Required Race	Required Skill
+CLASS:Cave Stalker	PREATT:5	PREFEAT:2,Blind-Fight,Track	PRERACE:1,Dwarf	PRESKILL:3,Craft (Trapmaking),Move Silently,Wilderness Lore=5
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Cave Stalker	STARTSKILLPTS:4	CSKILL:Climb|Swim|Hide|Use Rope|Concentration|Craft (Trapmaking)|Knowledge (Nature)|Intuit Direction|Listen|TYPE.Profession|Spot|Wilderness Lore
+1	SAB:Improved Stonecunning																			ADD:SPELLCASTER||Divine
+2	SAB:Meld into Stone
+3	SAB:Sneak Attack +%d%|Sneak Attack|Sneak Attack Die	BONUS:VAR|Sneak Attack|1	DEFINE:Sneak Attack Die|6	DEFINE:Sneak Attack|0	ADD:SPELLCASTER||Divine
+4	SAB:Enhanced Darkvision +20'
+5										BONUS:VAR|Sneak Attack|1										ADD:SPELLCASTER||Divine
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																	Combat bonus
+CLASS:Fiend Binder	HD:8		TYPE:PC.Prestige	ABB:FdB		MAXLEVEL:5	SOURCEPAGE:p.54-55	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Willpower|(CL/2)+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required AL		Required Feat		Required Race		Required Skill							Req. Known Spell
+CLASS:Fiend Binder	PREALIGN:LE,NE,CE	PREFEAT:1,Iron Will	PRERACE:1,Orc|Half-Orc	PRESKILL:1,Animal Empathy=8	PRESKILL:1,Intimidate=4	PRESPELL:1,Summon Monster I,Summon Nature's Ally I
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Fiend Binder	STARTSKILLPTS:4	CSKILL:Ride|Concentration|Knowledge (Nature)|Spellcraft|Animal Empathy|Handle Animal|Intimidate
+1	SAB:Domination of the Master 1/day	SAB:Fiend Binding I
+2	SAB:Empathic Link								ADD:SPELLCASTER||ANY
+3	SAB:Fiend Binding II
+4	SAB:Animal Senses(Hearing,Smell)	SAB:Speak with Master	ADD:SPELLCASTER||ANY
+5	SAB:Fiend Binding III
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																	Combat bonus
+CLASS:Prairie Runner	HD:8		TYPE:PC.Prestige	ABB:PrR		MAXLEVEL:5	SOURCEPAGE:p.56-57	BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Willpower|(CL/2)+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Feat		Required Race		Required Skill
+CLASS:Prairie Runner	PREFEAT:2,Endurance,Run	PRERACE:1,Halfling	PRESKILL:1,Intuit Direction=4	PRESKILL:1,Wilderness Lore=8
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Prairie Runner	STARTSKILLPTS:4	CSKILL:Jump|Swim|Move Silently|Tumble|Concentration|Heal|Intuit Direction|Listen|Wilderness Lore|Diplomacy
+1	SAB:Fleet of Foot %/day|Fleet of Foot		BONUS:MOVEADD|TYPE=WALK|10|PREVARLT:ENCUMBERANCE,2,COUNT[EQTYPE.ARMOR.EQUIPPED.IS.HEAVY],1	BONUS:VAR|Fleet of Foot|1	DEFINE:Fleet of Foot|0
+2	SAB:Pathlore	SAB:Trance of the Runner
+3																									BONUS:VAR|Fleet of Foot|1
+4	SAB:Bolster the Runner 1/day
+5	SAB:Haste 1/day																						BONUS:VAR|Fleet of Foot|1

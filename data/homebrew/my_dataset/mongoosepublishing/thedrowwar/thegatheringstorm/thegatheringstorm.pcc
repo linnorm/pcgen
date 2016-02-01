@@ -1,0 +1,22 @@
+# CVS $Revision$ $Author$ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# Created by Rax the Grey
+CAMPAIGN:The Drow War Book 1 - The Gathering Storm
+RANK:4
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:RSRD
+SETTING:DrowWar
+TYPE:Mongoose.Complete Campaigns.The Drow War
+SOURCELONG:Drow War 1 - The Gathering Storm
+SOURCESHORT:DW1TGS
+SOURCEWEB:http://www.mongoosepublishing.com
+ISOGL:YES
+COPYRIGHT:Open Game License v1.0, Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arenson
+COPYRIGHT:PCGen dataset conversion for The Drow War Book 1 - The Gathering Storm Copyright 2005, PCgen Data team (Including, but not limited to Rax the Grey)
+INFOTEXT:The source material from The Drow War Book 1 - The Gathering Storm
+#Author's emails
+# Rax the Grey: raxthegrey@gmail.com
+
+DEITY:thegatheringstorm_deities.lst
+TEMPLATE:thegatheringstorm_templates.lst

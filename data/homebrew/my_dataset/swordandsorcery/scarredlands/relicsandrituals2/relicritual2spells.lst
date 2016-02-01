@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 11:55:36 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Relics and Rituals II	SOURCESHORT:RelicRitualII	SOURCEWEB:http://www.swordsorcery.com
+
+# Spell Name	Product Identity?	Classes of caster		School			Type				Components			Casting Time	Range			Target Area or Effect		Duration			Save Info			Spell Resistance	Required Skill			Description								Source Page
+City of the Dead	NAMEISPI:YES	CLASSES:Druid,Wizard=9	SCHOOL:True Ritual	TYPE:Divine|Arcane	COMPS:V, S, M, DF, XP	CASTTIME:1 Night	RANGE:Special	TARGETAREA:One city or town	DURATION:Instantaneous	SAVEINFO:Will Negates	SPELLRES:YES	PRESKILL:1,Ritual Casting=9	DESC:Changes the inhabitants of a town to undead.	SOURCEPAGE:pg. 152

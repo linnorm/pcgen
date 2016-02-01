@@ -1,0 +1,19 @@
+# CVS $Revision: 1.1 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dungeon Issue #84
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dungeon #84
+SOURCESHORT:WotC-Dungeon #84
+SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+#EXTRAFILE:Readme.txt
+
+CLASS:dungeon84classes.lst
+EQUIPMENT:dungeon84equiparmorshieldsspecific.lst
+EQUIPMENT:dungeon84equipweapmeleespecific.lst
+EQUIPMENT:dungeon84equiprodstaffwands.lst
+SPELL:dungeon84spells.lst
+SKILL:dungeon84skills.lst
+TEMPLATE:dungeon84templates.lst

@@ -1,0 +1,78 @@
+# CVS $Revision: $ $Author: $ -- Fri Oct  6 14:29:14 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+
+# Level 0 Spell: 12.5
+# Level 1 Spell: 25
+# Level 2 Spell: 150
+# Level 3 Spell: 375
+# Level 4 Spell: 700
+# Level 5 Spell: 1125
+# Level 6 Spell: 1650
+# Level 7 Spell: 2275
+# Level 8 Spell: 3000
+# Level 9 Spell: 3825
+
+
+# Equipment Name					Type						Cost		Weight	Source Page
+Scroll (Rastar's Improved Magic Missle)	TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Rastar's Irritating Beavis)	TYPE:Magic.Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Rax's Powerfist)			TYPE:Magic.Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Rax's Rotating Razor)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Rax's Spell Trigger)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Rax's Warder Bond)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+
+
+Scroll (Advice)					TYPE:Magic.Scroll.Divine.Consumable	COST:1125	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Ancestral Vengeance)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Attraction)				TYPE:Magic.Scroll.Divine.Consumable	COST:25	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Beasthide)				TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Blizzard)					TYPE:Magic.Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Blood of Fire)				TYPE:Magic.Scroll.Divine.Consumable	COST:1125	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Body of Venom)				TYPE:Magic.Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Brazen Cast)				TYPE:Magic.Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Castigate)				TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Caustic Cloud)				TYPE:Magic.Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Compel)					TYPE:Magic.Scroll.Divine.Consumable	COST:3000	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Corrosive Armageddon)			TYPE:Magic.Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Corrosive Touch)			TYPE:Magic.Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Create Spring)				TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Delayed Acidsplash)			TYPE:Magic.Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Demonhide)				TYPE:Magic.Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Detect Curse)				TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Detect Disease)				TYPE:Magic.Scroll.Divine.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Dire Tempest)				TYPE:Magic.Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Dream Sight)				TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Electric Cascade)			TYPE:Magic.Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Electric Shield)			TYPE:Magic.Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Electric Storm)				TYPE:Magic.Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Fatigue)					TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Force Shapechange)			TYPE:Magic.Scroll.Divine.Consumable	COST:1650	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Frozen Comet)				TYPE:Magic.Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Ice Sheet)				TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Inferno)					TYPE:Magic.Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Invisibility to Enemies)		TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Invisibility to Spirits)		TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Know Motivation)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Lightning Storm)			TYPE:Magic.Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Mental Strength)			TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Mental Weakness)			TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Possess)					TYPE:Magic.Scroll.Divine.Consumable	COST:1125	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Possess Animal)				TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Protection from Spirits)		TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Rebuke)					TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Remove Fatigue)				TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Smoke Travel)				TYPE:Magic.Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Snake Barrier)				TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Snowblind)				TYPE:Magic.Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Spirit Ally)				TYPE:Magic.Scroll.Divine.Consumable	COST:1650	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Spirit Ally (Greater))		TYPE:Magic.Scroll.Divine.Consumable	COST:3000	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Spirit Ally (Lesser))			TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Substitution)				TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Sustain)					TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Thunderstrike)				TYPE:Magic.Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Trance)					TYPE:Magic.Scroll.Divine.Consumable	COST:25	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Undead Growth)				TYPE:Magic.Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Vulnerability)				TYPE:Magic.Scroll.Divine.Consumable	COST:1650	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Warning)					TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf
+Scroll (Weapon Bless)				TYPE:Magic.Scroll.Divine.Consumable	COST:25	WT:0.01	SOURCEPAGE:MagicItemsIV.rtf

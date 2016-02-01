@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original Entry by Barak  06/26/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Type			Cost		Weight	Slot Needed	Source Page		Combat bonus					Weapon prof. bonus							Special Property
+Rings of Force Armor	TYPE:Magic.Ring	COST:45000	WT:0		SLOTS:2	SOURCEPAGE:p.154	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	BONUS:WEAPONPROF=Unarmed Strike|TOHIT|1|TYPE=Enhancement	SPROP:This pair of rings sheath you in an energy field

@@ -1,0 +1,9 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 09/16/03
+SOURCELONG:The Forge of Fury	SOURCESHORT:ForgeFury	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name				Output Name							Required Proficiency				Type												Cost		Weight	Base Item for EQMOD	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier		Size		Source Page		Weapon prop. bonus
+Durgeddin's Dwarven Waraxe (+2)	OUTPUTNAME:Durgeddin's [NAME] Dwarven Waraxe	PROFICIENCY:WEAPON|Waraxe (Dwarven/[Hands])	TYPE:Weapon.Exotic.Melee.Slashing.Standard.Metal.Axe				COST:8330	WT:15						CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10				SIZE:M	SOURCEPAGE:p.28	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement
+Gharin's Warhammer (Masterwork)	OUTPUTNAME:Gharin's [NAME] Warhammer		PROFICIENCY:WEAPON|Warhammer				TYPE:Weapon.Martial.Melee.Bludgeoning.Standard.Metal.Hammer			COST:312	WT:8		BASEITEM:Warhammer	CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:WEAPMW	SIZE:M	SOURCEPAGE:p.16
+Scimitar (Masterwork)			OUTPUTNAME:[NAME] Scimitar				PROFICIENCY:WEAPON|Scimitar				TYPE:Weapon.Martial.Melee.Slashing.Standard.Metal.Sword			COST:315	WT:4		BASEITEM:Scimitar		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d6	EQMOD:WEAPMW	SIZE:M	SOURCEPAGE:p.25
+Ulfe's Rapier (+1)			OUTPUTNAME:Ulfe's [NAME] Rapier			PROFICIENCY:WEAPON|Rapier				TYPE:Weapon.Martial.Melee.Piercing.Standard.Finesseable.Metal.Sword	COST:2320	WT:3						CRITMULT:x2			CRITRANGE:3			DAMAGE:1d6				SIZE:M	SOURCEPAGE:p.11	BONUS:WEAPON|DAMAGE,TOHIT|1|TYPE=Enhancement

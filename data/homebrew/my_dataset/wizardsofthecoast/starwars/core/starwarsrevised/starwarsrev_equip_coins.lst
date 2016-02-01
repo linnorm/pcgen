@@ -1,0 +1,12 @@
+# CVS $Revision: 1.1 $ $Author: tir-gwaith $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+#Star Wars Currency
+# Equipment Name			Type			Cost		Weight	Source Page
+Credit (Standard)			TYPE:Currency	COST:1	WT:0		SOURCEPAGE:p.130
+Credit (Coin)			TYPE:Currency	COST:1	WT:0.01	SOURCEPAGE:p.130
+Credit (One Cred Bill)		TYPE:Currency	COST:1	WT:0.05	SOURCEPAGE:p.130
+Credit (Two Cred Bill)		TYPE:Currency	COST:2	WT:0.05	SOURCEPAGE:p.130
+Credit (Four Cred Bill)		TYPE:Currency	COST:4	WT:0.05	SOURCEPAGE:p.130
+Credit (Eight Cred Bill)	TYPE:Currency	COST:8	WT:0.05	SOURCEPAGE:p.130
+Credit (Sixteen Cred Bill)	TYPE:Currency	COST:16	WT:0.05	SOURCEPAGE:p.130

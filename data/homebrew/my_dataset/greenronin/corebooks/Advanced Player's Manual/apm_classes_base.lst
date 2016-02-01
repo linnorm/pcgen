@@ -1,0 +1,215 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Green Ronin - Advanced Player's Manual	SOURCESHORT:Adv.Players	SOURCEWEB:www.greenronin.com	SOURCEDATE:2005-01
+# Original Entry by: Aaron Divinsky, Psychic added by Andrew Maitland
+
+# Class Name	Hit Dice	Type			Abbreviation	Ex Class			Source Page			Save checks bonus												Combat bonus
+
+# Class Name		Hit Dice	Type			Abbreviation	Source Page		Save checks bonus											Combat bonus
+CLASS:Eldritch Weaver	HD:4		TYPE:Base.PC	ABB:EWv		SOURCEPAGE:p. 18	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Eldritch Weaver	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher Script|Diplomacy|TYPE=Knowledge|TYPE=Profession|Spellcraft|Use Magic Device
+# Class Name		Spell Stat		Spell Type		Automatically Known Spell Levels	Spellbook		Caster level
+CLASS:Eldritch Weaver	SPELLSTAT:INT	SPELLTYPE:Arcane	KNOWNSPELLS:Read Magic			SPELLBOOK:YES	BONUS:CASTERLEVEL|Eldritch Weaver|CL
+###Block:Proficiencies
+###Block:Class Abilities
+1	BONUS:VAR|FMLevel|CL								DEFINE:FMLevel|0
+3	BONUS:VAR|EldritchWeavingLvl|CL
+###Was commented - not working.
+3	BONUS:VAR|EldritchWeavingProgression|(EldritchWeavingLvl+1)/4
+4	BONUS:VAR|MinorThreadPowerTimes|max(1,WIS)
+12	BONUS:VAR|MajorThreadPowerTimes|max(1,WIS)
+###Block:Spellcasting
+1																DEFINE:ThreadChoices|ThreadsKnown-COUNT[FEATTYPE=Thread.ALL]
+# Thread of Cantrips is free.
+1						BONUS:VAR|ThreadsKnown|INT+1	BONUS:VAR|ThreadsKnown|1	DEFINE:ThreadsKnown|0
+#1	DOMAIN:Thread of Air	BONUS:DOMAIN|NUMBER|1
+### ADD:FEAT(Select Thread) is invoked at every level since if ThreadsKnown increases we have to allow them to select more threads.
+1	CAST:5,1
+2	CAST:6,2
+3	CAST:6,2,0
+4	CAST:6,2,1
+5	CAST:6,3,2,0
+6	CAST:6,3,2,1
+7	CAST:6,3,2,2,0
+8	CAST:6,4,3,2,1
+9	CAST:6,4,3,2,2,0
+10	CAST:6,4,3,3,2,1
+11	CAST:6,4,4,3,2,2,0
+12	CAST:6,4,4,3,3,2,1
+13	CAST:6,4,4,4,3,3,2,0
+14	CAST:6,4,4,4,3,3,2,1
+15	CAST:6,4,4,4,4,3,3,2,0
+16	CAST:6,4,4,4,4,4,3,3,1
+17	CAST:6,4,4,4,4,4,3,3,2,0
+18	CAST:6,4,4,4,4,4,4,4,3,1
+19	CAST:6,4,4,4,4,4,4,4,3,2
+20	CAST:6,4,4,4,4,4,4,4,4,3
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Save checks bonus											Combat bonus
+CLASS:Evangelist	HD:6		TYPE:Base.PC	ABB:Evg		SOURCEPAGE:p. 21	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Evangelist	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Intimidate|Jump|Knowledge (Religion)|TYPE=Perform|TYPE=Profession|Ride|Sleight of Hand|Spellcraft|Sense Motive|Swim|Use Magic Device|Use Rope
+# Class Name	Spell Stat		Spell Type		Automatically Known Spell Levels							Caster level
+CLASS:Evangelist	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6	BONUS:CASTERLEVEL|Evangelist|CL
+### Evangelist Spells:
+1																																																																																																																SPELLLEVEL:CLASS|Evangelist=0|Create Water,Cure Minor Wounds,Daze,Detect Magic,Detect Poison,Guidance,Inflict Minor Wounds,Light,Message,Purify Food and Drink,Read Magic,Resistance,Virtue
+1																																																																																																																SPELLLEVEL:CLASS|Evangelist=1|Bane,Bless,Bless Water,Cause Fear,Command,Comprehend Languages,Confusion (Lesser),Cure Light Wounds,Curse Water,Deathwatch,Detect Undead,Divine Favor,Doom,Endure Elements,Entropic Shield,Inflict Light Wounds,Magic Weapon,Protection from Chaos,Protection from Evil,Protection from Good,Protection from Law,Remove Fear,Sanctuary,Shield of Faith,Summon Monster I,Vigilance
+1																																																																																																																SPELLLEVEL:CLASS|Evangelist=2|Aid,Augury,Bear?s Endurance,Bull?s Strength,Calm Emotions,Consecrate,Cure Moderate Wounds,Darkness,Death Knell,Delay Poison,Desecrate,Detect Thoughts,Eagle?s Splendor,Enthrall,Find Traps,Gentle Repose,Hold Person,Inflict Moderate Wounds,Owl?s Wisdom,Remove Paralysis,Resist Energy,Restoration (Lesser),Silence,Speak with Animals,Spiritual Weapon,Summon Monster II,Undetectable Alignment,Zone of Truth
+1																																																																																																																SPELLLEVEL:CLASS|Evangelist=3|Animate Dead,Bestow Curse,Blindness/Deafness,Contagion,Create Food and Water,Cure Serious Wounds,Daylight,Deeper Darkness,Dispel Magic,Glyph of Warding,Helping Hand,Inflict Serious Wounds,Invisibility Purge,Locate Object,Magic Circle against Chaos,Magic Circle against Evil,Magic Circle against Good,Magic Circle against Law,Magic Vestment,Obscure Object,Prayer,Protection from Energy,Remove Blindness/Deafness,Remove Curse,Remove Disease,Searing Light,Speak with Dead,Summon Monster III,Water Walk
+1																																																																																																																SPELLLEVEL:CLASS|Evangelist=4|Chaos Hammer,Cure Critical Wounds,Death Ward,Dimensional Anchor,Discern Lies,Dismissal,Divination,Freedom of Movement,Holy Smite,Inflict Critical Wounds,Magic Weapon (Greater),Neutralize Poison,Order?s Wrath,Planar Ally (Lesser),Poison,Restoration,Sending,Spell Immunity,Status,Summon Monster IV,Tongues,Unholy Blight
+1																																																																																																																SPELLLEVEL:CLASS|Evangelist=5|Atonement,Banishment,Break Enchantment,Command (Greater),Commune,Cure Light Wounds (Mass),Dispel Chaos,Dispel Evil,Dispel Good,Dispel Law,Flame Strike,Hallow,Inflict Light Wounds (Mass),Insect Plague,Mark of Justice,Raise Dead,Scrying,Slay Living,Spell Resistance,Summon Monster V,True Seeing,Unhallow
+1																																																																																																																SPELLLEVEL:CLASS|Evangelist=6|Animate Objects,Antilife Shell,Blade Barrier,Create Undead,Cure Moderate Wounds (Mass),Dispel Magic (Greater),Find the Path,Forbiddance,Geas/Quest,Glyph of Warding (Greater),Harm,Heal,Heroes? Feast,Inflict Moderate Wounds (Mass),Planar Ally,Summon Monster VI,Undeath to Death,Word of Recall
+
+1					PROHIBITSPELL:ALIGNMENT.Good|PREMULT:1,[PREALIGN:],[PREDEITYALIGN:,,]	PROHIBITSPELL:ALIGNMENT.Evil|PREMULT:1,[PREALIGN:],[PREDEITYALIGN:,,]	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:,	PROHIBITSPELL:ALIGNMENT.Chaotic|PREMULT:1,[PREALIGN:],[PREDEITYALIGN:,,]	PROHIBITSPELL:ALIGNMENT.Good|PREMULT:2,[PREALIGN:],[PREFEAT:1,Rebuke Undead]	PROHIBITSPELL:ALIGNMENT.Evil|PREMULT:2,[PREALIGN:],[PREFEAT:1,Turn Undead]
+# TODO: Fix this if aura is changed in the SRD
+1																																																																											BONUS:VAR|DivineTouchTimes|3+CHA	BONUS:VAR|DivineTouchLvl|CL
+3																																																																											BONUS:VAR|EmboldenFaithfulTimes|max(1,CHA)	BONUS:VAR|EmboldenFaithfulBonus|1|PRESKILL:1,Knowledge (Religion)=5	BONUS:VAR|ShakeInfidelTimes|max(1,CHA)	BONUS:VAR|ShakeInfidelLvl|CL
+#Block:Turn Undead
+4																																																																											BONUS:VAR|TurnTimesBase|3+CHA|TYPE=NoStack																									DEFINE:AllowImprovedTurning|1
+4																																																																											BONUS:VAR|TurnLevelBase|CL-3																												DEFINE:AllowExtraTurning|1
+4																																																																											BONUS:VAR|TurnDamagePlusBase|CL-3
+4																																																																											BONUS:VAR|TurnCheckBase|CHA|TYPE=NoStack
+7																																																																											BONUS:VAR|DivineVoiceLvl|CL	BONUS:VAR|DivineVoiceTimes|max(1,CHA)	BONUS:VAR|DivineVoiceCL|CL
+8																																																																											BONUS:VAR|EmboldenFaithfulBonus|1|PRESKILL:1,Knowledge (Religion)=10
+13																																																																											BONUS:VAR|EmboldenFaithfulBonus|1|PRESKILL:1,Knowledge (Religion)=15
+14																																																																											BONUS:VAR|ShieldingPrayerTimes|(CL-11)/3
+18																																																																											BONUS:VAR|EmboldenFaithfulBonus|1|PRESKILL:1,Knowledge (Religion)=20
+#Block: Spellcasting
+1	CAST:2
+2	CAST:3,0
+3	CAST:3,1
+4	CAST:3,2,0
+5	CAST:3,3,1
+6	CAST:3,3,2
+7	CAST:3,3,2,0
+8	CAST:3,3,3,1
+9	CAST:3,3,3,2
+10	CAST:3,3,3,2,0
+11	CAST:3,3,3,3,1
+12	CAST:3,3,3,3,2
+13	CAST:3,3,3,3,2,0
+14	CAST:4,3,3,3,3,1
+15	CAST:4,4,3,3,3,2
+16	CAST:4,4,4,3,3,2,0
+17	CAST:4,4,4,4,3,3,1
+18	CAST:4,4,4,4,4,3,2
+19	CAST:4,4,4,4,4,4,3
+20	CAST:4,4,4,4,4,4,4
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Save checks bonus												Combat bonus
+CLASS:Scout		HD:6		TYPE:Base.PC	ABB:Sct		SOURCEPAGE:p. 25	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Scout		STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Gather Information|Handle Animal|Heal|Hide|Jump|TYPE=Knowledge|Listen|Move Silently|TYPE=Profession|Search|Sense Motive|Spot|Survival|Swim|Tumble|Use Rope
+### TODO: Should be proficient in Light Martial weapons.
+1												AUTO:WEAPONPROF|TYPE=Bow	AUTO:WEAPONPROF|Axe (Throwing)|Hammer (Light)|Handaxe|Kukri|Pick (Light)|Sap|Shieldbash (Light)|Spiked Armor|Sword (Short)
+6	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Save checks bonus											Combat bonus
+CLASS:Spellmaster	HD:6		TYPE:Base.PC	ABB:SMst		SOURCEPAGE:p. 29	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Spellmaster	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher Script|Diplomacy|TYPE=Knowledge|TYPE=Profession|Spellcraft|Use Magic Device
+# Class Name	Spell Stat		Stat for Bonus Spells	Spell Type		Caster level				Use Spell List
+CLASS:Spellmaster	SPELLSTAT:WIS	BONUSSPELLSTAT:NONE	SPELLTYPE:Arcane	BONUS:CASTERLEVEL|Spellmaster|CL	SPELLLIST:8|Bard|Cleric|Druid|Evangelist|Paladin|Ranger|Sorcerer|Warpriest
+1																													BONUS:VAR|HoldSpellNumber|(CL+3)/4	BONUS:VAR|HoldSpellDuration|10*CL
+7					SR:10+(CL/2)+WIS
+11								BONUS:MISC|SR|5
+1	CAST:2,1									BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=0|3+WIS	BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=1|1+WIS
+2	CAST:3,1									BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=1|roll("1d4")+WIS
+3	CAST:3,2									BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=1|roll("1d4")+WIS
+4	CAST:3,2,1									BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=2|roll("1d4")+WIS
+5	CAST:3,3,1									BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=2|roll("1d4")+WIS
+6	CAST:3,3,2									BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=2|roll("1d4")+WIS
+7	CAST:3,3,2,1								BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=3|roll("1d4")+WIS
+8	CAST:3,3,3,1								BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=3|roll("1d4")+WIS
+9	CAST:3,3,3,2								BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=3|roll("1d4")+WIS
+10	CAST:3,3,3,2,1								BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=4|roll("1d4")+WIS
+11	CAST:3,3,3,3,1								BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=4|roll("1d4")+WIS
+12	CAST:3,3,3,3,2,1								BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=5|roll("1d4")+WIS
+13	CAST:3,3,3,3,2,1								BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=5|roll("1d4")+WIS
+14	CAST:4,3,3,3,3,2,1							BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=6|roll("1d4")+WIS
+15	CAST:4,4,3,3,3,2,1							BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=6|roll("1d4")+WIS
+16	CAST:4,4,4,3,3,3,2							BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=6|roll("1d4")+WIS
+17	CAST:4,4,4,4,3,3,2							BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=6|roll("1d4")+WIS
+18	CAST:4,4,4,4,4,3,3							BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=6|roll("1d4")+WIS
+19	CAST:4,4,4,4,4,4,3							BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=6|roll("1d4")+WIS
+20	CAST:4,4,4,4,4,4,4							BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=6|roll("1d4")+WIS
+21											BONUS:SPELLKNOWN|CLASS=Spellmaster;LEVEL=6|roll("1d4")+WIS
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Save checks bonus											Combat bonus
+CLASS:Thanemage	HD:8		TYPE:Base.PC	ABB:ThnMg		SOURCEPAGE:p. 33	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Thanemage	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE=Craft|Decipher Script|Handle Animal|Heal|Jump|Knowledge (Arcana)|TYPE=Profession|Ride|Spellcraft|Survival|Swim|Use Rope
+# Class Name	Spell Stat		Spell Type		Automatically Known Spell Levels	Spellbook		Caster level				Use Spell List
+CLASS:Thanemage	SPELLSTAT:INT	SPELLTYPE:Arcane	KNOWNSPELLS:Read Magic			SPELLBOOK:YES	BONUS:CASTERLEVEL|Thanemage|CL	SPELLLIST:1|Wizard
+7	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE
+#The Abilities allow for having different levels.
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Save checks bonus											Combat bonus
+CLASS:Warpriest	HD:10		TYPE:Base.PC	ABB:WarPrs		SOURCEPAGE:p. 39	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|(CL*3)/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Warpriest	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Handle Animal|Heal|Jump|Knowledge (Religion)|Ride|Spellcraft
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Warpriest	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	BONUS:CASTERLEVEL|Warpriest|CL
+###Block: Spell Alignment Restrictions
+1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:,,
+1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:,,
+1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:,,
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:,,
+###Block: Level progression
+1									BONUS:VAR|DivinePowerLvl|CL	BONUS:VAR|DivinePowerTimes|1
+2									BONUS:VAR|DivineDeflectionLvl|CL
+7									BONUS:VAR|TurnTimesBase|3+CHA|TYPE=NoStack			DEFINE:AllowImprovedTurning|1
+7									BONUS:VAR|TurnLevelBase|CL-6						DEFINE:AllowExtraTurning|1
+7									BONUS:VAR|TurnDamagePlusBase|CL-6
+7									BONUS:VAR|TurnCheckBase|CHA|TYPE=NoStack
+21									BONUS:VAR|DivinePowerTimes|(CL-17)/4
+#WARPRIEST Spells
+1																								SPELLLEVEL:CLASS|Warpriest=0|Cure Minor Wounds,Daze,Detect Magic,Detect Poison,Disrupt Undead,Flare,Guidance,Inflict Minor Wounds,Light,Message,Read Magic,Resistance,Virtue
+1																								SPELLLEVEL:CLASS|Warpriest=1|Bless,Bless Water,Bless Weapon,Cause Fear,Command,Cure Light Wounds,Divine Favor,Endure Elements,Entropic Shield,Expeditious Retreat,Inflict Light Wounds,Magic Weapon,Protection from Chaos,Protection from Evil,Protection from Good,Protection from Law,Remove Fear,Summon Monster I
+1																								SPELLLEVEL:CLASS|Warpriest=2|Aid,Augury,Bear?s Endurance,Bull?s Strength,Cat?s Grace,Cure Moderate Wounds,Delay Poison,Inflict Moderate Wounds,Remove Paralysis,Resist Energy,Restoration (Lesser),See Invisibility,Shield Other,Silence,Spiritual Weapon,Summon Monster II,True Strike
+1																								SPELLLEVEL:CLASS|Warpriest=3|Blindness/Deafness,Confusion,Contagion,Cure Serious Wounds,Dispel Magic,Inflict Serious Wounds,Invisibility Purge,Magic Circle against Chaos,Magic Circle against Evil,Magic Circle against Good,Magic Circle against Law,Magic Vestment,Magic Weapon (Greater),Prayer,Protection from Energy,Remove Blindness/Deafness,Remove Disease,Summon Monster III,Wind Wall
+1																								SPELLLEVEL:CLASS|Warpriest=4|Control Water,Cure Critical Wounds,Death Ward,Dispel Chaos,Dispel Evil,Dispel Good,Dispel Law,Divine Power,Freedom of Movement,Inflict Critical Wounds,Neutralize Poison,Poison,Restoration,Sending,Spell Immunity,Status,Summon Monster IV
+1																								SPELLLEVEL:CLASS|Warpriest=5|Command (Greater),Cure Light Wounds (Mass),Dimension Door,Flame Strike,Inflict Light Wounds (Mass),Righteous Might,Spell Resistance,Summon Monster V,True Seeing,Wall of Fire,Wall of Ice
+1																								SPELLLEVEL:CLASS|Warpriest=6|Animate Objects,Antilife Shell,Bear?s Endurance (Mass),Blade Barrier,Bull?s Strength (Mass),Cat?s Grace (Mass),Cure Moderate Wounds,Dispel Magic (Greater),Geas/Quest,Harm,Heal,Heroes? Feast,Move Earth,Repulsion,Summon Monster VI,Wall of Force,Wall of Iron,Wall of Stone
+
+1	CAST:2,0			KNOWN:5,3
+2	CAST:4,1			KNOWN:5,4
+3	CAST:4,2,0			KNOWN:7,5,3
+4	CAST:4,3,1			KNOWN:7,6,4
+5	CAST:4,4,2			KNOWN:7,6,5
+6	CAST:4,4,3,0		KNOWN:7,7,5,3
+7	CAST:4,4,3,1		KNOWN:7,7,6,4
+8	CAST:4,4,4,2		KNOWN:7,7,6,5
+9	CAST:4,4,4,3,0		KNOWN:8,7,6,6,3
+10	CAST:4,4,4,3,1		KNOWN:8,7,6,6,4
+11	CAST:4,4,4,4,2		KNOWN:8,7,7,6,4
+12	CAST:4,4,4,4,3,0		KNOWN:8,8,7,6,5,3
+13	CAST:4,4,4,4,3,1		KNOWN:8,8,7,6,6,4
+14	CAST:5,4,4,4,4,2		KNOWN:8,8,7,6,6,5
+15	CAST:5,5,4,4,4,3,0	KNOWN:8,8,7,7,6,6,3
+16	CAST:5,5,5,4,4,3,1	KNOWN:8,8,7,7,7,6,4
+17	CAST:5,5,5,5,4,4,2	KNOWN:8,8,8,7,7,6,5
+18	CAST:5,5,5,5,5,4,3	KNOWN:8,8,8,8,7,7,6
+19	CAST:5,5,5,5,5,5,4	KNOWN:8,8,8,8,8,7,7
+20	CAST:5,5,5,5,5,5,5	KNOWN:8,8,8,8,8,8,8
+
+
+#PSYCHIC
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus											Combat bonus
+CLASS:Psychic	HD:4		TYPE:Base.PC	ABB:Psych		SOURCEPAGE:pg.180	LANGAUTO:Literacy		BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Psychic	STARTSKILLPTS:6	CSKILL:Bluff|Concentration|TYPE=Craft|Diplomacy|Gather Information|Intimidate|TYPE=Knowledge|Listen|TYPE=Perform|TYPE=Profession|Search|Sense Motive|Spot|Psychic Sense|Psychic Shield|Psychic (Psychic Sense)|Psychic (Psychic Shield)
+
+### Class Skills via FEATS when they become available - Any PrC needing Class Skills from the Psychic should use the feats.
+1	VFEAT:Psychic Telepathy|PREFEAT:1,Telepathy
+1	VFEAT:Psychic Dimensional Shift|PREFEAT:1,Dimensional Shift
+1	VFEAT:Psychic Psychic Weapon|PREFEAT:1,Psychic Weapon
+1	VFEAT:Psychic Psychokinesis|PREFEAT:1,Psychokinesis
+1	VFEAT:Psychic Psychometabolism|PREFEAT:1,Psychometabolism
+1	VFEAT:Psychic Psychoportation|PREFEAT:1,Psychoportation
+1	VFEAT:Psychic Clairsentience|PREFEAT:1,Clairsentience
+1	VFEAT:Psychic Mind Shift|PREFEAT:1,Mind Shift
+
+###Block:Proficiencies
+###Block: Level progression

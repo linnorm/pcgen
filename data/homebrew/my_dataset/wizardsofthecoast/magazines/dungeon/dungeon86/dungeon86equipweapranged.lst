@@ -1,0 +1,11 @@
+# CVS $Revision: 1.4 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #86	SOURCESHORT:WotC-Dungeon #86	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+#Thrown Items (except Shuriken) can be created using the Custom Button on the Inventory Tab
+
+# Equipment Name	Type								Cost		Weight	Source Page		Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Bonus
+#Simple Weapons Ranged
+# Equipment Name	Type								Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Source Page		Weapon prop. bonus
+Hoopak		TYPE:Weapon.Simple.Ranged.Standard.Bludgeoning	COST:1	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	RANGE:50	SIZE:S	SOURCEPAGE:p.39	BONUS:WEAPON|DAMAGE|STRMIN0
+

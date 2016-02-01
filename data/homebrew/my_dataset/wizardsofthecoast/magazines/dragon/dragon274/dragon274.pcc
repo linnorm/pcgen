@@ -1,0 +1,14 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #274
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #274
+SOURCESHORT:WotC-Dragon #274
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+
+CLASS:dragon274classes.lst
+FEAT:dragon274feats.lst
+RACE:dragon274monsters.lst

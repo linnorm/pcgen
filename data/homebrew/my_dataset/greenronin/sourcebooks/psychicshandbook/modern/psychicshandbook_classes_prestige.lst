@@ -1,0 +1,21 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Psychic's Handbook	SOURCESHORT:psychicshandbook	SOURCEWEB:http://www.greenronin.com
+SOURCESHORT:psychicshandbook
+SOURCEWEB:http://www.greenronin.com
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Modern Psychic	HD:8		TYPE:PC.Prestige	ABB:Mps		MAXLEVEL:10	SOURCEPAGE:p.19	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Willpower|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Required Feat			Required Skill
+CLASS:Modern Psychic	PREFEAT:1,Psychic Ability	PRESKILL:1,Concentration=6
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Modern Psychic	STARTSKILLPTS:6	CSKILL:Bluff|Concentrate|TYPE.Craft|Diplomacy|Gather Information|Intimidate|Knowledge (Psionics)|Listen|Perform|Profession|Sense Motive|Spot
+1
+2	ADD:FEAT|1|TYPE=Psychic,TYPE=Psychic Talent,TYPE=Metapsychic
+3
+4	ADD:FEAT|1|TYPE=Psychic,TYPE=Psychic Talent,TYPE=Metapsychic
+5
+6	ADD:FEAT|1|TYPE=Psychic,TYPE=Psychic Talent,TYPE=Metapsychic
+7
+8	ADD:FEAT|1|TYPE=Psychic,TYPE=Psychic Talent,TYPE=Metapsychic
+9
+10	ADD:FEAT|1|TYPE=Psychic,TYPE=Psychic Talent,TYPE=Metapsychic

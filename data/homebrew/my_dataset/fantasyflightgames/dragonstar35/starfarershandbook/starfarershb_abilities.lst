@@ -1,0 +1,31 @@
+SOURCELONG:Fantasy Flight Games - Dragonstar - Starfarer's Handbook	SOURCESHORT:StarfarerH	SOURCEWEB:http://www.fantasyflightgames.com/dragonstar.html	SOURCEDATE:2001-12
+
+
+## Block: Class .MODs
+# Ability Name		Output Name				Category of Ability		Type						Visible		Required Ability						Define					Description																			Ability																					Source Page
+Evade Fire								CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES		SOURCEPAGE:pg. 43		DESC:Make a Reflex save DC: 20 + magic bonus of attack to dodge ranged attack. You may do this once per round and %1 times per day.|EvadeFireTimes	DEFINE:EvadeFireTimes|0
+
+
+## Block: Mechanist
+# Ability Name		Output Name				Category of Ability		Type								Visible		Required Ability						Define					Description																			Ability																					Source Page
+Jury-rig								CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			VISIBLE:YES		SOURCEPAGE:pg. 54		DESC:A mechanist may make a Repair check to make improvements or repairs in half the normal time as the cost of quality.
+Guerilla Repair							CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			VISIBLE:YES		SOURCEPAGE:pg. 54		DESC:A mechanist may force a malfunctioning device to work properly for 3d6+%1 rounds. After this time it malfunctions again and will not function until a proper repair is done.|var("CL=Mechanist")
+Minor Upgrade							CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			VISIBLE:YES		SOURCEPAGE:pg. 55		DESC:A mechanist may perform a minor upgrade on a non-magic tech device with a Repair check DC:15 and a cost of 10%% of the original value.
+Traps									CATEGORY:Special Ability	TYPE:SpecialQuality					VISIBLE:YES		SOURCEPAGE:pg. 54		DESC:Mechanists can use the Search skill to locate traps when the task has a Difficulty Class higher than 20. Finding a nonmagical trap has a DC of at least 20, or higher if it is well hidden. A mechanist who beats a trap's DC by 10 or more with a Disable Device check can study a trap, figure out how it works, and bypass it (with her party) without disarming it.
+Sabotage								CATEGORY:Special Ability	TYPE:SpecialAttack.AttackOption.Extraordinary	VISIBLE:YES		SOURCEPAGE:pg. 55		DESC:A mechanist may cause a device to malfunction by touching it and making a DC:20 Disable Device check. Complex machines may count as multiple devices.  Soulmechs take 1d8+%1 points of damage.|var("CL=Mechanist")
+Moderate Upgrade							CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			VISIBLE:YES		SOURCEPAGE:pg. 55		DESC:A mechanist may perform a moderate upgrade on a non-magic tech device with a Repair check DC:20 and a cost of 15%% of the original value.
+Major Upgrade							CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			VISIBLE:YES		SOURCEPAGE:pg. 55		DESC:A mechanist may perform a major upgrade on a non-magic tech device with a Repair check DC:25 and a cost of 20%% of the original value.
+Extraordinary Upgrade						CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			VISIBLE:YES		SOURCEPAGE:pg. 55		DESC:A mechanist may perform a extraordinary upgrade on a non-magic tech device with a Repair check DC:30 and a cost of 25%% of the original value.
+Masterful Upgrade							CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			VISIBLE:YES		SOURCEPAGE:pg. 55		DESC:A mechanist may perform a masterful upgrade on a non-magic tech device with a Repair check DC:35 and a cost of 30%% of the original value.
+
+
+## Block: Pilot
+# Ability Name		Output Name				Category of Ability		Type								Visible		Required Ability						Define					Description																			Ability																					Source Page
+
+
+
+###Block: Half-Dragon Breath Weapons
+# Ability Name						Output Name				Category of Ability		Type						Visible	Define										Description															Modify VAR
+Half-Dragon Breath Weapon ~ Line of Radiation	OUTPUTNAME:Breath Weapon	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DEFINE:HalfDragonBreathTimes|1	DEFINE:HalfDragonBreathDC|0	DESC:60' Line of Radiation %1/day 6d8 (DC %2) This also counts as one dose of radiation.|HalfDragonBreathTimes|HalfDragonBreathDC		BONUS:VAR|HalfDragonBreathDC|2|PREFEAT:1,Ability Focus (Breath Weapon)
+Half-Dragon Breath Weapon ~ Cone of Space	OUTPUTNAME:Breath Weapon	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DEFINE:HalfDragonBreathTimes|1	DEFINE:HalfDragonBreathDC|0	DESC:30' Cone of Space %1/day 6d8 (DC %2)|HalfDragonBreathTimes|HalfDragonBreathDC		BONUS:VAR|HalfDragonBreathDC|2|PREFEAT:1,Ability Focus (Breath Weapon)
+

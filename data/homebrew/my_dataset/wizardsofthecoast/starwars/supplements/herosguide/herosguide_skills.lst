@@ -1,0 +1,11 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Hero's Guide	SOURCESHORT:HeroGuide	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: Normal Skills
+# Skill Name			Key Stat	Untrained?		Exclusive?		Type					Source Page
+Craft (Armor)			KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO	TYPE:Intelligence.Craft		SOURCEPAGE:p.72
+Knowledge (Life Sciences)	KEYSTAT:INT	USEUNTRAINED:NO	EXCLUSIVE:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:p.78
+Profession (Bartender)		KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:NO	TYPE:Wisdom.Profession		SOURCEPAGE:p.80
+
+#Block: Force Skills
+# Skill Name					Key Stat	Untrained?		Skill Penalty Apply	Exclusive?		Type							Required Feat				Bonus to skill																					Source Page		Choose

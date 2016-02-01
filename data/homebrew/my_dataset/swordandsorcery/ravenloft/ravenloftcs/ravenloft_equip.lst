@@ -1,0 +1,20 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Equipment Name				Type				Cost		Weight	Source Page
+Bomb						TYPE:Goods.Alchemical	COST:150	WT:1		SOURCEPAGE:p.
+Smokebomb					TYPE:Goods.Alchemical	COST:70	WT:1		SOURCEPAGE:p.
+Gunpowder (keg)				TYPE:Goods.Alchemical	COST:250	WT:20		SOURCEPAGE:p.
+Gunpowder (horn)				TYPE:Goods.Alchemical	COST:35	WT:2		SOURCEPAGE:p.
+
+#Goods
+Book (blank)				TYPE:Goods.General	COST:3	WT:1		SOURCEPAGE:p.
+Book (printed)				TYPE:Goods.General	COST:10	WT:1		SOURCEPAGE:p.
+Clockwork (Automaton,fine)		TYPE:Goods.General	COST:500	WT:1		SOURCEPAGE:p.
+Clockwork (Automaton,diminutive)	TYPE:Goods.General	COST:1000	WT:5		SOURCEPAGE:p.
+Clockwork (Automaton,tiny)		TYPE:Goods.General	COST:2000	WT:10		SOURCEPAGE:p.
+Clockwork (Automaton,small)		TYPE:Goods.General	COST:4000	WT:10		SOURCEPAGE:p.
+Grandfather Clock				TYPE:Goods.General	COST:400	WT:80		SOURCEPAGE:p.
+Herbs						TYPE:Goods.General	COST:.2	WT:1		SOURCEPAGE:p.
+Mantle Clock				TYPE:Goods.General	COST:500	WT:5		SOURCEPAGE:p.
+Pocket Watch				TYPE:Goods.General	COST:1000	WT:0		SOURCEPAGE:p.

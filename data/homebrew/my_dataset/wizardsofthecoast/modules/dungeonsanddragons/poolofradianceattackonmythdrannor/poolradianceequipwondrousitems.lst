@@ -1,0 +1,17 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Modules - Pools of Radiance Attack on Myth Drannor	SOURCESHORT:WotC-PoR Attack on Myth Drannor	SOURCEWEB:http://www.wizards.com
+# Equipment Name			Type								Cost		Weight	Source Page		Save checks bonus					Combat bonus			Bonus to skill					Special Property
+Bracers of Immobility		TYPE:Magic.Wondrous.Minor.Cursed.Armwear.Bracer	COST:4000	WT:1		SOURCEPAGE:p.77	BONUS:CHECKS|Fortitude,Reflex,Willpower|2
+Dragonskull Talisman		TYPE:Magic.Wondrous.Minor.Necklace.Amulet		COST:12000	WT:1		SOURCEPAGE:p.77																				SPROP:Invisibility to Undead 30min 1/day
+Mirror Mask				TYPE:Magic.Wondrous.Medium.Headgear.Mask		COST:8759	WT:1		SOURCEPAGE:p.77																				SPROP:+5 bonus to all gaze attacks and spells that work on sight.
+Skull Mask				TYPE:Magic.Wondrous.Major.Headgear.Mask		COST:50000	WT:1		SOURCEPAGE:p.81
+Winged Mask				TYPE:Magic.Wondrous.Major.Headgear.Mask		COST:36000	WT:1		SOURCEPAGE:p.79																				SPROP:Fly at will, feather fall
+Dove's Harp				TYPE:Magic.Wondrous.Medium.Instrument		COST:45000	WT:3		SOURCEPAGE:p.80																				SPROP:Light
+Orbakh's Bone Mantle		TYPE:Magic.Wondrous.Medium.Clothing.Cloak		COST:27000	WT:5		SOURCEPAGE:p.77								BONUS:COMBAT|AC|4|TYPE=Armor								SPROP:Protection from good 1/day
+Tongs of the Armorer		TYPE:Magic.Wondrous.Minor.Tools			COST:4302	WT:1		SOURCEPAGE:p.79													BONUS:SKILL|Craft (Armorsmithing)|10
+Hammer of the Weaponsmith	TYPE:Magic.Wondrous.Minor.Tools			COST:4302	WT:8		SOURCEPAGE:p.77													BONUS:SKILL|Craft (Weaponsmithing)|10
+Knife of the Bowyer		TYPE:Magic.Wondrous.Minor.Tools			COST:4302	WT:1		SOURCEPAGE:p.77													BONUS:SKILL|Craft (Bowmaking)|10
+Testament of Jade			TYPE:Magic.Wondrous.Major.Book			COST:-	WT:1		SOURCEPAGE:p.79
+Staff of Vision			TYPE:Magic.Wondrous.Medium.Staff			COST:24000	WT:5		SOURCEPAGE:p.81
+Orbakh's Ivory Scepter		TYPE:Magic.Wondrous.Major.Staff			COST:50000	WT:4		SOURCEPAGE:p.78
+Staff of Night			TYPE:Magic.Wondrous.Major.Staff			COST:50000	WT:5		SOURCEPAGE:p.81

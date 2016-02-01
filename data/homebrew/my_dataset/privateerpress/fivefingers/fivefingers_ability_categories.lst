@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Ability Category			Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Agent Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AgentAbility		PLURAL:Agent Abilities		DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Enforcer Ability	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:EnforcerAbility	PLURAL:Enforcer Abilities	DISPLAYLOCATION:Class Abilities

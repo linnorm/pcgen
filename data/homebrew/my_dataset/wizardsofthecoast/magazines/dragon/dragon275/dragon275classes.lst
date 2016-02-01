@@ -1,0 +1,19 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #275	SOURCESHORT:WotC-Dragon #275	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Source Page		Save checks bonus												Combat bonus					WEAPONAUTO
+CLASS:Duelist	HD:10		TYPE:PC.Prestige	SOURCEPAGE:p.96	BONUS:CHECKS|BASE.Fortitude,BASE.Willpower|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name	Req. Att.	Required Feat									Required Skill						Req. Weapond Prof.
+CLASS:Duelist	PREATT:6	PREFEAT:1,Ambidexterity	PREFEAT:1,Dodge	PREFEAT:1,Mobility	PRESKILL:1,Perform=3	PRESKILL:1,Tumble=5	PREWEAPONPROF:1,Rapier
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Duelist	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Escape Artist|Innuendo|Jump|Listen|TYPE.Perform|Sense Motive|Spot|Tumble
+1	SAB:Canny Defence(Ex)															BONUS:COMBAT|AC|INTMAX0|TYPE=NotFlatFooted	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency|Shield Proficiency
+2	SAB:Precise Strike +%d6|1
+3	SAB:Enhanced Mobility(Ex)
+4	SAB:Grace(Ex)			BONUS:CHECKS|Reflex|2|TYPE=Competence|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0
+5	SAB:Acrobatic Attack(Ex)
+6	SAB:Precise Strike +%d6|1
+7	SAB:Elaborate Parry(Ex)
+8	SAB:Improved Reflexes(Ex)														BONUS:COMBAT|Initiative|2
+9																											AUTO:FEAT|Deflect Arrows
+10	SAB:Precise Strike +%d6|1

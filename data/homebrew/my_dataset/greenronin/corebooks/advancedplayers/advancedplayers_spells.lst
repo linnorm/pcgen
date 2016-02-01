@@ -1,0 +1,186 @@
+#Author:Andrew Maitland
+SOURCELONG:Green Ronin - Advanced Player's Manual
+SOURCESHORT:Adv.Players
+
+#Incomplete spell list. WORK IN PROGRESS
+###
+
+Affect Flames			SCHOOL:Transmutation			DESCRIPTOR:Fire		CLASSES:Bard,Druid,Sorcerer,Wizard=1	COMPS:V,S,M/DF	CASTTIME:1 standard action	RANGE:Close		TARGETAREA:One 10-ft. cube per level (S)	DURATION:1 min./level (D)	SAVEINFO:Will negates; see text	SPELLRES:See text		SOURCEPAGE:pg.143		DESC:Dampen or fan nonmagical fires.
+
+#	Air and Water
+#	Air Bubble
+#	Airform
+#	Alter Liquid
+#	Alter Metal
+#	Amber Globes
+#	Arcane Ram
+#	Arcane Seal
+#	Arcane Seal, Greater
+#	Arcane Seal, Lesser
+#	Astute Fighting
+#	Battlelink
+#	Beneficence
+#	Blackburst
+#	Brimstone
+#	Brimstone Storm
+#	Castigate
+#	Chastise Person
+#	Cloak of Gloom
+#	Corrosive Touch
+#	Crown of Terror
+#	Crown of Terror, Greater
+#	Crown of Valor
+#	Crown of Valor, Greater
+#	Crystal Globes
+#	Deadly Tempest
+#	Deathchant
+#	Dimension Hop
+#	Divine Luck
+#	Draw on Faith
+#	Dust Cloud
+#	Dust Wall
+#	Eagle Eyes
+#	Earthform
+#	Earthmaw
+#	Earthwalk
+#	Enchanting Flames
+#	Fastheal
+#	Fastheal, Lesser
+#	Fastheal, Mass
+#	Fire Imps
+#	Fireform
+#	Flame of Chaos
+#	Flame of Chaos, Greater
+#	Flame of Chaos, Lesser
+#	Flame of Good
+#	Flame of Good, Greater
+#	Flame of Good, Lesser
+#	Flame of Evil
+#	Flame of Evil, Greater
+#	Flame of Evil, Lesser
+#	Flame of Law
+#	Flame of Law, Greater
+#	Flame of Law, Lesser
+#	Foozle
+#	Force Marbles
+#	Furious Assualt
+#	Heat Lightning
+#	Id Assassin
+#	Id Seizure
+#	Indomitable Will
+#	Iron Sphere
+#	Lifechant
+#	Locate Individual
+#	Long-Range Weapon
+#	Maddening Insult
+#	Maelstrom
+#	Manyeyes
+#	Mark of Censure
+#	Missteps
+#	Moonbright
+#	Moonshadows
+#	Muddled Auras
+#	Obscure Text
+#	Opposition
+#	Pearl of Brilliance
+#	Potent Weapon
+#	Precipitate
+#	Produce Searing Flame
+#	Puffball
+#	Quickscribe
+#	Read Emotions
+#	Read History
+#	Replicate Object
+#	Ride Winds
+#	Ring of Fire
+#	Sanctum
+#	Scales of the Wyrm
+#	Scourge Foes
+#	Scourge Infidels
+#	Secret Missive
+#	Secret Speech
+#	Sense of the Wyrmling
+#	Shaded Sight
+#	Shadow Curtain
+#	Shooting Star
+#	Showall
+#	Slip Bonds
+#	Smite Foe
+#	Spacious Sleeves
+#	Spiritbow
+#	Spiritbow, Greater
+#	Spiritbow, Lesser
+#	Split Mind
+#	Staffstrike
+#	Staffstrike, Greater
+#	Staffstrike, Lesser
+#	Starblade
+#	Steam Jet
+#	Steely Will
+#	Stonefist
+#	Strength of Earth
+#	Sun Motes
+#	Sunglobe
+#	Sunray
+#	Symbol of Dispair
+#	Symbol of Destruction
+#	Tangled Script
+#	Teeth of the Wind
+#	Telekinetic Puppet
+#	Thievesbane
+#	Third Eye
+#	Thought Sphere
+#	Torchdim
+#	Tremor
+#	Unmind
+#	Unseen Guardian
+#	Vigilance
+#	Wall of Swords
+#	Warpwall
+#	Water Jet
+#	Water Shape
+#	Waterform
+#	Windrazor
+
+###Evangelist Spells: Not sure if MOD is the best method or just adding to class list in the class file.
+Create Water.MOD			CLASSES:Evangelist=0	
+Cure Minor Wounds.MOD		CLASSES:Evangelist=0	
+Daze.MOD				CLASSES:Evangelist=0	
+Detect Magic.MOD			CLASSES:Evangelist=0	
+Detect Poison.MOD			CLASSES:Evangelist=0	
+Guidance.MOD			CLASSES:Evangelist=0	
+Inflict Minor Wounds.MOD	CLASSES:Evangelist=0	
+Light.MOD				CLASSES:Evangelist=0	
+Message.MOD				CLASSES:Evangelist=0	
+Purify Food and Drink.MOD	CLASSES:Evangelist=0	
+Read Magic.MOD			CLASSES:Evangelist=0	
+Resistance.MOD			CLASSES:Evangelist=0	
+Virtue.MOD				CLASSES:Evangelist=0	
+
+Bane.MOD				CLASSES:Evangelist=1	
+Bless.MOD				CLASSES:Evangelist=1	
+Bless Water.MOD			CLASSES:Evangelist=1	
+Cause Fear.MOD			CLASSES:Evangelist=1	
+Command.MOD				CLASSES:Evangelist=1	
+Comprehend Languages.MOD	CLASSES:Evangelist=1	
+Confusion, Lesser.MOD		CLASSES:Evangelist=1	
+Cure Light Wounds.MOD		CLASSES:Evangelist=1	
+Curse Water.MOD			CLASSES:Evangelist=1	
+Deathwatch.MOD			CLASSES:Evangelist=1	
+Detect Undead.MOD			CLASSES:Evangelist=1	
+Divine Favor.MOD			CLASSES:Evangelist=1	
+Doom.MOD				CLASSES:Evangelist=1	
+Endure Elements.MOD		CLASSES:Evangelist=1	
+Entropic Shield.MOD		CLASSES:Evangelist=1	
+Inflict Light Wounds.MOD	CLASSES:Evangelist=1	
+Magic Weapon.MOD			CLASSES:Evangelist=1	
+Protection from Chaos.MOD	CLASSES:Evangelist=1	
+Protection from Evil.MOD	CLASSES:Evangelist=1	
+Protection from Good.MOD	CLASSES:Evangelist=1	
+Protection from Law.MOD		CLASSES:Evangelist=1	
+Remove Fear.MOD			CLASSES:Evangelist=1	
+Sanctuary.MOD			CLASSES:Evangelist=1	
+Shield of Faith.MOD		CLASSES:Evangelist=1	
+Summon Monster I.MOD		CLASSES:Evangelist=1	
+
+

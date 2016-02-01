@@ -1,0 +1,24 @@
+# CVS $Revision$ $Author$ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+CAMPAIGN:AEG - Magic of Rokugan 3.5
+GAMEMODE:35e
+TYPE:Alderac Entertainment Group.Sourcebook.L5R
+SHOWINMENU:NO
+BOOKTYPE:Accessory
+SETTING:Rokugan
+RANK:4
+ISOGL:YES
+SOURCELONG:Alderac Entertainment Group - Magic of Rokugan
+SOURCESHORT:MoR
+SOURCEWEB:http://alderac.com/d20
+
+CLASS:magicofrokugan_classes.lst
+EQUIPMENT:magicofrokugan_equip_armorshields.lst
+EQUIPMENT:magicofrokugan_equip_weapmelee.lst
+EQUIPMENT:magicofrokugan_equip.lst
+EQUIPMENT:magicofrokugan_equip_weapammo.lst
+EQUIPMENT:magicofrokugan_equip_weapranged.lst
+EQUIPMOD:magicofrokugan_equipmods.lst
+FEAT:magicofrokugan_feats.lst
+FEAT:magicofrokugan_feats_hidden.lst
+SKILL:magicofrokugan_skills.lst
+SPELL:magicofrokugan_spells.lst

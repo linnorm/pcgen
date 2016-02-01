@@ -1,0 +1,31 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+## Original Entry by: Rax the Grey
+
+##Block: Example set of Warcaster Armor to get PCGen to shut up about not having any
+# Equipment Name			Required Proficiency			Type											Contains			Cost		Weight	AC Penalty Check	Critical Hit Multiplier	Critical Hit Range	Damage		Modifier								Wield Category	Maximum DEX Bonus	Range		Size		Source Page			% of Spell Failure	Damage Reduction			Combat bonus											Weapon prop. bonus																			Special Property
+Example Warcaster Armor		PROFICIENCY:ARMOR|Warcaster		TYPE:Armor.Medium.CustomFit.Suit.Masterwork.Mechanikal.Warcaster					COST:0	WT:25		ACCHECK:-2													EQMOD:MWORKA.STEEL.MECHPLUS2A.ACTB.AFC.PWRFLD.MAACP				MAXDEX:4						SOURCEPAGE:LM pg. 68	SPELLFAILURE:20							BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+
+
+##Block: Custom-fit Armor
+# Equipment Name			Required Proficiency			Type											Contains			Cost		Weight	AC Penalty Check	Critical Hit Multiplier	Critical Hit Range	Damage		Modifier								Wield Category	Maximum DEX Bonus	Range		Size		Source Page			% of Spell Failure	Damage Reduction			Combat bonus											Weapon prop. bonus																			Special Property
+Custom Fitted Breastplate	PROFICIENCY:ARMOR|Breastplate		TYPE:Armor.Medium.CustomFit.Suit.Masterwork								COST:850	WT:25		ACCHECK:-2													EQMOD:MWORKA.STEEL									MAXDEX:4						SOURCEPAGE:pg. 341	SPELLFAILURE:20							BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+Custom Fitted Half-Plate	PROFICIENCY:ARMOR|Half-Plate		TYPE:Armor.Heavy.CustomFit.Suit.Masterwork								COST:1250	WT:45		ACCHECK:-5													EQMOD:MWORKA.STEEL									MAXDEX:1						SOURCEPAGE:pg. 341	SPELLFAILURE:35							BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Custom Fitted Full Plate	PROFICIENCY:ARMOR|Full Plate		TYPE:Armor.Heavy.CustomFit.Suit.Masterwork								COST:1650	WT:50		ACCHECK:-5													EQMOD:MWORKA.STEEL									MAXDEX:1						SOURCEPAGE:pg. 341	SPELLFAILURE:35							BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE
+
+
+##Block: New Armor
+# Equipment Name			Required Proficiency			Type											Contains			Cost		Weight	AC Penalty Check	Critical Hit Multiplier	Critical Hit Range	Damage		Modifier								Wield Category	Maximum DEX Bonus	Range		Size		Source Page			% of Spell Failure	Damage Reduction			Combat bonus											Weapon prop. bonus																			Special Property
+Armored Apron			PROFICIENCY:ARMOR|Breastplate		TYPE:Armor.Light													COST:30	WT:20		ACCHECK:-2													EQMOD:LEATHER										MAXDEX:4						SOURCEPAGE:pg. 196	SPELLFAILURE:15							BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE
+Greatcoat										TYPE:Clothing.Robe.Resizable											COST:20	WT:5		ACCHECK:0													EQMOD:LEATHER																	SOURCEPAGE:pg. 196										BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE|!PREARMORTYPE:1,TYPE.Medium,TYPE.Heavy
+Greatcoat, Reinforced								TYPE:Clothing.Robe.Resizable											COST:35	WT:7		ACCHECK:0													EQMOD:LEATHER										MAXDEX:8						SOURCEPAGE:pg. 196					DR:3/Bludgeoning or Slashing	BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE|!PREARMORTYPE:1,TYPE.Medium,TYPE.Heavy
+Greatcoat, Armored								TYPE:Clothing.Robe.Resizable											COST:75	WT:10		ACCHECK:-1													EQMOD:LEATHER.STEEL									MAXDEX:6						SOURCEPAGE:pg. 196	SPELLFAILURE:5		DR:5/Bludgeoning or Slashing	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE|!PREARMORTYPE:1,TYPE.Medium,TYPE.Heavy
+Mantle, Iron									TYPE:Mantle														COST:0	WT:20		ACCHECK:-3													EQMOD:STEEL											MAXDEX:4						SOURCEPAGE:pg. 196	SPELLFAILURE:15							BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE|!PREARMORTYPE:1,TYPE.Medium,TYPE.Heavy
+
+
+##Block: Shields
+# Equipment Name			Required Proficiency			Type											Contains			Cost		Weight	AC Penalty Check	Critical Hit Multiplier	Critical Hit Range	Damage		Modifier								Wield Category	Maximum DEX Bonus	Range		Size		Source Page			% of Spell Failure	Damage Reduction			Combat bonus											Weapon prop. bonus																			Special Property
+Rifleman's Bulwark		PROFICIENCY:SHIELD|Tower Shield	TYPE:Shield.Tower.Metal												COST:40	WT:45		ACCHECK:-10													EQMOD:IRON																		SOURCEPAGE:pg. 197	SPELLFAILURE:50							BONUS:COMBAT|AC|4|TYPE=Shield.REPLACE							BONUS:WEAPON|TOHIT|-2|PREFEAT:1,Tower Shield Proficiency	BONUS:WEAPON|TOHIT|SHIELDACCHECK|!PREFEAT:1,Tower Shield Proficiency	SPROP:Tower shields can grant full cover, +1 to hit with rifle if shield and gun are set
+Blastbuckler			PROFICIENCY:WEAPON|Shield Gun		TYPE:Weapon.Exotic.Ranged.Piercing.Firearm.Shield.Buckler.Metal	CONTAINS:1|Round=1	COST:235	WT:5		ACCHECK:-1		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d4-2	EQMOD:STEEL								WIELD:OneHanded				RANGE:5	SIZE:M	SOURCEPAGE:pg. 194	SPELLFAILURE:5							BONUS:COMBAT|AC|1|TYPE=Shield.REPLACE							BONUS:WEAPON|TOHIT|SHIELDACCHECK|!PREPROFWITHSHIELD:1,Buckler
+Shield Gun (Light)		PROFICIENCY:WEAPON|Shield Gun		TYPE:Weapon.Exotic.Ranged.Piercing.Firearm.Shield.Light.Metal	CONTAINS:1|Round=1	COST:260	WT:8		ACCHECK:-2		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d4		EQMOD:STEEL								WIELD:OneHanded				RANGE:10	SIZE:M	SOURCEPAGE:pg. 194	SPELLFAILURE:10							BONUS:COMBAT|AC|1|TYPE=Shield.REPLACE							BONUS:WEAPON|TOHIT|SHIELDACCHECK|!PREPROFWITHSHIELD:1,Light Shield
+Warcaptain's Shield		PROFICIENCY:WEAPON|Shield Gun		TYPE:Weapon.Exotic.Ranged.Piercing.Firearm.Shield.Heavy.Metal	CONTAINS:1|Round=1	COST:375	WT:17		ACCHECK:-3		CRITMULT:x3			CRITRANGE:2			DAMAGE:2d6		EQMOD:STEEL								WIELD:OneHanded				RANGE:20	SIZE:M	SOURCEPAGE:pg. 194	SPELLFAILURE:20							BONUS:COMBAT|AC|2|TYPE=Shield.REPLACE							BONUS:WEAPON|TOHIT|SHIELDACCHECK|!PREPROFWITHSHIELD:1,Heavy Shield

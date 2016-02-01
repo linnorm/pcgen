@@ -1,0 +1,19 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:SSS - Vigil Watch
+GAMEMODE:3e
+TYPE:Sword and Sorcery Studios.Scarred Lands
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+RANK:9
+SOURCELONG:Vigil Watch - Warren of the Ratmen
+SOURCESHORT:VigilWatch
+SOURCEWEB:http://www.swordsorcery.com
+
+RACE:vigilwatchraces.lst
+TEMPLATE:vigilwatchtemplates.lst
+WEAPONPROF:vigilwatchweaponprofs.lst
+EQUIPMENT:vigilwatchpoisons.lst
+EQUIPMENT:vigilwatcharmor.lst
+EQUIPMENT:vigilwatchweapmelee.lst
+EQUIPMENT:vigilwatchweapranged.lst

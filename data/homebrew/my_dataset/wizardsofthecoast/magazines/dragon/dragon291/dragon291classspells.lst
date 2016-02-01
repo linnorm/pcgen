@@ -1,0 +1,18 @@
+# CVS $Revision: 1.1 $ $Author: mynex $ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #291|SOURCESHORT:WotC-Dragon #291|SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# #'s (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) Indicate level that spell belongs to) -- Spells seperated by a Pipe Delimiter "|"
+CLASS:Bard
+0	Phantasmal Whisperer
+
+CLASS:Druid
+7	Shifting Paths
+
+CLASS:Wizard
+0	Phantasmal Whisperer
+2	Phantasmal Assailants
+3	Shadow Binding
+4	Shadow Radiance
+5	Illusory Feast
+6	Illusory Pit
+8	Shifting Paths
+9	Stalking Spell

@@ -1,0 +1,29 @@
+# CVS $Revision: $ $Author: $ -- Fri Oct  6 14:29:14 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+# Weapon Name			Type			Nb Hands
+Blowgun				TYPE:Simple
+Blowgun (Greater)			TYPE:Exotic		HANDS:2
+Chain					TYPE:Exotic		HANDS:2
+Double Spear			TYPE:Exotic		HANDS:2
+Straight Razor			TYPE:Simple
+
+
+## From Arms & Equipment Guide
+SOURCESHORT:ArmsEquip	SOURCEWEB:http://www.wizards.com/
+
+# Weapon Name			Type			Nb Hands
+Chain-and-dagger			TYPE:Exotic
+Chakram				TYPE:Exotic
+Claw Bracer				TYPE:Exotic
+Crossbow (Great)			TYPE:Exotic
+Dagger (Triple)			TYPE:Exotic
+Gauntlet (Bladed)			TYPE:Exotic
+Gauntlet (Spring Loaded)	TYPE:Exotic
+Hammer (Lucerne)			TYPE:Martial
+Harpoon				TYPE:Exotic
+Khopesh				TYPE:Exotic
+Knife (Stump)			TYPE:Exotic
+Maul					TYPE:Martial
+Sapara				TYPE:Exotic
+Ward Cestus				TYPE:Exotic		HANDS:0

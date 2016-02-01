@@ -1,0 +1,16 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #278
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #278
+SOURCESHORT:WotC-Dragon #278
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon278classes.lst
+EQUIPMENT:dragon278equiparmorshields.lst
+EQUIPMENT:dragon278equip.lst
+EQUIPMENT:dragon278equipweapranged.lst
+SPELL:dragon278spells.lst
+WEAPONPROF:dragon278weapprofs.lst

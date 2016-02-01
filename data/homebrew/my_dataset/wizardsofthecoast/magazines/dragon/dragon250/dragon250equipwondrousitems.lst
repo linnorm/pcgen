@@ -1,0 +1,28 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #250	SOURCESHORT:WotC-Dragon #250	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+#Name								TYPE							Cost		Weight
+# Equipment Name						Type				Cost		Weight	Required Class			AC Penalty Check	Source Page		% of Spell Failure	Save checks bonus					Combat bonus					Bonus to skill		Special Property
+Figurine of Wondrous Power (Coral Dolphin)	TYPE:Magic.Wondrous	COST:10000	WT:0										SOURCEPAGE:p.41																							SPROP:Summons forth a Porpoise as per Moster Manual
+Land-and-Sea Ring						TYPE:Magic.Wondrous	COST:25000	WT:0										SOURCEPAGE:p.41																							SPROP:Wearer can breathe air and water;can operate above or below the surface
+Manta Cloak							TYPE:Magic.Wondrous	COST:24000	WT:1										SOURCEPAGE:p.41																							SPROP:User can breathe underwater and swim like a Manta Ray
+Octopus Mantle						TYPE:Magic.Wondrous	COST:2400	WT:1										SOURCEPAGE:p.41																							SPROP:User can breathe underwater, has 8 tentacles(STR 8)can be used to grasp; 1x/day:ink cloud,Tail attack 1d4+4
+Shield (Shell)						TYPE:Magic.Wondrous	COST:100	WT:3							ACCHECK:0		SOURCEPAGE:p.41	SPELLFAILURE:5									BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE					SPROP:Enchanted to be harder than steel
+Boots of Marching						TYPE:Magic.Wondrous	COST:5000	WT:2		PRECLASS:1,FIGHTER=1					SOURCEPAGE:p.97																			BONUS:SKILL|Balance|2|	SPROP:+4 bonus to CON checks due to forced marches/pursuit etc.
+Necklace of Success					TYPE:Magic.Wondrous	COST:5000	WT:0		PRECLASS:1,FIGHTER=1					SOURCEPAGE:p.97																							SPROP:1x/week Allows wearer to re-roll any att/dam/sav rolls + Blessing the user and all allies within 20ft for 6 rounds
+Talisman of Power +1					TYPE:Magic.Wondrous	COST:10000	WT:0		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.97																							SPROP:+1 level to paramaters of spells cast when worn(range,duration,etc) Damage not increased
+Talisman of Power +2					TYPE:Magic.Wondrous	COST:12000	WT:0		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.97																							SPROP:+2 level to paramaters of spells cast when worn(range,duration,etc) Damage not increased
+Talisman of Power +3					TYPE:Magic.Wondrous	COST:14000	WT:0		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.97																							SPROP:+3 level to paramaters of spells cast when worn(range,duration,etc) Damage not increased
+Orb of Protection						TYPE:Magic.Wondrous	COST:7500	WT:0.5	PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.97					BONUS:CHECKS|Fortitude,Reflex,Willpower|1												SPROP:+2 to saves if held in one hand. +4 if in both hands and standing still
+Robe of the Specialist (Abjuraion)			TYPE:Magic.Wondrous	COST:25000	WT:1		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Enables wearer to memorize/cast one more Abjuration spell per level
+Robe of the Specialist (Conjuration)		TYPE:Magic.Wondrous	COST:25000	WT:1		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Enables wearer to memorize/cast one more Conjuration spell per level
+Robe of the Specialist (Divination)			TYPE:Magic.Wondrous	COST:25000	WT:1		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Enables wearer to memorize/cast one more Divination spell per level
+Robe of the Specialist (Enchantment)		TYPE:Magic.Wondrous	COST:25000	WT:1		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Enables wearer to memorize/cast one more Enchantment spell per level
+Robe of the Specialist (Evocation)			TYPE:Magic.Wondrous	COST:25000	WT:1		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Enables wearer to memorize/cast one more Evocation spell per level
+Robe of the Specialist (Illusion)			TYPE:Magic.Wondrous	COST:25000	WT:1		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Enables wearer to memorize/cast one more Illusion spell per level
+Robe of the Specialist (Necromancy)			TYPE:Magic.Wondrous	COST:25000	WT:1		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Enables wearer to memorize/cast one more Necromancy spell per level
+Robe of the Specialist (Transmutation)		TYPE:Magic.Wondrous	COST:25000	WT:1		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Enables wearer to memorize/cast one more Transmutation spell per level
+Ring of Excape						TYPE:Magic.Wondrous	COST:5000	WT:0		PRECLASS:1,Wizard,Sorcerer=1				SOURCEPAGE:p.98																							SPROP:Movement rate doubled and +10 to jump if wearer does nothing except flee combat
+Symbol of Purity						TYPE:Magic.Wondrous	COST:12500	WT:0		PRECLASS:1,CLERIC=1					SOURCEPAGE:p.98																							SPROP:Diety specific, wearer can turn undead as if he was 2 levels higher, max number always affected, Sunbeam 1/week
+Helm of holy Might					TYPE:Magic.Wondrous	COST:5000	WT:3		PRECLASS:1,CLERIC=1					SOURCEPAGE:p.98																							SPROP:+2 save vs Enchant/Charm, Illusion/Phantasm spells, immune to heat/chill metal spells
+Burglar's Gloves						TYPE:Magic.Wondrous	COST:5000	WT:0		PRECLASS:1,Rogue=1					SOURCEPAGE:p.98																							SPROP:+3 to all rolls to find/detect traps, +4 bonus to poison saves
+Dust of Blinding						TYPE:Magic.Wondrous	COST:1500	WT:0		PRECLASS:1,ROGUE=1					SOURCEPAGE:p.99																							SPROP:Can be thrown 10ft, acts as the spell Glitterdust 1x/pouch

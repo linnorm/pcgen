@@ -1,0 +1,14 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Power of the Jedi	SOURCESHORT:PotJ	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: Class Feats
+# Feat Name						Type					Visible	Required Class				Stackable?	Multiple?	Choose				Selections	Modify VAR			Weapon prof. bonus			Source Page
+Increase Weapon Damage				TYPE:Special			VISIBLE:YES	PRECLASS:1,Jedi Weapon Master=1	STACK:YES	MULT:YES	CHOOSE:WEAPONPROFS|TYPE.Melee			BONUS:VAR|IncWeapDmg|1							SOURCEPAGE:pg. 27
+Weapon Mastery (Devastating Strike)		TYPE:Special.WeaponMastery	VISIBLE:NO	PRECLASS:1,Jedi Weapon Master=1																						SOURCEPAGE:pg. 28
+Weapon Mastery (Martial Arts Kata)		TYPE:Special.WeaponMastery	VISIBLE:NO	PRECLASS:1,Jedi Weapon Master=1																						SOURCEPAGE:pg. 28
+Weapon Mastery (Rapid Strike)			TYPE:Special.WeaponMastery	VISIBLE:NO	PRECLASS:1,Jedi Weapon Master=1																						SOURCEPAGE:pg. 28
+Weapon Mastery (Superior Weapon Focus)	TYPE:Special.WeaponMastery	VISIBLE:NO	PRECLASS:1,Jedi Weapon Master=1			MULT:YES	CHOOSE:WEAPONPROFS|LIST								BONUS:WEAPONPROF=%LIST|TOHIT|1	SOURCEPAGE:pg. 28
+Weapon Mastery (Weapon Specialization)	TYPE:Special.WeaponMastery	VISIBLE:NO	PRECLASS:1,Jedi Weapon Master=1			MULT:YES	CHOOSE:FEAT=Weapon Focus	SELECT:1					BONUS:WEAPONPROF=%LIST|DAMAGE|2	SOURCEPAGE:pg. 28
+
+Jedi Knight WeaponMaster			TYPE:Special.JediKnightBonus	VISIBLE:NO	PRECLASS:1,Jedi Weapon Master=1			MULT:NO
+Jedi Knight Scholar				TYPE:Special.JediKnightBonus	VISIBLE:NO	PRECLASS:1,Jedi Scholar=1				MULT:NO

@@ -1,0 +1,31 @@
+# CVS $Revision: $ $Author: $
+CAMPAIGN:GR - Advanced Player's Manual - Source Book
+GAMEMODE:35e
+TYPE:Green Ronin Publishing.Core
+RANK:5
+GENRE:Fantasy
+BOOKTYPE:Supplement
+PUBNAMELONG:Green Ronin
+PUBNAMESHORT:Ronin
+PUBNAMEWEB:http://www.greenronin.com
+SOURCELONG:Green Ronin - Advanced Player's Manual
+SOURCESHORT:Adv.Players
+SOURCEWEB:www.greenronin.com
+SOURCEDATE:2005-01
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 1999, 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Advanced Player's Manual, Copyright 2005, Green Ronin Publishing, LLC.
+COPYRIGHT:PCGen dataset conversion for Advanced Player's Manual, Copyright 2005, PCGen Data Team (including, but not limited to: Aaron Divinsky)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:ogl.txt
+#EXTRAFILE:errata.txt
+
+CLASS:apm_classes_base.lst
+#DOMAIN:apm_domains.lst
+FEAT:apm_feats.lst
+FEAT:apm_feats_hidden.lst
+SPELL:apm_spells.lst
+SKILL:apm_skills.lst
+TEMPLATE:apm_template.lst

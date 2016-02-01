@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Divine and the Defeated	SOURCESHORT:DivineandDefeated	SOURCEWEB:http://www.swordsorcery.com
+
+# Equipment Name	Required Proficiency			Type								Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier	Wield Category	Size		Source Page
+Greathammer		PROFICIENCY:WEAPON|Greathammer	TYPE:Weapon.Martial.Melee.Metal.Bludgeoning	COST:20	WT:20		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10	EQMOD:STEEL	WIELD:TwoHanded	SIZE:M	SOURCEPAGE:p.51
+Warscepter		PROFICIENCY:WEAPON|Warscepter		TYPE:Weapon.Exotic.Melee.Metal.Bludgeoning	COST:30	WT:15		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10	EQMOD:STEEL	WIELD:OneHanded	SIZE:M	SOURCEPAGE:p.69

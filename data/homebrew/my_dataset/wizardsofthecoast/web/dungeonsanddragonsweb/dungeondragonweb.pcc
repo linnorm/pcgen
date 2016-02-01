@@ -1,0 +1,14 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:WotC - DnD Web Enhancements
+GAMEMODE:35e
+TYPE:Wizards of the Coast.Web Enhancements
+RANK:9
+SOURCELONG:Wizards of the Coast - Web Enhancements
+SOURCESHORT:WotC-Web Enhancements
+SOURCEWEB:http://www.wizards.com
+
+EQUIPMENT:dungeondragonwebequipweapmelee.lst
+FEAT:dungeondragonwebfeats.lst
+SPELL:dungeondragonwebspells.lst
+SPELL:dungeondragonwebpowers.lst
+WEAPONPROF:dungeondragonwebweapprofs.lst

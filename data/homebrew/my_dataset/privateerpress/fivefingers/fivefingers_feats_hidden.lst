@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Five Fingers	SOURCESHORT:FF	SOURCEWEB:http://www.ironkingdoms.com
+#Original Entry by: Rax the Grey
+
+##Block: Agent Abilities
+# Feat Name			Type			Visible	Stackable?	Multiple?	Choose													Selections	Bonus to skill rank	Class Skill
+Agent Class Skills	CATEGORY:FEAT	TYPE:Special	VISIBLE:NO	STACK:NO	MULT:YES															SELECT:3					CSKILL:LIST
+Agent Profession		CATEGORY:FEAT	TYPE:Special	VISIBLE:NO	STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE=Profession											BONUS:SKILLRANK|%LIST|5
+Field Education		CATEGORY:FEAT	TYPE:AgentAbility	VISIBLE:NO	STACK:YES	MULT:YES	CHOOSE:SKILLSNAMED|NORANK|TYPE=Craft|TYPE=Knowledge|TYPE=Perform|TYPE=Profession			BONUS:SKILLRANK|%LIST|2

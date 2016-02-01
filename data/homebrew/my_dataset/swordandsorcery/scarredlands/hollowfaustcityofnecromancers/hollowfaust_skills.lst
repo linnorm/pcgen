@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Hollowfaust - City of Necromancers	SOURCESHORT:Hollowfaust	SOURCEWEB:http://www.swordsorcery.com
+
+# Skill Name					Key Stat	Untrained?		Type					Source Page
+Craft (Bonecrafting)				KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft		SOURCEPAGE:p.87
+Knowledge (Anatomy)				KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:p.86
+Knowledge (Genealogy)				KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:p.91
+Knowledge (Historical personalities)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:p.91
+Knowledge (Local personalities)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:p.91
+Knowledge (Undead)				KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:p.91
+Profession (Embalmer)				KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession		SOURCEPAGE:p.86
+

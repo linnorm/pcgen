@@ -1,0 +1,9 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Hero's Guide	SOURCESHORT:HeroGuide	SOURCEWEB:http://www.wizards.com/starwars
+
+# Equipment Name			Type					Cost		Weight	Modifier		Source Page
+Computer (Handheld Slicing)	TYPE:Items.Tools.Computer	COST:5000	WT:2		EQMOD:SLICER	SOURCEPAGE:pg. 65
+Computer (Handheld)		TYPE:Items.Tools.Computer	COST:1500	WT:3.5				SOURCEPAGE:pg. 125
+Computer (Mainframe)		TYPE:Items.Tools.Computer	COST:8500	WT:10					SOURCEPAGE:pg. 124
+Computer (Private Slicing)	TYPE:Items.Tools.Computer	COST:2500	WT:5		EQMOD:SLICER	SOURCEPAGE:pg. 65
+Computer (Private)		TYPE:Items.Tools.Computer	COST:1200	WT:5.5				SOURCEPAGE:pg. 125

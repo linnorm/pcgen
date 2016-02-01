@@ -1,0 +1,15 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name				Output Name					Type					Cost		Weight	Source Page		Special Property
+Blue Sapphire										TYPE:Goods.Gem.Specific		COST:1000	WT:.01	SOURCEPAGE:p.7
+Silver Mirror										TYPE:Art.Specific			COST:5000	WT:.01	SOURCEPAGE:p.9	SPROP:Exceptional quality. May be used for Scrying.
+Cathezar's Books										TYPE:Goods.Book.Specific	COST:10000	WT:.01	SOURCEPAGE:p.9
+Alexandrite Gem										TYPE:Goods.Gem.Specific		COST:500	WT:.01	SOURCEPAGE:p.9
+Crown (Gem-encrusted)			OUTPUTNAME:Gem-encrusted Crown	TYPE:Art.Specific			COST:5000	WT:.01	SOURCEPAGE:p.9
+Seafire Gem (Glowing)									TYPE:Goods.Gem.Specific		COST:1000	WT:.01	SOURCEPAGE:p.17	SPROP:Mined and cut on the plane of bytopia.
+Small Sapphire										TYPE:Goods.Gem.Specific		COST:100	WT:.01	SOURCEPAGE:p.18
+Demogorgon Idol (Golden/Bejeweled)							TYPE:Art.Specific			COST:200	WT:.01	SOURCEPAGE:p.22
+White Opal											TYPE:Goods.Gem.Specific		COST:1000	WT:.01	SOURCEPAGE:p.28

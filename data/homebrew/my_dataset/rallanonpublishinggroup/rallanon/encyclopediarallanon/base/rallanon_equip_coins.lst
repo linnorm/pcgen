@@ -1,0 +1,110 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Tue Nov  8 16:00:00 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+# Coin Name		Product Identity?	Type				Cost		Weight	Source Page
+#Coin (Platinum)	NAMEISPI:YES	TYPE:Coin			COST:10	WT:.02	SOURCEPAGE:Chap.8, Economy
+#Coin (Gold)	NAMEISPI:YES	TYPE:Coin			COST:1	WT:.02	SOURCEPAGE:Chap.8, Economy
+#Coin (Electrum)	NAMEISPI:YES	TYPE:Coin			COST:.5	WT:.02	SOURCEPAGE:Chap.8, Economy
+#Coin (Silver)	NAMEISPI:YES	TYPE:Coin			COST:.1	WT:.02	SOURCEPAGE:Chap.8, Economy
+#Coin (Bronze)	NAMEISPI:YES	TYPE:Coin			COST:.02	WT:.02	SOURCEPAGE:Chap.8, Economy
+#Coin (Copper)	NAMEISPI:YES	TYPE:Coin			COST:.01	WT:.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Algoria
+# Equipment Name	Product Identity?	Type				Cost		Weight	Source Page
+Ka-Mark		NAMEISPI:YES	TYPE:Coin.Algorian	COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Mark			NAMEISPI:YES	TYPE:Coin.Algorian	COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Da-Mark		NAMEISPI:YES	TYPE:Coin.Algorian	COST:0.5	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Silum			NAMEISPI:YES	TYPE:Coin.Algorian	COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Bront			NAMEISPI:YES	TYPE:Coin.Algorian	COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Copa			NAMEISPI:YES	TYPE:Coin.Algorian	COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Altorkania
+Zalum			NAMEISPI:YES	TYPE:Coin.Altorkanian	COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Luma			NAMEISPI:YES	TYPE:Coin.Altorkanian	COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Nelde			NAMEISPI:YES	TYPE:Coin.Altorkanian	COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Ardos
+Ardon			NAMEISPI:YES	TYPE:Coin.Ardos		COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Ardan			NAMEISPI:YES	TYPE:Coin.Ardos		COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Ardun			NAMEISPI:YES	TYPE:Coin.Ardos		COST:0.5	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Arden			NAMEISPI:YES	TYPE:Coin.Ardos		COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Ardyn			NAMEISPI:YES	TYPE:Coin.Ardos		COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Ardin			NAMEISPI:YES	TYPE:Coin.Ardos		COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Athega
+Effri			NAMEISPI:YES	TYPE:Coin.Athega		COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Worz			NAMEISPI:YES	TYPE:Coin.Athega		COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Parkan		NAMEISPI:YES	TYPE:Coin.Athega		COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Belaris		NAMEISPI:YES	TYPE:Coin.Athega		COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Bokan			NAMEISPI:YES	TYPE:Coin.Athega		COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Bellagon
+Falton		NAMEISPI:YES	TYPE:Coin.Bellagon	COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Zanat			NAMEISPI:YES	TYPE:Coin.Bellagon	COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Bantu			NAMEISPI:YES	TYPE:Coin.Bellagon	COST:0.5	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Ent			NAMEISPI:YES	TYPE:Coin.Bellagon	COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Zish			NAMEISPI:YES	TYPE:Coin.Bellagon	COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Joal			NAMEISPI:YES	TYPE:Coin.Bellagon	COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Bloodlands
+Fanco			NAMEISPI:YES	TYPE:Coin.Bloodlandian	COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Haldan		NAMEISPI:YES	TYPE:Coin.Bloodlandian	COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Olona			NAMEISPI:YES	TYPE:Coin.Bloodlandian	COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Vaila			NAMEISPI:YES	TYPE:Coin.Bloodlandian	COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Candon
+Nalpot		NAMEISPI:YES	TYPE:Coin.Candonian	COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Celso			NAMEISPI:YES	TYPE:Coin.Candonian	COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Mena			NAMEISPI:YES	TYPE:Coin.Candonian	COST:0.5	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Panlo			NAMEISPI:YES	TYPE:Coin.Candonian	COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Egrin			NAMEISPI:YES	TYPE:Coin.Candonian	COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Gant			NAMEISPI:YES	TYPE:Coin.Candonian	COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Dentros
+Stel			NAMEISPI:YES	TYPE:Coin.Dentros		COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Corp			NAMEISPI:YES	TYPE:Coin.Dentros		COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Paltum		NAMEISPI:YES	TYPE:Coin.Dentros		COST:0.5	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Silvum		NAMEISPI:YES	TYPE:Coin.Dentros		COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Plairin		NAMEISPI:YES	TYPE:Coin.Dentros		COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Eletum		NAMEISPI:YES	TYPE:Coin.Dentros		COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Haknaar
+Telma			NAMEISPI:YES	TYPE:Coin.Haknaar		COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Demo			NAMEISPI:YES	TYPE:Coin.Haknaar		COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Setwa			NAMEISPI:YES	TYPE:Coin.Haknaar		COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Zhark			NAMEISPI:YES	TYPE:Coin.Haknaar		COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Galnga		NAMEISPI:YES	TYPE:Coin.Haknaar		COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Kharsiris
+Neldeum		NAMEISPI:YES	TYPE:Coin.Kharsiris	COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Imrin			NAMEISPI:YES	TYPE:Coin.Kharsiris	COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Kathis		NAMEISPI:YES	TYPE:Coin.Kharsiris	COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Desh			NAMEISPI:YES	TYPE:Coin.Kharsiris	COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Gaija			NAMEISPI:YES	TYPE:Coin.Kharsiris	COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Landorn
+Dhent			NAMEISPI:YES	TYPE:Coin.Landorn		COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Canir			NAMEISPI:YES	TYPE:Coin.Landorn		COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Telro			NAMEISPI:YES	TYPE:Coin.Landorn		COST:0.5	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Lenf			NAMEISPI:YES	TYPE:Coin.Landorn		COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Vrish			NAMEISPI:YES	TYPE:Coin.Landorn		COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Yarnot		NAMEISPI:YES	TYPE:Coin.Landorn		COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Mysidia
+Tele			NAMEISPI:YES	TYPE:Coin.Mysidia		COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Kines			NAMEISPI:YES	TYPE:Coin.Mysidia		COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Creat			NAMEISPI:YES	TYPE:Coin.Mysidia		COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Sentin		NAMEISPI:YES	TYPE:Coin.Mysidia		COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Pantorka
+Dapolt		NAMEISPI:YES	TYPE:Coin.Pantorka	COST:10	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Salpolt		NAMEISPI:YES	TYPE:Coin.Pantorka	COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Tapolt		NAMEISPI:YES	TYPE:Coin.Pantorka	COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Bipolt		NAMEISPI:YES	TYPE:Coin.Pantorka	COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Polt			NAMEISPI:YES	TYPE:Coin.Pantorka	COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy
+
+##Block: Vrellgron
+Noble			NAMEISPI:YES	TYPE:Coin.Vrellgron	COST:1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Crown			NAMEISPI:YES	TYPE:Coin.Vrellgron	COST:0.1	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Bite			NAMEISPI:YES	TYPE:Coin.Vrellgron	COST:0.02	WT:0.02	SOURCEPAGE:Chap.8, Economy
+Bit			NAMEISPI:YES	TYPE:Coin.Vrellgron	COST:0.01	WT:0.02	SOURCEPAGE:Chap.8, Economy

@@ -1,0 +1,150 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Defiant	HD:8		TYPE:PC.Prestige	ABB:Def		MAXLEVEL:10	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.44	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required Check	Required Skill
+CLASS:Defiant	PRECHECK:1,Will=5	PRESKILL:1,Knowledge (The Planes)=4	PRESKILL:1,Knowledge (Religion)=8
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Defiant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Gather Information|Intimidate|Knowledge (The Planes)|Knowledge (Religion)|Listen|TYPE.Profession|Spellcraft
+1	SAB:Spell Resistance (Su) ~ 15 + Class Level vs Divine mind-affecting spells
+2	SAB:Divine Resistance (Su) ~ Add CHA modifier to saves vs Divine spells
+3	SAB:Divine Damage Resistance (Su) ~ Immune to damage from a divine power
+4	SAB:Divine Cancellation (Ex) ~ 1/day
+5	SAB:Aligned Strike (Su)
+6	SAB:Divine Prevention (Su)
+7	SAB:Non Detection (Su)
+8	SAB:Divine Retribution (Su)
+9	SAB:Divine Inteference (Su)
+10	SAB:Divine Disavowal (Su)
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Doomlord	HD:12		TYPE:PC.Prestige	ABB:Dld		MAXLEVEL:10	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.47	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat					Required Text														Req. Weapond Prof.
+CLASS:Doomlord	PREATT:7	PREFEAT:2,Improved Sunder,Weapon Focus	PRETEXT:Must have Sundered a weapon, scattered 500gp into a crowd, and destroyed a building	PREWEAPONPROF:1,TYPE.Sword
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Doomlord	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Disable Device|Jump|Knowledge (Architecture and Engineering)|Listen|Spellcraft|Spot|Survival|Swim
+1	SAB:Healing Resistance (Ex)	SAB:Entropic Blow %/day (Su) ~ Add Cha Bonus to attack roll, and deal an extra 2 points of damage per doomlord level|EntropicBlowFreq	BONUS:VAR|EntropicBlowFreq|((CL=Doomlord)+3)/4	DEFINE:EntropicBlowFreq|0																										AUTO:FEAT|Martial Weapon Proficiency
+2	SAB:Destructive Expertise (Ex)																																				ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|Cleave,Diehard,Endurance,Great Cleave,Improved Critical,Toughness
+3	SAB:Negative adaption (Ex) ~ Add % to Disable device and Knowledge (architecture and engineering checks)|DestructiveExpertise								BONUS:VAR|DestructiveExpertise|(CL=Doomlord)/2	DEFINE:DestructiveExpertise|0
+4																																										ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|Doomlord Body or Soul
+6																																										ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|Cleave,Diehard,Endurance,Great Cleave,Improved Critical,Toughness
+7	SAB:Unmaking magic (Sp)																																																							SPELLS:Unmaking Magic (Sp)|TIMES=3|Dispel Magic
+8																																										ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|Doomlord Body or Soul
+9	SAB:Disintegrate (Sp)																																																							SPELLS:Disintegrate (Sp)|TIMES=1|Disintegrate
+10																																										ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|Cleave,Diehard,Endurance,Great Cleave,Improved Critical,Toughness
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Fatemaker	HD:6		TYPE:PC.Prestige	ABB:Fmr		MAXLEVEL:10	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.50	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required AL				Req. Att.	Required Feat											Multiple Requirements
+CLASS:Fatemaker	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:4	PREFEAT:1,Skill Focus(Bluff),Skill Focus(Diplomacy),Skill Focus(Intimidate)	PRESKILL:1,Bluff=8,Diplomacy=8,Intimidate=8	PRESKILL:3,Bluff=5,Diplomacy=5,Intimidate=5
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Fatemaker	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Spot|Swim|Tumble|Use Magic Device
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Fatemaker	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Fatemaker|CL
+1	CAST:0		KNOWN:2																																		ADD:FEAT|1|Fatemaker Take-charge	AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)	AUTO:WEAPONPROF|Longsword|Rapier|Sap|Sword (Short)|Shortbow|Shortbow|Whip
+2	CAST:1		KNOWN:3		SAB:Confidence of the Fated %/day (Su)|ConfidenceoftheFated									BONUS:VAR|ConfidenceoftheFated|((CL=Fatemaker)+3)/5	DEFINE:ConfidenceoftheFated|0
+3	CAST:2,0		KNOWN:3,2																				BONUS:VAR|SneakAttackDice|(CL=Fatemaker)/3													AUTO:FEAT|Sneak Attack
+4	CAST:3,1		KNOWN:4,3		SAB:Aura of Confidence (Su) ~ Allies recieve a +% on attack rolls, saves and skill checks|AuraofConfidence	BONUS:VAR|AuraofConfidence|(CL=Fatemaker)/4		DEFINE:AuraofConfidence|0
+5	CAST:3,2,0		KNOWN:4,3,2																																		ADD:FEAT|1|Fatemaker Take-charge
+6	CAST:3,3,1		KNOWN:4,4,3
+7	CAST:3,3,2		KNOWN:4,4,3,2
+8	CAST:3,3,3,1	KNOWN:4,4,4,3
+9	CAST:3,3,3,2	KNOWN:4,4,4,3
+10	CAST:3,3,3,3	KNOWN:4,4,4,4	SAB:Ego Manifestation (Sp) ~ temporarily gain +4 on Intimidate checks																					ADD:FEAT|1|Fatemaker Take-charge
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus												Combat bonus
+CLASS:Visionary Seeker	HD:6		TYPE:PC.Prestige	ABB:ViS		MAXLEVEL:10	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.53	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Skill					Required Text
+CLASS:Visionary Seeker	PRESKILL:1,TYPE.Knowledge=8,Survival=8	PRETEXT:Must be inducted by a member of Mind's Eye
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Visionary Seeker	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Sense Motive|Spellcraft|Spot|Survival
+1																												ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|Visionary Seeker Divination Expertise
+2	SAB:Spell Mimic %/day (Sp)|SpellMimic								BONUS:VAR|SpellMimic|((CL=Visionary Seeker)+2)/4	DEFINE:SpellMimic|0
+3	SAB:Intuition (Ex) ~ +% insight bonus on Will saves against illusion|Intuition	BONUS:VAR|Intuition|((CL=Visionary Seeker)+1)/4*2	DEFINE:Intuition|0	ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|Visionary Seeker Intuition
+4	SAB:Bend Fate (Su) ~ Once per day, may add 1d6 to any 1d20 roll, before rolling
+5																												ADD:SPELLCASTER|1|ANY
+6
+7																												ADD:SPELLCASTER|1|ANY
+8	SAB:Trick Fate (Su) ~ Once per day, may re-roll one die
+9																												ADD:SPELLCASTER|1|ANY
+10																																									SPELLS:Moment of Prescience (Sp)|TIMES=1|Moment of Prescience
+
+
+#CLASS:Ardent Dilettante	HD:8		TYPE:PC.Prestige	ABB:Ard		MAXLEVEL:10	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.55	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+#CLASS:Ardent Dilettante	PRESKILL:1,TYPE.Strength,TYPE.Intelligence,TYPE.Dexterity,TYPE.Constitution,TYPE.Wisdom,TYPE.Charisma=8	PRESKILL:6,TYPE.Strength,TYPE.Intelligence,TYPE.Dexterity,TYPE.Constitution,TYPE.Wisdom,TYPE.Charisma=1	PRETEXT:Must recount 5 experiences, one for each sense, at a feasthall or sensorium
+#CLASS:Ardent Dilettante	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Handle Animal|Heal|Hide|Intimidate|Jump|TYPE.Knowledge|Listen|Move Silently|Open Lock|TYPE.Perform|TYPE.Profession|Ride|Search|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope
+#1					SA:Heightened Senses (Su)	SA:Lore
+#2	ADD:SPELLCASTER(ANY)	SA:Enthrall (Sp)
+#3	ADD:SPELLCASTER(ANY)	SA:Joie de Vivre (Sp)
+#4	ADD:SPELLCASTER(ANY)	SA:Sense Link (Sp)				ADD:FEAT													PRESKILL:1,TYPE.Perform=8	PRESKILL:2,TYPE.Strength,TYPE.Intelligence,TYPE.Dexterity,TYPE.Constitution,TYPE.Wisdom,TYPE.Charisma=5	PRESKILL:5,TYPE.Strength,TYPE.Intelligence,TYPE.Dexterity,TYPE.Constitution,TYPE.Wisdom,TYPE.Charisma=1	PRESPELLCAST:TYPE=Divine|TYPE=Arcane																						PREWEAPONPROF:2,TYPE.Martial
+#5	ADD:SPELLCASTER(ANY)	SA:Scent (Ex)
+#6	ADD:SPELLCASTER(ANY)	SA:Seen it Before (Su)
+#7	ADD:SPELLCASTER(ANY)								ADD:FEAT													PRESKILL:1,TYPE.Perform=8	PRESKILL:1,TYPE.Strength=5	PRESKILL:1,TYPE.Dexterity=5	PRESKILL:4,TYPE.Strength,TYPE.Intelligence,TYPE.Dexterity,TYPE.Constitution,TYPE.Wisdom,TYPE.Charisma=1									PRESPELLCAST:TYPE=Divine	PRESPELLCAST:TYPE=Arcane	PRETEXT:Must have visited 3 different planes											PREWEAPONPROF:4,TYPE.Martial
+#8	ADD:SPELLCASTER(ANY)	SA:See it Again (Su)
+#9	ADD:SPELLCASTER(ANY)	SA:Blindsense 10ft (Ex)
+#10	ADD:SPELLCASTER(ANY)	SA:Death Holds No Mystery (Su)		ADD:FEAT	PREMULT:1[PRESKILL:1,TYPE.Intelligence=5],[PRESKILL:1,TYPE.Wisdom=5]	PRESKILL:1,TYPE.Perform=8	PRESKILL:1,TYPE.Strength=5	PRESKILL:1,TYPE.Dexterity=5	PRESKILL:1,TYPE.Constitution=5																					PRESPELLCAST:TYPE=Divine	PRESPELLCAST:TYPE=Arcane	PRETEXT:Must have visited 6 different planes	PRETEXT:Must have died and returned to life, or unlife	PREWEAPONPROF:4,TYPE.Martial	PREWEAPONPROF:1,TYPE.Exotic
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus												Combat bonus
+CLASS:Cipher Adept	HD:8		TYPE:PC.Prestige	ABB:CipAdpt		MAXLEVEL:10	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.58	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required AL	Required Feat					Required Skill
+CLASS:Cipher Adept	PREALIGN:TN	PREFEAT:3,Agile,Dodge,Improved Initiative	PRESKILL:2,Balance=5,Survival=5	PRESKILL:1,Listen=10
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Cipher Adept	STARTSKILLPTS:2	CSKILL:Balance|Bluff|Concentration|Disable Device|Escape Artist|Handle Animal|Hide|Move Silently|Ride|Sense Motive|Spot|Survival|Swim|Tumble|Use Magic Device
+1	SAB:Strike the Weak Spot (Ex)																	ADD:FEAT|1|Improved Unarmed Strike
+2																																																									AUTO:FEAT|Evasion
+3							BONUS:COMBAT|AC|1|TYPE=Insight.REPLACE	BONUS:COMBAT|INITIATIVE|1|TYPE=Insight.REPLACE
+4																						ADD:FEAT|1|Acrobatic,Alertness,Animal Affinity,Combat Reflexes,Deft Hands,Improved Critical,Improved Disarm,Improved Sunder,Lightning Reflexes,Mobility,Nimble Fingers,Precise Shot,Self Sufficient,Spring Attack
+5	SAB:Combination Strike (Ex)
+6							BONUS:COMBAT|AC|1|TYPE=Insight.REPLACE	BONUS:COMBAT|INITIATIVE|1|TYPE=Insight.REPLACE
+7																																																									AUTO:FEAT|Improved Evasion
+8																						ADD:FEAT|1|Acrobatic,Alertness,Animal Affinity,Combat Reflexes,Deft Hands,Improved Critical,Improved Disarm,Improved Sunder,Lightning Reflexes,Mobility,Nimble Fingers,Precise Shot,Self Sufficient,Spring Attack
+9							BONUS:COMBAT|AC|1|TYPE=Insight.REPLACE	BONUS:COMBAT|INITIATIVE|1|TYPE=Insight.REPLACE
+10	SAB:Move Without Barriers (Su)
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus												Combat bonus
+CLASS:Chaotician	HD:10		TYPE:PC.Prestige	ABB:Chao		MAXLEVEL:5	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.61	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required AL		Req. Att.	Required Check
+CLASS:Chaotician	PREALIGN:CG,CN,CE	PREATT:4	PRECHECK:3,Fortitude=2,Will=2,Reflex=2
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Chaotician	STARTSKILLPTS:4	CSKILL:Bluff|TYPE.Craft|Decipher Script|Diplomacy|Forgery|Gather Information|Intimidate|TYPE.Knowledge|Search|Sense Motive|Spot|Use Magic Device
+1	SAB:Chaotic Contagion (Su)	SAB:Scofflaw (Su)
+2	SAB:Anarchic grace %/day (Su)|Anarchicgrace	BONUS:VAR|Anarchicgrace|(CL=Chaotician)/2	DEFINE:Anarchicgrace|0
+3	SAB:Babble (Su)	SAB:Clarity of Confusion (Su)
+4
+5	SAB:Destiny's Arbiter (Su)
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus												Combat bonus
+CLASS:Astral Dancer	HD:8		TYPE:PC.Prestige	ABB:AstDan		MAXLEVEL:10	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.63	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Feat					Required Skill
+CLASS:Astral Dancer	PREFEAT:3,Dodge,Mobility,Spring Attack	PRESKILL:3,Balance=8,Jump=8,Tumble=8
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Astral Dancer	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Escape Artist|Hide|Jump|Knowledge (The Planes)|Listen|Move Silently|TYPE.Profession|Search|Sleight of Hand|Spot|Tumble|Use Rope
+1									SAB:Relative Altitude (Ex)
+2									SAB:Evasion (no-gravity) (Ex)
+3									SAB:Improved Maneuverability (Ex)
+4	SA:.CLEAR.Evasion (no-gravity) (Ex)																						AUTO:FEAT|Evasion
+5									SAB:Astral Dodge % (Ex)|AstralDodge		BONUS:VAR|AstralDodge|(CL=Astral Dancer)*5*2	DEFINE:AstralDodge|0
+6									SAB:Improved Evasion (no-gravity) (Ex)
+7									SAB:Astral Agility (Ex)
+8	SA:.CLEAR.Improved Evasion (no-gravity) (Ex)																				AUTO:FEAT|Improved Evasion
+9
+10									SAB:Lightning Speed (Ex)
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.		Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Elemental Warrior	HD:10		TYPE:PC.Prestige	ABB:EleWar		MAXLEVEL:5	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.65	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Skill				Required Text
+CLASS:Elemental Warrior	PREATT:7	PRESKILL:1,Knowledge (The Planes)=5	PRETEXT:Must have travelled to at least one of the Elemental Planes
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Elemental Warrior	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Knowledge (The Planes)|Ride|Swim
+1							SAB:Elemental Affinity (Ex)
+2							SAB:Elemental Manifestation (Su)
+3							SAB:Elemental Weapon (Su)
+4							SAB:Elemental Movement (Su)
+5	SA:.CLEAR.Elemental Weapon (Su)	SAB:Elemental Burst Weapon (Su)	SAB:Elemental Strike

@@ -1,0 +1,24 @@
+# CVS $Revision$ $Author$ -- Fri Mar  2 17:00:14 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+CAMPAIGN:Anubium - Dark Arts of Necromancy
+RANK:7
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Sourcebook
+SETTING:Generic
+TYPE:Anubium
+PUBNAMELONG:Anubium
+PUBNAMESHORT:Anubium
+PUBNAMEWEB:http://www.anubium.com
+SOURCELONG:Anubium - Dark Arts of Necromancy
+SOURCESHORT:DAoN
+SOURCEWEB:http://www.anubium.com
+
+
+ABILITY:darkartsofnecromancy_abilities.lst
+CLASS:darkartsofnecromancy_classes.lst
+DOMAIN:darkartsofnecromancy_domains.lst
+FEAT:darkartsofnecromancy_feats.lst
+SKILL:darkartsofnecromancy_skills.lst
+SPELL:darkartsofnecromancy_spells.lst
+RACE:darkartsofnecromancy_races_familiars.lst
+COMPANIONMOD:darkartsofnecromancy_companionmods.lst

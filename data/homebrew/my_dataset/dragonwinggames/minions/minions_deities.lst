@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Minions	SOURCESHORT:Minions	SOURCEWEB:http://www.dragonwing.net
+
+# Deity Name	Domains							Desciption of Deity/Title							Holy Item						Deity Weapon		Pantheon		Source Page
+Shiv			DOMAINS:Air,Earth,Fire,Strength,Sun,War,Water	DESC:God of war and valor.							SYMBOL:A short sword held by four arms	DEITYWEAP:Sword (Short)	PANTHEON:Knük	SOURCEPAGE:pg. 64
+Thakaa										DESC:Goddess of nature and the forest. Her priests are druids.	SYMBOL:An oak tree				DEITYWEAP:Sickle		PANTHEON:Knük	SOURCEPAGE:pg. 64

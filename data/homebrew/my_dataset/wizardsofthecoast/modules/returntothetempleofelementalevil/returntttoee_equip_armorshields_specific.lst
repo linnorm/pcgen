@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original Entry by Barak  06/26/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name		Required Proficiency	Type							Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
+Chitin Breastplate	PROFICIENCY:ARMOR|Brestplate	TYPE:Armor.Medium.Standard.Suit.SpecificCOST:500	WT:30		ACCHECK:-3		MAXDEX:4		SOURCEPAGE:154	SPELLFAILURE:25		BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+Chitin Half-Plate		PROFICIENCY:ARMOR|Half-Plate	TYPE:Armor.Heavy.Standard.Suit.SpecificCOST:900	WT:50		ACCHECK:-6		MAXDEX:1		SOURCEPAGE:154	SPELLFAILURE:40		BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE
+Chitin Full Plate		PROFICIENCY:ARMOR|Full Plate	TYPE:Armor.Heavy.Standard.Suit.SpecificCOST:1800	WT:50		ACCHECK:-5		MAXDEX:2		SOURCEPAGE:154	SPELLFAILURE:35		BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE

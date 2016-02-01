@@ -1,0 +1,18 @@
+# CVS $Revision: 1.6 $ $Author: byngl $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Modules - Pools of Radiance Attack on Myth Drannor	SOURCESHORT:WotC-PoR Attack on Myth Drannor	SOURCEWEB:http://www.wizards.com
+#Simple Weapons
+# Equipment Name				Required Proficiency			Type										Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Damage	Size		Source Page		Save checks bonus			Weapon prop. bonus		Special Property
+Jump Dagger					PROFICIENCY:WEAPON|Dagger			TYPE:Magic.Weapon.Simple.Melee.Piercing.Specific		COST:16052	WT:1		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4					SIZE:T	SOURCEPAGE:p.81											SPROP:Jump, Feather Fall
+Rothilions Staff of Justice		PROFICIENCY:WEAPON|Quarterstaff		TYPE:Magic.Weapon.Simple.Melee.Bludgeoning.Large		COST:30000	WT:4		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6					SIZE:L	SOURCEPAGE:p.78						BONUS:WEAPON|DAMAGE,TOHIT|2
+Fanged Mask											TYPE:Magic.Weapon.Simple.Melee.Piercing				COST:4302	WT:1		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4					SIZE:T	SOURCEPAGE:p.81						BONUS:WEAPON|DAMAGE,TOHIT|1	SPROP: Fort save DC13 to not be stunned by bite.
+
+#Martial Weapons
+Scimitar of the Fool			PROFICIENCY:WEAPON|Scimitar			TYPE:Magic.Weapon.Martial.Melee.Slashing				COST:2250	WT:4		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d6					SIZE:M	SOURCEPAGE:p.79	BONUS:CHECKS|Fortitude|-3
+Winter's Eye (Sword (Long)/Frost)	PROFICIENCY:WEAPON|Sword (Long)		TYPE:Magic.Weapon.Martial.Melee.Slashing.Specific		COST:18215	WT:15		CRITMULT:x2			CRITRANGE:2			DAMAGE:2d6					SIZE:L	SOURCEPAGE:p.79						BONUS:WEAPON|DAMAGE,TOHIT|2
+Spectral Blade (Sword (Long))		PROFICIENCY:WEAPON|Sword (Long)		TYPE:Magic.Weapon.Martial.Melee.Slashing				COST:2250	WT:2		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8					SIZE:M	SOURCEPAGE:p.79											SPROP:Chill touch
+Spectral Blade (Sword (Short))	PROFICIENCY:WEAPON|Sword (Short)		TYPE:Weapon.Martial.Melee.Standard.Piercing.Metal		COST:2250	WT:3		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d6					SIZE:S	SOURCEPAGE:p.79											SPROP:Chill touch
+Spectral Blade (Scimitar)								TYPE:Weapon.Martial.Melee.Standard.Slashing.Metal		COST:2250	WT:4		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d6					SIZE:M	SOURCEPAGE:p.79											SPROP:Chill touch
+Spectral Blade (Sword (Great))							TYPE:Weapon.Martial.Melee.Standard.Slashing.Metal		COST:2250	WT:15		CRITMULT:x2			CRITRANGE:2			DAMAGE:2d6					SIZE:L	SOURCEPAGE:p.79											SPROP:Chill touch
+Spectral Blade (Dagger)			PROFICIENCY:WEAPON|Dagger			TYPE:Weapon.Simple.Melee.Piercing.Standard.Metal		COST:2250	WT:1		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4					SIZE:T	SOURCEPAGE:p.79											SPROP:Chill touch
+Spectral Blade (Sword (Bastard))	PROFICIENCY:WEAPON|Sword (Bastard/[Hands])	TYPE:Weapon.Exotic.Melee.Slashing.Standard.Metal		COST:2250	WT:10		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d10					SIZE:M	SOURCEPAGE:p.79											SPROP:Chill touch
+Spectral Blade (Sword (Two-Bladed))							TYPE:Weapon.Exotic.Melee.Slashing.Standard.Double.Metal	COST:2250	WT:30		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	ALTDAMAGE:1d8		SIZE:L	SOURCEPAGE:p.79											SPROP:Chill touch

@@ -1,0 +1,25 @@
+# CVS $Revision$ $Author$ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+CAMPAIGN:Legends of Sorcery
+RANK:1
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+TYPE:RPG Objects.Supplements
+PUBNAMELONG:RPG Objects
+PUBNAMESHORT:RPGO
+PUBNAMEWEB:http://www.rpgobjects.com/
+SOURCELONG:Legends of Sorcery
+SOURCESHORT:LoS
+SOURCEWEB:http://www.rpgobjects.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich baker, Andy Collins, David noonan, Rich Redman, Bruce R. Cordell, based on original material by E. Gary Gygax and Dave Arneson
+
+
+ABILITY:legendsofsorcery_abilities_class.lst
+CLASS:legendsofsorcery_classes_base.lst
+CLASS:legendsofsorcery_classes_prestige.lst
+FEAT:legendsofsorcery_feats.lst
+FEAT:legendsofsorcery_feats_hidden.lst
+SKILL:legendsofsorcery_skills.lst
+SPELL:legendsofsorcery_spells.lst

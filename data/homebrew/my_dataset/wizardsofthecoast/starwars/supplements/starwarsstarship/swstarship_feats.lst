@@ -1,0 +1,49 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Starships of the Galaxy	SOURCESHORT:SotG	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: General Feats
+# Feat Name						Type				Visible	Req. Att.	Required Feat										Required Skill		Var. Min. Value			Description																		Multiple?	Choose					Source Page
+Gunner						TYPE:General																											DESC:You understand how to use all starship weapons.																			SOURCEPAGE:p. 32
+Expert Gunner					TYPE:General.Gunner			PREATT:9	PREFEAT:1,Gunner																			DESC:You never suffer range penalties when using starship weapons.																SOURCEPAGE:p. 32
+Maneuver Expertise (Starfighter)		TYPE:General.Pilot					PREFEAT:1,Starship Operation (Starfighter)					PRESKILL:1,Pilot=6						DESC:You have mastered one particular starship maneuver.										MULT:YES	CHOOSE:FEATSELECT|TYPE=Maneuver	SOURCEPAGE:p. 32
+Maneuver Expertise (Space Transport)	TYPE:General.Pilot					PREFEAT:1,Starship Operation (Space Transport)					PRESKILL:1,Pilot=6						DESC:You have mastered one particular starship maneuver.										MULT:YES	CHOOSE:FEATSELECT|TYPE=Maneuver	SOURCEPAGE:p. 32
+Maneuver Expertise (Capital Ship)		TYPE:General.Pilot					PREFEAT:1,Starship Operation (Capital Ship)					PRESKILL:1,Pilot=6						DESC:You have mastered one particular starship maneuver.										MULT:YES	CHOOSE:FEATSELECT|TYPE=Maneuver	SOURCEPAGE:p. 32
+Pinpoint Accuracy					TYPE:General.Gunner			PREATT:6																						DESC:You can fire a starship weapon more accurately than most.																	SOURCEPAGE:p. 32
+Rapid Gunner					TYPE:General.Gunner																					PREVARGTEQ:Familiarity,2	DESC:You may make a maneuver with Starship without suffering an attack penalty.														SOURCEPAGE:p. 32
+Starship Point Blank Shot			TYPE:General.Gunner																										DESC:You are skilled at making well-placed shots on starships of the class while firing at point blank range.	MULT:YES							SOURCEPAGE:p. 32
+
+#Block: Force Feats
+Force Dodge						TYPE:Force							PREFEAT:3,Force Sensitive,Control,Starship Operations (Starfighter)					PREVARGTEQ:ForceUser,8		DESC:You are adept at using the Force to avoid attacks when piloting a starship.														SOURCEPAGE:p. 33
+Force Pilot						TYPE:Force							PREFEAT:2,Force Sensitive,Alter																DESC:The Force helps you fly starships.																					SOURCEPAGE:p. 33
+
+#Block: Starship Maneuvers
+Attack Run						TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Avoid Hazard					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Break Pursuit					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Change Speed					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Decrease Range					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Dock							TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Establish Pursuit					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Flyby							TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Flying Cover					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Increase Range					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Join/Rejoin Tight Wing				TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Join/Rejoin Wing					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Reversal						TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Regain Control					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Ram Target						TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Resist/Escape Tractor Beam			TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Reverse Direction					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Strafing Run					TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+Turn							TYPE:Maneuver		VISIBLE:NO																																																			SOURCEPAGE:p.
+
+#Block: Deep Space Pilot Feats
+Sector Familiarity				TYPE:Special		VISIBLE:YES																																											MULT:YES	CHOOSE:FEATSELECT|TYPE=Sector
+Deep Core						TYPE:Sector			VISIBLE:NO
+Core Worlds						TYPE:Sector			VISIBLE:NO
+Colonies						TYPE:Sector			VISIBLE:NO
+Inner Rim						TYPE:Sector			VISIBLE:NO
+Expansion Region					TYPE:Sector			VISIBLE:NO
+Mid Rim						TYPE:Sector			VISIBLE:NO
+Outer Rim						TYPE:Sector			VISIBLE:NO
+Wild Space						TYPE:Sector			VISIBLE:NO

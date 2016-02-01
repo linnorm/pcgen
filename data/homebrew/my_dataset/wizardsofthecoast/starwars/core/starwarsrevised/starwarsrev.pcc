@@ -1,0 +1,36 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $
+CAMPAIGN:Star Wars Revised Core Rules
+RANK:1
+GAMEMODE:StarWars
+GENRE:sciencefiction
+BOOKTYPE:Core
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Core Rules
+SOURCELONG:Star Wars Revised Core Rules
+SOURCESHORT:SWRCR
+SOURCEWEB:http://www.wizards.com/starwars
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+INFOTEXT:This is the core rule book for the Star Wars Revised RPG
+
+# Do not remove the EXTRAFILE comment.
+# This script that split the files by game type needs it.
+#EXTRAFILE:readme.txt
+
+
+BIOSET:starwarsrev_biosettings.lst
+CLASS:starwarsrev_classes.lst
+EQUIPMENT:starwarsrev_equip.lst
+EQUIPMENT:starwarsrev_equip_armor_shields.lst
+EQUIPMENT:starwarsrev_equip_coins.lst
+EQUIPMENT:starwarsrev_equip_weap_ammo.lst
+EQUIPMENT:starwarsrev_equip_weap_melee.lst
+EQUIPMENT:starwarsrev_equip_weap_ranged.lst
+EQUIPMOD:starwarsrev_equipmods.lst
+FEAT:starwarsrev_feats.lst
+FEAT:starwarsrev_feats_hidden.lst
+LANGUAGE:starwarsrev_language.lst
+RACE:starwarsrev_races.lst
+SKILL:starwarsrev_skills.lst
+TEMPLATE:starwarsrev_templates.lst
+WEAPONPROF:starwarsrev_weapprofs.lst

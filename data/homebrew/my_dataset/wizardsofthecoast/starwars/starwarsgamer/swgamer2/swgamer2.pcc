@@ -1,0 +1,20 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $
+CAMPAIGN:Star Wars Gamer Issue 2
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Magazine
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Magazine
+SOURCELONG:Star Wars Gamer 2
+SOURCESHORT:SWG2
+SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+INFOTEXT:Star Wars Gamer Magazine
+
+
+ARMORPROF:swgamer2_armorprof.lst
+BIOSET:swgamer2_biosettings.lst
+RACE:swgamer2_races.lst
+CLASS:swgamer2_classes.lst

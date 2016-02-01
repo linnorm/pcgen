@@ -1,0 +1,13 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #277	SOURCESHORT:WotC-Dragon #277	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name				Type				Cost		Source Page		Virtual Feat	Save checks bonus			Bonus to skill
+Familiar (Badger)				TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness	BONUS:CHECKS|Will|2
+Familiar (Chipmunk)			TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness	BONUS:CHECKS|Reflex|2
+Familiar (Dog)				TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness						BONUS:SKILL|Sense Motive|2
+Familiar (Eagle)				TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness
+Familiar (Groundhog)			TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness	BONUS:CHECKS|Fortitude|2
+Familiar (Lizard)				TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness						BONUS:SKILL|Climb|2
+Familiar (Monkey)				TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness						BONUS:SKILL|Pick Pockets|2
+Familiar (Otter)				TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness						BONUS:SKILL|Swim|2
+Familiar (Snake, small constrictor)	TYPE:Goods.Familiars	COST:100	SOURCEPAGE:p.65	VFEAT:Alertness

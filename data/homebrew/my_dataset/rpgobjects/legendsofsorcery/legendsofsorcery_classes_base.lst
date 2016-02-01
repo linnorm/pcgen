@@ -1,0 +1,135 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Legends of Sorcery	SOURCESHORT:LoS	SOURCEWEB:http://www.rpgobjects.com
+##Original Entry: Rax the Grey
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Automatic Languages												Define																			Save checks bonus											Combat bonus
+# Class Name	Skill Pts/Lvl	Class Skill
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+
+
+##Block: .MODs for existing classes
+#The sorcerer class is not used with LoS so I've .MODed it to be unavailable since using .FORGET will generate errors in 5.16.  --Rax
+
+# Class Name		Required Class
+CLASS:Sorcerer.MOD	PRECLASS:1,NotUsed
+
+#High BMB
+
+# Class Name		Define		Modify VAR
+CLASS:Archmage.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|CL=Archmage
+# Class Name		Caster level
+CLASS:Archmage.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name	Define		Modify VAR
+CLASS:Cleric.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|CL=Cleric
+# Class Name	Caster level
+CLASS:Cleric.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name	Define		Modify VAR
+CLASS:Druid.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|CL=Druid
+# Class Name	Caster level
+CLASS:Druid.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name		Define		Modify VAR
+CLASS:Hierophant.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|CL=Hierophant
+# Class Name		Caster level
+CLASS:Hierophant.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name		Define		Modify VAR
+CLASS:Thaumaturgist.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|CL=Thaumaturgist
+# Class Name		Caster level
+CLASS:Thaumaturgist.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name	Define		Modify VAR
+CLASS:Wizard.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|CL=Wizard
+# Class Name	Caster level
+CLASS:Wizard.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+#Medium BMB
+
+# Class Name	Define		Modify VAR
+CLASS:Bard.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|(CL=Bard)*3/4
+# Class Name	Caster level
+CLASS:Bard.MOD	BONUS:CASTERLEVEL|Bard|-1*(CL=Bard)	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name		Define		Modify VAR
+CLASS:Blackguard.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|(CL=Blackguard)*3/4
+# Class Name		Caster level
+CLASS:Blackguard.MOD	BONUS:CASTERLEVEL|Blackguard|-1*(CL=Blackguard)	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name			Define		Modify VAR
+CLASS:Eldritch Knight.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|(CL=Eldritch Knight)*3/4
+# Class Name			Caster level
+CLASS:Eldritch Knight.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name		Define		Modify VAR
+CLASS:Loremaster.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|(CL=Loremaster)*3/4
+# Class Name		Caster level
+CLASS:Loremaster.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name			Define		Modify VAR
+CLASS:Mystic Theurge.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|(CL=Mystic Theurge)*3/4
+# Class Name			Caster level
+CLASS:Mystic Theurge.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+#Low BMB
+
+# Class Name		Define		Modify VAR
+CLASS:Assassin.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|(CL=Assassin)/2
+# Class Name		Caster level
+CLASS:Assassin.MOD	BONUS:CASTERLEVEL|Assassin|-1*(CL=Assassin)	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name	Define		Modify VAR
+CLASS:Paladin.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|(CL=Paladin)/2
+# Class Name	Caster level
+CLASS:Paladin.MOD	BONUS:CASTERLEVEL|Paladin|-1*((CL=Paladin)/2)|PRECLASS:1,Paladin=4	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+# Class Name	Define		Modify VAR
+CLASS:Ranger.MOD	DEFINE:BMB|0	BONUS:VAR|BMB|(CL=Ranger)/2
+# Class Name	Caster level
+CLASS:Ranger.MOD	BONUS:CASTERLEVEL|Ranger|-1*((CL=Ranger)/2)|PRECLASS:1,Ranger=4	BONUS:CASTERLEVEL|TYPE.Arcane|BMB	BONUS:CASTERLEVEL|TYPE.Divine|BMB
+
+
+##Block: New Classes
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Define		Save checks bonus											Combat bonus					Modify VAR
+CLASS:Alchemist	HD:6		TYPE:Base.PC	ABB:Alc		MAXLEVEL:20	SOURCEPAGE:pg. 4	DEFINE:BMB|0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	BONUS:VAR|BMB|CL/2
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Alchemist	STARTSKILLPTS:8	CSKILL:Appraise|Concentration|Craft (Alchemy)|Decipher Script|Knowledge (Arcana)|Knowledge (Geography)|Knowledge (History)|Knowledge (Nature)|Spellcraft|Survival
+# Class Name	Spell Stat		Spell Type		Spellbook		Caster level
+CLASS:Alchemist	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	BONUS:CASTERLEVEL|TYPE.Arcane.RESET|BMB	BONUS:CASTERLEVEL|TYPE.Divine.RESET|BMB
+##Block: Proficiencies
+1																								ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)
+1				BONUS:SKILL|Craft (Alchemy)|BMB|TYPE=BaseMagicBonus
+##Block: Spells
+1																																															SPELLLEVEL:CLASS|Alchemist=0|Acid Splash,Arcane Mark,Cure Minor Wounds,Dancing Lights,Daze,Detect Poison,Flare,Light,Mage Hand,Mending,Open/Close,Purify Food and Drink,Read Magic,Resistance
+1																																															SPELLLEVEL:CLASS|Alchemist=1|Animate Rope,Charm Person,Color Spray,Cure Light Wounds,Disguise Self,Endure Elements,Enlarge Person,Expeditious Retreat,Feather Fall,Grease,Hide from Animals,Hide from Undead,Hold Portal,Hypnotism,Jump,Mage Armor,Magic Aura,Magic Fang,Magic Stone,Magic Weapon,Obscuring Mist,Pass without Trace,Reduce Person,Remove Fear,Sanctuary,Shield of Faith,Shillelagh,Sleep
+1																																															SPELLLEVEL:CLASS|Alchemist=2|Acid Arrow,Alter Self,Arcane Lock,Bear's Endurance,Blur,Bull's Strength,Cat's Grace,Continual Flame,Darkness,Darkvision,Daze Monster,Eagle's Splendor,Flaming Sphere,Fog Cloud,Fox's Cunning,Glitterdust,Harden Metal,Hypnotic Pattern,Invisibility,Knock,Levitate,Magic Mouth,Mirror Image,Misdirection,Obscure Object,Owl's Wisdom,Protection from Arrows,Pyrotechnics,Resist Energy,Spider Climb,Web
+1																																															SPELLLEVEL:CLASS|Alchemist=3|Blink,Create Gems,Create Gold,Deep Slumber,Displacement,Flame Arrow,Fly,Gaseous Form,Haste,Heroism,Hold Person,Invisibility Sphere,Keen Edge,Magic Weapon (Greater),Nondetection,Protection from Energy,Rage,Shrink Item,Slow,Stinking Cloud,Suggestion,Water Breathing
+1	CAST:1,0,0,0
+2	CAST:1,0,0,0
+3	CAST:1,0,0,0
+4	CAST:1,0,0,0
+5	CAST:1,0,0,0
+##Block: Abilities
+1																								ABILITY:Special Ability|AUTOMATIC|Ipecac
+2													BONUS:VAR|AdvancedAcidDamage|2	DEFINE:AdvancedAcidDamage|0	ABILITY:Special Ability|AUTOMATIC|Advanced Acid
+3
+4
+5
+6													BONUS:VAR|AdvancedAcidDamage|CL/3
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20

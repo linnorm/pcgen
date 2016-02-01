@@ -1,0 +1,38 @@
+SOURCELONG:Dragon Wing Games - Spells and Magic	SOURCESHORT:SpellsandMagic	SOURCEWEB:http://www.dragonwing.net
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Save checks bonus											Combat bonus
+CLASS:Blood Mage	HD:6		TYPE:PC.Prestige	ABB:BMg	MAXLEVEL:10	SOURCEPAGE:pg. 6	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Restricted AL		Required Feat		Required Skill
+CLASS:Blood Mage	PRESKILL:1,Spellcraft=8	PRESPELLTYPE:1,Arcane=3	PREFEAT:2,Blood Power,Toughness
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Blood Mage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Knowledge (Arcana)|Knowledge (Anatomy)|TYPE.Profession|Spellcraft
+1		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Blood Fuel I	ABILITY:Special Ability|AUTOMATIC|Blood Fuel
+2		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Ability Fuel I	ABILITY:Special Ability|AUTOMATIC|Ability Fuel
+3		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Blood Mixing	BONUS:ABILITYPOOL|Blood Mage Feat|1
+4		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Blood Mastery
+5		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Blood Fuel II	ABILITY:Special Ability|AUTOMATIC|Fortitude Fuel
+6		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Ability Fuel II
+7		ADD:SPELLCASTER|Arcane	BONUS:ABILITYPOOL|Blood Mage Feat|1
+8		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Blood Burn
+9		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Blood Fuel III
+10		ADD:SPELLCASTER|Arcane	BONUS:ABILITYPOOL|Blood Mage Feat|1
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Save checks bonus											Combat bonus
+CLASS:Shadeseer	HD:6		TYPE:PC.Prestige	ABB:Shs	MAXLEVEL:10	SOURCEPAGE:pg. 53	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Restricted AL		Required Feat		Required Skill
+CLASS:Shadeseer	!PREALIGN:LG,NG,CG	PREFEAT:1,Shadesight	PRESKILL:2,Knowledge (The Planes)=10,Knowledge (Arcana)=10	PRESPELLSCHOOL:1,Necromancy=0
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Shadeseer	STARTSKILLPTS:2	CSKILL:Concentration|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Undead)|Spellcraft
+1																																												VFEAT:Shadehand
+2																																									ADD:SPELLCASTER|ANY
+3			ABILITY:Special Ability|AUTOMATIC|Shadeseer Energy Drain	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|(TL-2)|TYPE=Level	VFEAT:Shadetounge
+4																																									ADD:SPELLCASTER|ANY
+5																																													VFEAT:Shadecall
+6																																									ADD:SPELLCASTER|ANY
+7														BONUS:VAR|ShadeseerEnergyDrainPerDay|1
+8																																									ADD:SPELLCASTER|ANY
+9	ABILITY:Special Ability|AUTOMATIC|Undead Servitor
+10																																									ADD:SPELLCASTER|ANY
+

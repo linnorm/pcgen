@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 17 10:04:29 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+#Mundane
+# Equipment Name	Required Proficiency			Type														Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier	Wield Category	Size
+Double Spear	PROFICIENCY:WEAPON|Double Spear	TYPE:Weapon.Exotic.Melee.Large.Piercing.Double.Spear						COST:30	WT:6		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:WOOD	WIELD:TwoHanded	SIZE:L
+Club.MOD								TYPE:Weapon.Melee.Ranged.Thrown.Simple.Standard.Bludgeoning.Club.Monk
+Quarterstaff.MOD							TYPE:Weapon.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff.Monk

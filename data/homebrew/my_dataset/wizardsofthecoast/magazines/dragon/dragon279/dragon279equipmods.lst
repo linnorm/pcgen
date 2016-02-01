@@ -1,0 +1,13 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #279	SOURCESHORT:WotC-Dragon #279	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+#
+#Armor
+# Modifier Name	Unique Key		Type				Cost		Visible		Type granted		Source Page		Required Type		Bonus Armor Modifiers														Change Armor Type
+Leaf			KEY:ARMRLEAFL	TYPE:Armor.BaseMaterial	COST:750				ITYPE:Leaf.Elven		SOURCEPAGE:p.49	PRETYPE:1,Light,[Metal]	BONUS:EQMARMOR|AC|2|TYPE=ENHANCEMENT	BONUS:EQMARMOR|MAXDEX|1	BONUS:EQMARMOR|SPELLFAILURE|-5
+wooden		KEY:ARMRWOODL	TYPE:Armor.BaseMaterial	COST:750	VISIBLE:QUALIFY	ITYPE:Wooden.Elven	SOURCEPAGE:p.49	PRETYPE:1,Light,Metal	BONUS:EQMARMOR|AC|2|TYPE=ENHANCEMENT	BONUS:EQMARMOR|MAXDEX|1	BONUS:EQMARMOR|SPELLFAILURE|-5
+wooden		KEY:ARMRWOODM	TYPE:Armor.BaseMaterial	COST:2250	VISIBLE:QUALIFY	ITYPE:Wooden.Elven	SOURCEPAGE:p.49	PRETYPE:1,Medium,Metal	BONUS:EQMARMOR|AC|2|TYPE=ENHANCEMENT	BONUS:EQMARMOR|MAXDEX|1	BONUS:EQMARMOR|SPELLFAILURE|-5	ARMORTYPE:Medium|Light
+wooden		KEY:ARMRWOODH	TYPE:Armor.BaseMaterial	COST:6000	VISIBLE:QUALIFY	ITYPE:Wooden.Elven	SOURCEPAGE:p.49	PRETYPE:1,Heavy,Metal	BONUS:EQMARMOR|AC|2|TYPE=ENHANCEMENT	BONUS:EQMARMOR|MAXDEX|1	BONUS:EQMARMOR|SPELLFAILURE|-5	ARMORTYPE:Heavy|Medium
+
+#
+# Used for testing which items to allow editing on. Any item with the properties listed will not be allowed to be edited
+EXCLUDEEQ_DRG279										VISIBLE:NO		ITYPE:Magic

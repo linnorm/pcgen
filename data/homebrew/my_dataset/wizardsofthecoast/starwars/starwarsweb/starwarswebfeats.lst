@@ -1,0 +1,23 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+#Block: General Feats
+# Feat Name		Type					Req. Att.	Required Feat						Required Skill	Required Stat				Description																									Stackable?	Multiple?	Bonus to skill
+Circle Kick		TYPE:General.Master		PREATT:3	PREFEAT:1,Martial Artist							PRESTAT:1,DEX=15				DESC:You kick multiple opponents with the same attack action.
+Crushing Blow	TYPE:General.Master		PREATT:2	PREFEAT:1,Martial Artist													DESC:You have learned the secrets of imbuing your unarmed attacks with extra force.
+Flying Kick		TYPE:General.Master												PRESKILL:1,Jump=5							DESC:You deliver a powerful attack after making a jump.
+Improved Trip	TYPE:General.Master				PREFEAT:1,Expertise								PRESTAT:1,INT=13				DESC:If you trip an opponent, you immediately get a melee attack against that opponent.
+Nerve Punch		TYPE:General.Master		PREATT:8	PREFEAT:1,Martial Artist							PRESTAT:1,DEX=13	PRESTAT:1,WIS=13	DESC:If you hit an opponent, foe must make Fortitude check (DC10 + half your level + Wis modifier) or be stunned for 2 rounds
+Precision Strike	TYPE:General.Master		PREATT:2																		DESC:You know the brutal and effective tactics of the streets and back alleys.
+Prone Fighting	TYPE:General.Master		PREATT:2	PREFEAT:1,Lightning Reflexes							PRESTAT:1,DEX=15				DESC:You attack from a prone position without penalty.
+Supreme Cleave	TYPE:General.Soldier.Marauder	PREATT:6	PREFEAT:3,Power Attack,Cleave,Great Cleave				PRESTAT:1,STR=13				DESC:You can take a 2-meter step between Cleave and Great Cleave attacks.
+
+#Block: Force Feats
+# Feat Name		Type					Req. Att.	Required Feat						Required Skill	Required Stat				Description																									Stackable?	Multiple?	Bonus to skill
+Danger Sense								PREFEAT:1,Force Sensitive													DESC:You are better at detecting danger than a regular person (+4 bonus to any check to avoid being suprised).
+Energy Adept								PREFEAT:1,Force Sensitive													DESC:You find it easy to create motion with the Force.																					BONUS:SKILL|Affect Mind,Telepathy|-2	BONUS:SKILL|Force Push,Move Object,Force Grip|2
+Force Bolt									PREFEAT:2,Force Sensitive,Alter												DESC:You can throw bolts of energy.
+Force Lance									PREFEAT:2,Force Sensitive,Alter												DESC:Drawing on the Force you can create a solid beam of energy.
+Force Strength								PREFEAT:1,Force Sensitive													DESC:You can use the Force more than others (Add 6 Vitality points exclusively for the use of force skills to your total, these do not affect combat).	STACK:YES	MULT:YES
+Mental Adept								PREFEAT:1,Force Sensitive													DESC:You have a particularly keen mind.																								BONUS:SKILL|Affect Mind,Telepathy,Empathy|2	BONUS:SKILL|Force Push,Move Object|-2
+Physical Adept								PREFEAT:1,Force Sensitive													DESC:Your body is easily augmented.																									BONUS:SKILL|Enhance Ability,Enhance Senses,Heal Self|2	BONUS:SKILL|Heal Another,Affect Mind,Friendship|-2

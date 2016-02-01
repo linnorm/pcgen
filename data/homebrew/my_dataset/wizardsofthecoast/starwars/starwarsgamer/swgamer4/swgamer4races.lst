@@ -1,0 +1,6 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer #4	SOURCESHORT:SWG4	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+# Race Name	Favored Class			Starting Feats	Size		Move			Automatic Languages	Bonus Languages	Combat bonus						Bonus to skill								Stat bonus								Feat									Source Page
+Advoze	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30	LANGAUTO:Basic		LANGBONUS:ALL	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:SKILL|Diplomacy|-4	BONUS:SKILL|Spot,Search|2	BONUS:STAT|DEX|-2	BONUS:STAT|CON|2	BONUS:STAT|WIS|2										SOURCEPAGE:p.94
+Lepi		FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30	LANGAUTO:Basic		LANGBONUS:ALL									BONUS:SKILL|Jump|4							BONUS:STAT|DEX|2	BONUS:STAT|INT|-2	BONUS:STAT|WIS|-2	FEAT:Alertness|Martial Artist|Weapon Finesse(kick)	SOURCEPAGE:p.46
+Spiner	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30	LANGAUTO:Basic		LANGBONUS:ALL																			BONUS:STAT|STR|4	BONUS:STAT|INT|-2	BONUS:STAT|WIS|-2										SOURCEPAGE:p.48

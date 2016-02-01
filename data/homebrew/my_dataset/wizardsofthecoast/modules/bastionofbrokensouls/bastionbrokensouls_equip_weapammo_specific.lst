@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name	Type							Cost		Weight	Requires Modification?	Source Page		Weapon prop. bonus
+Arrow (+5)		TYPE:Magic.Ammunition.Specific.Arrow	COST:.05	WT:.15	MODS:NO			SOURCEPAGE:p.29	BONUS:WEAPON|TOHIT,DAMAGE|5

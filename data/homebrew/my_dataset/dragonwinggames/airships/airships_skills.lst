@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 19:27:59 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Dragon Wing Games - Airships	SOURCESHORT:Airships	SOURCEWEB:http://www.dragonwing.net
+
+# Skill Name				Key Stat	Untrained?		Type				Source Page
+Craft (Airship)				KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:pg. 70
+Craft (Airship Engine)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:pg. 70
+Profession (Air Sailor)			KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:pg. 70
+Profession (Airship Navigator)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:pg. 70
+Profession (Airship Pilot)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:pg. 70
+Profession (Engineer)			KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:pg. 70
+Profession (Trader)			KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:pg. 66

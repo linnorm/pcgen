@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wildwood	SOURCESHORT:Wildwood	SOURCEWEB:http://www.bastionpress.com
+
+# Language	Type
+Avian		TYPE:Spoken.Forge
+Battlespeak	TYPE:Spoken.Forge
+Canine	TYPE:Spoken.Written.Forge
+Feline	TYPE:Spoken.Written.Forge
+Green		TYPE:Spoken.Forge

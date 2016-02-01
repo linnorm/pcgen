@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Web Enhancements	SOURCESHORT:WotC-Web Enhancements	SOURCEWEB:http://www.wizards.com
+
+# Equipment Name	Type						Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Size		Source Page
+Jambiya		TYPE:Weapon.Exotic.Melee.Slashing	COST:6	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d4	SIZE:S	SOURCEPAGE:http://www.wizards.com/dnd/article.asp?x=dnd/wr/wr20000901a
+

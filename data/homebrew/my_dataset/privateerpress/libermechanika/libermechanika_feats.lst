@@ -1,0 +1,35 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Liber Mechanika	SOURCESHORT:LM	SOURCEWEB:http://www.ironkingdoms.com
+#Original Entry by: Rax the Grey
+
+
+##Block: New Feats
+# Feat Name							Type						Required Class							Required Deity	Required Feat						Required Skill												Required Stat	Special Ability																				Clear Description																																	Stackable?	Multiple?	Choose													Bonus to skill						Source Page		Temporary effect description
+## NOTE: Description for Craft Accumulator is missing from the book.  These stats are based on info from IKCG.
+# Feat Name							Type						Required Class							Required Deity	Required Feat						Required Skill								Description											Source Page
+Craft Accumulator						CATEGORY:FEAT	TYPE:ItemCreation.ArcaneMechanik	PRECLASS:1,SPELLCASTER.Arcane=5,SPELLCASTER.Divine=5												PRESKILL:2,Craft (Alchemy)=4,Knowledge (Mechanika)=4														SOURCEPAGE:pg. 11
+Craft Cerebral Matrix					CATEGORY:FEAT	TYPE:ItemCreation.ArcaneMechanik													PREFEAT:1,Etch Rune Plate				PRESKILL:1,Craft (Mechanika)=6																	SOURCEPAGE:pg. 23
+Craft Cortex						CATEGORY:FEAT	TYPE:ItemCreation.ArcaneMechanik													PREFEAT:2,Etch Rune Plate,Craft Cerebral Matrix	PRESKILL:2,Craft (Alchemy)=13,Craft (Mechanika)=13														SOURCEPAGE:pg. 23
+Craft Cyriss Tech						CATEGORY:FEAT	TYPE:ItemCreation				PRECLASS:1,Cleric=1						PREDEITY:1,Cyriss	PREFEAT:1,Craft Wondrous Item				PRESKILL:1,Craft (Clockwork)=6																	SOURCEPAGE:pg. 23
+Craft Mechanikal Construct				CATEGORY:FEAT	TYPE:ItemCreation.ArcaneMechanik													PREFEAT:1,Craft Wondrous Item				PRESKILL:1,Craft (Mechanika)=8																	SOURCEPAGE:pg. 24
+Craft Mechanikal Prosthetic				CATEGORY:FEAT	TYPE:ItemCreation.ArcaneMechanik													PREFEAT:1,Craft Wondrous Item				PRESKILL:2,Craft (Clockwork)=8,Craft (Mechanika)=8														SOURCEPAGE:pg. 23
+Craft Steam Armor						CATEGORY:FEAT	TYPE:ItemCreation																								PRESKILL:2,Craft (Armorsmithing)=6,Craft (Mechanika)=6													SOURCEPAGE:pg. 25
+Etch Rune Plate						CATEGORY:FEAT	TYPE:ItemCreation																PREFEAT:1,Scribe Scroll					PRESKILL:1,Craft (Alchemy)=4																		SOURCEPAGE:pg. 25
+Exotic Armor Proficiency (Steam Armor)		CATEGORY:FEAT	TYPE:General																PREFEAT:1,Armor Proficiency (Heavy)			PRESKILL:1,Craft (Mechanika)=4																	SOURCEPAGE:pg. 25
+
+
+##Block: Add feat descriptions
+CATEGORY=FEAT|Craft Accumulator.MOD																																									DESC:You can craft arcane accumulators.
+CATEGORY=FEAT|Craft Cerebral Matrix.MOD																																								DESC:You can craft cerebral matrices.
+CATEGORY=FEAT|Craft Cortex.MOD																																										DESC:You can craft cortexes.
+CATEGORY=FEAT|Craft Cyriss Tech.MOD																																									DESC:You can craft Cyriss-tech items.
+CATEGORY=FEAT|Craft Mechanikal Construct.MOD																																							DESC:You can craft steamjacks, warjacks and other such constructs.
+CATEGORY=FEAT|Craft Mechanikal Prosthetic.MOD																																							DESC:You can craft mechanikal prothetic limbs.
+CATEGORY=FEAT|Craft Steam Armor.MOD																																									DESC:You can craft steam armor.
+CATEGORY=FEAT|Etch Rune Plate.MOD																																									DESC:You can craft rune plates.
+CATEGORY=FEAT|Exotic Armor Proficiency (Steam Armor).MOD																																					DESC:You are trained in the use of steam armor.
+
+
+##Block: MODed Feat
+# Feat Name							Type						Required Class							Required Deity	Required Feat						Required Skill								Description											Source Page
+CATEGORY=FEAT|Craft Wondrous Item.MOD					TYPE:ItemCreation.ArcaneMechanik

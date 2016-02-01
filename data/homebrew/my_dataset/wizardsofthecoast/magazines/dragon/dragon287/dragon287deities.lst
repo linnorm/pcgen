@@ -1,0 +1,6 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #287	SOURCESHORT:WotC-Dragon #287	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Deity Name	Domains																			Desciption of Deity/Title				Holy Item							Deity Weapon		Alignment	Source Page
+Hypnatia		DOMAINS:Law,Luck,Protection,Strength	DOMAINS:Law,Luck,Protection,Strength|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE	DESC:Mistress of Dreams and Slumber			SYMBOL:Golden Ring					DEITYWEAP:Heavy Mace	ALIGN:LN	SOURCEPAGE:p.36
+Phobetor		DOMAINS:Chaos,Evil,Destruction,Trickery	DOMAINS:Chaos,Evil,Destruction,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE	DESC:King of Foul Dreams/Bringer of Nightmares	SYMBOL:Crimson Skull, Laughing on a Black Field	DEITYWEAP:Whip		ALIGN:CE	SOURCEPAGE:p.36
+Phantasia		DOMAINS:Chaos,Good,Luck,Destruction	DOMAINS:Chaos,Good,Luck,Destruction|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Queen Muse/Lady Inspiration			SYMBOL:White mask/manic grin on a field of blue	DEITYWEAP:Sword (Short)	ALIGN:CG	SOURCEPAGE:p.36

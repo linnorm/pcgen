@@ -1,0 +1,12 @@
+SOURCELONG:Fantasy Flight Games - Dragonstar - Guide to Galaxy	SOURCESHORT:GuideGalaxy	SOURCEWEB:http://www.fantasyflightgames.com/dragonstar.html
+
+
+###Block: Creature Subtype Traits
+# Ability Name		Category of Ability		Type								Define			Template		Ability																												Combat bonus											Vision
+Radiation Traits		CATEGORY:Special Ability	TYPE:SubTraitAbility												ABILITY:Special Ability|AUTOMATIC|Immunity To Radiation
+Space Traits		CATEGORY:Special Ability	TYPE:SubTraitAbility												ABILITY:Special Ability|AUTOMATIC|Immunity To Radiation|Immunity To Vacuum
+
+## Block: Racial Abilities
+# Ability Name			Category of Ability		Type								Visible	Description								Aspects
+Immunity To Radiation		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Radiation damage			ASPECT:Immunity|Radiation
+Immunity To Vacuum		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take damage from vacuum exposure	ASPECT:Immunity|Vacuum

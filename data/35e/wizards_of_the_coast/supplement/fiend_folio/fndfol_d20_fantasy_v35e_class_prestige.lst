@@ -1,0 +1,44 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Wed May  6 18:33:48 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus								Combat bonus
+CLASS:Fiend of Blasphemy	HD:8		TYPE:PC.Prestige	ABB:FoB		MAXLEVEL:6	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.200	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name			Required AL		Required Check	Required Class		Required Feat		Required Skill								Required Text
+CLASS:Fiend of Blasphemy	PREALIGN:LE,NE,CE	PRECHECK:1,Will=7	PRECLASS:1,Outsider=1	PREFEAT:1,Leadership	PRESKILL:1,Bluff=10	PRESKILL:1,Knowledge (Religion)=10	PRETEXT:Must have at least one spell-like ability that duplicates a spell effect of 4th level or higher.
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Fiend of Blasphemy	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Disguise|Knowledge (Religion)|Listen|Search|Sense Motive|Spellcraft|Spot
+# Class Name			Spell Stat		Spell Type		Automatically Known Spell Levels				Caster level
+CLASS:Fiend of Blasphemy	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5	BONUS:CASTERLEVEL|Fiend of Blasphemy|CL
+1	CAST:0,0		SAB:Blood Oath (Su)	SAB:Locate Cultist (Su)	SAB:Undetectible Alignment (Su)
+2	CAST:0,1,0		SAB:Transfer Spell-Like Ability (Sp)
+3	CAST:0,1,1,0	SAB:Sponsor Worshiper (Su)
+4	CAST:0,1,1,1,0	SAB:Scry on Cultist (Sp)	SAB:Torture Cultist (Su)
+5	CAST:0,2,1,1,1,0	SAB:Mind Shielding (Su)
+6	CAST:0,2,2,1,1,1	SAB:Kill Cultist (Su)
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus								Combat bonus
+CLASS:Fiend of Corruption	HD:6		TYPE:PC.Prestige	ABB:FoC		MAXLEVEL:6	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.202	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name			Required AL		Required Check	Required Class		Required Skill											Required Text
+CLASS:Fiend of Corruption	PREALIGN:LE,NE,CE	PRECHECK:1,Will=7	PRECLASS:1,Outsider=1	PRESKILL:1,Bluff=10	PRESKILL:1,Disguise=10	PRESKILL:1,Sense Motive=10	PRETEXT:Must be able to use charm person or charm monster as a spell or spell-like ability.
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Fiend of Corruption	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Knowledge (Religion)|Listen|Search|Sense Motive|Spot
+1	SAB:Alternate Form (Su)	SAB:Fiend's Favor (Su)
+2	SAB:Suggestion (Sp)	SAB:Mind Shielding (Su)
+3	SAB:Mark of Justice (Sp)
+4	SAB:Fiendish Graft (Su)	SAB:Major Creation (Sp)
+5	SAB:Geas (Sp)	SAB:Temptation (Su)
+6	SAB:Grant Wish (Sp)	SAB:Soul Bargain (Su)
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.	Source, Short Desc.	Source Page		Save checks bonus								Combat bonus
+CLASS:Fiend of Possession	HD:6		TYPE:PC.Prestige	ABB:FoP		MAXLEVEL:6	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.204	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name			Required AL		Required Check	Required Class		Required Skill
+CLASS:Fiend of Possession	PREALIGN:LE,NE,CE	PRECHECK:1,Will=5	PRECLASS:1,Outsider=1	PRESKILL:1,Hide=6	PRESKILL:1,Knowledge (Arcana)=6
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Fiend of Possession	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Hide|Listen|Search|Sense Motive|Spellcraft|Spot
+1	SAB:Ethereal Form (Su)	SAB:Hide Presence (Ex)	SAB:Possess Object (Su)
+2	SAB:Curse (Su)	SAB:Magic Item (Su)
+3	SAB:Control Object (Su)
+4	SAB:Animate Object (Su)	SAB:Possess Creature (Su)
+5	SAB:Ally or Enemy (Su)	SAB:Possess Non-Continuous Object (Su)
+6	SAB:Control Creature (Su)

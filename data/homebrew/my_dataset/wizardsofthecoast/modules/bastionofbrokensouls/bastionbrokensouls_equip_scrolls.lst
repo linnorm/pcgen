@@ -1,0 +1,10 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name				Type					Cost		Weight	Requires Modification?	Source Page
+Scroll of Greater Glyph of Warding	TYPE:Magic.Scroll.Divine	COST:1650	WT:.01	MODS:NO			SOURCEPAGE:p.7
+Scroll of Remove Paralysis		TYPE:Magic.Scroll.Divine	COST:150	WT:.01	MODS:NO			SOURCEPAGE:p.29
+Scroll of Death Ward			TYPE:Magic.Scroll.Divine	COST:700	WT:.01	MODS:NO			SOURCEPAGE:p.29
+Scroll of Freedom				TYPE:Magic.Scroll.Divine	COST:3825	WT:.01	MODS:NO			SOURCEPAGE:p.40

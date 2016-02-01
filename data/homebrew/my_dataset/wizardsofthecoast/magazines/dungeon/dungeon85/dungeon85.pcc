@@ -1,0 +1,12 @@
+# CVS $Revision: 1.1 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dungeon Issue #85
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dungeon #85
+SOURCESHORT:WotC-Dungeon #85
+SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+EQUIPMENT:dungeon85equipwondrousitems.lst
+TEMPLATE:dungeon85templates.lst

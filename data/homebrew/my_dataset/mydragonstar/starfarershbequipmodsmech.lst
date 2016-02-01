@@ -1,0 +1,56 @@
+# CVS $Revision: 1.1 $ $Author: tir-gwaith $ -- Thu Feb 24 18:57:22 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Fantasy Flight Games - Dragonstar - Starfarer's Handbook	SOURCESHORT:StarfarerH	SOURCEWEB:http://www.fantasyflightgames.com/dragonstar.html
+
+###Block:Mounts
+# Modifier Name			Type		Cost		Source Page		MOD
+# Equipment Name			Type		Cost		Source Page		MOD
+Robot Chasses (Tiny)		TYPE:Robot	COST:500	SOURCEPAGE:p.116	MOD:R
+Robot Chasses (Small)		TYPE:Robot	COST:1000	SOURCEPAGE:p.116	MOD:R
+Robot Chasses (Medium)		TYPE:Robot	COST:2000	SOURCEPAGE:p.116	MOD:R
+Robot Chasses (Large)		TYPE:Robot	COST:4000	SOURCEPAGE:p.116	MOD:R
+Robot Chasses (Huge)		TYPE:Robot	COST:8000	SOURCEPAGE:p.116	MOD:R
+Robot Chasses (Gargantuan)	TYPE:Robot	COST:16000	SOURCEPAGE:p.116	MOD:R
+Robot Chasses (Colossal)	TYPE:Robot	COST:32000	SOURCEPAGE:p.116	MOD:R
+
+### Blah
+
+
+
+#Robotic Upgrade(360 Vision)
+#Robotic Upgrade(AI Module)
+#Robotic Upgrade(Biosynthetic Conversion)
+#Robotic Upgrade(Combat Programming)
+#Robotic Upgrade(Darkvision)
+#Robotic Upgrade(Emergency Beacon)
+#Robotic Upgrade(Enhanced Dexterity +2)
+#Robotic Upgrade(Enhanced Dexterity +4)
+#Robotic Upgrade(Enhanced Dexterity +6)
+#Robotic Upgrade(Enhanced Strength +2)
+#Robotic Upgrade(Enhanced Strength +4)
+#Robotic Upgrade(Enhanced Strength +6)
+#Robotic Upgrade(Hoverlift)
+#Robotic Upgrade(Improved Audio Sensors)
+#Robotic Upgrade(Improved Visual Sensors)
+#Robotic Upgrade(Integral Toolkit)
+#Robotic Upgrade(Integral Weapons)
+#Robotic Upgrade(Language Module)
+#Robotic Upgrade(Laser Torch)
+#Robotic Upgrade(Magnetic Grippers)
+#Robotic Upgrade(Manipulators)
+#Robotic Upgrade(Medical Package)
+#Robotic Upgrade(Motion Sensors)
+#Robotic Upgrade(Multiple Legs)
+#Robotic Upgrade(Multiscanner)
+#Robotic Upgrade(Natural Armor)
+#Robotic Upgrade(Personnel Communicator)
+#Robotic Upgrade(Personality Module)
+#Robotic Upgrade(Reinforced Construction)
+#Robotic Upgrade(Remote Operation Unit)
+#Robotic Upgrade(Security Scanner)
+#Robotic Upgrade(Sensory Recorder)
+#Robotic Upgrade(Storage Compartment)
+#Robotic Upgrade(Telescopic Vision)
+#Robotic Upgrade(Tracks)
+#Robotic Upgrade(Transform Conversion)
+#Robotic Upgrade(Wheels)
+

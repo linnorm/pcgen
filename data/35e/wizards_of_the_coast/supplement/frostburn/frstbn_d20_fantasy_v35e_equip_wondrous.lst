@@ -1,0 +1,24 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Robert Biskup January 2005
+
+#Vehicle Additions
+# Equipment Name								Type					Cost		Weight	Requires Modification?	Source, Long Desc.	Source, Short Desc.	Source Page		Innate Spells																														Special Property
+Coldfire Keel								TYPE:Wondrous			COST:200000	WT:1000					SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.81
+Coldfire Engine								TYPE:Wondrous			COST:200000	WT:1000					SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.81
+Ice Keel									TYPE:Wondrous			COST:150000	WT:1000					SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.81
+Coldfire Engine								TYPE:Wondrous			COST:100000	WT:1000					SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.81
+
+#Wondrous
+Frostfell Figurine of Wondrous Power (Basalt Glyptodon)	TYPE:Wondrous			COST:32000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.109																																	SPROP:Turns into a fulls size glyptodon under the users command
+Frostfell Figurine of Wondrous Power (Coral Zeuglodon)	TYPE:Wondrous			COST:42000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.110																																	SPROP:Turns into a fulls size zeuglodon under the users command
+Frostfell Figurine of Wondrous Power (Diamond Ice Toad)	TYPE:Wondrous			COST:33000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.110																																	SPROP:Turns into a fulls size ice toad under the users command
+Frostfell Figurine of Wondrous Power (Iron Megaloceros)	TYPE:Wondrous			COST:27000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.110																																	SPROP:Turns into a fulls size megaloceros under the users command
+Frostfell Figurine of Wondrous Power (Malachite Smilodon)	TYPE:Wondrous			COST:36000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.110																																	SPROP:Turns into a fulls size smilodon under the users command
+Gloves of the Uldra Savant						TYPE:Wondrous.Minor.Glove	COST:12700	WT:2		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.110																																	SPROP:Three times per day, the user may imbue any melee weapon held in her hand with the frost special ability as a standard action. The weapon retains this quality for 5 rounds.
+Iceheart (Minor)								TYPE:Wondrous.Minor		COST:24000	WT:1		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.110	SPELLS:Iceheart (Minor)|TIMES=3|Sleet Storm|Fog Cloud	SPELLS:Iceheart (Minor)|TIMES=ATWILL|Ray of Frost
+Iceheart (Major)								TYPE:Wondrous.Major		COST:140000	WT:1		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.110	SPELLS:Iceheart (Major)|TIMES=1|Polar Ray|Fimbulwinter	SPELLS:Iceheart (Major)|TIMES=3|Fog Cloud|Sleet Storm|Ice Storm|Cone of Cold	SPELLS:Iceheart (Major)|TIMES=ATWILL|Ray of Frost	SPROP:Anyone holding this item takes 1d4+1 cold damage per round
+Instant Igloo								TYPE:Wondrous.Minor		COST:11000	WT:1		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.111																																	SPROP:Creates an igloo similar to that created by the spell Leomunds tiny igloo, except that the igloo created has a 10-foot radius and can contain up to 2 Large, 8 Medium, 32 Small, or 128 Tiny or smaller creatures, which lasts for 16 hours
+Mantle of Hidden Faith							TYPE:Wondrous.Minor		COST:15000	WT:1		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.111																																	SPROP:Shields your faith, alignment, and patron deity from magical detection as long as it is worn.
+Simulacrum Elixir								TYPE:Wondrous.Vial		COST:21000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.111																																	SPROP:When the contents are poured over a body part, the liquid quickly grows in volume and transforms into a simulacrum of the creature from which the body part came.
+Vial of Icy Sheets							TYPE:Wondrous.Vial		COST:2000	WT:1		MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.112																																	SPROP:Creates a region of slippery ice when its contents are poured upon the ground or object
+

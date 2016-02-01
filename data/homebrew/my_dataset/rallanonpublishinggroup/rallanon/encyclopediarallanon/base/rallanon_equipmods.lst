@@ -1,0 +1,26 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+###Block:Armor
+# Modifier Name	Unique Key	Type			Cost		Type granted	Source Page							BONUS:EQM			BONUS:EQMARMOR							Special Property	Apply to both heads
+
+###Block:Weapon
+# Modifier Name	Unique Key	Type		Plus		Visible		Type granted			Keys to replace			Required Type			Combat bonus			Special Property
+Eager (Very)	KEY:VEGR	TYPE:Weapon	PLUS:4	VISIBLE:QUALIFY	ITYPE:Enhancement.Magic		REPLACES:WEAP_EAGER,EPEGR	PRETYPE:2,Enhancement,Melee	BONUS:COMBAT|INITIATIVE|4	SPROP:+4 bonus to initiative and free action to draw
+Eager (Epic)	KEY:EPEGR	TYPE:Weapon	PLUS:6	VISIBLE:QUALIFY	ITYPE:Enhancement.Magic.Epic	REPLACES:WEAP_EAGER,VEGR	PRETYPE:2,Enhancement,Melee	BONUS:COMBAT|INITIATIVE|6	SPROP:+6 bonus to initiative and free action to draw
+
+###Block: Armor materials
+# Modifier Name	Unique Key		Type					Cost			Visible		Type granted			Keys to ignore	Cost before resizing	Source Page									Required Type				Combat bonus						BONUS:EQM							BONUS:EQMARMOR																				Change Armor Type
+
+###Block: Weapon materials
+# Modifier Name	Unique Key		Type					Cost										Type granted			Keys to ignore		Source Page									Required Type	BONUS:EQM			Weapon prop. bonus												Apply to both heads
+
+###Block: Amummution/Ranged weapons
+SOURCESHORT:QuintFight	SOURCEWEB:http://mongoosepublishing.com
+# Modifier Name	Unique Key		Type		Cost		Type granted	Source Page			Required Type	Bonus Weapon Modifiers		Special Property								Apply to both heads
+Bow Stabilizer	KEY:QUINTFSBL	TYPE:Weapon	COST:100	ITYPE:Ranged	SOURCEPAGE:pg. 114	PRETYPE:1,Bow	BONUS:EQMWEAPON|RANGEADD|20	SPROP:This addes 20 feet to the bow's range increment.	ASSIGNTOALL:YES
+
+
+###Block:EXCLUDEEQ: Any item with the properties listed will not be allowed to be edited
+# Modifier Name	Visible	Type granted
+EXCLUDEEQ_MUNDANE	VISIBLE:NO	ITYPE:Masterwork.Silvered.Adamantine.Mithral.Darkwood

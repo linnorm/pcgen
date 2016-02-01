@@ -1,0 +1,27 @@
+# CVS $Revision: 1.7 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Required Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class		RTM = Required to Memorize Spells	PRSA = Pre-Required Special Ability		RL = Required Languages to be this class		MRST = Minimum Required Saving Throw (type Fort/Ref/Will)
+# DS = Define Special	AA = Add Ability to class (feat/skill)	CT = Class Type (PC/NPC/Template/Monster)
+
+SOURCELONG:Wizards of the Coast - Dragon Magazine #277	SOURCESHORT:WotC-Dragon #277	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus																	WEAPONAUTO
+CLASS:Rage Mage	HD:6		TYPE:PC.Prestige	ABB:Rag		MAXLEVEL:10	SOURCEPAGE:p.98-99	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name	Required AL				Req. Att.	Required Feat			Req. Special Ability	Req. Spell Type
+CLASS:Rage Mage	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:5	PREFEAT:1,Combat Casting	PRESA:1,Rage		PRESPELLTYPE:1,Arcane=1
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Rage Mage	STARTSKILLPTS:2	CSKILL:Concentration|Knowledge (Arcana)|Profession |Spellcraft
+# Class Name	Spell Stat		Spell Type		Memorize
+CLASS:Rage Mage	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO
+1	CAST:0,0		KNOWN:0,2		SAB:Spell Rage %/day|Spell Rage						BONUS:VAR|Spell Rage|1	DEFINE:BAB|(3*(CL+1))/4	DEFINE:Spell Rage|0	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency
+2	CAST:0,1		KNOWN:0,3		SAB:Spell Bonus
+3	CAST:0,1,0		KNOWN:0,3,2
+4	CAST:0,1,1		KNOWN:0,4,3													BONUS:VAR|Spell Rage|1
+5	CAST:0,1,1,0	KNOWN:0,4,3,2	SAB:Overcome Spell Failure
+6	CAST:0,1,1,1	KNOWN:0,4,4,3
+7	CAST:0,2,1,1,0	KNOWN:0,4,4,3,2												BONUS:VAR|Spell Rage|1
+8	CAST:0,2,1,1,1	KNOWN:0,4,4,4,3
+9	CAST:0,2,2,1,1	KNOWN:0,4,4,4,3
+10	CAST:0,2,2,2,1	KNOWN:0,4,4,4,4	SAB:Spell Rentention	SAB:No Longer Winded After Spell Rage

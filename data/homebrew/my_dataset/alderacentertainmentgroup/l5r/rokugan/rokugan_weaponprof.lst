@@ -1,0 +1,29 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+# Weapon Name		Type			Source Page
+Aiguchi			TYPE:Simple		SOURCEPAGE:p.58
+Bo				TYPE:Simple		SOURCEPAGE:p.58
+Crossbow			TYPE:Exotic		SOURCEPAGE:p.58
+Dai-kyu			TYPE:Martial	SOURCEPAGE:p.58
+Die Tsuchi			TYPE:Martial	SOURCEPAGE:p.58
+Jitte				TYPE:Simple		SOURCEPAGE:p.58
+Jo				TYPE:Simple		SOURCEPAGE:p.58
+Kama				TYPE:Simple		SOURCEPAGE:p.58
+Machi-Kanshisha pipe	TYPE:Exotic		SOURCEPAGE:p.58
+Naga blade			TYPE:Exotic		SOURCEPAGE:p.58
+Nagamaki			TYPE:Martial	SOURCEPAGE:p.58
+Nage-yari			TYPE:Simple		SOURCEPAGE:p.58
+Naginata			TYPE:Martial	SOURCEPAGE:p.58
+Nunchaku			TYPE:Simple		SOURCEPAGE:p.58
+Ono				TYPE:Martial	SOURCEPAGE:p.58
+Sai				TYPE:Simple		SOURCEPAGE:p.58
+Sasumata			TYPE:Exotic		SOURCEPAGE:p.58
+Sling				TYPE:Exotic		SOURCEPAGE:p.58
+Sodegarami			TYPE:Exotic		SOURCEPAGE:p.58
+Tetsubo			TYPE:Martial	SOURCEPAGE:p.58
+Tonfa				TYPE:Simple		SOURCEPAGE:p.58
+Vajra				TYPE:Exotic		SOURCEPAGE:p.58
+Whip				TYPE:Exotic		SOURCEPAGE:p.58
+Yari				TYPE:Simple		SOURCEPAGE:p.58
+Yumi				TYPE:Martial	SOURCEPAGE:p.58

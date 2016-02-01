@@ -1,0 +1,340 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Glen Murie
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+#Original Entry by: Glen Murie
+
+#Replacing the SRD ranger with entirely new version called a 'scout' in the IK setting.
+#Updated Scout to use abilities for favored terrain. -- Rax
+
+
+# Class Name	Required Class
+CLASS:Ranger.MOD	PRECLASS:1,Disallowed
+
+# Class Name	Required Class
+CLASS:Bard.MOD	PRECLASS:1,Disallowed
+
+###################
+
+#Changes made for IK Game setting. Cannot take firearm or mechanica skills or prof until 2nd level.
+#All "advanced craft skills" (Direct quote from book) are cross class, so I've created them as their
+#own skill category rather than subclassed under Craft. I still need to ban TYPE.AdvancedCraft skills
+#and mechanika feats at 1st level, and then allow them at 2nd level. For now players can break the
+#rules by taking those skills and feats at first level.
+#I need to add the following logic:
+# If 1st character level AND 1st Barbarian level then prohibit Advanced Craft skills and the feat "Exotic Weapon Proficiency (Small Arms)" among others
+# If 2nd level Barbarian then clear the prohibition from 1st level.
+
+# Class Name		Prohibited Race
+CLASS:Barbarian.MOD	!PRERACE:1,Elf (Iosan)
+
+###################
+
+# Class Name
+# CLASS:Cleric.MOD
+# 1	ABILITY:Special Ability|AUTOMATIC|Basic Turning.CLEAR
+
+
+#######################
+
+#  I'll add a formula for the extended lifespan ability at some later date.
+
+# Class Name	Clear Prereq.	Required AL			Prohibited Race
+CLASS:Druid.MOD	PRE:.CLEAR		PREALIGN:NG,TN,NE,CN	!PRERACE:1,Dwarf (IK)
+# Class Name	Class Skill
+CLASS:Druid.MOD	CSKILL:Intimidate
+#Changed Weapon Profs and additional special abilities
+1	SAB:Extended Lifespan	SAB:Superstitious Dread	AUTO:FEAT|.CLEAR.Shield Proficiency	AUTO:FEAT|Armor Proficiency (Medium)	AUTO:WEAPONPROF|.CLEAR.Dart|.CLEAR.Scimitar|.CLEAR.Shortspear	AUTO:WEAPONPROF|Greatclub|Handaxe|Shortbow|TYPE=Spear
+
+# Class Name
+CLASS:Ex Druid.MOD
+1	AUTO:FEAT|.CLEAR.Shield Proficiency	AUTO:FEAT|Armor Proficiency (Medium)	AUTO:WEAPONPROF|.CLEAR.Dart|.CLEAR.Scimitar|.CLEAR.Shortspear	AUTO:WEAPONPROF|Greatclub|Handaxe|Shortbow|TYPE=Spear
+
+#######################
+
+#Class Name	Skill Pts/Lvl	Class Skill
+
+# Class Name	Class Skill
+CLASS:Fighter.MOD	CSKILL:Craft (Cannoneer)|Craft (Demolitions)|Craft (Small Arms)
+1	SAB:Military benefit on armor purchase
+
+#########################
+
+
+# Class Name	Base class as subclass?
+CLASS:Monk.MOD	ALLOWBASECLASS:NO
+###Block:Subclasses
+SUBCLASS:Order of Keeping	PREALIGN:LG,LN
+SUBCLASSLEVEL:1																																													AUTO:WEAPONPROF|Crossbow (Light)|Crossbow (Heavy)|Dagger|Halberd|Katrena's Hook|Mace (Light)|Longsword|Quarterstaff|Sword (Short)|Unarmed Strike
+SUBCLASSLEVEL:1															CSKILL:Balance|Concentration|TYPE=Craft|Diplomacy|Heal|Jump|Knowledge (History)|Knowledge (Religion)|Listen|Move Silently|TYPE=Profession|Ride|Search|Sense Motive|Spot|Swim|Tumble
+SUBCLASSLEVEL:1	SAB:Flurry of Blows works with Katrena's Hook, Light Mace, and Short Sword (Ex)
+SUBCLASS:Order of the Fist				PRERACE:1,Human%
+SUBCLASSLEVEL:1																																													AUTO:WEAPONPROF|Chain (Light)|Club|Dagger|Handaxe|Menoth's Sting|Quarterstaff|Sickle|Unarmed Strike
+SUBCLASSLEVEL:1															CSKILL:Balance|Concentration|TYPE=Craft|Hide|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|TYPE=Profession|Ride|Search|Sense Motive|Spot|Swim|Tumble
+SUBCLASSLEVEL:1	SAB:Flurry of Blows works with club, light chain, or sickle. (Ex)
+
+
+######################
+
+#Dwarves are banned from being this type of Paladin.
+
+# Class Name	Prohibited Race
+CLASS:Paladin.MOD	!PRERACE:1,Dwarf
+# Class Name	Class Skill
+CLASS:Paladin.MOD	CSKILL:Craft (Cannoneer)|Craft (Demolitions)|Craft (Small Arms)|Spot
+
+#####################
+
+# Class Name		Class Skill
+CLASS:Ex Paladin.MOD	CSKILL:Craft (Cannoneer)|Craft (Demolitions)|Craft (Small Arms)|Spot
+####################
+
+# Class Name	Class Skill
+CLASS:Rogue.MOD	CSKILL:Craft (Small Arms)
+
+####################
+
+# Class Name		Prohibited Race
+CLASS:Sorcerer.MOD	!PRERACE:1,Ogrun
+# Class Name		Class Skill
+CLASS:Sorcerer.MOD	CSKILL:Diplomacy|Hide
+
+#######################
+
+# Class Name	Prohibited Race
+CLASS:Wizard.MOD	!PRERACE:1,Ogrun
+# Class Name	Class Skill
+CLASS:Wizard.MOD	CSKILL:Craft (Mechanika)|Creature Lore
+
+
+#####################
+#### New Classes ####
+#####################
+
+# Class Name		Hit Dice	Type			Abbreviation	Source Page			Define		Save checks bonus											Combat bonus					Modify VAR
+CLASS:Arcane Mechanik	HD:6		TYPE:Base.PC	ABB:Amk		SOURCEPAGE:IKCG.pg.90	DEFINE:FMLevel|0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	BONUS:VAR|FMLevel|CL
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Arcane Mechanik	STARTSKILLPTS:6	CSKILL:Appraise|Craft (Clockwork)|Craft (Mechanika)|Craft (Small Arms)|Craft (Steam Engine)|Climb|Concentration|TYPE=Craft|Disable Device|Jack Handling|Knowledge (Arcana)|Knowledge (Mechanika)|Profession (Mechanik)|Search|Spellcraft|Use Rope
+# Class Name		Spell Stat		Spell Type		Automatically Known Spell Levels	Spellbook		Caster level					Use Spell List
+CLASS:Arcane Mechanik	SPELLSTAT:INT	SPELLTYPE:Arcane	KNOWNSPELLS:LEVEL=0			SPELLBOOK:YES	BONUS:CASTERLEVEL|Arcane Mechanik|CL	SPELLLIST:2|Arcane Mechanik|Wizard
+# Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Shield Proficiency	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Hammer (Light)|Handaxe|Mace (Heavy)|Pick (Heavy)|Shortspear|Sword (Short)|Quarterstaff|Warhammer
+###Block: Familiar
+1	BONUS:VAR|FMLevel|CL	ABILITY:Special Ability|AUTOMATIC|Summon Familiar
+###Block: Normal Progression
+1																						AUTO:FEAT|All Automatic Proficiencies|Scribe Scroll
+2	CAST:3,0			SAB:Mechanika Familiarity
+3	CAST:3,1																				AUTO:FEAT|Craft Wondrous Item
+4	CAST:3,2,0			SAB:Charge Accumulator
+5	CAST:3,3,1
+6	CAST:3,3,2			SAB:Create Mechanikal Familiar
+7	CAST:3,3,2,0
+8	CAST:3,3,3,1								ADD:FEAT|TYPE=ArcaneMechanik,TYPE=ItemCreation,TYPE=Metamagic
+9	CAST:3,3,3,2
+10	CAST:3,3,3,2,0
+11	CAST:3,3,3,3,1
+12	CAST:3,3,3,3,2								ADD:FEAT|TYPE=ArcaneMechanik,TYPE=ItemCreation,TYPE=Metamagic
+13	CAST:3,3,3,3,2,0
+14	CAST:4,3,3,3,3,1
+15	CAST:4,4,3,3,3,2
+16	CAST:4,4,4,3,3,2,0	SAB:Mechanikal Innovation
+17	CAST:4,4,4,4,3,3,1
+18	CAST:4,4,4,4,4,3,2
+19	CAST:4,4,4,4,4,4,3
+20	CAST:4,4,4,4,4,4,4	SAB:Second Mechanikal Innovation
+
+############################
+
+# Class Name		Hit Dice	Type			Abbreviation	Source Page			Save checks bonus											Combat bonus
+CLASS:Bard (War-Bard)	HD:6		TYPE:Base.PC	ABB:Brd		SOURCEPAGE:ClassesI.rtf	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required AL
+CLASS:Bard (War-Bard)	PREALIGN:LG,LN,LE,NG,TN,NE,CG
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Bard (War-Bard)	STARTSKILLPTS:6	CSKILL:Craft (Small Arms)|Craft (Steam Engine)|Bluff|Climb|Concentration|TYPE=Craft|Creature Lore|Decipher Script|Diplomacy|Gather Information|Handle Animal|Jump|TYPE=Knowledge|Listen|TYPE=Perform|TYPE=Profession|Ride|Search|Sense Motive|Speak Language|Spellcraft|Spot|Use Magic Device
+# Class Name		Spell Stat		Spell Type		Memorize	Caster level					Use Spell List
+CLASS:Bard (War-Bard)	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Bard (War-Bard)|CL	SPELLLIST:1|Bard
+###Block: Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Armor Proficiency (Light)|Shield Proficiency
+1																	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE=Martial
+###Block: Bardic abilities level definitions.
+1	BONUS:VAR|BardicKnowledgeLvl|CL	BONUS:VAR|BardicKnowledge|BardicKnowledgeLvl			ABILITY:Special Ability|AUTOMATIC|Bardic Knowledge
+1	BONUS:VAR|BardicMusicLvl|CL	BONUS:VAR|BardicMusicTimes|CL	BONUS:VAR|InspireDurationBase|5	ABILITY:Special Ability|AUTOMATIC|Bardic Music
+###Block: Bardic Music Abilities by level
+1	ABILITY:Special Ability|VIRTUAL|Bardic Countersong|Bardic Fascinate|Bardic Inspire Courage|PREVARGTEQ:BardicMusicLvl,1|PRESKILL:1,TYPE.Perform=3
+1	ABILITY:Special Ability|VIRTUAL|Bardic Inspire Competence|PREVARGTEQ:BardicMusicLvl,3|PRESKILL:1,TYPE.Perform=6
+1	ABILITY:Special Ability|VIRTUAL|Bardic Suggestion|PREVARGTEQ:BardicMusicLvl,6|PRESKILL:1,TYPE.Perform=9
+1	ABILITY:Special Ability|VIRTUAL|Bardic Inspire Greatness|PREVARGTEQ:BardicMusicLvl,9|PRESKILL:1,TYPE.Perform=12
+1	ABILITY:Special Ability|VIRTUAL|Bardic Song of Freedom|PREVARGTEQ:BardicMusicLvl,12|PRESKILL:1,TYPE.Perform=15
+1	ABILITY:Special Ability|VIRTUAL|Bardic Inspire Heroics|PREVARGTEQ:BardicMusicLvl,15|PRESKILL:1,TYPE.Perform=18
+1	ABILITY:Special Ability|VIRTUAL|Bardic Mass Suggestion|PREVARGTEQ:BardicMusicLvl,18|PRESKILL:1,TYPE.Perform=21
+###Block: Level progression
+1	CAST:2			KNOWN:4			ABILITY:Special Ability|AUTOMATIC|Armored Casting (Bard)
+2	CAST:3,0			KNOWN:5,2
+3	CAST:3,1			KNOWN:6,3
+4	CAST:3,2,0			KNOWN:6,3,2
+5	CAST:3,3,1			KNOWN:6,4,3
+6	CAST:3,3,2			KNOWN:6,4,3
+7	CAST:3,3,2,0		KNOWN:6,4,4,2
+8	CAST:3,3,3,1		KNOWN:6,4,4,3
+9	CAST:3,3,3,2		KNOWN:6,4,4,3
+10	CAST:3,3,3,2,0		KNOWN:6,4,4,4,2
+11	CAST:3,3,3,3,1		KNOWN:6,4,4,4,3
+12	CAST:3,3,3,3,2		KNOWN:6,4,4,4,3
+13	CAST:3,3,3,3,2,0		KNOWN:6,4,4,4,4,2
+14	CAST:4,3,3,3,3,1		KNOWN:6,4,4,4,4,3
+15	CAST:4,4,3,3,3,2		KNOWN:6,4,4,4,4,3
+16	CAST:4,4,4,3,3,2,0	KNOWN:6,5,4,4,4,4,2
+17	CAST:4,4,4,4,3,3,1	KNOWN:6,5,5,4,4,4,3
+18	CAST:4,4,4,4,4,3,2	KNOWN:6,5,5,5,4,4,3
+19	CAST:4,4,4,4,4,4,3	KNOWN:6,5,5,5,5,4,4
+20	CAST:4,4,4,4,4,4,4	KNOWN:6,5,5,5,5,5,4
+
+########################################3
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page			Save checks bonus											Combat bonus
+CLASS:Bodger	HD:8		TYPE:Base.PC	ABB:Bdg		SOURCEPAGE:IKCG.pg.96	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Bodger	STARTSKILLPTS:6	CSKILL:Craft (Clockwork)|Craft (Mechanika)|Craft (Small Arms)|Craft (Steam Engine)|Appraise|Climb|TYPE=Craft|Disable Device|Jump|Knowledge (Local)|Knowledge (Mechanika)|Open Lock|Profession (Mechanik)|Search|Spot|Use Rope
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Armor Proficiency (Light)	AUTO:FEAT|Simple Weapon Proficiency
+###Block:Demolish
+1	BONUS:VAR|DemolishAttack|(CL=Bodger+3)/3	ABILITY:Special Ability|AUTOMATIC|Demolish
+###Block:Normal Progression
+1																										ABILITY:Special Ability|AUTOMATIC|Bodging	ABILITY:Special Ability|AUTOMATIC|Jackwrench
+2									BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1|TYPE=Prerequisite|PREEQUIP:1,TYPE=Medium,TYPE=Heavy	ABILITY:Special Ability|AUTOMATIC|Tinkering	ABILITY:Special Ability|AUTOMATIC|Evasion
+5																										ABILITY:Special Ability|AUTOMATIC|Give It a Good Kick
+8																										ABILITY:Special Ability|AUTOMATIC|Toss a Hammer at It
+10
+11	BONUS:ABILITYPOOL|Bodger Special Ability|1
+14	BONUS:ABILITYPOOL|Bodger Special Ability|1
+17	BONUS:ABILITYPOOL|Bodger Special Ability|1
+20	BONUS:ABILITYPOOL|Bodger Special Ability|1
+
+################################
+
+#To multiclass and get a level of fell caller after 1st level requires having a feat called "Bragg's Gift". This restriction is not yet implemented.
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page			Save checks bonus											Combat bonus
+CLASS:Fell Caller	HD:8		TYPE:Base.PC	ABB:FlClr		SOURCEPAGE:IKCG.pg.102	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required AL				Required Race
+CLASS:Fell Caller	PREALIGN:NG,TN,NE,CG,CN,CE	PRERACE:1,Trollkin
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Fell Caller	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE=Craft|Intimidate|Jump|TYPE=Knowledge|Listen|TYPE=Perform|Ride|Spot|Survival|Swim
+###Block: Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE=Martial
+1																	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1																	AUTO:FEAT|Shield Proficiency
+###Block: Fell Caller abilities level definitions.
+1	BONUS:VAR|FellCallLevel|CL=Fell Caller	BONUS:VAR|FellCallTimes|FellCallLevel*2	DEFINE:FellCallLevel|0	AUTO:FEAT|Fell Calls
+###Block: Level progression
+4	ADD:FEAT|TYPE=Fighter
+8	ADD:FEAT|TYPE=Fighter
+12	ADD:FEAT|TYPE=Fighter
+16	ADD:FEAT|TYPE=Fighter
+20	ADD:FEAT|TYPE=Fighter
+
+####################################
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Save checks bonus												Combat bonus
+CLASS:Gun Mage	HD:6		TYPE:Base.PC	ABB:Gmb		SOURCEPAGE:Pg.107	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Gun Mage	STARTSKILLPTS:2	CSKILL:Craft (Small Arms)|Bluff|Climb|Concentration|TYPE=Craft|Intimidate|Jump|Knowledge (Arcana)|Listen|Spellcraft|Spot|Swim
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Gun Mage	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Gun Mage|CL
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency	AUTO:WEAPONPROF|Pistol
+1												AUTO:FEAT|Armor Proficiency (Light)
+## TODO: Bonded Magelock acts like familiar, need to add DEFINES for it and work out xxxcompanionmod.lst
+###Block: Level progression
+1	CAST:2			KNOWN:4			SAB:Arcane Focus through pistol, see text.	SAB:Bond with Magelock Pistol, see text.	SAB:Cast Rune Bullets, see text.	SAB:Reinforcing Runes, see text.
+2	CAST:3,0			KNOWN:5,2
+3	CAST:3,1			KNOWN:6,3
+4	CAST:4,2,0			KNOWN:6,3,2
+5	CAST:4,3,1			KNOWN:6,4,3																														ADD:FEAT|Exotic Weapon Proficiency (Small Arms),Skill Focus (Craft (Small Arms),Weapon Focus (Pistol),TYPE=GunMage,TYPE=Metamagic
+6	CAST:4,3,2			KNOWN:6,4,3
+7	CAST:5,4,2,0		KNOWN:6,4,4,2
+8	CAST:5,4,3,1		KNOWN:6,4,4,3
+9	CAST:5,5,3,2		KNOWN:6,4,4,3
+10	CAST:6,5,4,2,0		KNOWN:6,4,4,4,2																													ADD:FEAT|Exotic Weapon Proficiency (Small Arms),Skill Focus (Craft (Small Arms),Weapon Focus (Pistol),TYPE=GunMage,TYPE=Metamagic
+11	CAST:6,5,4,3,1		KNOWN:6,4,4,4,3
+12	CAST:6,5,4,3,2		KNOWN:6,4,4,4,3
+13	CAST:6,6,5,4,2,0		KNOWN:6,4,4,4,4,2
+14	CAST:6,6,5,4,3,1		KNOWN:6,4,4,4,4,3
+15	CAST:6,6,5,4,3,2		KNOWN:6,4,4,4,4,3																													ADD:FEAT|Exotic Weapon Proficiency (Small Arms),Skill Focus (Craft (Small Arms),Weapon Focus (Pistol),TYPE=GunMage,TYPE=Metamagic
+16	CAST:6,6,6,5,4,2,0	KNOWN:6,5,4,4,4,4,2
+17	CAST:6,6,6,5,4,3,1	KNOWN:6,5,5,4,4,4,3
+18	CAST:6,6,6,5,5,3,2	KNOWN:6,5,5,5,4,4,3
+19	CAST:6,6,6,6,5,4,3	KNOWN:6,5,5,5,5,4,4
+20	CAST:6,6,6,6,5,4,4	KNOWN:6,5,5,5,5,5,4																												ADD:FEAT|Exotic Weapon Proficiency (Small Arms),Skill Focus (Craft (Small Arms),Weapon Focus (Pistol),TYPE=GunMage,TYPE=Metamagic
+####################################
+
+# Class Name		Hit Dice	Type			Abbreviation	Ex Class			Source Page		Define		Save checks bonus											Combat bonus					Modify VAR
+CLASS:Paladin (Dwarf)	HD:10		TYPE:Base.PC	ABB:Pld		EXCLASS:Ex Paladin	SOURCEPAGE:pg.84	DEFINE:SMLevel|0	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|SMLevel|CL
+# Class Name		Required AL	Required Race
+CLASS:Paladin (Dwarf)	PREALIGN:LG	PRERACE:1,Dwarf
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Paladin (Dwarf)	STARTSKILLPTS:2	CSKILL:Craft (Cannoneer)|Craft (Demolitions)|Craft (Small Arms)|Concentration|TYPE=Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nobility and Royalty)|Knowledge (Religion)|Knowledge (Law)|TYPE=Profession|Search|Sense Motive|Spot
+# Class Name		Spell Stat		Spell Type		Automatically Known Spell Levels				Craft Level Mult.	Caster level										Use Spell List
+CLASS:Paladin (Dwarf)	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	ITEMCREATE:0.5	BONUS:CASTERLEVEL|Paladin (Dwarf)|CL/2|PRECLASS:1,Paladin (Dwarf)=4	SPELLLIST:1|Paladin
+###Block:Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency
+1																	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)
+1																	AUTO:FEAT|Shield Proficiency
+###Block: Turn Undead stuff
+4	BONUS:VAR|PaladinTurnLVL|CL	ABILITY:Special Ability|AUTOMATIC|Basic Turning|Turn Undead|Paladin Turn Undead
+###Block: Level progression
+1				BONUS:VAR|AuraGood,DetectEvilLVL,PaladinSmiteEvilLVL|CL	DEFINE:AllowHolyAvenger|1						ABILITY:Special Ability|AUTOMATIC|Aura of Good|Detect Evil|Smite Evil|Paladin Smite Evil
+2				BONUS:VAR|LayOnHandsLVL|CL																ABILITY:Special Ability|AUTOMATIC|Divine Grace|Lay on Hands
+3																								ABILITY:Special Ability|AUTOMATIC|Aura of Courage|Divine Health
+4	CAST:0,0		BONUS:VAR|PaladinTurnLVL|CL																ABILITY:Special Ability|AUTOMATIC|Basic Turning|Turn Undead|Paladin Turn Undead
+5	CAST:0,0		BONUS:VAR|SmiteEvil|1												ADD:FEAT|TYPE=DwarfPaladin
+6	CAST:0,1		BONUS:VAR|RemoveDiseaseLVL|CL																ABILITY:Special Ability|AUTOMATIC|Remove Disease
+7	CAST:0,1
+8	CAST:0,1,0		BONUS:VAR|SmiteEvil|1
+9	CAST:0,1,0
+10	CAST:0,1,1																	ADD:FEAT|TYPE=DwarfPaladin
+11	CAST:0,1,1,0	BONUS:VAR|SmiteEvil|1
+12	CAST:0,1,1,1
+13	CAST:0,1,1,1
+14	CAST:0,2,1,1,0	BONUS:VAR|SmiteEvil|1
+15	CAST:0,2,1,1,1																ADD:FEAT|TYPE=DwarfPaladin
+16	CAST:0,2,2,1,1
+17	CAST:0,2,2,2,1	BONUS:VAR|SmiteEvil|1
+18	CAST:0,3,2,2,1
+19	CAST:0,3,3,3,2
+20	CAST:0,3,3,3,3	BONUS:VAR|SmiteEvil|1
+
+#############################
+
+#IK Note, the Ranger in the PHB doesn't exist in the IK, there is instead the Scout. This is a mod of the Ranger class.
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page			Define			Save checks bonus											Combat bonus
+CLASS:Scout		HD:8		TYPE:Base.PC	ABB:Rgr		SOURCEPAGE:IKCG pg.84	DEFINE:CompLevel|0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Scout		STARTSKILLPTS:6	CSKILL:Craft (Cannoneer)|Craft (Demolitions)|Craft (Small Arms)|Climb|TYPE=Craft|Creature Lore|Handle Animal|Hide|Jump|Knowledge (Geography)|Knowledge (Nature)|Knowledge (Tactics)|Listen|Move Silently|TYPE=Profession|Ride|Search|Spot|Survival|Swim|Use Rope
+###Block:Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE=Martial
+1																	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1																	AUTO:FEAT|Shield Proficiency
+###Block: Favored Enemy level stacking
+1	BONUS:VAR|RangerFavoredEnemyLVL|CL		ABILITY:Special Ability|AUTOMATIC|Basic Favored Enemy|Ranger Favored Enemy
+###Block: Favored Terrain level stacking, shamelessly plagarized from rsrd. =)
+2	BONUS:VAR|ScoutFavoredTerrainLVL|CL		ABILITY:Special Ability|AUTOMATIC|Basic Favored Terrain|Scout Favored Terrain
+###Block: Level progression
+1	BONUS:VAR|WildEmpathy|CL																ABILITY:Special Ability|AUTOMATIC|Wild Empathy				AUTO:FEAT|Track
+2
+3																						AUTO:FEAT|Alertness
+4							ADD:FEAT|TYPE=Scout
+5
+6																						AUTO:FEAT|Endurance
+7											ABILITY:Special Ability|AUTOMATIC|Woodland Stride
+8											ABILITY:Special Ability|AUTOMATIC|Evasion
+9							ADD:FEAT|TYPE=Scout
+10
+11											ABILITY:Special Ability|AUTOMATIC|Swift Tracker
+12
+13											ABILITY:Special Ability|AUTOMATIC|Camouflage
+14							ADD:FEAT|TYPE=Scout
+15
+16
+17
+18											ABILITY:Special Ability|AUTOMATIC|Hide in Plain Sight (Ranger)
+19							ADD:FEAT|TYPE=Scout
+20

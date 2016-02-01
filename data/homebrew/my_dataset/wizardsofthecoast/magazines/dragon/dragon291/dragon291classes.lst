@@ -1,0 +1,25 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Required Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class		RTM = Required to Memorize Spells	PRSA = Pre-Required Special Ability		RL = Required Languages to be this class		MRST = Minimum Required Saving Throw (type Fort/Ref/Will)
+# DS = Define Special	AA = Add Ability to class (feat/skill)	CT = Class Type (PC/NPC/Template/Monster)	PRA = Pre-Required Alignment
+
+SOURCELONG:Wizards of the Coast - Dragon Magazine #291	SOURCESHORT:WotC-Dragon #291	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus					WEAPONAUTO
+CLASS:Gnome Giant-Killer	HD:10		TYPE:PC.Prestige	ABB:GGK		MAXLEVEL:10	SOURCEPAGE:p.84	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name			Req. Att.	Required Feat					Required Language	Required Race	Required Skill
+CLASS:Gnome Giant-Killer	PREATT:5	PREFEAT:3,Dodge,Mobility,Spring Attack	PRELANG:1,Giant	PRERACE:1,Gnome	PRESKILL:2,Escape Artist,Tumble=3
+# Class Name			Skill Pts/Lvl
+CLASS:Gnome Giant-Killer	STARTSKILLPTS:2
+1	SAB:Favored Enemy (Giant) +%|1								AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency|Armor Proficiency (Light)|Armor Proficiency (Medium)|Shield Proficiency
+2	SAB:Crafty Fighter
+3	SAB:Slippery
+4	SAB:Favored Enemy (Giant) +%|1
+5	SAB:Close Shot
+6	SAB:Longstrider						BONUS:MOVEADD|TYPE=WALK|10
+7	SAB:Favored Enemy (Giant) +%|1
+8	SAB:Improved Mobility
+9	SAB:Annoying Strike
+10	SAB:Favored Enemy (Giant) +%|1,Defensive Roll

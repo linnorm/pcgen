@@ -1,0 +1,17 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Wed May  6 18:33:48 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Equipment Name		Output Name						Required Proficiency				Type							Cost		Weight	AC Penalty Check	Modifier						Maximum DEX Bonus	Size		Source, Long Desc.	Source, Short Desc.	Source Page		% of Spell Failure	Combat bonus
+Blood Golem Plate		OUTPUTNAME:+1 Large Full Plate		PROFICIENCY:ARMOR|Blood Golem Plate		TYPE:Armor.Heavy.Suit.Standard		COST:3000	WT:100	ACCHECK:-6		EQMOD:STEEL.MWORKA.PLUS1A	MAXDEX:1		SIZE:L	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.84	SPELLFAILURE:35		BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE
+Fossergrim Chainmail	OUTPUTNAME:+1 Chainmail				PROFICIENCY:ARMOR|Fossergrim Chainmail	TYPE:Armor.Medium.Suit.Standard		COST:150	WT:40		ACCHECK:-5		EQMOD:STEEL.MWORKA.PLUS1A	MAXDEX:2				SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.79	SPELLFAILURE:30		BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE
+Kuldurath Barding		OUTPUTNAME:+2 Large Full Plate Barding	PROFICIENCY:ARMOR|Barding (Heavy)		TYPE:Armor.Heavy.Standard.Barding.Mount	COST:3000	WT:100	ACCHECK:-6		EQMOD:STEEL.MWORKA.PLUS2A	MAXDEX:1		SIZE:L	SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.116	SPELLFAILURE:35		BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE
+Resin Suit										PROFICIENCY:ARMOR|Resin Suit			TYPE:Armor.Medium.Suit.Standard		COST:50	WT:30		ACCHECK:-4									MAXDEX:3				SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.108	SPELLFAILURE:25		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+
+
+Full Plate 1										TYPE:Armor.Heavy.Suit.Standard		COST:1500	WT:50		ACCHECK:-6												EQMOD:STEEL.MWORKA.PLUS1A				MAXDEX:1							SPELLFAILURE:35		BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE
+Large Steel Shield 1		OUTPUTNAME:+1 Large Steel Shield		TYPE:Shield.Heavy.Standard.Bludgeoning	COST:20	WT:15		ACCHECK:-2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	EQMOD:STEEL.MWORKA.PLUS1S	WIELD:OneHanded				SIZE:M				SPELLFAILURE:15		BONUS:COMBAT|AC|2|TYPE=Shield.REPLACE
+
+Masterwork Chain Shirt	PROFICIENCY:ARMOR|Chain Shirt		TYPE:Armor.Light.Suit.Standard		COST:100	WT:25		ACCHECK:-2		EQMOD:STEEL.MWORKA		MAXDEX:4		SOURCEPAGE:Equipment.rtf	SPELLFAILURE:20		BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE
+Masterwork Full Plate	PROFICIENCY:ARMOR|Full Plate		TYPE:Armor.Heavy.Suit.Standard		COST:1500	WT:50		ACCHECK:-6		EQMOD:STEEL.MWORKA		MAXDEX:1		SOURCEPAGE:Equipment.rtf	SPELLFAILURE:35		BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE
+
+Masterwork Large Full Plate	PROFICIENCY:ARMOR|Full Plate		TYPE:Armor.Heavy.Suit.Standard		COST:3000	WT:100		ACCHECK:-6		EQMOD:STEEL.MWORKA		MAXDEX:1		SOURCEPAGE:Equipment.rtf	SPELLFAILURE:35		BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE
+Masterwork Heavy Metal Shield	OUTPUTNAME:Shield, Heavy	PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Shield.Heavy.Standard		COST:20	WT:15				ACCHECK:-2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	EQMOD:STEEL.MWORKA	WIELD:OneHanded				SIZE:M	SOURCEPAGE:Equipment.rtf	SPELLFAILURE:15		BONUS:COMBAT|AC|2|TYPE=Shield.REPLACE

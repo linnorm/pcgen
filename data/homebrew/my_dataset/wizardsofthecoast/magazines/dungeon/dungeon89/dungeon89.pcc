@@ -1,0 +1,11 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Sat May 11 10:46:17 2002 -- reformated by prettylst.pl v1.12
+CAMPAIGN:WotC - DnD Magazines - Dungeon Issue #89
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dungeon #89
+SOURCESHORT:WotC-Dungeon #89
+SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+EQUIPMENT:dungeon89equipwondrousitems.lst

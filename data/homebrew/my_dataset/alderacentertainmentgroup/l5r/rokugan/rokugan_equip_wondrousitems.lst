@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Sun May 13 12:19:26 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+# Equipment Name		Type					Cost		Weight	Source Page		Combat bonus					Special Property
+Silk and Steel Kimono	TYPE:Magic.Wondrous.Robe	COST:6000	WT:3		SOURCEPAGE:pg. 76	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	SPROP:Additional +4 to AC vs piercing attacks

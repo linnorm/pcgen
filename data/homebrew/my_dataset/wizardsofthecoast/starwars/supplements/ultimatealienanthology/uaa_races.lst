@@ -1,0 +1,6 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Ultimate Alien Anthology	SOURCESHORT:UAA	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Race Name	Favored Class			Starting Feats	Size		Move				Face/Space	Reach		Vision		Automatic Languages		Bonus Languages	Combat bonus					Bonus to skill				Stat bonus					Virtual Feat									Feat				Type			Source Page
+Chagrian	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,10,Swim,10	FACE:5	REACH:5	VISION:Low-Light	LANGAUTO:Chagri			LANGBONUS:ALL								BONUS:SKILL|Swim|4|TYPE=Species	BONUS:STAT|DEX|-2	BONUS:STAT|STR|2																TYPE:Humanoid	SOURCEPAGE:pg. 32
+Miraluka	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,10		FACE:5	REACH:5				LANGAUTO:Basic,Miralukese	LANGBONUS:ALL	BONUS:COMBAT|INITIATIVE|2|TYPE=Species							BONUS:STAT|DEX|-2	BONUS:STAT|INT|2	VFEAT:Sense|PREMULT:2,[PREVAREQ:ForceLevel,1],[PRELEVEL:MAX=1]	FEAT:Force Sensitive	TYPE:Humanoid	SOURCEPAGE:pg. 97

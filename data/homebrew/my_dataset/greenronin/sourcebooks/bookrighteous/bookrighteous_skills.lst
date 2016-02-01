@@ -1,0 +1,19 @@
+# CVS $Revision: 314 $ $Author: tir-gwaith $ -- Wed Jul 18 12:03:18 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+SOURCELONG:Arcana - The Book of the Righteous	SOURCESHORT:BookRight	SOURCEWEB:http://www.greenronin.com
+# Original Entry by: Beaver
+
+# Skill Name			Key Stat	Untrained?		Exclusive?		Type					Source Page
+Famous				KEYSTAT:CHA	USEUNTRAINED:NO	EXCLUSIVE:YES	TYPE:Charisma			SOURCEPAGE:p.256
+Knowledge (Angel Lore)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.
+Knowledge (Boating)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.
+Knowledge (Cartography)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.
+Knowledge (Demon Lore)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.
+#Knowledge (Heaven)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.271
+#Knowledge (Hell)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.156
+Knowledge (Lost Treasures)	KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.
+Knowledge (Navagation)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.
+Knowledge (Sea Lore)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.
+Knowledge (Undead)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge	SOURCEPAGE:p.
+Profession (Lawyer)		KEYSTAT:WIS	USEUNTRAINED:NO				TYPE:Wisdom.Profession		SOURCEPAGE:p.
+Profession (Politician)		KEYSTAT:WIS	USEUNTRAINED:NO				TYPE:Wisdom.Profession		SOURCEPAGE:p.
+Profession (Teacher)		KEYSTAT:WIS	USEUNTRAINED:NO				TYPE:Wisdom.Profession		SOURCEPAGE:p.93

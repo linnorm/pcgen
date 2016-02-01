@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dungeon #85	SOURCESHORT:WotC-Dungeon #85	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+# Template Name	Hit Dice Size	Challenge Rating	Template		Source Page			Special ABility															Combat bonus				Bonus to skill						Stat bonus					Feat													Removable?
+Scarlet Child	HITDIE:8		CR:1			TEMPLATE:Plant	SOURCEPAGE:p.65-66	SAB:Infestation (Ex), Breath Weapon (Ex), Regeneration 3, Susceptible to Sunlight, Remove Disease	BONUS:COMBAT|AC|-2|TYPE=Natural	BONUS:SKILL|Hide,Move Silently|4|TYPE=Natural	BONUS:STAT|CON|2	BONUS:STAT|CHA|-2	FEAT:Alertness, Blind-Fight,Improved Bull Rush,Improved Initiative,Run,Track	REMOVABLE:YES

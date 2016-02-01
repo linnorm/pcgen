@@ -1,0 +1,60 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Magic	SOURCESHORT:Magic	SOURCEWEB:http://alderac.com/d20
+
+##Block: Monk of the Cloaked Fist
+# Class Name				Hit Dice	Type				Abbreviation	Max Level		Source Page			Save checks bonus											Combat bonus
+CLASS:Monk of the Cloaked Fist	HD:8		TYPE:Base.Prestige	ABB:ClF		MAXLEVEL:10		SOURCEPAGE:pg. 57		BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name				Skill Pts/Lvl	Class Skill
+CLASS:Monk of the Cloaked Fist	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Diplomacy|Escape Artist|Hide|Jump|Knowledge (Arcana)|Listen|Move Silently|TYPE=Perform|TYPE=Profession|Spellcraft|Swim|Tumble
+# Class Name				Required Skill
+CLASS:Monk of the Cloaked Fist	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=4	ALLOWBASECLASS:NO		PREATT:5	PRESPELLCAST:MEMORIZE=N	PRESPELLTYPE:1,Arcane=1
+
+###Block: Monk AC, Monk Movement, Flurry of Blows
+#1	BONUS:VAR|MonkACLVL|CL											ABILITY:Special Ability|AUTOMATIC|Monk AC
+#1	BONUS:VAR|MonkLVL|CL		DEFINE:MonkLVL|0			ABILITY:Class Ability|AUTOMATIC|Flurry of Blows|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkFlurryOfBlows
+#11	ABILITY:Class Ability|VIRTUAL|Greater Flurry of Blows|PREVARGTEQ:GreaterFlurry,1|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkGreaterFlurryOfBlows
+#4	BONUS:VAR|KiStrikeLVL|CL										ABILITY:Special Ability|AUTOMATIC|Ki Strike	ABILITY:Internal|AUTOMATIC|Monk Ki Strike Advancement
+#1	BONUS:VAR|FlurryLVL,StunningFistMonkLVL|MonkLVL				KIT:1|Monk Flurry of Blows
+
+###Block: Angelic Aspect
+SUBCLASS:Angelic Aspect		COST:0
+SUBCLASSLEVEL:1	ABILITY:Special Ability|AUTOMATIC|Angelic Aspect A	ADD:ABILITY|1|Class Ability|NORMAL|Smite Evil,Smite Good,Smite Law,Smite Chaos	DEFINE:SmiteTimes|1	DEFINE:SmiteDamage|TL	BONUS:VAR|SmiteChaosDamage|SmiteDamage		BONUS:VAR|SmiteChaos|SmiteTimes	BONUS:VAR|SmiteLawDamage|SmiteDamage	BONUS:VAR|SmiteLaw|SmiteTimes		BONUS:VAR|SmiteGoodDamage|SmiteDamage		BONUS:VAR|SmiteGood|SmiteTimes	BONUS:VAR|SmiteEvilDamage|SmiteDamage		BONUS:VAR|SmiteEvil|SmiteTimes
+SUBCLASSLEVEL:3	ADD:ABILITY|1|Class Ability|NORMAL|Detect Evil(ClF),Detect Good,Detect Law,Detect Chaos		DEFINE:DetectLVL|0	BONUS:VAR|DetectLVL|CL
+SUBCLASSLEVEL:5	ABILITY:Special Ability|AUTOMATIC|Angelic Aspect C	BONUS:VAR|SmiteTimes|1	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Fire	BONUS:VAR|AcidResistanceBonus|5	BONUS:VAR|ColdResistanceBonus|5	BONUS:VAR|FireResistanceBonus|5
+SUBCLASSLEVEL:7	ADD:ABILITY|1|Class Ability|NORMAL|Protection from Evil,Protection from Good,Protection from Law,Protection from Chaos		BONUS:VAR|ProtectLVL|CL		BONUS:VAR|ProtectTimes|3	BONUS:VAR|AcidResistanceBonus|5	BONUS:VAR|ColdResistanceBonus|5	BONUS:VAR|FireResistanceBonus|5
+SUBCLASSLEVEL:9	ABILITY:Special Ability|AUTOMATIC|Angelic Aspect E	BONUS:VAR|SmiteTimes|1	BONUS:VAR|FlameStrikeTimes|3	BONUS:VAR|FlameStrikeLVL|TL
+SUBCLASSLEVEL:10	ABILITY:Special Ability|AUTOMATIC|Angelic Aspect F
+
+###Block: Demonic Aspect
+SUBCLASS:Demonic Aspect		COST:0
+SUBCLASSLEVEL:1	ABILITY:Special Ability|AUTOMATIC|Demonic Aspect A
+SUBCLASSLEVEL:3	ABILITY:Special Ability|AUTOMATIC|Demonic Aspect B
+SUBCLASSLEVEL:5	ABILITY:Special Ability|AUTOMATIC|Demonic Aspect C
+SUBCLASSLEVEL:7	ABILITY:Special Ability|AUTOMATIC|Demonic Aspect D
+SUBCLASSLEVEL:9	ABILITY:Special Ability|AUTOMATIC|Demonic Aspect E
+SUBCLASSLEVEL:10	ABILITY:Special Ability|AUTOMATIC|Demonic Aspect F
+
+###Block: Draconic Aspect
+SUBCLASS:Draconic Aspect	COST:0
+SUBCLASSLEVEL:1	ADD:ABILITY|1|Class Ability|NORMAL|ClF Black Dragon,ClF Blue Dragon,ClF Green Dragon,ClF Red Dragon,ClF White Dragon,ClF Brass Dragon,ClF Bronze Dragon,ClF Copper Dragon,ClF Gold Dragon,ClF Silver Dragon
+SUBCLASSLEVEL:3		VISION:Darkvision (120')		ABILITY:Special Ability|AUTOMATIC|Scent	BONUS:VAR|ScentRange|120
+SUBCLASSLEVEL:5	BONUS:COMBAT|DAMAGE.Unarmed|2		ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|PREABILITY:1,CATEGORY=Special Ability,ClF Black Dragon,ClF Green Dragon,ClF Copper Dragon		ABILITY:Special Ability|AUTOMATIC|Resistance To Cold|PREABILITY:1,CATEGORY=Special Ability,ClF White Dragon,ClF Silver Dragon		ABILITY:Special Ability|AUTOMATIC|Resistance To Fire|PREABILITY:1,CATEGORY=Special Ability,ClF Red Dragon,ClF Brass Dragon,ClF Gold Dragon		ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity|PREABILITY:1,CATEGORY=Special Ability,ClF Blue Dragon,ClF Bronze Dragon		DEFINE:ClFDraconicResistance|0	BONUS:VAR|ClFDraconicResistance|10	BONUS:VAR|AcidResistanceBonus|ClFDraconicResistance|PREABILITY:1,CATEGORY=Special Ability,ClF Black Dragon,ClF Green Dragon,ClF Copper Dragon	BONUS:VAR|ColdResistanceBonus|ClFDraconicResistance|PREABILITY:1,CATEGORY=Special Ability,ClF White Dragon,ClF Silver Dragon	BONUS:VAR|FireResistanceBonus|ClFDraconicResistance|PREABILITY:1,CATEGORY=Special Ability,ClF Red Dragon,ClF Brass Dragon,ClF Gold Dragon	BONUS:VAR|ElectricityResistanceBonus|ClFDraconicResistance|PREABILITY:1,CATEGORY=Special Ability,ClF Blue Dragon,ClF Bronze Dragon
+SUBCLASSLEVEL:7	DEFINE:ClfBreathTimes|0		DEFINE:ClFBreathDamage|0	DEFINE:ClFBreathDice|0	BONUS:VAR|ClfBreathDice|4	BONUS:VAR|ClfBreathTimes|1	BONUS:VAR|ClFBreathDamage|CL	ABILITY:Special Ability|AUTOMATIC|ClF Breath Weapon ~ Acid|PREABILITY:1,CATEGORY=Special Ability,ClF Black Dragon,ClF Green Dragon,ClF Copper Dragon		ABILITY:Special Ability|AUTOMATIC|ClF Breath Weapon ~ Cold|PREABILITY:1,CATEGORY=Special Ability,ClF White Dragon,ClF Silver Dragon		ABILITY:Special Ability|AUTOMATIC|ClF Breath Weapon ~ Fire|PREABILITY:1,CATEGORY=Special Ability,ClF Red Dragon,ClF Brass Dragon,ClF Gold Dragon		ABILITY:Special Ability|AUTOMATIC|ClF Breath Weapon ~ Electricity|PREABILITY:1,CATEGORY=Special Ability,ClF Blue Dragon,ClF Bronze Dragon
+SUBCLASSLEVEL:9	BONUS:VAR|ClfBreathTimes|1	ABILITY:Special Ability|AUTOMATIC|Wings|Flight Maneuverability		BONUS:VAR|Maneuverability|3	MOVECLONE:Walk,Fly,*1
+SUBCLASSLEVEL:10	TEMPLATE:ClF Dragon		ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|PREABILITY:1,CATEGORY=Special Ability,ClF Black Dragon,ClF Green Dragon,ClF Copper Dragon		ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|PREABILITY:1,CATEGORY=Special Ability,ClF White Dragon,ClF Silver Dragon		ABILITY:Special Ability|AUTOMATIC|Immunity To Fire|PREABILITY:1,CATEGORY=Special Ability,ClF Red Dragon,ClF Brass Dragon,ClF Gold Dragon		ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|PREABILITY:1,CATEGORY=Special Ability,ClF Blue Dragon,ClF Bronze Dragon
+
+###Block: Godlike Aspect
+SUBCLASS:Godlike Aspect		COST:0
+SUBCLASSLEVEL:1	ABILITY:Special Ability|AUTOMATIC|Godlike Aspect A
+SUBCLASSLEVEL:3	ABILITY:Special Ability|AUTOMATIC|Godlike Aspect B
+SUBCLASSLEVEL:5	ABILITY:Special Ability|AUTOMATIC|Godlike Aspect C
+SUBCLASSLEVEL:7	ABILITY:Special Ability|AUTOMATIC|Godlike Aspect D
+SUBCLASSLEVEL:9	ABILITY:Special Ability|AUTOMATIC|Godlike Aspect E
+SUBCLASSLEVEL:10	ABILITY:Special Ability|AUTOMATIC|Godlike Aspect F
+
+1	BONUS:VAR|MonkMoveLVL|CL=Monk of the Cloaked Fist	BONUS:VAR|MonkACLvl|CL=Monk of the Cloaked Fist		BONUS:VAR|MonkLVL|CL=Monk of the Cloaked Fist	BONUS:UDAM|CLASS.Arcane Monk|CL=Monk of the Cloaked Fist
+2	ADD:SPELLCASTER|1|Arcane
+4	ADD:SPELLCASTER|1|Arcane
+6	ADD:SPELLCASTER|1|Arcane
+8	ADD:SPELLCASTER|1|Arcane
+

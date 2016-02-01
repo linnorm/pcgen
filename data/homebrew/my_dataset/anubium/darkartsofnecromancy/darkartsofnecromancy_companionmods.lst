@@ -1,0 +1,32 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Anubium - Dark Arts of Necromancy	SOURCESHORT:DAoN	SOURCEWEB:http://www.anubium.com
+
+
+###Block:Familiar
+# Class of the Master	Type				Spell Res.	Copy Masters BAB		Copy Masters Checks	HP formula based on Master	Use Masters skills?	Special ABility																									Define													Combat bonus						Modify VAR
+FOLLOWER:FMLevel=1	TYPE:SkullFamiliar			COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:NO		SAB:Share Spells	SAB:Improved Evasion (Ex)	SAB:Turn Resistance +%|SkullFamiliarTurnResistance	SAB:Skill Focus with % when familiar is in arms reach|LIST	DEFINE:LOCK.INT|0	DEFINE:EvasionUsable|0	DEFINE:SkullFamiliarTurnResistance|0	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarTurnResistance|2
+FOLLOWER:FMLevel=3	TYPE:SkullFamiliar																				SAB:Deliver touch spells																																					BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarTurnResistance|1
+FOLLOWER:FMLevel=5	TYPE:SkullFamiliar																				SAB:Frightful Moan																																						BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarTurnResistance|1
+FOLLOWER:FMLevel=7	TYPE:SkullFamiliar																				SAB:Proxy																																								BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:FMLevel=9	TYPE:SkullFamiliar																				SAB:Fast Healing %|SkullFamiliarFastHeal																					DEFINE:SkullFamiliarFastHeal|0									BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarFastHeal|2	BONUS:VAR|SkullFamiliarTurnResistance|1
+FOLLOWER:FMLevel=11	TYPE:SkullFamiliar	SR:16																																																												BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarTurnResistance|1
+FOLLOWER:FMLevel=12	TYPE:SkullFamiliar	SR:17
+FOLLOWER:FMLevel=13	TYPE:SkullFamiliar	SR:18																			SAB:Scry on familiar																																						BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarTurnResistance|1
+FOLLOWER:FMLevel=14	TYPE:SkullFamiliar	SR:19
+FOLLOWER:FMLevel=15	TYPE:SkullFamiliar	SR:20																																																												BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarFastHeal|2
+FOLLOWER:FMLevel=16	TYPE:SkullFamiliar	SR:21
+FOLLOWER:FMLevel=17	TYPE:SkullFamiliar	SR:22																																																												BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarTurnResistance|1
+FOLLOWER:FMLevel=18	TYPE:SkullFamiliar	SR:23
+FOLLOWER:FMLevel=19	TYPE:SkullFamiliar	SR:24																																																												BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|SkullFamiliarTurnResistance|1
+FOLLOWER:FMLevel=20	TYPE:SkullFamiliar	SR:25
+
+
+###Block:Familiar Bonuses to Master
+# Race of familiar				Type				Save checks bonus		Combat bonus						Bonus to skill			Virtual Feat	Special ABility
+MASTERBONUSRACE:Dwarf Skull Familiar	TYPE:SkullFamiliar																		VFEAT:Alertness	SAB:+3 to Search checks underground
+MASTERBONUSRACE:Elf Skull Familiar		TYPE:SkullFamiliar	BONUS:CHECKS|Will|2														VFEAT:Alertness
+MASTERBONUSRACE:Gnome Skull Familiar	TYPE:SkullFamiliar													BONUS:SKILL|TYPE.Craft|3	VFEAT:Alertness	SAB:Speak to burrowing animals (Su)
+MASTERBONUSRACE:Half Elf Skull Familiar	TYPE:SkullFamiliar													BONUS:SKILL|Diplomacy|3		VFEAT:Alertness
+MASTERBONUSRACE:Half Orc Skull Familiar	TYPE:SkullFamiliar					BONUS:COMBAT|TOHIT|1	BONUS:COMBAT|DAMAGE|1						VFEAT:Alertness
+MASTERBONUSRACE:Halfling Skull Familiar	TYPE:SkullFamiliar	BONUS:CHECKS|ALL|1														VFEAT:Alertness
+MASTERBONUSRACE:Human Skull Familiar	TYPE:SkullFamiliar													BONUS:SKILL|LIST|2		VFEAT:Alertness

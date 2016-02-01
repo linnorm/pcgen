@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #278	SOURCESHORT:WotC-Dragon #278	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Spell Name	School			Components	Casting Time	Range			Target Area or Effect	Duration				Save Info		Spell Resistance	Description	Source Page
+Improved Blink	SCHOOL:Transmutation	COMPS:V S	CASTTIME:1 action	RANGE:Personal	TARGETAREA:You		DURATION:1 round/level (D)	SAVEINFO:None	SPELLRES:No		DESC:None	SOURCEPAGE:p.95
+

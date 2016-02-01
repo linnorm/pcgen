@@ -1,0 +1,22 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wildwood	SOURCESHORT:Wildwood	SOURCEWEB:http://www.bastionpress.com
+
+
+#CLASS:Barbarian	HD:12		TYPE:Base.PC	ABB:Brb		EXCLASS:Ex Barbarian	SOURCEPAGE:ClassesI.rtf	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required AL
+#CLASS:Barbarian	PREALIGN:NG,TN,NE,CG,CN,CE
+# Class Name	Skill Pts/Lvl	Class Skill
+#CLASS:Barbarian	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Listen|Ride|Survival|Swim
+
+
+##Block: Racial Levels
+
+# Class Name	Hit Dice	Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Asherake	HD:10		ABB:AshRL		MAXLEVEL:3	SOURCEPAGE:pg. 9	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required Race
+CLASS:Asherake	PRERACE:1,Asherake%
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Asherake	STARTSKILLPTS:2	CSKILL:Hide|Intimidate|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Listen|Move Silently|Spot|Survival
+1	SAB:Dive bomber DC:% (Ex)|DiveBomberDC	BONUS:VAR|DiveBomberDC|10+(TL/2)+(max(CHA,(CHA*-1)))	DEFINE:DiveBomberDC|0
+2	SAB:Blood feast (Ex)
+3	SAB:Go for the kill (Ex)

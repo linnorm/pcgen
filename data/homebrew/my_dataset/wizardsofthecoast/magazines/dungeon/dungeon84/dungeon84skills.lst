@@ -1,0 +1,5 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #84	SOURCESHORT:WotC-Dungeon #84	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+# Skill Name		Key Stat	Untrained?		Type			Source Page
+Handle Monstrous Spider	KEYSTAT:CHA	USEUNTRAINED:NO	TYPE:Charisma	SOURCEPAGE:p.29

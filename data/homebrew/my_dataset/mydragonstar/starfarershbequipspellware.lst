@@ -1,0 +1,72 @@
+# CVS $Revision: 1.2 $ $Author: tir-gwaith $ -- Mon Feb 26 20:25:10 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Fantasy Flight Games - Dragonstar - Starfarer's Handbook	SOURCESHORT:StarfarerH	SOURCEWEB:http://www.fantasyflightgames.com/dragonstar.html
+
+# Equipment Name						Type			Cost		Weight	Source Page		Vision			Spell Res.	Combat bonus			Add to magical move			Bonus to skill				Stat bonus					Special Property
+Antitoxin							TYPE:Spellware	COST:56000	WT:0		SOURCEPAGE:p.																														SPROP:2240 XP, DC 18
+Aquaform							TYPE:Spellware	COST:37500	WT:0		SOURCEPAGE:p.																														SPROP:1500 XP, DC 18
+Augmented Spellcasting (Acid)				TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Chaotic)			TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Cold)				TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Darkness)			TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Death)			TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Electricity)		TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Evil)				TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Fear)				TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Fire)				TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Force)			TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Good)				TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Languagedependent)	TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Lawful)			TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Light)			TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Mind-affecting)		TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Sonic)			TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Augmented Spellcasting (Teleportation)		TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 20
+Aura Mask							TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.																														SPROP:480 XP, DC 18
+Biosculpting						TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																		BONUS:SKILL|STAT=CHA|2									SPROP:80 XP, DC 15
+Boosted Reflexes						TYPE:Spellware	COST:5000	WT:0		SOURCEPAGE:p.							BONUS:COMBAT|INITIATIVE|2	BONUS:POSTMOVEADD|TYPE=Walk|10													SPROP:200 XP, DC 20
+Danger Sense						TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																														SPROP:80 XP, DC 18
+Darkvision (60')						TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.	VISION:Darkvision (60')																										SPROP:480 XP, DC 15
+Dermal Armor (5/+1)					TYPE:Spellware	COST:30000	WT:0		SOURCEPAGE:p.																														SPROP:1200 XP, DC 18
+Dermal Armor (5/+2)					TYPE:Spellware	COST:40000	WT:0		SOURCEPAGE:p.																														SPROP:1600 XP, DC 18
+Dermal Armor (5/+3, 10/+1)				TYPE:Spellware	COST:50000	WT:0		SOURCEPAGE:p.																														SPROP:2000 XP, DC 18
+Dermal Armor (5/+4, 10/+2)				TYPE:Spellware	COST:60000	WT:0		SOURCEPAGE:p.																														SPROP:2400 XP, DC 18
+Dermal Armor (5/+5, 10/+3)				TYPE:Spellware	COST:70000	WT:0		SOURCEPAGE:p.																														SPROP:2800 XP, DC 18
+Dermal Armor (10/+4)					TYPE:Spellware	COST:80000	WT:0		SOURCEPAGE:p.																														SPROP:3200 XP, DC 18
+Dermal Armor (10/+5)					TYPE:Spellware	COST:90000	WT:0		SOURCEPAGE:p.																														SPROP:3600 XP, DC 18
+Doppelganger						TYPE:Spellware	COST:10000	WT:0		SOURCEPAGE:p.																														SPROP:400 XP, DC 18
+Elemental Resistance (Basic Fire)			TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																														SPROP:80 XP, DC 18
+Elemental Resistance (Basic Acid)			TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																														SPROP:80 XP, DC 18
+Elemental Resistance (Basic Cold)			TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																														SPROP:80 XP, DC 18
+Elemental Resistance (Basic Electricity)		TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																														SPROP:80 XP, DC 18
+Elemental Resistance (Basic Sonic)			TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																														SPROP:80 XP, DC 18
+Elemental Resistance (Basic Radiation)		TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																														SPROP:80 XP, DC 18
+Elemental Resistance (Advanced Fire)		TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.																														SPROP:480 XP, DC 20
+Elemental Resistance (Advanced Acid)		TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.																														SPROP:480 XP, DC 20
+Elemental Resistance (Advanced Cold)		TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.																														SPROP:480 XP, DC 20
+Elemental Resistance (Advanced Electricity)	TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.																														SPROP:480 XP, DC 20
+Elemental Resistance (Advanced Sonic)		TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.																														SPROP:480 XP, DC 20
+Elemental Resistance (Advanced Radiation)	TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.																														SPROP:480 XP, DC 20
+Empath							TYPE:Spellware	COST:45000	WT:0		SOURCEPAGE:p.																														SPROP:1800 XP, DC 20
+Enhanced Ability (STR +2)				TYPE:Spellware	COST:4000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|STR|2|TYPE=Enhancement	SPROP:160 XP, DC 15
+Enhanced Ability (DEX +2)				TYPE:Spellware	COST:4000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|DEX|2|TYPE=Enhancement	SPROP:160 XP, DC 15
+Enhanced Ability (CON +2)				TYPE:Spellware	COST:4000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|CON|2|TYPE=Enhancement	SPROP:160 XP, DC 15
+Enhanced Ability (STR +4)				TYPE:Spellware	COST:16000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|STR|4|TYPE=Enhancement	SPROP:640 XP, DC 18
+Enhanced Ability (DEX +4)				TYPE:Spellware	COST:16000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|DEX|4|TYPE=Enhancement	SPROP:640 XP, DC 18
+Enhanced Ability (CON +4)				TYPE:Spellware	COST:16000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|CON|4|TYPE=Enhancement	SPROP:640 XP, DC 18
+Enhanced Ability (STR +6)				TYPE:Spellware	COST:36000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|STR|6|TYPE=Enhancement	SPROP:1440 XP, DC 20
+Enhanced Ability (DEX +6)				TYPE:Spellware	COST:36000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|DEX|6|TYPE=Enhancement	SPROP:1440 XP, DC 20
+Enhanced Ability (CON +6)				TYPE:Spellware	COST:36000	WT:0		SOURCEPAGE:p.																								BONUS:STAT|CON|6|TYPE=Enhancement	SPROP:1440 XP, DC 20
+Fast Healing (1 pt/round)				TYPE:Spellware	COST:20000	WT:0		SOURCEPAGE:p.																														SPROP:800 XP, DC 18
+Fast Healing (2 pts/round)				TYPE:Spellware	COST:50000	WT:0		SOURCEPAGE:p.																														SPROP:2000 XP, DC 18
+Flight							TYPE:Spellware	COST:30000	WT:0		SOURCEPAGE:p.																														SPROP:1200 XP, DC 18
+Light Tolerance						TYPE:Spellware	COST:12000	WT:0		SOURCEPAGE:p.																														SPROP:480 XP, DC 18
+Low-Light Vision						TYPE:Spellware	COST:6000	WT:0		SOURCEPAGE:p.	VISION:Low-light																											SPROP:240 XP, DC 15
+Magic Sense							TYPE:Spellware	COST:2000	WT:0		SOURCEPAGE:p.																														SPROP:80 XP, DC 18
+Phase Inducer						TYPE:Spellware	COST:15000	WT:0		SOURCEPAGE:p.																														SPROP:600 XP, DC 20
+Spell Resistance						TYPE:Spellware	COST:67000	WT:0		SOURCEPAGE:p.					SR:15																									SPROP:2680 XP, DC 20
+Stealth (+4)						TYPE:Spellware	COST:640	WT:0		SOURCEPAGE:p.																		BONUS:SKILL|Hide,Move Silently|4							SPROP:25 XP, DC 10
+Stealth (+10)						TYPE:Spellware	COST:4000	WT:0		SOURCEPAGE:p.																		BONUS:SKILL|Hide,Move Silently|10							SPROP:160 XP, DC 10
+Telepath							TYPE:Spellware	COST:61000	WT:0		SOURCEPAGE:p.																														SPROP:2440 XP, DC 20
+Translator							TYPE:Spellware	COST:30000	WT:0		SOURCEPAGE:p.																														SPROP:1200 XP, DC 20
+Trauma Symbiote						TYPE:Spellware	COST:6000	WT:0		SOURCEPAGE:p.																														SPROP:240 XP, DC 10
+

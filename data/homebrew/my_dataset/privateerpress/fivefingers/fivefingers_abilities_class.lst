@@ -1,0 +1,45 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Five Fingers	SOURCESHORT:FF	SOURCEWEB:http://www.ironkingdoms.com
+#Original Entry by: Rax the Grey
+
+##Block: Common Agent Abilities
+# Ability Name			Unique Key			Category of Ability		Type				Visible	Required Class		Special ABility																																													Define							Stackable?	Multiple?	Choose			Selections	Automatically Gained Feat				Ability							Add 					Modify VAR
+Bluff Weapon Proficiency					CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Bluff Weapon Proficiency
+Fabricate Identity						CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Fabricate Identity (Ex)
+Cover Identity							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Cover Identity, has 5 ranks in inconspicuous profession (Ex)|!PRECLASS:1,Agent=6	SAB:Two Cover Identities, has 5 ranks in two inconspicuous professions|!PRECLASS:1,Agent=11	SAB:Three Cover Identities, has 5 ranks in three inconspicuous professions|PRECLASS:1,Agent=10
+Charming								CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Charming (Ex)
+Field Education							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Field Education (Ex)																																																																													ADD:FEAT|Field Education
+Conditioned Mind							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Conditioned Mind +%(Ex)|ConditionedMind																																								DEFINE:ConditionedMind|0																																			BONUS:VAR|ConditionedMind|(classlevel("Agent")/2)-1
+Surprising Move							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Surprising Move (Ex)
+Against the Odds							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Against the Odds (Ex)
+Detect Ruse								CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Detect Ruse (Ex)
+Master of Persuasion						CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:NO					SAB:Master of Persuasion +%, % hours (Ex)|MoPBonus|MoPDuration																																					DEFINE:MoPBonus|0	DEFINE:MoPDuration|0																																	BONUS:VAR|MoPBonus|11+INT+CHA	BONUS:VAR|MoPDuration|INT+CHA
+
+
+##Block: Agent Spy Abilities
+# Ability Name			Unique Key			Category of Ability		Type				Visible	Required Class		Special ABility																																													Define							Stackable?	Multiple?	Choose			Selections	Automatically Gained Feat				Ability							Add 					Modify VAR
+Aura of Charm							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:Aura of Charm (Ex)
+Disguise Others							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:Disguise Others (Ex)
+Escape								CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:Escape (Ex)
+Ear of Truth							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:Ear of Truth (Ex)
+Eagle Eyed								CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:Eagle Eyed (Ex)
+Field Mastery							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES																																																												STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|ALL	SELECT:2
+Improvised Threat							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:Improvised Threat (Ex)
+Presence								CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:Presence +% %/Day (Ex)|PresenceBonus|PresenceUse																																							DEFINE:PresenceBonus|0	DEFINE:PresenceUse|0																																BONUS:VAR|PresenceBonus|classlevel("Agent")/2	BONUS:VAR|PresenceUse|CHA
+Poison Use								CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:Poison Use
+Slippery Mind			KEY:FF_SLIPPERYMIND	CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES	PRECLASS:1,Agent=5																																																																										ABILITY:Special Ability|AUTOMATIC|Slippery Mind
+Sneak Attack							CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES					SAB:+%d6 Sneak Attack damage|count("ABILITIES","CATEGORY=Agent Ability","NAME=Sneak Attack")|PREVARNEQ:SneakAttackDie,6																																				STACK:YES	MULT:YES																												BONUS:VAR|SneakAttack|1|PREVAREQ:SneakAttackDie,6
+Versatile								CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES																																																														MULT:YES
+Expert Impersonation						CATEGORY:Special Ability	TYPE:AgentAbility		VISIBLE:YES	PRECLASS:1,Agent=3	SAB:Expert Impersonation (Ex)
+
+##Block: Enforcer Abilities
+Crippling Gouge							CATEGORY:Special Ability	TYPE:EnforcerAbility	VISIBLE:YES					SAB:Crippling Gouge (Ex)
+Punishing Blow							CATEGORY:Special Ability	TYPE:EnforcerAbility	VISIBLE:YES					SAB:Punishing Blow (Ex)
+Word of Mouth							CATEGORY:Special Ability	TYPE:EnforcerAbility	VISIBLE:YES					SAB:Word of Mouth (Ex)
+Street Fighting							CATEGORY:Special Ability	TYPE:EnforcerAbility	VISIBLE:YES					SAB:Street Fighting (Ex)
+Gut Shot								CATEGORY:Special Ability	TYPE:EnforcerAbility	VISIBLE:YES					SAB:Gut Shot (Ex)
+Street Tribute							CATEGORY:Special Ability	TYPE:EnforcerAbility	VISIBLE:YES																																																																						AUTO:FEAT|Leadership|!PREFEAT:1,Leadership														BONUS:VAR|LeadershipScore|1|PREFEAT:1,Leadership
+Succession								CATEGORY:Special Ability	TYPE:EnforcerAbility	VISIBLE:YES					SAB:Succession (Ex)
+
+
+##Block: Malefactor of Thamar Abilities

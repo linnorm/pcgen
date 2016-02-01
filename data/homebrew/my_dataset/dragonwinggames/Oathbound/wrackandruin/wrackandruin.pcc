@@ -1,0 +1,28 @@
+# CVS $Revision: 496 $ $Author: tir-gwaith $ -- Mon Nov 18 04:21:56 2002 -- reformated by C:\Perl\PCgen\prettylst.pl v1.19 (build 213)
+# Input by raxthegrey, email: raxthegrey@gmail.com
+CAMPAIGN:BP - Oathbound - Wrack and Ruin 3.5 - Source Book
+RANK:2
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Campaign Setting
+SETTING:Oathbound
+TYPE:Bastion Press.Oathbound
+PUBNAMELONG:Bastion Press
+PUBNAMESHORT:Bastion
+PUBNAMEWEB:http://www.bastionpress.com
+SOURCELONG:Oathbound - Wrack and Ruin
+SOURCESHORT:WrackandRuin
+SOURCEWEB:http://www.bastionpress.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Oathbound: Domains of the Forge Copyright 2002, Bastion Press, Inc.
+COPYRIGHT:System Reference Document Copyright 1999, 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Oathbound: Wrack & Ruin Copyright 2003, Bastion Press, Inc.
+COPYRIGHT:PCGen dataset conversion for the Oathbound: Wrack and Ruin Copyright 2006, Ivan A. Finzen IV (raxthegrey)
+
+
+SKILL:wrackandruin_skills.lst
+RACE:wrackandruin_races.lst
+BIOSET:wrackandruin_biosettings.lst
+LANGUAGE:wrackandruin_languages.lst
+FEAT:wrackandruin_feats.lst

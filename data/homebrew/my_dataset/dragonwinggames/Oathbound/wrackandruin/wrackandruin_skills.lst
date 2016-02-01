@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Oathbound - Wrack and Ruin	SOURCESHORT:WrackandRuin	SOURCEWEB:http://www.bastionpress.com
+# Input by raxthegrey, email: raxthegrey@gmail.com
+
+# Skill Name		Key Stat	Untrained?		Type				Source Page
+Profession (Proctor)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:pg. 10

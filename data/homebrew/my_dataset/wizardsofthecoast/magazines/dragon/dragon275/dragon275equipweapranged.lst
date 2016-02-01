@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #275	SOURCESHORT:WotC-Dragon #275	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name		Required Proficiency	Type									Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Source Page
+Blowgun							TYPE:Weapon.Exotic.Ranged.Piercing				COST:20	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d3	RANGE:10	SIZE:L	SOURCEPAGE:p.43
+Blowgun (Halfling)					TYPE:Weapon.Exotic.Ranged.Piercing				COST:15	WT:1		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d2	RANGE:10	SIZE:M	SOURCEPAGE:p.43
+Bolas								TYPE:Weapon.Exotic.Ranged.Bludgeoning.Thrown		COST:10	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	RANGE:10	SIZE:S	SOURCEPAGE:p.43
+Bolas (Barbed)						TYPE:Weapon.Exotic.Ranged.Piercing.Thrown			COST:20	WT:4		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	RANGE:10	SIZE:S	SOURCEPAGE:p.43
+Boomerang							TYPE:Weapon.Exotic.Ranged.Bludgeoning.Thrown		COST:20	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	RANGE:20	SIZE:S	SOURCEPAGE:p.43
+Chatkcha							TYPE:Weapon.Exotic.Ranged.Slashing.Thrown.Metal		COST:40	WT:0.5	CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	RANGE:20	SIZE:S	SOURCEPAGE:p.43
+Sai (Thrown)		PROFICIENCY:WEAPON|Sai	TYPE:Weapon.Exotic.Ranged.Bludgeoning.Thrown.Metal	COST:10	WT:0.5	CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	RANGE:10	SIZE:T	SOURCEPAGE:p.43
+Skiprock (Halfling)					TYPE:Weapon.Exotic.Ranged.Bludgeoning.Thrown		COST:4	WT:0.25	CRITMULT:x2			CRITRANGE:1			DAMAGE:1d3	RANGE:10	SIZE:T	SOURCEPAGE:p.43

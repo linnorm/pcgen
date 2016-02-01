@@ -1,0 +1,20 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+CAMPAIGN:SSS - The Divine and The Defeated 3.5
+GAMEMODE:35e
+TYPE:Sword and Sorcery Studios.Scarred Lands
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+RANK:9
+SOURCELONG:The Divine and the Defeated
+SOURCEWEB:http://www.swordsorcery.com
+SOURCESHORT:DivineandDefeated
+
+DEITY:divineanddefeated_deities.lst
+DOMAIN:divineanddefeated_domains.lst
+EQUIPMENT:divineanddefeated_equip_weap_melee.lst
+EQUIPMENT:divineanddefeated_equip_wondrousitems.lst
+EQUIPMOD:divineanddefeated_eqmodifiers.lst
+SPELL:divineanddefeated_spells.lst
+TEMPLATE:divineanddefeated_templates.lst
+WEAPONPROF:divineanddefeated_weapprofs.lst

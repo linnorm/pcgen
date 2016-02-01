@@ -1,0 +1,73 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+# Template Name	Visible		Template																Source Page			Special ABility					Define					Required Race	Modify VAR		Class Skill								Favored Class			Bonus Languages																			Region	Subregion
+Rokugan Clans	VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Crab|Crane|Dragon|Imperial|Lion|Mantis|Phoenix|Ronin|Scorpion|Unicorn|Minor Clans	SOURCEPAGE:p.5		SAB:Void Points %|Void	SAB:Honor %|Honor	DEFINE:Void|0	DEFINE:Honor|0	PRERACE:1,Human																		LANGBONUS:High Rokugani
+
+#template		visible	region	choose	langbonus	source
+Crab			VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Hida|Hiruma|Kaiu|Kuni|Toritaka|Yasuki (Crab)							SOURCEPAGE:p.5-7																																			LANGBONUS:Bakemono,Nezumi,Ogre,Oni																REGION:YES
+Crane			VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Asahina|Daidoji|Doji|Kakita (Samurai)|Kakita (Courtier)|Yasuki (Crane)			SOURCEPAGE:p.7-9																																																								REGION:YES
+Dragon		VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Hitomi|Kitsuki|Mirumoto|Tamori|Togashi								SOURCEPAGE:p.9-11																																			LANGBONUS:Yobanjin																		REGION:YES
+Imperial		VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Seppun|Otomo|Miya												SOURCEPAGE:p.21																																			LANGBONUS:Ashalan,Assassin,Bakemono,Chikushudo,Ivory Kingdoms,Kami,Mekhem,Moto,Mujina,Naga,Nezumi,Ogre,Oni,Senpet,Yobanjin	REGION:YES
+Lion			VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Akodo|Ikoma|Kitsu|Matsu											SOURCEPAGE:p.11-13																																																							REGION:YES
+Mantis		VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Moshi|Tsuruchi|Yoritomo											SOURCEPAGE:p.13-14																																		LANGBONUS:Ivory Kingdoms,Nezumi,Yobanjin															REGION:YES
+Phoenix		VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Agasha|Asako|Isawa|Shiba											SOURCEPAGE:p.14-16																																		LANGBONUS:Kami,Yobanjin																		REGION:YES
+Ronin			VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Hoshi|Kaeru|Yotsu|True Ronin										SOURCEPAGE:p.24																																																								REGION:YES
+Scorpion		VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Bayushi|Shosuro|Soshi|Yogo										SOURCEPAGE:p.16-18																																		LANGBONUS:Ashalan,Mekhem,Nezumi,Senpet															REGION:YES
+Unicorn		VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Horiuchi|Ide|Iuchi|Moto|Shinjo|Utaku									SOURCEPAGE:p.18-20																																		LANGBONUS:Mekhem,Moto,Naga,Senpet																REGION:YES
+Minor Clans		VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Badger|Dragonfly|Fox|Hare|Monkey|Ox|Sparrow|Tortoise						SOURCEPAGE:p.21																																																								REGION:YES
+
+#template		VISIBLE:Display	SUBREGION:Yes	FAVOREDCLASS:	BONUS:VAR|Honor|	CSKILL:		SOURCEPAGE:p.
+Agasha		VISIBLE:DISPLAY																		SOURCEPAGE:p.15																		BONUS:VAR|Honor|3	CSKILL:Craft (Alchemy)						FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Akodo			VISIBLE:DISPLAY																		SOURCEPAGE:p.12																		BONUS:VAR|Honor|3	CSKILL:Battle							FAVOREDCLASS:Samurai																									SUBREGION:YES
+Asako			VISIBLE:DISPLAY																		SOURCEPAGE:p.15																		BONUS:VAR|Honor|3	CSKILL:Concentration						FAVOREDCLASS:Inkyo																									SUBREGION:YES
+Asahina		VISIBLE:DISPLAY																		SOURCEPAGE:p.8																		BONUS:VAR|Honor|3	CSKILL:Knowledge (Shintao)					FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Bayushi		VISIBLE:DISPLAY																		SOURCEPAGE:p.17																		BONUS:VAR|Honor|1	CSKILL:Diplomacy							FAVOREDCLASS:Rogue																									SUBREGION:YES
+Daidoji		VISIBLE:DISPLAY																		SOURCEPAGE:p.8																		BONUS:VAR|Honor|2	CSKILL:Hide								FAVOREDCLASS:Fighter																									SUBREGION:YES
+Doji			VISIBLE:DISPLAY																		SOURCEPAGE:p.9																		BONUS:VAR|Honor|3	CSKILL:Knowledge (Etiquette)					FAVOREDCLASS:Courtier																									SUBREGION:YES
+Hida			VISIBLE:DISPLAY																		SOURCEPAGE:p.6																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Shadowlands)				FAVOREDCLASS:Samurai																									SUBREGION:YES
+Hiruma		VISIBLE:DISPLAY																		SOURCEPAGE:p.6																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Shadowlands)				FAVOREDCLASS:Ranger																									SUBREGION:YES
+Hitomi		VISIBLE:DISPLAY																		SOURCEPAGE:p.10																		BONUS:VAR|Honor|1	CSKILL:Knowledge (Arcana)					FAVOREDCLASS:Monk																										SUBREGION:YES
+Horiuchi		VISIBLE:DISPLAY																		SOURCEPAGE:p.19																		BONUS:VAR|Honor|2	CSKILL:Spellcraft							FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Hoshi			VISIBLE:DISPLAY																		SOURCEPAGE:p.24																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Shintao)					FAVOREDCLASS:Inkyo		LANGBONUS:Yobanjin																				SUBREGION:YES
+Badger		VISIBLE:DISPLAY																		SOURCEPAGE:p.21-22																	BONUS:VAR|Honor|1	CSKILL:Survival							FAVOREDCLASS:Fighter		LANGBONUS:Yobanjin																				SUBREGION:YES
+Ide			VISIBLE:DISPLAY																		SOURCEPAGE:p.19																		BONUS:VAR|Honor|2	CSKILL:Diplomacy							FAVOREDCLASS:Courtier																									SUBREGION:YES
+Ikoma			VISIBLE:DISPLAY																		SOURCEPAGE:p.12																		BONUS:VAR|Honor|3	CSKILL:Knowledge (History)					FAVOREDCLASS:Courtier																									SUBREGION:YES
+Isawa			VISIBLE:DISPLAY																		SOURCEPAGE:p.16																		BONUS:VAR|Honor|2	CSKILL:Spellcraft							FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Iuchi			VISIBLE:DISPLAY																		SOURCEPAGE:p.19																		BONUS:VAR|Honor|2	CSKILL:Spellcraft							FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Kaiu			VISIBLE:DISPLAY																		SOURCEPAGE:p.6-7																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Architecture and Engineering)		FAVOREDCLASS:Samurai																									SUBREGION:YES
+Kaeru			VISIBLE:DISPLAY																		SOURCEPAGE:p.24																		BONUS:VAR|Honor|1	CSKILL:Bluff							FAVOREDCLASS:Rogue																									SUBREGION:YES
+Kakita (Courtier)	VISIBLE:DISPLAY																		SOURCEPAGE:p.9																		BONUS:VAR|Honor|3	CSKILL:TYPE=Perform						FAVOREDCLASS:Courtier																									SUBREGION:YES
+Kakita (Samurai)	VISIBLE:DISPLAY																		SOURCEPAGE:p.9																		BONUS:VAR|Honor|3	CSKILL:Iaijutsu Focus						FAVOREDCLASS:Samurai																									SUBREGION:YES
+Tortoise		VISIBLE:DISPLAY																		SOURCEPAGE:p.23																		BONUS:VAR|Honor|1	CSKILL:Profession (Sailor)					FAVOREDCLASS:Rogue		LANGBONUS:Ashalan,Assassin,Bakemono,Chikushudo,Ivory Kingdoms,Kami,Mekhem,Moto,Mujina,Naga,Nezumi,Ogre,Oni,Senpet,Yobanjin			SUBREGION:YES
+Kitsu			VISIBLE:DISPLAY																		SOURCEPAGE:p.12																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Ancestors)					FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Kitsuki		VISIBLE:DISPLAY																		SOURCEPAGE:p.10																		BONUS:VAR|Honor|3	CSKILL:Search|Sense Motive					FAVOREDCLASS:Samurai																									SUBREGION:YES
+Fox			VISIBLE:DISPLAY																		SOURCEPAGE:p.22																		BONUS:VAR|Honor|2	CSKILL:Spellcraft							FAVOREDCLASS:Ranger		LANGBONUS:Chikushudo																				SUBREGION:YES
+Kuni			VISIBLE:DISPLAY																		SOURCEPAGE:p.7																		BONUS:VAR|Honor|1	CSKILL:Knowledge (Shadowlands)				FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Matsu			VISIBLE:DISPLAY																		SOURCEPAGE:p.12-13																	BONUS:VAR|Honor|2	CSKILL:Battle							FAVOREDCLASS:Barbarian																									SUBREGION:YES
+Mirumoto		VISIBLE:DISPLAY																		SOURCEPAGE:p.10																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Arcana)					FAVOREDCLASS:Samurai																									SUBREGION:YES
+Miya			VISIBLE:DISPLAY																		SOURCEPAGE:p.21																		BONUS:VAR|Honor|2	CSKILL:Diplomacy|Knowledge (Nobility and Royalty)	FAVOREDCLASS:Courtier																									SUBREGION:YES
+Monkey		VISIBLE:DISPLAY																		SOURCEPAGE:p.22																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Bushido)					FAVOREDCLASS:Samurai|Shugenja																								SUBREGION:YES
+Moshi			VISIBLE:DISPLAY																		SOURCEPAGE:p.14																		BONUS:VAR|Honor|3	CSKILL:Spellcraft							FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Moto			VISIBLE:DISPLAY																		SOURCEPAGE:p.19																		BONUS:VAR|Honor|1	CSKILL:Knowledge (Shadowlands)|Ride				FAVOREDCLASS:Barbarian																									SUBREGION:YES
+Otomo			VISIBLE:DISPLAY																		SOURCEPAGE:p.21																		BONUS:VAR|Honor|3	CSKILL:Intimidate							FAVOREDCLASS:Courtier																									SUBREGION:YES
+Ox			VISIBLE:DISPLAY																		SOURCEPAGE:p.23																		BONUS:VAR|Honor|1	CSKILL:Bluff|Ride							FAVOREDCLASS:Fighter		LANGBONUS:Yobanjin																				SUBREGION:YES
+Seppun		VISIBLE:DISPLAY																		SOURCEPAGE:p.21																		BONUS:VAR|Honor|3	CSKILL:Sense Motive						FAVOREDCLASS:Samurai																									SUBREGION:YES
+Shiba			VISIBLE:DISPLAY																		SOURCEPAGE:p.16																		BONUS:VAR|Honor|3	CSKILL:TYPE=Knowledge						FAVOREDCLASS:Samurai																									SUBREGION:YES
+Shinjo		VISIBLE:DISPLAY																		SOURCEPAGE:p.19-20																	BONUS:VAR|Honor|2	CSKILL:Handle Animal|Ride|Survival				FAVOREDCLASS:Ranger																									SUBREGION:YES
+Shosuro		VISIBLE:DISPLAY																		SOURCEPAGE:p.17																		BONUS:VAR|Honor|1	CSKILL:Craft (Poison)						FAVOREDCLASS:Ninja																									SUBREGION:YES
+Soshi			VISIBLE:DISPLAY																		SOURCEPAGE:p.17																		BONUS:VAR|Honor|1	CSKILL:Sense Motive						FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Sparrow		VISIBLE:DISPLAY																		SOURCEPAGE:p.23																		BONUS:VAR|Honor|3	CSKILL:TYPE=Perform						FAVOREDCLASS:Courtier																									SUBREGION:YES
+Tamori		VISIBLE:DISPLAY																		SOURCEPAGE:p.10-11																	BONUS:VAR|Honor|2	CSKILL:Spellcraft							FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Togashi		VISIBLE:DISPLAY																		SOURCEPAGE:p.11																		BONUS:VAR|Honor|2	CSKILL:Concentration						FAVOREDCLASS:Inkyo																									SUBREGION:YES
+Dragonfly		VISIBLE:DISPLAY																		SOURCEPAGE:p.22																		BONUS:VAR|Honor|2	CSKILL:Spellcraft							FAVOREDCLASS:Shugenja		LANGBONUS:Yobanjin																				SUBREGION:YES
+Toritaka		VISIBLE:DISPLAY																		SOURCEPAGE:p.7																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Spirit Realms)				FAVOREDCLASS:Fighter																									SUBREGION:YES
+True Ronin		VISIBLE:DISPLAY																		SOURCEPAGE:p.24																																																										SUBREGION:YES
+Tsuruchi		VISIBLE:DISPLAY																		SOURCEPAGE:p.14																		BONUS:VAR|Honor|2	CSKILL:Craft (Bowmaking)					FAVOREDCLASS:Fighter																									SUBREGION:YES
+Hare			VISIBLE:DISPLAY																		SOURCEPAGE:p.22																		BONUS:VAR|Honor|2	CSKILL:Knowledge (Maho)|Jump					FAVOREDCLASS:Samurai|Shugenja	LANGBONUS:Goblin,Oni																				SUBREGION:YES
+Utaku			VISIBLE:DISPLAY																		SOURCEPAGE:p.20																		BONUS:VAR|Honor|3	CSKILL:Ride								FAVOREDCLASS:Samurai																									SUBREGION:YES
+Yasuki (Crab)	VISIBLE:DISPLAY																		SOURCEPAGE:p.7																		BONUS:VAR|Honor|1	CSKILL:Bluff							FAVOREDCLASS:Rogue																									SUBREGION:YES
+Yasuki (Crane)	VISIBLE:DISPLAY																		SOURCEPAGE:p.9																		BONUS:VAR|Honor|2	CSKILL:Battle							FAVOREDCLASS:Fighter																									SUBREGION:YES
+Yogo			VISIBLE:DISPLAY																		SOURCEPAGE:p.18																		BONUS:VAR|Honor|0	CSKILL:Knowledge (Shadowlands)				FAVOREDCLASS:Shugenja																									SUBREGION:YES
+Yoritomo		VISIBLE:DISPLAY																		SOURCEPAGE:p.14																		BONUS:VAR|Honor|2	CSKILL:Profession (Sailor)					FAVOREDCLASS:Fighter																									SUBREGION:YES
+Yotsu			VISIBLE:DISPLAY																		SOURCEPAGE:p.24																		BONUS:VAR|Honor|2	CSKILL:Intimidate							FAVOREDCLASS:Samurai																									SUBREGION:YES

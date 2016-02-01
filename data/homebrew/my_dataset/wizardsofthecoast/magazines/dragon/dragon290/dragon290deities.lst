@@ -1,0 +1,20 @@
+# CVS $Revision: 1.5 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #290	SOURCESHORT:WotC-Dragon #290	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Deity Name	Domains																					Desciption of Deity/Title	Holy Item						Deity Weapon			Alignment	Source Page
+Dazhbog		DOMAINS:Good,Law,Protection,Sun	DOMAINS:Good,Law,Protection,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:The Bright One		SYMBOL:Symmetrical cross within a circle	DEITYWEAP:Sword (Long)		ALIGN:LG	SOURCEPAGE:p.48
+Death Crone		DOMAINS:Death,Evil,Magic,Trickery	DOMAINS:Death,Evil,Magic,Trickery|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Death Crone			SYMBOL:Skulls and Ravens			DEITYWEAP:Quarterstaff		ALIGN:NE	SOURCEPAGE:p.48
+Gabija		DOMAINS:Fire,Good,Healing,Protection	DOMAINS:Fire,Good,Healing,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE			DESC:Goddess of the Hearth	SYMBOL:Flame					DEITYWEAP:Dagger			ALIGN:NG	SOURCEPAGE:p.48
+Jaril			DOMAINS:Chaos,Luck,Plant,Protection	DOMAINS:Chaos,Luck,Plant,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Fertility		SYMBOL:Sheaves of Wheat				DEITYWEAP:Shortspear		ALIGN:CN	SOURCEPAGE:p.48
+Jurate		DOMAINS:Healing,Luck,Travel,Water	DOMAINS:Healing,Luck,Travel,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Goddess of the Sea		SYMBOL:A perfectly shaped piece of amber	DEITYWEAP:Dagger			ALIGN:CG	SOURCEPAGE:p.48
+Lunt-Ater		DOMAINS:Healing,Knowledge,Magic,Sun	DOMAINS:Healing,Knowledge,Magic,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:The Gander Chief		SYMBOL:The Gander					DEITYWEAP:Quarterstaff		ALIGN:NG	SOURCEPAGE:p.48
+Meness		DOMAINS:Luck,Travel,Trickery,War	DOMAINS:Luck,Travel,Trickery,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Moon		SYMBOL:A moon and stars				DEITYWEAP:Sword (Long)		ALIGN:TN	SOURCEPAGE:p.48
+Mokosh		DOMAINS:Animal,Earth,Healing,Plant	DOMAINS:Animal,Earth,Healing,Plant|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Mother Moist Earth		SYMBOL:None						DEITYWEAP:Sickle			ALIGN:LG	SOURCEPAGE:p.48
+Perun			DOMAINS:Air,Law,Strength,Thunder	DOMAINS:Air,Law,Strength,Thunder|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:The Thunderer		SYMBOL:A six-spoke wheel			DEITYWEAP:Axe (Throwing)	ALIGN:LN	SOURCEPAGE:p.48
+Rod			DOMAINS:Healing,Knowledge,Plant,Protection	DOMAINS:Healing,Knowledge,Plant,Protection|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE	DESC:God of Harvests		SYMBOL:None						DEITYWEAP:Quarterstaff		ALIGN:LN	SOURCEPAGE:p.48
+Saule			DOMAINS:Divination,Good,Healing,Sun	DOMAINS:Divination,Good,Healing,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Mother Sun			SYMBOL:An eight-spoked wheel			DEITYWEAP:Sword (Short)		ALIGN:NG	SOURCEPAGE:p.48
+Stribog		DOMAINS:Air,Destruction,Evil,Winter	DOMAINS:Air,Destruction,Evil,Winter|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Master of Winds		SYMBOL:None						DEITYWEAP:Shortspear		ALIGN:LE	SOURCEPAGE:p.48
+Svantovit		DOMAINS:Divination,Luck,Plant,War	DOMAINS:Divination,Luck,Plant,War|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Prosperity		SYMBOL:A cup and a greatsword			DEITYWEAP:Sword (Great)		ALIGN:TN	SOURCEPAGE:p.48
+Svarog		DOMAINS:Fire,Good,Healing,Law,Sun	DOMAINS:Fire,Good,Healing,Law,Sun|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:Lord of Heaven		SYMBOL:None						DEITYWEAP:Longspear		ALIGN:LG	SOURCEPAGE:p.48
+Svarozic		DOMAINS:Animal,Fire,Good,Healing	DOMAINS:Animal,Fire,Good,Healing|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Fire			SYMBOL:A flame					DEITYWEAP:Sword (Long)		ALIGN:NG	SOURCEPAGE:p.48
+Ukko			DOMAINS:Air,Good,Healing,Law,Water	DOMAINS:Air,Good,Healing,Law,Water|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of the Sky		SYMBOL:Flaming sword				DEITYWEAP:Sword (Long)		ALIGN:LG	SOURCEPAGE:p.48
+Volos			DOMAINS:Animal,Luck,Plant,Travel	DOMAINS:Animal,Luck,Plant,Travel|PREALIGN:LG,LN,LE,NG,TN,NE,CG,CN,CE					DESC:God of Cattle		SYMBOL:Sheaves of grain, cattle, and oxen	DEITYWEAP:Quarterstaff		ALIGN:TN	SOURCEPAGE:p.48

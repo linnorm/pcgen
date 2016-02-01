@@ -1,0 +1,21 @@
+# CVS $Revision$ $Author$ -- Mon Feb 26 19:27:59 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+CAMPAIGN:DWG - Airships 3.5
+RANK:7
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+TYPE:Dragon Wing Games.Supplement
+PUBNAMELONG:DragonWing Games
+PUBNAMESHORT:DWG
+PUBNAMEWEB:http://www.dragonwing.net
+SOURCELONG:Dragon Wing Games - Airships
+SOURCESHORT:Airships
+SOURCEWEB:http://www.dragonwing.net
+ISOGL:YES
+
+CLASS:airships_classes.lst
+FEAT:airships_feats.lst
+SKILL:airships_skills.lst
+SPELL:airships_spells.lst
+EQUIPMENT:airships_equip_wondrousitems.lst

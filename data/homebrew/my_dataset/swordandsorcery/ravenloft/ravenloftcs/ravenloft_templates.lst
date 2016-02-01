@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 11:54:47 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Template Name	Visible		Template											Automatic Languages	Bonus Languages					Region
+Ravenloft_Region	VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Darkon|Falkovnia|Grabentod|Lamordia|Mordent|Nova Vassa
+
+##Regions:
+# Template Name	Visible		Template											Automatic Languages	Bonus Languages					Region
+Darkon		VISIBLE:NO														LANGAUTO:Darkonese	LANGBONUS:Balok,Falkovnian,Mordentish	REGION:Yes
+Falkovnia		VISIBLE:NO														LANGAUTO:Falkovnian	LANGBONUS:Balok,Falkovnian,Mordentish	REGION:Yes
+Grabentod		VISIBLE:NO														LANGAUTO:Grabenite	LANGBONUS:Balok,Falkovnian,Mordentish	REGION:Yes
+Lamordia		VISIBLE:NO														LANGAUTO:Lamordian	LANGBONUS:Balok,Falkovnian,Mordentish	REGION:Yes
+Mordent		VISIBLE:NO														LANGAUTO:Mordentish	LANGBONUS:Balok,Falkovnian,Mordentish	REGION:Yes
+Nova Vassa		VISIBLE:NO														LANGAUTO:Vassi		LANGBONUS:Balok,Falkovnian,Mordentish	REGION:Yes
+

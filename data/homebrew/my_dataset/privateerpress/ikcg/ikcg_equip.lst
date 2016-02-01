@@ -1,0 +1,45 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+## Original Entry by: Rax the Grey
+
+## NOTE: Gear
+# Equipment Name			Product Identity?	Required Proficiency	Type									Contains					Number of Pages	Page Usage				Cost		Weight	AC Penalty Check	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier						Wield Category	Range		Size		Source Page			Bonus to skill					Weapon prop. bonus	Special Property
+Ascendant Figurine									TYPE:Goods.DivineFocus																				COST:4	WT:1																													SOURCEPAGE:pg. 202
+Ascendant Talisman									TYPE:Goods.DivineFocus																				COST:0.5	WT:0.5																												SOURCEPAGE:pg. 198
+Bandolier (Ammunition)									TYPE:Goods.Container.Resizable				CONTAINS:UNLIM|Round=12											COST:0.5	WT:1																													SOURCEPAGE:pg. 198
+Boots (Mechaniks')									TYPE:Goods.Boot.Resizable																			COST:3	WT:2																													SOURCEPAGE:pg. 198
+Field Glass											TYPE:Goods																						COST:20	WT:1																													SOURCEPAGE:pg. 198
+Flintstriker										TYPE:Goods																						COST:6	WT:0.1																												SOURCEPAGE:pg. 198
+Gobber Bellows										TYPE:Goods																						COST:0	WT:25																													SOURCEPAGE:pg. 199
+Goggles											TYPE:Goods.Clothing.Resizable																			COST:4	WT:1																													SOURCEPAGE:pg. 199	BONUS:SKILL|Spot|-2								SPROP:Immune to Glitterdust spell blindness & +4 vs. other blindness effects
+##Per IKCG the Gunner's Kit has room to store completed rounds but no number is specified.  I guessed. -- Rax
+Gunner's Kit										TYPE:Goods.Container						CONTAINS:UNLIM|Round=10											COST:100	WT:15																													SOURCEPAGE:pg. 199
+Hand-pump											TYPE:Goods																						COST:5	WT:2																													SOURCEPAGE:pg. 199
+## TODO: Add holster mods. --Rax
+Holster											TYPE:Goods.Container						CONTAINS:UNLIM|Pistol=1											COST:4	WT:0.5																												SOURCEPAGE:pg. 199
+Holster (Wrist-loader)									TYPE:Goods.Container						CONTAINS:UNLIM|Pistol (Small)=1									COST:30	WT:1																													SOURCEPAGE:pg. 200
+Inflatable Raft Pack									TYPE:Goods																						COST:55	WT:11																													SOURCEPAGE:pg. 200
+Ladder (Collapsing)									TYPE:Goods																						COST:7	WT:12																													SOURCEPAGE:pg. 200
+Lantern (Magnified Bullseye)								TYPE:Goods																						COST:15	WT:3																													SOURCEPAGE:pg. 200
+Launching Flare										TYPE:Goods																						COST:8	WT:1													DAMAGE:2d4								WIELD:OneHanded	RANGE:20			SOURCEPAGE:pg. 200
+Liber Mechanika										TYPE:Goods.Tools.Spellbook											NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:15	WT:3																													SOURCEPAGE:pg. 93
+Morrow Statue			NAMEISPI:YES					TYPE:Goods.DivineFocus																				COST:10	WT:3																													SOURCEPAGE:pg. 202
+Oar (Collapsible)										TYPE:Goods																						COST:15	WT:2																													SOURCEPAGE:pg. 200
+Parka (Bog Trog)										TYPE:Goods.Clothing.Resizable																			COST:50	WT:2		ACCHECK:-1																										SOURCEPAGE:pg. 201	BONUS:SKILL|Hide|4|TYPE=Circumstance
+Pocket Watch										TYPE:Goods																						COST:150	WT:0.5																												SOURCEPAGE:pg. 201
+Poncho (Gobber)										TYPE:Goods.Clothing.Resizable																			COST:100	WT:1																													SOURCEPAGE:pg. 201
+Portable Flare Launcher									TYPE:Goods																						COST:6	WT:6													DAMAGE:2d4								WIELD:OneHanded	RANGE:20			SOURCEPAGE:pg. 201
+Pouch (Ammunition)									TYPE:Goods.Container						CONTAINS:UNLIM|Round=3											COST:2	WT:0.5																												SOURCEPAGE:pg. 202
+Saw (Collapsing)										TYPE:Goods																						COST:8	WT:3																													SOURCEPAGE:pg. 202
+Scion Figurine										TYPE:Goods.DivineFocus																				COST:15	WT:1																													SOURCEPAGE:pg. 202
+Shovel (Collapsing)					PROFICIENCY:WEAPON|Club	TYPE:Goods	TYPE:Weapon.Melee.Simple.Bludgeoning															COST:8	WT:7					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6								WIELD:OneHanded			SIZE:M	SOURCEPAGE:pg. 202								BONUS:WEAPON|TOHIT|-2
+Slip Dagger Harness									TYPE:Goods																						COST:15	WT:0.1																												SOURCEPAGE:pg. 202
+Spyglass											TYPE:Goods																						COST:10	WT:1																													SOURCEPAGE:pg. 202
+Spyglass (Collapsing)									TYPE:Goods																						COST:35	WT:1																													SOURCEPAGE:pg. 202
+Thamar Statue			NAMEISPI:YES					TYPE:Goods.DivineFocus																				COST:25	WT:1																													SOURCEPAGE:pg. 202
+
+## Block: Mechanika
+## Block:  Accumulators
+Light Accumulator										TYPE:Mechanikal.Accumulator																			COST:250	WT:1															EQMOD:ACCUMULATOR_CHARGE_5|CHARGES[5]
+Standard Accumulator									TYPE:Mechanikal.Accumulator																			COST:500	WT:2															EQMOD:ACCUMULATOR_CHARGE_10|CHARGES[10]
+Heavy Accumulator										TYPE:Mechanikal.Accumulator																			COST:1000	WT:5															EQMOD:ACCUMULATOR_CHARGE_20|CHARGES[20]

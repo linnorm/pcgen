@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+
+#Exotic
+# Equipment Name	Required Proficiency		Type									Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier		Range		Source, Long Desc.		Source, Short Desc.	Source Page
+Annulat		PROFICIENCY:WEAPON|Annulat	TYPE:Weapon.Exotic.Ranged.Standard.Slashing.Thrown	COST:30	WT:.5		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d6	EQMOD:WEAP_STEEL	RANGE:30	SOURCELONG:Planar Handbook	SOURCESHORT:plnrhb	SOURCEPAGE:p.69

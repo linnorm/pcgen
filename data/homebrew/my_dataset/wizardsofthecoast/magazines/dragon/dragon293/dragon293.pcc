@@ -1,0 +1,14 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #293
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #293
+SOURCESHORT:WotC-Dragon #293
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon293classes.lst
+EQUIPMENT:dragon293equippotionspoisons.lst
+FEAT:dragon293feats.lst
+RACE:dragon293races.lst

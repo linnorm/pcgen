@@ -1,0 +1,74 @@
+# CVS $Revision: $ $Author: $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Template Name		Visible	Template																																																																																								Modify VAR
+Dark Side Points		VISIBLE:YES	TEMPLATE:CHOOSE:1 Dark Side Point|2 Dark Side Points|3 Dark Side Points|4 Dark Side Points|5 Dark Side Points|6 Dark Side Points|7 Dark Side Points|8 Dark Side Points|9 Dark Side Points|10 Dark Side Points|11 Dark Side Points|12 Dark Side Points|13 Dark Side Points|14 Dark Side Points|15 Dark Side Points|16 Dark Side Points|17 Dark Side Points|18 Dark Side Points|19 Dark Side Points|20 Dark Side Points|21 Dark Side Points|22 Dark Side Points|23 Dark Side Points|24 Dark Side Points|25 Dark Side Points
+1 Dark Side Point		VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|1
+2 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|2
+3 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|3
+4 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|4
+5 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|5
+6 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|6
+7 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|7
+8 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|8
+9 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|9
+10 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|10
+11 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|11
+12 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|12
+13 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|13
+14 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|14
+15 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|15
+16 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|16
+17 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|17
+18 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|18
+19 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|19
+20 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|20
+21 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|21
+22 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|22
+23 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|23
+24 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|24
+25 Dark Side Points	VISIBLE:NO																																																																																										BONUS:VAR|DarksidePoints|25
+
+
+Used Force Points		VISIBLE:YES	TEMPLATE:CHOOSE:Used 1 Force Point|Used 2 Force Points|Used 3 Force Points|Used 4 Force Points|Used 5 Force Points|Used 6 Force Points|Used 7 Force Points|Used 8 Force Points|Used 9 Force Points|Used 10 Force Points|Used 11 Force Points|Used 12 Force Points|Used 13 Force Points|Used 14 Force Points|Used 15 Force Points|Used 16 Force Points|Used 17 Force Points|Used 18 Force Points|Used 19 Force Points|Used 20 Force Points|Used 21 Force Points|Used 22 Force Points|Used 23 Force Points|Used 24 Force Points|Used 25 Force Points
+Used 1 Force Point	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-1
+Used 2 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-2
+Used 3 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-3
+Used 4 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-4
+Used 5 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-5
+Used 6 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-6
+Used 7 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-7
+Used 8 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-8
+Used 9 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-9
+Used 10 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-10
+Used 11 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-11
+Used 12 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-12
+Used 13 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-13
+Used 14 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-14
+Used 15 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-15
+Used 16 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-16
+Used 17 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-17
+Used 18 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-18
+Used 19 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-19
+Used 20 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-20
+Used 21 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-21
+Used 22 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-22
+Used 23 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-23
+Used 24 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-24
+Used 25 Force Points	VISIBLE:NO																																																																																										BONUS:VAR|ForcePoints|-25
+
+Multiple Base Classes	VISIBLE:YES	TEMPLATE:CHOOSE:2 Base Classes|3 Base Classes|4 Base Classes|5 Base Classes|6 Base Classes|7 Base Classes|8 Base Classes|9 Base Classes|10 Base Classes
+2 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-2
+3 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-4
+4 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-6
+5 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-8
+6 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-10
+7 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-12
+8 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-14
+9 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-16
+10 Base Classes		VISIBLE:NO																																																																																										BONUS:VAR|ClassDefense|-18
+
+# JediKnight			VISIBLE:YES	TEMPLATE:CHOOSE:JediKnightBase|JediKnightAce|JediKnightInvestigator
+# JediKnightBase		VISIBLE:YES																PREVAREQ:JediLevel,7																																																																														!PRECLASS:1,TYPE=Jedi.Prestige=1						ADD:FEAT(Jedi Knight Base)
+# JediKnightAce		VISIBLE:YES																PREVAREQ:JediLevel,7																																																																								PRECLASS:1,Jedi Ace=1														ADD:FEAT(Jedi Knight Ace)
+# JediKnightInvestigator	VISIBLE:YES																PREVAREQ:JediLevel,7																																																																								PRECLASS:1,Jedi Investigator=1												ADD:FEAT(Jedi Knight Investigator)

@@ -1,0 +1,15 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Robert Biskup January 2005
+
+# Weapon Name	Type		Nb Hands
+Axe (Ice)		TYPE:Exotic
+Iuak			TYPE:Exotic
+Club (Tigerskull)	TYPE:Exotic
+Goad			TYPE:Exotic	HANDS:2
+Ritiik		TYPE:Exotic	HANDS:2
+Sugliin		TYPE:Exotic	HANDS:2
+Bow (Bone)		TYPE:Exotic	HANDS:2
+Glot			TYPE:Exotic
+Harpoon		TYPE:Exotic
+Icechucker		TYPE:Exotic
+Razor Skipdisk	TYPE:Exotic

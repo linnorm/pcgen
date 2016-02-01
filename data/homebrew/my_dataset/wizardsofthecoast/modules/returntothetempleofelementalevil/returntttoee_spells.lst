@@ -1,0 +1,27 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+# Original Entry by Barak 07/09/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+# Spell Name				Classes of caster			Domains granting the spell	School			Sub-School			Spell Descriptors			Type				Components	Casting Time	Range			Target Area or Effect				Duration				Save Info					Spell Resistance		Description																					Source Page
+Annihilation									DOMAINS:Force=9			SCHOOL:Evocation						DESCRIPTOR:Force			TYPE:Divine			COMPS:V S	CASTTIME:1 action	RANGE:Medium	TARGETAREA:2-foot globe of nothingness	DURATION:(CASTERLEVEL) rounds	SAVEINFO:Nonne				SPELLRES:Yes		DESC:Using a blast of incredible force, you tear a temporary hole in the fabric of reality							SOURCEPAGE:p.162
+Blast of Force									DOMAINS:Force=3			SCHOOL:Evocation						DESCRIPTOR:Force			TYPE:Divine			COMPS:V S	CASTTIME:1 action	RANGE:Medium	TARGETAREA:Ray					DURATION:Instantaneous		SAVEINFO:Fortitude			SPELLRES:Yes		DESC:You direct a single, invisible blast of force at a chosen target											SOURCEPAGE:p.162
+Bolts of Bedevilment								DOMAINS:Madness=5			SCHOOL:Enchantment					DESCRIPTOR:Mind-Affecting	TYPE:Divine			COMPS:V S	CASTTIME:1 action	RANGE:Medium	TARGETAREA:Ray					DURATION:(CASTERLEVEL) rounds	SAVEINFO:Will negates			SPELLRES:Yes		DESC:Grants you the ability to make one ray attack/round.  The ray dazes one living creature so it takes no action for 1d3 rounds	SOURCEPAGE:p.161
+Rage											DOMAINS:Madness=3			SCHOOL:Enchantment										TYPE:Divine			COMPS:V S	CASTTIME:1 action	RANGE:Touch		TARGETAREA:Creature touched			DURATION:(CASTERLEVEL) rounds	SAVEINFO:Will negates (harmless)	SPELLRES:yes (harmless)	DESC:You can put a creature into a screaming blood frenzy													SOURCEPAGE:p.161
+Tharizdun's Maddening Scream		CLASSES:Sorcerer,Wizard=8	DOMAINS:Madness=8			SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	TYPE:Arcane.Divine	COMPS:V	CASTTIME:1 action	RANGE:Touch		TARGETAREA:Living creature touched		DURATION:1d4+1 rounds		SAVEINFO:None				SPELLRES:Yes		DESC:The subject cannot keep himself from screaming, gibbering and leaping about as though completely mad					SOURCEPAGE:p.162
+Tharizdun's Touch									DOMAINS:Madness=2			SCHOOL:Enchantment					DESCRIPTOR:Mind-Affecting	TYPE:Divine			COMPS:V S	CASTTIME:1 action	RANGE:Touch		TARGETAREA:Creature touched			DURATION:(CASTERLEVEL) rounds	SAVEINFO:Will negates			SPELLRES:Yes		DESC:You may daze one living creature by making a successful touch attack										SOURCEPAGE:p.162
+
+
+# Spell MOD to existing spells for domains
+Random Action.MOD									DOMAINS:Madness=1
+Confusion.MOD									DOMAINS:Madness=4
+Phantasmal Killer.MOD								DOMAINS:Madness=6
+Insanity.MOD									DOMAINS:Madness=7
+Weird.MOD										DOMAINS:Madness=9
+
+Mage Armor.MOD									DOMAINS:Force=1
+Magic Missile.MOD									DOMAINS:Force=2
+Otiluke's Resilient Sphere.MOD						DOMAINS:Force=4
+Wall of Force.MOD									DOMAINS:Force=5
+Repulsion.MOD									DOMAINS:Force=6
+Forcecage.MOD									DOMAINS:Force=7
+Otiluke's Telekinetic Sphere.MOD						DOMAINS:Force=8

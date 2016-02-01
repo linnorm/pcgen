@@ -1,0 +1,16 @@
+# CVS $Revision: 314 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Arcana - The Book of the Righteous	SOURCESHORT:BookRight	SOURCEWEB:http://www.greenronin.com
+#Original Entry by: Tir Gwaith
+
+# Feat Name						Type				Visible	Var. Min. Value			Special ABility														Define			Innate Spells													Automatically Gained Weapon Prof.																	Bonus to skill							Bonus to skill rank				Modify VAR				Class Skill
+Gleaner of Rontra Weapon Proficiencies	CATEGORY:FEAT	TYPE:Special		VISIBLE:NO																																									AUTO:WEAPONPROF|Club|Dagger|Flail|Flail (Heavy)|Handaxe|Javelin|Kama|Nunchaku|Quarterstaff|Trident (Pitchfork)|Scythe|Sickle|Sling
+
+Holy Warrior Detect Evil			CATEGORY:FEAT	TYPE:Special		VISIBLE:NO	PREVARGTEQ:HolyWarrior,1																					SPELLS:Holy Warrior|TIMES=ATWILL|CASTERLEVEL=var("CL=Holy Warrior")|Detect Evil,11+WIS
+Holy Warrior Lay on Hands			CATEGORY:FEAT	TYPE:Special		VISIBLE:NO	PREVARGTEQ:HolyWarrior,1	SAB:Lay on Hands (Su) % hp/day|LayOnHands										DEFINE:LayOnHands|0
+Holy Warrior Smite Evil				CATEGORY:FEAT	TYPE:Special.Smite	VISIBLE:NO	PREVARGTEQ:HolyWarrior,2	SAB:Smite Evil (Su) %/day|SmiteEvil											DEFINE:SmiteEvil|0
+
+Holy Warrior Gaze of Justice			CATEGORY:FEAT	TYPE:Special		VISIBLE:NO	PREVARGTEQ:HolyWarrior,1	SAB:Gaze of Justice (Ex)																																																					BONUS:SKILL|Intimidate,Sense Motive|CHA|TYPE=Sacred	BONUS:SKILLRANK|Intimidate,Sense Motive|1						CSKILL:Intimidate|Sense Motive
+Holy Warrior Shield of Righteousness	CATEGORY:FEAT	TYPE:Special		VISIBLE:NO	PREVARGTEQ:HolyWarrior,1	SAB:Shield of Righteousness (Su)
+Holy Warrior Righteous Fury			CATEGORY:FEAT	TYPE:Special		VISIBLE:NO	PREVARGTEQ:HolyWarrior,2	SAB:Righteous Fury (Su) %/day (+% Att; +% Dmg)|RighteousFury|RighteousFuryAtt|RighteousFuryDmg																																																										BONUS:VAR|RighteousFury|1
+
+Artificer Hidden Feat	CATEGORY:FEAT	TYPE:ArtificerHidden	VISIBLE:NO	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	BONUS:SKILL|LIST|4

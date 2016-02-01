@@ -1,0 +1,40 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Five Fingers	SOURCESHORT:FF	SOURCEWEB:http://www.ironkingdoms.com
+#Original Entry by: Rax the Grey
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus												Combat bonus
+CLASS:Agent		HD:6		TYPE:PC.Prestige	ABB:Spy		MAXLEVEL:10	SOURCEPAGE:pg. 190	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat									Required Skill																								Required Text
+CLASS:Agent		PREATT:4	PREFEAT:2,Deceitful,Investigator,Negotiator,Persuasive,Stealthy	PRESKILL:1,Bluff=6,Diplomacy=6	PRESKILL:1,Disguise=5	PRESKILL:1,Forgery=3	PRESKILL:1,Gather Information=6,Search=6	PRESKILL:1,Sense Motive=6	PRETEXT:A current ranking member of the appropriate covert organization, government, major trade organization, mercenary group, or cabal must handpick the individual and train him in his methodology. This training period can take several months.
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Agent		STARTSKILLPTS:8	CSKILL:Bluff|Climb|TYPE=Craft|Craft (Small Arms)|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|TYPE=Knowledge|Listen|Move Silently|TYPE=Perform|TYPE=Profession|Ride|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Rope
+1	BONUS:ABILITYPOOL|Agent Ability|(classlevel("Agent")+1)/2														ADD:LANGUAGE|3|ALL	ABILITY:Special Ability|AUTOMATIC|Bluff Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|Fabricate Identity	ABILITY:Special Ability|AUTOMATIC|Cover Identity	AUTO:FEAT|Agent Class Skills	AUTO:WEAPONPROF|Crossbow (Hand)|Crossbow (Light)|Dagger|Dart|Mace (Light)|Sap|Shortbow|Sword (Short)
+2											BONUS:SKILL|Bluff,Diplomacy,Gather Information,Intimidation|2|TYPE=Competence					ABILITY:Special Ability|AUTOMATIC|Charming
+3
+4																												ABILITY:Special Ability|AUTOMATIC|Conditioned Mind
+5																												ABILITY:Special Ability|AUTOMATIC|Surprising Move
+6																												ABILITY:Special Ability|AUTOMATIC|Against the Odds
+7
+8																												ABILITY:Special Ability|AUTOMATIC|Detect Ruse
+9
+10																												ABILITY:Special Ability|AUTOMATIC|Master of Persuasion
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page			Save checks bonus											Combat bonus
+CLASS:Enforcer	HD:8		TYPE:PC.Prestige	ABB:Enf		MAXLEVEL:10	SOURCEPAGE:pg. 195	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Skill							Required Text
+CLASS:Enforcer	PREATT:5	PRESKILL:1,Intimidate=7	PRESKILL:1,Sense Motive=4	PRETEXT:Rep 15+, Must have aquired a criminal fiefdom in a city.
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Enforcer	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|Diplomacy|Gather Information|Hide|Intimidate|Jump|Knowledge (Law)|Knowledge (Local)|Listen|Move Silently|TYPE=Profession|Ride|Search|Sense Motive|Spot|Swim|Use Rope
+1					ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Improved Unarmed Strike|Martial Weapon Proficiency
+1					ABILITY:Special Ability|AUTOMATIC|Crippling Gouge								AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+2	ADD:LANGUAGE|Five Cant	ABILITY:Special Ability|AUTOMATIC|Punishing Blow
+3					ABILITY:Special Ability|AUTOMATIC|Word of Mouth
+4					ABILITY:Special Ability|AUTOMATIC|Street Fighting
+5					ABILITY:Special Ability|AUTOMATIC|Gut Shot
+6
+7
+8					ABILITY:Special Ability|AUTOMATIC|Street Tribute
+9
+10					ABILITY:Special Ability|AUTOMATIC|Succession

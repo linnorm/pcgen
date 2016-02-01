@@ -1,0 +1,54 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Heroes of High Favor - Dwarves	SOURCESHORT:HoHF - Dwarves	SOURCEWEB:x
+
+
+#FEATS:
+# Feat Name						Type				Visible	Req. Att.	Required Class		Required Feat															Required Lvl	Required Skill					Required Stat	Required Text								Special ABility				Description														Multiple?	Add to vision
+Axe Mastery						TYPE:General.Fighter									PREFEAT:2,Weapon Focus(TYPE.Axe),Weapon Specialization(TYPE.Axe)																																				DESC:Gain bonus with all axes
+Blood of Kings					TYPE:General.Dwarf																																							PRETEXT:1st level feat only, unless GM allows otherwise
+Cleave Asunder					TYPE:General.Fighter									PREFEAT:2,Cleave,Sunder
+Crossbow Mastery					TYPE:General.Fighter									PREFEAT:2,Weapon Focus(TYPE.Crossbow),Weapon Specialization(TYPE.Crossbow)
+Giant Killer					TYPE:General.Fighter									PREFEAT:2,Combat Reflexes
+Hammer Mastery					TYPE:General.Fighter									PREFEAT:2,Weapon Focus(TYPE.Hammer),Weapon Specialization(TYPE.Hammer)
+Improved Charge					TYPE:General.Fighter			PREATT:1
+Improved Darkvision				TYPE:General.Dwarf																																																																								BONUS:VISION|DarkVision|30
+Improved Rear Rank Fighting			TYPE:General.Fighter									PREFEAT:1,Rear Rank Fighting
+Rear Rank Fighting				TYPE:General.Fighter
+Refined Skill Focus				TYPE:General																																																								DESC:You have a natural aptitude with one or more related skills.
+Shield Bash						TYPE:General.Fighter			PREATT:1																																			PRETEXT:Shield Proficiency												DESC:You are able to use your shield to smash your opponents.
+Shield Parry					TYPE:General.Fighter			PREATT:1																																			PRETEXT:Shield Proficiency												DESC:You are skilled at using your shield to intercept and deflect incoming attacks.
+Shield Rush						TYPE:General.Fighter									PREFEAT:1,Power Attack																											PRETEXT:Shield Proficiency
+Short Stature					TYPE:General.Dwarf																																							PRETEXT:This feat may only be chosen at 1st level.
+Spear Mastery					TYPE:General.Fighter									PREFEAT:2,Weapon Focus(TYPE.Spear),Weapon Specialization(TYPE.Spear)
+Sturdy Back						TYPE:General																																																								DESC:You are accustomed to carrying heavy loads over long distances.
+
+###FIGHTING STYLES - Available at 4th level
+Single Weapon Style				TYPE:Fighter										PREFEAT:3,Lightning Reflexes,Weapon Finesse,Weapon Focus								PRELEVEL:MIN=4	PRESKILL:2,Balance=4,Concentration=4
+Single Weapon Style Specialization		TYPE:Fighter										PREFEAT:1,Single Weapon Style													PRELEVEL:MIN=4
+Weapon and Shield Style				TYPE:Fighter										PREFEAT:5,Combat Reflexes,Power Attack,Shield Bash,Shield Parry,Shield Rush					PRELEVEL:MIN=4	PRESKILL:1,Sense Motive=4
+Weapon and Shield Style Specialization	TYPE:Fighter										PREFEAT:1,Weapon and Shield Style												PRELEVEL:MIN=4
+Two-Handed Style					TYPE:Fighter										PREFEAT:4,Cleave,Endurance,Great Cleave,Power Attack									PRELEVEL:MIN=4	PRESKILL:1,Bluff=4
+Two-Handed Style Specialization		TYPE:Fighter										PREFEAT:1,Two-Handed Style													PRELEVEL:MIN=4
+Two-Weapon Style					TYPE:Fighter										PREFEAT:5,Ambidexterity,Two Weapon Fighting,Improved Two Weapon Fighting,Weapon Focus,Weapon Finesse	PRELEVEL:MIN=4
+Two-Weapon Style Specialization		TYPE:Fighter										PREFEAT:1,Two-Weapon Style													PRELEVEL:MIN=4
+
+###Runes
+Rune of Beauty					TYPE:General.Dwarf
+Rune of Cleaving					TYPE:General.Dwarf																																							PRETEXT:inscribe on any slashing weapon
+Rune of Courage					TYPE:General.Dwarf																																				PRESTAT:1,WIS=11	PRETEXT:inscribe on any weapon
+Rune of Fortification				TYPE:General.Dwarf																																							PRETEXT:inscribe on armor or shield
+Rune of Power					TYPE:General.Dwarf																																				PRESTAT:1,WIS=11	PRETEXT:inscribe on any weapon
+Rune of Protection				TYPE:General.Dwarf																																				PRESTAT:1,WIS=15	PRETEXT:inscribe on armor or shield
+Rune of Sharpness					TYPE:General.Dwarf																																							PRETEXT:inscribe on slashing weapon
+Rune of Sundering					TYPE:General.Dwarf																																							PRETEXT:inscribe on hammer
+Rune of Vengeance					TYPE:General.Dwarf																																				PRESTAT:1,WIS=17	PRETEXT:inscribe on any weapon
+
+###HIDDEN CLASS FEATS
+Ancestral Lore					TYPE:AceldamistClass	VISIBLE:NO			PRECLASS:1,Aceldamist=1																																									SAB:Ancestral Lore																		MULT:YES
+Armored Casting					TYPE:Aceldamist		VISIBLE:NO			PRECLASS:1,Aceldamist=1																																									SAB:Armored Casting																		MULT:YES
+Blood Magic						TYPE:Aceldamist		VISIBLE:NO			PRECLASS:1,Aceldamist=1																																									SAB:Blood Magic																			MULT:YES
+Fellblade Magic					TYPE:Aceldamist		VISIBLE:YES			PRECLASS:1,Aceldamist=1																																									SAB:Fellblade Magic																		MULT:YES
+Signature Metaspell				TYPE:Aceldamist		VISIBLE:YES			PRECLASS:1,Aceldamist=1																																									SAB:Signature Metaspell																		MULT:YES
+Signature Spell Focus				TYPE:Aceldamist		VISIBLE:YES			PRECLASS:1,Aceldamist=1																																									SAB:Signature Spell Focus																	MULT:YES
+Signature Spell Immunity			TYPE:Aceldamist		VISIBLE:YES			PRECLASS:1,Aceldamist=1																																									SAB:Signature Spell Immunity																	MULT:YES
+Signature Spell Penetration			TYPE:Aceldamist		VISIBLE:YES			PRECLASS:1,Aceldamist=1																																									SAB:Signature Spell Penetration	DESC:Signature Spell Penetration										MULT:YES

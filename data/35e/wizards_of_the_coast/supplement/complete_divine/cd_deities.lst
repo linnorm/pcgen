@@ -9,6 +9,9 @@ Kurtulmak		KEY:Kurtulmak	DOMAINS:Evil,Law,Luck,Trickery|PREALIGN:LN,NE,LE		DEITY
 Lolth			KEY:Lolth		DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:CN,NE,CE	DEITYWEAP:Whip			ALIGN:LE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.114	SORTKEY:Gods_a
 Tiamat		KEY:Tiamat		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE	DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
 
+#Block: Shugenja support
+Shugenja Order	KEY:ShugenjaOrder	DOMAINS:Order of the All-Seeing Eye,Order of the Consuming Flame,Order of the Forbidding Wasteland,Order of the Gentle Rain,Order of the Impenetrable Crucible,Order of the Ineffable Mystery,Order of the Perfect Sculpture,Order of the Spring Zephyr|PREALIGN:LG,NG,CG,LN,TN,CN,LE,NE,CE		DEITYWEAP:ANY				ALIGN:TN	FACTSET:Pantheon|Base|CD
+
 ###Block: Greyhawk Deities
 
 #Beltar	KEY:Beltar		DOMAINS:Chaos, Earth, Evil, War|PREALIGN:LN,NE,LE		DEITYWEAP:Gauntlet (Spiked)	ALIGN:CE	FACTSET:Pantheon|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a

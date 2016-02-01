@@ -1,0 +1,23 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Authored- 1.0 $By - Art Gopher$
+SOURCELONG:The Sunless Citadel	SOURCESHORT:SunlessC	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name				Output Name							Type						Cost		Weight	Source Page		Bonus to skill					Special Property
+Ring (Dragonpriest)			OUTPUTNAME:Ring of the [NAME]				TYPE:Art.Ring.Specific			COST:5	WT:.01	SOURCEPAGE:p.10
+Amulet (Dragonpriest)			OUTPUTNAME:Amulet of the [NAME]			TYPE:Art.Amulet.Specific		COST:10	WT:.01	SOURCEPAGE:p.10
+Bracelet (Dragonpriest)			OUTPUTNAME:Bracelet of the [NAME]			TYPE:Art.Bracer.Specific		COST:15	WT:.01	SOURCEPAGE:p.10								SPROP:Adorned with stylized silver dragon designs.
+Ring (Karakas)				OUTPUTNAME:Ring of [NAME]				TYPE:Art.Ring.Specific			COST:10	WT:.01	SOURCEPAGE:p.17								SPROP:A gold ring engraved (in Common) with Karakas' name.
+Flask (Silver(Dwarven))			OUTPUTNAME:Flask, Dwarven Silver			TYPE:Art.Vial.Container.Specific	COST:50	WT:.01	SOURCEPAGE:p.21
+Goblet (Crystal)				OUTPUTNAME:Crystal Goblet				TYPE:Art.Container.Specific		COST:5	WT:.01	SOURCEPAGE:p.21
+Jade figurine (Large(Dragon))		OUTPUTNAME:Jade Figurine of a Dragon (Large)	TYPE:Art.Specific				COST:20	WT:.01	SOURCEPAGE:p.21
+Silverware (24 piece set)		OUTPUTNAME:Silverware, 24 piece set			TYPE:Art.Specific				COST:24	WT:10		SOURCEPAGE:p.21
+Case (Scroll(Khundrukar))		OUTPUTNAME:Scroll of [NAME]				TYPE:Art.Container.Specific		COST:100	WT:.01	SOURCEPAGE:p.21								SPROP:Carved of bone, carrying an inscription in Dwarven runes. An old crumbling parchment lies within.
+Candle (Continual Flame)		OUTPUTNAME:Candle of [NAME]				TYPE:Art.Specific				COST:50.01	WT:.01	SOURCEPAGE:p.16
+Statue (small)				OUTPUTNAME:Statue, small				TYPE:Art.Specific				COST:30	WT:2		SOURCEPAGE:p.22
+Moonstone Ring (small(silver))	OUTPUTNAME:Silver Moonstone Ring (small)		TYPE:Art.Ring.Specific			COST:20	WT:.01	SOURCEPAGE:p.22
+Goblin Poultice												TYPE:Goods.Potion				COST:10	WT:.01	SOURCEPAGE:p.24	BONUS:SKILL|Heal|2|TYPE=Circumstance	SPROP:One-use poultice with a +2 bonus to heal checks when applied to the wound.
+Goblin Liqueur (cask)			OUTPUTNAME:Goblin Liqueur, cask			TYPE:Goods.Liquid.Food			COST:.05	WT:64		SOURCEPAGE:p.24
+Tome (Dragon Lore)			OUTPUTNAME:Tome of [NAME]				TYPE:Goods.Book.Specific		COST:150	WT:.01	SOURCEPAGE:p.26								SPROP:Character fluent in Draconic can use it to add a +1 bonus to all knowledge checks dealing with Dragons.
+Treasures of the Fire Lords										TYPE:Goods.Book.Specific		COST:.01	WT:.01	SOURCEPAGE:p.26								SPROP:Enchanted with a Fire Trap spell, per the PHB.
+Tome (Druidic)				OUTPUTNAME:Druidic Tome					TYPE:Goods.Book.Specific		COST:150	WT:.01	SOURCEPAGE:p.26								SPROP:Character fluent in Druidic can add +1 to all knowledge checks dealing with nature.
+Ring (Gold(Sapphire))			OUTPUTNAME:Gold Sapphire Ring				TYPE:Art.Ring.Specific			COST:25	WT:.01	SOURCEPAGE:p.20

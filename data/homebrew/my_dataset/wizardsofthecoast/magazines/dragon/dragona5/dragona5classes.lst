@@ -1,0 +1,56 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine Annual #5	SOURCESHORT:WotC-Dragon Annual #5	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Define			Save checks bonus																WEAPONAUTO
+CLASS:Gnome Trickster	HD:6		TYPE:PC.Prestige	ABB:Gtr		MAXLEVEL:10	SOURCEPAGE:p.80	DEFINE:BAB|(3*(CL+1))/4	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|CL/3	WEAPONAUTO:SIMPLE
+# Class Name		Required Feat		Required Race	Required Skill										Required Spell School		Req. Spell Type
+CLASS:Gnome Trickster	PREFEAT:1,Expertise	PRERACE:1,Gnome	PRESKILL:1,Bluff=7	PRESKILL:1,Hide=3	PRESKILL:1,Pick Pocket=5	PRESPELLSCHOOL:1,Illusion=1	PRESPELLTYPE:1,Arcane=1
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Gnome Trickster	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Escape Artist|Hide|Innuendo|Listen|Move Silently|TYPE.Perform|Pick Pocket|Sense Motive|Spot|Tumble
+1	SAB:Misdirection %/day|1														AUTO:FEAT|Simple Weapon Proficiency
+2	SAB:Illusion Expertise						BONUS:SKILL|Escape Artist,Tumble|2
+3																BONUS:STAT|CHA|2
+4	SAB:Misdirection %/day|1	SAB:Size Combat
+5	SAB:Extended Illusion
+6	SAB:Repeated Strike
+7	SAB:Enlarge Illusion	SAB:Misdirection %/day|1
+8	SAB:Bonus Illusion
+9	SAB:Quicken Illusion
+10	SAB:Fade Away	SAB:Misdirection %/day|1
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus					WEAPONAUTO
+CLASS:Herald	HD:6		TYPE:PC.Prestige	ABB:Her		MAXLEVEL:10	SOURCEPAGE:p.86	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name	Req. Att.	Required Language	Required Skill
+CLASS:Herald	PREATT:4	PRELANG:3,ANY	PRESKILL:2,Bluff,Sense Motive=4	PRESKILL:2,Diplomacy,Gather Information=6
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Herald	STARTSKILLPTS:4	CSKILL:Bluff|Decipher Script|Diplomacy|Disguise|Forgery|Gather Information|Hide|Innuendo|Intimidate|TYPE.Knowledge|Listen|Move Silently|Open Lock|TYPE.Perform|Read Lips|Scry|Search|Sense Motive|Speak Language|Spot
+# Class Name	Spell Stat		Spell Type		Memorize
+CLASS:Herald	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO
+1	CAST:2,0		KNOWN:3,1		SAB:False Alignment																				AUTO:FEAT|Armor Proficiency (Light)
+2	CAST:3,1		KNOWN:4,2		SAB:Sneak Attack +%d%|Sneak Attack|Sneak Attack Die	BONUS:VAR|Sneak Attack|1	DEFINE:Sneak Attack Die|6	DEFINE:Sneak Attack|0
+3	CAST:3,1,0		KNOWN:4,2,1											BONUS:VAR|UncannyDodge|1										AUTO:FEAT|Uncanny Dodge
+4	CAST:3,2,1		KNOWN:4,3,2											BONUS:VAR|Sneak Attack|1
+5	CAST:4,2,1,0	KNOWN:5,3,2,1	SAB:Nondetection
+6	CAST:4,2,2,1	KNOWN:5,3,3,2										BONUS:VAR|Sneak Attack|1
+7	CAST:4,3,2,1,0	KNOWN:5,4,3,2,1										BONUS:VAR|UncannyDodge|1
+8	CAST:4,3,2,2,1	KNOWN:5,4,3,3,2										BONUS:VAR|Sneak Attack|1
+9	CAST:4,3,3,2,1	KNOWN:5,4,4,3,2	SAB:Skill Mastery
+10	CAST:4,4,3,2,2	KNOWN:5,4,4,3,3										BONUS:VAR|Sneak Attack|1
+
+# Class Name				Hit Dice	Type			Abbreviation	Max Level	Source Page		Def		Save checks bonus																Combat bonus					Reputation	WEAPONAUTO
+CLASS:Purple Dragon Highknight	HD:10		TYPE:PC.Prestige	ABB:PHk		MAXLEVEL:10	SOURCEPAGE:p.	DEF:0,-2	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	REP:2		WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name				Required AL		Req. Att.	Required Feat
+CLASS:Purple Dragon Highknight	PREALIGN:LG,NG,CG	PREATT:8	PREFEAT:3,Dodge,Endurance,Great Fortitude
+# Class Name				Skill Pts/Lvl	Class Skill
+CLASS:Purple Dragon Highknight	STARTSKILLPTS:2	CSKILL:Balance|Concentration|Diplomacy|Listen|Move Silently|Sense Motive|Spot
+1						SAB:Dauntless Guard														AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency
+2																		BONUS:VAR|UncannyDodge|1	AUTO:FEAT|Uncanny Dodge
+3						SAB:Magic Resistance (1)
+4						SAB:Natural Armor (+1)						BONUS:COMBAT|AC|1
+5						SAB:Poison resistance
+6	SA:.CLEAR.Magic Resistance	SAB:Magic Resistance (2)
+7																		BONUS:VAR|UncannyDodge|1
+8	SA:.CLEAR.Natural Armor		SAB:Natural Armor (+2)						BONUS:COMBAT|AC|1
+9	SA:.CLEAR.Magic Resistance	SAB:Magic Resistance (3)
+10	SA:.CLEAR.Poison Resistance	SAB:Poison resistance (immunity to secondary damage)
+

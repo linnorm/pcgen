@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Dwarf	SOURCESHORT:QuintDwarf	SOURCEWEB:http://mongoosepublishing.com
+
+# Domain Name	Source Page		Description
+Mining		SOURCEPAGE:pg. 88	DESC:By expending one turning attempt, clerics with this domain may add their level as a bonus to any single Profession (mining) or Knowledge (engineering) check.
+Smith			SOURCEPAGE:pg. 88	DESC:Clerics with this domain receive a divine bonus equal to one half their current level for all Craft (weaponsmith) or Craft (armoursmith) checks made while within a smithy blessed by their priesthood.
+Secrets		SOURCEPAGE:pg. 88	DESC:By expending one of their turning (or rebuking) attempts for the day, clerics with this domain may cast the Discern Lies spell.  When cast through the use of this granted power, the cleric is treated as if his level were doubled.

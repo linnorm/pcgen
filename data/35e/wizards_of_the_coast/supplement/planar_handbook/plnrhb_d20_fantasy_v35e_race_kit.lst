@@ -1,0 +1,342 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+STARTPACK:Aasimar ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aasimar]
+RACE:Aasimar	!PRERACE:1,%
+NAME:Aasimar
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Bariaur ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Bariaur]
+RACE:Bariaur	!PRERACE:1,%
+NAME:Bariaur
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Buomman ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Buomman]
+RACE:Buomman	!PRERACE:1,%
+NAME:Buomman
+ALIGN:LG|LN|LE|NG|TN|NE
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Mephling (Water) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mephling (Water)]
+RACE:Mephling (Water)	!PRERACE:1,%
+NAME:Mephling (Water)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Mephling (Earth) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mephling (Earth)]
+RACE:Mephling (Earth)	!PRERACE:1,%
+NAME:Mephling (Earth)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Mephling (Fire) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mephling (Fire)]
+RACE:Mephling (Fire)	!PRERACE:1,%
+NAME:Mephling (Fire)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Mephling (Air) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mephling (Air)]
+RACE:Mephling (Air)	!PRERACE:1,%
+NAME:Mephling (Air)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Neraph ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Neraph]
+RACE:Neraph	!PRERACE:1,%
+NAME:Neraph
+ALIGN:CG|CN|CE
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Shadowswyft ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shadowswyft]
+RACE:Shadowswyft	!PRERACE:1,%
+NAME:Shadowswyft
+ALIGN:NG|TN|NE|CG|CN|CE
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Spiker ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spiker]
+RACE:Spiker	!PRERACE:1,%
+NAME:Spiker
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Tiefling ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Tiefling]
+RACE:Tiefling	!PRERACE:1,%
+NAME:Tiefling
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Wildren ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Wildren]
+RACE:Wildren	!PRERACE:1,%
+NAME:Wildren
+ALIGN:CG|NG|TN|CN
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Avoral Guardinal Monster Class ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Avoral Guardinal Monster Class]
+RACE:Avoral Guardinal Monster Class	!PRERACE:1,%
+NAME:Avoral Guardinal Monster Class
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Chain Devil Monster Class ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Chain Devil Monster Class]
+RACE:Chain Devil Monster Class	!PRERACE:1,%
+NAME:Chain Devil Monster Class
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Hound Archon Monster Class ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Hound Archon Monster Class]
+RACE:Hound Archon Monster Class	!PRERACE:1,%
+NAME:Hound Archon Monster Class
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Janni Monster Class ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Janni Monster Class]
+RACE:Janni Monster Class	!PRERACE:1,%
+NAME:Janni Monster Class
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Lillend Monster Class ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Lillend Monster Class]
+RACE:Lillend Monster Class	!PRERACE:1,%
+NAME:Lillend Monster Class
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Kraken (Astral) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kraken (Astral)]
+RACE:Kraken (Astral)	!PRERACE:1,%
+NAME:Kraken (Astral)
+ALIGN:LN|NG|TN|NE|CN
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dharculus ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dharculus]
+RACE:Dharculus	!PRERACE:1,%
+NAME:Dharculus
+SKILL:Listen	RANK:10
+SKILL:Spot		RANK:10
+FEAT:Improved Initiative
+FEAT:Iron Will
+FEAT:Weapon Finesse
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dwarf (Frost) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dwarf (Frost)]
+RACE:Dwarf (Frost)	!PRERACE:1,%
+NAME:Dwarf (Frost)
+ALIGN:CE
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Elementite Swarm (Air) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elementite Swarm (Air)]
+RACE:Elementite Swarm (Air)	!PRERACE:1,%
+NAME:Elementite Swarm (Air)
+SKILL:Hide		RANK:7
+SKILL:Listen	RANK:7
+SKILL:Spot		RANK:7
+FEAT:Alertness
+FEAT:Dodge
+FEAT:Improved Initiative
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Elementite Swarm (Earth) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elementite Swarm (Earth)]
+RACE:Elementite Swarm (Earth)	!PRERACE:1,%
+NAME:Elementite Swarm (Earth)
+SKILL:Hide		RANK:12
+SKILL:Listen	RANK:5
+SKILL:Spot		RANK:5
+FEAT:Toughness
+FEAT:Toughness
+FEAT:Toughness
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Elementite Swarm (Fire) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elementite Swarm (Fire)]
+RACE:Elementite Swarm (Fire)	!PRERACE:1,%
+NAME:Elementite Swarm (Fire)
+SKILL:Hide	RANK:8
+SKILL:Spot	RANK:10
+FEAT:Ability Focus(Burn)
+FEAT:Ability Focus(Distraction)
+FEAT:Improved Initiative
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Elementite Swarm (Water) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elementite Swarm (Water)]
+RACE:Elementite Swarm (Water)	!PRERACE:1,%
+NAME:Elementite Swarm (Water)
+SKILL:Hide		RANK:8
+SKILL:Listen	RANK:7
+SKILL:Spot		RANK:7
+FEAT:Alertness
+FEAT:Improved Initiative
+FEAT:Toughness
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Elsewhale ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elsewhale]
+RACE:Elsewhale	!PRERACE:1,%
+NAME:Elsewhale
+SKILL:Listen	RANK:10
+SKILL:Spot		RANK:9
+FEAT:Alertness
+FEAT:Diehard
+FEAT:Endurance
+FEAT:Improved Natural Attack(Bite)
+FEAT:Toughness
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Thrush (Elysian) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Thrush (Elysian)]
+RACE:Thrush (Elysian)	!PRERACE:1,%
+NAME:Thrush (Elysian)
+ALIGN:NG
+SKILL:Listen	RANK:2
+SKILL:Spot		RANK:2
+FEAT:Weapon Finesse
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Energon (Xac-Yel) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Xac-Yel)]
+RACE:Energon (Xac-Yel)	!PRERACE:1,%
+NAME:Energon (Xac-Yel)
+ALIGN:LN|NG|TN|NE|CN
+SKILL:Hide				RANK:8
+SKILL:Knowledge (The Planes)	RANK:8
+SKILL:Search			RANK:8
+SKILL:Sense Motive		RANK:8
+SKILL:Spot				RANK:8
+FEAT:Dodge
+FEAT:Improved Initiative
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Energon (Xac-Yij) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Xac-Yij)]
+RACE:Energon (Xac-Yij)	!PRERACE:1,%
+NAME:Energon (Xac-Yij)
+ALIGN:LN|NG|TN|NE|CN
+SKILL:Diplomacy			RANK:2
+SKILL:Survival			RANK:8
+SKILL:Hide				RANK:8
+SKILL:Knowledge (The Planes)	RANK:8
+SKILL:Search			RANK:8
+SKILL:Sense Motive		RANK:8
+SKILL:Spot				RANK:8
+FEAT:Weapon Focus(Incorporeal Touch)
+FEAT:Weapon Focus(Ray)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Energon (Xac-Yaup) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Xac-Yaup)]
+RACE:Energon (Xac-Yaup)	!PRERACE:1,%
+NAME:Energon (Xac-Yaup)
+ALIGN:LN|NG|TN|NE|CN
+SKILL:Hide				RANK:8
+SKILL:Knowledge (The Planes)	RANK:8
+SKILL:Search			RANK:8
+SKILL:Sense Motive		RANK:8
+SKILL:Spot				RANK:8
+FEAT:Combat Reflexes
+FEAT:Lightning Reflexes
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Energon (Xong-Yong) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Xong-Yong)]
+RACE:Energon (Xong-Yong)	!PRERACE:1,%
+NAME:Energon (Xong-Yong)
+ALIGN:LN|NG|TN|NE|CN
+SKILL:Hide				RANK:8
+SKILL:Knowledge (The Planes)	RANK:8
+SKILL:Search			RANK:8
+SKILL:Sense Motive		RANK:8
+SKILL:Spot				RANK:8
+FEAT:Iron Will
+FEAT:Toughness
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Energon (Xor-Yost) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Xor-Yost)]
+RACE:Energon (Xor-Yost)	!PRERACE:1,%
+NAME:Energon (Xor-Yost)
+ALIGN:LN|NG|TN|NE|CN
+SKILL:Hide				RANK:8
+SKILL:Knowledge (The Planes)	RANK:8
+SKILL:Search			RANK:8
+SKILL:Sense Motive		RANK:8
+SKILL:Spot				RANK:8
+SKILL:Survival			RANK:8
+FEAT:Great Fortitude
+FEAT:Toughness
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Gaspar ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gaspar]
+RACE:Gaspar	!PRERACE:1,%
+NAME:Gaspar
+ALIGN:LN|NG|TN|NE|CN
+SKILL:Listen	RANK:7
+SKILL:Spot		RANK:10
+FEAT:Alertness
+FEAT:Weapon Focus(Gore)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Gnome (Fire) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gnome (Fire)]
+RACE:Gnome (Fire)	!PRERACE:1,%
+NAME:Gnome (Fire)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Limbo Stalker ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Limbo Stalker]
+RACE:Limbo Stalker	!PRERACE:1,%
+NAME:Limbo Stalker
+ALIGN:CN
+SKILL:Listen	RANK:2
+SKILL:Spot		RANK:2
+FEAT:Multiattack
+FEAT:Track
+FEAT:Weapon Focus(Claws)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Nightmare (Lesser) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nightmare (Lesser)]
+RACE:Nightmare (Lesser)	!PRERACE:1,%
+NAME:Nightmare (Lesser)
+ALIGN:NE
+SKILL:Concentration		RANK:9
+SKILL:Listen			RANK:9
+SKILL:Move Silently		RANK:9
+SKILL:Search			RANK:9
+SKILL:Sense Motive		RANK:9
+SKILL:Spot				RANK:9
+SKILL:Survival			RANK:9
+SKILL:Knowledge (The Planes)	RANK:10
+FEAT:Alertness
+FEAT:Improved Initiative
+FEAT:Run
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Pack Fiend ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Pack Fiend]
+RACE:Pack Fiend	!PRERACE:1,%
+NAME:Pack Fiend
+ALIGN:NE
+SKILL:Climb			RANK:8
+SKILL:Jump			RANK:4
+SKILL:Hide			RANK:2
+SKILL:Move Silently	RANK:2
+SKILL:Listen		RANK:1
+SKILL:Spot			RANK:1
+SKILL:Survival		RANK:10
+FEAT:Alertness
+FEAT:Improved Initiative
+FEAT:Stealthy
+FEAT:Track
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Shadow Jelly ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shadow Jelly]
+RACE:Shadow Jelly	!PRERACE:1,%
+NAME:Shadow Jelly
+ALIGN:LN|NG|TN|NE|CN
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Unraveler ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Unraveler]
+RACE:Unraveler	!PRERACE:1,%
+NAME:Unraveler
+ALIGN:LN
+SKILL:Climb			RANK:11
+SKILL:Escape Artist	RANK:11
+SKILL:Hide			RANK:11
+SKILL:Listen		RANK:11
+SKILL:Search		RANK:11
+SKILL:Spot			RANK:11
+SKILL:Jump			RANK:13
+SKILL:Tumble		RANK:13
+FEAT:Improved Initiative
+FEAT:Lightning Reflexes
+FEAT:Toughness
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Ur'Epona ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ur'Epona]
+RACE:Ur'Epona	!PRERACE:1,%
+NAME:Ur'Epona
+SKILL:Listen	RANK:3
+SKILL:Spot		RANK:3
+FEAT:Endurance
+FEAT:Run
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Ooze (Void) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ooze (Void)]
+RACE:Ooze (Void)	!PRERACE:1,%
+NAME:Ooze (Void)
+ALIGN:LN|NG|TN|NE|CN
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10

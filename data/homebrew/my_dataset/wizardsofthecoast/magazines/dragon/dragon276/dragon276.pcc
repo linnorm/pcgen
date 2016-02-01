@@ -1,0 +1,12 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+CAMPAIGN:WotC - DnD Magazines - Dragon Issue #276
+GAMEMODE:3e
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dragon Magazine #276
+SOURCESHORT:WotC-Dragon #276
+SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+CLASS:dragon276classes.lst
+SPELL:dragon276spells.lst

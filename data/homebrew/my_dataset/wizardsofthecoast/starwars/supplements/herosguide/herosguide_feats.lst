@@ -1,0 +1,18 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Hero's Guide	SOURCESHORT:HeroGuide	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: General Feats
+# Feat Name		Output Name				Type							Required Feat	Required Stat	Description							Bonus to skill
+Agile Riposte						TYPE:General.Soldier.Consular.Guardian	PREFEAT:1,Dodge	PRESTAT:1,DEX=13
+Card Shark							TYPE:General											DESC:+2 to Gamble and Sleight of Hand		BONUS:SKILL|Gamble,Sleight of Hand|2|TYPE=Aptitude
+Self Sufficient	OUTPUTNAME:Self-Sufficient	TYPE:General.Fringer.Scout									DESC:+2 to Survival and Treat Injury		BONUS:SKILL|Survival,Treat Injury|2|TYPE=Aptitude
+Shadow							TYPE:General											DESC:+2 to Hide and Spot				BONUS:SKILL|Hide,Spot|2|TYPE=Aptitude
+Skeptical							TYPE:General								PRESTAT:1,WIS=13	DESC:+2 to Gather Information and Sense Motive	BONUS:SKILL|Gather Information,Sense Motive|2|TYPE=Aptitude
+
+
+#Block: Force Feats
+Kinetic Might						TYPE:Force												DESC:+2 to Force Strike and Move Object		BONUS:SKILL|Force Strike,Move Object|2|TYPE=Aptitude
+Peacemaker							TYPE:Force												DESC:+2 to Diplomacy and Friendship			BONUS:SKILL|Diplomacy,Friendship|2|TYPE=Aptitude
+
+
+#Block: .MODed Feats

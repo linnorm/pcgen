@@ -1,0 +1,12 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original Entry by Barak 07/09/03
+SOURCELONG:Return to the Temple of Elemental Evil	SOURCESHORT:RttToEE	SOURCEWEB:http://www.wizards.com/
+
+# Feat Name			Type				Visible	Var. Min. Value					Special Ability				Bonus to HP			Modify VAR
+Demon's Name		TYPE:DoomdreamerSecret	VISIBLE:NO	PREVARGTEQ:DoomdreamerSecretQualify,1	SAB:Demon's Name (Ex)
+Unnatural Vitality	TYPE:DoomdreamerSecret	VISIBLE:NO	PREVARGTEQ:DoomdreamerSecretQualify,2	SAB:Unnatural Vitalilty (Ex)		BONUS:HP|CURRENTMAX|3
+Deeper Madness		TYPE:DoomdreamerSecret	VISIBLE:NO	PREVARGTEQ:DoomdreamerSecretQualify,3	SAB:Deeper Madness (Ex)							BONUS:VAR|Insanity|2
+Curse of Power		TYPE:DoomdreamerSecret	VISIBLE:NO	PREVARGTEQ:DoomdreamerSecretQualify,4	SAB:Curse of Power (Su)
+Paying Fealty to Death	TYPE:DoomdreamerSecret	VISIBLE:NO	PREVARGTEQ:DoomdreamerSecretQualify,5	SAB:Paying Fealty to Death (Su)
+Kiss of Undeath		TYPE:DoomdreamerSecret	VISIBLE:NO	PREVARGTEQ:DoomdreamerSecretQualify,6	SAB:Kiss of Undeath (Su)
+Unholy Pact			TYPE:DoomdreamerSecret	VISIBLE:NO	PREVARGTEQ:DoomdreamerSecretQualify,7	SAB:Unholy PAct (Ex)

@@ -1,0 +1,10 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AEG	SOURCEWEB:http://www.wizards.com/starwars
+
+
+#Block: Weapon mods
+# Modifier Name	Unique Key	Type				Cost			Visible		Type granted		Source Page		Required Type									Bonus Weapon Modifiers
+Range Increase	KEY:RNGINC	TYPE:Weapon.Ranged	COST:(COST*1.5)	VISIBLE:QUALIFY	ITYPE:RangeIncrease	SOURCEPAGE:pg. 6	PRETYPE:1,BlasterPistol,BlasterRifle,Slugthrower,HeavyWeapon	BONUS:EQMWEAPON|RANGEMULT|1.5
+
+# Used for testing which items to allow editing on. Any item with the properties listed will not be allowed to be edited
+#EXCLUDEEQ_PHB											VISIBLE:NO		ITYPE:Masterwork.Adamantine.Silvered

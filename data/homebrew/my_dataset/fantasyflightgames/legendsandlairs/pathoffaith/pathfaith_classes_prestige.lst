@@ -1,0 +1,255 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# CVS
+SOURCELONG:Fantasy Flight Games - Path of Faith	SOURCESHORT:Faith	SOURCEWEB:http://www.fantasyflightgames.com/dd36.html
+# Original Entry by: Ratheof Blithwyn
+
+
+#
+# Prestige classes
+#
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Child of the Wood	HD:8		TYPE:PC.Prestige	ABB:Cow		MAXLEVEL:10	SOURCEPAGE:p.5	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required AL			Required Feat			Required Race						Req. Special Ability	Required Skill								Required Stat	Required Text
+CLASS:Child of the Wood	PREALIGN:LN,NG,TN,NE,CN	PREFEAT:2,Alertness,Track	PRERACE:1,Human,Elf,Half-Elf,Halfling,Gnome	PRESA:1,Wildshape		PRESKILL:1,Knowledge (Nature)=8	PRESKILL:1,Survival=6	PRESTAT:1,CHA=14	PRETEXT:A character must have befriended a dryad and be given the title of friend of the forest.
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Child of the Wood	STARTSKILLPTS:4	CSKILL:Concentration|Climb|Handle Animal|Heal|Hide|Knowledge (Nature)|Listen|Swim|Spellcraft|Spot|Survival
+1	SAB:Claws	SAB:Fey Beauty				ADD:SPELLCASTER|Divine												AUTO:WEAPONPROF|Quarterstaff|Club|Sling|Whip|Net
+2	SAB:Lifespeak						ADD:SPELLCASTER|Divine
+3	SAB:Wildshape (plant)	SAB:Spring's Touch	ADD:SPELLCASTER|Divine	SPELLS:Innate|TIMES=1|Plant Growth
+4	SAB:Control Plants					ADD:SPELLCASTER|Divine	SPELLS:Innate|TIMES=1|Control Plants
+5	SAB:Path of Roots						ADD:SPELLCASTER|Divine
+6	SAB:Improved Claws	SAB:Spirit Guide		ADD:SPELLCASTER|Divine
+7	SAB:Oakskin							ADD:SPELLCASTER|Divine
+8	SAB:Blood of Life						ADD:SPELLCASTER|Divine
+9	SAB:Tree Meld						ADD:SPELLCASTER|Divine
+10	SAB:Force of Nature	SAB:Fey Perfection	ADD:SPELLCASTER|Divine								TEMPLATE:Fey Perfection
+# add CHA18 at level 10,
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Daughter of Storms	HD:8		TYPE:PC.Prestige	ABB:Dos		MAXLEVEL:10	SOURCEPAGE:p.10	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name			Required Feat			Required Gender	Required Skill								Req. Spell Type		Required Text
+CLASS:Daughter of Storms	PREFEAT:1,Great Fortitude	PREGENDER:F		PRESKILL:1,Knowledge (Nature)=5	PRESKILL:1,Survival=10	PRESPELLTYPE:1,Divine=4	PRETEXT:As an act of faith, the prospective daughter of storms must be struck with a bolt of lightning and survive.
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Daughter of Storms	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|TYPE.Profession|Spellcraft|Swim|Survival
+1				SAB:Trial by Storm	BONUS:CHECKS|Fortitude|1|TYPE=Sacred								ADD:SPELLCASTER|Divine	AUTO:WEAPONPROF|Club|Dagger|Dart|Longspear|Quarterstaff|Scimitar|Sickle|Shortspear|Sling
+2				SAB:Child of the Wild								BONUS:SKILL|Survival|2|TYPE=Circumstance	ADD:SPELLCASTER|Divine
+3				SAB:Embracing the Storm															ADD:SPELLCASTER|Divine
+4				SAB:Wrath of Storms															ADD:SPELLCASTER|Divine
+5				SAB:Spark of Power															ADD:SPELLCASTER|Divine
+6				SAB:Freedom of Casting															ADD:SPELLCASTER|Divine
+7				SAB:Summon Storm																ADD:SPELLCASTER|Divine
+8				SAB:Bond of Nature															ADD:SPELLCASTER|Divine
+9				SAB:Queen of Storms															ADD:SPELLCASTER|Divine
+10	SR:15	DR:10/+2	SAB:Goddess of Storms															ADD:SPELLCASTER|Divine
+# It is unclear if "+1 level of existing class" allows for Arcane spellcasting but since this is basically a druid prestige class I went with Divine
+# Is it possible to do anything more with "Freedom of Casting"?
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Dervish	HD:10		TYPE:PC.Prestige	ABB:Der		MAXLEVEL:10	SOURCEPAGE:p.14	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required AL		Req. Att.	Required Feat					Multiple Requirements							Required Skill
+CLASS:Dervish	PREALIGN:DEITY	PREATT:6	PREFEAT:3,Dodge,Expertise,Weapon Focus	PREMULT:1,[PREVARGT:SmiteGood,1],[PREVARGT:SmiteEvil,1]	PRESKILL:1,Knowledge (Religion)=6	PRESKILL:1,Tumble=3
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Dervish	STARTSKILLPTS:2	CSKILL:Balance|Climb|TYPE.Craft|Jump|Knowledge (Religion)|TYPE.Profession|Tumble
+1	SAB:Perfect Piety	SAB:Zealous Strike +%d6|ZealousStrike												BONUS:VAR|ZealousStrike|(CL+3)/4	DEFINE:ZealousStrike|0							AUTO:FEAT|Armor Proficiency (Light)|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Simple|TYPE.Martial
+2																						BONUS:VAR|UncannyDodge|1												AUTO:FEAT|Uncanny Dodge
+3	SAB:Shield of Faith							BONUS:COMBAT|AC|WISMAX0|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0
+4	SAB:Gracious Movement %/day|WIS
+6																						BONUS:VAR|UncannyDodge|1
+7																																ADD:VFEAT(Weapon Specialization)1
+10	SAB:Whirlwind Attack %/day|WIS
+# Weapon Focus should be in Deity's favored weapon
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Exorcist	HD:8		TYPE:PC.Prestige	ABB:Exo		MAXLEVEL:10	SOURCEPAGE:p.18	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required Feat				Required Language	Required Skill				Req. Spell Type
+CLASS:Exorcist	PREFEAT:2,Extra Turning,Iron Will	PRELANG:1,Abyssal	PRESKILL:1,Knowledge (Undead)=3	PRESPELLTYPE:1,Divine=3
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Exorcist	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Gather Information|Heal|Intimidate|Knowledge (The Planes)|Knowledge (Religion)|Knowledge (Undead)|TYPE.Profession|Sense Motive|Spellcraft
+1	SAB:Detect Undead	SAB:Ghostblade (+%d4)|Ghostblade	BONUS:VAR|Ghostblade|(CL+2)/3	DEFINE:Ghostblade|0	ADD:SPELLCASTER|Divine	SPELLS:Innate|TIMES=1|Detect Undead	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Simple
+2	SAB:Deathspeak	SAB:Fearless													ADD:SPELLCASTER|Divine
+3																			ADD:SPELLCASTER|Divine
+4	SAB:Mistwalk																ADD:SPELLCASTER|Divine
+5	SAB:Control Possession															ADD:SPELLCASTER|Divine
+6																			ADD:SPELLCASTER|Divine
+7	SAB:Ethereal Sight															ADD:SPELLCASTER|Divine
+8	SAB:Spirit Grip																ADD:SPELLCASTER|Divine
+9																			ADD:SPELLCASTER|Divine
+10	SAB:Banishment	SAB:Expel														ADD:SPELLCASTER|Divine
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Faith Guardian	HD:8		TYPE:PC.Prestige	ABB:Fgu		MAXLEVEL:10	SOURCEPAGE:p.22	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Feat			Required Skill															Req. Spell Type
+CLASS:Faith Guardian	PREFEAT:1,Skill Focus(Heal)	PRESKILL:1,Craft (Alchemy)=3	PRESKILL:2,Concentration,Profession (Herbalist)=4	PRESKILL:1,Heal=8	PRESPELLTYPE:1,Divine=1
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Faith Guardian	STARTSKILLPTS:2	CSKILL:Concentration|Craft (Alchemy)|Heal|Knowledge (Religion)|TYPE.Profession|Spellcraft|Survival
+1	SAB:Shield Other													SPELLS:Innate|TIMES=1|Shield Other		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Simple
+2	SAB:Field of Peace								ADD:SPELLCASTER|Divine
+3	SAB:Hands of the Healer	BONUS:SKILL|Heal|2|TYPE=Circumstance
+4	SAB:Restore Mind									ADD:SPELLCASTER|Divine	SPELLS:Innate|TIMES=1|Break Enchantment
+5	SAB:Elemental Sphere
+6	SAB:Sacred Ground									ADD:SPELLCASTER|Divine
+7	SAB:Eyes of the Healer								ADD:SPELLCASTER|Divine
+8	SAB:Fear of Redemption								ADD:SPELLCASTER|Divine
+9	SAB:Divine Resilience								ADD:SPELLCASTER|Divine
+10	SAB:Soul of the Healer								ADD:SPELLCASTER|Divine
+# Field of Peace is level 2 as described but level 6 in table. Sacred Ground 6<->2. Table looks to be wrong here.
+# Spells every 2 levels does not rhyme with the table. Going with the table for now. Couldn't find an errata for this book.
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Hound Master	HD:8		TYPE:PC.Prestige	ABB:Hma		MAXLEVEL:10	SOURCEPAGE:p.25	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required Feat	Required Skill					Req. Known Spell			Required Text
+CLASS:Hound Master	PREFEAT:1,Track	PRESKILL:2,Handle Animal,Survival=10	PRESPELL:1,Animal Friendship	PRETEXT:To become a hound master the character must track and tame one of the following: riding dog, wolf, blink dog, dire wolf, hell hound, or howler.
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Hound Master	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Intimidate|Knowledge (Nature)|TYPE.Profession|Spellcraft|Swim|Survival
+1	SAB:Beast Tamer +%|BeastTamer		BONUS:VAR|BeastTamer|(CL+3)/3	DEFINE:BeastTamer|0	ADD:SPELLCASTER|Divine								AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Shield Proficiency	AUTO:WEAPONPROF|Club|Dagger|Dart|Longspear|Quarterstaff|Scimitar|Sickle|Shortspear|Sling
+2	SAB:Improved Animal Friendship										ADD:SPELLCASTER|Divine
+3																ADD:SPELLCASTER|Divine
+4																ADD:SPELLCASTER|Divine	ADD:FEAT|1|TYPE=HoundMasterTechnique
+5	SAB:Bond of Life													ADD:SPELLCASTER|Divine
+6																ADD:SPELLCASTER|Divine
+7	SAB:Scent														ADD:SPELLCASTER|Divine
+8																ADD:SPELLCASTER|Divine	ADD:FEAT|1|TYPE=HoundMasterTechnique
+9																ADD:SPELLCASTER|Divine
+10	SAB:Hound Master													ADD:SPELLCASTER|Divine	ADD:FEAT|1|TYPE=HoundMasterTechnique
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Inquisitor	HD:8		TYPE:PC.Prestige	ABB:Inq		MAXLEVEL:10	SOURCEPAGE:p.28	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required AL		Required Feat		Required Skill												Req. Spell Type		Required Text
+CLASS:Inquisitor	PREALIGN:LG,LN,LE	PREFEAT:1,Alertness	PRESKILL:1,Knowledge (Religion)=8	PRESKILL:2,Gather Information,Sense Motive=3	PRESPELLTYPE:1,Divine=1	PRETEXT:Must be granted inquisitorial authority by a religious leader with the legal ability to grant such authority.
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Diplomacy|Gather Information|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|Search|Sense Motive|Spot
+1	SAB:Ecclesiastical Sanction	SAB:Investigation										ADD:SPELLCASTER|Divine							AUTO:FEAT|Armor Proficiency (Light)|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Simple
+2	SAB:Discern Lies %/day|DiscernLies			BONUS:VAR|DiscernLies|CL/2	DEFINE:DiscernLies|0	ADD:SPELLCASTER|Divine	SPELLS:Innate|TIMES=1|Discern Lies
+3	SAB:Conviction	SAB:Rend the Veil												ADD:SPELLCASTER|Divine
+4																		ADD:SPELLCASTER|Divine
+5	SAB:Zone of Truth %/day|ZoneofTruth								DEFINE:ZoneofTruth|1	ADD:SPELLCASTER|Divine
+6																		ADD:SPELLCASTER|Divine
+7									BONUS:VAR|ZoneofTruth|1						ADD:SPELLCASTER|Divine
+8																		ADD:SPELLCASTER|Divine
+9	SAB:Compel Confession														ADD:SPELLCASTER|Divine
+10																		ADD:SPELLCASTER|Divine
+
+
+# Class Name				Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Keeper of the Black Flame	HD:8		TYPE:PC.Prestige	ABB:Kbf		MAXLEVEL:10	SOURCEPAGE:p.32	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name				Required AL		Required Skill								Req. Spell Type		Required Text
+CLASS:Keeper of the Black Flame	PREALIGN:LE,NE,CE	PRESKILL:1,Knowledge (Religion)=10	PRESKILL:1,Bluff=3	PRESPELLTYPE:1,Divine=4	PRETEXT:A character must gain knowledge of and worship the ancient dark god of destruction.
+# Class Name				Skill Pts/Lvl	Class Skill
+CLASS:Keeper of the Black Flame	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Gather Information|Heal|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|Listen|Sense Motive|Speak Language|Spellcraft|Spot
+1			SAB:Agent of the Black Flame																					ADD:SPELLCASTER|1|ANY	SPELLS:Innate|TIMES=1|Detect Good	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Simple
+2			SAB:Blessing of the Dark God +%|BlessingDarkGod	BONUS:CHECKS|ALL|BlessingDarkGod	BONUS:VAR|BlessingDarkGod|CL/2	DEFINE:BlessingDarkGod|0	ADD:SPELLCASTER|1|ANY
+3			SAB:Protector of the Black Flame																				ADD:SPELLCASTER|1|ANY
+4																												ADD:SPELLCASTER|1|ANY
+5			SAB:Touched by the Black Flame																				ADD:SPELLCASTER|1|ANY
+6			SAB:Vessel of the Black Flame																					ADD:SPELLCASTER|1|ANY
+7			SAB:Caressed by the Black Flame																				ADD:SPELLCASTER|1|ANY
+8																												ADD:SPELLCASTER|1|ANY
+9			SAB:Sentinel of the Black Flame																				ADD:SPELLCASTER|1|ANY
+10	DR:20/+2	SAB:Keeper of the Black Flame																					ADD:SPELLCASTER|1|ANY
+#zz fire resistance 5 at level 5 and 10 at level 7
+
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Priest of the Djinn	HD:8		TYPE:PC.Prestige	ABB:Dji		MAXLEVEL:10	SOURCEPAGE:p.35	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name			Required Language	Required Skill				Required Text
+CLASS:Priest of the Djinn	PRELANG:1,Auran	PRESKILL:1,Knowledge (Religion)=8	PRETEXT:The character must have purchased the ability to cast at least 2nd-level divine spells using a cult's temporary Power Index	PRETEXT:The character must be able to channel divine power.
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Priest of the Djinn	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|TYPE.Knowledge|TYPE.Profession|Spellcraft
+1	SAB:Reduced Spellcasting Cost
+2	SAB:Enhanced Spell List (Air)
+3	SAB:Elemental Companion
+4	SAB:Lightning Touch
+5	SAB:Breath of the Djinn
+6	SAB:Enhanced Elemental Companion
+7	SAB:Enhanced Spell List (Electricity)
+8	SAB:Augmented Elemental Companion
+9	SAB:Soul of the Djinn
+10	SAB:Heart of the Djinn
+#zzzzzzzzz very special spellcasting, yet to be implemented
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Sin Eater	HD:8		TYPE:PC.Prestige	ABB:Sin		MAXLEVEL:10	SOURCEPAGE:p.39	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required AL			Required Feat	Required Skill								Req. Spell Type		Required Text
+CLASS:Sin Eater	PREALIGN:LG,LE,CG,CE	PREFEAT:1,Track	PRESKILL:1,Knowledge (Religion)=8	PRESKILL:1,Survival=3	PRESPELLTYPE:1,Divine=1	PRETEXT:The character must be able to cast divine spells and have at least one domain ability useable each day.
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Sin Eater	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft
+1	SAB:Locate Sinner		ADD:SPELLCASTER|Divine	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Simple
+2	SAB:Call Sin		ADD:SPELLCASTER|Divine
+3	SAB:Consume Sin		ADD:SPELLCASTER|Divine
+4	SAB:Crushing Faith	ADD:SPELLCASTER|Divine
+5	SAB:Will of Faith		ADD:SPELLCASTER|Divine
+6	SAB:Rejuvenation		ADD:SPELLCASTER|Divine
+7	SAB:Devour Sin		ADD:SPELLCASTER|Divine
+8	SAB:Aura of Faith		ADD:SPELLCASTER|Divine
+9	SAB:Absorb Sin		ADD:SPELLCASTER|Divine
+10	SAB:Expunge Sin		ADD:SPELLCASTER|Divine
+# I seriously doubt that the "Bane, " belongs to this class. There is _no_ description of it. Maybe copy paste from below?
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Succedaneum	HD:8		TYPE:PC.Prestige	ABB:Suc		MAXLEVEL:10	SOURCEPAGE:p.43	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required Feat				Required Skill				Required Text
+CLASS:Succedaneum	PREFEAT:2,Extra Turning,Toughness	PRESKILL:1,Knowledge (Religion)=8	PRETEXT:The character must be able to cast channel divine power.
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Succedaneum	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft
+1	SAB:Divine Endurance	ADD:SPELLCASTER|Divine	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Simple
+2	SAB:Bane Vanquish		ADD:SPELLCASTER|Divine
+3	SAB:Blood Sacrifice	ADD:SPELLCASTER|Divine
+4	SAB:Bane Vanquish		ADD:SPELLCASTER|Divine
+5	SAB:Divine Boon		ADD:SPELLCASTER|Divine
+6	SAB:Bane Vanquish		ADD:SPELLCASTER|Divine
+7	SAB:Divine Intercession	ADD:SPELLCASTER|Divine
+8	SAB:Poison Purge		ADD:SPELLCASTER|Divine
+9	SAB:Bane Vanquish		ADD:SPELLCASTER|Divine
+10	SAB:Cleanse Magic		ADD:SPELLCASTER|Divine
+
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:True Crusader	HD:10		TYPE:PC.Prestige	ABB:Trc		MAXLEVEL:10	SOURCEPAGE:p.46	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Required AL	Req. Att.	Req. Spell Type		Required Stat	Required Text
+CLASS:True Crusader	PREALIGN:LG	PREATT:5	PRESPELLTYPE:1,Divine=1	PRESTAT:1,WIS=14	PRETEXT:The character must be given a holy quest by a deity.
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:True Crusader	STARTSKILLPTS:2	CSKILL:Concentration|Climb|Diplomacy|Heal|Jump|Knowledge (Religion)|Listen|TYPE.Profession|Search|Sense Motive|Swim|Spellcraft
+1	SAB:Loyalty	SAB:Divine Strength %/day|DivineStrength	BONUS:VAR|DivineStrength|(CL+1)/2	DEFINE:DivineStrength|0	ADD:SPELLCASTER|Divine	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency|Simple Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Simple|TYPE.Martial
+2	SAB:Sworn Enemy																	ADD:SPELLCASTER|Divine
+3																				ADD:SPELLCASTER|Divine
+4	SAB:Devoted Warrior																ADD:SPELLCASTER|Divine
+5																				ADD:SPELLCASTER|Divine
+6	SAB:Holy Shield																	ADD:SPELLCASTER|Divine
+7																				ADD:SPELLCASTER|Divine
+8	SAB:Heroes From Beyond																ADD:SPELLCASTER|Divine
+9																				ADD:SPELLCASTER|Divine
+10	SAB:Aura of Strength																ADD:SPELLCASTER|Divine
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Valore	HD:8		TYPE:PC.Prestige	ABB:Val		MAXLEVEL:10	SOURCEPAGE:p.50	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required AL		Req. Att.	Required Skill												Req. Spell Type		Required Text																	Req. Weapond Prof.
+CLASS:Valore	PREALIGN:LG,LN	PREATT:7	PRESKILL:1,Craft (Weaponsmithing)=4	PRESKILL:2,Diplomacy,Knowledge (Religion)=5	PRESPELLTYPE:1,Divine=2	PRETEXT:A character must be invited by an existing member of the organization, and then craft a masterwork sword.	PREWEAPONPROF:1,Sword (Short),Longsword,Rapier,Scimitar,Greatsword
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Valore	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Gather Information|Heal|Intimidate|Knowledge (Religion)|Knowledge (Nobility and Royalty)|Listen|Ride|Sense Motive|Speak Language|Spellcraft|Spot|Tumble
+1			SAB:Diplomatic Relations +%|DiplomaticRelations									BONUS:SKILL|Diplomacy,Gather Information,Sense Motive|DiplomaticRelations|TYPE=Competence											DEFINE:DiplomaticRelations|2
+2			SAB:Martial Insight					BONUS:COMBAT|INITIATIVE|WISMAX0|TYPE=Insight																															ADD:SPELLCASTER|Divine
+3			SAB:Bond of the Blade +%|BondBlade																										BONUS:VAR|BondBlade|(CL+3)/3						DEFINE:BondBlade|0
+4			SAB:Focused Strike %/day|FocusedStrike																									BONUS:VAR|FocusedStrike|CL/4						DEFINE:FocusedStrike|0		ADD:SPELLCASTER|Divine
+5																																		BONUS:VAR|DiplomaticRelations|2
+6																																																	ADD:SPELLCASTER|Divine
+7			SAB:Mind of Mental Focus
+8																																																	ADD:SPELLCASTER|Divine
+10	DR:20/Magic	SAB:Valore Knight																													BONUS:VAR|DiplomaticRelations|2	BONUS:VAR|BondBlade|1						ADD:SPELLCASTER|Divine	ADD:FEAT|1|TYPE=ValorKnightAbilityScoreBonus	ADD:FEAT|1|TYPE=ValorKnightSkillBonus
+
+
+
+#
+# end
+#

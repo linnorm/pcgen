@@ -1,0 +1,21 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Green Ronin Publishing  - Races of Reknown - Hammer & Helm	SOURCESHORT:HammerHelm	SOURCEWEB:http://www.greenronin.com
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Automatic Languages	Attack Cycle	Save checks bonus									Combat bonus
+CLASS:Green Steel Monk	HD:8		TYPE:PC.Prestige	ABB:Gsm		MAXLEVEL:10	SOURCEPAGE:p.6	LANGAUTO:Infernal		ATTACKCYCLE:UAB|3	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Willpower|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required AL	Req. Att.	Required Feat								Required Skill
+CLASS:Green Steel Monk	PREALIGN:LE	PREATT:3	PREFEAT:3,Deflect Arrows,Endurance,Improved Unarmed Strike	PRESKILL:1,Knowledge (The Planes)=4
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Green Steel Monk	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|Craft (Alchemy)|Escape Artist|Hide|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Listen|Move Silently|Tumble
+# Class Name		Spell Stat		Spell Type
+CLASS:Green Steel Monk	SPELLSTAT:INT	SPELLTYPE:Arcane
+1	CAST:0,0												BONUS:COMBAT|AC|.IF.MonkAC+WIS.GT.0.THEN.MonkAC.ELSE.0|TYPE=Monk	BONUS:MOVEADD|TYPE=WALK|.IF.MOVEBASE.EQ.20.THEN.MOVEADJ5.ELSE.0|PREVAREQ:ENC,0|TYPE=Fast Move	BONUS:MOVEADD|TYPE=WALK|.IF.MOVEBASE.EQ.30.THEN.MOVEADJ2.ELSE.0|PREVAREQ:ENC,0|TYPE=Fast Move	BONUS:MOVEADD|TYPE=WALK|.IF.MOVEBASE.EQ.40.THEN.MOVEADJ2.ELSE.0|PREVAREQ:ENC,0|TYPE=Fast Move	BONUS:MOVEADD|TYPE=WALK|.IF.MOVEBASE.EQ.50.THEN.MOVEADJ3.ELSE.0|PREVAREQ:ENC,0|TYPE=Fast Move	BONUS:MOVEADD|TYPE=WALK|.IF.MOVEBASE.LT.20.THEN.MOVEADJ1.ELSE.0|PREVAREQ:ENC,0|TYPE=Fast Move	BONUS:MOVEADD|TYPE=WALK|.IF.MOVEBASE.GTEQ.60.THEN.MOVEADJ4.ELSE.0|PREVAREQ:ENC,0|TYPE=Fast Move	BONUS:VAR|MLVL|1					DEFINE:MonkAC|((MLVL/5).INTVAL)MIN4	DEFINE:MLVL|0	DEFINE:MOVEADJ1|((MLVL/3).INTVAL)*5	DEFINE:MOVEADJ2|((MLVL/3).INTVAL)*10	DEFINE:MOVEADJ3|((MLVL/3).INTVAL)*15	DEFINE:MOVEADJ4|((MLVL/3).INTVAL)*20	DEFINE:MOVEADJ5|(((MLVL/3).INTVAL)+((((MLVL/3).INTVAL)+1)/3).INTVAL)*5	DEFINE:ENC|.IF.ENCUMBERANCE.EQ.0.THEN.(.IF.COUNT[EQTYPE.ARMOR.EQUIPPED].EQ.0.THEN.0.ELSE.1).ELSE.1
+2	CAST:0,1						SAB:Magic Touch																																																																																																															BONUS:VAR|MLVL|1
+3	CAST:0,1,0						SAB:Devil Skin +%|DevilSkin		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE																																																																																																				BONUS:VAR|MLVL|1	BONUS:VAR|DevilSkin|1	DEFINE:DevilSkin|0
+4	CAST:0,2,1						SAB:See in Darkness																																																																																																														BONUS:VAR|MLVL|1
+5	CAST:0,2,1,0																																																																																																																						BONUS:VAR|MLVL|1																																																																						FEAT:Unarmed Sunder
+6	CAST:0,2,2,1											BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE																																																																																																				BONUS:VAR|MLVL|1	BONUS:VAR|DevilSkin|1
+7	CAST:0,3,2,1,0					SAB:Cold and Acid Resistance 20																																																																																																												BONUS:VAR|MLVL|1
+8	CAST:0,3,2,2,1	SR:5+TL																																																																																																																				BONUS:VAR|MLVL|1
+9	CAST:0,3,3,2,1,0											BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE																																																																																																				BONUS:VAR|MLVL|1	BONUS:VAR|DevilSkin|1
+10	CAST:0,3,3,2,2,1			DR:20/Magic	SAB:Diabolic Ascension																																																																																																														BONUS:VAR|MLVL|1

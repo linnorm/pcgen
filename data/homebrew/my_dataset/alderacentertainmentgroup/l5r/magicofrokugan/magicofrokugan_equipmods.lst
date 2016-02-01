@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Magic of Rokugan	SOURCESHORT:MoR	SOURCEWEB:http://alderac.com/d20
+
+
+# Modifier Name	Unique Key		Type			Plus		Visible		Source Page		Required Type				Special Property
+Dueling		KEY:MoR_DUEL	TYPE:Weapon.Melee	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:pg. 64	PRETYPE:3,Enhancement,Weapon,Sword	SPROP:The wielder may take 20 on Sense Motive checks during the Stance part of an iaijutsu duel.

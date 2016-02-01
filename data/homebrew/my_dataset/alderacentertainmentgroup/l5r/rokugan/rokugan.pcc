@@ -1,0 +1,27 @@
+# CVS $Revision: 1.2 $ $Author: ?, Revised: bobgalley $
+CAMPAIGN:AEG - Rokugan Source Book 3.5
+GAMEMODE:35e
+TYPE:Alderac Entertainment Group.Sourcebook.L5R
+SHOWINMENU:NO
+BOOKTYPE:Campaign Setting
+SETTING:Rokugan
+RANK:4
+ISOGL:YES
+SOURCELONG:Alderac Entertainment Group - Rokugan
+SOURCESHORT:AEG-Rokugan
+SOURCEWEB:http://alderac.com/d20
+
+ABILITY:rokugan_abilities.lst
+ABILITYCATEGORY:rokugan_ability_categories.lst
+ARMORPROF:rokugan_armorprof.lst
+CLASS:rokugan_class.lst
+EQUIPMENT:rokugan_equip_armor.lst
+EQUIPMENT:rokugan_equip_weapons.lst
+EQUIPMENT:rokugan_equip_wondrousitems.lst
+FEAT:rokugan_feats.lst
+LANGUAGE:rokugan_language.lst
+RACE:rokugan_races.lst
+SKILL:rokugan_skills.lst
+TEMPLATE:rokugan_templates_clans.lst
+TEMPLATE:rokugan_templates_naga.lst
+WEAPONPROF:rokugan_weaponprof.lst

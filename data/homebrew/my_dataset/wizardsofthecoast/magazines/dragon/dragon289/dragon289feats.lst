@@ -1,0 +1,12 @@
+# CVS $Revision: 1.3 $ $Author: tir-gwaith $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #289	SOURCESHORT:WotC-Dragon #289	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Feat Name		Type				Req. Att.	Required Feat			Required Stat	Description								Source Page
+Death Blow		CATEGORY:FEAT	TYPE:General.Fighter	PREATT:2	PREFEAT:1,Improved Initiative				DESC:You waste no time in dealing with downed foes.	SOURCEPAGE:p.50
+Improved Flying	CATEGORY:FEAT	TYPE:General		PREATT:11						PRESTAT:1,DEX=13	DESC:You can fly better than average.			SOURCEPAGE:p.63
+#Battle Roar		CATEGORY:FEAT	TYPE:Kaiju			PRETEMPLATE:Kaiju				SOURCE:p.76		DESC:Can unleash battle roar.
+#Improved Trample		CATEGORY:FEAT	TYPE:Kaiju			PRETEMPLATE:Kaiju				SOURCE:p.76		DESC:Trampled creature does not gain AOO.
+#Penetrate Hardness	CATEGORY:FEAT	TYPE:Kaiju			PRETEMPLATE:Kaiju				SOURCE:p.76		DESC:Hardness of object struck is halved.
+#Stunning Roar		CATEGORY:FEAT	TYPE:Kaiju			PRETEMPLATE:Kaiju				SOURCE:p.76		DESC:Can unleash stunning roar.
+#Thunderous Roar		CATEGORY:FEAT	TYPE:Kaiju			PRETEMPLATE:Kaiju				SOURCE:p.76		DESC:Can unleash thunderous roar.
+
+

@@ -1,0 +1,74 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #281	SOURCESHORT:WotC-Dragon #281	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Max Level	Source Page			Save checks bonus																Combat bonus					WEAPONAUTO
+CLASS:Psi-Hunter	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.84-85	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name	Req. Att.	Required Feat			Required Skill				Req. Spell Type
+CLASS:Psi-Hunter	PREATT:5	PREFEAT:2,Track,Iron Will	PRESKILL:1,Knowledge (Psionics)=3	PRESPELLTYPE:1,Arcane=1
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Psi-Hunter	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Intimidate|Jump|Knowledge (Psionics)|TYPE.Profession|Search|Spellcraft|Spot|Wilderness Lore
+# Class Name	Spell Stat		Spell Type
+CLASS:Psi-Hunter	SPELLSTAT:INT	SPELLTYPE:Arcane
+1	CAST:0,1,0		SAB:Detect Psionics	SAB:Mental Defense % |1	AUTO:FEAT|Simple Weapon Proficiency|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)|Shield Proficiency|Martial Weapon Proficiency
+2	CAST:0,2,1		SAB:Hamper Psionics
+3	CAST:0,3,2,0	SAB:Mental Defense % |1
+4	CAST:0,3,3,1	SAB:Psychic Stab
+5	CAST:0,4,3,2,0	SAB:Invisible to Psionics
+6	CAST:0,4,4,2,1	SAB:Mental Defense % |1
+7	CAST:0,4,4,3,2,0	SAB:Hamper Psionics	SAB:Power Resistance
+8	CAST:0,4,4,4,2,1	SAB:Null Psionics Prison
+9	CAST:0,4,4,4,3,2	SAB:Mental Defense % |1
+10	CAST:0,4,4,4,4,3	SAB:Mete Out Mental Justice
+
+# Class Name		Hit Dice	Type			Source Page			Save checks bonus																		Combat bonus					WEAPONAUTO
+CLASS:Zerth Cenobite	HD:8		TYPE:PC.Prestige	SOURCEPAGE:p.33-36	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE	WEAPONAUTO:Club|Crossbow (Light)|Crossbow (Heavy)|Dagger|Handaxe|Javelin|Kama,MLHGC|Kama (Halfling),S|Nunchaku,MLHGC|Nunchaku (Halfling),S|Quarterstaff|Shuriken|Siangham,MLHGC|Siangham (Halfling),S|Sling
+# Class Name		Required AL		Req. Att.	Required Feat									Required Skill
+CLASS:Zerth Cenobite	PREALIGN:LG,LN,LE	PREATT:4	PREFEAT:4,Improved Unarmed Strike,Deflect Arrows,Dodge,Mobility	PRESKILL:1,Knowledge (The Planes)=8
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Zerth Cenobite	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Escape Artist|Hide|Jump|Knowledge (The Planes)|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Tumble
+1	SAB:Student of Perfection, Sense Fate
+2	SAB:Combat Foresight
+3	SAB:Danger Sense
+4	SAB:Improved Foresight
+5	SAB:Insight, Ki Strike +1
+6	SAB:Time Step
+7	SAB:Discerning Attack
+8	SAB:Timeless Body, Ki Strike +2
+9	SAB:Improved Insight
+10	SAB:Timeless, Ki Strike +3
+
+# Class Name		Hit Dice	Type			Source Page			Save checks bonus																		Combat bonus					WEAPONAUTO
+CLASS:Arcanopath Monk	HD:8		TYPE:PC.Prestige	SOURCEPAGE:p.36-37	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE	WEAPONAUTO:Club|Crossbow (Light)|Crossbow (Heavy)|Dagger|Handaxe|Javelin|Kama,MLHGC|Kama (Halfling),S|Nunchaku,MLHGC|Nunchaku (Halfling),S|Quarterstaff|Shuriken|Siangham,MLHGC|Siangham (Halfling),S|Sling
+# Class Name		Required AL		Req. Att.	Required Feat									Required Skill
+CLASS:Arcanopath Monk	PREALIGN:LG,LN,LE	PREATT:4	PREFEAT:4,Improved Unarmed Strike,Deflect Arrows,Dodge,Mobility	PRESKILL:1,Knowledge (Arcana)=8
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Arcanopath Monk	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Escape Artist|Hide|Jump|Knowledge (Arcana)|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Tumble
+1	SAB:Student of Perfection, Clap of Deafness
+2	SAB:Chop of Muteness
+3	SAB:Strike of Confusion
+4	SAB:Deflect Spell
+5	SAB:Ki Strike
+6	SAB:Allseeing Eye
+7	SAB:Slap of Forgetfulness
+8	SAB:Empty Hand
+9	SAB:Reflect Spell
+10	SAB:Sundering Strike of Oblivion
+
+# Class Name		Hit Dice	Type			Source Page			Save checks bonus																	Combat bonus					WEAPONAUTO
+CLASS:Truth Seeker	HD:8		TYPE:PC.Prestige	SOURCEPAGE:p.39-41	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:B|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE
+# Class Name		Req. Att.	Required Feat									Required Skill
+CLASS:Truth Seeker	PREATT:5	PREFEAT:3,Improved Unarmed Strike,Combat Reflexes,Dual Strike	PRESKILL:1,Diplomacy=8	PRESKILL:1,Sense Motive=4
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Truth Seeker	STARTSKILLPTS:4	CSKILL:Concentration|Diplomacy|Disguise|Forgery|Knowledge (Local)|Knowledge (Nobility and Royalty)|Knowledge (Psionics)|Listen|Psicraft|Sense Motive
+# Class Name		Spell Stat		Spell Type
+CLASS:Truth Seeker	SPELLSTAT:SPELL	SPELLTYPE:Psionic
+1	KNOWN:2		SAB:Share Mind, Monk Strike			BONUS:VAR|BASEPOWERPOINTS|2	BONUS:VAR|Manifester|1						ADD:SPECIAL(Ego Whip,Empty Mind,Id Insinuation,Intellect Fortress,Mental Barrier,Mind Blast,Mind Thrust,Psychic Crush,Thought Shield,Tower of Iron Will)1	ADD:SPECIAL(Ego Whip,Empty Mind,Id Insinuation,Intellect Fortress,Mental Barrier,Mind Blast,Mind Thrust,Psychic Crush,Thought Shield,Tower of Iron Will)1	ADD:SPECIAL(Ego Whip,Empty Mind,Id Insinuation,Intellect Fortress,Mental Barrier,Mind Blast,Mind Thrust,Psychic Crush,Thought Shield,Tower of Iron Will)1
+2	KNOWN:3		SAB:Share Mind (insight bonus to AC)	BONUS:VAR|BASEPOWERPOINTS|1	BONUS:VAR|Manifester|1
+3	KNOWN:3,1									BONUS:VAR|BASEPOWERPOINTS|1	BONUS:VAR|Manifester|1	ADD:FEAT|1|Psychoanalyst
+4	KNOWN:3,2		SAB:Share Mind (cannot be flanked)		BONUS:VAR|BASEPOWERPOINTS|1	BONUS:VAR|Manifester|1
+5	KNOWN:3,3,1									BONUS:VAR|BASEPOWERPOINTS|3	BONUS:VAR|Manifester|1						ADD:SPECIAL(Ego Whip,Empty Mind,Id Insinuation,Intellect Fortress,Mental Barrier,Mind Blast,Mind Thrust,Psychic Crush,Thought Shield,Tower of Iron Will)1
+6	KNOWN:3,3,2		SAB:Share Mind (+2 insight bonus)		BONUS:VAR|BASEPOWERPOINTS|3	BONUS:VAR|Manifester|1
+7	KNOWN:3,3,2,1								BONUS:VAR|BASEPOWERPOINTS|5	BONUS:VAR|Manifester|1	ADD:FEAT|1|Psychic Inquisitor
+8	KNOWN:3,3,3,1	SAB:Share Mind (swap initiative)		BONUS:VAR|BASEPOWERPOINTS|5	BONUS:VAR|Manifester|1
+9	KNOWN:3,3,3,2								BONUS:VAR|BASEPOWERPOINTS|5	BONUS:VAR|Manifester|1						ADD:SPECIAL(Ego Whip,Empty Mind,Id Insinuation,Intellect Fortress,Mental Barrier,Mind Blast,Mind Thrust,Psychic Crush,Thought Shield,Tower of Iron Will)1
+10	KNOWN:3,3,3,2,1	SAB:Share Mind (grant share)			BONUS:VAR|BASEPOWERPOINTS|7	BONUS:VAR|Manifester|1

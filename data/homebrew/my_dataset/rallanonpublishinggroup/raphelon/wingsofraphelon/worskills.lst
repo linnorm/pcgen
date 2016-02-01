@@ -1,0 +1,36 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon	SOURCESHORT:WngRaph	SOURCEWEB:http://raxstower.finzen.com
+
+#Name						Stat			Exclusive		Untrained		Root			Required			AC Check			Type					Source				Classes							Synergy Bonus
+# Skill Name			Key Stat	Untrained?		Skill Penalty Apply	Exclusive?		Classes																												Type					Source Page
+Craft (Scrimshaw)			KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																														TYPE:Intelligence.Craft.Art	SOURCEPAGE:Chap.9, Skills
+Knowledge (Mathematics)		KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																														TYPE:Intelligence.Knowledge	SOURCEPAGE:Chap.9, Skills
+Knowledge (Creature Lore)	KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																														TYPE:Intelligence.Knowledge	SOURCEPAGE:Chap.9, Skills
+Knowledge (Plane of Earth)	KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																														TYPE:Intelligence.Knowledge	SOURCEPAGE:Chap.9, Skills
+Knowledge (Plane of Fire)	KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																														TYPE:Intelligence.Knowledge	SOURCEPAGE:Chap.9, Skills
+Perform (Acting)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Chanting)		KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Comedy)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Crowd Working)		KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Dance)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:YES			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Drums)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Horns)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Keyboards)		KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Miming)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Oration)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Poetry)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Singing)			KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Storytelling)		KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (String Instrument)	KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Untrained)		KEYSTAT:CHA	USEUNTRAINED:YES	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Perform (Woodwind Instrument)	KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Bard|Bard (Monte Cook's)|Rogue|Shaper																						TYPE:Perform.Charisma.Art	SOURCEPAGE:Chap.9, Skills
+Research				KEYSTAT:INT	USEUNTRAINED:YES	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:Alienist|Bard|Bard(Monte Cook's)|Bargainer|Binder|Cleric|Demonologist|Loremaster|Mage of the Arcane Order|Master Alchemist|Possessed|Spectral Loremaster|Wizard		TYPE:Intelligence			SOURCEPAGE:Chap.9, Skills
+
+#Skills modified for Wings of Raphelon
+Listen.MOD																																													TYPE:Perception			SOURCEPAGE:Chap.9, Skills
+Ritual Casting.MOD														CLASSES:Alienist|Bargainer|Binder|Cleric|Demonologist|Mage of the Arcane Order|Master Alchemist|Possessed|Spectral Loremaster|Wizard
+Search.MOD																																													TYPE:Perception			SOURCEPAGE:Chap.9, Skills
+Spot.MOD																																													TYPE:Perception			SOURCEPAGE:Chap.9, Skills
+Strategy.MOD					USEUNTRAINED:NO								CLASSES:Blackguard|Cavalier|Fighter|Mercenary Captain|Noble Defender|Officer of War|Paladin|Warleader|Warmage|Warmaster|Warpriest
+Tactics.MOD						USEUNTRAINED:NO								CLASSES:Blackguard|Cavalier|Dwarven Defender|Fighter|Footman|Huntsman|Lancer|Mercenary Captain|Noble Defender|Officer of War|Paladin|Warleader|Warmage|Warmaster|Warpriest
+Craft (Poison).MOD				USEUNTRAINED:NO

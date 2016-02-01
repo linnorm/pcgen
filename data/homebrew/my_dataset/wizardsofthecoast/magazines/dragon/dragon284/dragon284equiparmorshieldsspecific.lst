@@ -1,0 +1,5 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #284	SOURCESHORT:WotC-Dragon #284	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name				Required Proficiency						Type						Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page			% of Spell Failure	Combat bonus					Special Property
+Letrathe's Skin (Full Plate +1)	PROFICIENCY:ARMOR|Letrathe's Skin (Full Plate +1)	TYPE:Magic.Armor.Heavy.Suit.Unique	COST:56650	WT:50		ACCHECK:-5		MAXDEX:1		SOURCEPAGE:p.98-99	SPELLFAILURE:35		BONUS:COMBAT|AC|9|TYPE=Armor.REPLACE	SPROP:Central 'scale' is a diamond - can Magic Jar into it as per spell.  Can Absorb 120 points of damage from fire based attacks.

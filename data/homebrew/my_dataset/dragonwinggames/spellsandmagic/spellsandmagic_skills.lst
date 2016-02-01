@@ -1,0 +1,6 @@
+SOURCELONG:Dragon Wing Games - Spells and Magic	SOURCESHORT:SpellsandMagic	SOURCEWEB:http://www.dragonwing.net
+
+
+# Skill Name		Key Stat	Untrained?		Type					Source Page
+Knowledge (Anatomy)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:pg. 6
+Knowledge (Undead)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:pg. 53

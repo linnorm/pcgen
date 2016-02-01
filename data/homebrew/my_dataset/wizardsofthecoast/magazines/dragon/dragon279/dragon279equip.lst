@@ -1,0 +1,9 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #279	SOURCESHORT:WotC-Dragon #279	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+#Goods Name					Type							Cost		Weight	Source Material
+# Equipment Name				Type						Cost		Weight	Source Page
+Outfit (Starlight Cloth)		TYPE:Goods.Clothing.Elven		COST:100	WT:5		SOURCEPAGE:p.50
+Masking Perfume				TYPE:Goods.General.Elven		COST:100	WT:0		SOURCEPAGE:p.50
+Lantern (Star)				TYPE:Goods.General.Elven		COST:100	WT:2		SOURCEPAGE:p.50
+Elven Instrument				TYPE:Goods.Tools.Instrument.Elven	COST:100	WT:3		SOURCEPAGE:p.50
+Camouflage Kit (Forest/Masterwork)	TYPE:Goods.Tools.Elven.Masterwork	COST:50	WT:8		SOURCEPAGE:p.50

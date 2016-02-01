@@ -1,0 +1,28 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $
+CAMPAIGN:Star Wars Web Enhancements
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Website
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Supplement
+SOURCELONG:Star Wars Website
+SOURCESHORT:SWW
+SOURCEWEB:http://www.wizards.com/starwars/
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+INFOTEXT:Web Enhancements
+
+
+ARMORPROF:starwarsweb_armorprof.lst
+BIOSET:starwarswebbiosettings.lst
+CLASS:starwarswebclasses.lst
+EQUIPMENT:starwarswebequip.lst
+EQUIPMENT:starwarswebequiparmorshields.lst
+EQUIPMENT:starwarswebequipweapmelee.lst
+EQUIPMENT:starwarswebequipweapranged.lst
+FEAT:starwarswebfeats.lst
+RACE:starwarswebraces.lst
+SKILL:starwarswebskills.lst
+TEMPLATE:starwarswebtemplates.lst
+WEAPONPROF:starwarswebweapprofs.lst

@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Author Art Gopher -- Sat May 9
+SOURCELONG:The Sunless Citadel	SOURCESHORT:SunlessC	SOURCEWEB:http://www.wizards.com/
+
+# Template Name		Visible	Source Page		Special Ability		Required AL	Combat bonus						Removable?
+Gulthias Suplicant	VISIBLE:YES	SOURCEPAGE:, p.29	SAB:Permanent Barkskin	PREALIGN:NE	BONUS:COMBAT|AC|3|TYPE=NaturalArmor.REPLACE	REMOVABLE:YES

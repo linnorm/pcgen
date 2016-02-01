@@ -1,0 +1,16 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Equipment Name		Type					Cost		Weight	Critical Hit Range	Damage			Size		Source Page								Bonus to skill		Special Property
+Bayonet			TYPE:Weapon.Melee.Simple	COST:60	WT:1.8	CRITRANGE:1			DAMAGE:1d6			SIZE:L	SOURCEPAGE:www.geocities.com/swrpg_resource_library
+Combat Knife		TYPE:Weapon.Melee.Simple	COST:50	WT:1.8	CRITRANGE:1			DAMAGE:1d6			SIZE:M	SOURCEPAGE:conversions.swrpgnetwork.com
+Coyn'Skar			TYPE:Weapon.Melee.Exotic	COST:400	WT:3		CRITRANGE:1			DAMAGE:1d8/1d4		SIZE:L	SOURCEPAGE:conversions.swrpgnetwork.com
+D'skar			TYPE:Weapon.Melee.Simple	COST:150	WT:1		CRITRANGE:1			DAMAGE:1d6			SIZE:S	SOURCEPAGE:conversions.swrpgnetwork.com
+Doublebladed Vibrostave	TYPE:Weapon.Melee.Exotic	COST:99250	WT:1.8	CRITRANGE:1			DAMAGE:3d6/3d6		SIZE:M	SOURCEPAGE:www.swrpgnetwork.com
+Industrial Water Knife	TYPE:Weapon.Melee.Simple	COST:150	WT:0.4	CRITRANGE:1			DAMAGE:1d6			SIZE:S	SOURCEPAGE:www.swrpgnetwork.com								SPROP:6 liter backpack of water and battery must be replaced every 2 hours of use.
+Mistryl Climbing Claws	TYPE:Weapon.Melee.Exotic	COST:200	WT:1.1	CRITRANGE:1			DAMAGE:1d4			SIZE:M	SOURCEPAGE:www.swrpgnetwork.com				BONUS:SKILL|Climb|5
+Mistryl Shockwhip		TYPE:Weapon.Melee.Exotic	COST:10000	WT:1.6	CRITRANGE:2			DAMAGE:2d6(1d8/10)	SIZE:M	SOURCEPAGE:www.swrpgnetwork.com
+Molecular Stilletto	TYPE:Weapon.Melee.Simple	COST:400	WT:0.3	CRITRANGE:1			DAMAGE:2d4			SIZE:T	SOURCEPAGE:www.swrpgnetwork.com
+Sat'skar			TYPE:Weapon.Melee.Simple	COST:700	WT:2.6	CRITRANGE:1			DAMAGE:2d8			SIZE:M	SOURCEPAGE:conversions.swrpgnetwork.com
+Stun Net			TYPE:Weapon.Melee.Simple	COST:300	WT:6.5	CRITRANGE:1			DAMAGE:-(-/15)		SIZE:M	SOURCEPAGE:www.swrpgnetwork.com								SPROP:When entangled -2 attack rolls, -4 effective Dex, 1/2 move, unless net anchored, then no movement.  Fortitude save or rendered unconcious for 2d6 rounds.
+Vibrobayonet		TYPE:Weapon.Melee.Vibro		COST:300	WT:1.8	CRITRANGE:1			DAMAGE:2d6			SIZE:L	SOURCEPAGE:www.geocities.com/swrpg_resource_library

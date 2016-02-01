@@ -1,0 +1,50 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+
+##############
+### Spells not allowed in Iron Kingdoms
+##############
+## It is implied that there are MANY other spells not allowed in an IK campaign game,
+## however, I am not going to second guess the designers when they say "No spell that
+## allows contact with or travel to other planes is allowed, so the Planar Ally spells
+## have not been forgotten. -- Glen
+
+## Version 5.16 throws tons of errors due to the .FORGET tag so I've changed them to .MOD and added PRECLASS:1,Disallowed as well as changed the TYPE to Disallowed. -- Rax
+# Spell Name				Type					Required Class		Required Race
+Air Walk.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Antiplant Shell.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Astral Projection.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Changestaff.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Command Plants.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Contact Other Plane.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Control Plants.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Ethereal Jaunt.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Etherealness.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Fabricate.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Floating Disk.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Know Direction.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Limited Wish.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Mage's Magnificent Mansion.MOD	TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Maze.MOD					TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Phase Door.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Plane Shift.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Resurrection.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Rope Trick.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Secret Chest.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Shambler.MOD				TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Song of Discord.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Speak with Plants.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Summon Instrument.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Teleport Object.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+True Resurrection.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Unseen Servant.MOD			TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+Wish.MOD					TYPE:.CLEAR	TYPE:Disallowed	PRECLASS:1,Disallowed
+
+## These spells are restricted to Infernals
+Shades.MOD														PRERACE:1,RACETYPE=Infernal
+Shadow Conjuration (Greater).MOD										PRERACE:1,RACETYPE=Infernal
+Shadow Conjuration.MOD												PRERACE:1,RACETYPE=Infernal
+Shadow Evocation (Greater).MOD										PRERACE:1,RACETYPE=Infernal
+Shadow Evocation.MOD												PRERACE:1,RACETYPE=Infernal
+Shadow Walk.MOD													PRERACE:1,RACETYPE=Infernal
+

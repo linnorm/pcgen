@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Fri Mar  2 17:00:14 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Anubium - Dark Arts of Necromancy	SOURCESHORT:DAoN	SOURCEWEB:http://www.anubium.com
+
+# Spell Name	Classes of caster			School		Spell Descriptors	Type		Components	Casting Time			Range			Item		Target Area or Effect					Duration				Save Info		Spell Resistance	Description											Source Page
+Animate Limb	CLASSES:Sorcerer,Wizard=2	SCHOOL:Necromancy	DESCRIPTOR:Evil	TYPE:Arcane	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	ITEM:Potion	TARGETAREA:One small nonliving severed limb	DURATION:(CASTERLEVEL) rounds	SAVEINFO:None	SPELLRES:No		DESC:You imbue severed limbs with mobility and a semblance of life.	SOURCEPAGE:pg. 28

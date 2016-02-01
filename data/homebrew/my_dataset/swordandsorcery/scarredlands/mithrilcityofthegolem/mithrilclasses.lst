@@ -1,0 +1,25 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mithril - City of the Golem	SOURCESHORT:Mithril	SOURCEWEB:http://www.swordsorcery.com
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Define
+CLASS:Mithril Knight	HD:10		TYPE:PC.Prestige	ABB:MiK		MAXLEVEL:10	SOURCEPAGE:p.87	DEFINE:BAB|CL	DEFINE:FORTBASE|(CL+2)/2	DEFINE:REFLEXBASE|CL/3	DEFINE:WILLBASE|CL/3
+# Class Name		Required AL	Req. Att.	Required Deity	Required Feat					Req. Special Ability	Required Skill												Required Text
+CLASS:Mithril Knight	PREALIGN:LG	PREATT:6	PREDEITY:1,Corean	PREFEAT:1,Weapon Focus (Sword (Long))	PRESA:1,Smite Evil	PRESKILL:1,Craft (Weaponsmithing)=8	PRESKILL:2,Diplomacy,Knowledge (Religion)=5	PRETEXT:Must be ordained by true ritual cast by clerics of Corean
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Mithril Knight	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Religion)|TYPE.Profession|Ride
+# Class Name		Spell Stat		Spell Type
+CLASS:Mithril Knight	SPELLSTAT:WIS	SPELLTYPE:Divine
+1																																							AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency|All Automatic Proficiencies|All Martial Weapon Proficiencies
+1																																							AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)
+1																																							AUTO:FEAT|Shield Proficiency
+1									BONUS:VAR|Smite Evil|1	BONUS:VAR|Turn Level|CLASSLEVEL=Mithril Knight	BONUS:VAR|Lay on Hands|CLASSLEVEL=Mithril Knight*CHAMAX0	ADD:SPELLCASTER|1|ANY
+2	SAB:Craft Magic Arms and Armor level bonus																							ADD:SPELLCASTER|1|ANY
+3									BONUS:VAR|Smite Evil|1																			ADD:SPELLCASTER|1|ANY	ADD:FEAT|1|Leadership
+4	SAB:Turn Outsiders																											ADD:SPELLCASTER|1|ANY
+5	SAB:Mithril Sword																												ADD:SPELLCASTER|1|ANY
+6									BONUS:VAR|Smite Evil|1																			ADD:SPELLCASTER|1|ANY
+7	SAB:Righteous Aura																											ADD:SPELLCASTER|1|ANY
+8	SAB:Turn Titanspawn races																										ADD:SPELLCASTER|1|ANY
+9									BONUS:VAR|Smite Evil|1																			ADD:SPELLCASTER|1|ANY
+10	SAB:Turn Evil																												ADD:SPELLCASTER|1|ANY
+

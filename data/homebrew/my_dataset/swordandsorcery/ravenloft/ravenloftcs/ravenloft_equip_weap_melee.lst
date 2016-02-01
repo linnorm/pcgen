@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 20:25:10 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Ravenloft Campaign Setting	SOURCESHORT:RavenloftCS	SOURCEWEB:http://www.swordsorcery.com
+
+# Equipment Name	Required Proficiency				Type											Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier	Wield Category	Size		Source Page
+Rapier (Parthian)	PROFICIENCY:WEAPON|Rapier (Parthian)	TYPE:Weapon.Melee.Exotic.Finesseable.Standard.Piercing.Sword	COST:300	WT:5		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d6	EQMOD:STEEL	WIELD:OneHanded	SIZE:M	SOURCEPAGE:p.56
+Bayonet		PROFICIENCY:WEAPON|Bayonet			TYPE:Weapon.Melee.Finesseable.Simple.Standard.Piercing.Dagger	COST:1	WT:.5		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	EQMOD:STEEL	WIELD:Light		SIZE:T	SOURCEPAGE:p.
+Straight Razor	PROFICIENCY:WEAPON|Straight Razor		TYPE:Weapon.Melee.Finesseable.Simple.Standard.Slashing.Dagger	COST:2	WT:.5		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d4	EQMOD:STEEL	WIELD:Light		SIZE:T	SOURCEPAGE:p.

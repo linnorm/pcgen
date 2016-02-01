@@ -1,0 +1,22 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:Green Ronin - Races of Reknown - Hammer & Helm Web Enhancement
+RANK:9
+GAMEMODE:35e
+TYPE:Green Ronin Publishing.Supplement
+SOURCELONG:Green Ronin Publishing  - Races of Reknown - Hammer & Helm Web Enhancement
+SOURCESHORT:HammerHelmWeb
+SOURCEWEB:http://www.greenronin.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson
+COPYRIGHT:Hammer and Helm: A Guidebook to Dwarves, Copyright 2002, Jesse Decker
+
+
+CLASS:hammerhelmclasses.lst
+DEITY:hammerhelmdeities.lst
+DOMAIN:hammerhelmdomains.lst
+EQUIPMENT:hammerhelmequip.lst
+EQUIPMENT:hammerhelmequiprings.lst
+EQUIPMENT:hammerhelmequipwondrousitems.lst
+FEAT:hammerhelmfeats.lst
+SPELL:hammerhelmpowers.lst

@@ -1,0 +1,9 @@
+# CVS $Revision: 2.0 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer #8	SOURCESHORT:SWG8	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Class Name		Hit Dice	Type			Source Page		Save checks bonus																									Combat bonus
+CLASS:Sector Ranger	HD:10		TYPE:PC.Prestige	SOURCEPAGE:p.106	BONUS:CHECKS|BASE.FORTITUDE|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|1+((CL/5).INTVAL)+(((CL+3)/5).INTVAL)	BONUS:COMBAT|BAB|CL
+# Class Name		Req. Att.	Required Feat			Required Skill
+CLASS:Sector Ranger	PREATT:4	PREFEAT:2,Track,TYPE=Pilot	PRESKILL:1,Gather Information=5	PRESKILL:1,Pilot=4	PRESKILL:2,Diplomacy=6,Sense Motive=6
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Sector Ranger	STARTSKILLPTS:6	CSKILL:Astrogate|Computer Use|Diplomacy|Gather Information|Hide|Intimidate|TYPE=Knowledge|Listen|Move Silently|Pilot|Repair|Search|Sense Motive|Spot|Survival

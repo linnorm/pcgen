@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 24 17:18:22 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
+
+# Equipment Name			Output Name					Type							Cost		Weight	Base Quantity	Source Page
+###OA Specific Ammo
+Needle (Blowgun)			OUTPUTNAME:Needle, [NAME]		TYPE:Ammunition.Standard.Wooden.Needle	COST:.05	WT:.01				SOURCEPAGE:p.72
+Needles (Blowgun/20)		OUTPUTNAME:Needles, Blowgun (20)	TYPE:Ammunition.Standard.Wooden.Needle	COST:1	WT:.01	BASEQTY:20		SOURCEPAGE:p.72
+Dart (Blowgun)			OUTPUTNAME:Dart, [NAME]			TYPE:Ammunition.Standard.Wooden.Dart	COST:.1	WT:.1					SOURCEPAGE:p.72
+Darts (Blowgun/10)		OUTPUTNAME:Darts, Blowgun (10)	TYPE:Ammunition.Standard.Wooden.Dart	COST:1	WT:1		BASEQTY:10		SOURCEPAGE:p.72
+

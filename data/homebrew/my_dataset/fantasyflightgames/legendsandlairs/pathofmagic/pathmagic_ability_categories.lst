@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Thu May 21 19:15:37 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Ability Category						Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI			Display Location
+ABILITYCATEGORY:Legendary Ability				VISIBLE:NO		EDITABLE:NO			EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability
+
+ABILITYCATEGORY:Death Lord Legendary Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:DeathLordAbilities		PLURAL:Death Lord Legendary Abilities	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Elemental Lord Legendary Ability	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:ElementalLordAbilities	PLURAL:Elemental Lord Legendary Abilities	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Infiltrator Legendary Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:InfiltratorAbilities	PLURAL:Infiltrator Legendary Abilities	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Landwalker Legendary Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:LandwalkerAbilities	PLURAL:Landwalker Legendary Abilities	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Maestro Legendary Ability			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:MaestroAbilities		PLURAL:Maestro Legendary Abilities		DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Oracle Legendary Ability			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:OracleAbilities		PLURAL:Oracle Legendary Abilities		DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Puppetmaster Legendary Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:PuppetmasterAbilities	PLURAL:Puppetmaster Legendary Abilities	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Puzzlemaster Legendary Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:PuzzlemasterAbilities	PLURAL:Puzzlemaster Legendary Abilities	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Traveler Legendary Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:TravelerAbilities		PLURAL:Traveler Legendary Abilities		DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Wizard King Legendary Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Legendary Ability	TYPE:WizardKingAbilities	PLURAL:Wizard King Legendary Abilities	DISPLAYLOCATION:Class Abilities

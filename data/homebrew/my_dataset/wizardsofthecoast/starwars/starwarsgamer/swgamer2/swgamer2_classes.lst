@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 2	SOURCESHORT:SWG2	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Class Name	Hit Dice	Source Page		Define
+CLASS:Privateer	HD:10		SOURCEPAGE:p.48	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|CL/3	DEFINE:WILLBASE|(CL+2)/2
+# Class Name	Req. Att.	Required Feat		Required Skill
+CLASS:Privateer	PREATT:6	PREFEAT:1,TYPE=Pilot	PRESKILL:1,Diplomacy=4	PRESKILL:2,Astrogate=6,Pilot=6
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Privateer	STARTSKILLPTS:6	CSKILL:Astrogate|Computer Use|Diplomacy|Gather Information|Intimidate|TYPE=Knowledge|Pilot|Repair|Search|Sense Motive|Spot

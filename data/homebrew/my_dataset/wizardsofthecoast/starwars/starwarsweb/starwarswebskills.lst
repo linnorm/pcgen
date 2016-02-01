@@ -1,0 +1,9 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Star Wars Website	SOURCESHORT:SWW	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Skill Name		Key Stat	Untrained?		Type						Required Feat				Source Page
+Adrenaline Adjustment	KEYSTAT:CON	USEUNTRAINED:NO	TYPE:Constitution.Control.Force	PREFEAT:2,Control,Force Sensitive	SOURCEPAGE:conversions.swrpgnetwork.com
+Biocombustion		KEYSTAT:CON	USEUNTRAINED:NO	TYPE:Constitution.Control.Force	PREFEAT:1,Control				SOURCEPAGE:conversions.swrpgnetwork.com
+Blinding			KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Alter.Force			PREFEAT:1,Alter				SOURCEPAGE:conversions.swrpgnetwork.com
+Block Force Sense		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Alter.Force			PREFEAT:1,Alter				SOURCEPAGE:conversions.swrpgnetwork.com
+Lesser Force Shield	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Alter.Force		PREFEAT:2,Alter,Force Sensitive	SOURCEPAGE:conversions.swrpgnetwork.com

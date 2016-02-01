@@ -1,0 +1,35 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar  3 12:25:14 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+
+# Equipment Name		Required Proficiency			Type													Contains			Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Damage	Modifier	Wield Category	Range		Size		Source Page			Weapon prop. bonus
+Aiguchi									TYPE:Weapon.Simple.Melee.Small.Piercing											COST:2	WT:1		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4												SIZE:S	SOURCEPAGE:p.57
+Bo										TYPE:Weapon.Simple.Melee.Large.Bludgeoning.Double.Monk								COST:0	WT:4		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	ALTDAMAGE:1d6									SIZE:L	SOURCEPAGE:p.57
+Crossbow									TYPE:Weapon.Exotic.Ranged.Medium.Piercing											COST:35	WT:6		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8										RANGE:80	SIZE:M	SOURCEPAGE:p.57
+Dai-kyu									TYPE:Weapon.Martial.Ranged.Large.Piercing											COST:100	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8										RANGE:110	SIZE:L	SOURCEPAGE:p.57
+Die Tsuchi									TYPE:Weapon.Martial.Melee.Large.Bludgeoning										COST:12	WT:12		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8												SIZE:L	SOURCEPAGE:p.57
+Jitte										TYPE:Weapon.Simple.Melee.Small.Bludgeoning.Monk										COST:1	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4												SIZE:S	SOURCEPAGE:p.57-58
+Jo										TYPE:Weapon.Simple.Melee.Medium.Bludgeoning.Monk									COST:0	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6												SIZE:M	SOURCEPAGE:p.58
+Kama										TYPE:Weapon.Simple.Melee.Small.Slashing.Monk										COST:6	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6												SIZE:S	SOURCEPAGE:p.58
+Katana			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Weapon.Melee.Martial.Exotic.Masterwork.Slashing.Sword.Katana							COST:400	WT:6		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d10					EQMOD:STEEL	WIELD:TwoHanded			SIZE:M					BONUS:WEAPON|WIELDCATEGORY|-1|PREFEAT:1,Exotic Weapon Proficiency (Sword (Bastard))	BONUS:WEAPON|TOHIT|1|TYPE=Enhancement
+Machi-Kanshisha pipe							TYPE:Weapon.Exotic.Melee.Medium.Bludgeoning										COST:20	WT:4		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6												SIZE:M	SOURCEPAGE:p.59
+Naga blade									TYPE:Weapon.Exotic.Melee.Large.Slashing											COST:100	WT:8		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10												SIZE:L	SOURCEPAGE:p.59
+Nagamaki									TYPE:Weapon.Martial.Melee.Large.Slashing											COST:8	WT:10		CRITMULT:x3			CRITRANGE:1			DAMAGE:2d4												SIZE:L	SOURCEPAGE:p.59
+Nage-yari									TYPE:Weapon.Simple.Melee.Ranged.Medium.Piercing										COST:3	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6										RANGE:20	SIZE:M	SOURCEPAGE:p.59
+Naginata									TYPE:Weapon.Martial.Melee.Large.Slashing											COST:10	WT:15		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10												SIZE:L	SOURCEPAGE:p.59
+No-dachi			PROFICIENCY:WEAPON|Greatsword		TYPE:Weapon.Melee.Martial.Standard.Slashing.Sword									COST:50	WT:8		CRITMULT:x2			CRITRANGE:2			DAMAGE:2d6					EQMOD:STEEL	WIELD:TwoHanded			SIZE:M	SOURCEPAGE:p.59
+Nunchaku									TYPE:Weapon.Simple.Melee.Small.Bludgeoning.Monk										COST:6	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6												SIZE:S	SOURCEPAGE:p.59
+Ono										TYPE:Weapon.Martial.Melee.Large.Slashing											COST:20	WT:10		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10												SIZE:L	SOURCEPAGE:p.59
+Sai										TYPE:Weapon.Simple.Melee.Small.Bludgeoning.Monk										COST:1	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4												SIZE:S	SOURCEPAGE:p.59
+Sasumata									TYPE:Weapon.Exotic.Melee.Large.Piercing											COST:8	WT:8		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4												SIZE:L	SOURCEPAGE:p.59
+Sling				PROFICIENCY:WEAPON|Sling		TYPE:Weapon.Exotic.Ranged.Standard.Bludgeoning.Container.Projectile.Sling	CONTAINS:1|SlingStone=1	COST:2	WT:0		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4										RANGE:50			SOURCEPAGE:p.59		BONUS:WEAPON|DAMAGE|STR
+Sodegarami									TYPE:Weapon.Exotic.Melee.Large.Bludgeoning										COST:400	WT:5		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4												SIZE:L	SOURCEPAGE:p.59
+Tanto				PROFICIENCY:WEAPON|Dagger		TYPE:Weapon.Melee.Finesseable.Simple.Standard.Piercing.Dagger							COST:3	WT:1		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4					EQMOD:STEEL	WIELD:Light				SIZE:M	SOURCEPAGE:p.59
+Tessen			PROFICIENCY:WEAPON|Shieldbash		TYPE:Weapon.Martial.Melee.Small.Bludgeoning										COST:0	WT:0		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d3												SIZE:S	SOURCEPAGE:p.60
+Tetsubo									TYPE:Weapon.Martial.Melee.Large.Bludgeoning										COST:25	WT:15		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8												SIZE:L	SOURCEPAGE:p.59
+Tonfa										TYPE:Weapon.Simple.Melee.Medium.Bludgeoning										COST:1	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6												SIZE:M	SOURCEPAGE:p.59
+Vajra										TYPE:Weapon.Exotic.Melee.Medium.Piercing											COST:15	WT:6		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8												SIZE:M	SOURCEPAGE:p.60
+Wakizashi			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Weapon.Martial.Melee.Masterwork.Slashing.Sword.Wakizashi							COST:300	WT:3		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d6					EQMOD:STEEL						SIZE:S	SOURCEPAGE:p.72		BONUS:WEAPON|TOHIT|1|TYPE=Enhancement
+Whip										TYPE:Weapon.Exotic.Ranged.Medium.Slashing											COST:1	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d2										RANGE:15	SIZE:M	SOURCEPAGE:p.60
+Yari										TYPE:Weapon.Simple.Melee.Large.Piercing											COST:5	WT:5		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8												SIZE:L	SOURCEPAGE:p.60
+Yumi (long bow)		PROFICIENCY:WEAPON|Yumi			TYPE:Weapon.Martial.Ranged.Medium.Piercing										COST:75	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8										RANGE:70	SIZE:M	SOURCEPAGE:p.60
+Yumi (short bow)		PROFICIENCY:WEAPON|Yumi			TYPE:Weapon.Martial.Ranged.Medium.Piercing										COST:30	WT:2		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6										RANGE:60	SIZE:M	SOURCEPAGE:p.60

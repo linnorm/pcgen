@@ -1,0 +1,11 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 9/16/03
+SOURCELONG:Deep Horizon	SOURCESHORT:DeepH	SOURCEWEB:http://www.wizards.com/
+
+# Equipment Name			Type				Cost		Weight	Source Page		Special Property
+Thurible of Divining		TYPE:Magic.Wondrous	COST:77000	WT:1		SOURCEPAGE:p.32	SPROP:Prayer effect when lighted ~ Detect Magic or Detect Good or Detect Law (3/day) ~ Augury or Locate Object (1/day) ~ Divination or True Seeing (1/week) ~ Commune (1/month)
+Thurible of Retribution		TYPE:Magic.Wondrous	COST:77000	WT:1		SOURCEPAGE:p.32	SPROP:Prayer effect when lighted ~ Command or Doom or Inflict Light Wounds (3/day) ~ Spiritual Weapon or Searing Light (1/day) ~ Inflict Critical Wounds or Circle of Doom (1/week) ~ Geas/Quest (1/month)
+Thurible of Warding		TYPE:Magic.Wondrous	COST:77000	WT:1		SOURCEPAGE:p.32	SPROP:Prayer effect when lighted ~ Entropic Shield or Endure Elements or Sanctuary (3/day) ~ Silence or Dispel Magic (1/day) ~ Spell Immunity or Spell Resistance (1/week) ~ Blade Barrier (1/month)
+
+Lamp					TYPE:Magic.Wondrous	COST:150	WT:1		SOURCEPAGE:p.11	SPROP:Continual Flame
+Helkitrin's Gold Medallion	TYPE:Magic.Wondrous	COST:0	WT:.01	SOURCEPAGE:p.23	SPROP:allows control of Djinn Zubenel

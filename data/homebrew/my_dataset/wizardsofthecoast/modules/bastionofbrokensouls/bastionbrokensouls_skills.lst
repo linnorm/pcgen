@@ -1,0 +1,5 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:The Bastion of Broken Souls	SOURCESHORT:BastionBS	SOURCEWEB:http://www.wizards.com/
+
+# Skill Name		Key Stat	Untrained?		Exclusive?		Type				Source Page
+Profession (Gardener)	KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:NO	TYPE:Wisdom.Profession	SOURCEPAGE:p.42

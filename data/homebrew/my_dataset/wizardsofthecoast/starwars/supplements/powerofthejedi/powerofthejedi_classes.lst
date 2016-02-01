@@ -1,0 +1,25 @@
+# CVS $Revision: 1.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Power of the Jedi	SOURCESHORT:PotJ	SOURCEWEB:http://www.wizards.com/starwars
+
+#Block: Prestige Classes
+
+# Class Name			Hit Dice	Type					Abbreviation	Max Level	Source Page		Save checks bonus									Combat bonus					Modify VAR
+CLASS:Jedi Weapon Master	HD:10		TYPE:PC.Prestige.Force.Jedi	ABB:JWM		MAXLEVEL:10	SOURCEPAGE:pg. 26	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Willpower|(CL+3)*2/5	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|CL/2	BONUS:VAR|ForcePoints|CL
+# Class Name			Req. Att.	Required Feat													Required Skill
+CLASS:Jedi Weapon Master	PREATT:5	PREFEAT:6,Alter,Control,Combat Expertise,Force Sensitive,Sense,Weapon Focus (TYPE.Melee)	PRESKILL:1,Battlemind=8	PRESKILL:1,Tumble=6
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Jedi Weapon Master	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|Computer Use|TYPE=Craft|Empathy|Enhance Ability|Friendship|Intimidate|Jump|TYPE=Knowledge|TYPE=Profession|Tumble
+1	BONUS:VAR|ForceUser|CL	BONUS:VAR|JediLevel|CL
+
+# Class Name		Hit Dice	Type					Abbreviation	Max Level	Source Page		Save checks bonus									Combat bonus					Modify VAR
+CLASS:Jedi Scholar	HD:6		TYPE:PC.Prestige.Force.Jedi	ABB:JSch		MAXLEVEL:10	SOURCEPAGE:pg. 26	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Willpower|(CL+3)*2/5	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:VAR|ClassDefense|(CL+3)*2/5	BONUS:VAR|Reputation|CL/2	BONUS:VAR|ForcePoints|CL
+# Class Name		Required Feat					Required Skill									Total Skill Points Req.		Var. Min. Value
+CLASS:Jedi Scholar	PREFEAT:3,Control,Force Sensitive,Sense	PRESKILL:3,TYPE.Knowledge=1,TYPE.Knowledge=1,TYPE.Knowledge=1	PRESKILLTOT:TYPE.Knowledge=5	PREVARGTEQ:JediLevel,3
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Jedi Scholar	STARTSKILLPTS:6	CSKILL:Computer Use|TYPE=Craft|Diplomancy|Empathy|Enhance Ability|TYPE=Force|Friendship|TYPE=Knowledge|TYPE=Profession|Read/Write Language|Sense Motive|Speak Languages|Spot|Treat Injury
+1	BONUS:SKILL|TYPE=Knowledge|KnowledgeBonus|TYPE=Circumstance	BONUS:VAR|KnowledgeBonus|2	BONUS:VAR|ForceUser|CL	BONUS:VAR|JediLevel|CL	DEFINE:KnowledgeBonus|0
+3											BONUS:VAR|KnowledgeBonus|2
+4											BONUS:VAR|DirectBonus|2										DEFINE:DirectBonus|0
+6											BONUS:VAR|KnowledgeBonus|2
+8											BONUS:VAR|DirectBonus|2
+9											BONUS:VAR|KnowledgeBonus|2

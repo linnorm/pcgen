@@ -1,0 +1,85 @@
+# CVS $Revision: 1.18 $ $Author: Kevin.A.Murphy@sff.net $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCE: Alphyn -- http://www.sff.net/people/Kevin.A.Murphy
+#The following list of items comes from Christina Rossetti's poem, Goblin Market, which was published in 1893, with enumeration of the poultry taken from Hans Christian Andersen's "The Ugly Duckling"  Pricing for all fruit was "a silver penny" in the poem, with other prices extrapolated from that and other sources.
+# Equipment Name							Type								Contains											Cost		Weight	Source Page
+Apples (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Apricots (Per Lb.)						TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Barberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Basket								TYPE:Goods.Container.General.Resizable		CONTAINS:25|Any=20									COST:.4	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Bees (Hive)								TYPE:Goods.Trade.Livestock																COST:8			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Bilberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Blackberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Bullaces (Per Lb.)						TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Butter (Per Lb.)							TYPE:Goods.Food.Resizable																COST:.1	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Cage									TYPE:Goods.Container.General.Resizable		CONTAINS:500|Livestock=500|Familiar=500|Trade=500|Mount=500|Trophy=500	COST:50	WT:50		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Cakes of Whitest Wheat						TYPE:Goods.Food.Resizable																COST:.3	WT:.5		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Cherries (Per Lb.)						TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Chicken								TYPE:Goods.Trade.Livestock																COST:.02			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Citrons (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Coin (Silver Penny)						TYPE:Coin																			COST:.01	WT:.01	SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Cow									TYPE:Goods.Trade.Livestock																COST:10			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Crabapples (Per Lb.)						TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Cranberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Cream (Pint)							TYPE:Goods.Liquid.Food																	COST:.05	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Crown (of tendrils, leaves and rough nuts brown)	TYPE:Goods.Clothing.Resizable																COST:.1	WT:.1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Currants (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Daisy									TYPE:Goods.Flower																		COST:.1	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Damsons (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Dates (Per Lb.)							TYPE:Goods.Food.Fruit.Dried.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Dewberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Dish (Golden)							TYPE:Goods.Container.General.Resizable		CONTAINS:50|Any=40									COST:500	WT:10		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Duck									TYPE:Goods.Trade.Livestock																COST:.03			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Eagle									TYPE:Goods.Trade.Livestock																COST:80			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Figs (Per Lb.)							TYPE:Goods.Food.Fruit.Dried.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Fish									TYPE:Goods.Food																		COST:.02			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Flag (Army)								TYPE:Goods.General.Resizable																COST:15	WT:3		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Furze									TYPE:Goods.Herb																		COST:.02	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Goblin Dew								TYPE:Goods.Liquid.Food.Magic.Poison.Resizable													COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Goblin Pulp								TYPE:Goods.Food.Magic.Poison.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Gold (Per Lb.)							TYPE:Goods.Trade																		COST:50	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Golden Flag								TYPE:Goods.Medicinal.Flower																COST:.3	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Goose									TYPE:Goods.Trade.Livestock																COST:.05			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Gooseberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Grapes (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Greengages (Per Lb.)						TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Heather								TYPE:Goods.Herb.Flower																	COST:.02	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Honey (Per Lb.)							TYPE:Goods.Liquid.Food																	COST:.2	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Horse									TYPE:Goods.Transportation.Mount.Container		CONTAINS:450|Any=450									COST:75	WT:0		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Ivory (Per Lb.)							TYPE:Goods.Trade																		COST:60	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Kernel-Stone (Per Lb.)						TYPE:Goods.Food.Resizable																COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Lemons (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Lily									TYPE:Goods.Flower																		COST:.2	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Mead (Gallon)							TYPE:Goods.Liquid.Food.Alcohol															COST:1	WT:8		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Mead (Pint)								TYPE:Goods.Liquid.Food.Alcohol															COST:.2	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Mead (Pitcher)							TYPE:Goods.Liquid.Food.Alcohol															COST:.75	WT:6		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Melons (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Milk (Gallon)							TYPE:Goods.Liquid.Food																	COST:.05	WT:8		SOURCEPAGE:p.123
+Milk (Pint)								TYPE:Goods.Liquid.Food																	COST:.01	WT:1		SOURCEPAGE:p.123
+Milk (Pitcher)							TYPE:Goods.Liquid.Food																	COST:.38	WT:6		SOURCEPAGE:p.123
+Mulberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Nuts (Per Lb.)							TYPE:Goods.Food.Resizable																COST:.02	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Oranges (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Owl									TYPE:Goods.Trade.Livestock																COST:18			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Panier								TYPE:Goods.Container.General.Resizable		CONTAINS:12|Any=10									COST:.3	WT:.5		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Parrot								TYPE:Goods.Trade.Livestock																COST:25			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Peaches (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Pearl									TYPE:Goods.Trade																		COST:100	WT:0		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Pears (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Pigeon								TYPE:Goods.Trade.Livestock																COST:.01			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Pineapples (Per Lb.)						TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Plate									TYPE:Goods.Container.General.Resizable		CONTAINS:6|Any=5										COST:.1	WT:.25	SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Plums (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Pomegranates (Per Lb.)						TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Purple Flag								TYPE:Goods.Medicinal.Flower																COST:.1	WT:.1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Purse									TYPE:Goods.Container.General.Resizable		CONTAINS:2|Any=2|Gem=25|Coin=25|Total=25						COST:.5	WT:.25	SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Quinces (Per Lb.)							TYPE:Goods.Food.Fruit.Resizable															COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Raspberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Rushes								TYPE:Goods.General																	COST:.02	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Standard (Battle)							TYPE:Goods.General.Resizable																COST:45	WT:3		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Strawberries (Per Lb.)						TYPE:Goods.Food.Fruit.Berries.Resizable														COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Swan									TYPE:Goods.Trade.Livestock																COST:5			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Torch									TYPE:Goods.General.Resizable																COST:.01	WT:1		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Turkey								TYPE:Goods.Trade.Livestock																COST:1			SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Wand (Gold-Tipped Ivory)					TYPE:Wand																			COST:75	WT:0		SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Wine (Man-Rejoicing)						TYPE:Goods.Liquid.Food.Resizable															COST:8	WT:1.5	SOURCEPAGE:"Goblin Market" by Christina Rossetti
+Wormwood, sprig							TYPE:Goods.Herb.Poison.General															COST:.2	WT:.1		SOURCEPAGE:"Goblin Market" by Christina Rossetti

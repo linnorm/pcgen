@@ -1,0 +1,15 @@
+# CVS $Revision$ $Author$ -- Sat Nov  1 20:01:47 2003 -- reformated by prettylst.pl v1.31 (build 327)
+CAMPAIGN:Rallanon Campaign - West
+GAMEMODE:rpg
+TYPE:Campaign
+RANK:1
+INFOTEXT:This is the info needed for the western areas of Rallanon, including the base data.
+ISOGL:NO
+SHOWINMENU:NO
+GENRE:Fantasy
+
+
+##Block: My Stuff
+PCC:@\homebrew\my_dataset\rallanonpublishinggroup\rallanon\encyclopediarallanon\Rallanon_Base.pcc
+PCC:@\homebrew\my_dataset\rallanonpublishinggroup\rallanon\encyclopediarallanon\west\rallanon.pcc
+

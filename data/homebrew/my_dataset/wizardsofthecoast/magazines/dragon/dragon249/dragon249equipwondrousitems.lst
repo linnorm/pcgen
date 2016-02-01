@@ -1,0 +1,34 @@
+# CVS $Revision: 1.4 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #249	SOURCESHORT:WotC-Dragon #249	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+#Name					TYPE				Cost		Weight
+# Equipment Name			Type				Contains		Cost		Weight	Source Page		Save checks bonus		Special Property
+Amulet of Warning			TYPE:Magic.Wondrous				COST:10000	WT:0		SOURCEPAGE:p.82					SPROP:When a creatur of 5 INT or higher with malicious intent toward the wearer is within 50ft the amulet glows
+Traveler's Backpack		TYPE:Magic.Wondrous				COST:2500	WT:15		SOURCEPAGE:p.82					SPROP:Reduces weight of objects placed inside by 10%,Completely water proof and non-magical flame retardent,saves: +2 for items +4 for itself
+Bag of Cleanliness		TYPE:Magic.Wondrous				COST:1000	WT:5		SOURCEPAGE:p.83					SPROP:Backpack will clean any clothing/linen item if left inside for 4 hours or more
+Boots of Hiking			TYPE:Magic.Wondrous				COST:3000	WT:1		SOURCEPAGE:p.83	BONUS:CHECKS|Reflex|1|	SPROP:Allows wearer to move unimpeded through rough terrain/snow/ice etc, Boots are always clean and waterproof
+Boots of Marching			TYPE:Magic.Wondrous				COST:2500	WT:1		SOURCEPAGE:p.83					SPROP:Wearer can walk 50% faster, in addition wearer can march for 11 hours a day instead of 8 without having to make CON checks
+Boots of Trail Marking		TYPE:Magic.Wondrous				COST:500	WT:1		SOURCEPAGE:p.83					SPROP:Boots leave bioluminescent prints that last for 4 days or until dispelled
+Boots of Passage			TYPE:Magic.Wondrous				COST:2300	WT:1		SOURCEPAGE:p.83					SPROP:When boots are worn while moving through vegetation wearer leaves no trace of his passing
+Bottle of holding			TYPE:Magic.Wondrous				COST:1500	WT:0		SOURCEPAGE:p.83					SPROP:Bottle can hold 50 gallons of any liquid, and does not increase in weight, if botle is punctured it deals 2d6 dam in 10ft radius
+Cane of Evasion			TYPE:Magic.Wondrous				COST:7000	WT:3		SOURCEPAGE:p.84					SPROP:Reduces chances of random encounters by 75%, does not affect people/monsters who are activly pursuing the individual in any way
+Cane of Fire Starting		TYPE:Magic.Wondrous				COST:2200	WT:3		SOURCEPAGE:p.84					SPROP:Can be used to ignite a small flame in any combustable material(1charge),even if it is wet(2 charges), 1d6 fire damage if used as a weeapon (2charges)
+Cane of Foraging			TYPE:Magic.Wondrous				COST:2800	WT:3		SOURCEPAGE:p.84					SPROP:Can be commanded to seek out edible plant food within 200ft, as well as water 1/2 mile, 1 charge expended per command
+Cape of Comfort			TYPE:Magic.Wondrous				COST:1600	WT:1		SOURCEPAGE:p.84					SPROP:Turns into a luxurious sleeping bagt that is water resistance and repels bugs withing 3ft, 8 hours sleep heals 2hp extra of normal non-magical damage
+Chalk of Trail Marking		TYPE:Magic.Wondrous				COST:1000	WT:0		SOURCEPAGE:p.84					SPROP:Chalk leaves irredescent marks that remain for 3 weeks only visible by holder of the chalk only removeable by Dispel Magic, Detect Magic makes them visible
+Spikes of Climbing (Pitons)	TYPE:Magic.Wondrous				COST:120	WT:0		SOURCEPAGE:p.85					SPROP:Can penetrate stone,wood,clay,adobe,metal with ease, and be withdrawn with ease as well, GP value is per spike
+Cloak of Animal Friendship	TYPE:Magic.Wondrous				COST:5000	WT:1		SOURCEPAGE:p.85					SPROP:Each cloak is attuned to one type of animal, it allows wearer to speak with said animals and grants the wearer kinship
+Cloak of Camoflage		TYPE:Magic.Wondrous				COST:900	WT:1		SOURCEPAGE:p.85					SPROP:Each cloak is attuned to a specific environment(Tundra,Forest,Plains, etc) and allows wearer to become invisible in that specific terrain
+Desert Cloak			TYPE:Magic.Wondrous				COST:2000	WT:1		SOURCEPAGE:p.85					SPROP:Keeps wearer at 70 F from natural temperatures of 90-150 F, natural Sandstorms do not effect the wearer
+Artic Cloak				TYPE:Magic.Wondrous				COST:2000	WT:1		SOURCEPAGE:p.85					SPROP:Keeps wearer at 70 F from natural temperates of 30-40 F, Natural snow/ice doe snot affect the wearer
+Cloak of Comfort			TYPE:Magic.Wondrous				COST:2000	WT:1		SOURCEPAGE:p.86					SPROP:Keeps wearer at 70 F from natural temperatures of 30-100 F, Natural Rain,sleet,hail,snow
+Hammer of Climbing		TYPE:Magic.Wondrous				COST:4500	WT:2		SOURCEPAGE:p.86					SPROP:Turns any normal spike/piton into a Spike of Climbing, can imbue 100/day, hammer has to drive the spike in order for spike to be imbued
+Helm of Darkvision (60')	TYPE:Magic.Wondrous				COST:2400	WT:3		SOURCEPAGE:p.86					SPROP:Grants Darkvision (100'), must remove helm in order to use normal vision
+Helm of Excellent Sight		TYPE:Magic.Wondrous				COST:3500	WT:3		SOURCEPAGE:p.86					SPROP:Lenght of sight is increased x3, +1 bonus to rolls for suprise and hidden doors, +3 to find camouflaged creatures,can't be worn for more than 10hr/day
+Machette of Path Clearing	TYPE:Magic.Wondrous				COST:5400	WT:3		SOURCEPAGE:p.86					SPROP:User can cut 5x more vegitation a day than normal,is no more exhausted than if he had walked the distance, small plants stepped on wither and die
+Necklace of Language		TYPE:Magic.Wondrous				COST:3500	WT:0		SOURCEPAGE:p.87					SPROP:User can speak/understand one additional language after wearing for 3 days and is continually worn
+Pipe of Aversion			TYPE:Magic.Wondrous				COST:800	WT:0		SOURCEPAGE:p.87					SPROP:When this pipe is smoked no non-magical, normal sized insect will come within 5ft
+Siver's sustaining Satchel	TYPE:Magic.Wondrous	CONTAINS:*100	COST:5000	WT:3		SOURCEPAGE:p.88					SPROP:When a normal food item is added and left inside for 1 turn it triples the amount of that food, useable 3x/day
+Skillet of frying			TYPE:Magic.Wondrous				COST:1600	WT:2		SOURCEPAGE:p.88					SPROP:Cooks/fries food with no need of herbs/oil, only frying side heats up when used, no flame needed, kills all bacteria and germs
+Stakes of Concealment		TYPE:Magic.Wondrous				COST:3500	WT:0		SOURCEPAGE:p.88					SPROP:Used to stake tents smaller than 15ft on a side, makes occupants undetectable (heat/vision/scent) to animals of INT 4 or lower
+Torch of Limited Light		TYPE:Magic.Wondrous				COST:1200	WT:1		SOURCEPAGE:p.88					SPROP:When lit the flame is permanent, can ignite cobustables like normal flames, light only goes for 15ft, beyond that it appears to be no light at all
+Whistle of Repulsion		TYPE:Magic.Wondrous				COST:2500	WT:0		SOURCEPAGE:p.88					SPROP:Attuned to specific type of animal, 3x/day can be blown and all such animals within 100ft must save vs WIL or flee, will not approach within 200ft for 2d4 hours

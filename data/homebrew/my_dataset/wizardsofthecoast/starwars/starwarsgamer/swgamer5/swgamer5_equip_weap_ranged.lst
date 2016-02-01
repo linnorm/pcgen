@@ -1,0 +1,5 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Star Wars Gamer 5	SOURCESHORT:SWG5	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+
+# Equipment Name	Type						Cost		Weight	Critical Hit Range	Damage			Range		Size		Source Page
+Charric		TYPE:Weapon.Ranged.BlasterRifle	COST:0	WT:4.5	CRITRANGE:1			DAMAGE:3d6(or1d6/16)	RANGE:8	SIZE:M	SOURCEPAGE:p.

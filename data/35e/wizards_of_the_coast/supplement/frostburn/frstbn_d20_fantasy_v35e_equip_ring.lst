@@ -1,0 +1,8 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Created by Robert Biskup January 2005
+
+#Ring
+# Equipment Name		Type				Cost		Weight	Requires Modification?	Source, Long Desc.	Source, Short Desc.	Source Page		Special Property
+Ring of the Icy Soul	TYPE:Wondrous.Ring	COST:100000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.111	SPROP:As long as this ring is worn, you gain the cold subtype
+Ring of Floating		TYPE:Wondrous.Ring	COST:2000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.111	SPROP:As long as this ring is worn, you fl oat upon any liquid or similar surface, and cannot swim below the surface. If you are underwater when you put this ring on, you rise toward the surface at a speed of 30 feet.
+Ring of the White Wyrm	TYPE:Wondrous.Ring	COST:64000	WT:.01	MODS:NO			SOURCELONG:Frostburn	SOURCESHORT:frstbn	SOURCEPAGE:p.111	SPROP:Icewalking at will  ~ Freezing fog 2/day ~ Wall of ice 1/day ~ can speak and understand Draconic as long as the ring is worn ~ gains resistance to cold 10 ~ may transform into a white half-dragon for 1 hour/day

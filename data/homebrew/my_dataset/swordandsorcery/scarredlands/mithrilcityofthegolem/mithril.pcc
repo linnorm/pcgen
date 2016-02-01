@@ -1,0 +1,14 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:SSS - Mithril - City of the Golem
+GAMEMODE:3e
+TYPE:Sword and Sorcery Studios.Scarred Lands
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+RANK:9
+SOURCELONG:Mithril - City of the Golem
+SOURCESHORT:Mithril
+SOURCEWEB:http://www.swordsorcery.com
+
+CLASS:mithrilclasses.lst
+EQUIPMOD:mithrilequipmods.lst

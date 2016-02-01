@@ -1,0 +1,19 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Star Wars Gamer 3	SOURCESHORT:SWG3	SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+#Updated with errata from http://shadow.wizards.com/starwars/downloads/Errata.pdf
+#Modifications for Droid Characters added per Star Wars Gamer 3
+
+# Class Name		Hit Dice	Max Level	Source Page		Define
+CLASS:DroidDiplomat	HD:1		MAXLEVEL:20	SOURCEPAGE:p.215	DEFINE:BAB|CL/2	DEFINE:FORTBASE|CL/3	DEFINE:REFLEXBASE|CL/3	DEFINE:WILLBASE|(CL+2)/2
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:DroidDiplomat	STARTSKILLPTS:4	CSKILL:Appraise|Computer Use|Bluff|Diplomacy|Gather Information|TYPE=Knowledge|TYPE=Profession|Sense Motive|Speak Language
+
+# Class Name	Hit Dice	Max Level	Source Page			Define
+CLASS:DroidExpert	HD:1		MAXLEVEL:20	SOURCEPAGE:p.215-216	DEFINE:BAB|(CL*3)/4	DEFINE:FORTBASE|CL/3	DEFINE:REFLEXBASE|CL/3	DEFINE:WILLBASE|(CL+4)/2
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:DroidExpert	STARTSKILLPTS:6	CSKILL:Appraise|Astrogate|Computer Use|TYPE=Craft|Demolitions|Disable Device|Disguise|TYPE=Entertain|Forgery|Gather Informaion|Handle Animal|TYPE=Knowledge|Pilot|TYPE=Profession|Repair|Survival|Treat Injury
+
+# Class Name	Hit Dice	Max Level	Source Page		Define
+CLASS:DroidThug	HD:1		MAXLEVEL:20	SOURCEPAGE:p.216	DEFINE:BAB|CL	DEFINE:FORTBASE|(CL+4)/2	DEFINE:REFLEXBASE|CL/3	DEFINE:WILLBASE|CL/3
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:DroidThug	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|TYPE=Knowledge|TYPE=Profession|Ride|Swim

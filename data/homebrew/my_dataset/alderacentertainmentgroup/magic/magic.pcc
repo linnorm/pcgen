@@ -1,0 +1,19 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:AEG - Magic Source Book 3.5
+GAMEMODE:35e
+TYPE:Alderac Entertainment Group.Sourcebook
+RANK:9
+SOURCELONG:Alderac Entertainment Group - Magic
+SOURCESHORT:Magic
+SOURCEWEB:http://alderac.com/d20
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+
+
+ABILITY:magic_abilities_class.lst
+CLASS:magic_classes_base.lst
+CLASS:magic_classes_prestige.lst
+FEAT:magic_feats.lst
+SKILL:magic_skills.lst
+SPELL:magic_spells.lst
+TEMPLATE:magic_templates.lst

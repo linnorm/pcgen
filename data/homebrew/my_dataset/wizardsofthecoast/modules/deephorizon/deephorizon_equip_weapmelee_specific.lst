@@ -1,0 +1,9 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Thu Mar  8 10:47:05 2007 -- reformated by prettylst.pl v1.37 (build 2312)
+# Original entry by Barak 09/16/03
+SOURCELONG:Deep Horizon	SOURCESHORT:DeepH	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name	Output Name				Required Proficiency	Type													Cost		Weight	Base Item for EQMOD	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier	Requires Modification?	Range		Reach		Size		Source Page		Weapon prop. bonus
+Dagger +1 (Keen)	OUTPUTNAME:+1 Dagger (Keen)	PROFICIENCY:WEAPON|Dagger	TYPE:Magic.Weapon.Simple.Melee.Ranged.Piercing.Specific.Thrown.Metal.Dagger	COST:2	WT:1		BASEITEM:Dagger		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4	EQMOD:KEEN	MODS:NO			RANGE:10			SIZE:T	SOURCEPAGE:p.13	BONUS:WEAPON|DAMAGE,TOHIT|1|TYPE=Enhancement
+Longspear +3	OUTPUTNAME:+3 Longspear		PROFICIENCY:WEAPON|Longspear	TYPE:Magic.Weapon.Martial.Melee.Piercing.Specific.Metal.Spear			COST:5	WT:9						CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8									REACH:10	SIZE:H	SOURCEPAGE:p.24	BONUS:WEAPON|DAMAGE,TOHIT|3|TYPE=Enhancement
+

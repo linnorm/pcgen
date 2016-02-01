@@ -1,0 +1,28 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+
+# Skill Name			Key Stat	Untrained?		Type							Source Page			Bonus to skill																											Temporary effect description
+Knowledge (The Planes).MOD						TYPE:.CLEAR.Disallowed
+
+#Block: New Skills
+# Skill Name			Key Stat	Untrained?		Type							Source Page			Bonus to skill																											Temporary effect description
+Craft (Cannoneer)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.AdvancedCraft																																			TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Clockwork)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.AdvancedCraft																																			TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Demolitions)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.AdvancedCraft						BONUS:SKILL|Craft (Demolitions)|2|PRESKILL:1,Craft (Alchemy)=5|TYPE=Synergy.STACK																TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Gunsmithing)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft								BONUS:SKILL|Craft (Gunsmithing)|2|PRESKILL:1,Craft (Clockwork)=5|TYPE=Synergy.STACK	BONUS:SKILL|Craft (Gunsmithing)|2|PRESKILL:1,Craft (Weaponsmithing)=5|TYPE=Synergy.STACK	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Mechanika)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.AdvancedCraft																																			TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Small Arms)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.AdvancedCraft						BONUS:SKILL|Craft (Small Arms)|2|PRESKILL:1,Craft (Gunsmithing)=5|TYPE=Synergy.STACK															TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Steam Engine)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.AdvancedCraft																																			TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Stoneworking)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft								BONUS:SKILL|Craft (Stoneworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=StonemasonryTools|PREAPPLY:PC													TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Tools)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft																																					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Creature Lore			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intellegence									BONUS:SKILL|Creature Lore|2|PRESKILL:1,Knowledge (Nature)=5|TYPE=Synergy.STACK
+Jack Handling			KEYSTAT:CHA	USEUNTRAINED:NO	TYPE:Charisma					SOURCEPAGE:pg.150
+Knowledge (Law)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge
+Knowledge (Mechanika)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge.KnowSciTech																																		TEMPDESC:If 5 ranks or higher then +2 to Craft (Mechanika) for drafting schematics.
+Knowledge (Tactics)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge
+Perform (Impersonation)		KEYSTAT:CHA	USEUNTRAINED:NO	TYPE:Charisma.Perform				SOURCEPAGE:SkillsII.rtf
+Profession (Librarian)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+Profession (Mechanik)		KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession
+
+#Block: .MODed skills
+Knowledge (Nature).MOD																																															TEMPDESC:If 5 ranks or higher then +2 to relevant Creature Lore checks.

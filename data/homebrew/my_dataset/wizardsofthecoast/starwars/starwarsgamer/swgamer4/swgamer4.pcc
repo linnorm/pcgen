@@ -1,0 +1,21 @@
+# CVS $Revision: 1.1 $ $Author: ericbeaudoin $
+CAMPAIGN:Star Wars Gamer Issue #4
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Magazine
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Magazine
+SOURCELONG:Star Wars Gamer #4
+SOURCESHORT:SWG4
+SOURCEWEB:http://www.wizards.com/starwars/article.asp?x=gamer,3&c=gamer
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+INFOTEXT:Star Wars Gamer Magazine
+
+BIOSET:swgamer4_biosettings.lst
+RACE:swgamer4races.lst
+EQUIPMENT:swgamer4equip.lst
+EQUIPMENT:swgamer4equipweapmelee.lst
+FEAT:swgamer4feat.lst
+WEAPONPROF:swgamer4weaponprof.lst

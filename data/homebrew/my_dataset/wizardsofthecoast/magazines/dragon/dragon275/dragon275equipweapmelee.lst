@@ -1,0 +1,16 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #275	SOURCESHORT:WotC-Dragon #275	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name		Required Proficiency				Type									Cost		Weight	AC Penalty Check	Critical Hit Multiplier	Critical Hit Range	Damage	Size		Source Page		% of Spell Failure	Combat bonus
+Buckler-Axe (Dwarf)	PROFICIENCY:WEAPON|Buckler-Axe (Dwarf)	TYPE:Weapon.Exotic.Melee.Slashing.Shield.Metal		COST:30	WT:6		ACCHECK:-1		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d6	SIZE:S	SOURCEPAGE:p.43	SPELLFAILURE:5		BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE
+Crescent Knife									TYPE:Weapon.Exotic.Melee.Slashing.Metal			COST:20	WT:1					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d3	SIZE:S	SOURCEPAGE:p.43
+Crusher (Orc)									TYPE:Weapon.Exotic.Melee.Bludgeoning.Metal		COST:60	WT:15					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	SIZE:L	SOURCEPAGE:p.43
+Gythka										TYPE:Weapon.Exotic.Melee.Slashing.Double.Metal		COST:100	WT:12					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	SIZE:L	SOURCEPAGE:p.43
+Lajatang										TYPE:Weapon.Exotic.Melee.Slashing.Double.Metal		COST:90	WT:7					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	SIZE:L	SOURCEPAGE:p.43
+Lajatang (Halfling)								TYPE:Weapon.Exotic.Melee.Slashing.Double.Metal		COST:80	WT:3					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	SIZE:M	SOURCEPAGE:p.43
+Mancatcher										TYPE:Weapon.Exotic.Melee.Bludgeoning.Metal		COST:30	WT:8					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	SIZE:L	SOURCEPAGE:p.43
+Sai											TYPE:Weapon.Exotic.Melee.Bludgeoning.Metal		COST:10	WT:0.5				CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	SIZE:T	SOURCEPAGE:p.43
+Scimitar (Great)									TYPE:Weapon.Exotic.Melee.Slashing.Metal			COST:50	WT:16					CRITMULT:x2			CRITRANGE:3			DAMAGE:2d6	SIZE:L	SOURCEPAGE:p.43
+Scourge										TYPE:Weapon.Exotic.Melee.Slashing.Metal			COST:20	WT:2					CRITMULT:x2			CRITRANGE:1			DAMAGE:1d3	SIZE:M	SOURCEPAGE:p.43
+Thinblade (Elven)									TYPE:Weapon.Exotic.Melee.Piercing.Finesseable.Metal	COST:100	WT:3					CRITMULT:x2			CRITRANGE:3			DAMAGE:1d8	SIZE:M	SOURCEPAGE:p.43
+Tortoise Blade (Gnome)								TYPE:Weapon.Exotic.Melee.Piercing.Metal			COST:20	WT:1					CRITMULT:x2			CRITRANGE:2			DAMAGE:1d4	SIZE:T	SOURCEPAGE:p.43

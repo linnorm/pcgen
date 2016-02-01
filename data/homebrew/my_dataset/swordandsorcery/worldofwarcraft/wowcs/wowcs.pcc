@@ -1,0 +1,29 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:SSS - World of Warcraft Campaign Setting
+GAMEMODE:WoW
+TYPE:Sword and Sorcery Studios.World of Warcraft
+RANK:9
+SOURCELONG:World of Warcraft Campaign Setting
+SOURCESHORT:WoWCS
+SOURCEWEB:http://www.swordsorcery.com
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+
+
+CLASS:wowcs_classes_base.lst
+CLASS:wowcs_classes_race.lst
+DEITY:wowcs_deities.lst
+DOMAIN:wowcs_domains.lst
+EQUIPMENT:wowcs_equip.lst
+EQUIPMENT:wowcs_equip_weap_ammo.lst
+EQUIPMENT:wowcs_equip_weap_melee.lst
+EQUIPMENT:wowcs_equip_weap_ranged.lst
+EQUIPMOD:wowcs_equipmods.lst
+FEAT:wowcs_feats.lst
+LANGUAGE:wowcs_language.lst
+RACE:wowcs_races.lst
+SKILL:wowcs_skills.lst
+SPELL:wowcs_spells.lst
+TEMPLATE:wowcs_templates.lst
+WEAPONPROF:wowcs_weapprofs.lst

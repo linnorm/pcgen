@@ -1,0 +1,228 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Heroes of High Favor - Dwarves	SOURCESHORT:HoHF - Dwarves	SOURCEWEB:x
+
+#Battle-Rager
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus											Combat bonus
+CLASS:Battle-Rager	HD:12		TYPE:PC.Prestige	ABB:Bat-Rag		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Required AL				Req. Att.	Required Feat										Required Text
+CLASS:Battle-Rager	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:5	PREFEAT:4,Cleave,Iron Will,Power Attack,Toughness	PREFEAT:1,Rage	PRETEXT:Must be able to rage, frenzy or similar class ability.
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Battle-Rager	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Jump|Swim|Tumble
+
+1			SAB:Against the Odds (Ex)
+2			SAB:Fearsome Visage										ADD:FEAT|1|TYPE=Fighter
+3			SAB:Frenzied Charge
+4	DR:1/-
+5			SAB:Indomitable Will
+6			SAB:Additional Rage		BONUS:VAR|RageTimes|1	DEFINE:RageTimes|0	ADD:FEAT|1|TYPE=Fighter	AUTO:FEAT|Rage
+7			SAB:Improved Rage
+8	DR:2/-
+9			SAB:Additional Rage		BONUS:VAR|RageTimes|1
+10			SAB:Improved Rage											ADD:FEAT|1|TYPE=Fighter
+
+
+
+#Dwarven Skald
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus											Combat bonus
+CLASS:Dwarven Skald	HD:6		TYPE:PC.Prestige	ABB:DSkald		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Multiple Requirements
+CLASS:Dwarven Skald	PREATT:5	PREMULT:2,[PRESKILL:3,Decipher Script=4,Gather Information=4,Knowledge (Dwarves)=6],[PRESKILL:1,Perform (Chant)=3,Perform (Epic)=3,Perform (Storytelling)=3]
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Dwarven Skald	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Gather Information|Hide|Intimidate|Intuit Direction|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Profession|Sense Motive|Speak Language|Spellcraft|Swim|Use Magic Device
+
+1						AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency
+1						AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1						AUTO:FEAT|Shield Proficiency
+
+1	SAB:Bardic Study
+2	SAB:Invoke Curse (Su)
+4	SAB:Inspire Compentence (Su)
+5	SAB:Captivate (Su)
+7	SAB:Suggestion
+8	SAB:Instill Fear (Su)
+10	SAB:Inspire Greatness
+
+#Rune-Priest
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus											Combat bonus
+CLASS:Rune-Priest	HD:8		TYPE:PC.Prestige	ABB:RPrst		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Domain	Multiple Requirements
+CLASS:Rune-Priest	PREATT:4	PREDOMAIN:2,ANY	PREMULT:2,[PRESKILL:2,Craft (Armorsmithing)=4,Craft (Weaponsmithing)=4,Craft (Blacksmithing)=4,Craft (Stonemasonry)=4],[PRESKILL:1,Knowledge (Dwarves)=6]	PREMULT:2,[PREFEAT:2,Martial Weapon Proficiency,Weapon Focus],[PREFEAT:1,TYPE.DwarvenRune]
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Rune-Priest	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Heal|Jump|Knowledge (Arcana)|Knowledge (Religion)|Scry|Spellcraft
+
+###Dwarven Runes:
+#(Rune of Beauty,Rune of Cleaving,Rune of Courage,Rune of Fortification,Rune of Power,Rune of Protection,Rune of Sharpness,Rune of Sundering,Rune of Vengeance)1
+1																																								AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency
+1																																								AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)
+1																																								AUTO:FEAT|Shield Proficiency|Tower Shield
+
+1	CAST:1						BONUS:DOMAIN|NUMBER|1
+2	CAST:2,0										ADD:FEAT|1|Rune of Beauty,Rune of Cleaving,Rune of Courage,Rune of Fortification,Rune of Power,Rune of Protection,Rune of Sharpness,Rune of Sundering,Rune of Vengeance
+3	CAST:2,1		SAB:Runecraft
+4	CAST:3,2,0										ADD:FEAT|1|Rune of Beauty,Rune of Cleaving,Rune of Courage,Rune of Fortification,Rune of Power,Rune of Protection,Rune of Sharpness,Rune of Sundering,Rune of Vengeance
+5	CAST:3,2,1
+6	CAST:3,3,2,0									ADD:FEAT|1|Rune of Beauty,Rune of Cleaving,Rune of Courage,Rune of Fortification,Rune of Power,Rune of Protection,Rune of Sharpness,Rune of Sundering,Rune of Vengeance
+7	CAST:3,3,2,1	SAB:Divine Inspiration
+8	CAST:3,3,3,2,0									ADD:FEAT|1|Rune of Beauty,Rune of Cleaving,Rune of Courage,Rune of Fortification,Rune of Power,Rune of Protection,Rune of Sharpness,Rune of Sundering,Rune of Vengeance
+9	CAST:3,3,3,2,1
+10	CAST:3,3,3,3,2									ADD:FEAT|1|Rune of Beauty,Rune of Cleaving,Rune of Courage,Rune of Fortification,Rune of Power,Rune of Protection,Rune of Sharpness,Rune of Sundering,Rune of Vengeance
+
+1																																																							SPELLLEVEL:CLASS|Rune-Priest=1|Bless,Command,Cure Light Wounds,Deathwatch,Divine Favor,Doom,Entropic Shield,Erase,Magic Weapon,Remove Fear,Shield of Faith
+1																																																							SPELLLEVEL:CLASS|Rune-Priest=2|Aid,Augury,Bull's Strength,Cure Moderate Wounds,Endurance,Gentle Repose,Remove Paralysis,Shield Other,Spiritual Weapon
+1																																																							SPELLLEVEL:CLASS|Rune-Priest=3|Cure Serious Wounds,Dispel Magic,Magic Weapon (Greater),Glyph of Warding,Magic Vestment,Prayer
+1																																																							SPELLLEVEL:CLASS|Rune-Priest=4|Cure Critical Wounds,Death Ward,Divination,Divine Power,Explosive Runes,Neutralize Poison,Sending,Status,Tongues
+1																																																							SPELLLEVEL:CLASS|Rune-Priest=5|Atonement,Commune,Flame Strike,Command (Greater),Hallow,Healing Circle,Mark of Justice,Raise Dead,Righteous Might,Scrying,Spell Resistance,True Seeing
+
+#Rock-Warden
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus											Combat bonus
+CLASS:Rock-Warden	HD:8		TYPE:PC.Prestige	ABB:RWarden		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required Feat		Required Language	Required Skill							Req. Spell Type
+CLASS:Rock-Warden	PREFEAT:1,Blind-fight	PRELANG:1,Terran	PRESKILL:3,Animal Empathy=8,Scry=8,Wilderness Lore=8	PRESPELLTYPE:1,Divine=2
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Rock-Warden	STARTSKILLPTS:4	CSKILL:Animal Empathy|Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Intuit Direction|Knowledge (Nature)|Scry|Spellcraft|Swim|Wilderness Lore
+
+1														SAB:Animal Companion											ADD:SPELLCASTER|1|Druid
+2																												ADD:SPELLCASTER|1|Druid
+3														SAB:Stony Stride												ADD:SPELLCASTER|1|Druid
+4																												ADD:SPELLCASTER|1|Druid
+5														SAB:Blindsight												ADD:SPELLCASTER|1|Druid
+6																												ADD:SPELLCASTER|1|Druid
+7														SAB:Subterranean Empathy										ADD:SPELLCASTER|1|Druid
+8																												ADD:SPELLCASTER|1|Druid
+9														SAB:Poison Immunity											ADD:SPELLCASTER|1|Druid
+10																												ADD:SPELLCASTER|1|Druid
+#WILD SHAPE ABILITY:
+2														SAB:Rock-Warden Wild Shape 1/day
+4	SAB:.CLEAR.Rock-Warden Wild Shape 1/day							SAB:Rock-Warden Wild Shape 2/day (tiny)
+6	SAB:.CLEAR.Rock-Warden Wild Shape 2/day (tiny)						SAB:Rock-Warden Wild Shape 3/day (tiny, large / fungus)
+8	SAB:.CLEAR.Rock-Warden Wild Shape 3/day (tiny, large / fungus)			SAB:Rock-Warden Wild Shape 4/day (tiny, large / fungus, dire / ooze)
+10	SAB:.CLEAR.Rock-Warden Wild Shape 4/day (tiny, large / fungus, dire / ooze)	SAB:Rock-Warden Wild Shape 5/day (tiny, large / fungus, dire / ooze, elemental)
+
+#Stoneheart Ascetic
+
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus								Combat bonus
+CLASS:Stoneheart Ascetic	HD:8		TYPE:PC.Prestige	ABB:StoneA		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name			Required Check Base		Required Feat												Required Skill
+CLASS:Stoneheart Ascetic	PRECHECKBASE:1,Fortitude=6	PREFEAT:4,Endurance,Improved Unarmed Strike,Stunning Fist,Weapon Focus(Unarmed)	PRESKILL:2,Concentration=6,Sense Motive=4
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Stoneheart Ascetic	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Hide|Intuit Direction|Knowledge (Arcana)|Knowledge (Religion)|Listen|Move Silently|Sense Motive|Spot
+
+1	SAB:Monk Abilities				ADD:VFEAT(Deflect Arrows,Dodge,Improved Grab,Improved Bull Rush,Improved Disarm,Improved Trip,Power Attack,Toughness)1
+2	SAB:Still Mind	SAB:Purity of Body
+3	SAB:Stone Step	SAB:Wholeness of Body
+4	SAB:Tremorsense					ADD:VFEAT(Deflect Arrows,Dodge,Improved Grab,Improved Bull Rush,Improved Disarm,Improved Trip,Power Attack,Toughness)1
+5	SAB:Stone Slumber
+6	SAB:Stone Heart
+7
+8	SAB:Stone Soul
+9	SAB:Timeless Body
+10	SAB:Stone Body					ADD:VFEAT(Deflect Arrows,Dodge,Improved Grab,Improved Bull Rush,Improved Disarm,Improved Trip,Power Attack,Toughness)1
+
+#Paragon
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus											Combat bonus
+CLASS:Paragon	HD:10		TYPE:PC.Prestige	ABB:Parag		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Multiple Requirements
+CLASS:Paragon	PREATT:5	PREMULT:2,[PRESKILL:3,Decipher Script=4,Gather Information=4,Knowledge (Dwarves)=6],[PRESKILL:1,Perform (Chant)=3,Perform (Epic)=3,Perform (Storytelling)=3]
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Paragon	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Religion)
+
+1							SAB:Lay on Hands	SAB:Smite
+2							SAB:Forge Mastery			ADD:SPELLCASTER|1|Divine
+3							SAB:Ancestral Weapon (I)
+4	SAB:.CLEAR.Smite				SAB:Smite 2/day			ADD:SPELLCASTER|1|Divine
+6	SAB:.CLEAR.Ancestral Weapon (I)	SAB:Ancestral Weapon (II)	ADD:SPELLCASTER|1|Divine
+7	SAB:.CLEAR.Smite 2/day			SAB:Smite 3/day
+8												ADD:SPELLCASTER|1|Divine
+9	SAB:.CLEAR.Ancestral Weapon (II)	SAB:Ancestral Weapon (III)
+10	SAB:.CLEAR.Smite 3/day			SAB:Smite 4/day			ADD:SPELLCASTER|1|Divine
+
+#Slayer
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus											Combat bonus
+CLASS:Slayer	HD:10		TYPE:PC.Prestige	ABB:Slayer		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Feat										Required Skill
+CLASS:Slayer	PREATT:5	PREFEAT:4,Track,Weapon Focus,Weapon Specialization,Basic Favored Enemy	PRESKILL:3,Knowledge (Dwarves)=8,Spot=8,Wilderness Lore=8
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Slayer	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Heal|Hide|Intuit Direction|Jump|Listen|Move Silently|Search|Spot|Swim|Tumble|Use Rope|Wilderness Lore
+
+1						SAB:Favored Enemies	ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+2						SAB:Skill Mastery		ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+3										ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+4										ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+5										ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+6	SAB:.CLEAR.Skill Mastery	SAB:Skill Masteryx2	ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+7										ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+8										ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+9										ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+10	SAB:.CLEAR.Skill Masteryx2	SAB:Skill Masteryx3	ADD:VFEAT(Cleave,Dodge,Expertise,Great Fortitude,Lightning Reflexes,Iron Will,Improved Charge,Point Blank Shot,Power Attack,Precise Shot,Improved Critical,Mobility,Great Cleave)1
+
+
+#Tunnel-Fighter
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus												Combat bonus
+CLASS:Tunnel-Fighter	HD:6		TYPE:PC.Prestige	ABB:TunFgt		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat								Required Race				Required Skill
+CLASS:Tunnel-Fighter	PREATT:5	PREFEAT:3,Alertness,Improved Initiative,Point Blank Shot	PRERACE:1,Dwarf,Gnome,Kobold,Goblin	PRESKILL:6,Craft(Trapmaking)=6,Hide=6,Intuit Direction=6,Move Silently=6,Spot=6,Tumble=6
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Tunnel-Fighter	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Hide|Intimidate|Intuit Direction|Jump|Listen|Move Silently|Open Lock|TYPE.Profession|Read Lips|Search|Sense Motive|Spot|Swim|Tumble
+
+1								SAB:Ambush Expert	SAB:Quick and Quiet
+2															BONUS:VAR|SneakAttack|1	ADD:FEAT|1|Uncanny Dodge	AUTO:FEAT|Sneak Attack
+3								SAB:Tunnel Fighting (3 Walls)
+4															BONUS:VAR|SneakAttack|1
+5								SAB:Uncanny Dodge (can't be flanked)
+6															BONUS:VAR|SneakAttack|1
+7	SAB:.CLEAR.Tunnel Fighting (3 Walls)	SAB:Tunnel Fighting (2 Walls)
+8															BONUS:VAR|SneakAttack|1
+10	SAB:.CLEAR.Tunnel Fighting (2 Walls)	SAB:Tunnel Fighting (1 Wall)			BONUS:VAR|SneakAttack|1
+
+#Aceldamist
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus											Combat bonus
+CLASS:Aceldamist	HD:6		TYPE:PC.Prestige	ABB:Aceld		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required Check Base		Required Feat											Required Skill									Required Casting Type	Req. Spell Type
+CLASS:Aceldamist	PRECHECKBASE:1,Fortitude=4	PREFEAT:4,Armor Proficiency (Heavy),Combat Casting,Dodge,Improved Initiative	PRESKILL:3,Concentration=6,Knowledge (Arcana)=6,Spellcraft=6	PRESPELLCAST:MEMORIZE=N	PRESPELLTYPE:1,Arcane=3
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Aceldamist	STARTSKILLPTS:4	CSKILL:Alchemy|Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Scry|Spellcraft
+
+###Aceldamist Hidden Feats
+#ADD:FEAT(Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration)1
+1	ADD:FEAT|1|TYPE=AceldamistClass,Weapon Focus
+#1	ADD:FEAT(Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration)1
+2	ADD:FEAT|1|TYPE=Aceldamist
+3	ADD:FEAT|1|TYPE.Aceldamist
+TYPE:AceldamistClass
+#2	ADD:FEAT(Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration)1	ADD:SPELLCASTER(Arcane)
+#3	ADD:FEAT(Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration)1
+4	ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration
+5	ADD:FEAT|1|Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration
+6	ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration
+7	ADD:FEAT|1|Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration
+8	ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration
+9																																		CHOOSE:FEATADD|Ancestral Lore,Armored Casting,Blood Magic,Fellblade Magic,Signature Metaspell,Signature Spell Focus,Signature Spell Immunity,Signature Spell Penetration
+10	ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|TYPE.Aceldamist
+
+#Artificer
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page	Save checks bonus											Combat bonus
+CLASS:Artificer	HD:6		TYPE:PC.Prestige	ABB:ArtF		MAXLEVEL:10	SOURCEPAGE:	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Required Feat																					Required Skill
+CLASS:Artificer	PREFEAT:5,Simple Weapon Proficiency,Martial Weapon Proficiency,Armor Proficiency (Heavy),Shield Proficiency,Craft Magic Arms and Armor	PRESKILL:3,Craft (Armorsmithing)=9,Craft (Weaponsmithing)=9,Spellcraft=9
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Artificer	STARTSKILLPTS:2	CSKILL:Alchemy|Concentration|TYPE.Craft|Knowledge (Arcana)|TYPE.Profession|Scry|Spellcraft|Use Magic Device
+
+1										SAB:Magical Craftsman
+2										SAB:Curse Resistance			ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|TYPE.Item Creation
+3										SAB:Magical Familiarity
+4																ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|TYPE.Item Creation
+5										SAB:Magical Deconstruction (25%)
+6																ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|TYPE.Item Creation
+7			SAB:.CLEAR.Magical Deconstruction (25%)	SAB:Magical Deconstruction (50%)
+8	SR:10+INT								SAB:Spell Resistance			ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|TYPE.Item Creation
+9			SAB:.CLEAR.Magical Deconstruction (50%)	SAB:Magical Deconstruction (75%)
+10										SAB:Spell Absorption			ADD:SPELLCASTER|1|Arcane	ADD:FEAT|1|TYPE.Item Creation

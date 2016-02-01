@@ -1,0 +1,47 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Wed Nov  2 20:31:09 2005 -- reformated by prettylst.pl v1.34 (build 455)
+SOURCELONG:Star Wars Revised Core Rules	SOURCESHORT:SWRCR	SOURCEWEB:http://www.wizards.com/starwars
+
+# Weapon Name				Type				Nb Hands
+Atlatl					TYPE:Exotic
+Blaster (E-Web)				TYPE:HeavyWeapon
+Blaster (HeavyWeapon Repeating)	TYPE:HeavyWeapon
+Blaster (HeavyWeapon)			TYPE:BlasterPistol
+Blaster (Hold-Out)			TYPE:BlasterPistol
+Blaster (Light Repeating)		TYPE:BlasterRifle
+Blaster (Sporting)			TYPE:BlasterPistol
+Blaster Cannon				TYPE:HeavyWeapon
+Blaster Carbine				TYPE:BlasterRifle
+Blaster Pistol				TYPE:BlasterPistol
+Blaster Rifle				TYPE:BlasterRifle
+Blaster Rifle (Sport)			TYPE:BlasterRifle
+Bow						TYPE:Primitive
+Bowcaster					TYPE:Exotic
+Cesta						TYPE:Exotic
+Club/Baton					TYPE:Simple
+Combat Gloves				TYPE:Simple
+Electro-Net					TYPE:Exotic
+Energy Balls				TYPE:Exotic
+Force Pike					TYPE:Vibro			HANDS:2
+Gaderffii					TYPE:Exotic			HANDS:2
+Grenade (Frag)				TYPE:Simple
+Grenade (Stun)				TYPE:Simple
+Ion Gun (Pistol)				TYPE:BlasterPistol
+Ion Gun (Rifle)				TYPE:BlasterRifle
+Knife						TYPE:Simple
+Lightsaber					TYPE:Exotic
+Lightsaber (Double)			TYPE:Exotic			HANDS:2
+Longsword					TYPE:Exotic
+Mace (Light)				TYPE:Simple
+Martial Strike				TYPE:MartialArts
+Net						TYPE:Primitive
+Quarterstaff				TYPE:Simple			HANDS:2
+Sling						TYPE:Primitive
+Slugthrowerthrower (Pistol)		TYPE:Slugthrower
+Slugthrowerthrower (Rifle)		TYPE:Slugthrower
+Spear						TYPE:Primitive
+Stun Baton					TYPE:Simple
+Thermal Detonator				TYPE:Simple
+Unarmed Strike				TYPE:Simple
+Vibro-Ax					TYPE:Vibro
+Vibroblade					TYPE:Vibro
+Vibrodagger					TYPE:Vibro

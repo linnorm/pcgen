@@ -1,0 +1,17 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $
+CAMPAIGN:Living Force Companion Guide
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Website
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Supplement
+SOURCELONG:Living Force Companion Guide
+SOURCESHORT:LFCC
+SOURCEWEB:http://www.wizards.com/starwars/
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+
+
+BIOSET:livingforce_biosettings.lst
+RACE:livingforce_races.lst

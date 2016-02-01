@@ -1,0 +1,28 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:SSS - Relics and Rituals II 3.5
+GAMEMODE:35e
+TYPE:Sword and Sorcery Studios.Scarred Lands
+PUBNAMELONG:Sword and Sorcery Studios
+PUBNAMESHORT:SSS
+PUBNAMEWEB:http://www.swordsorcery.com
+RANK:9
+SOURCELONG:Relics and Rituals II
+SOURCESHORT:RelicRitualII
+SOURCEWEB:http://www.swordsorcery.com
+
+CLASS:relicritual2classes.lst
+EQUIPMENT:relicritual2equip.lst
+EQUIPMENT:relicritual2equiparmorshields.lst
+EQUIPMENT:relicritual2equipmagictattoos.lst
+EQUIPMENT:relicritual2equippotionspoisons.lst
+EQUIPMENT:relicritual2equiprings.lst
+EQUIPMENT:relicritual2equiprodstaffwands.lst
+EQUIPMENT:relicritual2equipscrolls.lst
+EQUIPMENT:relicritual2equipweapammo.lst
+EQUIPMENT:relicritual2equipweapmelee.lst
+EQUIPMENT:relicritual2equipweapranged.lst
+EQUIPMENT:relicritual2equipwondrousitems.lst
+FEAT:relicritual2feats.lst
+SKILL:relicritual2skills.lst
+SPELL:relicritual2spells.lst
+WEAPONPROF:relicritual2weapprofs.lst

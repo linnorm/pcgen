@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon	SOURCESHORT:WngRaph	SOURCEWEB:http://raxstower.finzen.com
+
+#PHB Races
+# Race Name	Favored Class
+Elf.MOD	FAVCLASS:Sorcerer

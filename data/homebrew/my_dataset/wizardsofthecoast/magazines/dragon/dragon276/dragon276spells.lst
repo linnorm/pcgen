@@ -1,0 +1,27 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #276	SOURCESHORT:WotC-Dragon #276	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+#1
+# Spell Name			Classes of caster
+Cure Light Wounds.MOD		CLASSES:Hunter of the Dead=1
+Invisibility to Undead.MOD	CLASSES:Hunter of the Dead=1
+Magic Weapon.MOD			CLASSES:Hunter of the Dead=1
+Remove Fear.MOD			CLASSES:Hunter of the Dead=1
+
+#2
+Bull's Strength.MOD		CLASSES:Hunter of the Dead=2
+Continual Flame.MOD		CLASSES:Hunter of the Dead=2
+Cure Moderate Wounds.MOD	CLASSES:Hunter of the Dead=2
+Darkvision.MOD			CLASSES:Hunter of the Dead=2
+
+#3
+Cure Serious Wounds.MOD		CLASSES:Hunter of the Dead=3
+Halt Undead.MOD			CLASSES:Hunter of the Dead=3
+Protection from Elements.MOD	CLASSES:Hunter of the Dead=3
+Searing Light.MOD			CLASSES:Hunter of the Dead=3
+
+#4
+Cure Critical Wounds.MOD	CLASSES:Hunter of the Dead=4
+Death Ward.MOD			CLASSES:Hunter of the Dead=4
+Freedom of Movement.MOD		CLASSES:Hunter of the Dead=4
+

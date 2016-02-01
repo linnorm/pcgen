@@ -1,0 +1,5 @@
+# CVS $Revision: 2.0 $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Living Force Companion Guide	SOURCESHORT:LFCC	SOURCEWEB:http://www.wizards.com/starwars/
+
+# Race Name	Favored Class			Starting Feats	Size		Move			Automatic Languages							Bonus Languages	Bonus to skill						Stat bonus					Source Page
+Tarasin	FAVCLASS:HIGHESTLEVELCLASS	STARTFEATS:1	SIZE:M	MOVE:Walk,30	LANGAUTO:Basic,Tarasinese,Tarasin Silent Communication	LANGBONUS:ALL	BONUS:SKILL|Hide|4	BONUS:SKILL|See Force|2	BONUS:STAT|STR|-2	BONUS:STAT|INT|2	SOURCEPAGE:p.

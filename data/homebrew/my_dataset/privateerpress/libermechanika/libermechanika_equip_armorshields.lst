@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Wed Jan 19 21:04:03 2005 -- reformated by prettylst.pl v1.33 (build 421)
+SOURCELONG:Liber Mechanika	SOURCESHORT:LM	SOURCEWEB:http://www.ironkingdoms.com
+## Original Entry by: Rax the Grey
+
+
+## NOTE: New Armor
+# Equipment Name			Required Proficiency			Type											Contains			Cost		Weight	AC Penalty Check	Critical Hit Multiplier	Critical Hit Range	Damage		Modifier								Wield Category	Maximum DEX Bonus	Range		Size		Source Page			% of Spell Failure	Damage Reduction			Combat bonus											Weapon prop. bonus																			Special Property
+Alchemist's Apron									TYPE:Clothing.Robe.Resizable											COST:50	WT:5		ACCHECK:0													EQMOD:CLOTH																	SOURCEPAGE:pg. 58										BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE|!PREARMORTYPE:1,TYPE.Medium,TYPE.Heavy	SPROP:Alchemically treated to resist heat, cold, and acid.		BONUS:VAR|AcidResistanceBonus|3		BONUS:VAR|ColdResistanceBonus|3	BONUS:VAR|FireResistanceBonus|3	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Fire
+Greatcoat, Rain slicked								TYPE:Clothing.Robe.Resizable											COST:30	WT:5		ACCHECK:0													EQMOD:LEATHER																	SOURCEPAGE:pg. 58										BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE|!PREARMORTYPE:1,TYPE.Medium,TYPE.Heavy	SPROP:Alchemically treated to repel water.

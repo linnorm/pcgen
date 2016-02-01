@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Monsternomicon Volume I	SOURCESHORT:Monsternomicon1	SOURCEWEB:http://www.ironkingdoms.com
+
+
+# Skill Name	Key Stat	Untrained?		Type			Source Page			Bonus to skill
+Creature Lore	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intellegence	SOURCEPAGE:pg. 209	BONUS:SKILL|Creature Lore|2|PRESKILL:1,Knowledge (Nature)=5|TYPE=Synergy.STACK

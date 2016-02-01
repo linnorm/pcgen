@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
+
+# Weapons
+# Equipment Name		Product Identity?	Output Name					Type													Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Requires Modification?	Size		Source Page		Bonus to skill						Weapon prop. bonus					Special Property
+Blood of the Unworthy	NAMEISPI:YES	OUTPUTNAME:Blood of the Unworthy	TYPE:Weapon.Exotic.Melee.Slashing.Metal.Adamantine.Magic.Masterwork.Specific	COST:27700	WT:6		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d10	MODS:NO			SIZE:M	SOURCEPAGE:Ch.10									BONUS:WEAPON|DAMAGE,TOHIT|1|TYPE=Enhancement	SPROP:wounds inflicted bleed for 1 point of damage per round until heal (DC 15) or any cure spell
+Warder of Righteousness	NAMEISPI:YES	OUTPUTNAME:Warder of Righteousness	TYPE:Weapon.Martial.Melee.Slashing.Metal.Adamantine.Magic.Masterwork.Specific	COST:131600	WT:3		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d6	MODS:NO			SIZE:S	SOURCEPAGE:Ch.10									BONUS:WEAPON|DAMAGE,TOHIT|5|TYPE=Enhancement	SPROP:+2d6 holy damage vs. evil, 1 negative level bestowed to evil wielder	SPROP:can transfer some or all of sword's enhancement bonus to AC
+
+# Magic Items
+Amulet of Ley Power	NAMEISPI:YES	OUTPUTNAME:Amulet of Ley Power	TYPE:Magic.Wondrous.Amulet																													SOURCEPAGE:Ch.10	BONUS:SKILL|Use Ley Line|5|TYPE=Enhancement									SPROP:(Amulet (Use Ley Line +5))

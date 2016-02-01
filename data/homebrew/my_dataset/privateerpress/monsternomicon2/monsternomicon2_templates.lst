@@ -1,0 +1,5 @@
+SOURCELONG:Monsternomicon Volume II	SOURCESHORT:Monsternomicon2	SOURCEWEB:http://www.ironkingdoms.com
+
+
+# Template Name			Level Adjustment		Source Page				Template			Required AL			Hit Die		Challenge Rating
+Deathless				LEVELADJUSTMENT:8		SOURCEPAGE:pg. 32			TEMPLATE:Undead		PREALIGN:LE,NE,CE		HITDIE:12		CR:3			TEMPLATE:CHOOSE:Slam (Fine)|Slam (Diminutive)|Slam (Tiny)|Slam (Small)|Slam (Medium)|Slam (Large)|Slam (Huge)|Slam (Gargantuan)|Slam (Colossal)		BONUS:COMBAT|AC|10|TYPE=NaturalArmor.STACK	BONUS:SKILL|Knowledge (Orgoth)|10|TYPE=Racial	BONUS:STAT|STR|4	BONUS:STAT|WIS|2	BONUS:STAT|CHA|4	DR:10/Holy	SR:20+MAX(TL-10, 0)	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|Immunity To Fire|Immunity To Electricity|Immunity To Polymorph|Turn Immunity|Energy Drain|Illusionary Dominion	BONUS:VAR|EnergyDrainLevels|1		SPELLS:Innate|TIMES=-1|CASTERLEVEL=TL|Command,11+CHA	SPELLS:Innate|TIMES=-1|CASTERLEVEL=TL|Modify Memory,14+CHA	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Dominate Person,15+CHA	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Command (Greater),15+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Geas/Quest,16+CHA

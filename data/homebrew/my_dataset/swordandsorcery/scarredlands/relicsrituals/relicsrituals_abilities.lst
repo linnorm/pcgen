@@ -1,0 +1,4 @@
+SOURCELONG:Relics and Rituals	SOURCESHORT:RelicRitual	SOURCEWEB:http://www.swordsorcery.com
+
+
+MissionaryDomainGrantedPower		CATEGORY:Special Ability	TYPE:Internal				VISIBLE:NO					SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Comprehend Languages,11+WIS

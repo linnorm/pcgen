@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 17 10:04:29 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+STARTPACK:Standard Adventurer's Kit	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:100
+GEAR:Backpack					SIZE:PC	LOCATION:Equipped
+GEAR:Bedroll					SIZE:PC	LOCATION:Backpack
+GEAR:Flint and Steel						LOCATION:Pouch (Belt)
+GEAR:Pouch (Belt)					SIZE:PC	LOCATION:Equipped
+GEAR:Rations (Trail/Per Day)	QTY:10	SIZE:PC	LOCATION:Backpack
+GEAR:Rope (Hempen/50 Ft.)					LOCATION:Backpack
+GEAR:Sunrod				QTY:2				LOCATION:Pouch (Belt)
+GEAR:Waterskin							LOCATION:Backpack

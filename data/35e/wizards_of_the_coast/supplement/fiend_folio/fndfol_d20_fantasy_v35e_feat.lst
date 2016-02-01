@@ -1,0 +1,36 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Wed May  6 18:33:48 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Feat Name					Type					Visible	Required Race										Required Skill		Required Template		Description														Multiple?	Choose									Selections	Bonus to skill rank					Source, Long Desc.	Source, Short Desc.	Source Page
+Graft Flesh (Aboleth)			TYPE:ItemCreation			VISIBLE:YES	PRERACE:1,Aboleth										PRESKILL:1,Heal=10					DESC:You can apply a certain type of grafts to other living creatures or to yourself.																							SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.207
+Graft Flesh (Beholder)			TYPE:ItemCreation			VISIBLE:YES													PRESKILL:1,Heal=10					DESC:You can apply a certain type of grafts to other living creatures or to yourself.																							SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.207
+Graft Flesh (Fiendish)			TYPE:ItemCreation			VISIBLE:YES													PRESKILL:1,Heal=10	PRETEMPLATE:1,Fiendish	DESC:You can apply a certain type of grafts to other living creatures or to yourself.																							SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.207
+Graft Flesh (Illithid)			TYPE:ItemCreation			VISIBLE:YES	PRERACE:1,Mind Flayer									PRESKILL:1,Heal=10					DESC:You can apply a certain type of grafts to other living creatures or to yourself.																							SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.207
+Graft Flesh (Undead)			TYPE:ItemCreation			VISIBLE:YES													PRESKILL:1,Heal=10					DESC:You can apply a certain type of grafts to other living creatures or to yourself.																							SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.207
+Graft Flesh (Yuan-Ti)			TYPE:ItemCreation			VISIBLE:YES	PRERACE:1,Yuan-Ti (Pureblood),Yuan-Ti (Halfblood),Yuan-Ti (Abomination)	PRESKILL:1,Heal=10					DESC:You can apply a certain type of grafts to other living creatures or to yourself.																							SOURCELONG:Fiend Folio	SOURCESHORT:fndfol	SOURCEPAGE:p.207
+
+################
+# hidden feats #
+################
+
+### Perform block
+One Perform Skill (+4)			TYPE:OnePerform4			VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=1|SKILLSNAMED|TYPE=Perform			SELECT:1	BONUS:SKILLRANK|LIST|4
+Four Perform Skills (+4)		TYPE:FourPerform4			VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=4|SKILLSNAMED|TYPE=Perform			SELECT:4	BONUS:SKILLRANK|LIST|4
+
+### Knowledge block
+One Knowledge Skill (+2)		TYPE:OneKnowledge2		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=1|SKILLSNAMED|TYPE=Knowledge			SELECT:2	BONUS:SKILLRANK|LIST|2
+One Knowledge Skill (+7)		TYPE:OneKnowledge7		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=1|SKILLSNAMED|TYPE=Knowledge			SELECT:7	BONUS:SKILLRANK|LIST|7
+Two Knowledge Skills (+6)		TYPE:TwoKnowledge6		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=2|SKILLSNAMED|TYPE=Knowledge			SELECT:6	BONUS:SKILLRANK|LIST|6
+Two Knowledge Skills (+7)		TYPE:TwoKnowledge7		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=2|SKILLSNAMED|TYPE=Knowledge			SELECT:7	BONUS:SKILLRANK|LIST|7
+Two Knowledge Skills (+23)		TYPE:TwoKnowledge23		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=2|SKILLSNAMED|TYPE=Knowledge			SELECT:23	BONUS:SKILLRANK|LIST|23
+Three Knowledge Skills (+9)		TYPE:ThreeKnowledge9		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=3|SKILLSNAMED|TYPE=Knowledge			SELECT:9	BONUS:SKILLRANK|LIST|9
+Three Knowledge Skills (+13)		TYPE:ThreeKnowledge13		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=3|SKILLSNAMED|TYPE=Knowledge			SELECT:13	BONUS:SKILLRANK|LIST|13
+Three Knowledge Skills (+19)		TYPE:ThreeKnowledge19		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=3|SKILLSNAMED|TYPE=Knowledge			SELECT:19	BONUS:SKILLRANK|LIST|19
+Four Knowledge Skills (+20)		TYPE:FourKnowledge20		VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=4|SKILLSNAMED|TYPE=Knowledge			SELECT:20	BONUS:SKILLRANK|LIST|20
+
+### Craft block
+One Craft Skill (+2)			TYPE:OneCraft2			VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=2|SKILLSNAMED|TYPE=Craft			SELECT:1	BONUS:SKILLRANK|LIST|2
+Three Craft Skills (+4)			TYPE:ThreeCraft4			VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=3|SKILLSNAMED|TYPE=Craft			SELECT:4	BONUS:SKILLRANK|LIST|4
+
+### Craft/Knowledge block
+Two Craft/Knowledge Skills (+25)	TYPE:TwoCraft/Knowledge25	VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=2|SKILLSNAMED|TYPE=Craft|TYPE=Knowledge	SELECT:25	BONUS:SKILLRANK|LIST|25
+Seven Craft/Knowledge Skills (+19)	TYPE:SevenCraft/Knowledge19	VISIBLE:NO																																				MULT:YES	CHOOSE:NUMCHOICES=7|SKILLSNAMED|TYPE=Craft|TYPE=Knowledge	SELECT:19	BONUS:SKILLRANK|LIST|19

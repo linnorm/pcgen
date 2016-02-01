@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+
+
+# Template Name	Required Race
+Rugged Mechanika	PRERACE:1,RACETYPE=Construct
+# TODO: Flesh out Rugged Mechanika: +2 AC(Natural), +2 HD, +10 HP
+# Need to find out if Rugged Mechanika can be applied to Arcane Mechanik's Mechanikal Familiar

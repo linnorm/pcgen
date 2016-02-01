@@ -1,0 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Web Enhancements	SOURCESHORT:WotC-Web Enhancements	SOURCEWEB:http://www.wizards.com
+
+# Feat Name		Type				Required Feat			Var. Min. Value		Description												Stackable?	Multiple?	Choose		Source Page
+Craft Drilbu	TYPE:Psion-ItemCreation						PREVARGTEQ:Manifester,6	DESC:You can create a drilbu.													CHOOSE:NOCHOICE	SOURCEPAGE:http://www.wizards.com/dnd/article.asp?x=dnd/psi/psi20011123b
+Inner Fortitude	TYPE:Psionic		PREFEAT:1,Inner Strength					DESC:You can trade the ability to manifest a power for increased power points	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:http://www.wizards.com/dnd/article.asp?x=dnd/psi/psi20011026a
+Overpower		TYPE:Metapsionic		PREFEAT:1,Fortify Power						DESC:You can manifest a power at twice its normal effect.								CHOOSE:NOCHOICE	SOURCEPAGE:http://www.wizards.com/dnd/article.asp?x=dnd/psi/psi20011026a
+

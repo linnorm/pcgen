@@ -1,0 +1,4 @@
+# CVS $Revision: 1.1 $ $Author: mynex $ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #284|SOURCESHORT:WotC-Dragon #284|SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Class Name	Class Skills (All skills are seperated by a pipe delimiter "|")
+Dragonkith		Craft |Knowledge |Search|Listen|Profession |Spot|Bluff|Diplomacy|Intimidate

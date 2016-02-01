@@ -1,0 +1,15 @@
+# CVS $Revision: 304 $ $Author: tir-gwaith $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:The Witch's Handbook	SOURCESHORT:witchhandbook	SOURCEWEB:http://www.greenronin.com
+# Original Entry by: Ratheof Blithwyn
+
+
+
+#Witch Hags Gifts
+# Feat Name			Type				Visible	Special ABility
+Breathe Underwater	CATEGORY:FEAT	TYPE:WitchHagsGift	VISIBLE:NO	DESC:Breathe Underwater (Ex)
+Improved Grab		CATEGORY:FEAT	TYPE:WitchHagsGift	VISIBLE:NO	DESC:Improved Grab (Ex)
+Mimic Animal		CATEGORY:FEAT	TYPE:WitchHagsGift	VISIBLE:NO	DESC:Mimic Animal (Ex)
+
+#
+# EOF
+#

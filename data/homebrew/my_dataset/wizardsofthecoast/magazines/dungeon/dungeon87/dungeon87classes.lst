@@ -1,0 +1,17 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $
+SOURCELONG:Wizards of the Coast - Dungeon #87	SOURCESHORT:WotC-Dungeon #87	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Required Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class		RTM = Required to Memorize Spells	PRSA = Pre-Required Special Ability		RL = Required Languages to be this class		MRST = Minimum Required Saving Throw (type Fort/Ref/Will)
+# DS = Define Special	AA = Add Ability to class (feat/skill)	CT = Class Type (PC/NPC/Template/Monster)		ToC = Type of Class	AIMS = Add Intelligence Mod to Skill points	FELR = Feats Every Level Rate
+# NOTE:Humanoid currently only does Good Reflex save
+#		Needs to be determined by actual race(Fort. Ref. OR Will)
+
+# Class Name			Hit Dice	Type			Source Page		Levels per Feat	Save checks bonus																Combat bonus
+CLASS:Para-Elemental, Ice	HD:8		TYPE:Monster	SOURCEPAGE:p.4	LEVELSPERFEAT:4	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|(CL/2)+2	BONUS:CHECKS|BASE.WILLPOWER|CL/3	BONUS:COMBAT|BAB|BAB:M|TYPE=Base.REPLACE
+# Class Name			Reg. Race Type
+CLASS:Para-Elemental, Ice	PRERACETYPE:Para-Elemental (Ice)
+# Class Name			Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Para-Elemental, Ice	STARTSKILLPTS:2	MODTOSKILLS:NO

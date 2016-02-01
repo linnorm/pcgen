@@ -1,0 +1,30 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+
+CAMPAIGN:Mongoose - Collectors Series - Quintessential Dwarf
+GAMEMODE:35e
+TYPE:Mongoose.Collector Series
+RANK:9
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Dwarf
+SOURCESHORT:QuintDwarf
+SOURCEWEB:http://mongoosepublishing.com
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:D20 System Rules & Content Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson
+COPYRIGHT:Open game content from The Quintessential Dwarf Copyright 2002, Mongoose Publishing.
+ISOGL:YES
+
+CLASS:quintdwarfclasses.lst
+DEITY:quintdwarfdeities.lst
+DOMAIN:quintdwarfdomains.lst
+EQUIPMENT:quintdwarfequip.lst
+EQUIPMENT:quintdwarfequiparmorshields.lst
+EQUIPMENT:quintdwarfequipweap.lst
+EQUIPMENT:quintdwarfequipweapammo.lst
+EQUIPMOD:quintdwarfequipmods.lst
+FEAT:quintdwarffeats.lst
+RACE:quintdwarfraces.lst
+SKILL:quintdwarfskills.lst
+SPELL:quintdwarfspells.lst
+WEAPONPROF:quintdwarfweapprofs.lst
+
+
+ARMORPROF:quintdwarf_armorprof.lst

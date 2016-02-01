@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Vigil Watch - Warren of the Ratmen	SOURCESHORT:VigilWatch	SOURCEWEB:http://www.swordsorcery.com
+
+# Equipment Name	Type					Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus					Special Property
+Sleeve Shield	TYPE:Shield.Standard.Metal	COST:300	WT:8		ACCHECK:-5		MAXDEX:3		SOURCEPAGE:p.88	SPELLFAILURE:50		BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	SPROP:1d6 damage from sleeves

@@ -1,0 +1,5 @@
+# CVS $Revision: 1.5 $ $Author: tir-gwaith $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dungeon #83	SOURCESHORT:WotC-Dungeon #83	SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+# Skill Name			Key Stat	Untrained?		Type					Source Page
+Knowledge (Computer Literacy)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:p.93
+Ride (Ground Vehicle)		KEYSTAT:DEX	USEUNTRAINED:NO	TYPE:Dexterity.Ride		SOURCEPAGE:p.93

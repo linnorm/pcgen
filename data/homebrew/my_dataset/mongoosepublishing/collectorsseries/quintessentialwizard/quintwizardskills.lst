@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Wizard	SOURCESHORT:QuintWizard	SOURCEWEB:http://mongoosepublishing.com
+
+# Skill Name					Key Stat	Untrained?			Type					Source Page
+Profession (Engineer)				KEYSTAT:WIS	USEUNTRAINED:NO		TYPE:Wisdom.Profession		SOURCEPAGE:pg. 104

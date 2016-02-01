@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon	SOURCESHORT:WngRaph	SOURCEWEB:http://raxstower.finzen.com
+
+#Melee Weapons Name		Type										Cost		Weight	Weapon Size	Base Damage		Critical Range	Critical Multiplier	Required Proficiency			Bonuses #1
+#Mundane
+# Equipment Name	Type									Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier	Wield Category	Size
+Double Spear	TYPE:Weapon.Exotic.Melee.Large.Piercing.Double.Spear	COST:30	WT:6		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:WOOD	WIELD:TwoHanded	SIZE:L

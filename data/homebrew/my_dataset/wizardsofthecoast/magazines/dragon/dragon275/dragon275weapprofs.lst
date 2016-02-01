@@ -1,0 +1,23 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #275	SOURCESHORT:WotC-Dragon #275	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Weapon Name		Type
+Blowgun			TYPE:Exotic
+Blowgun (Halfling)	TYPE:Exotic
+Bolas				TYPE:Exotic
+Bolas (Barbed)		TYPE:Exotic
+Boomerang			TYPE:Exotic
+Buckler-Axe (Dwarf)	TYPE:Exotic
+Chatkcha			TYPE:Exotic
+Crescent Knife		TYPE:Exotic
+Crusher (Orc)		TYPE:Exotic
+Gythka			TYPE:Exotic
+Lajatang			TYPE:Exotic
+Lajatang (Halfling)	TYPE:Exotic
+Mancatcher			TYPE:Exotic
+Sai				TYPE:Exotic
+Scimitar (Great)		TYPE:Exotic
+Scourge			TYPE:Exotic
+Skiprock (Halfling)	TYPE:Exotic
+Thinblade (Elven)		TYPE:Exotic
+Tortoise Blade (Gnome)	TYPE:Exotic

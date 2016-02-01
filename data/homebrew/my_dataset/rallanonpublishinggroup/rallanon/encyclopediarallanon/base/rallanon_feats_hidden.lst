@@ -1,0 +1,25 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
+
+## Block:Asaatth Feats
+# Feat Name				Type			Visible	Required Feat			Required Race	Special ABility						Define				Description																			Stackable?	Multiple?	Choose						Selections	Bonus to skill								Modify VAR					Weapon prof. bonus								Class Skill	Source Page
+Asaatth Keen Senses		CATEGORY:FEAT	TYPE:Special	VISIBLE:NO						PRERACE:1,Asaatth														DESC:Sees three times better than a human in low-light and darkvision 60'.  Scent creatures in 30' as partial action.																																											SOURCEPAGE:Creature Collection I, p.12
+Asaatth Poison			CATEGORY:FEAT	TYPE:Special	VISIBLE:NO						PRERACE:1,Asaatth														DESC:Fort. save DC:14 or toxic shock for 2d4+2 min.																																																						SOURCEPAGE:Creature Collection I, p.12
+
+## Block: Agariim Slave Girl Feats
+ASG Improved Critical		CATEGORY:FEAT	TYPE:Special	VISIBLE:YES																																										STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|TYPE.Finesseable																				BONUS:WEAPONPROF=%LIST|CRITRANGEDOUBLE|1|Type=NonStackingCrit
+ASG Skill Focus			CATEGORY:FEAT	TYPE:Special	VISIBLE:YES																																										STACK:NO	MULT:YES	CHOOSE:SKILL|TYPE.Agariim				BONUS:SKILL|LIST|3	BONUS:SKILL|LIST|2|PREFEAT:1,Talent
+ASG Weapon Focus			CATEGORY:FEAT	TYPE:Special	VISIBLE:YES																																										STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|TYPE.Finesseable																				BONUS:WEAPONPROF=%LIST|TOHIT|1
+ASG Weapon Specialization	CATEGORY:FEAT	TYPE:Special	VISIBLE:YES	PREFEAT:1,ASG Weapon Focus																																					STACK:NO	MULT:YES	CHOOSE:NOCHOICE																							BONUS:WEAPONPROF=%LIST|DAMAGE|2
+
+SOURCELONG:Alderac Entertainment Group - Rokugan	SOURCESHORT:AEG-Rokugan	SOURCEWEB:http://alderac.com/d20
+ASG Style and Grace		CATEGORY:FEAT	TYPE:Special	VISIBLE:NO									SAB:+4 to all Charisma-based social skills																																																																				SOURCEPAGE:pg. 34
+ASG Talent				CATEGORY:FEAT	TYPE:Special	VISIBLE:NO									SAB:+5 from Skill Focus instead of +3																																																																					SOURCEPAGE:pg. 34
+ASG Versatile			CATEGORY:FEAT	TYPE:Special	VISIBLE:YES																																										STACK:NO	MULT:YES	CHOOSE:SKILL|CROSSCLASS|EXCLUSIVE	SELECT:2																												CSKILL:LIST	SOURCEPAGE:pg. 55
+CATEGORY=FEAT|Skill Focus.MOD																																																														BONUS:SKILL|LIST|2|PREFEAT:1,Talent
+
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Wizard	SOURCESHORT:QuintWizard	SOURCEWEB:http://mongoosepublishing.com
+ASG Arrow Shield			CATEGORY:FEAT	TYPE:Special	VISIBLE:YES	PREFEAT:1,Bodyguard																		DESC:You protect allies from missle weapons.													STACK:NO	MULT:NO																																							SOURCEPAGE:pg. 91
+
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Rogue	SOURCESHORT:QuintRogue	SOURCEWEB:http://mongoosepublishing.com
+Charming Demeanor			CATEGORY:FEAT	TYPE:Special	VISIBLE:NO									SAB:Charming Demeanor %/day|CharmingDemeanor	DEFINE:CharmingDemeanor|0																																												BONUS:VAR|CharmingDemeanor|CHA														SOURCEPAGE:pg. 23

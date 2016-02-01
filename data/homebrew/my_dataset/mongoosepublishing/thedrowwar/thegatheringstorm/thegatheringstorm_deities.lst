@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Drow War 1 - The Gathering Storm	SOURCESHORT:DW1TGS	SOURCEWEB:http://www.mongoosepublishing.com
+
+# Deity Name	Product Identity?	Domains									Desciption of Deity/Title												Holy Item			Deity Weapon		Alignment	Pantheon		Source Page
+Aranu			NAMEISPI:YES	DOMAINS:Sun,Law,War,Protection|PREALIGN:LG,NG,CG,LN,TN	DESC:God of the Sun, Lawmaker, Patron of kings and tribal chiefs						SYMBOL:Radiant sun	DEITYWEAP:Spear		ALIGN:LN	PANTHEON:Avillon	SOURCEPAGE:pg. 14
+Blediwesse		NAMEISPI:YES	DOMAINS:Good,Healing,Earth,Water|PREALIGN:LG,NG,CG		DESC:Goddess of Spring, Flower maiden of spring rain, Patron of unmarried maidens			SYMBOL:Blooming flower	DEITYWEAP:Sickle		ALIGN:NG	PANTHEON:Avillon	SOURCEPAGE:pg. 14
+Firinna		NAMEISPI:YES	DOMAINS:Fire,War,Chaos,Trickery|PREALIGN:CG,CN,CE,NG,TN,NE	DESC:Goddess of Fire and Battle, envy, resentment and grudges						SYMBOL:Flaming sword	DEITYWEAP:Longsword	ALIGN:CN	PANTHEON:Avillon	SOURCEPAGE:pg. 14
+Gahaira		NAMEISPI:YES	DOMAINS:Air,Evil,Destruction,Death|PREALIGN:LE,NE,CE		DESC:Goddess of the North Wind, hunger, leanness, want, and desolation. The Witch of November	SYMBOL:Gust of wind	DEITYWEAP:Flail		ALIGN:NE	PANTHEON:Avillon	SOURCEPAGE:pg. 14
+

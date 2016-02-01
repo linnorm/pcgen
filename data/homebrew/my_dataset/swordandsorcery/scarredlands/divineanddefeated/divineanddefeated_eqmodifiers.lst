@@ -1,0 +1,9 @@
+# CVS $Revision: 1.1 $ $Author: mynex $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:The Divine and the Defeated	SOURCESHORT:DivineandDefeated	SOURCEWEB:http://www.swordsorcery.com
+#Armor
+#Name				Key			Type				Plus		Gold Cost					PreType					Item Type Granted			Ignores			Replaces
+
+
+#Weapon
+#Name				Key			Type				Plus		Gold Cost					PreType					Item Type Granted			Ignores			Replaces
+#Serpentsteel	SOURCE:p.211

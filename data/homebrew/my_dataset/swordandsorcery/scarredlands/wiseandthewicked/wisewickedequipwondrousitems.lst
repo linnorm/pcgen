@@ -1,0 +1,23 @@
+# CVS $Revision: 1.4 $ $Author: byngl $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:The Wise and the Wicked	SOURCESHORT:WiseandWicked	SOURCEWEB:http://www.swordsorcery.com
+
+# Equipment Name			Type							Cost		Weight	Source Page		Save checks bonus					Combat bonus				Bonus to HP
+Ashen Powder			TYPE:Magic.Wondrous				COST:1600	WT:0		SOURCEPAGE:p.
+Bone Quill				TYPE:Magic.Wondrous				COST:250	WT:0		SOURCEPAGE:p.
+Bones of Protection		TYPE:Magic.Wondrous				COST:8000	WT:0		SOURCEPAGE:p.	BONUS:CHECKS|Fortitude|2|TYPE=Enhancement	BONUS:COMBAT|AC|2|TYPE=Enhancement	BONUS:HP|CURRENTMAX,WOUNDPOINTS|2|TYPE=Enhancement
+Circlet of Dreaming		TYPE:Magic.Wondrous.Headgear			COST:5000	WT:2		SOURCEPAGE:p.
+Corpseskin Belt			TYPE:Magic.Wondrous.Belt			COST:8000	WT:0		SOURCEPAGE:p.
+#Corpseskin Belt			TYPE:Magic.Wondrous.Belt			COST:8000		WT:0		SOURCE: p.		BONUS:HP|CURRENTMAX,WOUNDPOINTS|.IF.CLASS=Crypt Lord.GTEQ.1.THEN.30.IF.CLASS=Necromancer.GTEQ.1.THEN.20.ELSE.10
+Drogo's Polar Earring		TYPE:Magic.Wondrous.Headgear.Earring	COST:13500	WT:0		SOURCEPAGE:p.
+Gaurak's Food			TYPE:Magic.Wondrous.Food			COST:5250	WT:0.5	SOURCEPAGE:p.
+Hunger Pastries			TYPE:Magic.Wondrous.Food			COST:700	WT:0		SOURCEPAGE:p.
+Karok's Ice Moccasins		TYPE:Magic.Wondrous.Footgear			COST:60000	WT:2		SOURCEPAGE:p.
+Medallion of Repose		TYPE:Magic.Wondrous.Neckgear			COST:66000	WT:0		SOURCEPAGE:p.
+Pennant of Orana			TYPE:Magic.Wondrous.Neckgear			COST:192000	WT:10		SOURCEPAGE:p.
+Swarm Circlet			TYPE:Magic.Wondrous.Headgear			COST:33750	WT:1		SOURCEPAGE:p.
+Talisman of Resistance 10/+1	TYPE:Magic.Wondrous.Neckgear			COST:50000	WT:1		SOURCEPAGE:p.
+Talisman of Resistance 15/+2	TYPE:Magic.Wondrous.Neckgear			COST:75000	WT:1		SOURCEPAGE:p.
+Talisman of Resistance 20/+3	TYPE:Magic.Wondrous.Neckgear			COST:100000	WT:1		SOURCEPAGE:p.
+Tanil's Fox				TYPE:Magic.Wondrous				COST:10000	WT:10		SOURCEPAGE:p.
+The Prophet's Vanity		TYPE:Magic.Wondrous				COST:128000	WT:1		SOURCEPAGE:p.
+

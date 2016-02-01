@@ -1,0 +1,53 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Advanced Player's Manual	SOURCESHORT:AdvPlayerMan	SOURCEWEB:http://www.greenronin.com
+
+
+##Block: Psychic Feats
+# Feat Name			Type				Required Feat								Required Skill			Description																		Cross-Class Skill					Source Page
+Apport Arrows		TYPE:Psychic		PREFEAT:1,Psychoportation											DESC:You can teleport away incoming arrows, as well as crossbow bolts, spears, and other shot or thrown weapons.								SOURCEPAGE:pg. 201
+Clairsentience		TYPE:PsychicTalent	PREFEAT:1,Psychic Ability											DESC:You have the potential to learn clairsentience skills.										CCSKILL:TYPE=Clairsentience			SOURCEPAGE:pg. 201
+Combat Concentration	TYPE:General		PREFEAT:1,Psychic Ability											DESC:You can use your psychic skills in combat.																			SOURCEPAGE:pg. 201
+Craft Psychic Construct	TYPE:Psychic		PREFEAT:1,Psychic Ability	PREFEAT:1,TYPE=PsychicTalent						DESC:You can create and empower psychic constructs.																		SOURCEPAGE:pg. 202
+Cure Blindness/Deafness	TYPE:Psychic		PREFEAT:1,Psychic Ability	PREFEAT:1,Psychometabolism	PRESKILL:1,Psychic Healing=5	DESC:You can use the Psychic Healing skill to cure blindness and deafness.														SOURCEPAGE:pg. 202
+Cure Disease
+Cure Poison
+Dimensional Shift
+Direct Talent
+Divert Teleport
+Empower Talent
+Energy Shield
+Erase Signature
+Extend Talent
+Flight
+Psychic Focus (Greater)
+Imbue Weapon
+Maximize Talent
+Mental Fortitude
+Mental Recovery
+Mind Over Matter
+Mind Switch
+Mind Trap
+Multitasking
+Psychic Ability		TYPE:General																	DESC:You have the potential to acquire psychic feats and skills.									CCSKILL:Psychic Sense|Psychic Shield	SOURCEPAGE:pg. 204
+Psychic Channeling
+Psychic Companion
+Psychic Focus
+Psychic Invisibility
+Psychic Link
+Psychic Reflection
+Psychic Severance
+Psychic Stamina
+Psychic Weapon
+Psychokinesis		TYPE:PsychicTalent	PREFEAT:1,Psychic Ability																														CCSKILL:TYPE=Psychokinesis			SOURCEPAGE:pg. 201
+Psychometabolism		TYPE:PsychicTalent	PREFEAT:1,Psychic Ability																														CCSKILL:TYPE=Psychometabolism			SOURCEPAGE:pg. 201
+Psychoportation		TYPE:PsychicTalent	PREFEAT:1,Psychic Ability																														CCSKILL:TYPE=Psychoportation			SOURCEPAGE:pg. 201
+Quicken Talent
+Reduced Strain
+Sensitive
+Shield Penetration
+Skill Aptitude
+Subtle Talent
+Telepathy			TYPE:PsychicTalent	PREFEAT:1,Psychic Ability																														CCSKILL:TYPE=Telepathy				SOURCEPAGE:pg. 201
+Truth Reading
+Widen Talent
+Wild Talent

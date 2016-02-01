@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Book of Roguish Luck	SOURCESHORT:BoRL	SOURCEWEB:http://www.montecook.com
+
+# Spell Name	Classes of caster						School			Type		Components	Casting Time			Range		Item		Target Area or Effect						Duration			Save Info					Spell Resistance		Description																Source Page
+Douse			CLASSES:Shadowsworn=0|Druid,Sorcerer,Wizard=1	SCHOOL:Transmutation	TYPE:Arcane	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	ITEM:Potion	TARGETAREA:(CASERLEVEL) lights in a 40-foot radius	DURATION:Instantaneous	SAVEINFO:Reflex negates (object)	SPELLRES:Yes (object)	DESC:You douse a number of small sources of natural light, such as candles, lanterns, or toches.	SOURCEPAGE:pg. 55

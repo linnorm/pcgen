@@ -1,0 +1,5 @@
+# CVS $Revision: 1.1 $ $Author: mynex $ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #286|SOURCESHORT:WotC-Dragon #286|SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+# Class Name	Class Skills (All skills are seperated by a pipe delimiter "|")
+Elder Druid		Concentration|Alchemy|Appraise|Craft |Knowledge |Search|Scry|Spellcraft|Profession |Sense Motive|Bluff|Gather Information|Diplomacy
+Nightcloak		Concentration|Craft |Knowledge (Arcana)|Knowledge (History)|Knowledge (The Planes)|Knowledge (Religion)|Scry|Spellcraft|Heal|Bluff|Intui Direction|Profession |Sense Motive|Diplomacy

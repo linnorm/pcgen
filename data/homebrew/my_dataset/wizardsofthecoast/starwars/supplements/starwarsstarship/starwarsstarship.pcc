@@ -1,0 +1,17 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $
+CAMPAIGN:Starships of the Galaxy
+RANK:9
+GAMEMODE:StarWars
+GENRE:SciFi
+BOOKTYPE:Sourcebook
+SETTING:Star Wars
+TYPE:Wizards of the Coast.Supplement
+SOURCELONG:Starships of the Galaxy
+SOURCESHORT:SotG
+SOURCEWEB:http://www.wizards.com/starwars
+ISOGL:NO
+COPYRIGHT:Wizards of the Coast
+
+
+CLASS:swstarship_classes.lst
+FEAT:swstarship_feats.lst

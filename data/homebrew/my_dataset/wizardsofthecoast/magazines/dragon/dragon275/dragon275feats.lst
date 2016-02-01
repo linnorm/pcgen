@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #275	SOURCESHORT:WotC-Dragon #275	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Feat Name			Type			Req. Att.	Required Feat					Required Stat	Description										Source Page
+Improved Rapid Shot	CATEGORY:FEAT	TYPE:General	PREATT:2	PREFEAT:2,Point Blank Shot,Rapid Shot	PRESTAT:1,DEX=13	DESC:You are an expert at firing weapons with exceptional speed.	SOURCEPAGE:p.41

@@ -1,0 +1,15 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+#Created by Robert Biskup January 2005
+
+# Feat Name				Type
+Acrobatic.MOD			TYPE:CloudAnchoriteBonus
+Agile.MOD				TYPE:CloudAnchoriteBonus
+Athletic.MOD			TYPE:CloudAnchoriteBonus
+Cold Endurance.MOD		TYPE:CloudAnchoriteBonus
+Endurance.MOD			TYPE:CloudAnchoriteBonus
+Great Fortitude.MOD		TYPE:CloudAnchoriteBonus
+Improved Cold Endurance.MOD	TYPE:CloudAnchoriteBonus
+Self Sufficient.MOD		TYPE:CloudAnchoriteBonus
+Skill Focus.MOD			TYPE:CloudAnchoriteBonus
+Track.MOD				TYPE:CloudAnchoriteBonus

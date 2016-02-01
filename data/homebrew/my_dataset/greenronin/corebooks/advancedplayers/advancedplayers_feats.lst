@@ -1,0 +1,120 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+#Author:Andrew Maitland
+SOURCELONG:Green Ronin - Advanced Player's Manual	SOURCESHORT:Adv.Players	SOURCEWEB:www.greenronin.com	SOURCEDATE:2005-01
+SOURCESHORT:Adv. Players
+
+###Green Ronin - Advanced Players - Feats
+# Feat Name					Type				Visible	Req. Att.	Required Class		Required Feat															Required Skill												Required Stat	Description																							Multiple?	Template				Bonus to HP						Add to base move			Bonus to skill									Cross-Class Skill
+Armored Caster				TYPE:General
+Crushing Charge				TYPE:General				PREATT:10					PREFEAT:2,Improved Bull Rush,Power Attack
+Coordinated Melee Attack		TYPE:General				PREATT:1																																				PRESTAT:1,INT=11
+Fighting Withdrawal			TYPE:General										PREFEAT:1,Combat Expertise																											PRESTAT:1,INT=13
+Frightful Charge				TYPE:General				PREATT:5																						PRESKILL:1,Intimidate=3											PRESTAT:1,CHA=11
+Improved Coordinated Melee Attack	TYPE:General				PREATT:5					PREFEAT:1,Combat Reflexes																											PRESTAT:1,CHA=11
+Rapid Sniping				TYPE:General				PREATT:5																						PRESKILL:1,Intimidate=3											PRESTAT:1,CHA=11
+Share Lesser Divination			TYPE:General										PREFEAT:1,Spell Focus (Divination)
+Taunt						TYPE:General																											PRESKILL:1,Bluff=3
+Thread Focus				TYPE:General																																									PRESTAT:1,INT=13
+Wrath of the Faithful			TYPE:General										PREFEAT:1,Extra Turning														PRESKILL:1,Knowledge (Religion)=5
+
+##### Psychic- preface was to let me group all the skills together for ease of checking, all the coding will work either way.
+###Psychic Feats:
+Apport Arrows				TYPE:Psychic										PREFEAT:1,Psychoportation													PRESKILL:1,Apport=5,Psychic-Apport=5								PRESTAT:1,WIS=13	DESC:You can teleport away incoming arrows, as well as crossbow bolts, spears, and other shot or thrown weapons.
+Clairsentience				TYPE:Psychic Talent									PREFEAT:1,Psychic Ability																														DESC:You have the potential to learn clairsentience skills.																																													CCSKILL:TYPE=Clairsentience
+Combat Concentration			TYPE:General										PREFEAT:1,Psychic Ability																														DESC:You can use your psychic skills in combat.
+Craft Psychic Construct			TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychoportation,Psychometabolism,Psychokinesis,Telepathy,Clairsentience																		DESC:You can create and empower psychic constructs.
+Cure Blindness/Deafness			TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychometabolism										PRESKILL:1,Psychic Healing=5,Psychic-Psychic Healing=5								DESC:You can use the Psychic Healing skill to cure blindness and deafness.
+Cure Disease				TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychometabolism										PRESKILL:1,Psychic Healing=5,Psychic-Psychic Healing=5								DESC:You can use the Psychic Healing skill to cure diseases.
+Cure Poison					TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychometabolism										PRESKILL:1,Psychic Healing=5,Psychic-Psychic Healing=5								DESC:You can use the Psychic Healing skill to eliminate poisons.
+Dimensional Shift				TYPE:Psychic Talent									PREFEAT:2,Psychic Ability,Psychoportation																												DESC:You have the potential to learn the Dimensional Shift skill.																																												CCSKILL:Dimensional Shift,Psychic Dimensional Shift
+Direct Talent				TYPE:Metapsychic										PREFEAT:1,Psychic Ability																														DESC:Choose a psychic skill you already have that requires mental contact. You can now use this skill without the need for mental contact.
+Divert Teleport				TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychoportation											PRESKILL:2,Psychic Sense=5,Apport=10,Psychic-Psychic Sense=5,Psychic-Apport=10				DESC:You can focus your psychic energy to redirect the apportation or teleportation of others.
+Empower Talent				TYPE:Metapsychic										PREFEAT:1,Psychic Ability																											PRESTAT:1,WIS=13	DESC:You can strengthen the effects of your psychic skills.
+Energy Shield				TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychokinesis											PRESKILL:1,Telekinesis=7,Psychic-Telekinesis=7										DESC:You have the ability to psychokinetically shield yourself from harmful energy.
+Erase Signature				TYPE:Psychic										PREFEAT:2,Psychic Ability,Telepathy,Clairsentience									PRESKILL:1,Psychic Sense=1,Psychic-Psychic Sense=1						PRESTAT:1,WIS=13	DESC:You can eliminate evidence of psychic signatures (your own or others?).
+Extend Talent				TYPE:Metapsychic										PREFEAT:1,Psychic Ability																											PRESTAT:1,WIS=13	DESC:You?re more adept at affecting multiple targets with your psychic skills.
+Flight					TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychokinesis											PRESKILL:1,Telekinesis=1,Psychic-Telekinesis=1										DESC:Telekinetic flight is easier for you.
+Greater Psychic Focus			TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychic Focus																												DESC:Your psychic skills within a particular talent are more potent than normal.
+Imbue Weapon				TYPE:Psychic										PREFEAT:1,Psychic Ability																														DESC:You can focus your powers to imbue a melee weapon with psychic force.
+Maximize Talent				TYPE:Metapsychic										PREFEAT:1,Psychic Ability																											PRESTAT:1,WIS=13	DESC:Using this feat, you can maximize the effects of your psychic skills.
+Mental Fortitude				TYPE:General																																									PRESTAT:1,WIS=13	DESC:You are particularly resistant to psychic attack.
+Mental Recovery				TYPE:Psychic										PREFEAT:1,Psychic Ability																											PRESTAT:1,WIS=13	DESC:You recover more quickly from the strain of using psychic abilities.
+Mind Over Matter				TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychomentabolism																								PRESTAT:1,WIS=13	DESC:Your mental strength allows you to heal faster.
+Mind Switch					TYPE:Psychic										PREFEAT:2,Psychic Ability,Telepathy																													DESC:You have the potential to learn the Mind Switch skill.
+Mind Trap					TYPE:Psychic										PREFEAT:2,Psychic Ability,Telepathy												PRESKILL:1,Psychic Shield=7,Psychic-Psychic Shield=7									DESC:You can psychically act against anyone who tries to overcome your mental defenses.
+Multitasking				TYPE:Psychic										PREFEAT:1,Psychic Ability																											PRESTAT:1,WIS=13	DESC:You can maintain multiple psychic skills with less difficulty.
+Psychic Ability				TYPE:Psychic																																												DESC:You have the potential to acquire psychic feats and skills.
+Psychic Channeling			TYPE:Psychic																																												DESC:You can channel spell energy to fuel your psychic abilities.
+Pyschic Companion				TYPE:Psychic																																												DESC:You have a psychic companion creature.
+Psychic Focus				TYPE:Psychic										PREFEAT:1,Psychic Ability																														DESC:Your psychic skills within a particular talent are more potent than normal.
+Psychic Invisibility			TYPE:Psychic										PREFEAT:2,Psychic Ability,Telepathy												PRESKILL:1,Mental Contact=6,Psychic-Mental Contact=6									DESC:You can focus your energies to block your presence from the minds of others.
+Psychic Link				TYPE:Psychic																																												DESC:You have a mental connection with someone.
+Psychic Reflection			TYPE:Psychic										PREFEAT:2,Psychic Ability,Telepathy												PRESKILL:1,Psychic Shield=8,Psychic-Psychic Shield=8									DESC:You can reflect psychic effects back at their originator.
+Psychic Severance				TYPE:Psychic										PREFEAT:2,Psychic Ability,Telepathy												PRESKILL:1,Psychic Surgery=10,Psychic-Psychic Surgery=10								DESC:You can remove another creature?s psychic talents.
+Psychic Stamina				TYPE:Psychic										PREFEAT:2,Psychic Ability,Psychometabolism																								PRESTAT:1,WIS=13	DESC:Your mental strength reinforces your physical endurance.																					BONUS:HP|CURRENTMAX|TL*(max(CON,WIS)-CON)
+Psychic Weapon				TYPE:Psychic Talent									PREFEAT:1,Psychic Ability																														DESC:You have the potential to learn the Psychic Weapon skill.																																												CCSKILL:Psychic Weapon,Psychic-Psychic Weapon
+Psychokinesis				TYPE:Psychic Talent									PREFEAT:1,Psychic Ability																														DESC:You have the potential to learn psychokinesis skills.																																													CCSKILL:TYPE=Psychokinesis
+Psychometabolism				TYPE:Psychic Talent									PREFEAT:1,Psychic Ability																														DESC:You have the potential to learn psychometabolism skills.																																												CCSKILL:TYPE=Psychometabolism
+Psychoportation				TYPE:Psychic Talent									PREFEAT:1,Psychic Ability																														DESC:You have the potential to learn psychoportation skills.																																												CCSKILL:TYPE=Psychoportation
+Quicken Talent				TYPE:Metapsychic										PREFEAT:1,Psychic Ability																											PRESTAT:1,WIS=15	DESC:You can use psychic skills more quickly than normal.
+Reduced Strain				TYPE:Metapsychic										PREFEAT:1,Psychic Ability													PRESKILL:1,TYPE.Psychic=5													DESC:One of your psychic skills causes less strain on you.
+Sensitive					TYPE:Psychic										PREFEAT:2,Psychic Ability,Telepathy																										PRESTAT:1,WIS=13	DESC:You are particularly sensitive to the emotions and attitudes of other creatures.
+Shield Penetration			TYPE:Psychic										PREFEAT:1,Psychic Ability																														DESC:You are adept at overcoming the resistance of Psychic Shields with your powers.
+Skill Aptitude				TYPE:General																																												DESC:You?re talented in particular skills.
+Subtle Talent				TYPE:Metapsychic										PREFEAT:1,Psychic Ability																											PRESTAT:1,WIS=13	DESC:You can use your psychic skills with less chance of anyone noticing your activities.
+Telepathy					TYPE:Psychic Talent									PREFEAT:1,Psychic Ability																														DESC:You have the potential to learn telepathy skills.																	TEMPLATE:Psychic Telepathy																								CCSKILL:TYPE=Telepathy
+Truth Reading				TYPE:Psychic										PREFEAT:3,Psychic Ability,Telepathy,Sensitive																											DESC:You can sense when someone is lying to you.
+Widen Talent				TYPE:General										PREFEAT:1,Psychic Ability																											PRESTAT:1,WIS=13	DESC:You can aff ect a radius with a single use of a psychic skill.
+
+###Wild Talent commented until chooser updated - Need to get it to select all pyschic skills and make them allowable to add skills.
+Wild Talent (Psychic)			TYPE:General																																												DESC:You have the potential to learn and use a single psychic skill.													MULT:YES
+
+
+
+
+#HIDDEN FEATS:
+#For Evangelist Class:
+ShieldingPrayer1				TYPE:ClassEvangelist	VISIBLE:NO																								PRESKILL:1,Knowledge (Religion)=16																																				MULT:NO
+ShieldingPrayer2				TYPE:ClassEvangelist	VISIBLE:NO							PREFEAT:1,ShieldingPrayer1																																																						MULT:NO
+ShieldingPrayer3				TYPE:ClassEvangelist	VISIBLE:NO							PREFEAT:1,ShieldingPrayer2																																																						MULT:NO
+CastOut					TYPE:ClassEvangelist	VISIBLE:NO																								PRESKILL:1,Knowledge (Religion)=16																																				MULT:NO
+
+#For Scout Class:
+SharpSenses					TYPE:ClassScoutAuto	VISIBLE:NO																																																																																				BONUS:SKILL|Listen,Search,Spot|1
+ImprovedSharpSenses			TYPE:ClassScoutAuto	VISIBLE:NO																																																																																				BONUS:SKILL|Listen,Search,Spot|1	BONUS:SKILL|Sense Motive|2
+GreaterSharpSenses			TYPE:ClassScoutAuto	VISIBLE:NO
+
+Discern Lies				TYPE:ClassScout		VISIBLE:NO			PRECLASS:1,Scout=10
+Canny Fighting				TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Combat Expertise,Dodge												PRESKILL:1,Tumble=5
+Greater Canny Fighting			TYPE:ClassScout		VISIBLE:NO							PREFEAT:3,Combat Expertise,Dodge,Canny Fighting
+Lesser Self-Healing			TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Self-Sufficient													PRESKILL:1,Heal=5
+Self-Healing				TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Lesser Self-Healing
+Greater Self-Healing			TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Self-Healing
+Cunning Stealth				TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Deceitful,Stealthy													PRESKILL:1,Disguise=5,Hide=5
+Greater Cunning Stealth			TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Cunning Stealth
+Mobile Fighting				TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Improved Overrun,Mobility												PRESKILL:1,Jump=5																																																					BONUS:MOVEADD|TYPE.Walk|10
+Greater Mobile Fighting			TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Mobile Fighting
+Wild Craft					TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Endurance,Track													PRESKILL:1,Survival=5
+Greater Wildcraft				TYPE:ClassScout		VISIBLE:NO							PREFEAT:1,Wildcraft
+
+#THANEMAGE HIDDEN:
+#Apprentice Ability:
+Aura of Dread				TYPE:ClassThaneMage	VISIBLE:NO
+Spiritstrike				TYPE:ClassThaneMage	VISIBLE:NO
+Lesser Spiritshield			TYPE:ClassThaneMage	VISIBLE:NO
+#Initiate Ability:
+Aura of Doom				TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Aura of Dread
+Spiritbolt					TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Spiritstrike
+Spiritshield				TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Lesser Spiritshield
+#Adept Ability:
+Scourging Aura				TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Aura of Doom
+Spiritlash					TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Spiritbolt
+Spiritfield					TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Spiritshield
+#Master Ability:
+Expelling Aura				TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Scourging Aura
+Spiritbound					TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Spiritlash
+Spiritbarrier				TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Spiritfield
+#Grand Master Ability:
+Devastating Aura				TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Expelling Aura
+Greater Spiritbind			TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Spiritbound
+Greater Spiritbarrier			TYPE:ClassThaneMage	VISIBLE:NO							PREFEAT:1,Spiritbarrier

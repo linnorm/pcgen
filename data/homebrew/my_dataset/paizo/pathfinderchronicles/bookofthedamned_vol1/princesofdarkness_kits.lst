@@ -1,0 +1,14 @@
+SOURCELONG:Princes of Darkness	SOURCESHORT:PrinceofDark	SOURCEWEB:http://www.paizo.com
+
+
+STARTPACK:Companion (Imp)	TYPE:Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Companion (Imp)]
+RACE:Companion (Imp)	!PRERACE:1,%
+ALIGN:LE
+SKILL:Diplomacy		RANK:6
+SKILL:Stealth		RANK:6
+SKILL:Perception		RANK:6
+SKILL:Spellcraft		RANK:6
+SKILL:TYPE=Knowledge	RANK:6
+FEAT:Dodge
+FEAT:Weapon Finesse
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10

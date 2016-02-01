@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Tue Feb 24 20:53:17 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Alderac Entertainment Group - Magic of Rokugan	SOURCESHORT:MoR	SOURCEWEB:http://alderac.com/d20
+
+##Block: Prestige classes
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus																Combat bonus
+#CLASS:Ratling Shaman	HD:4		TYPE:PC.Prestige	ABB:Nmt		MAXLEVEL:10	SOURCEPAGE:p.76	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|(CL/2)+2	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|3*CL/4|TYPE=Base.REPLACE
+# Class Name		Required Race	Required Skill						Req. Spell Type
+#CLASS:Ratling Shaman	PRERACE:Nezumi	PRESKILL:2,Concentration,Knowledge (Arcana)=10	PRESPELLTYPE:3,Arcane=1
+# Class Name		Skill Pts/Lvl	Class Skill
+#CLASS:Ratling Shaman	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Perform|TYPE.Profession|Spellcraft

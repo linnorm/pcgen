@@ -1,0 +1,32 @@
+# CVS $Revision: $ $Author: $ -- Mon Feb 26 20:25:10 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
+
+# Weapon Name		Type		Nb Hands
+Blowgun			TYPE:Simple
+Blowgun (Greater)		TYPE:Exotic	HANDS:2
+Butterfly Sword		TYPE:Exotic
+Chain				TYPE:Exotic	HANDS:2
+Chakram			TYPE:Exotic
+Chijiriki			TYPE:Exotic	HANDS:2
+Double Spear		TYPE:Exotic	HANDS:2
+Fukimi-Bari			TYPE:Exotic	HANDS:0
+Jitte				TYPE:Exotic
+Kau sin ke			TYPE:Exotic
+Kawanaga			TYPE:Exotic	HANDS:2
+Kusari-gama			TYPE:Weapon.Exotic.Melee.Slashing.Double.Finesseable.Ninja	HANDS:2
+Lajatang			TYPE:Exotic	HANDS:2
+Nagamaki			TYPE:Melee
+Naginata			TYPE:Melee
+Nail Sheaths		TYPE:Exotic
+Nekode			TYPE:Exotic
+Sai				TYPE:Exotic
+Sang kauw			TYPE:Exotic	HANDS:2
+Sasumata			TYPE:Exotic	HANDS:2
+Shikomi-zue			TYPE:Exotic	HANDS:2
+Sodegarami			TYPE:Exotic	HANDS:2
+Tail Knife			TYPE:Exotic
+Tail Mace			TYPE:Exotic
+Tail Spikes (Miinow)	TYPE:Exotic	HANDS:0
+Three-section Staff	TYPE:Exotic	HANDS:2
+Tonfa				TYPE:Exotic
+War Fan			TYPE:Exotic

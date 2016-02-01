@@ -1,0 +1,37 @@
+# CVS $Revision: $ $Author: $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #280	SOURCESHORT:WotC-Dragon #280	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Equipment Name		Type				Cost		Weight	Source Page		Virtual Feat	Save checks bonus		Bonus to skill
+Alchemist's Mercy		TYPE:Goods.Alchemical	COST:1	WT:0		SOURCEPAGE:p.51
+Armor Soft			TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.51
+Cooling Gel			TYPE:Goods.Alchemical	COST:100	WT:0		SOURCEPAGE:p.51
+Courier's Ink		TYPE:Goods.Alchemical	COST:20	WT:0		SOURCEPAGE:p.51
+Firebane			TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.51
+Fire Beetle Paste		TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.51
+Firestone			TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.51
+Flash Powder		TYPE:Goods.Alchemical	COST:20	WT:0		SOURCEPAGE:p.51
+Free Foot			TYPE:Goods.Alchemical	COST:25	WT:0		SOURCEPAGE:p.51
+Holdfast			TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.51
+Ice Crystal			TYPE:Goods.Alchemical	COST:5	WT:0		SOURCEPAGE:p.52
+Insect Repellent		TYPE:Goods.Alchemical	COST:5	WT:0		SOURCEPAGE:p.52
+Liquid Ice			TYPE:Goods.Alchemical	COST:30	WT:0		SOURCEPAGE:p.52
+Night Eyes			TYPE:Goods.Alchemical	COST:25	WT:0		SOURCEPAGE:p.52
+Powdered Water		TYPE:Goods.Alchemical	COST:0.5	WT:0		SOURCEPAGE:p.52
+Red Rager			TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.52
+Slimebane			TYPE:Goods.Alchemical	COST:15	WT:0		SOURCEPAGE:p.52
+Slippery Oil		TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.52
+Sneezing Powder		TYPE:Goods.Alchemical	COST:60	WT:0		SOURCEPAGE:p.52
+Softshoe Powder		TYPE:Goods.Alchemical	COST:25	WT:0		SOURCEPAGE:p.53
+Soupstone			TYPE:Goods.Alchemical	COST:300	WT:0		SOURCEPAGE:p.53
+Stonecloth			TYPE:Goods.Alchemical	COST:100	WT:0		SOURCEPAGE:p.53
+Tangle Wire			TYPE:Goods.Alchemical	COST:25	WT:0		SOURCEPAGE:p.53
+Traveler's Solace		TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.53
+Truth Wine			TYPE:Goods.Alchemical	COST:75	WT:0		SOURCEPAGE:p.53
+Vapors of Sleep		TYPE:Goods.Alchemical	COST:50	WT:0		SOURCEPAGE:p.53
+Familiar (Fox)		TYPE:Goods.Familiars	COST:100			SOURCEPAGE:p.60	VFEAT:Alertness	BONUS:CHECKS|Reflex|2
+Familiar (Hare)		TYPE:Goods.Familiars	COST:100			SOURCEPAGE:p.60	VFEAT:Alertness					BONUS:SKILL|Listen|2
+Familiar (Mouse)		TYPE:Goods.Familiars	COST:100			SOURCEPAGE:p.60	VFEAT:Alertness					BONUS:SKILL|Hide|2
+Familiar (Otter)		TYPE:Goods.Familiars	COST:100			SOURCEPAGE:p.60	VFEAT:Alertness					BONUS:SKILL|Swim|2
+Familiar (Raccoon)	TYPE:Goods.Familiars	COST:100			SOURCEPAGE:p.60	VFEAT:Alertness					BONUS:SKILL|Pick Pockets|2
+Familiar (Skunk)		TYPE:Goods.Familiars	COST:100			SOURCEPAGE:p.60	VFEAT:Alertness
+Familiar (Squirrel)	TYPE:Goods.Familiars	COST:100			SOURCEPAGE:p.60	VFEAT:Alertness	BONUS:CHECKS|Reflex|2

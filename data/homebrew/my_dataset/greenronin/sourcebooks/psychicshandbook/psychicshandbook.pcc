@@ -1,0 +1,38 @@
+# CVS $Revision$ $Author$ -- Mon Feb 26 16:04:00 2007 -- reformated by prettylst.pl v1.36 (build 2045)
+CAMPAIGN:The Psychic's Handbook / Advanced Players Manual
+GAMEMODE:3e
+# The active Type tag is temporary and will be removed when this source graduates from Alpha
+TYPE:Alpha Datasets
+#TYPE:Green Ronin Publishing.Supplement.Master Class
+RANK:6
+PUBNAMELONG:Green Ronin
+PUBNAMESHORT:Ronin
+PUBNAMEWEB:http://www.greenronin.com
+SOURCELONG:The Psychic's Handbook
+SOURCESHORT:psychicshandbook
+SOURCEWEB:http://www.greenronin.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0, Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, based on original material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Modern System Reference Document, Copyright 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker, Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker.
+COPYRIGHT:The Psychic's Handbook, Copyright 2004, Green Ronin Publishing;Author Steven Kenson
+COPYRIGHT:The Psychic's Handbook Web Enhancement, Copyright 2004, Green Ronin Publishing; Author Steve Kenson
+COPYRIGHT:PCGen dataset conversion for The Psychic's Handbook Copyright 2006, PCGen data team (including, but not limited to, Terry O'Brien)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+#EXTRAFILE:OGL_Web.txt
+
+CLASS:psychicshandbook_classes.lst
+CLASS:psychicshandbook_classes_prestige.lst
+FEAT:psychicshandbook_feats.lst
+FEAT:psychicshandbook_feats_hidden.lst
+RACE:psychicshandbook_races.lst
+SKILL:psychicshandbook_skills.lst
+
+EQUIPMENT:psychicshandbook_equip_crystals.lst
+EQUIPMENT:psychicshandbook_equip_elixirs.lst
+EQUIPMOD:psychicshandbook_equipmods.lst
+
+# 5.9.1
+HIDETYPE:EQUIP|PsiRanks

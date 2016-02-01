@@ -1,0 +1,61 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Iron Kingdoms Character Guide	SOURCESHORT:IKCG	SOURCEWEB:http://www.ironkingdoms.com
+
+
+##Block: Turn/Rebuke Abilities
+# Ability Name						Category of Ability			Type							Visible	Required Var. value				Special ABility																									Define																																												Source Page			ASPECT
+Turn Gremlins						CATEGORY:Special Ability		TYPE:SpecialAttack.Turning.TurnGremlins	VISIBLE:NO	PREVAREQ:TurnGremlinsAllowedByDeity,1	SAB:Turn Gremlins (Su) %/day (turn level %) (turn damage %d%+%)|TurnTimesGremlins|TurnLevelGremlins|TurnDiceGremlins|TurnDieSizeGremlins|TurnDamagePlusGremlins	DEFINE:TurnTimesGremlins|TurnTimesBase	DEFINE:TurnLevelGremlins|TurnLevelBase	DEFINE:TurnDiceGremlins|TurnDiceBase	DEFINE:TurnDieSizeGremlins|TurnDieSizeBase	DEFINE:TurnDamagePlusGremlins|TurnDamagePlusBase	DEFINE:TurnCheckGremlins|TurnCheckBase	SOURCEPAGE:p.237
+Halt Construct						CATEGORY:Special Ability		TYPE:SpecialAttack.Turning.HaltConstruct	VISIBLE:NO	PREVAREQ:HaltConstructAllowedByDeity,1	SAB:Halt Construct (Su), refer to p. 237 of IKCG
+
+##Block: Turn/Rebuke ASPECTS for improved output
+# Ability Name						Category of Ability			Type							Visible	Required Var. value				Special ABility																									Define																																												Source Page			ASPECT
+CATEGORY=Special Ability|Turn Gremlins.MOD																																																																																																			ASPECT:TurnType|Turn	ASPECT:TurnKind|Gremlins	ASPECT:TurnTimes|%1|TurnTimesGremlins	ASPECT:TurnLevel|%1|TurnLevelGremlins	ASPECT:TurnDamage|%1d%2+%3|TurnDiceGremlins|TurnDieSizeGremlins|TurnDamagePlusGremlins	ASPECT:TurnCheck|%1|TurnCheckGremlins	ASPECT:TurnNotes|You destroy Gremlins with total hit dice up to %1.|TurnLevelGremlins/2
+#CATEGORY=Special Ability|Halt Construct.MOD	ASPECT:TurnType|Rebuke	ASPECT:TurnKind|Constructs	ASPECT:TurnTimes|%1|TurnTimesUndead	ASPECT:TurnLevel|%1|TurnLevelUndead	ASPECT:TurnDamage|%1d%2+%3|TurnDiceUndead|TurnDieSizeUndead|TurnDamagePlusUndead	ASPECT:TurnCheck|%1|TurnCheckUndead	ASPECT:TurnNotes|You command Undead creatures with total hit dice up to %1.|TurnLevelUndead/2
+
+
+##Block: Bodger Abilities
+# Ability Name						Category of Ability			Type							Visible	Required Var. value				Special ABility																									Define																																												Source Page			ASPECT
+Master Bodger						CATEGORY:Bodger Special Ability	TYPE:BodgerAbilities				VISIBLE:NO								SAB:Master Bodger																																																																						SOURCEPAGE:pg. 99
+Precise Timing						CATEGORY:Bodger Special Ability	TYPE:BodgerAbilities				VISIBLE:NO								SAB:Precise Timing																																																																					SOURCEPAGE:pg. 100
+Wrench Tosser						CATEGORY:Bodger Special Ability	TYPE:BodgerAbilities				VISIBLE:NO								SAB:Extra use of Toss a wrench at it																																																																		SOURCEPAGE:pg. 100
+
+# Ability Name						Category of Ability			Type							Visible	Required Var. value				Special ABility																									Define																																												Source Page			ASPECT
+Demolish							CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary		VISIBLE:NO								SAB:Demolish +%d% (Ex)|DemolishAttack|DemolishAttackDie																																																															SOURCEPAGE:pg. 99
+Bodging							CATEGORY:Special Ability		TYPE:SpecialQuality				VISIBLE:NO								SAB:Bodging																																																																							SOURCEPAGE:pg. 97
+Jackwrench							CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary		VISIBLE:NO								SAB:Jackwrench (Ex)																																																																					SOURCEPAGE:pg. 98
+Tinkering							CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary		VISIBLE:NO								SAB:Tinkering (Ex)																																																																					SOURCEPAGE:pg. 99
+Give It a Good Kick					CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary		VISIBLE:NO								SAB:Give it a good kick (Ex)																																																																				SOURCEPAGE:pg. 99
+Toss a Hammer at It					CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary		VISIBLE:NO								SAB:Toss a hammer at it (Ex)																																																																				SOURCEPAGE:pg. 99
+
+
+##Block: Scout Abilities
+###Block: Favored Terrains
+# Ability Name					Category of Ability		Type								Visible	Define												Description					Source Page				Aspects
+Basic Favored Terrain				CATEGORY:Special Ability	TYPE:Internal						VISIBLE:NO	DEFINE:FavoredTerrainBase|2	DEFINE:FavoredTerrains|0	DEFINE:FavoredTBonuses|0
+
+# Ability Name			Category of Ability		Type						Visible	Define									Description																											Ability									Bonus to Ability Pool										Modify VAR																																Source Page
+Scout Favored Terrain		CATEGORY:Special Ability	TYPE:Internal				VISIBLE:NO	DEFINE:ScoutFavoredTerrainLVL|0																																																								BONUS:VAR|FavoredTerrains|1|PREVARGTEQ:ScoutFavoredTerrainLVL,2	BONUS:VAR|FavoredTerrains|1|PREVARGTEQ:ScoutFavoredTerrainLVL,9	BONUS:VAR|FavoredTerrains|1|PREVARGTEQ:ScoutFavoredTerrainLVL,17	BONUS:VAR|FavoredTBonuses|1|PREVARGTEQ:ScoutFavoredTerrainLVL,9	BONUS:VAR|FavoredTBonuses|1|PREVARGTEQ:ScoutFavoredTerrainLVL,17														SOURCEPAGE:pg. 84
+
+# Ability Name				Category of Ability		Type								Visible	Define												Description					Source Page				Aspects
+Favored Terrain (Arctic)		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredArctic|FavoredTerrainBase							DESC:+%1|FavoredArctic		SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredArctic
+Favored Terrain (Desert)		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredDesert|FavoredTerrainBase							DESC:+%1|FavoredDesert		SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredDesert
+Favored Terrain (Forest)		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredForest|FavoredTerrainBase							DESC:+%1|FavoredForest		SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredForest
+Favored Terrain (Hills)			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredHills|FavoredTerrainBase							DESC:+%1|FavoredHills		SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredHills
+Favored Terrain (Jungle)		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredJungle|FavoredTerrainBase							DESC:+%1|FavoredJungle		SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredJungle
+Favored Terrain (Mountains)		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredMountains|FavoredTerrainBase						DESC:+%1|FavoredMountains	SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredMountains
+Favored Terrain (Plains)		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredPlains|FavoredTerrainBase							DESC:+%1|FavoredPlains		SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredPlains
+Favored Terrain (Scrub)			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredScrub|FavoredTerrainBase							DESC:+%1|FavoredScrub		SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredScrub
+Favored Terrain (Swamp)			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredTerrain.Extraordinary			VISIBLE:YES	DEFINE:FavoredSwamp|FavoredTerrainBase							DESC:+%1|FavoredSwamp		SOURCEPAGE:pg. 84	ASPECT:Ability Benefit|+%1|FavoredSwamp
+
+###Block: Favored Enemy Bonuses
+# Ability Name				Category of Ability		Type					Visible		Required Ability											Stackable?	Multiple?	Choose		Modify VAR						Source Page
+Favored Bonus__Arctic			CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Arctic)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredArctic|2			SOURCEPAGE:pg. 84
+Favored Bonus__Desert			CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Desert)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredDesert|2			SOURCEPAGE:pg. 84
+Favored Bonus__Forest			CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Forest)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredForest|2			SOURCEPAGE:pg. 84
+Favored Bonus__Hills			CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Hills)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredHills|2			SOURCEPAGE:pg. 84
+Favored Bonus__Jungle			CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Jungle)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredJungle|2			SOURCEPAGE:pg. 84
+Favored Bonus__Mountains		CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Mountains)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredMountains|2			SOURCEPAGE:pg. 84
+Favored Bonus__Plains			CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Plains)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredPlains|2			SOURCEPAGE:pg. 84
+Favored Bonus__Scrub			CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Scrub)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredScrub|2			SOURCEPAGE:pg. 84
+Favored Bonus__Swamp			CATEGORY:Special Ability	TYPE:FavoredTerrainBonus	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Favored Terrain (Swamp)			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|FavoredSwamp|2			SOURCEPAGE:pg. 84
+

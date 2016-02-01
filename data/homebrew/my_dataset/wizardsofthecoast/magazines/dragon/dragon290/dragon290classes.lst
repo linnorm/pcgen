@@ -1,0 +1,44 @@
+# CVS $Revision: 1.7 $ $Author: ericbeaudoin $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# CN = Class Name	Al = Alignments Character Can Be	HD = Hit Die	SP = Starting Skill Points	F = Starting Feats	SS = Spell Stat	ST = Spell Type	AR = Attack Rating	FS = Fortitude Save	RS = Reflex Save	WS = Willpower Save	CWA = Class Automatically gets these Weapons	MBABR = Minimum Base Attack Bonus to Qualify for this class
+# RSCT = Required Spell Casting Type to be this class	RS = Required Skill to be this class	RF = Required Feat to be this class		CA = Class Abbreviation		CML = Class Maximum Level	RR = Required Race to be this Class		SCA = Special Class Abilities		RSS = Required Spell School	CT = Class Type	RD = Required Deity
+# SG = Starting Gold	SM = Source Material	LB = Language Bonus	SMT = Spell Memorization Type		LA = Language Automatically Start	BT = Bonus Types		CSAC = Cast Spells As Class	KSSLC = Known Spells - See Level Chart	RE = Required Equipment		RUBAB = Required Unarmed Base Attack Bonus	RWP = Required Weapon Proficiency
+# MRAS = Minimum Required Ability Score	RSSS = Required Spell Sub-School	PRS = Pre-Required Spell to be this class		RC = Required Class to be this Prestige class		RTM = Required to Memorize Spells	PRSA = Pre-Required Special Ability		RL = Required Languages to be this class		MRST = Minimum Required Saving Throw (type Fort/Ref/Will)
+# DS = Define Special	AA = Add Ability to class (feat/skill)	CT = Class Type (PC/NPC/Template/Monster)	PRA = Pre-Required Alignment
+
+SOURCELONG:Wizards of the Coast - Dragon Magazine #290	SOURCESHORT:WotC-Dragon #290	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+# Class Name	Hit Dice	Type			Max Level	Source Page			Save checks bonus																Combat bonus					WEAPONAUTO
+CLASS:Justicar	HD:10		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.90-91	BONUS:CHECKS|BASE.FORTITUDE|CL/3	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:G|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE|MARTIAL
+# Class Name	Required AL		Req. Att.	Required Feat							Required Skill
+CLASS:Justicar	PREALIGN:LG,LN,LE	PREATT:6	PREFEAT:2,Track,Skill Focus (Gather Information)	PRESKILL:3,Wilderness Lore,Gather Information,Search=5
+# Class Name	Skill Pts/Lvl
+CLASS:Justicar	STARTSKILLPTS:4
+1	SAB:Bring 'Em Back Alive (Ex)	SAB:Subdual Strike +%d6|1					AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Profieciency (Heavy)|Shield Proficiency
+2	SAB:Crippling Strike							VFEAT:Improved Grapple
+3	SAB:Street Savvy +%|2											AUTO:FEAT|Exotic Weapon Proficiency|Manacles
+4	SAB:Subdual Strike +%d6|1
+5	SAB:Hog-tie
+6	SAB:Street Savvy +%|2
+7	SAB:Subdual Strike +%d6|1
+8	SAB:Improved Hog-tie
+9	SAB:Street Savvy +%|2
+10	SAB:Intuition	SAB:Subdual Strike +%d6|1
+
+# Class Name		Hit Dice	Type			Max Level	Source Page			Save checks bonus																	Combat bonus					WEAPONAUTO
+CLASS:Dancer of Sharess	HD:6		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.92-93	BONUS:CHECKS|BASE.FORTITUDE|(CL/2)+2	BONUS:CHECKS|BASE.REFLEX|CL/3	BONUS:CHECKS|BASE.WILLPOWER|(CL/2)+2	BONUS:COMBAT|BAB|BAB:B|TYPE=Base.REPLACE	WEAPONAUTO:SIMPLE
+# Class Name		Required AL	Req. Att.	Required Deity		Required Domain	Required Skill										Req. Spell Type
+CLASS:Dancer of Sharess	PREALIGN:CG	PREATT:3	PREDEITY:1,Sharess	PREDOMAIN:1,Charm	PRESKILL:1,Knowledge (Religion)=9	PRESKILL:1,Perform (Dancing)=4	PRESPELLTYPE:1,Divine=3
+# Class Name		Skill Pts/Lvl
+CLASS:Dancer of Sharess	STARTSKILLPTS:2
+# Class Name		Spell Stat		Spell Type
+CLASS:Dancer of Sharess	SPELLSTAT:WIS	SPELLTYPE:Divine
+1	SAB:Cat Familiar,Cat Sight																				ADD:SPELLCASTER||Any
+2	SAB:Grace of the Goddess	SAB:+2 to all Dex and Cha based checks	BONUS:CHECKS|Reflex|1	BONUS:SKILL|STAT=CHA|2	BONUS:SKILL|STAT=DEX|2	ADD:SPELLCASTER||Any
+3	SAB:Familiar Shapechange(Cheetah,Leopard,Lion)																	ADD:SPELLCASTER||Any
+4	SAB:Tongue of the Diplomat												BONUS:SKILL|Diplomacy|4					ADD:SPELLCASTER||Any	ADD:Favored Enemy(Church of Shar,Vhaeraun,Set)
+5	SAB:Touch of Sharess																					ADD:SPELLCASTER||Any
+6	SAB:Familiar Shapechange(Tiger,Dire Lion)																		ADD:SPELLCASTER||Any
+7	SAB:Wiles of the Pleasure Queen																			ADD:SPELLCASTER||Any
+8	SAB:Dance of Zandilar																					ADD:SPELLCASTER||Any
+9	SAB:Familiar Shapechange(Dire Tiger)																		ADD:SPELLCASTER||Any	ADD:Favored Enemy(Church of Shar,Vhaeraun,Set)
+10	SAB:Improved Touch of Sharess																				ADD:SPELLCASTER||Any

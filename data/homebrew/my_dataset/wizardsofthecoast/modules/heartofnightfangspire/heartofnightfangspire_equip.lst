@@ -1,0 +1,17 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak   09/17/03
+SOURCELONG:Heart of Nightfang Spire	SOURCESHORT:HeartNight	SOURCEWEB:http://www.wizards.com/
+
+
+# Equipment Name				Type					Contains			Cost		Weight	Source Page
+Parchment Message				TYPE:Goods.General						COST:0	WT:.01	SOURCEPAGE:p.5
+Bone Plaque					TYPE:Goods.General						COST:0	WT:.01	SOURCEPAGE:p.5
+Gold Dragon ring				TYPE:Goods.General.Ring						COST:100	WT:.01	SOURCEPAGE:p.8
+Winged Dragon Goblet (Silver)		TYPE:Goods.General						COST:245	WT:0		SOURCEPAGE:p.8
+Bone Dice (4)				TYPE:goods.General						COST:0	WT:.01	SOURCEPAGE:p.8
+Silver Comb w/ Moonstone		TYPE:Goods.General						COST:550	WT:.01	SOURCEPAGE:p.22
+Brass Mug w/ Jade Inlay			TYPE:Goods.General						COST:350	WT:.01	SOURCEPAGE:p.22
+Mahogany Chect w/ Amethyst Inlay	TYPE:Goods.General.Container	CONTAINS:UNLIM|Any=9999	COST:1400	WT:25		SOURCEPAGE:p.22
+Crystal chalice w/ inset Emerald	TYPE:Goods,General						COST:700	WT:.01	SOURCEPAGE:p.22
+Gold Dragon Comb w/ Fire Opal		TYPE:Goods.General						COST:2500	WT:.01	SOURCEPAGE:p.28
+Gold Crown					TYPE:Goods.General						COST:5000	WT:2		SOURCEPAGE:p.28

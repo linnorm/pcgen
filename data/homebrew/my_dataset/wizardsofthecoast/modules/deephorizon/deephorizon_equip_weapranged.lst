@@ -1,0 +1,7 @@
+# CVS $Revision: 1.1 $ $Author: cchandler $ -- Mon Mar 20 21:36:29 2006 -- reformated by prettylst.pl v1.35 (build 561)
+# Original entry by Barak 09/16/03
+SOURCELONG:Deep Horizon	SOURCESHORT:DeepH	SOURCEWEB:http://www.wizards.com/
+
+#Grenadelike Weapons
+# Equipment Name	Required Proficiency			Type						Cost		Weight	Damage	Range		Source Page		Special Property
+Frostfire (Flask)	PROFICIENCY:WEAPON|Grenadelike Weapon	TYPE:Weapon.Simple.Ranged.Grenade	COST:40	WT:1		DAMAGE:1d6	RANGE:10	SOURCEPAGE:p.32	SPROP:Drains away heat

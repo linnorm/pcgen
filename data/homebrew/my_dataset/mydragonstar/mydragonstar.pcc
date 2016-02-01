@@ -1,0 +1,18 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:My Dragonstar Additions
+GAMEMODE:35e
+TYPE:Campaign
+RANK:1
+INFOTEXT:This is custom stuff for my Dragonstar campaigns.
+ISOGL:NO
+SHOWINMENU:NO
+GENRE:Fantasy
+SETTING:Dragonstar
+COVER:@\my_dataset\rallanonpublishinggroup\rallanon\encyclopediarallanon\cover.png
+
+
+EQUIPMENT:@\my_dataset\MyStuff\mydragonstar\mydragonstarequip.lst
+EQUIPMENT:@\my_dataset\MyStuff\mydragonstar\starfarershbequipspellware.lst
+LANGUAGE:@\my_dataset\MyStuff\mydragonstar\mydragonstarlanguages.lst
+SKILL:@\my_dataset\MyStuff\mydragonstar\mydragonstarskills.lst
+RACE:@\my_dataset\MyStuff\mydragonstar\mydragonstar_races.lst

@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 10 10:59:06 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Monsternomicon Volume II	SOURCESHORT:Monsternomicon2	SOURCEWEB:http://www.ironkingdoms.com
+
+
+# Skill Name		Key Stat	Untrained?		Type			Source Page			Bonus to skill
+Knowledge (Orgoth)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge

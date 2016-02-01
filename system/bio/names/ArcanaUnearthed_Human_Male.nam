@@ -1,0 +1,56 @@
+###Human Names, Male - Arcana Unearthed
+[RULES]
+15	[SYL1]	[SYL2]	[SYL3]	[SUR1]	[SUR2]
+75	[SYL1]	[SYL3]	[SUR1]	[SUR2]
+85	[SYL1]	[SYL2]	[SYL3]
+100	[SYL1]	[SYL3]
+[FULL]
+
+
+[SYL1]
+Bar
+Fis
+Kes
+Lof
+Mi
+Nath
+Re
+The
+Tel
+To
+
+
+[SYL2]
+no
+
+
+[SYL3]
+rad
+tan
+ter
+gar
+kul
+red
+gis
+mas
+lus
+man
+
+
+[SUR1]
+ De
+ Des
+ Fer
+ Fro
+ Ger
+ Ree
+ Ub
+
+[SUR2]
+gern
+trat
+ron
+nth
+rance
+d
+bert

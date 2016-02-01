@@ -1,0 +1,7 @@
+# CVS $Revision: 1.3 $ $Author: ericbeaudoin $ -- Mon Mar 20 20:54:06 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Wizards of the Coast - Dragon Magazine #249	SOURCESHORT:WotC-Dragon #249	SOURCEWEB:http://www.wizards.com/default.asp?x=dragon
+
+#Name					TYPE			Cost		Weight
+# Equipment Name	Type			Cost		Weight	Source Page		Special Property
+Rod of Attraction	TYPE:Magic.Rod	COST:3600	WT:0		SOURCEPAGE:p.87	SPROP:When used it attracts 1d4 herbivores, 15% omnivore, 5% carnivore. Rod has 30 charges
+Rod of Direction	TYPE:Magic.Rod	COST:5000	WT:0		SOURCEPAGE:p.87	SPROP:50+1d20 charges, Can be commanded to point wielder the most direct route to cities/ruins/locations (well visited) or visited by the wielder

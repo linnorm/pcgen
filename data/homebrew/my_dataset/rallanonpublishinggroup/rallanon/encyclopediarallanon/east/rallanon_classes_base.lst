@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: rax_the_grey $ -- Mon Mar 20 20:50:00 2006 -- reformated by prettylst.pl v1.35 (build 561)
+SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon East	SOURCESHORT:EncRalEast	SOURCEWEB:http://raxstower.finzen.com
+
+# Class Name			Hit Dice	Type			ABB		Ex Class			Source Page				Bonus Languages										Save checks bonus												Combat bonus
+# Class Name			Required AL
+# Class Name			Skill Pts/Lvl	Class Skill
+
+##Block: Base Classes
+
+
+##Block: Class .MODs
+
+# Class Name
+CLASS:Bard (Monte Cook's).MOD
+1	BONUS:VAR|Bardic music|1	DEFINE:Bardic music|0

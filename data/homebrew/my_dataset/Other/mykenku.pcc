@@ -1,0 +1,10 @@
+# CVS $Revision$ $Author$ -- Thu Feb 26 13:34:58 2004 -- reformated by prettylst.pl v1.31 (build 327)
+CAMPAIGN:My Kenku
+GAMEMODE:35e
+TYPE:Other
+RANK:9
+
+
+ABILITY:mykenku_abilities.lst
+LANGUAGE:mykenku_languages.lst
+RACE:mykenku_race.lst

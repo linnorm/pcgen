@@ -1,0 +1,41 @@
+# CVS $Revision: 1.18 $ $Author: ericbeaudoin $
+CAMPAIGN:FFG - Dragonstar - Guide to Galaxy v3.5
+GAMEMODE:35e
+RANK:7
+GENRE:Space Fantasy
+BOOKTYPE:Campaign Setting
+SETTING:Dragonstar
+TYPE:Fantasy Flight Games.Dragonstar
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Fantasy Flight Games
+PUBNAMESHORT:FFG
+PUBNAMEWEB:http://www.fantasyflightgames.com/
+SOURCELONG:Fantasy Flight Games - Dragonstar - Guide to Galaxy
+SOURCESHORT:GuideGalaxy
+SOURCEWEB:http://www.fantasyflightgames.com/dragonstar.html
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson
+COPYRIGHT:Traps &amp Treachery &copy 2001, Fantasy Flight, Inc.
+COPYRIGHT:Deadlands d20 Copyright 2001, Pinancle Entertainment Group, Inc.
+COPYRIGHT:Dragonstar: Guide to Galaxy Copyright 2002, Fantasy Flight, Inc.
+COPYRIGHT:PCGen dataset conversion for Dragonstar: Starfarer's Handbook Copyright 2002-2003, PCgen Data Team including, but not limited to, Eric Beaudoin (ericbeaudoin), Andrew McDougall (Tir Gwaith), Doug McMillan (DLM1065).
+
+
+# Do not remove the EXTRAFILE comment.
+# The script that split the files by game type needs it.
+#EXTRAFILE:guidetogalaxy_todo.txt
+
+ABILITY:guidetogalaxy_abilities.lst
+ARMORPROF:guidetogalaxy_armorprof.lst
+CLASS:guidetogalaxy_classes_creature_types.lst
+CLASS:guidetogalaxy_classes_dragon.lst
+EQUIPMENT:guidetogalaxy_equip_armorshields.lst
+EQUIPMENT:guidetogalaxy_equip_spellware.lst
+EQUIPMENT:guidetogalaxy_equip_weap.lst
+EQUIPMENT:guidetogalaxy_equip_weap_armormagic.lst
+EQUIPMOD:guidetogalaxy_equip_mods.lst
+RACE:guidetogalaxy_races.lst
+SPELL:guidetogalaxy_spells.lst
+TEMPLATE:guidetogalaxy_templates_creatures.lst
+TEMPLATE:guidetogalaxy_templates_types.lst

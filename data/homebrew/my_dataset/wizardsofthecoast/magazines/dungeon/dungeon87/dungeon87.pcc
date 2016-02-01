@@ -1,0 +1,17 @@
+# CVS $Revision: 1.2 $ $Author: ericbeaudoin $ -- Sat May 11 10:46:17 2002 -- reformated by prettylst.pl v1.12
+CAMPAIGN:WotC - DnD Magazines - Dungeon Issue #87
+GAMEMODE:DnD
+RANK:9
+BOOKTYPE:Magazine
+TYPE:Wizards of the Coast.Core.Magazine
+SOURCELONG:Wizards of the Coast - Dungeon #87
+SOURCESHORT:WotC-Dungeon #87
+SOURCEWEB:http://www.wizards.com/default.asp?x=dungeon
+
+CLASS:dungeon87classes.lst
+#CLASSSPELL:dungeon87classpells.lst
+EQUIPMENT:dungeon87equipweapmelee.lst
+EQUIPMENT:dungeon87equipwondrousitems.lst
+RACE:dungeon87races.lst
+SPELL:dungeon87spells.lst
+

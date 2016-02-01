@@ -1,0 +1,16 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+SOURCELONG:Mongoose Publishing - Encyclopaedia Arcane - Star Magic	SOURCESHORT:Star Magic	SOURCEWEB:http://www.mongoosepublishing.com
+
+
+# Feat Name				Type				Required Feat		Required Lvl	Required Skill				Required Casting Type	Req. Spell Type		Description																	Source Page
+Astrologer				CATEGORY:FEAT	TYPE:General									PRESKILL:1,Knowledge (Astrology)=4									DESC:You make determine the auspisiousness of any given day.								SOURCEPAGE:pg. 40
+Favoured by the Stars		CATEGORY:FEAT	TYPE:General																							DESC:You gain a +2 enhancement bonus to all saves when you are the target of a Star or Constellation.		SOURCEPAGE:pg. 40
+Natural Lens			CATEGORY:FEAT	TYPE:Metamagic																							DESC:You may expend an available spell to reroll a Concentration check to channel a Star or Constellation.	SOURCEPAGE:pg. 40
+Sign of the Crown			CATEGORY:FEAT	TYPE:General						PRELEVEL:MAX=1															DESC:You may make a Diplomacy check to overwhelm a target with your presence once per day.			SOURCEPAGE:pg. 40
+Sign of the Dragon's Maw	CATEGORY:FEAT	TYPE:General						PRELEVEL:MAX=1															DESC:You may add +2 to attack and -2 to AC on an attack.									SOURCEPAGE:pg. 41
+
+
+Star of Change			CATEGORY:FEAT	TYPE:Metamagic.Magus	PREFEAT:1,Spell Mastery																		DESC:You may attempt to convert any prepared spell into a Star or Constellation you have mastered.		SOURCEPAGE:pg. 42
+Star of Power			CATEGORY:FEAT	TYPE:Metamagic.Magus
+Star of Reality			CATEGORY:FEAT	TYPE:ItemCreation.Magus
+Star of Time			CATEGORY:FEAT	TYPE:Metamagic.Magus														PRESPELLCAST:MEMORIZE=N	PRESPELLTYPE:1,Arcane=3
