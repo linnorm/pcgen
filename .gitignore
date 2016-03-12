@@ -1,4 +1,3 @@
-Thumbs.db
 
 *.ini
 
@@ -37,3 +36,5 @@ pcgen-batch-convert.jar
 /.settings/
 /variable_report.csv
 /variable_report.html
+
+Thumbs.db
