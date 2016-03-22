@@ -4,7 +4,7 @@ GAMEMODE:35e|Bahamut35e
 TYPE:Wizards of the Coast.Campaign Setting.Forgotten Realms
 RANK:3
 STATUS:ALPHA
-PRECAMPAIGN:1,INCLUDES=Player's Guide to Faerun
+PRECAMPAIGN:2,INCLUDES=Player's Guide to Faerun,INCLUDES=3.5e ~ Book of Vile Darkness
 GENRE:Fantasy
 BOOKTYPE:Supplement
 SETTING:Fantasy
@@ -27,6 +27,13 @@ INFOTEXT:Forgotten Realms - Lost Empires of Faerun. Only Feats, Skills and Templ
 ABILITY:le_feats.lst
 SKILL:le_skills.lst
 TEMPLATE:le_templates.lst
+
+EQUIPMENT:le_equip_general.lst
+EQUIPMENT:le_equip_magic.lst
+EQUIPMOD:le_equipmods.lst
+
+DEITY:le_deities.lst
+
 
 INFOTEXT:Supports 6.4.1
 # ENTRY DATE: 2015-01 (Unknown)

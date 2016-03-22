@@ -301,7 +301,7 @@ Hand of the Oak Father						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Throat.N
 Hat of Anonymity							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Head.Headwear		COST:12500	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:109
 Headband of Conscious Effort					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Head.Headwear		COST:2000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:109
 Headband of the Lorebinders					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Head.Headwear		COST:1600	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:110
-Healing Belt							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Waist.Belt		COST:750	WT:1										SPROP:This broad leather belt is studded with three moonstones. This belt gives you a +2 competence bonus to heal checks continously. Additionaly, it has 3 charges (renewed each day at dawn) which can be spent to heal damage with a touch (or harm undead). 1 charge = 2d8, 2 charges = 3d8, 3 charges = 3d8.	SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:110
+Healing Belt							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Waist.Belt		COST:750	WT:1										SPROP:This broad leather belt is studded with three moonstones. This belt gives you a +2 competence bonus to heal checks continously. Additionaly, it has 3 charges (renewed each day at dawn) which can be spent to heal damage with a touch (or harm undead). 1 charge = 2d8, 2 charges = 3d8, 3 charges = 3d8.	BONUS:SKILL|Heal|2|TYPE=Competence	SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:110
 Heartseeking Amulet						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Throat.Neckwear		COST:3000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:110
 Hellcat Gauntlets							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Hands.Handwear		COST:3200	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:111
 Helm of Battle							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Head.Headwear		COST:2000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:111
@@ -387,9 +387,9 @@ Ring of Master Artifice						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ri
 Ring of Master Artifice (Greater)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:61000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:125
 Ring of Master Artifice (Lesser)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:5000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:125
 Ring of Mystic Defiance						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:7500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:125
-Ring of Mystic Fire						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:7500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:125
-Ring of Mystic Healing						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:3500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:126
-Ring of Mystic Lightning					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:7500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:126
+Ring of Mystic Fire						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:7500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:125	BONUS:CASTERLEVEL|DESCRIPTOR.Fire|1	DESC:3 charges per day which can be used to boost damage of Fire spells; 1 charge => +2d6, 2 charges => +3d6, 3 charges => +4d6
+Ring of Mystic Healing						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:3500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:126	BONUS:CASTERLEVEL|SPELL.Cure%|1	DESC:3 charges per day which can be used to boost healing of Cure spells; 1 charge => +2d6, 2 charges => +3d6, 3 charges => +4d6
+Ring of Mystic Lightning					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:7500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:126	BONUS:CASTERLEVEL|DESCRIPTOR.Electricity|1	DESC:3 charges per day which can be used to boost damage of Electricity spells; 1 charge => +2d6, 2 charges => +3d6, 3 charges => +4d6
 Ring of Negative Protection					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:36000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:126
 Ring of Nine Lives						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:45000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:126
 Ring of Piercing Spells						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:2000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:126
@@ -401,13 +401,21 @@ Ring of Soulbound Protection (Greater)			TYPE:Wondrous.Magic.Group_Clothing.Body
 Ring of Spell-Battle						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:12000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:127
 Ring of Thunderclaps						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:6000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:127
 Ring of Universal Energy Resistance (Minor)		TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:60000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:128
-Ring of Universal Energy Resistance (Major)		TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:120000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:128
+#Ring of Universal Energy Resistance (Major)		TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:120000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:128
 Ring of Universal Energy Resistance (Greater)		TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:180000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:128
 Ring of Vanishing							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:30000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:128
 Ring of Vengeance							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:4500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:128
 Ring of Water Breathing						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:6000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:128
 Ring of Force Armor						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			COST:30000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:128
-Robe of Arcane Might						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:21000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129
+
+Robe of Arcane Might (Abjuration)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:21000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129		BONUS:CASTERLEVEL|SCHOOL.Abjuration|1		BONUS:COMBAT|AC|4|TYPE=Armor
+Robe of Arcane Might (Conjuration)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:21000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129		BONUS:CASTERLEVEL|SCHOOL.Conjuration|1		BONUS:COMBAT|AC|4|TYPE=Armor
+Robe of Arcane Might (Divination)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:21000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129		BONUS:CASTERLEVEL|SCHOOL.Divination|1		BONUS:COMBAT|AC|4|TYPE=Armor
+Robe of Arcane Might (Enchantment)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:21000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129		BONUS:CASTERLEVEL|SCHOOL.Enchantment|1		BONUS:COMBAT|AC|4|TYPE=Armor
+Robe of Arcane Might (Evocation)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:21000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129		BONUS:CASTERLEVEL|SCHOOL.Evocation|1		BONUS:COMBAT|AC|4|TYPE=Armor
+Robe of Arcane Might (Necromancy)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:21000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129		BONUS:CASTERLEVEL|SCHOOL.Necromancy|1		BONUS:COMBAT|AC|4|TYPE=Armor
+Robe of Arcane Might (Transformation)				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:21000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129		BONUS:CASTERLEVEL|SCHOOL.Transformation|1	BONUS:COMBAT|AC|4|TYPE=Armor
+
 Robe of the Inferno						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:37000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:129
 Robe of Mysterious Conjuration				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:10000	WT:2										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:130
 Robe of Retaliation						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:6500	WT:2										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:130
@@ -955,3 +963,4 @@ Phylactery of virtue			TYPE:BodySlot_Head.Headgear.Vestments of Divinity		COST:6
 Choker of life protection		TYPE:BodySlot_Throat.Amulet.Wraith's Woe				COST:14000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(14th) +2 AC against undead; protection from 3 negative levels/day
 Gauntlets of ghost fighting		TYPE:BodySlot_Hands.Glove.Wraith's Woe				COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(8th) Ignore incorporeal miss chance; +1d6 melee damage against incorporeal creatures
 Shirt of wraith stalking		TYPE:BodySlot_Torso.Shirt.Wraith's Woe				COST:6000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(10th) Hide from undead
+

@@ -782,7 +782,8 @@ CLASS:Ur-Priest	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_UrPriest+Cas
 6	ABILITY:Ur-Priest Class Feature|AUTOMATIC|Ur-Priest ~ Siphon Spell Power
 10	ABILITY:Ur-Priest Class Feature|AUTOMATIC|Ur-Priest ~ Steal Spell-Like Ability
 
-# Void Disciple
+
+#Block: Void Disciple
 CLASS:Void Disciple	MAXLEVEL:13
 CLASS:Void Disciple	HD:6	TYPE:Prestige	SOURCEPAGE:p.71	DEFINE:VoidDiscipleLVL|0	BONUS:VAR|VoidDiscipleLVL|CL
 CLASS:Void Disciple	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
@@ -790,7 +791,7 @@ CLASS:Void Disciple	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVA
 CLASS:Void Disciple	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Void Disciple	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Void Disciple	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
-CLASS:Void Disciple	PRETEXT:Alignment: Any neutral. Skill: Spellcraft 10 ranks. Feats: Heighten Spell, Spell Penetration. Spells: Able to cast 3rd-level arcane or divine spells.
+CLASS:Void Disciple	PREALIGN:LN,NG,TN,NE,CN		PRESKILL:1,Spellcraft=10	PREABILITY:2,CATEGORY=FEAT,Heighten Spell,Spell Penetration	PRESPELLTYPE:1,Arcane=3,Divine=3
 CLASS:Void Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|TYPE=Knowledge|TYPE=Profession|Spellcraft
 2	ADD:SPELLCASTER|ANY
 4	ADD:SPELLCASTER|ANY
@@ -812,9 +813,10 @@ CLASS:Void Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|He
 12	ABILITY:Void Disciple Class Feature|AUTOMATIC|Void Disciple ~ Void Suppression
 13	ABILITY:Void Disciple Class Feature|AUTOMATIC|Void Disciple ~ Void Strike
 
-# Warpriest
+
+#Block: Warpriest
 CLASS:Warpriest	MAXLEVEL:10	BONUS:VAR|DomainCount|1
-CLASS:Warpriest	HD:10	TYPE:Prestige	SOURCEPAGE:p.74	DEFINE:WarpriestLVL|0	BONUS:VAR|WarpriestLVL|CL	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|WarpriestLVL|TYPE=Level.REPLACE
+CLASS:Warpriest	HD:10	TYPE:Prestige	SOURCEPAGE:p.74	DEFINE:WarpriestLVL|0	BONUS:VAR|WarpriestLVL|CL
 CLASS:Warpriest	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE
 CLASS:Warpriest	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Warpriest	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
