@@ -1,0 +1,4 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+# Skill Name		Key Stat	Untrained?		Type					Source, Long Desc.			Source, Short Desc.	Source Page
+Knowledge (Undead)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.53
+Craft (Stoneworking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft		SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.71

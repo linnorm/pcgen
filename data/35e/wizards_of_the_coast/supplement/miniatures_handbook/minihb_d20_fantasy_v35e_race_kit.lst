@@ -1,0 +1,605 @@
+# CVS $Revision: $ $Author: $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+STARTPACK:Abyssal Eviscerator ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abyssal Eviscerator]
+RACE:Abyssal Eviscerator	!PRERACE:1,%
+NAME:Abyssal Eviscerator
+ALIGN:CE
+SKILL:Balance	RANK:7
+SKILL:Climb		RANK:7
+SKILL:Intimidate	RANK:7
+SKILL:Jump		RANK:7
+SKILL:Listen	RANK:7
+SKILL:Spot		RANK:7
+SKILL:Swim		RANK:7
+FEAT:Blind Fight
+FEAT:Weapon Focus(Claw)
+STAT:DEX=11|INT=11|CHA=11|STR=10|CON=10|WIS=10
+
+STARTPACK:Aspect of Asmodeus ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Asmodeus]
+RACE:Aspect of Asmodeus	!PRERACE:1,%
+NAME:Aspect of Asmodeus
+ALIGN:LE
+SKILL:Bluff				RANK:13
+SKILL:Concentration		RANK:13
+SKILL:Craft (Alchemy)		RANK:13
+SKILL:Diplomacy			RANK:13
+SKILL:Intimidate			RANK:13
+SKILL:Knowledge (Arcana)	RANK:13
+SKILL:Knowledge (History)	RANK:13
+SKILL:Knowledge (The Planes)	RANK:13
+SKILL:Knowledge (Religion)	RANK:13
+SKILL:Listen			RANK:13
+SKILL:Sense Motive		RANK:13
+SKILL:Spot				RANK:13
+SKILL:Search			RANK:14
+GEAR:Ruby Rod	SIZE:PC	LOCATION:Equipped
+FEAT:Combat Expertise
+FEAT:Combat Reflexes
+FEAT:Improved Initiative
+FEAT:Power Attack
+STAT:DEX=11|CON=11|INT=11|STR=10|WIS=10|CHA=10
+
+STARTPACK:Aspect of Bahamut ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Bahamut]
+RACE:Aspect of Bahamut	!PRERACE:1,%
+NAME:Aspect of Bahamut
+ALIGN:LG
+SKILL:Diplomacy			RANK:13
+SKILL:Handle Animal		RANK:13
+SKILL:Intimidate			RANK:13
+SKILL:Knowledge (Arcna)		RANK:13
+SKILL:Knowledge (History)	RANK:13
+SKILL:Knowledge (Nature)	RANK:13
+SKILL:Knowledge (The Planes)	RANK:13
+SKILL:Knowledge (Religion)	RANK:13
+SKILL:Listen			RANK:13
+SKILL:Search			RANK:13
+SKILL:Sense Motive		RANK:13
+SKILL:Spot				RANK:13
+SKILL:Ride				RANK:7
+FEAT:Alertness
+FEAT:Cleave
+FEAT:Improved Initiative
+FEAT:Power Attack
+STAT:DEX=11|INT=11|CHA=11|STR=10|CON=10|WIS=10
+
+STARTPACK:Aspect of Demogorgon ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Demogorgon]
+RACE:Aspect of Demogorgon	!PRERACE:1,%
+NAME:Aspect of Demogorgon
+ALIGN:CE
+SKILL:Concentration		RANK:14
+SKILL:Craft (Alchemy)		RANK:14
+SKILL:Diplomacy			RANK:14
+SKILL:Knowledge (Arcana)	RANK:14
+SKILL:Knowledge (History)	RANK:14
+SKILL:Knowledge (Nature)	RANK:14
+SKILL:Knowledge (The Planes)	RANK:14
+SKILL:Listen			RANK:14
+SKILL:Search			RANK:14
+SKILL:Sense Motive		RANK:14
+SKILL:Spot				RANK:14
+SKILL:Swim				RANK:14
+SKILL:Jump				RANK:12
+FEAT:Alertness
+FEAT:Combat Reflexes
+FEAT:Dodge
+FEAT:Improved Initiative
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Aspect of Hextor ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Hextor]
+RACE:Aspect of Hextor	!PRERACE:1,%
+NAME:Aspect of Hextor
+ALIGN:LE
+SKILL:Climb						RANK:15
+SKILL:Handle Animal				RANK:15
+SKILL:Knowledge (Arcana)			RANK:15
+SKILL:Knowledge (History)			RANK:15
+SKILL:Knowledge (Nobility and Royalty)	RANK:15
+SKILL:Knowledge (Religion)			RANK:15
+SKILL:Listen					RANK:15
+SKILL:Sense Motive				RANK:15
+SKILL:Spot						RANK:15
+SKILL:Jump						RANK:19
+SKILL:Craft (Weaponsmithing)			RANK:17
+GEAR:Hextor Scale Mail	SIZE:PC	LOCATION:Equipped
+GEAR:Hextor Flail		SIZE:PC	LOCATION:Equipped
+GEAR:Hextor Longsword	SIZE:PC	LOCATION:Equipped
+GEAR:Hextor Battleaxe	SIZE:PC	LOCATION:Equipped
+GEAR:Hextor Mace		SIZE:PC	LOCATION:Equipped
+GEAR:Hextor Pick		SIZE:PC	LOCATION:Equipped
+GEAR:Hextor Scimitar	SIZE:PC	LOCATION:Equipped
+FEAT:Blind Fight
+FEAT:Cleave
+FEAT:Combat Reflexes
+FEAT:Multiweapon Fighting
+FEAT:Power Attack
+STAT:DEX=11|INT=11|WIS=11|STR=10|CON=10|CHA=10
+
+STARTPACK:Aspect of Kord ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Kord]
+RACE:Aspect of Kord	!PRERACE:1,%
+NAME:Aspect of Kord
+ALIGN:CE
+SKILL:Balance		RANK:17
+SKILL:Climb			RANK:17
+SKILL:Intimidate		RANK:17
+SKILL:Jump			RANK:17
+SKILL:Listen		RANK:17
+SKILL:Search		RANK:17
+SKILL:Sense Motive	RANK:17
+SKILL:Spot			RANK:17
+SKILL:Swim			RANK:17
+SKILL:Survival		RANK:17
+SKILL:Tumble		RANK:17
+GEAR:Kord Greatsword	SIZE:PC	LOCATION:Equipped
+FEAT:Rage
+FEAT:Blind Fight
+FEAT:Cleave
+FEAT:Improved Initiative
+FEAT:Power Attack
+FEAT:Weapon Focus(Greatsword)
+STAT:STR=11|CON=11|INT=11|DEX=10|WIS=10|CHA=10
+
+STARTPACK:Aspect of Lolth ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Lolth]
+RACE:Aspect of Lolth	!PRERACE:1,%
+NAME:Aspect of Lolth
+ALIGN:CE
+SKILL:Appraise			RANK:17
+SKILL:Balance			RANK:17
+SKILL:Bluff				RANK:17
+SKILL:Climb				RANK:17
+SKILL:Craft (Alchemy)		RANK:17
+SKILL:Disguise			RANK:17
+SKILL:Escape Artist		RANK:17
+SKILL:Intimidate			RANK:17
+SKILL:Jump				RANK:17
+SKILL:Knowledge (History)	RANK:17
+SKILL:Knowledge (The Planes)	RANK:17
+SKILL:Knowledge (Religion)	RANK:17
+SKILL:Listen			RANK:17
+SKILL:Search			RANK:17
+SKILL:Sense Motive		RANK:17
+SKILL:Spot				RANK:17
+FEAT:Blind Fight
+FEAT:Improved Critical(Bite)
+FEAT:Weapon Finesse
+FEAT:Weapon Focus(Bite)
+FEAT:Weapon Specialization(Bite)
+STAT:CON=11|INT=11|CHA=11|STR=10|DEX=10|WIS=10
+
+STARTPACK:Aspect of Mephistopheles ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Mephistopheles]
+RACE:Aspect of Mephistopheles	!PRERACE:1,%
+NAME:Aspect of Mephistopheles
+ALIGN:LE
+SKILL:Balance			RANK:13
+SKILL:Concentration		RANK:13
+SKILL:Craft (Alchemy)		RANK:13
+SKILL:Intimidate			RANK:13
+SKILL:Jump				RANK:13
+SKILL:Knowledge (Arcana)	RANK:13
+SKILL:Knowledge (History)	RANK:13
+SKILL:Knowledge (The Planes)	RANK:13
+SKILL:Listen			RANK:13
+SKILL:Search			RANK:13
+SKILL:Sense Motive		RANK:13
+SKILL:Tumble			RANK:13
+GEAR:Mephistopheles Ranseur	SIZE:PC	LOCATION:Equipped
+FEAT:Improved Initiative
+FEAT:Power Attack
+FEAT:Spell Focus(Evocation)
+FEAT:Spell Penetration
+STAT:DEX=11|CON=11|WIS=11|STR=10|INT=10|CHA=10
+
+STARTPACK:Aspect of Nerull ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Nerull]
+RACE:Aspect of Nerull	!PRERACE:1,%
+NAME:Aspect of Nerull
+ALIGN:NE
+SKILL:Appraise			RANK:19
+SKILL:Bluff				RANK:19
+SKILL:Craft (Alchemy)		RANK:19
+SKILL:Disable Device		RANK:19
+SKILL:Disguise			RANK:19
+SKILL:Intimidate			RANK:19
+SKILL:Knowledge (Arcane)	RANK:19
+SKILL:Knowledge (The Planes)	RANK:19
+SKILL:Knowledge (Religion)	RANK:19
+SKILL:Knowledge (Undead)	RANK:19
+SKILL:Listen			RANK:19
+SKILL:Open Lock			RANK:19
+SKILL:Search			RANK:19
+SKILL:Sense Motive		RANK:19
+SKILL:Spot				RANK:19
+GEAR:Nerull Scythe	SIZE:PC	LOCATION:Equipped
+FEAT:Combat Reflexes
+FEAT:Dodge
+FEAT:Improved Initiative
+FEAT:Toughness(2)
+FEAT:Weapon Focus(Scythe)
+STAT:STR=11|CON=11|CHA=11|DEX=10|INT=10|WIS=10
+
+STARTPACK:Aspect of Orcus ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Orcus]
+RACE:Aspect of Orcus	!PRERACE:1,%
+NAME:Aspect of Orcus
+ALIGN:CE
+SKILL:Concentration		RANK:12
+SKILL:Craft (Alchemy)		RANK:12
+SKILL:Escape Artist		RANK:12
+SKILL:Intimidate			RANK:12
+SKILL:Knowledge (Arcana)	RANK:12
+SKILL:Knowledge (The Planes)	RANK:12
+SKILL:Knowledge (Religion)	RANK:12
+SKILL:Knowledge (Undead)	RANK:12
+SKILL:Listen			RANK:12
+SKILL:Search			RANK:12
+SKILL:Sense Motive		RANK:12
+SKILL:Spellcraft			RANK:12
+SKILL:Spot				RANK:12
+GEAR:Wand of Orcus	SIZE:PC	LOCATION:Equipped
+FEAT:Cleave
+FEAT:Improved Critical(Morningstar)
+FEAT:Power Attack
+FEAT:Weapon Focus(Morningstar)
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Aspect of Tiamat ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Tiamat]
+RACE:Aspect of Tiamat	!PRERACE:1,%
+NAME:Aspect of Tiamat
+ALIGN:CE
+SKILL:Intimidate			RANK:13
+SKILL:Knowledge (Arcana)	RANK:13
+SKILL:Knowledge (History)	RANK:13
+SKILL:Knowledge (The Planes)	RANK:13
+SKILL:Knowledge (Religion)	RANK:13
+SKILL:Listen			RANK:13
+SKILL:Search			RANK:13
+SKILL:Sense Motive		RANK:13
+SKILL:Spot				RANK:13
+SKILL:Survival			RANK:13
+FEAT:Cleave
+FEAT:Great Cleave
+FEAT:Improved Initiative
+FEAT:Power Attack
+STAT:DEX=11|CON=11|INT=11|STR=10|WIS=10|CHA=10
+
+STARTPACK:Aspect of Vecna ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aspect of Vecna]
+RACE:Aspect of Vecna	!PRERACE:1,%
+NAME:Aspect of Vecna
+ALIGN:NE
+SKILL:Appraise			RANK:13
+SKILL:Concentration		RANK:13
+SKILL:Craft (Alchemy)		RANK:13
+SKILL:Decipher Script		RANK:13
+SKILL:Kolwedge (Arcana)		RANK:13
+SKILL:Knowledge (History)	RANK:13
+SKILL:Knowledge (The Planes)	RANK:13
+SKILL:Knowledge (Religion)	RANK:13
+SKILL:Listen			RANK:13
+SKILL:Search			RANK:13
+SKILL:Sense Motive		RANK:13
+SKILL:Spellcraft			RANK:13
+SKILL:Spot				RANK:13
+GEAR:Vecna Dagger	SIZE:PC	LOCATION:Equipped
+FEAT:Alertness
+FEAT:Blind Fight
+FEAT:Combat Casting
+FEAT:Spell Penetration
+STAT:STR=11|WIS=11|DEX=10|CON=10|INT=10|CHA=10
+
+STARTPACK:Catfolk ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Catfolk]
+RACE:Catfolk	!PRERACE:1,%
+NAME:Catfolk
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Cave Ankylosaurus ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cave Ankylosaurus]
+RACE:Cave Ankylosaurus	!PRERACE:1,%
+NAME:Cave Ankylosaurus
+ALIGN:TN
+SKILL:Listen	RANK:5
+SKILL:Spot		RANK:5
+FEAT:Alertness
+FEAT:Great Fortitude
+FEAT:Weapon Focus(Tail)
+STAT:STR=11|CON=11|DEX=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Cave Triceratops ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cave Triceratops]
+RACE:Cave Triceratops	!PRERACE:1,%
+NAME:Cave Triceratops
+ALIGN:TN
+SKILL:Listen	RANK:6
+SKILL:Spot		RANK:5
+FEAT:Alertness
+FEAT:Great Fortitude
+FEAT:Weapon Focus(Gore)
+STAT:STR=11|CON=11|DEX=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Cave Tyrannosaurus ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cave Tyrannosaurus]
+RACE:Cave Tyrannosaurus	!PRERACE:1,%
+NAME:Cave Tyrannosaurus
+ALIGN:TN
+SKILL:Listen	RANK:4
+SKILL:Spot		RANK:4
+SKILL:Survival	RANK:4
+FEAT:Alertness
+FEAT:Improved Natural Attack(Bite)
+FEAT:Toughness
+FEAT:Track
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Crucian ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Crucian]
+RACE:Crucian	!PRERACE:1,%
+NAME:Crucian
+SKILL:Diplomacy		RANK:2
+SKILL:Sense Motive	RANK:5
+SKILL:Spot			RANK:5
+GEAR:Leather	SIZE:PC	LOCATION:Equipped
+GEAR:Heavy Shield	SIZE:PC	LOCATION:Equipped
+GEAR:Warhammer	SIZE:PC	LOCATION:Equipped
+FEAT:Iron Will
+FEAT:Weapon Focus(Warhammer)
+STAT:STR=11|CON=11|INT=11|DEX=10|WIS=10|CHA=10
+
+STARTPACK:Cursed Spirit ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cursed Spirit]
+RACE:Cursed Spirit	!PRERACE:1,%
+NAME:Cursed Spirit
+ALIGN:CE
+SKILL:Intimidate	RANK:6
+SKILL:Listen	RANK:6
+SKILL:Spot		RANK:6
+FEAT:Toughness
+FEAT:Weapon Finesse
+STAT:INT=11|CHA=11|STR=10|DEX=10|CON=10|WIS=10
+
+STARTPACK:Displacer Serpent ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Displacer Serpent]
+RACE:Displacer Serpent	!PRERACE:1,%
+NAME:Displacer Serpent
+SKILL:Listen	RANK:5
+FEAT:Iron Will
+STAT:STR=11|CON=11|INT=11|DEX=10|WIS=10|CHA=10
+
+STARTPACK:Equiceph ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Equiceph]
+RACE:Equiceph	!PRERACE:1,%
+NAME:Equiceph
+SKILL:Intimidate	RANK:7
+SKILL:Survival	RANK:7
+GEAR:Splint Mail		SIZE:PC	LOCATION:Equipped
+GEAR:Equiceph Greataxe	SIZE:PC	LOCATION:Equipped
+GEAR:Equiceph Javelin	SIZE:PC	LOCATION:Equipped
+FEAT:Endurance
+FEAT:Iron Will
+FEAT:Weapon Focus(Greataxe)
+STAT:DEX=11|INT=11|WIS=11|STR=10|CON=10|CHA=10
+
+STARTPACK:Gravehound ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gravehound]
+RACE:Gravehound	!PRERACE:1,%
+NAME:Gravehound
+SKILL:Listen	RANK:7
+FEAT:Improved Initiative
+FEAT:Weapon Focus(Bite)
+STAT:STR=11|WIS=11|CHA=11|DEX=10|CON=10|INT=10
+
+STARTPACK:Kruthik (Hatchling) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kruthik (Hatchling)]
+RACE:Kruthik (Hatchling)	!PRERACE:1,%
+NAME:Kruthik (Hatchling)
+SKILL:Hide			RANK:3
+SKILL:Move Silently	RANK:3
+SKILL:Listen		RANK:1
+FEAT:Alertness
+FEAT:Weapon Finesse
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Kruthik (Adult) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kruthik (Adult)]
+RACE:Kruthik (Adult)	!PRERACE:1,%
+NAME:Kruthik (Adult)
+SKILL:Hide			RANK:3
+SKILL:Listen		RANK:3
+SKILL:Move Silently	RANK:3
+FEAT:Point Blank Shot
+FEAT:Precise Shot
+FEAT:Weapon Finesse
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Kruthik (Greater) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kruthik (Greater)]
+RACE:Kruthik (Greater)	!PRERACE:1,%
+NAME:Kruthik (Greater)
+SKILL:Hide			RANK:4
+SKILL:Move Silently	RANK:4
+SKILL:Listen		RANK:3
+FEAT:Improved Critical(Claw)
+FEAT:Power Attack
+FEAT:Weapon Focus(Claw)
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Mad Slasher ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mad Slasher]
+RACE:Mad Slasher	!PRERACE:1,%
+NAME:Mad Slasher
+SKILL:Survival	RANK:7
+FEAT:Combat Reflexes
+FEAT:Weapon Finesse
+FEAT:Whirlwind Attack
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Magma Hurler ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Magma Hurler]
+RACE:Magma Hurler	!PRERACE:1,%
+NAME:Magma Hurler
+SKILL:Listen	RANK:4
+SKILL:Spot		RANK:3
+FEAT:Iron Will
+FEAT:Weapon Focus(Magma Rock)
+STAT:DEX=11|INT=11|CHA=11|STR=10|CON=10|WIS=10
+
+STARTPACK:Naga (Bright) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Naga (Bright)]
+RACE:Naga (Bright)	!PRERACE:1,%
+NAME:Naga (Bright)
+SKILL:Concentration	RANK:8
+SKILL:Listen		RANK:8
+FEAT:Alertness
+FEAT:Combat Casting
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Nothic ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nothic]
+RACE:Nothic	!PRERACE:1,%
+NAME:Nothic
+ALIGN:LE|NE|CE
+SKILL:Spot	RANK:8
+FEAT:Improved Initiative
+FEAT:Iron Will
+STAT:CON=11|INT=11|WIS=11|STR=10|DEX=10|CHA=10
+
+STARTPACK:Phargion ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phargion]
+RACE:Phargion	!PRERACE:1,%
+NAME:Phargion
+SKILL:Balance	RANK:7
+SKILL:Tumble	RANK:8
+FEAT:Dodge
+FEAT:Endurance
+FEAT:Mobility
+FEAT:Weapon Focus(Armblade)
+STAT:STR=11|DEX=11|INT=11|CON=10|WIS=10|CHA=10
+
+STARTPACK:Protectar ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Protectar]
+RACE:Protectar	!PRERACE:1,%
+NAME:Protectar
+SKILL:Concentration		RANK:5
+SKILL:Heal				RANK:5
+SKILL:Knowledge (The Planes)	RANK:5
+SKILL:Knowledge (Religion)	RANK:5
+SKILL:Listen			RANK:5
+SKILL:Sense Motive		RANK:5
+SKILL:Spot				RANK:5
+SKILL:Diplomacy			RANK:5
+GEAR:Breastplate	SIZE:PC	LOCATION:Equipped
+GEAR:Heavy Shield	SIZE:PC	LOCATION:Equipped
+GEAR:Longsword	SIZE:PC	LOCATION:Equipped
+FEAT:Combat Casting
+STAT:STR=11|CON=11|CHA=11|DEX=10|INT=10|WIS=10
+
+STARTPACK:Ramadeen ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ramadeen]
+RACE:Ramadeen	!PRERACE:1,%
+NAME:Ramadeen
+ALIGN:LG
+SKILL:Diplomacy			RANK:7
+SKILL:Heal				RANK:7
+SKILL:Intimidate			RANK:7
+SKILL:Knowledge (The Planes)	RANK:7
+SKILL:Knowledge (Religion)	RANK:7
+SKILL:Listen			RANK:7
+SKILL:Sense Motive		RANK:7
+SKILL:Spot				RANK:7
+SKILL:Tumble			RANK:7
+GEAR:Chain Shirt		SIZE:PC	LOCATION:Equipped
+GEAR:Heavy Shield		SIZE:PC	LOCATION:Equipped
+GEAR:Ramadeen Scimitar	SIZE:PC	LOCATION:Equipped
+FEAT:Power Attack
+FEAT:Powerful Charge
+FEAT:Weapon Focus(Scimitar)
+STAT:STR=11|CON=11|CHA=11|DEX=10|INT=10|WIS=10
+
+STARTPACK:Scaled Stalker ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Scaled Stalker]
+RACE:Scaled Stalker	!PRERACE:1,%
+NAME:Scaled Stalker
+SKILL:Balance	RANK:2
+SKILL:Jump		RANK:2
+SKILL:Intimidate	RANK:11
+SKILL:Climb		RANK:13
+GEAR:Breastplate		SIZE:PC	LOCATION:Equipped
+GEAR:Heavy Shield		SIZE:PC	LOCATION:Equipped
+GEAR:Stalker Longsword	SIZE:PC	LOCATION:Equipped
+GEAR:Stalker Sling	SIZE:PC	LOCATION:Equipped
+FEAT:Great Fortitude
+FEAT:Iron Will
+FEAT:Weapon Focus(Longsword)
+STAT:STR=11|CON=11|INT=11|DEX=10|WIS=10|CHA=10
+
+STARTPACK:Shadow Beast (Ghirrash) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shadow Beast (Ghirrash)]
+RACE:Shadow Beast (Ghirrash)	!PRERACE:1,%
+NAME:Shadow Beast (Ghirrash)
+ALIGN:CG|CN|CE
+SKILL:Balance		RANK:10
+SKILL:Climb			RANK:10
+SKILL:Jump			RANK:10
+SKILL:Listen		RANK:10
+SKILL:Move Silently	RANK:10
+SKILL:Spot			RANK:10
+SKILL:Survival		RANK:10
+SKILL:Tumble		RANK:10
+SKILL:Hide			RANK:14
+FEAT:Improved Initiative
+FEAT:Lightning Reflexes
+FEAT:Weapon Focus(Claw)
+STAT:STR=11|INT=11|CHA=11|DEX=10|CON=10|WIS=10
+
+STARTPACK:Shadow Beast (Khumat) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shadow Beast (Khumat)]
+RACE:Shadow Beast (Khumat)	!PRERACE:1,%
+NAME:Shadow Beast (Khumat)
+ALIGN:NE
+SKILL:Hide			RANK:14
+SKILL:Listen		RANK:14
+SKILL:Move Silently	RANK:14
+SKILL:Search		RANK:14
+SKILL:Spot			RANK:14
+SKILL:Survival		RANK:14
+SKILL:Swim			RANK:14
+FEAT:Improved Initiative
+FEAT:Improved Sunder
+FEAT:Iron Will
+FEAT:Power Attack
+STAT:DEX=11|CON=11|WIS=11|STR=10|INT=10|CHA=10
+
+STARTPACK:Shadow Beast (Thaskor) ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shadow Beast (Thaskor)]
+RACE:Shadow Beast (Thaskor)	!PRERACE:1,%
+NAME:Shadow Beast (Thaskor)
+ALIGN:LE
+SKILL:Bluff			RANK:16
+SKILL:Concentration	RANK:16
+SKILL:Diplomacy		RANK:16
+SKILL:Intimidate		RANK:16
+SKILL:Listen		RANK:16
+SKILL:Search		RANK:16
+SKILL:Sense Motive	RANK:16
+SKILL:Spot			RANK:16
+SKILL:Survival		RANK:16
+FEAT:Improved Sunder
+FEAT:Iron Will
+FEAT:Lightning Reflexes
+FEAT:Power Attack
+FEAT:Powerful Charge
+FEAT:Cleave
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Spark Lasher ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spark Lasher]
+RACE:Spark Lasher	!PRERACE:1,%
+NAME:Spark Lasher
+SKILL:Intimidate	RANK:6
+SKILL:Survival	RANK:6
+SKILL:Swim		RANK:6
+FEAT:Lightning Reflexes
+FEAT:Weapon Finesse
+STAT:DEX=12|CON=12|INT=12|CHA=12|STR=10|WIS=10
+STAT:DEX=11|CON=11|CHA=11|STR=10|WIS=10
+
+STARTPACK:Stonechild ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Stonechild]
+RACE:Stonechild	!PRERACE:1,%
+NAME:Stonechild
+SKILL:Appraise			RANK:5
+SKILL:Climb				RANK:5
+SKILL:Craft (Stoneworking)	RANK:5
+SKILL:Intimidate			RANK:5
+SKILL:Knowledge (History)	RANK:5
+SKILL:Knowledge (The Planes)	RANK:5
+SKILL:Listen			RANK:5
+SKILL:Search			RANK:5
+SKILL:Spot				RANK:5
+GEAR:Breastplate	SIZE:PC	LOCATION:Equipped
+GEAR:Greatsword	SIZE:PC	LOCATION:Equipped
+FEAT:Blind Fight
+FEAT:Toughness
+STAT:STR=11|CON=11|WIS=11|DEX=10|INT=10|CHA=10
+
+STARTPACK:Walking Wall ~ Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Walking Wall]
+RACE:Walking Wall	!PRERACE:1,%
+NAME:Walking Wall
+SKILL:Listen	RANK:9
+SKILL:Spot		RANK:9
+SKILL:Survival	RANK:9
+FEAT:Iron Will
+FEAT:Power Attack
+FEAT:Weapon Focus(Slam)
+STAT:STR=11|INT=11|WIS=11|DEX=10|CON=10|CHA=10

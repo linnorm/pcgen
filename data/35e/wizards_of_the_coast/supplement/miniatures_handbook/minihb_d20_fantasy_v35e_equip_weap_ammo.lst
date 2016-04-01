@@ -1,0 +1,4 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Equipment Name	Type							Cost		Weight	Base Quantity	Modifier						Requires Modification?	Source, Long Desc.			Source, Short Desc.	Source Page		Special Property
+Bullet of Sound	TYPE:Ammunition.Magic.SlingStone.Single	COST:1	WT:.05	BASEQTY:1		EQMOD:AMMO_STEEL.AMMO_MWORK.AMMO_PLUS_1	MODS:NO			SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.41	SPROP:Blasts an area with sound on successful hit.  1d8 points sonic damage in a 10' radius

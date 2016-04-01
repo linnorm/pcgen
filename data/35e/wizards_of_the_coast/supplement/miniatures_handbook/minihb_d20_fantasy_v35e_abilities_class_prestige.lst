@@ -1,0 +1,8 @@
+SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb
+
+
+##Block: Bonded Summoner
+# Ability Name			Category of Ability		Type										Visible		Required Ability						Define					Description																			Ability																					Source Page
+Elemental Companion		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary					VISIBLE:YES																																																		DESC:Elemental Companion ~ Medium (Ex)|PREMULT:2,[PREVARGTEQ:ElementalCompanionLvl,1],[PREVARLTEQ:ElementalCompanionLvl,2]	SAB:Elemental Companion ~ Large (Ex)|PREMULT:2,[PREVARGTEQ:ElementalCompanionLvl,3],[PREVARLTEQ:ElementalCompanionLvl,4]	DESC:Elemental Companion ~ Huge (Ex)|PREMULT:2,[PREVARGTEQ:ElementalCompanionLvl,5],[PREVARLTEQ:ElementalCompanionLvl,6]	DESC:Elemental Companion ~ Greater (Ex)|PREMULT:2,[PREVARGTEQ:ElementalCompanionLvl,7],[PREVARLTEQ:ElementalCompanionLvl,8]	DESC:Elemental Companion ~ Elder (Ex)|PREVARGTEQ:ElementalCompanionLvl,9	DEFINE:ElementalCompanionLvl|0
+Cannot be Flanked			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary					VISIBLE:YES		DESC:You cannot be flanked.
+Elemental Form			CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural					VISIBLE:YES		DESC:You may turn into an Elder elemental of your element type once per day.  You may retain this form for up to 10 hours.  Your type changes to elemental

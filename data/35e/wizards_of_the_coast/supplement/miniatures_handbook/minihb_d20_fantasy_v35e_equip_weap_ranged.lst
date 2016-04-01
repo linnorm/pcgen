@@ -1,0 +1,6 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Equipment Name		Output Name				Required Proficiency			Type												Contains		Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier						Requires Modification?	Range		Size		Source, Long Desc.			Source, Short Desc.	Source Page		Weapon prop. bonus			Special Property
+Equiceph Javelin		OUTPUTNAME:Large Javelin	PROFICIENCY:WEAPON|Javelin		TYPE:Weapon.Simple.Ranged.Monster.Piercing.Thrown.Javelin						COST:0	WT:4		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	EQMOD:WEAP_WOOD									RANGE:30	SIZE:L	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.
+Crossbow of Reloading						PROFICIENCY:WEAPON|Crossbow (Light)	TYPE:Weapon.Simple.Ranged.Magic.Specific.Piercing.Container.Crossbow	CONTAINS:1|Bolt=1	COST:35	WT:4		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	EQMOD:WEAP_WOOD.WEAP_MWORK.WEAP_PLUS_1	MODS:NO			RANGE:80			SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.41							SPROP:Reloading this weapon is a free action
+Warhulk Rock		OUTPUTNAME:Large Rock		PROFICIENCY:WEAPON|Rock			TYPE:Weapon.Simple.Ranged.Monster.Bludgeoning.Thrown							COST:0	WT:50		CRITMULT:x2			CRITRANGE:1			DAMAGE:2d8												RANGE:50	SIZE:L														BONUS:WEAPON|ATTACKSPROGRESS|1
