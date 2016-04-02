@@ -1,7 +1,7 @@
 # CVS $Revision: 1.1 $ $Author: chrisc $ -- Thu Aug  5 22:23:09 2004 -- reformated by prettylst.pl v1.33 (build 378)
-CAMPAIGN:wotc - Miniatures Handbook v3.5e
+CAMPAIGN:wotc - Miniatures Handbook RSRD
 RANK:3
-GAMEMODE:CMP_D20_Fantasy_v35e
+GAMEMODE:35e
 GENRE:Fantasy
 BOOKTYPE:Supplement
 PUBNAMELONG:Wizards of the Coast, Inc
@@ -20,6 +20,7 @@ COPYRIGHT:DUNGEONS & DRAGONS, D&D, D20, D20 SYSTEM, DUNGEONMASTER, CHAINMAIL, FO
 
 ABILITYCATEGORY:minihb_d20_fantasy_v35e_ability_categories.lst
 ABILITY:minihb_d20_fantasy_v35e_abilities_class_base.lst
+ABILITY:minihb_d20_fantasy_v35e_abilities_class_prestige.lst
 CLASS:minihb_d20_fantasy_v35e_class_base.lst
 CLASS:minihb_d20_fantasy_v35e_class_prestige.lst
 EQUIPMENT:minihb_d20_fantasy_v35e_equip_armorshield.lst
