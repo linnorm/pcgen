@@ -62,6 +62,7 @@ Word of Changing								TYPE:Arcane		SCHOOL:Transmutation						DESCRIPTOR:Dark-I
 ###Block: New
 # Spell Name					Unique Key						Output Name							Type				Classes of caster					School			Sub-School			Descriptor						Spell Variations						Components			Casting Time			Range						Target Area or Effect																			Duration							Save Info						Spell Resistance	Cost		XP Cost	Source, Long Desc.		Source, Short Desc.	Source Page		Description
 <<<<<<< HEAD
+<<<<<<< HEAD
 Absorption																					TYPE:Arcane			CLASSES:Sorcerer,Wizard=9			SCHOOL:Abjuration																					COMPS:V, S			CASTTIME:1 standard action	RANGE:Personal				TARGETAREA:You																				DURATION:10 minutes/level or until expended	SAVEINFO:None					SPELLRES:No															SOURCEPAGE:p.	DESC:You absorb targeted spell energy to power spells of your own
 Accuracy																					TYPE:Arcane										SCHOOL:Transmutation																				COMPS:V, S, M		CASTTIME:1 standard action	RANGE:Touch					TARGETAREA:One thrown weapon/level touched or one projectile weapon touched										DURATION:10 minutes/level				SAVEINFO:Will negates (harmless, object)	SPELLRES:Yes														SOURCEPAGE:p.	DESC:Doubles weapon's range increment
 Aiming at the Target																			TYPE:Arcane			CLASSES:Sorcerer,Wizard=5			SCHOOL:Abjuration																					COMPS:S			CASTTIME:1 swift action		RANGE:Personal				TARGETAREA:You																				DURATION:Concentration, up to 20 minutes		SAVEINFO:None					SPELLRES:No															SOURCEPAGE:p.	DESC:+10 bonus on Concentration checks for previously cast spell
@@ -211,6 +212,8 @@ Whirling Blade																				TYPE:Arcane.Divine	CLASSES:Bard,Sorcerer,Wizar
 Withering Palm																				TYPE:Arcane.Divine	CLASSES:Cleric=7					SCHOOL:Necromancy																					COMPS:V, S			CASTTIME:1 standard action	RANGE:Touch					TARGETAREA:Living creature touched																	DURATION:Instantaneous					SAVEINFO:Fort negates				SPELLRES:Yes														SOURCEPAGE:p.	DESC:Touch attack deals 1 point STR damage plus 1 point CON damage/2 levels
 Wood Rot																					TYPE:Arcane.Divine	CLASSES:Druid=5					SCHOOL:Transmutation																				COMPS:V, S, M		CASTTIME:1 standard action	RANGE:Touch					TARGETAREA:One nonmagical wooden object or a volume of wood; or one plant creature									DURATION:See Text						SAVEINFO:None					SPELLRES:No															SOURCEPAGE:p.	DESC:Destroy wooden items or deal 3d6+1/level damage (max +15) to plant creatures
 =======
+=======
+>>>>>>> refs/remotes/BahamutDragon/master
 Absorption																					TYPE:Arcane			CLASSES:Sorcerer,Wizard=9			SCHOOL:Abjuration																					COMPS:V, S			CASTTIME:1 standard action	RANGE:Personal				TARGETAREA:You																				DURATION:10 minutes/level or until expended	SAVEINFO:None					SPELLRES:No															SOURCEPAGE:p.96	DESC:You absorb targeted spell energy to power spells of your own
 Accuracy																					TYPE:Arcane										SCHOOL:Transmutation																				COMPS:V, S, M		CASTTIME:1 standard action	RANGE:Touch					TARGETAREA:One thrown weapon/level touched or one projectile weapon touched										DURATION:10 minutes/level				SAVEINFO:Will negates (harmless, object)	SPELLRES:Yes														SOURCEPAGE:p.96	DESC:Doubles weapon's range increment
 Aiming at the Target																			TYPE:Arcane			CLASSES:Sorcerer,Wizard=5			SCHOOL:Abjuration																					COMPS:S			CASTTIME:1 swift action		RANGE:Personal				TARGETAREA:You																				DURATION:Concentration, up to 20 minutes		SAVEINFO:None					SPELLRES:No															SOURCEPAGE:p.96	DESC:+10 bonus on Concentration checks for previously cast spell
@@ -359,6 +362,9 @@ Water to Poison																				TYPE:Arcane										SCHOOL:Transmutation				
 Whirling Blade																				TYPE:Arcane.Divine	CLASSES:Bard,Sorcerer,Wizard=2		SCHOOL:Transmutation																				COMPS:V, S, F		CASTTIME:1 standard action	RANGE:60 ft.				TARGETAREA:60-ft line																			DURATION:Instantaneous					SAVEINFO:None					SPELLRES:No															SOURCEPAGE:p.129	DESC:Hurled slashing weapon magically attacks all foes in 60-ft line
 Withering Palm																				TYPE:Arcane.Divine	CLASSES:Cleric=7					SCHOOL:Necromancy																					COMPS:V, S			CASTTIME:1 standard action	RANGE:Touch					TARGETAREA:Living creature touched																	DURATION:Instantaneous					SAVEINFO:Fort negates				SPELLRES:Yes														SOURCEPAGE:p.130	DESC:Touch attack deals 1 point STR damage plus 1 point CON damage/2 levels
 Wood Rot																					TYPE:Arcane.Divine	CLASSES:Druid=5					SCHOOL:Transmutation																				COMPS:V, S, M		CASTTIME:1 standard action	RANGE:Touch					TARGETAREA:One nonmagical wooden object or a volume of wood; or one plant creature									DURATION:See Text						SAVEINFO:None					SPELLRES:No															SOURCEPAGE:p.130	DESC:Destroy wooden items or deal 3d6+1/level damage (max +15) to plant creatures
+<<<<<<< HEAD
+>>>>>>> refs/remotes/BahamutDragon/master
+=======
 >>>>>>> refs/remotes/BahamutDragon/master
 
 ###Block: Class Mods
