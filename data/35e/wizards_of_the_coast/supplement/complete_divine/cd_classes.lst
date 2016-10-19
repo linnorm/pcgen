@@ -5,14 +5,14 @@ SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEDATE:2004-05
 # Class Name	Unique Key		Type					Base class as subclass?	Source Page		Combat bonus															Modify VAR													Bonus
 CLASS:Shugenja	KEY:Shugenja	TYPE:Base.PC.Complete Divine	ALLOWBASECLASS:NO		SOURCEPAGE:p.	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name	Skill Pts/Lvl	Class Skill
-CLASS:Shugenja	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|TYPE=Knowledge|TYPE=Profession|Spellcraft	HD:6
+CLASS:Shugenja	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|TYPE=Knowledge|TYPE=Profession|Spellcraft
 # Class Name	Spell Stat		Spell Type		Caster level			Use Spell List
 CLASS:Shugenja	SPELLSTAT:CHA	FACT:SpellType|Divine	BONUS:CASTERLEVEL|Shugenja|Caster_Level_BL_Stripped_Shugenja	DEFINE:Caster_Level_BL_Stripped_Shugenja|0	BONUS:VAR|Caster_Level_BL_Stripped_Shugenja|Caster_Level_Shugenja-CasterLevelBLShugenja	BONUS:VAR|Caster_Level_Shugenja|CL+Caster_Level_Bonus+CasterLevelBLShugenja	DEFINE:CasterLevelBLShugenja|0	BONUS:VAR|CasterLevelBL_x_Shugenja|charbonusto("PCLEVEL","Shugenja")	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Shugenja|TYPE=Base	SPELLLIST:1|Shugenja
 #
-SUBCLASS:Air Shugenja	COST:0	CHOICE:DESCRIPTOR|Air Shugenja	PROHIBITSPELL:DESCRIPTOR.Earth Shugenja	DEFINE:AirShugenja|0	ABILITY:Shugenja Class Feature|AUTOMATIC|Shugenja ~ Element Focus (Air)	BONUS:VAR|AirShugenja|1
-SUBCLASS:Earth Shugenja	COST:0	CHOICE:DESCRIPTOR|Earth Shugenja	PROHIBITSPELL:DESCRIPTOR.Air Shugenja	DEFINE:EarthShugenja|0	ABILITY:Shugenja Class Feature|AUTOMATIC|Shugenja ~ Element Focus (Earth)	BONUS:VAR|EarthShugenja|1
-SUBCLASS:Fire Shugenja	COST:0	CHOICE:DESCRIPTOR|Fire Shugenja	PROHIBITSPELL:DESCRIPTOR.Water Shugenja	DEFINE:FireShugenja|0	ABILITY:Shugenja Class Feature|AUTOMATIC|Shugenja ~ Element Focus (Fire)	BONUS:VAR|FireShugenja|1
-SUBCLASS:Water Shugenja	COST:0	CHOICE:DESCRIPTOR|Water Shugenja	PROHIBITSPELL:DESCRIPTOR.Fire Shugenja	DEFINE:WaterShugenja|0	ABILITY:Shugenja Class Feature|AUTOMATIC|Shugenja ~ Element Focus (Water)	BONUS:VAR|WaterShugenja|1
+SUBCLASS:Air Shugenja	COST:0	CHOICE:DESCRIPTOR|Air Shugenja	PROHIBITSPELL:DESCRIPTOR.Earth Shugenja	DEFINE:AirShugenja|0	ABILITY:Shugenja Class Feature|AUTOMATIC|Shugenja ~ Element Focus (Air)
+SUBCLASS:Earth Shugenja	COST:0	CHOICE:DESCRIPTOR|Earth Shugenja	PROHIBITSPELL:DESCRIPTOR.Air Shugenja	DEFINE:EarthShugenja|0	ABILITY:Shugenja Class Feature|AUTOMATIC|Shugenja ~ Element Focus (Earth)
+SUBCLASS:Fire Shugenja	COST:0	CHOICE:DESCRIPTOR|Fire Shugenja	PROHIBITSPELL:DESCRIPTOR.Water Shugenja	DEFINE:FireShugenja|0	ABILITY:Shugenja Class Feature|AUTOMATIC|Shugenja ~ Element Focus (Fire)
+SUBCLASS:Water Shugenja	COST:0	CHOICE:DESCRIPTOR|Water Shugenja	PROHIBITSPELL:DESCRIPTOR.Fire Shugenja	DEFINE:WaterShugenja|0	ABILITY:Shugenja Class Feature|AUTOMATIC|Shugenja ~ Element Focus (Water)
 # TODO: Request ability to HIDESPELL - DESCRIPTOR.
 ###Block: This selects the "School" using Domain as that matches how this appears to work. Preselects based upon Human Clan.
 #1	DOMAIN:Order of the All-Seeing Eye[PREABILITY:1,CATEGORY=Internal,Order of the All-Seeing Eye]
@@ -193,7 +193,7 @@ CLASS:Black Flame Zealot	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE
 10	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20	PRECAMPAIGN:1,INCLUDES=Epic Level Handbook
-###Block
+###Block	
 1	ABILITY:Black Flame Zealot Class Feature|AUTOMATIC|Black Flame Zealot ~ Weapon and Armor Proficiency
 1	ABILITY:Black Flame Zealot Class Feature|AUTOMATIC|Black Flame Zealot ~ Spells per Day/Spells Known
 1	ABILITY:Black Flame Zealot Class Feature|AUTOMATIC|Black Flame Zealot ~ Death Attack
@@ -251,7 +251,7 @@ CLASS:Church Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Scri
 1:REPEATLEVEL:1	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20	PRECAMPAIGN:1,INCLUDES=Epic Level Handbook
-###Block
+###Block	
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Weapon and Armor Proficiency
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Detect Evil
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Inquisition Domain
@@ -290,7 +290,7 @@ CLASS:Consecrated Harrier	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Co
 10	CAST:0,2,2,2,1
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Consecrated Harrier Class Feature|AUTOMATIC|Consecrated Harrier ~ Weapon and Armor Proficiency
 1	ABILITY:Consecrated Harrier Class Feature|AUTOMATIC|Consecrated Harrier ~ Spells per Day
 1	ABILITY:Consecrated Harrier Class Feature|AUTOMATIC|Consecrated Harrier ~ Blessing of Scripture
@@ -348,7 +348,7 @@ CLASS:Divine Crusader	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Divine
 10	CAST:0,3,3,3,3,3,3,2,2,1
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Divine Crusader Class Feature|AUTOMATIC|Divine Crusader ~ Weapon and Armor Proficiency
 1	ABILITY:Divine Crusader Class Feature|AUTOMATIC|Divine Crusader ~ Aura
 1	ABILITY:Divine Crusader Class Feature|AUTOMATIC|Divine Crusader ~ Deity and Domain
@@ -389,7 +389,7 @@ CLASS:Entropomancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Heal|Intimid
 2:REPEATLEVEL:2	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Entropomancer Class Feature|AUTOMATIC|Entropomancer ~ Weapon and Armor Proficiency
 1	ABILITY:Entropomancer Class Feature|AUTOMATIC|Entropomancer ~ Shard of Entropy
 2	ABILITY:Entropomancer Class Feature|AUTOMATIC|Entropomancer ~ Spells per Day/Spells Known
@@ -406,7 +406,7 @@ CLASS:Evangelist	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Evangelist	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Evangelist	PRETEXT:Alignment: An evangelist has the same alignment restrictions as a cleric of a particular deity. Skills: Bluff 8 ranks, Gather Information 5 ranks, Knowledge (religion) 5 ranks, Perform (oratory) 6 ranks, Sense Motive 5 ranks. Feats: Negotiator or Persuasive.	PRESKILL:5,Bluff=8,Gather Information=5,Knowledge (religion)=5,Perform (oratory)=6,Sense Motive=5	PREABILITY:1,CATEGORY=FEAT,Negotiator,Persuasive
 CLASS:Evangelist	STARTSKILLPTS:6	CSKILL:Bluff|TYPE=Craft|Diplomacy|Disguise|Escape Artist|Intimidate|TYPE=Knowledge|Listen|TYPE=Perform|TYPE=Profession|Sense Motive|Speak Language
-###Block
+###Block	
 1	ABILITY:Evangelist Class Feature|AUTOMATIC|Evangelist ~ Weapon and Armor Proficiency
 1	ABILITY:Evangelist Class Feature|AUTOMATIC|Evangelist ~ Great Orator
 1	ABILITY:Evangelist Class Feature|AUTOMATIC|Evangelist ~ Inspire Dread
@@ -429,7 +429,7 @@ CLASS:Geomancer	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE=Craft|Diplomacy|
 1:REPEATLEVEL:1	ADD:SPELLCASTER|ANY
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Geomancer Class Feature|AUTOMATIC|Geomancer ~ Weapon and Armor Proficiency
 1	ABILITY:Geomancer Class Feature|AUTOMATIC|Geomancer ~ Spells per Day/Spells Known
 1	ABILITY:Geomancer Class Feature|AUTOMATIC|Geomancer ~ Spell Versatility
@@ -450,7 +450,7 @@ CLASS:Holy Liberator	BONUS:CASTERLEVEL|Holy Liberator|Caster_Level_HolyLiberator
 CLASS:Holy Liberator	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_HolyLiberator+CasterLevelBLHolyLiberator|TYPE=Base
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Holy Liberator Class Feature|AUTOMATIC|Holy Liberator ~ Weapon and Armor Proficiency
 1	ABILITY:Holy Liberator Class Feature|AUTOMATIC|Holy Liberator ~ Spells per Day
 1	ABILITY:Holy Liberator Class Feature|AUTOMATIC|Holy Liberator ~ Aura of Good
@@ -492,7 +492,7 @@ CLASS:Hospitaler	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Handl
 10	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Hospitaler Class Feature|AUTOMATIC|Hospitaler ~ Weapon and Armor Proficiency
 1	ABILITY:Hospitaler Class Feature|AUTOMATIC|Hospitaler ~ Lay on Hands
 2	ABILITY:Hospitaler Class Feature|AUTOMATIC|Hospitaler ~ Spells per Day/Spells Known
@@ -541,7 +541,7 @@ CLASS:Radiant Servant of Pelor	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|D
 1:REPEATLEVEL:1	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Radiant Servant of Pelor Class Feature|AUTOMATIC|Radiant Servant Of Pelor ~ Weapon and Armor Proficiency
 1	ABILITY:Radiant Servant of Pelor Class Feature|AUTOMATIC|Radiant Servant Of Pelor ~ Radiance
 1	ABILITY:Radiant Servant of Pelor Class Feature|AUTOMATIC|Radiant Servant Of Pelor ~ Extra Greater Turning
@@ -573,7 +573,7 @@ CLASS:Rainbow Servant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|
 9	ADD:SPELLCASTER|Arcane
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Weapon and Armor Proficiency
 1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Detect Evil
 1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Extra Domain
@@ -596,7 +596,7 @@ CLASS:Sacred Exorcist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Heal|Intim
 1:REPEATLEVEL:1	ADD:SPELLCASTER|ANY
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Sacred Exorcist Class Feature|AUTOMATIC|Sacred Exorcist ~ Weapon and Armor Proficiency
 1	ABILITY:Sacred Exorcist Class Feature|AUTOMATIC|Sacred Exorcist ~ Spells per Day/ Spells Known
 1	ABILITY:Sacred Exorcist Class Feature|AUTOMATIC|Sacred Exorcist ~ Exorcism
@@ -656,7 +656,7 @@ CLASS:Seeker of the Misty Isle	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentratio
 9	ADD:SPELLCASTER|ANY
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Seeker of the Misty Isle Class Feature|AUTOMATIC|Seeker Of The Misty Isle ~ Weapon and Armor Proficiency
 1	ABILITY:Seeker of the Misty Isle Class Feature|AUTOMATIC|Seeker Of The Misty Isle ~ Extra Domain
 1	ABILITY:Seeker of the Misty Isle Class Feature|AUTOMATIC|Seeker Of The Misty Isle ~ Spells per Day/Spells Known
@@ -679,7 +679,7 @@ CLASS:Shining Blade of Heironeous	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craf
 2:REPEATLEVEL:2	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Shining Blade of Heironeous Class Feature|AUTOMATIC|Shining Blade Of Heironeous ~ Weapon and Armor Proficiency
 1	ABILITY:Shining Blade of Heironeous Class Feature|AUTOMATIC|Shining Blade Of Heironeous ~ Shock Blade
 2	ABILITY:Shining Blade of Heironeous Class Feature|AUTOMATIC|Shining Blade Of Heironeous ~ Spells per Day/Spells Known
@@ -699,7 +699,7 @@ CLASS:Stormlord	STARTSKILLPTS:2	CSKILL:Concentration|Disguise|Gather Information
 1:REPEATLEVEL:1	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Stormlord Class Feature|AUTOMATIC|Stormlord ~ Weapon and Armor Proficiency
 1	ABILITY:Stormlord Class Feature|AUTOMATIC|Stormlord ~ Spells per Day/Spells Known
 1	ABILITY:Stormlord Class Feature|AUTOMATIC|Stormlord ~ Enhanced Javelins
@@ -737,7 +737,7 @@ CLASS:Temple Raider of Olidammara	BONUS:VAR|Caster_Level_Highest__Divine|Caster_
 10	CAST:0,2,2,2,1
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Temple Raider of Olidammara Class Feature|AUTOMATIC|Temple Raider Of Olidammara ~ Weapon and Armor Proficiency
 1	ABILITY:Temple Raider of Olidammara Class Feature|AUTOMATIC|Temple Raider Of Olidammara ~ Spells per Day
 1	ABILITY:Temple Raider of Olidammara Class Feature|AUTOMATIC|Temple Raider Of Olidammara ~ Trapfinding
@@ -774,7 +774,7 @@ CLASS:Ur-Priest	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_UrPriest+Cas
 10	CAST:0,3,3,3,3,3,3,2,2,1
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Ur-Priest Class Feature|AUTOMATIC|Ur-Priest ~ Weapon and Armor Proficiency
 1	ABILITY:Ur-Priest Class Feature|AUTOMATIC|Ur-Priest ~ Spells per Day
 2	ABILITY:Ur-Priest Class Feature|AUTOMATIC|Ur-Priest ~ Rebuke Undead
@@ -782,8 +782,7 @@ CLASS:Ur-Priest	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_UrPriest+Cas
 6	ABILITY:Ur-Priest Class Feature|AUTOMATIC|Ur-Priest ~ Siphon Spell Power
 10	ABILITY:Ur-Priest Class Feature|AUTOMATIC|Ur-Priest ~ Steal Spell-Like Ability
 
-
-#Block: Void Disciple
+# Void Disciple
 CLASS:Void Disciple	MAXLEVEL:13
 CLASS:Void Disciple	HD:6	TYPE:Prestige	SOURCEPAGE:p.71	DEFINE:VoidDiscipleLVL|0	BONUS:VAR|VoidDiscipleLVL|CL
 CLASS:Void Disciple	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
@@ -791,11 +790,7 @@ CLASS:Void Disciple	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVA
 CLASS:Void Disciple	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Void Disciple	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Void Disciple	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
-<<<<<<< HEAD
-CLASS:Void Disciple	PREALIGN:LN,NG,TN,NE,CN		PRESKILL:1,Spellcraft=10	PREABILITY:2,CATEGORY=FEAT,Heighten Spell,Spell Penetration	PRESPELLTYPE:1,Arcane=3,Divine=3
-=======
 CLASS:Void Disciple	PRETEXT:Alignment: Any neutral. Skill: Spellcraft 10 ranks. Feats: Heighten Spell, Spell Penetration. Spells: Able to cast 3rd-level arcane or divine spells.	PRESPELLTYPE:1,Divine=3,Arcane=3	PREALIGN:LN,TN,CN	PRESKILL:1,Spellcraft=10	PREABILITY:2,CATEGORY=FEAT,Heighten Spell,Spell Penetration
->>>>>>> refs/remotes/BahamutDragon/master
 CLASS:Void Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|TYPE=Knowledge|TYPE=Profession|Spellcraft
 2	ADD:SPELLCASTER|ANY
 4	ADD:SPELLCASTER|ANY
@@ -807,7 +802,7 @@ CLASS:Void Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|He
 12	ADD:SPELLCASTER|ANY
 ###Block
 14	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Void Disciple Class Feature|AUTOMATIC|Void Disciple ~ Weapon and Armor Proficiency
 1	ABILITY:Void Disciple Class Feature|AUTOMATIC|Void Disciple ~ Spells per Day/Spells Known
 1	ABILITY:Void Disciple Class Feature|AUTOMATIC|Void Disciple ~ Sense Void
@@ -817,10 +812,9 @@ CLASS:Void Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|He
 12	ABILITY:Void Disciple Class Feature|AUTOMATIC|Void Disciple ~ Void Suppression
 13	ABILITY:Void Disciple Class Feature|AUTOMATIC|Void Disciple ~ Void Strike
 
-
-#Block: Warpriest
+# Warpriest
 CLASS:Warpriest	MAXLEVEL:10	BONUS:VAR|DomainCount|1
-CLASS:Warpriest	HD:10	TYPE:Prestige	SOURCEPAGE:p.74	DEFINE:WarpriestLVL|0	BONUS:VAR|WarpriestLVL|CL
+CLASS:Warpriest	HD:10	TYPE:Prestige	SOURCEPAGE:p.74	DEFINE:WarpriestLVL|0	BONUS:VAR|WarpriestLVL|CL	
 CLASS:Warpriest	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE
 CLASS:Warpriest	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Warpriest	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
@@ -830,7 +824,7 @@ CLASS:Warpriest	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Handle
 2:REPEATLEVEL:2	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20
-###Block
+###Block	
 1	ABILITY:Warpriest Class Feature|AUTOMATIC|Warpriest ~ Weapon and Armor Proficiency
 1	ABILITY:Warpriest Class Feature|AUTOMATIC|Warpriest ~ Spells per Day/Spells Known
 1	ABILITY:Warpriest Class Feature|AUTOMATIC|Warpriest ~ Bonus Domain
