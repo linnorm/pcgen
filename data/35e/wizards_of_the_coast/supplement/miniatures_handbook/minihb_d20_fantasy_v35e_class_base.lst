@@ -1,0 +1,51 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Source, Long Desc.			Source, Short Desc.	Source Page					Save checks bonus											Combat bonus
+CLASS:Healer	HD:8		TYPE:Base.PC	ABB:HLR		SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:Miniatures Handbook pg.8	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Required AL
+CLASS:Healer	PREALIGN:LG,NG,CG
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Healer	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Survival
+# Class Name	Spell Stat		Stat for Bonus Spells	Spell Type		Automatically Known Spell Levels											Caster level
+CLASS:Healer	SPELLSTAT:CHA	BONUSSPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Healer|CL
+1	CAST:4,3				ABILITY:Healer Class Feature|AUTOMATIC|Healing Hands									AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)
+2	CAST:4,4										ADD:FEAT|1|Skill Focus (Heal)
+3	CAST:5,4,3				ABILITY:Healer Class Feature|AUTOMATIC|Cleanse Paralysis
+4	CAST:5,4,4				ABILITY:Healer Class Feature|AUTOMATIC|Cleanse Disease
+5	CAST:5,5,4,3			ABILITY:Healer Class Feature|AUTOMATIC|Cleanse Fear
+6	CAST:5,5,4,4			ABILITY:Healer Class Feature|AUTOMATIC|Cleanse Poison
+7	CAST:6,5,5,4,3			ABILITY:Healer Class Feature|AUTOMATIC|Effortless Healing
+8	CAST:6,5,5,4,4			ABILITY:Healer Class Feature|AUTOMATIC|Unicorn Companion
+9	CAST:6,6,5,5,4,3			ABILITY:Healer Class Feature|AUTOMATIC|Cleanse Blindness
+10	CAST:6,6,5,5,4,4			ABILITY:Healer Class Feature|AUTOMATIC|Cleanse Spirit
+11	CAST:6,6,6,5,5,4,3
+12	CAST:6,6,6,5,5,4,4
+13	CAST:6,6,6,6,5,5,4,3		ABILITY:Healer Class Feature|AUTOMATIC|Cleanse Petrification
+14	CAST:6,6,6,6,5,5,4,4
+15	CAST:6,6,6,6,6,5,5,4,3		ABILITY:Healer Class Feature|AUTOMATIC|New Limb
+16	CAST:6,6,6,6,6,5,5,4,4
+17	CAST:6,6,6,6,6,6,5,5,4,3
+18	CAST:6,6,6,6,6,6,5,5,4,4
+19	CAST:6,6,6,6,6,6,6,5,5,4
+20	CAST:6,6,6,6,6,6,5,5,4,4	ABILITY:Healer Class Feature|AUTOMATIC|New Life
+# Does anything need to be done for the animal companion code?
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Source, Long Desc.			Source, Short Desc.	Source Page						Save checks bonus											Combat bonus
+CLASS:Marshal	HD:8		TYPE:Base.PC	ABB:MRSH		SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:Miniatures Handbook pg.11	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Marshal	STARTSKILLPTS:4	CSKILL:Bluff|Diplomacy|Handle Animal|Intimidate|TYPE.Knowledge|Listen|TYPE.Perform|Ride|Sense Motive|Speak Language|Spot|Survival|Swim
+1	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)	AUTO:FEAT|Shield Proficiency		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
+1																						ADD:FEAT|1|Skill Focus (Diplomacy)		BONUS:ABILITYPOOL|Marshal Minor Aura|1
+2		DEFINE:MarshalMajorAuraBonus|0	BONUS:VAR|MarshalMajorAuraBonus|1		BONUS:ABILITYPOOL|Marshal Major Aura|1
+3																									BONUS:ABILITYPOOL|Marshal Minor Aura|1
+4	ABILITY:Special Ability|AUTOMATIC|Grant Move Action
+5																									BONUS:ABILITYPOOL|Marshal Minor Aura|1	BONUS:ABILITYPOOL|Marshal Major Aura|1
+7			BONUS:VAR|MarshalMajorAuraBonus|1																							BONUS:ABILITYPOOL|Marshal Minor Aura|1
+9																									BONUS:ABILITYPOOL|Marshal Minor Aura|1	BONUS:ABILITYPOOL|Marshal Major Aura|1
+12																									BONUS:ABILITYPOOL|Marshal Minor Aura|1
+14			BONUS:VAR|MarshalMajorAuraBonus|1																							BONUS:ABILITYPOOL|Marshal Major Aura|1
+15																									BONUS:ABILITYPOOL|Marshal Minor Aura|1
+19																									BONUS:ABILITYPOOL|Marshal Minor Aura|1
+20			BONUS:VAR|MarshalMajorAuraBonus|1																							BONUS:ABILITYPOOL|Marshal Major Aura|1

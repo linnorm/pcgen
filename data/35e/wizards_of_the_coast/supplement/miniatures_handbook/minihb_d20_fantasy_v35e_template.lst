@@ -1,0 +1,17 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Template Name				Challenge Rating	Visible	Source, Long Desc.			Source, Short Desc.	Special ABility						Stat bonus		Feat			Move		Spell Res.
+Improved Grab							VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SAB:Improved Grab (Ex)	SAB:Constrict 1d6+STR
+Spell Resistance							VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb																	SR:10+HD
+Chameleon Power							VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SAB:Chameleon power
+Produce Acid							VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SAB:Produce Acid
+Poison					CR:1			VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SAB:Poison (Ex)
+Blind Fight Feat							VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb												FEAT:Blind Fight
+Strength								VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb									BONUS:STAT|STR|6
+Constitution							VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb									BONUS:STAT|CON|6
+Dexterity								VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb									BONUS:STAT|DEX|6
+Resistance to Electricity/Fire				VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SAB:Resistance to electricity/fire 20
+Resistance to Cold/Electricity				VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SAB:Resistance to cold/electricity 20
+Resistance to Cold/Fire						VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SAB:Resistance to cold/fire 20
+Wings						CR:1			VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SAB:Wings													MOVE:Fly,50
+No Mutation								VISIBLE:NO	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb

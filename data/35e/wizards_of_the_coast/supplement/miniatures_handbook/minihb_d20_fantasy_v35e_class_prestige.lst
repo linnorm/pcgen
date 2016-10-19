@@ -1,0 +1,173 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level		Source, Long Desc.			Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Bonded Summoner	HD:4		TYPE:PC.Prestige	ABB:BSUM		MAXLEVEL:10		SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.16	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name		Required Language				Req. Special Ability	Required Skill				Req. Spell Type
+CLASS:Bonded Summoner	PRELANG:1,Aquan,Auran,Ignan,Terran	PREABILITY:1,CATEGORY=ANY,Summon Familiar	PRESKILL:1,Knowledge (The Planes)=8	PRESPELLTYPE:1,Arcane=2
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Bonded Summoner	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Spellcraft
+SUBCLASS:Air	COST:0
+SUBCLASSLEVEL:1	BONUS:VAR|ElectricityResistanceBonus|((((CL=Bonded Summoner-1)/2)MAX0).TRUNC*5)+5				ABILITY:Special Ability|AUTOMATIC|Resistance to Electricity|!PRECLASS:1,Bonded Summoner=9
+SUBCLASSLEVEL:9																												ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
+SUBCLASS:Earth	COST:0
+SUBCLASSLEVEL:1	BONUS:VAR|AcidResistanceBonus|((((CL=Bonded Summoner-1)/2)MAX0).TRUNC*5)+5					ABILITY:Special Ability|AUTOMATIC|Resistance to Acid|!PRECLASS:1,Bonded Summoner=9
+SUBCLASSLEVEL:9																												ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
+SUBCLASS:Fire	COST:0
+SUBCLASSLEVEL:1	BONUS:VAR|FireResistanceBonus|((((CL=Bonded Summoner-1)/2)MAX0).TRUNC*5)+5					ABILITY:Special Ability|AUTOMATIC|Resistance to Fire|!PRECLASS:1,Bonded Summoner=9
+SUBCLASSLEVEL:9																												ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
+SUBCLASSLEVEL:10														TEMPLATE:Fire
+SUBCLASS:Water	COST:0
+SUBCLASSLEVEL:1	BONUS:VAR|ColdResistanceBonus|((((CL=Bonded Summoner-1)/2)MAX0).TRUNC*5)+5					ABILITY:Special Ability|AUTOMATIC|Resistance to Cold|!PRECLASS:1,Bonded Summoner=9
+SUBCLASSLEVEL:9																												ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
+1															BONUS:VAR|ElementalCompanionLvl|CL=Bonded Summoner						ABILITY:Special Ability|AUTOMATIC|Elemental Companion
+2																								ADD:SPELLCASTER|1|Arcane
+3																													ABILITY:Special Ability|AUTOMATIC|Immunity to Sleep
+4																								ADD:SPELLCASTER|1|Arcane
+5																													ABILITY:Special Ability|AUTOMATIC|Immunity to Poison
+6																								ADD:SPELLCASTER|1|Arcane
+7																													ABILITY:Special Ability|AUTOMATIC|Immunity to Paralysis|Immunity to Stun
+8																								ADD:SPELLCASTER|1|Arcane
+9	ABILITY:Special Ability|AUTOMATIC|Cannot be Flanked
+10	ABILITY:Special Ability|AUTOMATIC|Elemental Form	ABILITY:Special Ability|AUTOMATIC|Immunity To Critical Hits	ABILITY:Special Ability|AUTOMATIC|Elemental Type		TEMPLATE:Elemental								ADD:SPELLCASTER|1|Arcane
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Subclass?		Source, Long Desc.			Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Dragon Samurai	HD:10		TYPE:PC.Prestige	ABB:DrgSam		MAXLEVEL:10	HASSUBCLASS:YES	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.18	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Skill
+CLASS:Dragon Samurai	PREATT:5	PRESKILL:1,Knowledge (Arcana)=2
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Dragon Samurai	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Intimidate|Jump|TYPE.Profession|Ride|Sense Motive|Swim
+SUBCLASS:Black	PREALIGN:NE,CN,CE
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 60' Line of Acid %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Acid % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with Black dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Black dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Acid Damage|DSElementalWeapon
+SUBCLASS:Blue	PREALIGN:LN,LE,NE
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 60' Line of Lightning %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Electricity % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with Blue dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Blue dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Electricity Damage|DSElementalWeapon
+SUBCLASS:Green	PREALIGN:LN,LE,NE
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 30' Cone of Corrosive Gas %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Acid % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with Green dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Green dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Acid Damage|DSElementalWeapon
+SUBCLASS:Red	PREALIGN:NE,CN,CE
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 30' Cone of Fire %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Fire % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with Red dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Red dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Fire Damage|DSElementalWeapon
+SUBCLASS:White	PREALIGN:NE,CN,CE
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 30' Cone of Cold %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Cold % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with White dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to White dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Cold Damage|DSElementalWeapon
+SUBCLASS:Brass	PREALIGN:NG,CG,CN
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 60' Line of Fire %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Fire % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with Brass dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Brass dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Fire Damage|DSElementalWeapon
+SUBCLASS:Bronze	PREALIGN:LG,LN,NG
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 60' Line of Lightning %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Electricity % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with BRonze dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Bronze dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Electricity Damage|DSElementalWeapon
+SUBCLASS:Copper	PREALIGN:NG,CG,CN
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 60' Line of Acid %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Acid % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with Copper dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Copper dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Acid Damage|DSElementalWeapon
+SUBCLASS:Gold	PREALIGN:LG,LN,NG
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 30' Cone of Fire %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Fire % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with Gold dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Gold dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Fire Damage|DSElementalWeapon
+SUBCLASS:Silver	PREALIGN:LG,LN,NG
+SUBCLASSLEVEL:1	SAB:Dragon Breath (Su) ~ 30' Cone of Cold %d8 DC%|CL=Dragon Samurai|10+CL=Dragon Samurai+CON	SAB:Resistance to Cold % (Su)|DSResistance
+SUBCLASSLEVEL:2	SAB:Dragon Friend (Ex) ~ +4 to all Charisma-based checks when dealing with Silver dragons
+SUBCLASSLEVEL:3	SAB:Immune to Dragon Fear (Ex) ~ Immune to Silver dragon's fear effect
+SUBCLASSLEVEL:4	SAB:Elemental Weapon (Su) ~ +%d6 Cold Damage|DSElementalWeapon
+
+1												BONUS:VAR|DSResistance|5	DEFINE:DSResistance|0
+4												BONUS:VAR|DSElementalWeapon|1	DEFINE:DSElementalWeapon|0
+5												BONUS:VAR|DSResistance|5
+6	SAB:Dragon Ride (Ex) ~ +4 to Ride checks while riding a dragon
+7												BONUS:VAR|DSResistance|5
+8																						ADD:FEAT|1|Blind Fight,Bonus DS Feat
+9												BONUS:VAR|DSElementalWeapon|1
+10												BONUS:VAR|DSResistance|5
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.			Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Havoc Mage	HD:8		TYPE:PC.Prestige	ABB:HVMG		MAXLEVEL:5	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.20	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Skill				Req. Spell Type
+CLASS:Havoc Mage	PREATT:4	PRESKILL:1,Knowledge (Arcana)=5	PRESPELLTYPE:1,Arcane=2
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Havoc Mage	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Knowledge (Arcana)|Ride|Spellcraft|Swim
+1	SAB:Battlecast 2nd (Ex)
+2					ADD:SPELLCASTER|1|Arcane
+3	SAB:Battlecast 4th (Ex)
+4					ADD:SPELLCASTER|1|Arcane
+5	SAB:Battlecast 8th (Ex)	ADD:SPELLCASTER|1|Arcane
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.			Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Skullclan Hunter	HD:6		TYPE:PC.Prestige	ABB:SKLH		MAXLEVEL:10	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.20	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will,BASE.Fortitude|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Required AL		Required Feat		Required Skill				Var. Min. Value
+CLASS:Skullclan Hunter	PREALIGN:LG,NG,CG	PREFEAT:1,Base Turn	PRESKILL:1,Knowledge (Religion)=8	PREVARGTEQ:SneakAttackDice,2
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Skullclan Hunter	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Knowledge (Arcana)|Knowledge (Religion)|Listen|Move Silently|Open Lock|Search|Sense Motive|Spot|Swim|Tumble
+1	SAB:Track Undead (Ex)
+2	SAB:Divine Strike (Ex)
+3	SAB:Immunity to Undead Fear (Ex)			BONUS:VAR|SneakAttackDice|(CL=Skullclan Hunter)/3
+4	SAB:Protection From Evil (Su)													AUTO:FEAT|Immunity to Disease
+5	SAB:Sword of Light (Su)
+7																		AUTO:FEAT|Immunity to Paralysis
+8	SAB:Immunity to Ability Drain and Damage (Ex)
+9	SAB:Sword of Darkness (Su)
+10	SAB:Immunity to Energy Drain (Ex)
+
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.			Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Tactical Soldier	HD:10		TYPE:PC.Prestige	ABB:TACS		MAXLEVEL:10	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.22	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Feat				Required Skill
+CLASS:Tactical Soldier	PREATT:5	PREFEAT:2,Cleave,Combat Reflexes	PRESKILL:1,Sense Motive=2
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Tactical Soldier	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Ride|Sense Motive|Swim
+1	SAB:Flanker (Ex)			AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)	AUTO:FEAT|Shield Proficiency	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	AUTO:WEAPONPROF|TYPE.Martial
+2	SAB:Sidestep (Ex)
+3	SAB:Interpose (Ex)
+4	SAB:Defensive Shield (Ex)
+5	SAB:Offensive Strike (Ex)
+7	SAB:Delayed Cleave (Ex)
+8	SAB:Unbalanceing Blow (Ex)
+10	SAB:Reciprocal Strike (Ex)
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.			Source, Short Desc.	Source Page		Save checks bonus
+CLASS:War Hulk	HD:12		TYPE:PC.Prestige	ABB:WHLK		MAXLEVEL:10	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.22	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3
+# Class Name	Req. Att.	Required Feat	Minimum Size
+CLASS:War Hulk	PREATT:5	PREFEAT:1,Cleave	PRESIZEGTEQ:L
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:War Hulk	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump
+1	SAB:No Time To Think (Ex)		BONUS:STAT|STR|2*CL=War Hulk
+2	SAB:Great Swing (Ex)
+3																AUTO:FEAT|Mighty Rock Throwing
+4	SAB:Mighty Swing (Ex)
+6	SAB:Sweeping Boulder (Ex)
+8	SAB:Massive Sweeping Boulder (Ex)						ADD:FEAT|1|Toughness
+9												ADD:FEAT|1|Toughness
+10	SAB:Massive Swing (Ex)								ADD:FEAT|1|Toughness
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source, Long Desc.			Source, Short Desc.	Source Page		Save checks bonus											Combat bonus
+CLASS:Warchief	HD:10		TYPE:PC.Prestige	ABB:WCHF		MAXLEVEL:10	SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.24	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Req. Att.	Required Text
+CLASS:Warchief	PREATT:3	PRETEXT:Must have led a tribe in battle
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Warchief	STARTSKILLPTS:2	CSKILL:Bluff|Climb|TYPE.Craft|Diplomacy|Handle Animal|Intimidate|Jump|Ride|Sense Motive|Swim
+1	SAB:Tribal Frenzy (STR +%)|((((CL=Warchief-1)/2)MAX0).TRUNC*2)+2
+2												BONUS:STAT|CHA|2
+6												BONUS:STAT|CHA|2
+8	SAB:Devoted Bodyguards
+10												BONUS:STAT|CHA|2

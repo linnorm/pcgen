@@ -1,0 +1,4 @@
+# CVS $Revision: 1.1 $ $Author: chrisc $ -- Fri May  8 08:59:10 2009 -- reformated by prettylst.pl v1.39 (build 8180)
+
+# Equipment Name		Type		Cost		Weight	Requires Modification?	Source, Long Desc.			Source, Short Desc.	Source Page		Special Property
+Ring of Communication	TYPE:Ring	COST:2000	WT:.01	MODS:NO			SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb	SOURCEPAGE:p.42	SPROP:May hear anything said by wearer of another Ring of Communication within 1 mile if the rings are attuned

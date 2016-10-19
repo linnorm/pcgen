@@ -1,0 +1,59 @@
+SOURCELONG:Miniature's Handbook	SOURCESHORT:minihb
+
+
+##Block: Marshal
+# Ability Name			Category of Ability		Type										Visible		Required Ability						Define					Description																			Ability																					Source Page
+Accurate Strike			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:Allies gain +%1 bonus on critical confirmation rolls|CHA
+Art of War				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:Allies gain +%1 bonus on disarm, trip, bull rush, and sunder attempts|CHA
+Demand Fortitude			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES			MULT:NO			STACK:NO																																										DESC:Allies gain +%1 bonus on Fortitude saves|CHA
+Determined Caster			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES				MULT:NO			STACK:NO																																									DESC:Allies gain +%1 bonus on rolls to overcome spell resistance|CHA
+Force of Will			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES					MULT:NO			STACK:NO																																								DESC:Allies gain +%1 bonus on Will saves|CHA
+Master of Opportunity		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES						MULT:NO			STACK:NO																																							DESC:Allies gain +%1 bonus on AC against AOO|CHA
+Master of Tactics			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES							MULT:NO			STACK:NO																																						DESC:Allies gain +%1 bonus on damage rolls when flanking|CHA
+Motivate Charisma			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES								MULT:NO			STACK:NO																																					DESC:Allies gain +%1 bonus on Charisma checks and Charisma-based skills|CHA
+Motivate Constitution		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES									MULT:NO			STACK:NO																																				DESC:Allies gain +%1 bonus on Constitution checks and Constitution-based skills|CHA
+Motivate Dexterity		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES										MULT:NO			STACK:NO																																			DESC:Allies gain +%1 bonus on Dexterity checks and Dexterity-based skills|CHA
+Motivate Intelligence		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES											MULT:NO			STACK:NO																																		DESC:Allies gain +%1 bonus on Intelligence checks and Intelligence-based skills|CHA
+Motivate Strength			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES												MULT:NO			STACK:NO																																	DESC:Allies gain +%1 bonus on Strength checks and Strength-based skills|CHA
+Motivate Wisdom			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES													MULT:NO			STACK:NO																																DESC:Allies gain +%1 bonus on Wisdom checks and Wisdom-based skills|CHA
+Over the Top			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES														MULT:NO			STACK:NO																															DESC:Allies gain +%1 bonus on damage rolls when charging|CHA
+Watchful Eye			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMinorAura		VISIBLE:YES															MULT:NO			STACK:NO																														DESC:Allies gain +%1 bonus on Reflex saves|CHA
+
+Hardy Soldiers			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMajorAura		VISIBLE:YES		MULT:NO	STACK:NO																																									DESC:Allies gain DR %1/-|MarshalMajorAuraBonus
+Motivate Ardor			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMajorAura		VISIBLE:YES		MULT:NO		STACK:NO																																								DESC:Allies gain +%1 on damage rolls|MarshalMajorAuraBonus
+Motivate Attack			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMajorAura		VISIBLE:YES		MULT:NO			STACK:NO																																							DESC:Allies gain +%1 on melee attack rolls|MarshalMajorAuraBonus
+Motivate Care			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMajorAura		VISIBLE:YES		MULT:NO				STACK:NO																																						DESC:Allies gain +%1 on armor class|MarshalMajorAuraBonus
+Motivate Urgency			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMajorAura		VISIBLE:YES		MULT:NO					STACK:NO																																					DESC:Allies gain +%1 to land speed|MarshalMajorAuraBonus*5
+Resiliant Troops			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMajorAura		VISIBLE:YES		MULT:NO						STACK:NO																																				DESC:Allies gain +%1 on all saves|MarshalMajorAuraBonus
+Steady Hand				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MarshalMajorAura		VISIBLE:YES		MULT:NO							STACK:NO																																			DESC:Allies gain +%1 on ranged attack rolls|MarshalMajorAuraBonus
+
+Grant Move Action			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary					VISIBLE:YES		MULT:NO								STACK:NO																																		DESC:You may grant allies an extra move action %1 times per day|GrantMoveAction	BONUS:VAR|GrantMoveAction|(CL=Marshal/4)		DEFINE:GrantMoveAction|0
+
+
+##Block: Healer
+# Ability Name			Category of Ability		Type													Visible		Required Ability						Define					Description																			Ability																					Source Page
+Healing Hands			CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Extraordinary		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You add +%1 to healing spells cast as a healer.|CHA
+Effortless Healing		CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Extraordinary		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:Healing spells you cast as a healer do not provoke attacks of opportunity.
+Cleanse Paralysis			CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to cleanse paralysis %1/day, as if casting a Remove Paralysis spell.|CleanseParalysis		BONUS:VAR|CleanseParalysis|1		DEFINE:CleanseParalysis|0
+Cleanse Disease			CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to cleanse disease %1/day, as if casting a Remove Disease spell.|CleanseDisease		BONUS:VAR|CleanseDisease|1		DEFINE:CleanseDisease|0
+Cleanse Fear			CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to cleanse fear %1/day, as if casting a Remove Fear spell.|CleanseFear		BONUS:VAR|CleanseFear|1		DEFINE:CleanseFear|0
+Cleanse Poison			CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to cleanse poison %1/day, as if casting a Neutralize Poison spell.|CleansePoison		BONUS:VAR|CleansePoison|1		DEFINE:CleansePoison|0
+Unicorn Companion			CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Extraordinary		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain a celestial unicorn as an animal companion.
+Cleanse Blindness			CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to cleanse blindness %1/day, as if casting a Remove Blindness/Deafness spell.|CleanseBlindness		BONUS:VAR|CleanseBlindness|1		DEFINE:CleanseBlindness|0
+Cleanse Spirit			CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to restore a creature to health %1/day, as if casting a Greater Restoration spell.|CleanseSpirit		BONUS:VAR|CleanseSpirit|1		DEFINE:CleanseSpirit|0
+Cleanse Petrification		CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to restore a petrified creature to health %1/day, as if casting a Stone to Flesh spell.|CleansePetrification		BONUS:VAR|CleansePetrification|1		DEFINE:CleansePetrification|0
+New Limb				CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to resore a creature's missing or damaged body part %1/day, as if casting a Regenerate spell.|NewLimb		BONUS:VAR|NewLimb|1		DEFINE:NewLimb|0
+New Life				CATEGORY:Special Ability	TYPE:ClassFeatures.HealerClassFeatures.SpecialQuality.Supernatural		VISIBLE:YES		MULT:NO			STACK:NO																																											DESC:You gain the ability to bring a dead creature back to life %1/day, as if casting a True Resurrection spell.|NewLife		BONUS:VAR|NewLife|1		DEFINE:NewLife|0
+
+
+##Block: Dragon Auras
+SOURCELONG:Player's Handbook II	SOURCESHORT:PHBII	SOURCEWEB:http://www.wizards.com
+##TODO: Add temp bonus tags for auras. --Rax the Grey
+# Ability Name			Category of Ability		Type									Visible		Required Class		Required Var. value		Special ABility					Define			Choose													Modify VAR
+Energy Shield Aura		CATEGORY:Special Ability	TYPE:MarshalMajorAura.SpecialQuality.Supernatural	VISIBLE:YES		DESC:Any creature striking you or your ally with a natural attack or a non-reach melee weapon is dealt %1 points of %2 damage.|(MarshalMajorAuraBonus*2)|DraconicAuraType			SOURCEPAGE:pg. 13
+Power Aura				CATEGORY:Special Ability	TYPE:MarshalMajorAura.SpecialQuality.Supernatural	VISIBLE:YES		DESC:Gain a +%1 bonus to melee damage rolls.|MarshalMajorAuraBonus	SOURCEPAGE:pg. 13
+Presence Aura			CATEGORY:Special Ability	TYPE:MarshalMajorAura.SpecialQuality.Supernatural	VISIBLE:YES		DESC:Gain a +%1 bonus to Bluff, Diplomacy, and Intimidate rolls.|MarshalMajorAuraBonus	SOURCEPAGE:pg. 13
+Resistance Aura			CATEGORY:Special Ability	TYPE:MarshalMajorAura.SpecialQuality.Supernatural	VISIBLE:YES		DESC:Gain %1 resistance %2|(DraconicAuraBonus*5)|MarshalMajorAuraBonus	SOURCEPAGE:pg. 13
+Senses Aura				CATEGORY:Special Ability	TYPE:MarshalMajorAura.SpecialQuality.Supernatural	VISIBLE:YES		DESC:Gain a +%1 bonus to Listen, Spot, and Initiative rolls.|MarshalMajorAuraBonus	SOURCEPAGE:pg. 13
+Toughness Aura			CATEGORY:Special Ability	TYPE:MarshalMajorAura.SpecialQuality.Supernatural	VISIBLE:YES		DESC:Gain DR %1/Magic|MarshalMajorAuraBonus		SOURCEPAGE:pg. 13
+Vigor Aura				CATEGORY:Special Ability	TYPE:MarshalMajorAura.SpecialQuality.Supernatural	VISIBLE:YES		DESC:Gain Fast Healing %1 when below half normal hit points|MarshalMajorAuraBonus	SOURCEPAGE:pg. 13

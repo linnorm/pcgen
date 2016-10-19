@@ -1,6 +1,6 @@
 # CVS $Revision$ $Author$ -- Fri Apr 20 01:54:50 2007 -- reformated by prettylst.pl v1.37 (build 2312)
 CAMPAIGN:Miniatures Handbook
-GAMEMODE:35e|Bahamut35e
+GAMEMODE:DoNotUse
 TYPE:Wizards of the Coast.Supplement
 STATUS:ALPHA
 RANK:3
@@ -20,9 +20,11 @@ COVER:../../../../_artwork/cover_35e_wotc_mh.jpg
 # LOGO should be logo_pub.file
 LOGO:../../../../_artwork/logo_wotc.png
 
-INFOTEXT:Miniatures Supplement. Spells only.
+INFOTEXT:Miniatures Supplement. Spells and Marshal class only.
 
 # Basics
+ABILITY:mh_abilities.lst
+ABILITYCATEGORY:mh_abilitycategories.lst
 SPELL:mh_spells.lst
 CLASS:mh_classes.lst
 
