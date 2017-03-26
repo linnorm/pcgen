@@ -1,0 +1,205 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:Mongoose - Collectors Series - Quintessential Wizard|CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon Base|CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon South
+VERSION:6.02.00
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Morin
+TABNAME:
+PLAYERNAME:
+HEIGHT:66
+WEIGHT:132
+AGE:23
+GENDER:Female
+HANDED:Left
+SKINCOLOR:White (tanned)
+EYECOLOR:Brown
+HAIRCOLOR:Brown
+HAIRSTYLE:Shoulder-length
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:Jealous
+PERSONALITYTRAIT2:Fiercely loyal
+SPEECHPATTERN:
+PHOBIAS:Demonic-looking creatures
+INTERESTS:Protecting Gereth, learning to fight
+CATCHPHRASE:Should I kill it for you, Gereth?
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:13
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:10
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:16
+ALIGN:LN
+RACE:Human
+
+# Character Class(es)
+CLASS:Commoner|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Fighter|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Commoner=1|HITPOINTS:4|SKILLSGAINED:16|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Commoner=2|HITPOINTS:3|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Commoner=3|HITPOINTS:3|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Commoner=4|HITPOINTS:3|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Commoner=5|HITPOINTS:3|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:15000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Ral Regions|CHOSENTEMPLATE:[NAME:Bencadrad Alliance]]
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:Bencadrad Alliance]
+
+# Character Region
+REGION:Bencadrad Alliance
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bargain|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Climb|OUTPUTORDER:5|
+SKILL:Concentration|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:9|
+SKILL:Diplomacy|OUTPUTORDER:10|
+SKILL:Disguise|OUTPUTORDER:11|
+SKILL:Escape Artist|OUTPUTORDER:12|
+SKILL:Forgery|OUTPUTORDER:13|
+SKILL:Gather Information|OUTPUTORDER:14|
+SKILL:Heal|OUTPUTORDER:16|
+SKILL:Hide|OUTPUTORDER:17|
+SKILL:Intimidate|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Commoner|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:21|
+SKILL:Move Silently|OUTPUTORDER:22|
+SKILL:Perform (Untrained)|OUTPUTORDER:23|
+SKILL:Research|OUTPUTORDER:25|
+SKILL:Ride|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Commoner|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:27|
+SKILL:Sense Motive|OUTPUTORDER:28|
+SKILL:Spot|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Commoner|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:30|
+SKILL:Swim|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Commoner|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Commoner|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Bowmaking)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Commoner|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Commoner|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Bencadrad Alliance)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Rancher)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Commoner|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft ~ Bowmaking|OUTPUTORDER:8|
+
+# Character Languages
+LANGUAGE:Algorian|LANGUAGE:Candonian
+
+# Character Feats
+FEATPOOL:-4.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Bodyguard|TYPE:General.Fighter|DESC:You are trained to protect others.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:General.Fighter.AttackOption|DESC:You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard -4 penalty on your attack roll.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Far Shot|TYPE:General.Fighter.AttackOption|DESC:When you use a projectile weapon, such as a bow, its range increment increases by one-half (multiply by 1-1/2). When you use a thrown weapon, its range increment is doubled.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Shot|TYPE:General.Fighter.AttackOption|DESC:You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longbow|TYPE:General.Fighter|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Candonian|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana (2-H)|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur]
+WEAPONPROF:[WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spiked Armor|WEAPON:Straight Razor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:331.00
+EQUIPNAME:Scale Mail|OUTPUTORDER:11|COST:50.0|WT:30.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Scale Mail|DATA:NAME=Scale Mail$EQMOD=STEEL]
+EQUIPNAME:Arrow|OUTPUTORDER:1|COST:0.05|WT:0.15|QUANTITY:40.0|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=STEEL.WOOD]
+EQUIPNAME:Bedroll|OUTPUTORDER:3|COST:0.1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Sword (Short)|OUTPUTORDER:12|COST:10.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Sword (Short)|DATA:NAME=Sword (Short)$EQMOD=STEEL]
+EQUIPNAME:Blanket (Winter)|OUTPUTORDER:4|COST:0.5|WT:3.0|QUANTITY:1.0
+EQUIPNAME:Waterskin|OUTPUTORDER:14|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Backpack|OUTPUTORDER:2|COST:2|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Dagger|OUTPUTORDER:5|COST:2.0|WT:1.0|QUANTITY:2.0|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:9|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:8|COST:10|WT:8.0|QUANTITY:1.0
+EQUIPNAME:Longbow|OUTPUTORDER:7|COST:75.0|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Longbow|DATA:NAME=Longbow$EQMOD=WOOD]
+EQUIPNAME:Quiver (Large)|OUTPUTORDER:10|COST:4|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Water (Pint)|OUTPUTORDER:13|COST:0|WT:1.0|QUANTITY:4.0
+EQUIPNAME:Flint and Steel|OUTPUTORDER:6|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Equipped|ID:0.1.01|VALUE:Backpack|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.1.01.01|VALUE:Bedroll|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.1.01.02|VALUE:Blanket (Winter)|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.02|VALUE:Dagger|QUANTITY:2.0
+EQUIPSET:Both Hands|ID:0.1.03|VALUE:Longbow|QUANTITY:1.0
+EQUIPSET:Torso|ID:0.1.04|VALUE:Outfit (Explorer's)|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.05.01|VALUE:Flint and Steel|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Quiver (Large)|QUANTITY:1.0
+EQUIPSET:Quiver (Large)|ID:0.1.06.01|VALUE:Arrow|QUANTITY:40.0
+EQUIPSET:Body|ID:0.1.07|VALUE:Scale Mail|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.08|VALUE:Sword (Short)|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.09|VALUE:Waterskin|QUANTITY:1.0
+EQUIPSET:Waterskin|ID:0.1.09.01|VALUE:Water (Pint)|QUANTITY:4.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Kanala|DEITYDOMAINS:[DOMAIN:Family|DOMAIN:Healing|DOMAIN:Protection|DOMAIN:Missionary]|ALIGNALLOW:|DESC:Goddess of fertility, birth and children|HOLYITEM:Pregnant woman with open arms|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:True Neutral
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:  Morin grew up in what is now the Bencadrad Alliance.  Her family lived in a small village and herded sheep.  During the Demon War her village was destroyed and her family slaughtered.  She was found terrified nearly to insanity by Gereth.  He was able to convince her that he was not another demon and defended her from some roving zombies.  Since this time she has learned all of the fighting techniques she can from him and has pledged her life to defend and aid him.  She still has nightmares from her ordeal, and is secretly in love with Gereth.
+CHARACTERDESC:   Morin is 5'6" and 132 pounds.  She has shoulder length brown hair, and brown eyes.  Her skin is well tanned from growing up on a farm, out in the sun.  She is extremely loyal to Gereth, and becomes jealous of anyone who he gives more than a few minutes of attention to.
+CHARACTERCOMP:Morin travels with Gereth, a half blue dragon wizard.
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

@@ -1,0 +1,190 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:BP - Oathbound - Domains of the Forge 3.5|CAMPAIGN:BP - Oathbound - Wrack and Ruin 3.5 - Source Book|CAMPAIGN:BP - Wildwood|CAMPAIGN:wotc - Complete Adventurer v3.5e|CAMPAIGN:wotc - Spell Compendium - RSRD|CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon Base
+VERSION:6.00.01
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:N
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Dark Talissa
+TABNAME:
+PLAYERNAME:
+HEIGHT:53
+WEIGHT:100
+AGE:20
+GENDER:Female
+HANDED:Left
+SKINCOLOR:Pale
+EYECOLOR:All Black
+HAIRCOLOR:Black
+HAIRSTYLE:Two long braids
+LOCATION:Penance
+CITY:
+BIRTHDAY:
+BIRTHPLACE:Woodbridge, Athega
+PERSONALITYTRAIT1:Grim
+PERSONALITYTRAIT2:Know-it-all
+SPEECHPATTERN:Commanding Voice
+PHOBIAS:Felines, kith especially
+INTERESTS:Nature
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:13
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:14
+ALIGN:NE
+RACE:Elf (Moon)
+
+# Character Class(es)
+CLASS:Scout|LEVEL:8|SKILLPOOL:0
+CLASSABILITIESLEVEL:Scout=1|HITPOINTS:8|SKILLSGAINED:32|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=2|HITPOINTS:6|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=3|HITPOINTS:6|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=5|HITPOINTS:5|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=6|HITPOINTS:5|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=7|HITPOINTS:5|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=8|HITPOINTS:5|PRESTAT:DEX=1|SKILLSGAINED:8|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:28000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Ral Regions]
+TEMPLATESAPPLIED:[NAME:Athega]
+
+# Character Region
+REGION:Athega
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Scout|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:City Lore|OUTPUTORDER:4|
+SKILL:Climb|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Scout|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:6|
+SKILL:Craft (Maps)|OUTPUTORDER:8|
+SKILL:Craft (Untrained)|OUTPUTORDER:9|
+SKILL:Diplomacy|OUTPUTORDER:10|
+SKILL:Disguise|OUTPUTORDER:12|
+SKILL:Escape Artist|OUTPUTORDER:13|
+SKILL:Forgery|OUTPUTORDER:14|
+SKILL:Gather Information|OUTPUTORDER:15|
+SKILL:Heal|OUTPUTORDER:16|
+SKILL:Hide|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Listen|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Research|OUTPUTORDER:23|
+SKILL:Ride|OUTPUTORDER:24|
+SKILL:Search|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Scout|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:26|
+SKILL:Spot|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:31|
+SKILL:Use Rope|OUTPUTORDER:33|
+SKILL:Disable Device|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Scout|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Athega)|OUTPUTORDER:20|
+SKILL:Speak Language|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Bloodlandian|ASSOCIATEDDATA:Candonian
+SKILL:Craft (Bowmaking)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Scout|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Tumble|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Scout|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Find or follow tracks)|OUTPUTORDER:30|
+
+# Character Languages
+LANGUAGE:Bloodlandian|LANGUAGE:Elaurin|LANGUAGE:Candonian
+
+# Character Feats
+FEATPOOL:-3.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Shot|TYPE:General.Fighter.AttackOption|DESC:You can get one extra attack per round with a ranged weapon. The attack is at your highest base attack bonus, but each attack you make in that round takes a -2 penalty. You must use the full attack action to use this feat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Outdoorsman|TYPE:General|DESC:You are trained particularly well for life in the wild
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.General.Fighter.MartialArts|DESC:On your action, before making attack rolls for a round, you may choose to subtract up to %1 from all melee attack rolls and add the same number to all melee damage rolls.&pipe;PowerAttackMax
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Scout Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Shot|TYPE:General.Fighter.AttackOption.Scout|DESC:You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.
+ABILITY:Scout Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:General.Fighter.Scout.Exemplar.General.Fighter.MartialArts|DESC:You get a +4 bonus on initiative checks.
+USERPOOL:Scout Feat|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Rapier|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shortstaff|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Straight Razor]
+WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Sword of Life Stealing|OUTPUTORDER:7|COST:25715.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Sword of Life Stealing|DATA:EQMOD=STEEL]
+EQUIPNAME:Cloak of Elvenkind|OUTPUTORDER:4|COST:2500|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Bracers of Armor +5|OUTPUTORDER:2|COST:25000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Boots of Elvenkind|OUTPUTORDER:6|COST:2500|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Amulet of Natural Armor +3|OUTPUTORDER:1|COST:18000|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Longbow +1 (Composite/Deadly Precision/Bow_STR+2)|OUTPUTORDER:3|COST:18630.0|WT:1.5|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Longbow +1 (Composite/Deadly Precision/Bow_STR+2)$EQMOD=DARK.BOWSTR&pipe;+2.WOOD.PLUS1W.WEAP_DEADLY_PREC]
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:5|COST:0|WT:8.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$COSTMOD=-10]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.1|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.2|VALUE:Sword of Life Stealing|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.3|VALUE:Longbow +1 (Composite/Deadly Precision/Bow_STR+2)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.4|VALUE:Cloak of Elvenkind|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.5|VALUE:Bracers of Armor +5|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Foot|ID:0.1.6|VALUE:Boots of Elvenkind|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.7|VALUE:Amulet of Natural Armor +3|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Danise|DEITYDOMAINS:[DOMAIN:Animal|DOMAIN:Luck|DOMAIN:Strength|DOMAIN:Missionary]|ALIGNALLOW:|DESC:Goddess of hunting|HOLYITEM:Drawn bow|DEITYFAVWEAP:[WEAPON:Longbow|WEAPON:Longbow (Composite)|WEAPON:Net|WEAPON:Shortbow|WEAPON:Shortbow (Composite)]|DEITYALIGN:Neutral Good
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:Talissa is the product of a dalliance Rastar Blitzkreig had after becoming a werebear and retreating from society prior to the demon war.  She has a great resentment towards Rastar for not providing for her and her mother in the following years.  She has recently gone to Treeshade to confront him.&nl;&nl;After arriving at Treeshade Talissa confronted Rastar and he acknoledged that she is his daughter.  After going to her home village to destroy a band of goblins Rastar was made king of The Bloodlands upon the abdication of king Avron.  Talissa's mother, Mara will be moved into the royal estates at Treeshade.&nl;&nl;While tracking a group of unicorn-slaying giants, Talissa was killed by an orc.  Her body was returned to Treeshade where she was reincarnated into her present form.&nl;&nl;While returning from a mission to track down an assatthi sorcerer Talissa was set upon by an assatthi hunter who was also tracking the sorcerer.  Talissa was drawn into the Forge just before her death.&nl;
+CHARACTERDESC:Talissa is 4' 5" tall and 100 pounds.  She wears her black hair in two braids that reach her mid-back.  Her build gives an impression of power and strength, something that her personality reenforces.  Her odd all black eyes hint at her unusual return to living.  Talissa wears functional clothing, she has no use for any clothing that doesn't serve some use.  Leather is her preferred fabric and she wears it almost exclusively.
+CHARACTERCOMP:
+CHARACTERASSET:Allegiances&colon;&nl;Reputation&colon; +4&nl;
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:New Item|ID:0|PARENTID:-1|VALUE:New Value
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

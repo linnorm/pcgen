@@ -1,0 +1,182 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:PE - Deadlands Core Rulebook - Deadlands D20|CAMPAIGN:PE - Deadlands Core Rulebook - Horrors o' the Weird West|CAMPAIGN:PE - Deadlands Supplement - The Way of the Gun|CAMPAIGN:PE - Deadlands Supplement - The Way of the Huckster|CAMPAIGN:PE - Deadlands Web Enhancements
+VERSION:5.16.0 RC1
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+POOLPOINTS:84
+POOLPOINTSAVAIL:-1
+GAMEMODE:Deadlands
+TABLABEL:0
+AUTOSPELLS:N
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Wolfhart Konigsamen
+TABNAME:
+PLAYERNAME:
+HEIGHT:71
+WEIGHT:185
+AGE:23
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Tanned
+EYECOLOR:Blue
+HAIRCOLOR:Blond
+HAIRSTYLE:Ponytail
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:Berlin, Germany
+PERSONALITYTRAIT1:Even tempered
+PERSONALITYTRAIT2:Gambler
+SPEECHPATTERN:Particularly low voice
+PHOBIAS:Ghosts
+INTERESTS:Religion
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:12
+STAT:INT|SCORE:14
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:14
+ALIGN:NG
+RACE:Human
+
+# Character Class(es)
+CLASS:Gunslinger|SUBCLASS:None|LEVEL:1|SKILLPOOL:2
+CLASSABILITIESLEVEL:Gunslinger=1|HITPOINTS:10|SKILLSGAINED:20
+
+# Character Experience
+EXPERIENCE:0
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Gamblin'|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Gunplay|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Speak Language|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:English
+SKILL:Speed Load|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Craft (Untrained)|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:12|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Jump|OUTPUTORDER:17|
+SKILL:Listen|OUTPUTORDER:18|
+SKILL:Move Silently|OUTPUTORDER:19|
+SKILL:Perform|OUTPUTORDER:20|
+SKILL:Ride|OUTPUTORDER:21|
+SKILL:Search|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:27|
+SKILL:Use Rope|OUTPUTORDER:28|
+SKILL:Wilderness Lore|OUTPUTORDER:29|
+
+# Character Languages
+LANGUAGE:English|LANGUAGE:German|LANGUAGE:Swedish
+
+# Character Feats
+FEATPOOL:-1.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:General.Fighter|DESC:The character can draw a weapon as a free action instead of as a move-equivalent action.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Lightning Reflexes|TYPE:General|DESC:The character gets a +2 bonus to all Reflex saving throws.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:General.Fighter|DESC:The character's penalties for fighting with two weapons are reduced by 2.
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Adams Revolver (Pistol/SA)|WEAPON:American Pepperbox (Derringer/SA)|WEAPON:Army Pistol (Pistol/SA)|WEAPON:Augusta Revolver (Pistol/SA)|WEAPON:Axe (Wood)|WEAPON:Ballard '72 (Rifle)|WEAPON:Brass Knuckles|WEAPON:Bullard Express (Rifle)|WEAPON:Chuchu Pistol (Derringer/DA)|WEAPON:Club]
+WEAPONPROF:[WEAPON:Club (Small)|WEAPON:Club (Stone)|WEAPON:Colt Army (Pistol/SA)|WEAPON:Colt Army-Thuer (Pistol/SA)|WEAPON:Colt Buntline Special (Pistol/SA)|WEAPON:Colt Derringer (Derringer/SA)|WEAPON:Colt Dragoon (Pistol/SA)|WEAPON:Colt Dragoon No. 3 (Pistol/SA)|WEAPON:Colt Frontier (Pistol/DA)|WEAPON:Colt Frontier 1873 (Pistol/SA)]
+WEAPONPROF:[WEAPON:Colt Lightning (Pistol/DA)|WEAPON:Colt Lightning Repeater (Rifle)|WEAPON:Colt Navy (Pistol/SA)|WEAPON:Colt Navy Revolver (Pistol/SA)|WEAPON:Colt New Line .30 (Pistol/SA)|WEAPON:Colt New Line .38 (Pistol/SA)|WEAPON:Colt Old-Line (Pistol/SA)|WEAPON:Colt Open Top (Pistol/SA)|WEAPON:Colt Open Top Pocket (Pistol/SA)|WEAPON:Colt Paterson Belt Model (Pistol/SA)]
+WEAPONPROF:[WEAPON:Colt Peacemaker (Pistol/DA)|WEAPON:Colt Peacemaker (Pistol/SA)|WEAPON:Colt Pocket (Pistol/SA)|WEAPON:Colt Police (Pistol/SA)|WEAPON:Colt Revolving Rifle (Rifle)|WEAPON:Colt Revolving Shotgun (Shotgun)|WEAPON:Colt Thunderer (Pistol/DA)|WEAPON:Colt Walker (Pistol/SA)|WEAPON:Colt-Patterson Model 36 (Rifle)|WEAPON:Cooper Navy (Pistol/DA)]
+WEAPONPROF:[WEAPON:Derringer (Derringer/SA)|WEAPON:Double Barrel (Shotgun)|WEAPON:Dynamite stick|WEAPON:Enfield Musket (Rifle)|WEAPON:English 1840 Model (Derringer/SA)|WEAPON:Evans Old Model Sporter (Rifle)|WEAPON:Forehand and Wadsworth .44 (Pistol/SA)|WEAPON:Freeman Army Revolver (Pistol/SA)|WEAPON:Gunnison Independence (Pistol/SA)|WEAPON:Gunnison Rubicon (Pistol/DA)]
+WEAPONPROF:[WEAPON:Hatchet|WEAPON:Henry Rifle (Rifle)|WEAPON:Hotchkiss Repeating Rifle (Rifle)|WEAPON:Joslyn Army Revolver (Pistol/SA)|WEAPON:Kerr's Patent Revolver (Pistol/DA)|WEAPON:Kerr's Patent Revolver (Pistol/SA)|WEAPON:Knife (Bowie)|WEAPON:Knife (Flint/Bone)|WEAPON:Knife (Hunting)|WEAPON:Knuckle-Duster (Derringer/SA)]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Leech and Rigdon Revolver (Pistol/SA)|WEAPON:LeMat Carbine and Shotgun (Rifle)|WEAPON:LeMat Pistol and Shotgun (Pistol/SA)|WEAPON:LeMat Revolver and Shotgun (Pistol/SA)|WEAPON:Macahuitl|WEAPON:Marston Pistol (Derringer/DA)|WEAPON:Merwin Hulbert Army (Pistol/SA)|WEAPON:Merwin Hulbert Pocket (Pistol/DA)|WEAPON:Navy Pistol (Pistol/SA)]
+WEAPONPROF:[WEAPON:Nitro (Vial)|WEAPON:Palm Pistol (Derringer/DA)|WEAPON:Pettengill Army (Pistol/DA)|WEAPON:Remington Army (Pistol/SA)|WEAPON:Remington Double Derringer (Derringer/SA)|WEAPON:Remington Model 1871 (Rifle)|WEAPON:Remington Navy (Pistol/SA)|WEAPON:Remington New Model (Pistol/SA)|WEAPON:Remington Rider (Derringer/SA)|WEAPON:Remington Single-Action (Pistol/SA)]
+WEAPONPROF:[WEAPON:Remington-Beals Pocket (Pistol/SA)|WEAPON:Remington-Eliot Derringer (Derringer/DA)|WEAPON:Robbins and Lawrence Pepperbox (Derringer/SA)|WEAPON:Roger and Spencer Army (Pistol/SA)|WEAPON:Rupertus Pepperbox (Derringer/SA)|WEAPON:Savage and North Navy (Pistol/SA)|WEAPON:Scattergun (Shotgun)|WEAPON:Sharps 1855 Carbine (Rifle)|WEAPON:Sharps 1859 Rifle (Rifle)|WEAPON:Sharps 1869 Rifle (Rifle)]
+WEAPONPROF:[WEAPON:Sharps 1874 Rifle (Rifle)|WEAPON:Sharps Big .50 (Rifle)|WEAPON:Sharps Carbine (Rifle)|WEAPON:Sharps Derringer (Derringer/DA)|WEAPON:Single Barrel (Shotgun)|WEAPON:Skullcrusher|WEAPON:Smith and Wesson Baby Russian (Pistol/SA)|WEAPON:Smith and Wesson DA (Pistol/DA)|WEAPON:Smith and Wesson Frontier (Pistol/DA)|WEAPON:Smith and Wesson No. 1 (Pistol/SA)]
+WEAPONPROF:[WEAPON:Smith and Wesson No. 2 (Pistol/SA)|WEAPON:Smith and Wesson No. 3 .44 (Pistol/SA)|WEAPON:Smith and Wesson No. 3 .45 (Pistol/SA)|WEAPON:Smith and Wesson Russian (Pistol/SA)|WEAPON:Smith and Wesson Schofield (Pistol/SA)|WEAPON:Spencer Carbine .52 (Rifle)|WEAPON:Spencer Carbine .56 (Rifle)|WEAPON:Springfield .58 (Rifle)|WEAPON:Springfield 1873 (Rifle)|WEAPON:Starr Army Revolver (Pistol/DA)]
+WEAPONPROF:[WEAPON:Tomahawk|WEAPON:Tyler Alamo (Pistol/SA)|WEAPON:Tyler Texan (Rifle)|WEAPON:Unarmed Strike|WEAPON:US Model 1822 (Rifle)|WEAPON:US Model 1842 (Rifle)|WEAPON:US Model 1855 (Rifle)|WEAPON:Volcanic Carbine .38 (Rifle)|WEAPON:Volcanic Carbine .41 (Rifle)|WEAPON:Volcanic Pistol .31 (Pistol/SA)]
+WEAPONPROF:[WEAPON:Volcanic Pistol .41 (Pistol/SA)|WEAPON:Volcanic Pistol-Carbine (Pistol/SA)|WEAPON:Volcanic Repeating Pistol (Pistol/SA)|WEAPON:W. Irving Knuckle-Duster (Pistol/SA)|WEAPON:War Club (Bladed)|WEAPON:Wesson and Leavitt Pocket (Pistol/SA)|WEAPON:Wesson Dagger-Pistol (Derringer/SA)|WEAPON:Whitworth (Rifle)|WEAPON:Williamson Single-Shot (Derringer/SA)|WEAPON:Winchester '66 (Rifle)]
+WEAPONPROF:[WEAPON:Winchester '73 (Rifle)|WEAPON:Winchester '76 (Rifle)|WEAPON:Winchester Lever-Action (Shotgun)]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Perle (Pearl)|OUTPUTORDER:8|COST:173.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Smith and Wesson Frontier (Pistol/DA)|DATA:NAME=Perle (Pearl)$EQMOD=ENGRAVED.Hair trigger.WEAPMW$SPROP=(Smith and Wesson Frontier (Pistol/DA/Engraved/Gold-inlaid/Hair trigger/Pearl-handled/Silver-plated/Masterwork))]
+EQUIPNAME:Elfenbein (Ivory)|OUTPUTORDER:3|COST:173.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Smith and Wesson Frontier (Pistol/DA)|DATA:NAME=Elfenbein (Ivory)$EQMOD=ENGRAVED.Hair trigger.WEAPMW$SPROP=(Smith and Wesson Frontier (Pistol/DA/Engraved/Gold-inlaid/Hair trigger/Ivory-handled/Silver-plated/Masterwork))]
+EQUIPNAME:Knife (Bowie)|OUTPUTORDER:7|COST:4|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Bullets (Pistol/50)|OUTPUTORDER:2|COST:2|WT:2.0|QUANTITY:2.0
+EQUIPNAME:Boots|OUTPUTORDER:1|COST:8|WT:4.0|QUANTITY:1.0
+EQUIPNAME:Suit|OUTPUTORDER:10|COST:15|WT:6.0|QUANTITY:1.0
+EQUIPNAME:Gun belt|OUTPUTORDER:4|COST:2|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Handschuh des Elfenbeins|OUTPUTORDER:5|COST:11|WT:11.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Holster (Quick-draw)|DATA:NAME=Handschuh des Elfenbeins$SPROP=(Holster (Quick-draw))]
+EQUIPNAME:Handschuh des Perle|OUTPUTORDER:6|COST:11|WT:11.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Holster (Quick-draw)|DATA:NAME=Handschuh des Perle$SPROP=(Holster (Quick-draw))]
+EQUIPNAME:Watch (Gold)|OUTPUTORDER:11|COST:10|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Speed-load cylinder|OUTPUTORDER:9|COST:3|WT:1.0|QUANTITY:4.0
+EQUIPNAME:Backpack|OUTPUTORDER:1|COST:2|WT:2.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Torso|ID:0.1.1|VALUE:Suit|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.2|VALUE:Gun belt|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.3|VALUE:Handschuh des Elfenbeins|QUANTITY:1.0
+EQUIPSET:Handschuh des Elfenbeins|ID:0.1.3.1|VALUE:Elfenbein (Ivory)|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.4|VALUE:Handschuh des Perle|QUANTITY:1.0
+EQUIPSET:Handschuh des Perle|ID:0.1.4.1|VALUE:Perle (Pearl)|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.5|VALUE:Knife (Bowie)|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.7|VALUE:Boots|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.8|VALUE:Watch (Gold)|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.1.9.1|VALUE:Backpack|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.1.9.1.1|VALUE:Bullets (Pistol/50)|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.1.9.1.2|VALUE:Speed-load cylinder|QUANTITY:4.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

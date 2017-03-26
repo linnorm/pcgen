@@ -1,0 +1,137 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - The Speaker in Dreams v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:15
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:spkrdr_v35e_area15b_backroom_gibbering_mouther
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:Pigtails
+LOCATION:Nomad
+CITY:Cyriador
+BIRTHPLACE:Nomad
+PERSONALITYTRAIT1:Imaginative
+PERSONALITYTRAIT2:Jokester
+SPEECHPATTERN:Deep Voice
+PHOBIAS:Men
+INTERESTS:Jewelry
+CATCHPHRASE:NOW IS THE HOUR OF YOUR DEATH! ...more or less.
+PORTRAIT:C&colon;\Documents and Settings\Rob\Desktop\PCGen\portraits\cmp\wizards_of_the_coast\monster_manual\Gibbering Mouther.jpg
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:10
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:11
+STAT:CHA|SCORE:11
+ALIGN:TN
+RACE:Gibbering Mouther
+
+# Character Class(es)
+CLASS:Aberration|SUBCLASS:None|LEVEL:3|SKILLPOOL:6|PROHIBITED:None
+CLASSABILITIESLEVEL:Aberration=1|HITPOINTS:1|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Aberration=2|HITPOINTS:1|SKILLSGAINED:1|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Aberration=3|HITPOINTS:6|SKILLSGAINED:1|SKILLSREMAINING:1
+
+# Character Experience
+EXPERIENCE:0
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Aberration]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEAT:Lightning Reflexes|TYPE:GENERAL|DESC:You have faster than normal reflexes
+FEAT:Weapon Focus|APPLIEDTO:Bite|TYPE:GENERAL.FIGHTER|DESC:You are especialy good at using the chosen weapon
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bite|WEAPON:Spittle]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Spittle (Natural/Secondary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Bite (Natural/Primary)|QUANTITY:1.0
+EQUIPSET:Natural-Secondary|ID:0.1.2|VALUE:Spittle (Natural/Secondary)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

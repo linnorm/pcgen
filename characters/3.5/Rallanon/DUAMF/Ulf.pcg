@@ -1,0 +1,227 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Rallanon Base
+VERSION:5.10.1
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:rpg
+TABLABEL:0
+AUTOSPELLS:N
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:Ulf Werend
+TABNAME:
+PLAYERNAME:
+HEIGHT:73
+WEIGHT:165
+AGE:19
+GENDER:Male
+HANDED:Right
+SKINCOLOR:White
+EYECOLOR:Green
+HAIRCOLOR:Auburn
+HAIRSTYLE:Shoulder length
+LOCATION:Boffargak
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:Curious
+PERSONALITYTRAIT2:Strange eyes
+SPEECHPATTERN:Quiet
+PHOBIAS:Losing his temper
+INTERESTS:Hunting
+CATCHPHRASE:
+PORTRAIT:d&colon;\ifinzen\Stuff\pcgen\characters\Portraits\Ulf.jpg
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:13
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:16
+STAT:PER|SCORE:14
+ALIGN:NG
+RACE:Human
+
+# Character Class(es)
+CLASS:Aristocrat|SUBCLASS:None|LEVEL:1|SKILLPOOL:2|PROHIBITED:None
+CLASS:Sorcerer|SUBCLASS:None|LEVEL:2|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:6,4|PROHIBITED:None
+CLASSABILITIESLEVEL:Aristocrat=1|HITPOINTS:8|SKILLSGAINED:12
+CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:2|SKILLSGAINED:16
+CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:3|SKILLSGAINED:4
+
+# Character Experience
+EXPERIENCE:5600
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Ral Regions]
+TEMPLATESAPPLIED:[NAME:Pantorka]
+
+# Character Region
+REGION:Pantorka
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bargain|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Climb|OUTPUTORDER:5|
+SKILL:Concentration|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:9|
+SKILL:Escape Artist|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:11|
+SKILL:Gather Information|OUTPUTORDER:12|
+SKILL:Handle Animal|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Intimidate|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:17|
+SKILL:Knowledge (Court Protocol)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (History)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Law)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nobility and Royalty)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Pantorka)|OUTPUTORDER:22|
+SKILL:Knowledge (Politics)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Perform (Untrained)|OUTPUTORDER:26|
+SKILL:Profession (Rancher)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Research|OUTPUTORDER:28|
+SKILL:Ride|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:30|
+SKILL:Sense Motive|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Speak Language|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Aristocrat|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Candonian
+SKILL:Spellcraft|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:34|
+SKILL:Survival|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:36|
+SKILL:Use Rope|OUTPUTORDER:37|
+
+# Character Languages
+LANGUAGE:Candonian|LANGUAGE:Pantorkian
+
+# Character Feats
+FEAT:Dodge|TYPE:GENERAL.FIGHTER.SCOUT.MARTIALARTS|DESC:During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent.
+FEAT:Mounted Combat|TYPE:GENERAL.FIGHTER|DESC:Once per round when your mount is hit in combat, you may attempt a Ride check (as a reaction) to negate the hit. The hit is negated if your Ride check result is greater than the opponent's attack roll.
+FEAT:Ride By Attack|TYPE:GENERAL.FIGHTER|DESC:When you are mounted and use the charge action, you may move and attack as if with a standard charge and then move again.
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aclis|WEAPON:Angle Knife|WEAPON:Axe (Carpenter's)|WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bladed Bow|WEAPON:Broadsword|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flamberge]
+WEAPONPROF:[WEAPON:Flametongue|WEAPON:Flax|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gauntlets (Clawed)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Half Moon Spear|WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Karvar|WEAPON:Katana (Martial)|WEAPON:Kin-Skull]
+WEAPONPROF:[WEAPON:Kukri|WEAPON:Kusari-gama|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar]
+WEAPONPROF:[WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pike|WEAPON:Pilum|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Sawtooth]
+WEAPONPROF:[WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Energy Missile)]
+WEAPONPROF:[WEAPON:Spells(Ray)|WEAPON:Spells(Touch)|WEAPON:Spider Throwing Knife|WEAPON:Spiked Armor|WEAPON:Spiked Helmet|WEAPON:Staff Sling|WEAPON:Straight Razor|WEAPON:Sword (Bastard)|WEAPON:Sword (Cane)|WEAPON:Sword (Guantlet)]
+WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Sword (Tulwar)|WEAPON:Sword-Pike|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:War Cleaver|WEAPON:War Rake|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Chain Shirt|OUTPUTORDER:4|COST:100.0|WT:25.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt$EQMOD=STEEL]
+EQUIPNAME:Axe (Throwing)|OUTPUTORDER:1|COST:8.0|WT:2.0|QUANTITY:2.0|CUSTOMIZATION:[BASEITEM:Axe (Throwing)|DATA:NAME=Axe (Throwing)$EQMOD=STEEL]
+EQUIPNAME:Backpack|OUTPUTORDER:2|COST:2|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:13|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Saddlebags|OUTPUTORDER:15|COST:4|WT:8.0|QUANTITY:1.0
+EQUIPNAME:Horse (Light)|OUTPUTORDER:9|COST:75|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Talis Deck|OUTPUTORDER:19|COST:2|WT:0.25|QUANTITY:1.0
+EQUIPNAME:Spade or Shovel|OUTPUTORDER:18|COST:2|WT:8.0|QUANTITY:1.0
+EQUIPNAME:Torch|OUTPUTORDER:21|COST:0.01|WT:1.0|QUANTITY:2.0
+EQUIPNAME:Tent|OUTPUTORDER:20|COST:10|WT:20.0|QUANTITY:1.0
+EQUIPNAME:Whetstone|OUTPUTORDER:25|COST:0.02|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Waterskin|OUTPUTORDER:24|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Flint and Steel|OUTPUTORDER:7|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Blanket (Winter)|OUTPUTORDER:3|COST:0.5|WT:3.0|QUANTITY:1.0
+EQUIPNAME:Wine (Fine/Bottle)|OUTPUTORDER:26|COST:10|WT:1.5|QUANTITY:1.0
+EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:14|COST:0.5|WT:1.0|QUANTITY:3.0
+EQUIPNAME:Water (Pint)|OUTPUTORDER:23|COST:0|WT:1.0|QUANTITY:2.0
+EQUIPNAME:Signet Ring|OUTPUTORDER:17|COST:5|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Dagger|OUTPUTORDER:6|COST:2.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:Longsword (Masterwork)|OUTPUTORDER:10|COST:315.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword (Masterwork)$EQMOD=MWORKW.STEEL]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:12|COST:1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Olona|OUTPUTORDER:11|COST:0.1|WT:0.02|QUANTITY:28.0
+EQUIPNAME:Vaila|OUTPUTORDER:22|COST:0.01|WT:0.02|QUANTITY:20.0
+EQUIPNAME:Haldan|OUTPUTORDER:8|COST:1|WT:0.02|QUANTITY:2.0
+EQUIPNAME:Coin Purse|OUTPUTORDER:5|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Shield (Light/Metal)|OUTPUTORDER:16|COST:9.0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Shield (Light/Metal)|DATA:NAME=Shield (Light/Metal)$EQMOD=STEEL]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Torso|ID:0.1.1|VALUE:Outfit (Traveler's)|QUANTITY:1.0
+EQUIPSET:Primary Hand|ID:0.1.10|VALUE:Longsword (Masterwork)|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Coin Purse|QUANTITY:1.0
+EQUIPSET:Coin Purse|ID:0.1.11.1|VALUE:Haldan|QUANTITY:2.0
+EQUIPSET:Coin Purse|ID:0.1.11.2|VALUE:Vaila|QUANTITY:20.0
+EQUIPSET:Coin Purse|ID:0.1.11.3|VALUE:Olona|QUANTITY:28.0
+EQUIPSET:Shield|ID:0.1.12|VALUE:Shield (Light/Metal)|QUANTITY:1.0
+EQUIPSET:Armor|ID:0.1.2|VALUE:Chain Shirt|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.4|VALUE:Axe (Throwing)|QUANTITY:2.0
+EQUIPSET:Equipped|ID:0.1.5|VALUE:Backpack|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.1.5.1|VALUE:Torch|QUANTITY:2.0
+EQUIPSET:Equipped|ID:0.1.6|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.6.1|VALUE:Whetstone|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.6.2|VALUE:Flint and Steel|QUANTITY:1.0
+EQUIPSET:Not Carried|ID:0.1.7|VALUE:Horse (Light)|QUANTITY:1.0
+EQUIPSET:Horse (Light)|ID:0.1.7.1|VALUE:Saddlebags|QUANTITY:1.0
+EQUIPSET:Saddlebags|ID:0.1.7.1.1|VALUE:Talis Deck|QUANTITY:1.0
+EQUIPSET:Saddlebags|ID:0.1.7.1.2|VALUE:Spade or Shovel|QUANTITY:1.0
+EQUIPSET:Saddlebags|ID:0.1.7.1.3|VALUE:Tent|QUANTITY:1.0
+EQUIPSET:Saddlebags|ID:0.1.7.1.4|VALUE:Rations (Trail/Per Day)|QUANTITY:3.0
+EQUIPSET:Saddlebags|ID:0.1.7.1.5|VALUE:Wine (Fine/Bottle)|QUANTITY:1.0
+EQUIPSET:Saddlebags|ID:0.1.7.1.6|VALUE:Blanket (Winter)|QUANTITY:1.0
+EQUIPSET:Saddlebags|ID:0.1.7.1.7|VALUE:Waterskin|QUANTITY:1.0
+EQUIPSET:Waterskin|ID:0.1.7.1.7.1|VALUE:Water (Pint)|QUANTITY:2.0
+EQUIPSET:Fingers|ID:0.1.8|VALUE:Signet Ring|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.9|VALUE:Dagger|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Bloodline (Wereborn)|DEITYDOMAINS:[DOMAIN:Arcane_Animal|DOMAIN:Arcane_Feral|DOMAIN:Arcane_Strength|DOMAIN:Arcane_Vitality]|ALIGNALLOW:012345678|DESC:Werecreature Bloodline|HOLYITEM:None|DEITYFAVWEAP:[WEAPON:None]|DEITYALIGN:
+DOMAIN:Arcane_Feral|DOMAINGRANTS:You gain the bonus feat Improved Unarmed Strike, and may choose to do normal damage with an unarmed strike; such damage is considered slashing. Survival becomes a class skill for you. You gain the huntsman ability Wild Empathy (Ex).|SOURCE:[TYPE:PCCLASS|NAME:SORCERER|LEVEL:1]
+DOMAIN:Arcane_Strength|DOMAINGRANTS:You can perform a feat of strength, which is the supernatural ability to gain an enhancement bonus to Strength equal to your level. Activating the power is a free action, the power lasts 1 round, and it's usable once per day.|SOURCE:[TYPE:PCCLASS|NAME:SORCERER|LEVEL:1]
+
+# Character Spells Information
+SPELLNAME:Cause Fear|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Chill/Warmth|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Light|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Low-Light Vision|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Quick Sober|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Resistance|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Spark|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:True Strike|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLLIST:Sorcerer|Wizard
+
+# Character Description/Bio/History
+CHARACTERBIO:Ulf is the son of minor Pantorkan aristocracy.  He is from the Scarnberg region in northeastern Pantorka.  His family is of the old blood, the original tribe that lived in the area before the coming of the Kishan empire.  He is possesed of the family curse, every few generations a child is born who channels the power of the wolf.  After killing another young aristocrat in a duel over a woman Ulf was exiled.  He now wanders the north looking for adventure and seeking to learn to control his curse.&cr;&nl;&cr;&nl;Ulf is a companion of Talissa Blitzkreig.  They are investigating the slaying of several unicorns in the Treeshade.  They have followed an asaatthi wizard to Boffargak and captured him.  They are now returning to the Bloodlands to get more information.
+CHARACTERDESC:
+CHARACTERCOMP:Talissa&cr;&nl;Croitha
+CHARACTERASSET:Allegiances&colon; Werend Family&nl;Reputation&colon; +1&nl;
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:New Item|ID:0|PARENTID:-1|VALUE:New Value
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

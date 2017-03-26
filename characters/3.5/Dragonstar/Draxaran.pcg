@@ -1,0 +1,185 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:My Dragonstar Additions|CAMPAIGN:FFG - Dragonstar - Starfarer's Handbook - 3.5|CAMPAIGN:wotc - Spell Compendium - RSRD|CAMPAIGN:SSS - Relics and Rituals|CAMPAIGN:MP - The Complete Book of Eldritch Might - Source Book|CAMPAIGN:Mongoose - Encyclopaedia Arcane - Necromancy - 3.5 Conversion|CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon Base
+VERSION:6.00.01
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Draxaran
+TABNAME:
+PLAYERNAME:
+HEIGHT:71
+WEIGHT:159
+AGE:17
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:10
+STAT:INT|SCORE:15
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:15
+ALIGN:LE
+RACE:Human
+
+# Character Class(es)
+CLASS:Sorcerer|LEVEL:2|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:6,4
+CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:4|SKILLSGAINED:24|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:10000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:DS Regions]
+TEMPLATESAPPLIED:[NAME:Ral Regions]
+TEMPLATESAPPLIED:[NAME:Half Dragon (Green)]
+TEMPLATESAPPLIED:[NAME:Half Dragon]
+TEMPLATESAPPLIED:[NAME:Bite ~ Claw (Medium)]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Disguise|OUTPUTORDER:9|
+SKILL:Escape Artist|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:11|
+SKILL:Freefall|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Intimidate|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:17|
+SKILL:Listen|OUTPUTORDER:19|
+SKILL:Move Silently|OUTPUTORDER:20|
+SKILL:Navigate|OUTPUTORDER:21|
+SKILL:Research|OUTPUTORDER:22|
+SKILL:Ride|OUTPUTORDER:23|
+SKILL:Search|OUTPUTORDER:24|
+SKILL:Sense Motive|OUTPUTORDER:25|
+SKILL:Spot|OUTPUTORDER:27|
+SKILL:Survival|OUTPUTORDER:28|
+SKILL:Swim|OUTPUTORDER:29|
+SKILL:Urban Lore|OUTPUTORDER:30|
+SKILL:Use Rope|OUTPUTORDER:32|
+SKILL:Craft (Alchemy)|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Ley Line|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+
+# Character Languages
+LANGUAGE:Elven|LANGUAGE:Drow Sign Language|LANGUAGE:Common|LANGUAGE:Neogi|LANGUAGE:Draconic
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Familiar|TYPE:General|DESC:This feat allows spellcasters to acquire a new familiar from a nonstandard list, but only when they could normally acquire a new familiar.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYPE:Metamagic.Wizard|DESC:All variable, numeric effects of an empowered spell are increased by one-half. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bayonet|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claw|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)]
+WEAPONPROF:[WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Kin-Skull|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Straight Razor|WEAPON:Stun baton|WEAPON:Stun gauntlets|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Claw (Natural/Secondary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Outfit (Scholar's)|OUTPUTORDER:4|COST:0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Scholar's)|DATA:NAME=Outfit (Scholar's)$COSTMOD=-5]
+EQUIPNAME:Bite (Natural/Secondary)|OUTPUTORDER:1|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Secondary|ID:0.1.2|VALUE:Bite (Natural/Secondary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Secondary|ID:0.1.3|VALUE:Claw (Natural/Secondary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.4|VALUE:Outfit (Scholar's)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Bloodline (Dragon - Green)|DEITYDOMAINS:[DOMAIN:Arcane_Acid|DOMAIN:Arcane_Evil|DOMAIN:Arcane_Law|DOMAIN:Arcane_Plant|DOMAIN:Arcane_Tyranny]|ALIGNALLOW:|DESC:Green Dragon Bloodline|HOLYITEM:None|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+DOMAIN:Arcane_Evil|DOMAINGRANTS:You may Detect Good at will. You may rebuke undead as a paladin of equal level, but the rebuking attempts per day are equal to the sorceror's charisma modifier, not 3+charisma modifier.|SOURCE:[TYPE:PCClass|NAME:Sorcerer|LEVEL:1]
+DOMAIN:Arcane_Tyranny|DOMAINGRANTS:Add +2 to the DC of any compulsion spell you cast. You gain Intimidate as a class skill, and Skill Focus: Intimidate.|SOURCE:[TYPE:PCClass|NAME:Sorcerer|LEVEL:1]
+
+# Character Spells Information
+SPELLNAME:Acid Spittle|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Acid Splash|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Babau Slime|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Cause Minor Damage|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Command|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:DOMAIN|NAME:Arcane_Tyranny]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Protection from Good|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:DOMAIN|NAME:Arcane_Evil]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Transcribe|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

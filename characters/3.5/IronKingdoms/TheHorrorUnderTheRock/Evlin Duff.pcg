@@ -1,0 +1,274 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:Five Fingers - Port of Deceit|CAMPAIGN:Iron Kingdoms Character Guide|CAMPAIGN:Liber Mechanika|CAMPAIGN:Monsternomicon Volume I
+VERSION:5.16.4
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:Y
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Evlin Duff
+TABNAME:
+PLAYERNAME:
+HEIGHT:56
+WEIGHT:97
+AGE:20
+GENDER:Female
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:13
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:14
+STAT:INT|SCORE:13
+STAT:WIS|SCORE:15
+STAT:CHA|SCORE:16
+ALIGN:NE
+RACE:Human (Morridane)
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:5|SKILLPOOL:0
+CLASS:Pistoleer|SUBCLASS:None|LEVEL:2|SKILLPOOL:0
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:16
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:6|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:6|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:4|PRESTAT:DEX=1|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:5|PRESTAT:DEX=1|PRESTAT:CHA=-1|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Pistoleer=1|HITPOINTS:4|ADD:[FEAT:Alertness,Combat Reflexes,Far Shot,Improved Critical (Pistol),Improved Precise Shot,Lightning Reflexes,Point Blank Shot,Precise Shot,Shot on the Run,Weapon Focus (Pistol)|CHOICE:CATEGORY=FEAT&pipe;NATURE=NORMAL&pipe;Improved Precise Shot]|SKILLSGAINED:6
+CLASSABILITIESLEVEL:Pistoleer=2|HITPOINTS:6|ADD:[FEAT:Alertness,Combat Reflexes,Far Shot,Improved Critical (Pistol),Improved Precise Shot,Lightning Reflexes,Point Blank Shot,Precise Shot,Shot on the Run|CHOICE:CATEGORY=FEAT&pipe;NATURE=NORMAL&pipe;Improved Critical&pipe;Pistol]|SKILLSGAINED:6
+
+# Character Experience
+EXPERIENCE:21000
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Gunsmithing)|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Fighter|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Pistoleer|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Small Arms)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Pistoleer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Pistoleer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Pistoleer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Diplomacy|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Jump|OUTPUTORDER:17|
+SKILL:Listen|OUTPUTORDER:18|
+SKILL:Move Silently|OUTPUTORDER:19|
+SKILL:Ride|OUTPUTORDER:20|
+SKILL:Search|OUTPUTORDER:21|
+SKILL:Sense Motive|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:25|
+SKILL:Use Rope|OUTPUTORDER:26|
+
+# Character Languages
+LANGUAGE:Cygnaran|LANGUAGE:Khadoran|LANGUAGE:Ordic
+
+# Character Feats
+FEATPOOL:-4.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Morridane Optional Characteristics|TYPE:MorridaneCharMod
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Socially Isolated|TYPE:SocialIsolationOption
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Shot|TYPE:General.Fighter.AttackOption.General.Fighter.Gunmage.Scout.General.Fighter.Gunmage.Scout|DESC:You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:General.Fighter.General.Fighter.Gunmage.Scout.General.Fighter.Gunmage.Scout|DESC:You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon as a move action. A character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow).
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two Pistol Fighting|TYPE:General|DESC:Can fight with a one handed missile weapon in each hand. There is a -2 on the primary hand and -6 for off hand. Normally the hits are -6 and -10.|DESC:Can fight with a one handed missile weapon in each hand. There is a -2 on the primary hand and -6 for off hand. Normally the hits are -6 and -10.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Precise Shot|TYPE:General.Fighter.General.Fighter.Gunmage.Scout.General.Fighter.Gunmage.Scout|DESC:Your ranged attacks ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Specialization|APPLIEDTO:Pistol|TYPE:Special.Fighter|DESC:You gain a +2 bonus on all damage rolls you make using the selected weapon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Pistol|TYPE:General.Fighter.General.Fighter.DwarfPaladin.General.Fighter.DwarfPaladin|DESC:When using the weapon you selected, your threat range is doubled.
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+USERPOOL:Animal Trick|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Small Arms|TYPE:General.Fighter.General.Fighter.Scout.General.Fighter.Scout|DESC:Choose a type of exotic weapon. You understand how to use that type of exotic weapon in combat.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Pistol|TYPE:General.Fighter.General.Fighter.DwarfPaladin.Scout.General.Fighter.DwarfPaladin.Scout|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:General.Fighter.AttackOption.General.Fighter.Gunmage.Scout.General.Fighter.Gunmage.Scout|DESC:You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard -4 penalty on your attack roll.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Metamagic Feat|POOLPOINTS:0.0
+USERPOOL:Monk Feat|POOLPOINTS:0.0
+USERPOOL:Rogue Special Ability|POOLPOINTS:0.0
+USERPOOL:Ranger Combat Style|POOLPOINTS:0.0
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+USERPOOL:Expert Class Skills|POOLPOINTS:0.0
+USERPOOL:ACF|POOLPOINTS:0.0
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+USERPOOL:High Arcana Ability|POOLPOINTS:0.0
+USERPOOL:Hierophant Ability|POOLPOINTS:0.0
+USERPOOL:Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Advanced Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Loremaster Secret|POOLPOINTS:0.0
+USERPOOL:Dragon Disciple Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Ghost Ability|POOLPOINTS:0.0
+USERPOOL:Psion Feat|POOLPOINTS:0.0
+USERPOOL:Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Psionic Fist Feat|POOLPOINTS:0.0
+USERPOOL:Improved Psicrystal Personality|POOLPOINTS:0.0
+USERPOOL:Elocator Transporter|POOLPOINTS:0.0
+USERPOOL:Thrallherd Charm Choice|POOLPOINTS:0.0
+USERPOOL:Thrallherd Dominate Choice|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu A Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu B Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu C Ability|POOLPOINTS:0.0
+USERPOOL:Epic Barbarian Feat|POOLPOINTS:0.0
+USERPOOL:Epic Bard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cleric Feat|POOLPOINTS:0.0
+USERPOOL:Epic Druid Feat|POOLPOINTS:0.0
+USERPOOL:Epic Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Epic Monk Feat|POOLPOINTS:0.0
+USERPOOL:Epic Paladin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Ranger Feat|POOLPOINTS:0.0
+USERPOOL:Epic Rogue Feat|POOLPOINTS:0.0
+USERPOOL:Epic Sorcerer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Archer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Trickster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Assassin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Blackguard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dragon Disciple Feat|POOLPOINTS:0.0
+USERPOOL:Epic Duelist Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dwarven Defender Feat|POOLPOINTS:0.0
+USERPOOL:Epic Eldritch Knight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Horizon Walker Feat|POOLPOINTS:0.0
+USERPOOL:Epic Loremaster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Mystic Theurge Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shadowdancer Feat|POOLPOINTS:0.0
+USERPOOL:Improved Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Infiltrator Specialist Training|POOLPOINTS:0.0
+USERPOOL:Agent Retriever Feat|POOLPOINTS:0.0
+USERPOOL:Cosmic Descryer Feat|POOLPOINTS:0.0
+USERPOOL:Divine Emissary Feat|POOLPOINTS:0.0
+USERPOOL:Guardian Paramount Feat|POOLPOINTS:0.0
+USERPOOL:High Proselytizer Feat|POOLPOINTS:0.0
+USERPOOL:Legendary Dreadnought Feat|POOLPOINTS:0.0
+USERPOOL:Perfect Wight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Spellcasting Type|POOLPOINTS:0.0
+USERPOOL:Familiar Spell Choice|POOLPOINTS:0.0
+USERPOOL:Epic Psion Feat|POOLPOINTS:0.0
+USERPOOL:Epic Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Epic Soulknife Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cerebremancer Feat|POOLPOINTS:0.0
+USERPOOL:Psicrystal Power Choice|POOLPOINTS:0.0
+USERPOOL:Salient Divine Ability|POOLPOINTS:0.0
+USERPOOL:Agent Ability|POOLPOINTS:0.0
+USERPOOL:Enforcer Ability|POOLPOINTS:0.0
+USERPOOL:Arcane Mechanik Feat|POOLPOINTS:0.0
+USERPOOL:Bodger Special Ability|POOLPOINTS:0.0
+USERPOOL:Second Story Man Special Ability|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Battleblade (Caspian)|WEAPON:Claymore (Nyss)|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Giant Rock|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub]
+WEAPONPROF:[WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Mechanik's Wrench|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pistol|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rifle|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Small Arms|WEAPON:Spear|WEAPON:Spells(Ray)|WEAPON:Spiked Armor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:2956.48
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:8|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
+EQUIPNAME:Scale Mail +2|OUTPUTORDER:15|COST:6100.0|WT:30.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Scale Mail|DATA:NAME=Scale Mail +2$EQMOD=STEEL.PLUS2A$COSTMOD=1900.0]
+EQUIPNAME:Pistol +1 (Military)|OUTPUTORDER:9|COST:4000.0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Pistol (Military)|DATA:NAME=Pistol +1 (Military)$EQMOD=PLUS1W$COSTMOD=1400.0]
+EQUIPNAME:Masterwork Pistol (Military)|OUTPUTORDER:7|COST:600.0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Pistol (Military)|DATA:NAME=Masterwork Pistol (Military)$EQMOD=MWORKW]
+EQUIPNAME:Masterwork Battleblade (Caspian)|OUTPUTORDER:6|COST:322.0|WT:12.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Battleblade (Caspian)|DATA:NAME=Masterwork Battleblade (Caspian)$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Bandolier (Ammunition)|OUTPUTORDER:1|COST:0.5|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Flintstriker|OUTPUTORDER:2|COST:6|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Gunner's Kit|OUTPUTORDER:4|COST:100|WT:15.0|QUANTITY:1.0
+EQUIPNAME:Holster|OUTPUTORDER:5|COST:4|WT:0.5|QUANTITY:3.0
+EQUIPNAME:Pouch (Ammunition)|OUTPUTORDER:13|COST:2|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:14|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Whetstone|OUTPUTORDER:16|COST:0.02|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Potion (Cure Moderate Wounds) IK|OUTPUTORDER:11|COST:450|WT:0.0|QUANTITY:5.0|CUSTOMIZATION:[BASEITEM:Potion (Cure Moderate Wounds)|DATA:NAME=Potion (Cure Moderate Wounds) IK$SPROP=(Potion (Cure Moderate Wounds))$COSTMOD=150]
+EQUIPNAME:Potion (Cure Serious Wounds) IK|OUTPUTORDER:12|COST:1125|WT:0.0|QUANTITY:2.0|CUSTOMIZATION:[BASEITEM:Potion (Cure Serious Wounds)|DATA:NAME=Potion (Cure Serious Wounds) IK$SPROP=(Potion (Cure Serious Wounds))$COSTMOD=375]
+EQUIPNAME:Pistol Round (Military)|OUTPUTORDER:10|COST:8|WT:0.1|QUANTITY:50.0
+EQUIPNAME:Gun of Force|OUTPUTORDER:3|COST:8600.0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Pistol (Military)|DATA:NAME=Gun of Force$EQMOD=PLUS2W$SPROP=+3d6 Force Damage, (Pistol +2 (Military))]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.1|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Bandolier (Ammunition)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bandolier (Ammunition)|ID:0.1.10.1|VALUE:Pistol Round (Military)|QUANTITY:12.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.11|VALUE:Gun of Force|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.12|VALUE:Pistol +1 (Military)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.2|VALUE:Scale Mail +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.3|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.3.2|VALUE:Flintstriker|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.3.3|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.3.4|VALUE:Potion (Cure Moderate Wounds) IK|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.3.5|VALUE:Potion (Cure Serious Wounds) IK|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.4|VALUE:Pouch (Ammunition)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Ammunition)|ID:0.1.4.1|VALUE:Pistol Round (Military)|QUANTITY:20.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.5|VALUE:Holster|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Holster|ID:0.1.5.1|VALUE:Masterwork Pistol (Military)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.6|VALUE:Holster|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.7|VALUE:Holster|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.8|VALUE:Masterwork Battleblade (Caspian)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.9|VALUE:Gunner's Kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Gunner's Kit|ID:0.1.9.1|VALUE:Pistol Round (Military)|QUANTITY:10.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

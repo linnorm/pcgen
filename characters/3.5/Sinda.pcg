@@ -1,0 +1,166 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD - Campaign Set - No Psionics|CAMPAIGN:The Drow War Book 1 - The Gathering Storm
+VERSION:6.02.1
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Sinda
+TABNAME:
+PLAYERNAME:
+HEIGHT:74
+WEIGHT:216
+AGE:20
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:Blue
+HAIRCOLOR:Blonde
+HAIRSTYLE:Ponytail
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:Truthful
+PERSONALITYTRAIT2:Intellectual
+SPEECHPATTERN:
+PHOBIAS:Corruption
+INTERESTS:Ancient Cultures
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:12
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:12
+STAT:INT|SCORE:14
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:13
+ALIGN:NG
+RACE:Human
+
+# Character Class(es)
+CLASS:Cleric|LEVEL:1|SKILLPOOL:0
+CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|SKILLSGAINED:20|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:0
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:RighteousMightDR]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:9|
+SKILL:Escape Artist|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:11|
+SKILL:Gather Information|OUTPUTORDER:12|
+SKILL:Heal|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide|OUTPUTORDER:14|
+SKILL:Intimidate|OUTPUTORDER:15|
+SKILL:Jump|OUTPUTORDER:16|
+SKILL:Listen|OUTPUTORDER:18|
+SKILL:Move Silently|OUTPUTORDER:19|
+SKILL:Perform (Untrained)|OUTPUTORDER:20|
+SKILL:Ride|OUTPUTORDER:21|
+SKILL:Search|OUTPUTORDER:22|
+SKILL:Sense Motive|OUTPUTORDER:23|
+SKILL:Spot|OUTPUTORDER:25|
+SKILL:Survival|OUTPUTORDER:26|
+SKILL:Swim|OUTPUTORDER:27|
+SKILL:Use Rope|OUTPUTORDER:28|
+SKILL:Knowledge (Religion)|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration (Cast defensively)|OUTPUTORDER:6|
+
+# Character Languages
+LANGUAGE:Infernal|LANGUAGE:Common|LANGUAGE:Celestial
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General|DESC:You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Turning|APPLIEDTO:|TYPE:General|DESC:You can use your ability to turn or rebuke creatures four more times per day than normal.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Turn Undead|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Turn Undead|TYPE:ClassAbility.SpecialAttack.Turning.TurnUndead|DESC:%1/day (turn level %2) (turn damage %3d%4+%5)&pipe;TurnTimesUndead&pipe;TurnLevelUndead&pipe;TurnDiceUndead&pipe;TurnDieSizeUndead&pipe;TurnDamagePlusUndead
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Infernal,Celestial|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortspear|WEAPON:Sickle]
+WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Traveler's Outfit|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Traveler's Outfit$COSTMOD=-1]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Aranu|DEITYDOMAINS:[DOMAIN:Sun|DOMAIN:Law|DOMAIN:War|DOMAIN:Protection]|ALIGNALLOW:|DESC:God of the Sun, Lawmaker, Patron of kings and tribal chiefs|HOLYITEM:Radiant sun|DEITYFAVWEAP:[WEAPON:Spear]|DEITYALIGN:Lawful Neutral
+DOMAIN:War|ASSOCIATEDDATA:Spear|DOMAINGRANTS:Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Protection|DOMAINGRANTS:You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per day.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+
+# Character Spells Information
+SPELLNAME:Protection from Law|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:Birthmark on back of neck for patron star (The Watchman) colored silvery-blue, 2 inches across&cr;&nl;&cr;&nl;Sense Host (Su)&colon; Can sense anyone with the Host template withing 300'&cr;&nl;&cr;&nl;Signature Item&colon; Can detect unclaimed signature items at 5 miles, stronger at 10'&cr;&nl;&cr;&nl;Star Soul&colon; Can be resurrected&cr;&nl;&cr;&nl;+2 luck bonus to any other character’s skill check&cr;&nl;or&cr;&nl;+1 luck bonus to any other character’s saving throw; the character must be within line of sight.&cr;&nl;
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

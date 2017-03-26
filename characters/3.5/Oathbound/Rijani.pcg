@@ -1,0 +1,233 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:BP - Oathbound - Domains of the Forge 3.5|CAMPAIGN:BP - Oathbound - Wrack and Ruin 3.5 - Source Book|CAMPAIGN:BP - Wildwood
+VERSION:5.16.3
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Rijani
+TABNAME:
+PLAYERNAME:
+HEIGHT:72
+WEIGHT:190
+AGE:26
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:10
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:15
+STAT:CHA|SCORE:12
+ALIGN:LN
+RACE:Human
+
+# Character Class(es)
+CLASS:Monk|SUBCLASS:None|LEVEL:1|SKILLPOOL:0
+CLASS:Fighter|SUBCLASS:None|LEVEL:5|SKILLPOOL:0
+CLASS:Hone|SUBCLASS:None|LEVEL:1|SKILLPOOL:0
+CLASSABILITIESLEVEL:Monk=1|HITPOINTS:8|SKILLSGAINED:24
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:2|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:3|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:8|PRESTAT:STR=1|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:6|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:3|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Hone=1|HITPOINTS:6|ADD:[FEAT:Precision Strike|CHOICE:CATEGORY=FEAT&pipe;NATURE=NORMAL&pipe;Precision Strike]|SKILLSGAINED:4
+
+# Character Experience
+EXPERIENCE:21000
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Balance|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Monk|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Monk|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Monk|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Monk|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Fighter|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Hone|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Fighter|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Hone|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Monk|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Tumble|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Monk|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Hone|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:City Lore|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:6|
+SKILL:Craft (Maps)|OUTPUTORDER:7|
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Diplomacy|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Listen|OUTPUTORDER:18|
+SKILL:Ride|OUTPUTORDER:20|
+SKILL:Search|OUTPUTORDER:21|
+SKILL:Sense Motive|OUTPUTORDER:22|
+SKILL:Spot|OUTPUTORDER:23|
+SKILL:Survival|OUTPUTORDER:24|
+SKILL:Swim|OUTPUTORDER:25|
+SKILL:Use Rope|OUTPUTORDER:27|
+
+# Character Languages
+LANGUAGE:Battlespeak|LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:-4.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption|DESC:On your action, before making attack rolls for a round, you may choose to subtract up to %1 from all melee attack rolls and add the same number to all melee damage rolls.&pipe;PowerAttackMax
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Reflexes|TYPE:General.Fighter.AttackOption|DESC:You may make a number of additional attacks of opportunity equal to your Dexterity bonus.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deflect Arrows|TYPE:General.Fighter|DESC:Once per round when you would normally be hit with a ranged weapon, you may deflect it so that you take no damage from it.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Critical|APPLIEDTO:Unarmed Strike|TYPE:General|DESC:See Text|DESC:When using the weapon you selected, you gain a +4 bonus on the roll to confirm a threat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precision Strike|TYPE:Special|DESC:You gain a +%1 bonus to hit with your chosen weapon.&pipe;PrecisionStrikeBonus
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+USERPOOL:Animal Trick|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Unarmed Strike|TYPE:General.Fighter|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Specialization|APPLIEDTO:Unarmed Strike|TYPE:Special.Fighter|DESC:You gain a +2 bonus on all damage rolls you make using the selected weapon.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:General.Fighter|DESC:You get a +4 bonus on initiative checks.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Metamagic Feat|POOLPOINTS:0.0
+ABILITY:Monk Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Stunning Fist|TYPE:MonkBonusFeat
+USERPOOL:Monk Feat|POOLPOINTS:0.0
+USERPOOL:Rogue Special Ability|POOLPOINTS:0.0
+USERPOOL:Ranger Combat Style|POOLPOINTS:0.0
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+USERPOOL:Expert Class Skills|POOLPOINTS:0.0
+USERPOOL:High Arcana Ability|POOLPOINTS:0.0
+USERPOOL:Hierophant Ability|POOLPOINTS:0.0
+USERPOOL:Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Advanced Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Loremaster Secret|POOLPOINTS:0.0
+USERPOOL:Dragon Disciple Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Ghost Ability|POOLPOINTS:0.0
+USERPOOL:Psion Feat|POOLPOINTS:0.0
+USERPOOL:Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Psionic Fist Feat|POOLPOINTS:0.0
+USERPOOL:Improved Psicrystal Personality|POOLPOINTS:0.0
+USERPOOL:Elocator Transporter|POOLPOINTS:0.0
+USERPOOL:Thrallherd Charm Choice|POOLPOINTS:0.0
+USERPOOL:Thrallherd Dominate Choice|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu A Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu B Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu C Ability|POOLPOINTS:0.0
+USERPOOL:Epic Barbarian Feat|POOLPOINTS:0.0
+USERPOOL:Epic Bard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cleric Feat|POOLPOINTS:0.0
+USERPOOL:Epic Druid Feat|POOLPOINTS:0.0
+USERPOOL:Epic Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Epic Monk Feat|POOLPOINTS:0.0
+USERPOOL:Epic Paladin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Ranger Feat|POOLPOINTS:0.0
+USERPOOL:Epic Rogue Feat|POOLPOINTS:0.0
+USERPOOL:Epic Sorcerer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Archer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Trickster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Assassin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Blackguard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dragon Disciple Feat|POOLPOINTS:0.0
+USERPOOL:Epic Duelist Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dwarven Defender Feat|POOLPOINTS:0.0
+USERPOOL:Epic Eldritch Knight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Horizon Walker Feat|POOLPOINTS:0.0
+USERPOOL:Epic Loremaster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Mystic Theurge Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shadowdancer Feat|POOLPOINTS:0.0
+USERPOOL:Improved Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Infiltrator Specialist Training|POOLPOINTS:0.0
+USERPOOL:Agent Retriever Feat|POOLPOINTS:0.0
+USERPOOL:Cosmic Descryer Feat|POOLPOINTS:0.0
+USERPOOL:Divine Emissary Feat|POOLPOINTS:0.0
+USERPOOL:Guardian Paramount Feat|POOLPOINTS:0.0
+USERPOOL:High Proselytizer Feat|POOLPOINTS:0.0
+USERPOOL:Legendary Dreadnought Feat|POOLPOINTS:0.0
+USERPOOL:Perfect Wight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Spellcasting Type|POOLPOINTS:0.0
+USERPOOL:Epic Psion Feat|POOLPOINTS:0.0
+USERPOOL:Epic Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Epic Soulknife Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cerebremancer Feat|POOLPOINTS:0.0
+USERPOOL:Salient Divine Ability|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Backsword (Basket Hilted)|WEAPON:Battleaxe|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Giant Rock|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kama|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul (Bladed)|WEAPON:Morningstar|WEAPON:Nunchaku|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pick (Rafter's-Extended)|WEAPON:Pick (Rafter's-Unextended)]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber (Fencing)|WEAPON:Sai|WEAPON:Sap|WEAPON:Schiavona|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)]
+WEAPONPROF:[WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shortstaff|WEAPON:Shuriken|WEAPON:Siangham|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Ray)]
+WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Outfit (Monk's)|OUTPUTORDER:0|COST:0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Monk's)|DATA:NAME=Outfit (Monk's)$COSTMOD=-5]
+EQUIPNAME:Flurry of Blows|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.1|VALUE:Outfit (Monk's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.2|VALUE:Flurry of Blows|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

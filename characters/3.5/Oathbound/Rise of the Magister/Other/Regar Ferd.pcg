@@ -1,0 +1,275 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:My Oathbound
+VERSION:5.10.1
+ROLLMETHOD:2|EXPRESSION:RPG
+PURCHASEPOINTS:Y|TYPE:RPG
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:rpg
+TABLABEL:0
+AUTOSPELLS:N
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:Regar Ferd
+TABNAME:
+PLAYERNAME:
+HEIGHT:144
+WEIGHT:403
+AGE:478
+GENDER:Male
+HANDED:Ambidextrous
+SKINCOLOR:Blue
+EYECOLOR:Blue
+HAIRCOLOR:Black
+HAIRSTYLE:Beehive
+LOCATION:
+CITY:Penance
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:Aloof
+PERSONALITYTRAIT2:Intellectual
+SPEECHPATTERN:
+PHOBIAS:Dragons
+INTERESTS:Poems
+CATCHPHRASE:
+PORTRAIT:H&colon;\Roleplay\Proggies\pcgen\characters\Portraits\CMP\wizardsofthecoast\manualoftheplanes\Mercane.jpg
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:14
+STAT:INT|SCORE:18
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:14
+STAT:PER|SCORE:10
+ALIGN:LN
+RACE:Mercane
+
+# Character Class(es)
+CLASS:Devoted Necromancer|SUBCLASS:None|LEVEL:7|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:5,5,4,3,2|PROHIBITED:Abjuration,Conjuration,Divination,Enchantment,Evocation,Illusion,Transmutation
+CLASSABILITIESLEVEL:Devoted Necromancer=1|HITPOINTS:4|SKILLSGAINED:40
+CLASSABILITIESLEVEL:Devoted Necromancer=2|HITPOINTS:1|SKILLSGAINED:10
+CLASSABILITIESLEVEL:Devoted Necromancer=3|HITPOINTS:2|SKILLSGAINED:10
+CLASSABILITIESLEVEL:Devoted Necromancer=4|HITPOINTS:4|PRESTAT:INT=1|SKILLSGAINED:11
+CLASSABILITIESLEVEL:Devoted Necromancer=5|HITPOINTS:3|SKILLSGAINED:11
+CLASSABILITIESLEVEL:Devoted Necromancer=6|HITPOINTS:3|SKILLSGAINED:11
+CLASSABILITIESLEVEL:Devoted Necromancer=7|HITPOINTS:1|SKILLSGAINED:11
+
+# Character Experience
+EXPERIENCE:21000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Outsider]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Battle|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:City Lore|OUTPUTORDER:5|
+SKILL:Climb|OUTPUTORDER:6|
+SKILL:Concentration|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Alchemy)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Bonecrafting)|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Scrimshaw)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:11|
+SKILL:Diplomacy|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:13|
+SKILL:Escape Artist|OUTPUTORDER:14|
+SKILL:Forgery|OUTPUTORDER:15|
+SKILL:Gather Information|OUTPUTORDER:16|
+SKILL:Heal|OUTPUTORDER:17|
+SKILL:Hide|OUTPUTORDER:18|
+SKILL:Intimidate|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:20|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Necrology)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Spirit Lore)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Profession (Butcher)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Trader)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Research|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:29|
+SKILL:Ritual Casting|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:31|
+SKILL:Sense Motive|OUTPUTORDER:32|
+SKILL:Spellcraft|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Devoted Necromancer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:34|
+SKILL:Survival|OUTPUTORDER:35|
+SKILL:Swim|OUTPUTORDER:36|
+SKILL:Use Rope|OUTPUTORDER:37|
+
+# Character Languages
+LANGUAGE:Abyssal|LANGUAGE:Celestial|LANGUAGE:Ceptu|LANGUAGE:Chromithian|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Faust|LANGUAGE:Infernal|LANGUAGE:Nightling|LANGUAGE:Picker|LANGUAGE:Silver|LANGUAGE:Undercommon
+
+# Character Feats
+FEAT:Corpsecrafter|TYPE:GENERAL|DESC:Undead you raise or create are tougher than normal.
+FEAT:Improved Necromantic Command|TYPE:GENERAL.DEVNECRO|DESC:You are better able to use your necromantic command class ability.
+FEAT:Spell Focus|APPLIEDTO:Necromancy|TYPE:GENERAL.DEVNECRO|DESC:Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.
+FEAT:Bolster Resistance|TYPE:GENERAL|DESC:Undead you raise or create are more resistant to turning than normal.
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Falchion|WEAPON:Gauntlet|WEAPON:Quarterstaff|WEAPON:Spells(Energy Missile)|WEAPON:Spells(Ray)|WEAPON:Spells(Touch)]
+WEAPONPROF:[WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:368.00
+EQUIPNAME:Outfit (Scholar's/Large)|OUTPUTORDER:4|COST:0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Scholar's)|DATA:NAME=Outfit (Scholar's/Large)$SIZE=L$COSTMOD=-5]
+EQUIPNAME:Wand (Bones of Steel)|OUTPUTORDER:8|COST:4500.0|WT:0.0625|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand (Bones of Steel)|DATA:NAME=Wand (Bones of Steel)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Bones of Steel&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Adamantine Dagger|OUTPUTORDER:1|COST:3002.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Adamantine Dagger|DATA:NAME=Adamantine Dagger$EQMOD=ADAM]
+EQUIPNAME:Alchemist's Lab|OUTPUTORDER:2|COST:500|WT:40.0|QUANTITY:1.0
+EQUIPNAME:Sheath (Wrist)|OUTPUTORDER:6|COST:20|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Spell Component Pouch|OUTPUTORDER:7|COST:5|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Robe of the Necromancer (Minor)|OUTPUTORDER:5|COST:7505.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Robe (Silk)|DATA:NAME=Robe of the Necromancer (Minor)$EQMOD=BNS_AC_PROF&pipe;+1.BNS_SKL_CMP&pipe;Knowledge (Necrology)=+5$SPROP=(Robe AC Bonus (Profane) (+1) (Silk/Skill Bonus (Competance) (Knowledge (Necrology) +5)))]
+EQUIPNAME:Oil of Animate Dead|OUTPUTORDER:1|COST:1550|WT:0.01|QUANTITY:2.0
+EQUIPNAME:Mercane Falchion|OUTPUTORDER:8|COST:375|WT:16.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.1|VALUE:Outfit (Scholar's/Large)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.2|VALUE:Mercane Falchion|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.3|VALUE:Alchemist's Lab|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.4|VALUE:Spell Component Pouch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.5|VALUE:Wand (Bones of Steel)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.6|VALUE:Sheath (Wrist)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Sheath (Wrist)|ID:0.1.6.1|VALUE:Adamantine Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.7|VALUE:Robe of the Necromancer (Minor)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.8|VALUE:Oil of Animate Dead|QUANTITY:2.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Demortus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Spirit]|ALIGNALLOW:0123456789|DESC:Lord of Unlife, the Eternal One, Deathstealer|HOLYITEM:None|DEITYFAVWEAP:[WEAPON:Dagger]|DEITYALIGN:LE
+
+# Character Spells Information
+SPELLNAME:Animate Animal|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Animate Dead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Animate Limb|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Animate Skeleton|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Animate Vermin|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Animate Zombie|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Arcane Healing|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Arcane Mark|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Armor of Undeath|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Bestow Curse|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Black Mulching|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Bleeding Wound|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Blindness/Deafness|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Bone Construct|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Bone Tattoo|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Bone Weapon|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Bones of Steel|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Burrowing Bony Digits|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Cadaver Dance|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Cause Fear|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Chill Blood|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Chill Touch|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Command Undead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Consumption of Fire|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Contagion|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Control the Soul|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Death Armor|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Death Curse|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Death Grimace|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Death's Shadow|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Detect Dead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Disrupt Undead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Enervation|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Enhance Familiar|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Enhance Magical Flow|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Enhance Magical Flow (Greater)|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Essence Flare|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:False Life|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Familiar Pocket|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Familiar's Form|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Fear|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Fortify Familiar|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Gentle Repose|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Ghoul Touch|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Ghoulish Curse|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Graft Weapons|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Halt Undead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Handfang|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Havrokr's Minor Blessing|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Healing Touch|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Identify Undead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Invigoration of Undeath|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Lich|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Life Bolt|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Locate Power Point|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Negative Energy Wave|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Phantom's Howl|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Prestidigitation|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Protection from Undead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Ray of Enfeeblement|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Ray of Exhaustion|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Resist Turning|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Scare|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Seek the Soulless|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Sensory Link|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Shadow Horror|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Shadow Mastery|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Shadow Strike|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Shadow Touch|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Share Life|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Shroud of Undeath|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Skull Snare|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Sleep of the Dead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Soul Burst|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Soul Exchange|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Spectral Hand|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Spider Poison|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Spirit Worm|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Steal Sleep|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Strength of Yeenoghu I|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Strength of Yeenoghu II|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Strength of Yeenoghu III|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Strength of Yeenoghu IV|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Strike Barren|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Touch of Fatigue|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Undead Attraction|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Undead Conduit|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Undead Familiar|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Undead Lieutenant|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Undead Torch|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Vampiric Touch|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Visage of the Dead|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Voice of Deathly Whispers|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Wound|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Wraithtouch|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Zombie Form|TIMES:1|CLASS:Devoted Necromancer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLLIST:Devoted Necromancer|Wizard
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+FOLLOWER:Bonebox|TYPE:Skullfamiliar|RACE:ELF SKULL FAMILIAR|HITDICE:0|FILE:\Bonebox.pcg
+FOLLOWER:Bonebox|TYPE:Skullfamiliar|RACE:ELF SKULL FAMILIAR|HITDICE:0|FILE:\Bonebox.pcg
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

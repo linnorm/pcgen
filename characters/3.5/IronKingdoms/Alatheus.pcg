@@ -1,0 +1,346 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Iron Kingdoms Campaign
+VERSION:5.16.3
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:N
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Alatheus
+TABNAME:
+PLAYERNAME:
+HEIGHT:70
+WEIGHT:193
+AGE:21
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:12
+STAT:INT|SCORE:17
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:14
+ALIGN:NG
+RACE:Human (Khard)
+
+# Character Class(es)
+CLASS:Arcane Mechanik|SUBCLASS:None|LEVEL:5|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:4,3,1
+CLASSABILITIESLEVEL:Arcane Mechanik=1|HITPOINTS:6|SKILLSGAINED:36
+CLASSABILITIESLEVEL:Arcane Mechanik=2|HITPOINTS:1|SKILLSGAINED:9
+CLASSABILITIESLEVEL:Arcane Mechanik=3|HITPOINTS:5|SKILLSGAINED:9
+CLASSABILITIESLEVEL:Arcane Mechanik=4|HITPOINTS:1|PRESTAT:INT=1|SKILLSGAINED:9
+CLASSABILITIESLEVEL:Arcane Mechanik=5|HITPOINTS:3|SKILLSGAINED:9
+
+# Character Experience
+EXPERIENCE:10000
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration (Cast defensively)|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Clockwork)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Gunsmithing)|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Mechanika)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:11|
+SKILL:Diplomacy|OUTPUTORDER:12|
+SKILL:Disguise|OUTPUTORDER:13|
+SKILL:Escape Artist|OUTPUTORDER:14|
+SKILL:Forgery|OUTPUTORDER:15|
+SKILL:Gather Information|OUTPUTORDER:16|
+SKILL:Heal|OUTPUTORDER:17|
+SKILL:Hide|OUTPUTORDER:18|
+SKILL:Intimidate|OUTPUTORDER:19|
+SKILL:Jack Handling|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:21|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Mechanika)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Profession (Mechanik)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:28|
+SKILL:Sense Motive|OUTPUTORDER:29|
+SKILL:Spellcraft|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Arcane Mechanik|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:31|
+SKILL:Survival|OUTPUTORDER:32|
+SKILL:Swim|OUTPUTORDER:33|
+SKILL:Use Rope|OUTPUTORDER:34|
+
+# Character Languages
+LANGUAGE:Cygnaran|LANGUAGE:Khadoran
+
+# Character Feats
+FEATPOOL:-3.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Wondrous Item|TYPE:ItemCreation.Wizard.ItemCreation.ArcaneMechanik|DESC:You can create any wondrous item whose prerequisites you meet.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Khard Optional Characteristics|TYPE:KhardCharMod
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Not Jingoistic|TYPE:JingoisticOption
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.EpicWizard.CosmicDescryer.General.Gunmage.General.Gunmage|DESC:You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:GreylordRifle|TYPE:Special
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greylord|TYPE:Society|DESC:Has various social priviledges and obligations. Gains proficiency with pistols or rifles, a single martial weapon, and light armor. May select an extra attack spell at each level. Gets Leadership feat for free at 10th level.|DESC:Has various social priviledges and obligations. Gains proficiency with pistols or rifles, a single martial weapon, and light armor. May select an extra attack spell at each level. Gets Leadership feat for free at 10th level.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Weapon Proficiency|APPLIEDTO:Pick (Heavy)|TYPE:General|DESC:Choose a type of martial weapon. You understand how to use that type of martial weapon in combat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Battlecaster|APPLIEDTO:Acid Arrow,Scorching Ray|TYPE:Society|DESC:Add +2 DC to a number of attack spells equal to INT modifier each time this is taken.|DESC:Add +2 DC to a number of attack spells equal to INT modifier each time this is taken.
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+USERPOOL:Animal Trick|POOLPOINTS:0.0
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Metamagic Feat|POOLPOINTS:0.0
+USERPOOL:Monk Feat|POOLPOINTS:0.0
+USERPOOL:Rogue Special Ability|POOLPOINTS:0.0
+USERPOOL:Ranger Combat Style|POOLPOINTS:0.0
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+USERPOOL:Expert Class Skills|POOLPOINTS:0.0
+USERPOOL:High Arcana Ability|POOLPOINTS:0.0
+USERPOOL:Hierophant Ability|POOLPOINTS:0.0
+USERPOOL:Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Advanced Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Loremaster Secret|POOLPOINTS:0.0
+USERPOOL:Dragon Disciple Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Ghost Ability|POOLPOINTS:0.0
+USERPOOL:Epic Barbarian Feat|POOLPOINTS:0.0
+USERPOOL:Epic Bard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cleric Feat|POOLPOINTS:0.0
+USERPOOL:Epic Druid Feat|POOLPOINTS:0.0
+USERPOOL:Epic Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Epic Monk Feat|POOLPOINTS:0.0
+USERPOOL:Epic Paladin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Ranger Feat|POOLPOINTS:0.0
+USERPOOL:Epic Rogue Feat|POOLPOINTS:0.0
+USERPOOL:Epic Sorcerer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Archer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Trickster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Assassin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Blackguard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dragon Disciple Feat|POOLPOINTS:0.0
+USERPOOL:Epic Duelist Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dwarven Defender Feat|POOLPOINTS:0.0
+USERPOOL:Epic Eldritch Knight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Horizon Walker Feat|POOLPOINTS:0.0
+USERPOOL:Epic Loremaster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Mystic Theurge Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shadowdancer Feat|POOLPOINTS:0.0
+USERPOOL:Improved Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Infiltrator Specialist Training|POOLPOINTS:0.0
+USERPOOL:Agent Retriever Feat|POOLPOINTS:0.0
+USERPOOL:Cosmic Descryer Feat|POOLPOINTS:0.0
+USERPOOL:Divine Emissary Feat|POOLPOINTS:0.0
+USERPOOL:Guardian Paramount Feat|POOLPOINTS:0.0
+USERPOOL:High Proselytizer Feat|POOLPOINTS:0.0
+USERPOOL:Legendary Dreadnought Feat|POOLPOINTS:0.0
+USERPOOL:Perfect Wight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Spellcasting Type|POOLPOINTS:0.0
+USERPOOL:Salient Divine Ability|POOLPOINTS:0.0
+ABILITY:Arcane Mechanik Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Accumulator|TYPE:ItemCreation.ArcaneMechanik|DESC:You can craft arcane accumulators.
+USERPOOL:Arcane Mechanik Feat|POOLPOINTS:0.0
+USERPOOL:Agent Ability|POOLPOINTS:0.0
+USERPOOL:Enforcer Ability|POOLPOINTS:0.0
+USERPOOL:Bodger Special Ability|POOLPOINTS:0.0
+USERPOOL:Second Story Man Special Ability|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mechanik's Wrench|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Quarterstaff|WEAPON:Rifle|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Ray)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Outfit (Artisan's)|OUTPUTORDER:14|COST:0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Artisan's)|DATA:NAME=Outfit (Artisan's)$COSTMOD=-1]
+EQUIPNAME:Studded Leather|OUTPUTORDER:22|COST:25.0|WT:20.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Studded Leather|DATA:NAME=Studded Leather$EQMOD=STEEL]
+EQUIPNAME:Ascendant Talisman|OUTPUTORDER:1|COST:0.5|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Backpack|OUTPUTORDER:2|COST:2|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Bandolier (Ammunition)|OUTPUTORDER:3|COST:0.5|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Bedroll|OUTPUTORDER:4|COST:0.1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Boots (Mechaniks')|OUTPUTORDER:6|COST:3|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Gunner's Kit|OUTPUTORDER:12|COST:100|WT:15.0|QUANTITY:1.0
+EQUIPNAME:Liber Mechanika|OUTPUTORDER:13|COST:15|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Liber Mechanika$SPROP=(Spellbook (Wizard's/Blank))]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:15|COST:1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Pouch (Ammunition)|OUTPUTORDER:17|COST:2|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:18|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Waterskin|OUTPUTORDER:23|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Whetstone|OUTPUTORDER:24|COST:0.02|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Flintstriker|OUTPUTORDER:11|COST:6|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Flask (Empty)|OUTPUTORDER:10|COST:0.03|WT:1.5|QUANTITY:1.0
+EQUIPNAME:Cheese (Hunk)|OUTPUTORDER:8|COST:0.1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Sack|OUTPUTORDER:21|COST:0.1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Blanket (Winter)|OUTPUTORDER:5|COST:0.5|WT:3.0|QUANTITY:1.0
+EQUIPNAME:Bread (Loaf)|OUTPUTORDER:7|COST:0.02|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Pick (Heavy)|OUTPUTORDER:16|COST:8.0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Pick (Heavy)|DATA:NAME=Pick (Heavy)$EQMOD=STEEL]
+EQUIPNAME:Rifle (Vislovski)|OUTPUTORDER:19|COST:600|WT:14.0|QUANTITY:1.0
+EQUIPNAME:Rifle Round (Vislovski)|OUTPUTORDER:20|COST:10|WT:0.1|QUANTITY:42.0
+EQUIPNAME:Dagger|OUTPUTORDER:9|COST:2.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Equipped|ID:0.1.1|VALUE:Liber Mechanika|QUANTITY:1.0
+EQUIPSET:Torso|ID:0.1.2|VALUE:Outfit (Artisan's)|QUANTITY:1.0
+EQUIPSET:Foot|ID:0.1.3|VALUE:Boots (Mechaniks')|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.4|VALUE:Dagger|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.5|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.5.1|VALUE:Whetstone|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.5.2|VALUE:Flask (Empty)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.5.3|VALUE:Flintstriker|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.5.4|VALUE:Ascendant Talisman|QUANTITY:1.0
+EQUIPSET:Ranged|ID:0.2
+EQUIPSET:Equipped|ID:0.2.1|VALUE:Backpack|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.2.1.1|VALUE:Liber Mechanika|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.2.1.2|VALUE:Waterskin|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.2.1.3|VALUE:Sack|QUANTITY:1.0
+EQUIPSET:Sack|ID:0.2.1.3.1|VALUE:Bread (Loaf)|QUANTITY:1.0
+EQUIPSET:Sack|ID:0.2.1.3.2|VALUE:Cheese (Hunk)|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.2.1.4|VALUE:Gunner's Kit|QUANTITY:1.0
+EQUIPSET:Gunner's Kit|ID:0.2.1.4.1|VALUE:Rifle Round (Vislovski)|QUANTITY:10.0
+EQUIPSET:Backpack|ID:0.2.1.5|VALUE:Bedroll|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.2.1.6|VALUE:Blanket (Winter)|QUANTITY:1.0
+EQUIPSET:Foot|ID:0.2.10|VALUE:Boots (Mechaniks')|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.2.11|VALUE:Bandolier (Ammunition)|QUANTITY:1.0
+EQUIPSET:Bandolier (Ammunition)|ID:0.2.11.1|VALUE:Rifle Round (Vislovski)|QUANTITY:11.0
+EQUIPSET:Torso|ID:0.2.3|VALUE:Outfit (Traveler's)|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.2.4|VALUE:Pick (Heavy)|QUANTITY:1.0
+EQUIPSET:Both Hands|ID:0.2.5|VALUE:Rifle (Vislovski)|QUANTITY:1.0
+EQUIPSET:Rifle (Vislovski)|ID:0.2.5.1|VALUE:Rifle Round (Vislovski)|QUANTITY:1.0
+EQUIPSET:Armor|ID:0.2.6|VALUE:Studded Leather|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.2.7|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.2.7.1|VALUE:Ascendant Talisman|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.2.7.2|VALUE:Flask (Empty)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.2.7.3|VALUE:Flintstriker|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.2.7.4|VALUE:Whetstone|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.2.8|VALUE:Pouch (Ammunition)|QUANTITY:1.0
+EQUIPSET:Pouch (Ammunition)|ID:0.2.8.1|VALUE:Rifle Round (Vislovski)|QUANTITY:20.0
+EQUIPSET:Carried|ID:0.2.9|VALUE:Dagger|QUANTITY:1.0
+EQUIPSET:Melee|ID:0.3
+EQUIPSET:Equipped|ID:0.3.1|VALUE:Backpack|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.3.1.1|VALUE:Liber Mechanika|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.3.1.2|VALUE:Waterskin|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.3.1.3|VALUE:Sack|QUANTITY:1.0
+EQUIPSET:Sack|ID:0.3.1.3.1|VALUE:Bread (Loaf)|QUANTITY:1.0
+EQUIPSET:Sack|ID:0.3.1.3.2|VALUE:Cheese (Hunk)|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.3.1.4|VALUE:Gunner's Kit|QUANTITY:1.0
+EQUIPSET:Gunner's Kit|ID:0.3.1.4.1|VALUE:Rifle Round (Vislovski)|QUANTITY:10.0
+EQUIPSET:Backpack|ID:0.3.1.5|VALUE:Bedroll|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.3.1.6|VALUE:Blanket (Winter)|QUANTITY:1.0
+EQUIPSET:Foot|ID:0.3.10|VALUE:Boots (Mechaniks')|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.3.11|VALUE:Bandolier (Ammunition)|QUANTITY:1.0
+EQUIPSET:Bandolier (Ammunition)|ID:0.3.11.1|VALUE:Rifle Round (Vislovski)|QUANTITY:11.0
+EQUIPSET:Torso|ID:0.3.3|VALUE:Outfit (Traveler's)|QUANTITY:1.0
+EQUIPSET:Primary Hand|ID:0.3.4|VALUE:Pick (Heavy)|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.3.5|VALUE:Rifle (Vislovski)|QUANTITY:1.0
+EQUIPSET:Rifle (Vislovski)|ID:0.3.5.1|VALUE:Rifle Round (Vislovski)|QUANTITY:1.0
+EQUIPSET:Armor|ID:0.3.6|VALUE:Studded Leather|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.3.7|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.3.7.1|VALUE:Ascendant Talisman|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.3.7.2|VALUE:Flask (Empty)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.3.7.3|VALUE:Flintstriker|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.3.7.4|VALUE:Whetstone|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.3.8|VALUE:Pouch (Ammunition)|QUANTITY:1.0
+EQUIPSET:Pouch (Ammunition)|ID:0.3.8.1|VALUE:Rifle Round (Vislovski)|QUANTITY:20.0
+EQUIPSET:Carried|ID:0.3.9|VALUE:Dagger|QUANTITY:1.0
+CALCEQUIPSET:0.2
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Morrow (Ascendant Markus)|DEITYDOMAINS:[DOMAIN:Good|DOMAIN:Healing|DOMAIN:Knowledge|DOMAIN:Protection|DOMAIN:Strength|DOMAIN:Travel|DOMAIN:War|DOMAIN:Warrior]|ALIGNALLOW:|DESC:Patron of soldiers and town guards. Clerics are required to take War and/or Warrior domains.|HOLYITEM:Sunburst of Morrow|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Handaxe|WEAPON:Battleaxe|WEAPON:Greataxe|WEAPON:Waraxe (Dwarven)|WEAPON:Longsword|WEAPON:Greatsword|WEAPON:Sword (Short)|WEAPON:Sword (Bastard)|WEAPON:Claymore (Nyss)]|DEITYALIGN:NG
+
+# Character Spells Information
+SPELLBOOK:Liber Mechanika|TYPE:3
+SPELLBOOK:Prepared Spells|TYPE:2
+SPELLNAME:Acid Arrow|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Acid Arrow|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Acid Arrow|TIMES:1|CLASS:Arcane Mechanik|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Arcane Apparatus|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Arcane Apparatus|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Arcane Bullet|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Arcane Bullet|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Arcane Bullet|TIMES:1|CLASS:Arcane Mechanik|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Arcane Mechanik|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Fox's Cunning|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Fox's Cunning|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Mage Armor|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Mage Armor|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Mage Armor|TIMES:1|CLASS:Arcane Mechanik|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Magic Missile|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Magic Missile|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Magic Missile|TIMES:1|CLASS:Arcane Mechanik|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Magic Weapon|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Magic Weapon|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Mending|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Mending|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Mending|TIMES:2|CLASS:Arcane Mechanik|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Ray of Frost|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Ray of Frost|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:0|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Arcane Mechanik|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Scorching Ray|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Scorching Ray|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:2|SPELLNUMPAGES:2|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Scramble|TIMES:1|CLASS:Arcane Mechanik|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLNAME:Scramble|TIMES:1|CLASS:Arcane Mechanik|BOOK:Liber Mechanika|SPELLLEVEL:1|SPELLNUMPAGES:1|SOURCE:[TYPE:CLASS|NAME:Arcane Mechanik]
+SPELLLIST:Arcane Mechanik|CLASS.Wizard
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

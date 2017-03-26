@@ -1,0 +1,152 @@
+﻿PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - Sons of Gruumsh v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:25
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:songrmh_v35e_part3_xul_jarak_room28_hall_of_beating_drums_orc_spearfighter_2
+TABNAME:
+PLAYERNAME:NPC
+HEIGHT:72
+WEIGHT:210
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:C&colon;\Documents and Settings\jbrown51\My Documents\Personal\Extra\PCGen\portraits\cmp\wizards_of_the_coast\monster_manual\Orc.jpg
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:13
+STAT:CON|SCORE:12
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:8
+ALIGN:CE
+RACE:Orc
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:2|SKILLPOOL:1|PROHIBITED:None
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:9|ABILITY:[PROMPT:FEAT(TYPE=Fighter)|CHOICE:Power Attack]|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:6|SKILLSGAINED:1|SKILLSREMAINING:1
+
+# Character Experience
+EXPERIENCE:1000
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Literacy|LANGUAGE:Orc
+
+# Character Feats
+FEAT:Alertness|TYPE:GENERAL|DESC:You have finely tuned senses
+FEAT:Endurance|TYPE:GENERAL|DESC:You are capable of amazing feats of stamina
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana (Martial)|WEAPON:Kukri|WEAPON:Kusari-gama|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spiked Armor|WEAPON:Sword (Bastard/Martial)]
+WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Waraxe (Dwarven/Martial)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Studded Leather|OUTPUTORDER:7|COST:25.0|WT:20.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Studded Leather|DATA:EQMOD=ARMR_STEEL]
+EQUIPNAME:Longspear|OUTPUTORDER:2|COST:5.0|WT:9.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Longspear|DATA:EQMOD=WEAP_WOOD]
+EQUIPNAME:Dagger|OUTPUTORDER:1|COST:2.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Dagger|DATA:EQMOD=WEAP_STEEL]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:3|COST:50|WT:0.1|QUANTITY:2.0
+EQUIPNAME:Potion of Heroism|OUTPUTORDER:4|COST:750|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Potion of Shield of Faith +3|OUTPUTORDER:5|COST:300|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:6|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:1|COST:1|WT:0.02|QUANTITY:150.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Armor|ID:0.1.1|VALUE:Studded Leather|QUANTITY:1.0
+EQUIPSET:Both Hands|ID:0.1.2|VALUE:Longspear|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.3|VALUE:Dagger|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.4|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.4.1|VALUE:Potion of Cure Light Wounds|QUANTITY:2.0
+EQUIPSET:Pouch (Belt)|ID:0.1.4.2|VALUE:Potion of Heroism|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.4.3|VALUE:Potion of Shield of Faith +3|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.4.4|VALUE:Coin (Gold)|QUANTITY:150.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:Orcs are aggressive humanoids that raid, pillage, and battle other&cr;&nl;creatures. They have a hatred of elves and dwarves that began generations&cr;&nl;ago, and often kill such creatures on sight.&cr;&nl;An orc’s hair usually is black. It has lupine ears and reddish eyes.&cr;&nl;Orcs prefer wearing vivid colors that many humans would consider&cr;&nl;unpleasant, such as blood red, mustard yellow, yellow-green,&cr;&nl;and deep purple. Their equipment is dirty and unkempt. An adult&cr;&nl;male orc is a little over 6 feet tall and weighs about 210 pounds.&cr;&nl;Females are slightly smaller.&cr;&nl;When not actually fighting other creatures, orcs are usually&cr;&nl;planning raids or practicing their fighting skills.&cr;&nl;The language an orc speaks varies slightly from tribe to tribe,&cr;&nl;but any orc is understandable by someone else who speaks Orc.&cr;&nl;Some orcs know Goblin or Giant as well.&cr;&nl;Most orcs encountered away from their homes are warriors; the&cr;&nl;information in the statistics block is for one of 1st level.&cr;&nl;COMBAT&cr;&nl;Orcs are proficient with all simple weapons, preferring those that&cr;&nl;cause the most damage in the least time. Many orcs who take up&cr;&nl;the warrior or fighter class also gain proficiency with the falchion&cr;&nl;or the greataxe as a martial weapon. They&cr;&nl;enjoy attacking from concealment&cr;&nl;and setting ambushes, and&cr;&nl;they obey the rules of war&cr;&nl;(such as honoring a truce)&cr;&nl;only as long as it is convenient&cr;&nl;for them.&cr;&nl;
+CHARACTERDESC:This creature looks like a primitive human with gray skin and coarse hair.&cr;&nl;It has a stooped posture, low forehead, and a piglike face with prominent&cr;&nl;lower canines that resemble a boar’s tusks.&cr;&nl;
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

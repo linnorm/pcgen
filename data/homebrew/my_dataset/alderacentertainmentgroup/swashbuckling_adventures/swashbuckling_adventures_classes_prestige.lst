@@ -1,0 +1,20 @@
+# CVS $Revision: $ $Author: $ -- Sat Oct 25 22:06:57 2003 -- reformated by prettylst.pl v1.30 (build 316)
+SOURCELONG:Alderac Entertainment Group - Swashbuckling Adventures	SOURCESHORT:Swashbuckling Adventures	SOURCEWEB:http://alderac.com/d20
+
+# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus												Combat bonus
+# Class Name	Skill Pts/Lvl	Class Skill
+# Class Name	Spell Stat		Spell Type		Memorize	Use Spell List
+
+# Class Name			Hit Dice	Type			Abbreviation	Source Page			Save checks bonus											Combat bonus
+CLASS:Valroux Swordsman		HD:10		TYPE:Prestige.PC	ABB:ValSw		SOURCEPAGE:pg. 97		BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Valroux Swordsman		STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Disguise|Escape Artist|Heal|Jump|Listen|Search|Sense Motive|Spot|Tumble|Use Rope
+# Class Name			Required Skill
+CLASS:Valroux Swordsman		PRESKILL:2,Bluff=6,Sense Motive=4	ALLOWBASECLASS:NO		PREATT:4	PREABILITY:2,CATEGORY=FEAT,Weapon Focus (Rapier),Weapon Focus (Main Gauche)
+1	ABILITY:Valroux Swordsman Class Feature|AUTOMATIC|Valroux Swordsman ~ Weapon and Armor Proficiency
+1	ABILITY:Valroux Swordsman Class Feature|AUTOMATIC|Valroux Swordsman ~ Focused Training
+1	ABILITY:Valroux Swordsman Class Feature|AUTOMATIC|Valroux Swordsman ~ Off-Hand Fighting
+2	ABILITY:Valroux Swordsman Class Feature|AUTOMATIC|Valroux Swordsman ~ Bonus Feats
+3	ABILITY:Valroux Swordsman Class Feature|AUTOMATIC|Valroux Swordsman ~ Raise the Stakes
+4
+5	ABILITY:Valroux Swordsman Class Feature|AUTOMATIC|Valroux Swordsman ~ Nimble

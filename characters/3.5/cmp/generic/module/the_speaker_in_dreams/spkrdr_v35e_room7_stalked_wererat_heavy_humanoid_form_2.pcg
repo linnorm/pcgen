@@ -1,0 +1,148 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - The Speaker in Dreams v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:24
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:spkrdr_v35e_room7_stalked_wererat_heavy_humanoid_form_2
+TABNAME:
+PLAYERNAME:
+HEIGHT:69
+WEIGHT:164
+AGE:20
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Pasty
+EYECOLOR:Blue
+HAIRCOLOR:Blond
+HAIRSTYLE:Swept over the right eye
+LOCATION:
+CITY:Brindinford
+BIRTHPLACE:Rural
+PERSONALITYTRAIT1:Immature
+PERSONALITYTRAIT2:Hedonist
+SPEECHPATTERN:Commanding Voice
+PHOBIAS:Slime
+INTERESTS:Herbs
+CATCHPHRASE:How does this chair work?
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:13
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:11
+ALIGN:CE
+RACE:Human
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:2|SKILLPOOL:8|PROHIBITED:None
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|ABILITY:[PROMPT:FEAT(TYPE=Fighter)|CHOICE:Blind Fight]|SKILLSGAINED:16|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:4
+
+# Character Experience
+EXPERIENCE:6000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Lycanthrope]
+TEMPLATESAPPLIED:[NAME:Afflicted Lycanthrope]
+TEMPLATESAPPLIED:[NAME:Lycanthrope (Wererat - Humanoid Form)]
+TEMPLATESAPPLIED:[NAME:Lycanthrope CR 1~2 HD]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Literacy
+
+# Character Feats
+FEAT:Improved Initiative|TYPE:GENERAL.FIGHTER|DESC:You can react more quickly than normal in a fight
+FEAT:Weapon Focus|APPLIEDTO:Rapier|TYPE:GENERAL.FIGHTER|DESC:You are especialy good at using the chosen weapon
+FEAT:Dodge|TYPE:GENERAL.FIGHTER|DESC:You are adept at dodging blows
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Bead of Force|WEAPON:Blowgun|WEAPON:Bomb|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)]
+WEAPONPROF:[WEAPON:Dart|WEAPON:Dynamite|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Fragmentation Grenade|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana (Martial)|WEAPON:Kukri|WEAPON:Kusari-gama]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rock|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Smoke Grenade|WEAPON:Smokebomb|WEAPON:Spear|WEAPON:Spiked Armor|WEAPON:Sword (Bastard/Martial)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Wakizashi|WEAPON:Waraxe (Dwarven/Martial)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Potion of Nondetection|OUTPUTORDER:2|COST:750|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Bracers of Armor +1|OUTPUTORDER:1|COST:1000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Rapier (Masterwork)|OUTPUTORDER:1|COST:320.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier (Masterwork)$EQMOD=WEAP_MWORK.WEAP_STEEL]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Arm|ID:0.1.1|VALUE:Bracers of Armor +1|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.2|VALUE:Potion of Nondetection|QUANTITY:1.0
+EQUIPSET:Primary Hand|ID:0.1.3|VALUE:Rapier (Masterwork)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

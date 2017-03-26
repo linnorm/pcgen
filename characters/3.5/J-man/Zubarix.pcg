@@ -1,0 +1,192 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:wotc - Heroes of Horror - RSRD|CAMPAIGN:wotc - Complete Arcane - RSRD|CAMPAIGN:wotc - Complete Mage|CAMPAIGN:wotc - Libris Mortis - RSRD|CAMPAIGN:wotc - Spell Compendium - RSRD|CAMPAIGN:SSS - Relics and Rituals|CAMPAIGN:WotC - Magic Item Compendium|CAMPAIGN:FFG - Spells and Spellcraft - Source Book - 3.5 Conversion|CAMPAIGN:DWG - Spells and Magic 3.5|CAMPAIGN:wotc - Book of Vile Darkness RSRD|CAMPAIGN:Mongoose - Encyclopaedia Arcane - Necromancy - 3.5 Conversion|CAMPAIGN:SSS - Hollowfaust - City of Necromancers 3.5|CAMPAIGN:SSS - Relics and Rituals II 3.5
+VERSION:6.04.01
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Zubarix
+TABNAME:
+PLAYERNAME:
+HEIGHT:70
+WEIGHT:192
+AGE:19
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:9
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:13
+STAT:INT|SCORE:14
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:18
+ALIGN:LE
+RACE:Human
+
+# Character Class(es)
+CLASS:Dread Necromancer|LEVEL:1|SKILLPOOL:0
+CLASSABILITIESLEVEL:Dread Necromancer=1|HITPOINTS:6|ADD:[FEAT:Martial Weapon Proficiency|CHOICE:CATEGORY=FEAT&pipe;NATURE=NORMAL&pipe;Martial Weapon Proficiency&pipe;Sword (Bastard)]|SKILLSGAINED:20|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:0
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Human Base]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Dread Necromancer|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Bonecrafting)|CLASSBOUGHT:[CLASS:Dread Necromancer|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:22|
+SKILL:Craft ~ Alchemy|OUTPUTORDER:6|
+SKILL:Craft ~ Armorsmithing|OUTPUTORDER:7|
+SKILL:Craft ~ Blacksmithing|OUTPUTORDER:8|
+SKILL:Craft ~ Bowmaking|OUTPUTORDER:9|
+SKILL:Craft ~ Carpentry|OUTPUTORDER:10|
+SKILL:Craft ~ Dreamweaving|OUTPUTORDER:11|
+SKILL:Craft ~ Gemcutting|OUTPUTORDER:12|
+SKILL:Craft ~ Leatherworking|OUTPUTORDER:13|
+SKILL:Craft ~ Metalworking|OUTPUTORDER:14|
+SKILL:Craft ~ Painting|OUTPUTORDER:15|
+SKILL:Craft ~ Pottery|OUTPUTORDER:16|
+SKILL:Craft ~ Sculpting|OUTPUTORDER:17|
+SKILL:Craft ~ Shipmaking|OUTPUTORDER:18|
+SKILL:Craft ~ Stonemasonry|OUTPUTORDER:19|
+SKILL:Craft ~ Stoneworking|OUTPUTORDER:20|
+SKILL:Craft ~ Trapmaking|OUTPUTORDER:21|
+SKILL:Craft ~ Weaponsmithing|OUTPUTORDER:23|
+SKILL:Craft ~ Woodworking|OUTPUTORDER:24|
+SKILL:Diplomacy|OUTPUTORDER:25|
+SKILL:Disguise|OUTPUTORDER:26|
+SKILL:Escape Artist|OUTPUTORDER:27|
+SKILL:Forgery|OUTPUTORDER:28|
+SKILL:Gather Information|OUTPUTORDER:29|
+SKILL:Heal|OUTPUTORDER:30|
+SKILL:Hide|OUTPUTORDER:31|
+SKILL:Intimidate|OUTPUTORDER:32|
+SKILL:Jump|OUTPUTORDER:33|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Dread Necromancer|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Dread Necromancer|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:36|
+SKILL:Move Silently|OUTPUTORDER:37|
+SKILL:Perform (Untrained)|OUTPUTORDER:46|
+SKILL:Perform ~ Act|OUTPUTORDER:38|
+SKILL:Perform ~ Comedy|OUTPUTORDER:39|
+SKILL:Perform ~ Dance|OUTPUTORDER:40|
+SKILL:Perform ~ Keyboard Instruments|OUTPUTORDER:41|
+SKILL:Perform ~ Oratory|OUTPUTORDER:42|
+SKILL:Perform ~ Percussion Instruments|OUTPUTORDER:43|
+SKILL:Perform ~ Sing|OUTPUTORDER:44|
+SKILL:Perform ~ String Instruments|OUTPUTORDER:45|
+SKILL:Perform ~ Wind Instruments|OUTPUTORDER:47|
+SKILL:Ride|OUTPUTORDER:48|
+SKILL:Search|OUTPUTORDER:49|
+SKILL:Sense Motive|OUTPUTORDER:50|
+SKILL:Spellcraft|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Dread Necromancer|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:52|
+SKILL:Survival|OUTPUTORDER:53|
+SKILL:Swim|OUTPUTORDER:54|
+SKILL:Use Rope|OUTPUTORDER:55|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:1.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Turning|TYPE:General|DESC:You can turn or rebuke greater numbers of undead with a single turning attempt.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Turning|TYPE:General|DESC:You turn or rebuke creatures as if you were one level higher than you are in the class that grants you the ability.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Weapon Proficiency|APPLIEDTO:Sword (Bastard)|TYPE:General|DESC:Choose a type of martial weapon. You understand how to use that type of martial weapon in combat.
+USERPOOL:FEAT|POOLPOINTS:1.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Javelin|WEAPON:Kin-Skull|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Sword (Bastard)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:COSTMOD=-1]
+EQUIPNAME:Spellbook (Wizard's/Blank)|OUTPUTORDER:0|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Wizard's/Blank)]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.1|VALUE:Spellbook (Wizard's/Blank)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Afflux|DEITYDOMAINS:[DOMAIN:Knowledge|DOMAIN:Evil|DOMAIN:Deathbound|DOMAIN:Undeath]|ALIGNALLOW:|DESC:Inquiry, necromancy, death|HOLYITEM:A scarlet droplet|DEITYFAVWEAP:[WEAPON:Sword (Short)]|DEITYALIGN:NE
+
+# Character Spells Information
+SPELLBOOK:Spellbook (Wizard's/Blank)|TYPE:3
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Wizard Spell Book
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

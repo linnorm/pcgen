@@ -1,0 +1,24 @@
+# CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
+CAMPAIGN:AEG - Swashbuckling Adventures 3.5 Conversion
+GAMEMODE:35e
+TYPE:Alderac Entertainment Group.Sourcebook
+RANK:9
+SOURCELONG:Alderac Entertainment Group - Swashbuckling Adventures
+SOURCESHORT:Swashbuckling Adventures
+SOURCEWEB:http://alderac.com/d20
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+
+
+ABILITY:swashbuckling_adventures_abilities.lst
+ABILITY:swashbuckling_adventures_feats.lst
+ABILITYCATEGORY:swashbuckling_adventures_abilitycategories.lst
+ARMORPROF:swashbuckling_adventures_armorprof.lst
+CLASS:swashbuckling_adventures_classes_base.lst
+CLASS:swashbuckling_adventures_classes_prestige.lst
+EQUIPMENT:swashbuckling_adventures_equip_arms_and_armor.lst
+EQUIPMOD:swashbuckling_adventures_equipmods.lst
+LANGUAGE:swashbuckling_adventures_languages.lst
+SKILL:swashbuckling_adventures_skills.lst
+SPELL:swashbuckling_adventures_spells.lst
+WEAPONPROF:swashbuckling_adventures_profs_weapon.lst

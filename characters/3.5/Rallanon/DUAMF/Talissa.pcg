@@ -1,0 +1,253 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Rallanon Base
+VERSION:5.10.1
+ROLLMETHOD:2|EXPRESSION:RPG
+PURCHASEPOINTS:Y|TYPE:RPG
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:rpg
+TABLABEL:0
+AUTOSPELLS:N
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:Talissa
+TABNAME:
+PLAYERNAME:
+HEIGHT:53
+WEIGHT:100
+AGE:16
+GENDER:Female
+HANDED:Left
+SKINCOLOR:Golden Tan
+EYECOLOR:Yellow
+HAIRCOLOR:Dirty blonde
+HAIRSTYLE:Two long braids
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:Woodbridge, Athega
+PERSONALITYTRAIT1:Grim
+PERSONALITYTRAIT2:Know-it-all
+SPEECHPATTERN:Commanding Voice
+PHOBIAS:Closed spaces
+INTERESTS:Nature
+CATCHPHRASE:
+PORTRAIT:E&colon;\Roleplay\Proggies\pcgen\characters\Portraits\Rallanon\Talissa_small.png
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:13
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:14
+STAT:PER|SCORE:13
+ALIGN:NG
+RACE:Elf (Moon)
+
+# Character Class(es)
+CLASS:Huntsman|SUBCLASS:None|LEVEL:3|SKILLPOOL:0|PROHIBITED:None
+CLASSABILITIESLEVEL:Huntsman=1|HITPOINTS:10|SPECIALABILITIES:[SA:Favored Enemy(Humanoid)]|SKILLSGAINED:16
+CLASSABILITIESLEVEL:Huntsman=2|HITPOINTS:7|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Huntsman=3|HITPOINTS:8|SKILLSGAINED:4
+
+# Character Experience
+EXPERIENCE:3000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Ral Regions]
+TEMPLATESAPPLIED:[NAME:Athega]
+
+# Character Region
+REGION:Athega
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bargain|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Climb|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Huntsman|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Disguise|OUTPUTORDER:9|
+SKILL:Escape Artist|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:11|
+SKILL:Gather Information|OUTPUTORDER:12|
+SKILL:Heal|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Huntsman|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Huntsman|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:15|
+SKILL:Jump|OUTPUTORDER:16|
+SKILL:Knowledge (Athega)|OUTPUTORDER:17|
+SKILL:Knowledge (Nature)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Huntsman|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Huntsman|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Huntsman|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:21|
+SKILL:Research|OUTPUTORDER:22|
+SKILL:Ride|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Huntsman|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Huntsman|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:25|
+SKILL:Speak Language|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Huntsman|RANKS:1.0|COST:2|CLASSSKILL:N]|ASSOCIATEDDATA:Candonian
+SKILL:Spot|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Huntsman|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Huntsman|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:29|
+SKILL:Use Rope|OUTPUTORDER:30|
+
+# Character Languages
+LANGUAGE:Bloodlandian|LANGUAGE:Candonian|LANGUAGE:Elaurin
+
+# Character Feats
+FEAT:Outdoorsman|TYPE:GENERAL|DESC:You are trained particularly well for life in the wild
+FEAT:Power Attack|TYPE:GENERAL.FIGHTER.MARTIALARTS|DESC:On your action, before making attack rolls for a round, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. This number may not exceed your base attack bonus.
+FEAT:Point Blank Shot|TYPE:GENERAL.FIGHTER.SCOUT|DESC:You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aclis|WEAPON:Angle Knife|WEAPON:Axe (Carpenter's)|WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bladed Bow|WEAPON:Broadsword|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flamberge]
+WEAPONPROF:[WEAPON:Flametongue|WEAPON:Flax|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gauntlets (Clawed)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Half Moon Spear|WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Karvar|WEAPON:Kin-Skull|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)]
+WEAPONPROF:[WEAPON:Pike|WEAPON:Pilum|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Sawtooth|WEAPON:Scimitar|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Energy Missile)|WEAPON:Spells(Ray)|WEAPON:Spells(Touch)]
+WEAPONPROF:[WEAPON:Spider Throwing Knife|WEAPON:Spiked Armor|WEAPON:Spiked Helmet|WEAPON:Staff Sling|WEAPON:Straight Razor|WEAPON:Sword (Bastard)|WEAPON:Sword (Cane)|WEAPON:Sword (Guantlet)|WEAPON:Sword (Short)|WEAPON:Sword (Tulwar)]
+WEAPONPROF:[WEAPON:Sword-Pike|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:War Cleaver|WEAPON:War Rake|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:19|COST:10|WT:8.0|QUANTITY:0.0
+EQUIPNAME:Backpack|OUTPUTORDER:4|COST:2|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Waterskin|OUTPUTORDER:34|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Flint and Steel|OUTPUTORDER:12|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:21|COST:1|WT:0.5|QUANTITY:2.0
+EQUIPNAME:Whetstone|OUTPUTORDER:35|COST:0.02|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Torch|OUTPUTORDER:31|COST:0.01|WT:1.0|QUANTITY:2.0
+EQUIPNAME:Arrow|OUTPUTORDER:1|COST:0.05|WT:0.15|QUANTITY:40.0|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=STEEL.WOOD]
+EQUIPNAME:Bracers of Armor +2|OUTPUTORDER:8|COST:4000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Greatsword +1|OUTPUTORDER:14|COST:2350.0|WT:8.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Greatsword|DATA:NAME=Greatsword +1$EQMOD=MWORKW.PLUS1W.STEEL]
+EQUIPNAME:Longbow (Composite/Bow Stabilizer)|OUTPUTORDER:17|COST:200.0|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Longbow (Composite/Bow Stabilizer)$EQMOD=QUINTFSBL.WOOD]
+EQUIPNAME:Potion (Cure Light Wounds)|OUTPUTORDER:20|COST:50|WT:0.0|QUANTITY:5.0
+EQUIPNAME:Arrow (Barbed)|OUTPUTORDER:2|COST:0.5|WT:0.15|QUANTITY:40.0
+EQUIPNAME:Coin Purse|OUTPUTORDER:9|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Fanco|OUTPUTORDER:11|COST:10|WT:0.02|QUANTITY:23.0
+EQUIPNAME:Haldan|OUTPUTORDER:15|COST:1|WT:0.02|QUANTITY:330.0
+EQUIPNAME:Olona|OUTPUTORDER:18|COST:0.1|WT:0.02|QUANTITY:6.0
+EQUIPNAME:Belt (Potion)|OUTPUTORDER:6|COST:1|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:26|COST:0.5|WT:1.0|QUANTITY:2.0
+EQUIPNAME:Water (Pint)|OUTPUTORDER:33|COST:0|WT:1.0|QUANTITY:4.0
+EQUIPNAME:Quiver (Normal Arrows)|OUTPUTORDER:25|COST:4|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Quiver (Large)|DATA:NAME=Quiver (Normal Arrows)]
+EQUIPNAME:Quiver (Barbed Arrows)|OUTPUTORDER:23|COST:4|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Quiver (Large)|DATA:NAME=Quiver (Barbed Arrows)]
+EQUIPNAME:Ruby (Star)|OUTPUTORDER:1|COST:1000.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Gem (Ruby (Star))|DATA:NAME=Ruby (Star)$EQMOD=GEM&pipe;+1000$SPROP=(Gem (Ruby (Star)))]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Torso|ID:0.1.1|VALUE:Outfit (Explorer's)|QUANTITY:1.0
+EQUIPSET:Arms|ID:0.1.15|VALUE:Bracers of Armor +2|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.18|VALUE:Greatsword +1|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.2|VALUE:Backpack|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.1.2.2|VALUE:Waterskin|QUANTITY:1.0
+EQUIPSET:Waterskin|ID:0.1.2.2.1|VALUE:Water (Pint)|QUANTITY:4.0
+EQUIPSET:Backpack|ID:0.1.2.3|VALUE:Torch|QUANTITY:2.0
+EQUIPSET:Backpack|ID:0.1.2.4|VALUE:Rations (Trail/Per Day)|QUANTITY:2.0
+EQUIPSET:Equipped|ID:0.1.20|VALUE:Belt (Potion)|QUANTITY:1.0
+EQUIPSET:Belt (Potion)|ID:0.1.20.1|VALUE:Potion (Cure Light Wounds)|QUANTITY:5.0
+EQUIPSET:Equipped|ID:0.1.21|VALUE:Quiver (Barbed Arrows)|QUANTITY:1.0
+EQUIPSET:Quiver (Barbed Arrows)|ID:0.1.21.1|VALUE:Arrow (Barbed)|QUANTITY:40.0
+EQUIPSET:Equipped|ID:0.1.22|VALUE:Quiver (Normal Arrows)|QUANTITY:1.0
+EQUIPSET:Quiver (Normal Arrows)|ID:0.1.22.1|VALUE:Arrow|QUANTITY:40.0
+EQUIPSET:Equipped|ID:0.1.24|VALUE:Coin Purse|QUANTITY:1.0
+EQUIPSET:Coin Purse|ID:0.1.24.1|VALUE:Fanco|QUANTITY:23.0
+EQUIPSET:Coin Purse|ID:0.1.24.2|VALUE:Olona|QUANTITY:6.0
+EQUIPSET:Coin Purse|ID:0.1.24.3|VALUE:Ruby (Star)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.25|VALUE:Longbow (Composite/Bow Stabilizer)|QUANTITY:1.0
+EQUIPSET:Not Carried|ID:0.1.26|VALUE:Haldan|QUANTITY:330.0
+EQUIPSET:Equipped|ID:0.1.27|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.5|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.5.2|VALUE:Whetstone|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.1.5.3|VALUE:Flint and Steel|QUANTITY:1.0
+EQUIPSET:Ranged|ID:0.3
+EQUIPSET:Torso|ID:0.3.1|VALUE:Outfit (Explorer's)|QUANTITY:1.0
+EQUIPSET:Arms|ID:0.3.15|VALUE:Bracers of Armor +2|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.3.18|VALUE:Greatsword +1|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.3.2|VALUE:Backpack|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.3.2.2|VALUE:Waterskin|QUANTITY:1.0
+EQUIPSET:Waterskin|ID:0.3.2.2.1|VALUE:Water (Pint)|QUANTITY:4.0
+EQUIPSET:Backpack|ID:0.3.2.3|VALUE:Torch|QUANTITY:2.0
+EQUIPSET:Backpack|ID:0.3.2.4|VALUE:Rations (Trail/Per Day)|QUANTITY:2.0
+EQUIPSET:Equipped|ID:0.3.20|VALUE:Belt (Potion)|QUANTITY:1.0
+EQUIPSET:Belt (Potion)|ID:0.3.20.1|VALUE:Potion (Cure Light Wounds)|QUANTITY:5.0
+EQUIPSET:Equipped|ID:0.3.21|VALUE:Quiver (Barbed Arrows)|QUANTITY:1.0
+EQUIPSET:Quiver (Barbed Arrows)|ID:0.3.21.1|VALUE:Arrow (Barbed)|QUANTITY:40.0
+EQUIPSET:Equipped|ID:0.3.22|VALUE:Quiver (Normal Arrows)|QUANTITY:1.0
+EQUIPSET:Quiver (Normal Arrows)|ID:0.3.22.1|VALUE:Arrow|QUANTITY:40.0
+EQUIPSET:Equipped|ID:0.3.24|VALUE:Coin Purse|QUANTITY:1.0
+EQUIPSET:Coin Purse|ID:0.3.24.1|VALUE:Fanco|QUANTITY:23.0
+EQUIPSET:Coin Purse|ID:0.3.24.2|VALUE:Olona|QUANTITY:6.0
+EQUIPSET:Coin Purse|ID:0.3.24.3|VALUE:Ruby (Star)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.3.25|VALUE:Longbow (Composite/Bow Stabilizer)|QUANTITY:1.0
+EQUIPSET:Not Carried|ID:0.3.26|VALUE:Haldan|QUANTITY:330.0
+EQUIPSET:Equipped|ID:0.3.27|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.3.5|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.3.5.2|VALUE:Whetstone|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.3.5.3|VALUE:Flint and Steel|QUANTITY:1.0
+EQUIPSET:Melee (Greatsword)|ID:0.5
+EQUIPSET:Torso|ID:0.5.1|VALUE:Outfit (Explorer's)|QUANTITY:1.0
+EQUIPSET:Arms|ID:0.5.15|VALUE:Bracers of Armor +2|QUANTITY:1.0
+EQUIPSET:Both Hands|ID:0.5.18|VALUE:Greatsword +1|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.5.2|VALUE:Backpack|QUANTITY:1.0
+EQUIPSET:Backpack|ID:0.5.2.2|VALUE:Waterskin|QUANTITY:1.0
+EQUIPSET:Waterskin|ID:0.5.2.2.1|VALUE:Water (Pint)|QUANTITY:4.0
+EQUIPSET:Backpack|ID:0.5.2.3|VALUE:Torch|QUANTITY:2.0
+EQUIPSET:Backpack|ID:0.5.2.4|VALUE:Rations (Trail/Per Day)|QUANTITY:2.0
+EQUIPSET:Equipped|ID:0.5.20|VALUE:Belt (Potion)|QUANTITY:1.0
+EQUIPSET:Belt (Potion)|ID:0.5.20.1|VALUE:Potion (Cure Light Wounds)|QUANTITY:5.0
+EQUIPSET:Equipped|ID:0.5.21|VALUE:Quiver (Barbed Arrows)|QUANTITY:1.0
+EQUIPSET:Quiver (Barbed Arrows)|ID:0.5.21.1|VALUE:Arrow (Barbed)|QUANTITY:40.0
+EQUIPSET:Equipped|ID:0.5.22|VALUE:Quiver (Normal Arrows)|QUANTITY:1.0
+EQUIPSET:Quiver (Normal Arrows)|ID:0.5.22.1|VALUE:Arrow|QUANTITY:40.0
+EQUIPSET:Equipped|ID:0.5.24|VALUE:Coin Purse|QUANTITY:1.0
+EQUIPSET:Coin Purse|ID:0.5.24.1|VALUE:Fanco|QUANTITY:23.0
+EQUIPSET:Coin Purse|ID:0.5.24.2|VALUE:Olona|QUANTITY:6.0
+EQUIPSET:Coin Purse|ID:0.5.24.3|VALUE:Ruby (Star)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.5.25|VALUE:Longbow (Composite/Bow Stabilizer)|QUANTITY:1.0
+EQUIPSET:Not Carried|ID:0.5.26|VALUE:Haldan|QUANTITY:330.0
+EQUIPSET:Equipped|ID:0.5.27|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.5.5|VALUE:Pouch (Belt)|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.5.5.2|VALUE:Whetstone|QUANTITY:1.0
+EQUIPSET:Pouch (Belt)|ID:0.5.5.3|VALUE:Flint and Steel|QUANTITY:1.0
+CALCEQUIPSET:0.3
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Danise|DEITYDOMAINS:[DOMAIN:Animal|DOMAIN:Luck|DOMAIN:Strength|DOMAIN:Missionary]|ALIGNALLOW:012345678|DESC:Goddess of hunting|HOLYITEM:Drawn bow|DEITYFAVWEAP:[WEAPON:Longbow|WEAPON:Longbow (Composite)|WEAPON:Net|WEAPON:Shortbow|WEAPON:Shortbow (Composite)]|DEITYALIGN:NG
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:Talissa is the product of a dalliance Rastar Blitzkreig had after becoming a werebear and retreating from society prior to the demon war.  She has a great resentment towards Rastar for not providing for her and her mother in the following years.  She has recently gone to Treeshade to confront him.&nl;&nl;After arriving at Treeshade Talissa confronted Rastar and he acknoledged that he is her daughter.  After going to her home village to destroy a band of goblins Rastar was made king of The Bloodlands upon the abdication of king Avron.  Talissa's mother, Mara will be moved into the royal estates at Treeshade.&nl;&nl;While tracking a group of unicorn-slaying giants, Talissa was killed by an orc.  Her body was returned to Treeshade where she was reincarnated into her present form.&nl;&nl;Talissa is currently in southern Mysidia returning from hunting an Asaathi sorcerer.
+CHARACTERDESC:Talissa is 4' 5" tall and 100 pounds.  She wears her dirty blonde hair in two braids that reach her mid-back.  Her build gives an impression of power and strength, something that her personality reenforces.  Her odd yellow eyes hint at her former werebear incarnation.  Talissa wears functional clothing, she has no use for any clothing that doesn't serve some use.  Leather is her preferred fabric and she wears it almost exclusively.
+CHARACTERCOMP:Ulf, a warrior&nl;Croitha, a cleric of Danise
+CHARACTERASSET:Allegiances&colon;&nl;Reputation&colon; +4&nl;
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:New Item|ID:0|PARENTID:-1|VALUE:New Value
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

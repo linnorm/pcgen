@@ -1,0 +1,218 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:My Oathbound
+VERSION:5.10.2
+ROLLMETHOD:2|EXPRESSION:RPG
+PURCHASEPOINTS:Y|TYPE:RPG
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:rpg
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:Himura (Kenshin) Shinta
+TABNAME:
+PLAYERNAME:Dana
+HEIGHT:66
+WEIGHT:160
+AGE:23
+GENDER:Male
+HANDED:Ambidextrous
+SKINCOLOR:Tanned
+EYECOLOR:b;ie
+HAIRCOLOR:red
+HAIRSTYLE:short front, long ponytail lowerback
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:Soft Spoken
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:oro....
+PORTRAIT:C&colon;\Documents and Settings\akuma.HAL9000\My Documents\avatargif\kenshinspiral.jpg
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:17
+STAT:CON|SCORE:10
+STAT:INT|SCORE:14
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:10
+STAT:PER|SCORE:10
+ALIGN:LN
+RACE:Human (Rokugani)
+
+# Character Class(es)
+CLASS:Monk|SUBCLASS:None|LEVEL:2|SKILLPOOL:35|PROHIBITED:None
+CLASS:Samurai|SUBCLASS:None|LEVEL:4|SKILLPOOL:28|PROHIBITED:None
+CLASS:Kensai|SUBCLASS:None|LEVEL:1|SKILLPOOL:7|PROHIBITED:None
+CLASSABILITIESLEVEL:Monk=1|HITPOINTS:8|SKILLSGAINED:28
+CLASSABILITIESLEVEL:Monk=2|HITPOINTS:1|SKILLSGAINED:7
+CLASSABILITIESLEVEL:Samurai=1|HITPOINTS:7|SKILLSGAINED:7
+CLASSABILITIESLEVEL:Samurai=2|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:7
+CLASSABILITIESLEVEL:Samurai=3|HITPOINTS:7|SKILLSGAINED:7
+CLASSABILITIESLEVEL:Samurai=4|HITPOINTS:3|SKILLSGAINED:7
+CLASSABILITIESLEVEL:Kensai=1|HITPOINTS:9|SKILLSGAINED:7
+
+# Character Experience
+EXPERIENCE:21000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Rokugan Clans|CHOSENTEMPLATE:[NAME:Crane]]
+TEMPLATESAPPLIED:[NAME:Crane|CHOSENTEMPLATE:[NAME:Kakita (Samurai)]]
+TEMPLATESAPPLIED:[NAME:Kakita (Samurai)]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Battle|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:City Lore|OUTPUTORDER:5|
+SKILL:Climb|OUTPUTORDER:6|
+SKILL:Concentration|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Monk|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Kensai|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Alchemy)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Kensai|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Bowmaking)|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Kensai|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Explosives)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Kensai|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Poison)|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Kensai|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Craft (Weaponsmithing)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Monk|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Samurai|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Monk|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:15|
+SKILL:Escape Artist|OUTPUTORDER:16|
+SKILL:Forgery|OUTPUTORDER:17|
+SKILL:Game (Go)|OUTPUTORDER:18|
+SKILL:Game (Kemari)|OUTPUTORDER:19|
+SKILL:Game (Sadane)|OUTPUTORDER:20|
+SKILL:Game (Shogi)|OUTPUTORDER:21|
+SKILL:Game (Sumai)|OUTPUTORDER:22|
+SKILL:Gather Information|OUTPUTORDER:23|
+SKILL:Heal|OUTPUTORDER:24|
+SKILL:Hide|OUTPUTORDER:25|
+SKILL:Iaijutsu Focus|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Samurai|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Samurai|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Kensai|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Monk|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:29|
+SKILL:Move Silently|OUTPUTORDER:30|
+SKILL:Research|OUTPUTORDER:31|
+SKILL:Ride|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Samurai|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride (Dire Bat)|OUTPUTORDER:33|
+SKILL:Ride (Hippogriff)|OUTPUTORDER:34|
+SKILL:Search|OUTPUTORDER:35|
+SKILL:Sense Motive|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Monk|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Samurai|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:37|
+SKILL:Survival|OUTPUTORDER:38|
+SKILL:Swim|OUTPUTORDER:39|
+SKILL:Tumble|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Monk|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:41|
+
+# Character Languages
+LANGUAGE:Literacy|LANGUAGE:Rokugani
+
+# Character Feats
+FEAT:Weapon Focus|APPLIEDTO:Sword (Short)|TYPE:GENERAL.FIGHTER.CRABCLAN.BADGERCLAN.MANTISCLAN.ALLCLANS.UNICORNCLAN.BOARCLAN.TORITAKA.FOXCLAN.DRAGONFLYCLAN|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+FEAT:Weapon Focus|APPLIEDTO:Sword (Bastard)|TYPE:GENERAL.FIGHTER.CRABCLAN.BADGERCLAN.MANTISCLAN.ALLCLANS.UNICORNCLAN.BOARCLAN.TORITAKA.FOXCLAN.DRAGONFLYCLAN|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+FEAT:Combat Expertise|TYPE:GENERAL.FIGHTER.SCOUT.MOSHI.CRANECLAN.FOXCLAN.HARECLAN.LIONCLAN.PHOENIXCLAN.SCORPIONCLAN.SPARROWCLAN.TORTOISECLAN.SHINTAO|DESC:When you use the attack action or the full attack action in melee, you can take a penalty of as much as -5 on your attack roll and add the same number as a dodge bonus to your Armor Class.
+FEAT:Improved Initiative|TYPE:GENERAL.FIGHTER.MARTIALARTS.SCOUT.CRANECLAN.TORITAKA.LIONCLAN.MONKEYCLAN.OXCLAN.PHOENIXCLAN.SCORPIONCLAN|DESC:You get a +4 bonus on initiative checks.
+FEAT:Fists of Iron|TYPE:GENERAL.MARTIALARTS.KIHO.MONK.SHINTAO|DESC:You have learned the secrets of imbuing your unarmed attacks with extra force.
+FEAT:Dodge|TYPE:GENERAL.FIGHTER.MARTIALARTS.SCOUT.CRABCLAN.CRANECLAN.FOXCLAN.HARECLAN.MONKEYCLAN.SCORPIONCLAN.SNAKECLAN.SPARROWCLAN.MONK|DESC:During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent.
+FEAT:Mobility|TYPE:GENERAL.FIGHTER.MARTIALARTS.SCOUT.CRABCLAN.CRANECLAN.FOXCLAN.HARECLAN.MONKEYCLAN.SCORPIONCLAN.SNAKECLAN.SPARROWCLAN.MONK|DESC:You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area.
+FEAT:Spring Attack|TYPE:GENERAL.FIGHTER.MARTIALARTS.SCOUT.CRABCLAN.CRANECLAN.HARECLAN.MONKEYCLAN.SCORPIONCLAN|DESC:When using the attack action with a melee weapon, you can move both before and after the attack, provided that your total distance moved is not greater than your speed.
+FEAT:Whirlwind Attack|TYPE:GENERAL.FIGHTER.MOSHI.CRANECLAN.FOXCLAN.HARECLAN.LIONCLAN.PHOENIXCLAN.SCORPIONCLAN.SPARROWCLAN.TORTOISE.SHINTAO|DESC:When you use the full attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.
+FEAT:Way of the Crane|TYPE:TECHNIQUE.CRANECLAN|DESC:You gain a +2 circumstance bonus when wielding a katana, and can draw a katana as a free action.
+VFEAT:Stunning Fist|TYPE:GENERAL.FIGHTER.MARTIALARTS.DRAGONCLAN.KIHO.MONK.SHINTAO|DESC:You may stun an opponant with a carefully placed unarmed attack.
+VFEAT:Combat Reflexes|TYPE:GENERAL.FIGHTER.MARTIALARTS.MOSHI.MONKEYCLAN.PHOENIXCLAN.MONK|DESC:You may make a number of additional attacks of opportunity equal to your Dexterity bonus.
+FEATPOOL:1.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aclis|WEAPON:Aiguchi|WEAPON:Angle Knife|WEAPON:Axe (Carpenter's)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bladed Bow]
+WEAPONPROF:[WEAPON:Bo|WEAPON:Broadsword|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dai-kyu|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Die Tsuchi|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flamberge|WEAPON:Flametongue|WEAPON:Flax|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gauntlets (Clawed)]
+WEAPONPROF:[WEAPON:Gladius|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Half Moon Spear|WEAPON:Hammer (Light)]
+WEAPONPROF:[WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Jo|WEAPON:Kama|WEAPON:Karvar|WEAPON:Kin-Skull|WEAPON:Kukri|WEAPON:Lance]
+WEAPONPROF:[WEAPON:Lance (Flight)|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Maul (Bladed)|WEAPON:Morningstar|WEAPON:Nagamaki]
+WEAPONPROF:[WEAPON:Nage-yari|WEAPON:Naginata|WEAPON:Nunchaku|WEAPON:Ono|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pick (Rafter's)|WEAPON:Pike|WEAPON:Pilum|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sai|WEAPON:Sap|WEAPON:Sawtooth|WEAPON:Schiavona|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)]
+WEAPONPROF:[WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shortstaff|WEAPON:Shuriken|WEAPON:Siangham|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Energy Missile)]
+WEAPONPROF:[WEAPON:Spells(Ray)|WEAPON:Spells(Touch)|WEAPON:Spider Throwing Knife|WEAPON:Spiked Armor|WEAPON:Spiked Helmet|WEAPON:Staff (Three-Section)|WEAPON:Staff Sling|WEAPON:Straight Razor|WEAPON:Sword (Bastard)|WEAPON:Sword (Butterfly)]
+WEAPONPROF:[WEAPON:Sword (Cane)|WEAPON:Sword (Gauntlet)|WEAPON:Sword (Short)|WEAPON:Sword (Tulwar)|WEAPON:Sword-Pike|WEAPON:Tetsubo|WEAPON:Tiger Claws|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:War Cleaver|WEAPON:War Fan|WEAPON:War Rake|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Yari|WEAPON:Yumi]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Wakizashi|OUTPUTORDER:15|COST:300.0|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wakizashi|DATA:NAME=Wakizashi$EQMOD=STEEL]
+EQUIPNAME:Ring (Protection +1)|OUTPUTORDER:13|COST:2000|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Longbow Ironwood (+1) (Composite/+3/Bow Stabilizer)|OUTPUTORDER:8|COST:500.0|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Longbow Ironwood (+1) (Composite/+3/Bow Stabilizer)$EQMOD=BOWSTR&pipe;+3.IRONWOOD_PLUS.QUINTFSBL.WOOD]
+EQUIPNAME:Amulet DEX +1|OUTPUTORDER:1|COST:1000.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Amulet|DATA:NAME=Amulet DEX +1$EQMOD=BNS_ENHC_AB&pipe;DEX=+1]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:10|COST:1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Backpack|OUTPUTORDER:4|COST:2|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Flint and Steel|OUTPUTORDER:5|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Whetstone|OUTPUTORDER:17|COST:0.02|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:12|COST:0.5|WT:1.0|QUANTITY:5.0
+EQUIPNAME:Waterskin (Filled)|OUTPUTORDER:16|COST:1|WT:4.0|QUANTITY:1.0
+EQUIPNAME:Quiver (Small)|OUTPUTORDER:11|COST:2|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Arrow (Armor Piercing)|OUTPUTORDER:3|COST:0.35|WT:0.15|QUANTITY:10.0
+EQUIPNAME:Arrow (Alchemist's)|OUTPUTORDER:2|COST:75|WT:0.2|QUANTITY:10.0
+EQUIPNAME:Katana +1 (Keen/Warning)|OUTPUTORDER:7|COST:18400.0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Katana|DATA:NAME=Katana +1 (Keen/Warning)$EQMOD=KEEN.MOFWARNING.PLUS1W.STEEL]
+EQUIPNAME:Ring STR +2|OUTPUTORDER:14|COST:4000.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring STR +2$EQMOD=BNS_ENHC_AB&pipe;STR=+2]
+EQUIPNAME:Mithral Shirt +2|OUTPUTORDER:9|COST:5100.0|WT:10.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=Mithral Shirt +2$EQMOD=MITHRAL_ARMR_LT.PLUS2A]
+EQUIPNAME:Obi Cure Light Wounds//Cleric/4th|OUTPUTORDER:1|COST:3000.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Belt|DATA:NAME=Obi Cure Light Wounds//Cleric/4th$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;4&rbracket; CHARGES&lbracket;50&rbracket; $SPROP=(Cure Light Wounds//Cleric/4th//1d8+4)]
+EQUIPNAME:Flurry of Blows|OUTPUTORDER:17|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.1|VALUE:Flurry of Blows|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Quiver (Small)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Quiver (Small)|ID:0.1.11.1|VALUE:Arrow (Alchemist's)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Quiver (Small)|ID:0.1.11.2|VALUE:Arrow (Armor Piercing)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.12|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.12.1|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.12.2|VALUE:Rations (Trail/Per Day)|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.12.3|VALUE:Waterskin (Filled)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.12.4|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.13|VALUE:Ring STR +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.15|VALUE:Mithral Shirt +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.16|VALUE:Katana +1 (Keen/Warning)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.4|VALUE:Longbow Ironwood (+1) (Composite/+3/Bow Stabilizer)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.6|VALUE:Ring (Protection +1)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.7|VALUE:Wakizashi|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.8|VALUE:Amulet DEX +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.9|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:NEW SKILL&colon;&cr;&nl;IAIJUTSU FOCUS&cr;&nl;(CHA)&cr;&nl;Use this skill to gather your personal energy (ki) in an iaijutsu duel.&cr;&nl;Check&colon; If you attack a flat-footed opponent immediately&cr;&nl;after drawing a melee weapon, you can deal extra damage,&cr;&nl;based on the result of an Iaijutsu Focus check. In addition, if&cr;&nl;you and your opponent both agree to participate in a formal iaijutsu&cr;&nl;duel, your Iaijutsu Focus check replaces your initiative&cr;&nl;check for the ensuing combat.&cr;&nl;In an iaijutsu duel (see Chapter 6), you and your opponent&cr;&nl;make opposed Iaijutsu Focus checks, and the winner accumulates&cr;&nl;extra damage dice according to the accompanying table.&cr;&nl;You can also use Iaijutsu Focus in preparation for striking an&cr;&nl;inanimate object, assuming no distractions. Your extra damage&cr;&nl;is halved, just like your ordinary damage. This is the technique&cr;&nl;martial artists use to shatter objects.&cr;&nl;Check Result Extra Damage&cr;&nl;10–14 +1d6&cr;&nl;15–19 +2d6&cr;&nl;20–24 +3d6&cr;&nl;25–29 +4d6&cr;&nl;30–34 +5d6&cr;&nl;35–39 +6d6&cr;&nl;40–44 +7d6&cr;&nl;45–49 +8d6&cr;&nl;50+ +9d6 (maximum)&cr;&nl;+2 on Appraise weapon checks&cr;&nl;&cr;&nl;AC Bonus (Ex)&colon; A monk is highly trained at dodging blows, and&cr;&nl;she has a sixth sense that lets her avoid even unanticipated attacks.&cr;&nl;When unarmored and unencumbered, the monk adds her Wisdom&cr;&nl;bonus (if any) to her AC. In addition, a monk gains a +1 bonus to AC&cr;&nl;at 5th level. This bonus increases by 1 for every five monk levels&cr;&nl;thereafter (+2 at 10th, +3 at 15th, and +4 at 20th level).&cr;&nl;These bonuses to AC apply even against touch attacks or when&cr;&nl;the monk is flat-footed. She loses these bonuses when she is&cr;&nl;immobilized or helpless, when she wears any armor, when she&cr;&nl;carries a shield, or when she carries a medium or heavy load.&cr;&nl;&cr;&nl;Evasion (Ex)&colon; A monk of 2nd level or higher&cr;&nl;can avoid even magical and unusual attacks with&cr;&nl;great agility. If she makes a successful Reflex&cr;&nl;saving throw against an attack that normally&cr;&nl;deals half damage on a successful save (such&cr;&nl;as a red dragon’s fiery breath or a fireball), she&cr;&nl;instead takes no damage. Evasion can be used&cr;&nl;only if a monk is wearing light armor or no&cr;&nl;armor. A helpless monk (such as one who is&cr;&nl;unconscious or paralysed) does not gain the&cr;&nl;benefit of evasion.&cr;&nl;&cr;&nl;Special&colon; If you have 5 or more ranks in Tumble, you gain a +3&cr;&nl;dodge bonus to AC when fighting defensively instead of the usual&cr;&nl;+2 dodge bonus to AC (see Fighting Defensively, page 140).&cr;&nl;If you have 5 or more ranks in Tumble, you gain a +6 dodge bonus&cr;&nl;to AC when executing the total defense standard action instead of&cr;&nl;the usual +4 dodge bonus to AC (see Total Defense, page 142).&cr;&nl;&cr;&nl;&cr;&nl;&cr;&nl;
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
