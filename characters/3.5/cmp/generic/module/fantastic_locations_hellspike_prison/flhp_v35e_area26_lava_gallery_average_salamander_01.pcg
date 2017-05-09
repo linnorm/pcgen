@@ -1,0 +1,139 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - Fantastic Locations - Hellspike Prison v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:12
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:flhp_v35e_area26_lava_gallery_average_salamander_01
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:Bouffant
+LOCATION:Shallow Warrens
+CITY:Cyriador
+BIRTHPLACE:Shallow Warrens
+PERSONALITYTRAIT1:Gung Ho
+PERSONALITYTRAIT2:Aggressive
+SPEECHPATTERN:Rude
+PHOBIAS:Children
+INTERESTS:The Underdark
+CATCHPHRASE:You did it! You finally did it!
+PORTRAIT:C&colon;\Documents and Settings\shaun\Desktop\PCGen\portraits\cmp\wizards_of_the_coast\monster_manual\Salamander.jpg
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:10
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:CN
+RACE:Salamander (Average)|HITPOINTS:4:5:4:5:4:5:4:5:4
+
+# Character Class(es)
+
+# Character Experience
+EXPERIENCE:15000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Outsider]
+TEMPLATESAPPLIED:[NAME:Extraplanar]
+TEMPLATESAPPLIED:[NAME:Fire]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Blacksmithing)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Disguise|OUTPUTORDER:9|
+SKILL:Escape Artist|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:11|
+SKILL:Gather Information|OUTPUTORDER:12|
+SKILL:Heal|OUTPUTORDER:13|
+SKILL:Hide|OUTPUTORDER:14|
+SKILL:Intimidate|OUTPUTORDER:15|
+SKILL:Jump|OUTPUTORDER:16|
+SKILL:Listen|OUTPUTORDER:17|
+SKILL:Move Silently|OUTPUTORDER:18|
+SKILL:Ride|OUTPUTORDER:19|
+SKILL:Search|OUTPUTORDER:20|
+SKILL:Sense Motive|OUTPUTORDER:21|
+SKILL:Spot|OUTPUTORDER:22|
+SKILL:Survival|OUTPUTORDER:23|
+SKILL:Swim|OUTPUTORDER:24|
+SKILL:Use Rope|OUTPUTORDER:25|
+
+# Character Languages
+LANGUAGE:Ignan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana (Martial)|WEAPON:Kukri|WEAPON:Kusari-gama|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spiked Armor|WEAPON:Sword (Bastard/Martial)|WEAPON:Sword (Short)|WEAPON:Tail Slap]
+WEAPONPROF:[WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Waraxe (Dwarven/Martial)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Tail Slap (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Longspear|OUTPUTORDER:1|COST:5.0|WT:9.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Longspear|DATA:EQMOD=WEAP_WOOD]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Carried|ID:0.1.1|VALUE:Longspear|QUANTITY:1.0
+EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Tail Slap (Natural/Primary)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

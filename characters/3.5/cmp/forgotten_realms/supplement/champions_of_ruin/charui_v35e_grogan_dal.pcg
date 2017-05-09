@@ -1,0 +1,174 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Champions of Ruin v3.5e|CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Forgotten Realms Campaign Setting v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e
+VERSION:5.8.0
+ROLLMETHOD:8|EXPRESSION:10
+PURCHASEPOINTS:N
+POOLPOINTS:74
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_DnD_forgotten_realms_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:charui_v35e_grogan_dal
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:13
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:CE
+RACE:Minotaur|HITPOINTS:4:6:3:3:7:3
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:6|SKILLPOOL:0|PROHIBITED:None
+CLASS:Thayan Gladiator|SUBCLASS:None|LEVEL:10|SKILLPOOL:0|PROHIBITED:None
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:3|ABILITY:[PROMPT:FEAT(TYPE=Fighter)|CHOICE:Combat Reflexes]|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:9|ABILITY:[PROMPT:FEAT(TYPE=Fighter)|CHOICE:Cleave]|PRESTAT:STR=1|POSTSTAT:STR=-5|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:6|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:7|ABILITY:[PROMPT:FEAT(TYPE=Fighter)|CHOICE:Weapon Focus(Gore)]|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:7|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:8|ABILITY:[PROMPT:FEAT(TYPE=Fighter)|CHOICE:Weapon Focus(Greataxe)]|PRESTAT:STR=1|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=1|HITPOINTS:9|ABILITY:[PROMPT:FEAT(Improved Natural Attack)|CHOICE:Improved Natural Attack(Gore)]|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=2|HITPOINTS:10|ABILITY:[PROMPT:FEAT(Improved Critical)|CHOICE:Improved Critical(Gore)]|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=3|HITPOINTS:8|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=4|HITPOINTS:3|PRESTAT:STR=1|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=5|HITPOINTS:12|ABILITY:[PROMPT:FEAT(TYPE=ImbueWeapon)|CHOICE:Imbue Natural Weapon ~ Shock]|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=6|HITPOINTS:10|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=7|HITPOINTS:2|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=8|HITPOINTS:5|PRESTAT:STR=1|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=9|HITPOINTS:6|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Thayan Gladiator=10|HITPOINTS:10|ABILITY:[PROMPT:FEAT(TYPE=GreaterImbueWeapon)|CHOICE:Imbue Natural Weapon ~ Shocking Burst]|POSTSTAT:STR=1|SKILLSGAINED:1
+
+# Character Experience
+EXPERIENCE:276000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Monstrous Humanoid]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Thayan Gladiator|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Thayan Gladiator|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Sense Motive|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Thayan Gladiator|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Giant|LANGUAGE:Literacy
+
+# Character Feats
+FEAT:Toughness|APPLIEDTO:+3 HP|TYPE:GENERAL|DESC:You are tougher than normal
+FEATPOOL:4.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Gore|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana (Martial)|WEAPON:Kukri|WEAPON:Kusari-gama|WEAPON:Lance|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur]
+WEAPONPROF:[WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle]
+WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spiked Armor|WEAPON:Sword (Bastard/Martial)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Waraxe (Dwarven/Martial)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Outfit (Explorer's/Large)|OUTPUTORDER:7|COST:0|WT:8.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's/Large)$SIZE=L$COSTMOD=-10]
+EQUIPNAME:+2 Breastplate of Electricity Resistance|OUTPUTORDER:1|COST:22350.0|WT:30.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Breastplate|DATA:NAME=+2 Breastplate of Electricity Resistance$EQMOD=ARMR_ELEC_RES.ARMR_MWORK.ARMR_PLUS_2.ARMR_STEEL$SPROP=(Breastplate (Electricity Resistance/Masterwork/+2 (Armor)))]
+EQUIPNAME:+3 Shocking Cold Iron Greataxe|OUTPUTORDER:2|COST:32340.0|WT:12.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Greataxe|DATA:NAME=+3 Shocking Cold Iron Greataxe$EQMOD=WEAP_COLD_IRON.WEAP_MWORK.WEAP_PLUS_3.WEAP_SHOCK.WEAP_STEEL$SPROP=(Greataxe (+3 (Weapon)/Shock/Masterwork/Cold Iron))]
+EQUIPNAME:Helm of Mighty Horns +2|OUTPUTORDER:5|COST:24000|WT:0.01|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Amulet of Mighty Fists +2|DATA:NAME=Helm of Mighty Horns +2$SPROP=Grants an enhancement bonus of +2 on attack and damage rolls with unarmed attacks and natural weapons, Grants an enhancement bonus of +2 on attack and damage rolls with unarmed attacks and natural weapons, Grants an enhancement bonus of +2 on attack and damage rolls with unarmed attacks and natural weapons, (Amulet of Mighty Fists +2), (Amulet of Mighty Fists +2)]
+EQUIPNAME:Gauntlets of Minotaur Power|OUTPUTORDER:3|COST:95.0|WT:0.01|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Gauntlets|DATA:NAME=Gauntlets of Minotaur Power$EQMOD=GLVE_ABILITY_BONUS_ENHANCE&pipe;STR=+4.GLVE_MWORK$SPROP=(Gauntlets (Ability Bonus (Enhancement) (STR +4)/Masterwork))]
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:11|COST:2000|WT:0.01|QUANTITY:1.0
+EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:8|COST:750|WT:0.1|QUANTITY:2.0
+EQUIPNAME:Potion of Displacement|OUTPUTORDER:9|COST:750|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Potion of Invisibility|OUTPUTORDER:10|COST:300|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Potion of Mirror Image|OUTPUTORDER:1|COST:300.0|WT:0.1|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion of Mirror Image$EQMOD=POTION_SPELL_EFFECT_POTION&pipe;SPELLNAME&lbracket;Mirror Image&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; $SPROP=(Potion (Mirror Image/Wizard/3rd))]
+EQUIPNAME:Minotaur Greataxe|OUTPUTORDER:11|COST:0.0|WT:24.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Minotaur Greataxe|DATA:EQMOD=WEAP_STEEL]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Gore (Natural/Primary)|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Potion of Mirror Image|QUANTITY:1.0
+EQUIPSET:Fingers|ID:0.1.11|VALUE:Ring of Protection +1|QUANTITY:1.0
+EQUIPSET:Torso|ID:0.1.2|VALUE:Outfit (Explorer's/Large)|QUANTITY:1.0
+EQUIPSET:Armor|ID:0.1.3|VALUE:+2 Breastplate of Electricity Resistance|QUANTITY:1.0
+EQUIPSET:Primary Hand|ID:0.1.4|VALUE:+3 Shocking Cold Iron Greataxe|QUANTITY:1.0
+EQUIPSET:Hand|ID:0.1.5|VALUE:Gauntlets of Minotaur Power|QUANTITY:1.0
+EQUIPSET:Neck|ID:0.1.6|VALUE:Helm of Mighty Horns +2|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.7|VALUE:Potion of Cure Serious Wounds|QUANTITY:2.0
+EQUIPSET:Equipped|ID:0.1.8|VALUE:Potion of Displacement|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.9|VALUE:Potion of Invisibility|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0

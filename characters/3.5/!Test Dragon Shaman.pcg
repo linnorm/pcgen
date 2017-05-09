@@ -1,0 +1,166 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Player's Handbook II
+VERSION:6.06.00 RC1
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:!Test Dragon Shaman
+TABNAME:
+PLAYERNAME:
+HEIGHT:70
+WEIGHT:204
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:13
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:14
+STAT:INT|SCORE:15
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:17
+ALIGN:NE
+RACE:Human
+
+# Character Class(es)
+CLASS:Dragon Shaman|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Dragon Shaman=1|HITPOINTS:10|SKILLSGAINED:20|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:0
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Human)]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|CLASSBOUGHT:[CLASS:Dragon Shaman|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Intimidate|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Dragon Shaman|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:17|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Dragon Shaman|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Dragon Shaman|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:20|
+SKILL:Listen|OUTPUTORDER:21|
+SKILL:Literacy|OUTPUTORDER:22|
+SKILL:Move Silently|OUTPUTORDER:23|
+SKILL:Ride|OUTPUTORDER:24|
+SKILL:Search|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Dragon Shaman|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:26|
+SKILL:Spot|OUTPUTORDER:27|
+SKILL:Survival|OUTPUTORDER:28|
+SKILL:Swim|OUTPUTORDER:29|
+SKILL:Use Rope|OUTPUTORDER:30|
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:DraconicAuras|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Energy Shield (Draconic Aura)|TYPE:Dragon ShamanDraconicAuras.Supernatural|DESC:Any creature striking you or an ally with a natural attack or a nonreach melee weapon is dealt (2*%1) damage. The energy type matches your dragon totems breath weapon.&pipe;DraconicAura
+ABILITY:DraconicAuras|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Power (Draconic Aura)|TYPE:Dragon ShamanDraconicAuras.Supernatural|DESC:Bonus on melee damage rolls equal to +%1.&pipe;DraconicAura
+ABILITY:DraconicAuras|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Presence (Draconic Aura)|TYPE:Dragon ShamanDraconicAuras.Supernatural|DESC:Bonus on Bluff, Diplomacy, and Intimidate checks equal to +%1.&pipe;DraconicAura
+USERPOOL:DraconicAuras|POOLPOINTS:0.0
+ABILITY:Dragon Shaman Totems|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Black Dragon Totem|TYPE:Dragon ShamanTotem|DESC:Gain a line of acid breath weapon and hide, move silently, and swim as class skills.
+USERPOOL:Dragon Shaman Totems|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Traveler's Outfit|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Traveler's Outfit|DATA:NAME=Traveler's Outfit$KEY=Traveler_s Outfit$COSTMOD=-1]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

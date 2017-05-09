@@ -1,0 +1,198 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:My Oathbound
+VERSION:5.10.2
+ROLLMETHOD:2|EXPRESSION:RPG
+PURCHASEPOINTS:Y|TYPE:RPG
+POOLPOINTS:37
+POOLPOINTSAVAIL:37
+GAMEMODE:rpg
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:Cevranath
+TABNAME:
+PLAYERNAME:
+HEIGHT:56
+WEIGHT:103
+AGE:150
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Fair
+EYECOLOR:Pale Blue
+HAIRCOLOR:Silver-White
+HAIRSTYLE:Spikes
+LOCATION:Higharch
+CITY:Penance
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:Serious
+PERSONALITYTRAIT2:Proud
+SPEECHPATTERN:
+PHOBIAS:Snakes
+INTERESTS:Collector Weapons
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:14
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:12
+STAT:PER|SCORE:12
+ALIGN:NG
+RACE:Elf (Grey)
+
+# Character Class(es)
+CLASS:Duskblade|SUBCLASS:None|LEVEL:8|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:6,7,6|PROHIBITED:None
+CLASSABILITIESLEVEL:Duskblade=1|HITPOINTS:8|SKILLSGAINED:20
+CLASSABILITIESLEVEL:Duskblade=2|HITPOINTS:6|SKILLSGAINED:5
+CLASSABILITIESLEVEL:Duskblade=3|HITPOINTS:6|SKILLSGAINED:5
+CLASSABILITIESLEVEL:Duskblade=4|HITPOINTS:6|PRESTAT:INT=1|SKILLSGAINED:6
+CLASSABILITIESLEVEL:Duskblade=5|HITPOINTS:6|SKILLSGAINED:6
+CLASSABILITIESLEVEL:Duskblade=6|HITPOINTS:6|SKILLSGAINED:6
+CLASSABILITIESLEVEL:Duskblade=7|HITPOINTS:6|SKILLSGAINED:6
+CLASSABILITIESLEVEL:Duskblade=8|HITPOINTS:6|PRESTAT:CON=1|SKILLSGAINED:6
+
+# Character Experience
+EXPERIENCE:28000
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Battle|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:City Lore|OUTPUTORDER:5|
+SKILL:Climb|OUTPUTORDER:6|
+SKILL:Concentration|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Duskblade|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Diplomacy|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Game (Go)|OUTPUTORDER:13|
+SKILL:Game (Kemari)|OUTPUTORDER:14|
+SKILL:Game (Sadane)|OUTPUTORDER:15|
+SKILL:Game (Shogi)|OUTPUTORDER:16|
+SKILL:Game (Sumai)|OUTPUTORDER:17|
+SKILL:Gather Information|OUTPUTORDER:18|
+SKILL:Heal|OUTPUTORDER:19|
+SKILL:Hide|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Duskblade|RANKS:4.0|COST:2|CLASSSKILL:N]
+SKILL:Intimidate|OUTPUTORDER:21|
+SKILL:Jump|OUTPUTORDER:22|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Duskblade|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Duskblade|RANKS:4.0|COST:2|CLASSSKILL:N]
+SKILL:Research|OUTPUTORDER:26|
+SKILL:Ride|OUTPUTORDER:27|
+SKILL:Ride (Dire Bat)|OUTPUTORDER:28|
+SKILL:Ride (Hippogriff)|OUTPUTORDER:29|
+SKILL:Search|OUTPUTORDER:30|
+SKILL:Sense Motive|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Duskblade|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Duskblade|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:33|
+SKILL:Survival|OUTPUTORDER:34|
+SKILL:Swim|OUTPUTORDER:35|
+SKILL:Use Rope|OUTPUTORDER:36|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Orc|LANGUAGE:Sylvan
+
+# Character Feats
+FEAT:Warrior Instinct|TYPE:ANCESTOR|DESC:Your ancestor is Matsu Hitomi. You gain a +2 bonus on Initiative and Spot checks.
+FEAT:Combat Casting|TYPE:GENERAL.DEVNECRO|DESC:You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.
+FEAT:Duskblade Known Spell 2|APPLIEDTO:1|TYPE:SPECIAL|DESC:
+FEAT:Duskblade Known Spell 3|APPLIEDTO:1|TYPE:SPECIAL|DESC:
+FEAT:Duskblade Known Spell 4|APPLIEDTO:1|TYPE:SPECIAL|DESC:
+FEAT:Duskblade Known Spell 5|APPLIEDTO:2|TYPE:SPECIAL|DESC:
+FEAT:Duskblade Known Spell 6|APPLIEDTO:2|TYPE:SPECIAL|DESC:
+FEAT:Duskblade Known Spell 7|APPLIEDTO:2|TYPE:SPECIAL|DESC:
+FEAT:Duskblade Known Spell 8|APPLIEDTO:2|TYPE:SPECIAL|DESC:
+FEAT:Weapon Finesse|TYPE:GENERAL.FIGHTER|DESC:With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.
+FEAT:Combat Expertise|TYPE:GENERAL.FIGHTER.SCOUT.MOSHI.CRANECLAN.FOXCLAN.HARECLAN.LIONCLAN.PHOENIXCLAN.SCORPIONCLAN.SPARROWCLAN.TORTOISECLAN.SHINTAO|DESC:When you use the attack action or the full attack action in melee, you can take a penalty of as much as -5 on your attack roll and add the same number as a dodge bonus to your Armor Class.
+FEAT:Improved Disarm|TYPE:GENERAL.FIGHTER.MOSHI.CRANECLAN.FOXCLAN.HARECLAN.LIONCLAN.PHOENIXCLAN.SCORPIONCLAN.SPARROWCLAN.TORTOISE.KIHO.SHINTAO|DESC:You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to disarm your opponent.
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aclis|WEAPON:Aiguchi|WEAPON:Angle Knife|WEAPON:Axe (Carpenter's)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bladed Bow]
+WEAPONPROF:[WEAPON:Bo|WEAPON:Broadsword|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dai-kyu|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Die Tsuchi|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flamberge|WEAPON:Flametongue|WEAPON:Flax|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gauntlets (Clawed)]
+WEAPONPROF:[WEAPON:Gladius|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greathammer|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Half Moon Spear]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Jo|WEAPON:Karvar|WEAPON:Kin-Skull|WEAPON:Kukri|WEAPON:Lance]
+WEAPONPROF:[WEAPON:Lance (Flight)|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Maul (Bladed)|WEAPON:Morningstar|WEAPON:Nagamaki]
+WEAPONPROF:[WEAPON:Nage-yari|WEAPON:Naginata|WEAPON:Ono|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pick (Rafter's)|WEAPON:Pike|WEAPON:Pilum|WEAPON:Quarterstaff|WEAPON:Ranseur]
+WEAPONPROF:[WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Sawtooth|WEAPON:Schiavona|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Shortstaff|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Energy Missile)|WEAPON:Spells(Ray)|WEAPON:Spells(Touch)|WEAPON:Spider Throwing Knife|WEAPON:Spiked Armor]
+WEAPONPROF:[WEAPON:Spiked Helmet|WEAPON:Staff Sling|WEAPON:Straight Razor|WEAPON:Sword (Bastard)|WEAPON:Sword (Cane)|WEAPON:Sword (Gauntlet)|WEAPON:Sword (Short)|WEAPON:Sword (Tulwar)|WEAPON:Sword-Pike|WEAPON:Tetsubo]
+WEAPONPROF:[WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:War Cleaver|WEAPON:War Rake|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Yari|WEAPON:Yumi]
+
+# Character Equipment
+MONEY:280.00
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:2|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
+EQUIPNAME:Rapier +1 (Keen/Darksteel)|OUTPUTORDER:3|COST:9820.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier +1 (Keen/Darksteel)$EQMOD=KEEN.PLUS1W.WEAPDRKS]
+EQUIPNAME:Bracers True Strike//Wizard/1st|OUTPUTORDER:1|COST:750.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Bracers|DATA:NAME=Bracers True Strike//Wizard/1st$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;True Strike&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Elven Chain +1 (Uncanny Protection)|OUTPUTORDER:1|COST:8150.0|WT:20.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Elven Chain|DATA:NAME=Elven Chain +1 (Uncanny Protection)$EQMOD=MITHRAL_ARMR_MED.PLUS1A.UNCANNY]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.1|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arm|ID:0.1.2|VALUE:Bracers True Strike//Wizard/1st|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.4|VALUE:Rapier +1 (Keen/Darksteel)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.5|VALUE:Elven Chain +1 (Uncanny Protection)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Corellon Larethian|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Good|DOMAIN:Protection|DOMAIN:War|DOMAIN:Chaos|DOMAIN:Good|DOMAIN:Protection|DOMAIN:War|DOMAIN:Community|DOMAIN:Creation|DOMAIN:Mysticism (Good)]|ALIGNALLOW:367|DESC:|HOLYITEM:None|DEITYFAVWEAP:[WEAPON:Longsword]|DEITYALIGN:CG
+
+# Character Spells Information
+SPELLNAME:Acid Splash|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Cause Fear|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Disrupt Undead|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Ray of Frost|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Touch of Fatigue|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:True Strike|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Boom|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Deflect (Lesser)|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Obscuring Mist|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Shocking Grasp|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Scorching Ray|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Acid Arrow|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Cat's Grace|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Deflect|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLNAME:Ignite|TIMES:1|CLASS:Duskblade|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Duskblade]
+SPELLLIST:Duskblade|Duskblade
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:1:0:0:0:0:0:0:0:0

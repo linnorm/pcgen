@@ -1,0 +1,170 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:My Oathbound
+VERSION:5.10.1
+ROLLMETHOD:2|EXPRESSION:RPG
+PURCHASEPOINTS:Y|TYPE:RPG
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:rpg
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:Elden Mol
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:12
+STAT:INT|SCORE:14
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:17
+STAT:PER|SCORE:14
+ALIGN:LG
+RACE:Hobgoblin
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:6|SKILLPOOL:0|PROHIBITED:None
+CLASS:Knight Commander|SUBCLASS:None|LEVEL:1|SKILLPOOL:0|PROHIBITED:None
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:16
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:3|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:2|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:9|PRESTAT:CHA=1|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Knight Commander=1|HITPOINTS:10|SKILLSGAINED:6
+
+# Character Experience
+EXPERIENCE:28000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Arrival Gift (Inspiring)]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Battle|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:City Lore|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:6|
+SKILL:Concentration|OUTPUTORDER:7|
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Diplomacy|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Knight Commander|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Intimidate|OUTPUTORDER:16|
+SKILL:Jump|OUTPUTORDER:17|
+SKILL:Listen|OUTPUTORDER:18|
+SKILL:Move Silently|OUTPUTORDER:19|
+SKILL:Perform (Chant)|OUTPUTORDER:20|
+SKILL:Profession (Military Commander)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Knight Commander|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Research|OUTPUTORDER:22|
+SKILL:Ride|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:24|
+SKILL:Sense Motive|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Knight Commander|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:26|
+SKILL:Survival|OUTPUTORDER:27|
+SKILL:Swim|OUTPUTORDER:28|
+SKILL:Use Rope|OUTPUTORDER:29|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Giant|LANGUAGE:Goblin|LANGUAGE:Orc
+
+# Character Feats
+FEAT:Phalanx Fighting|TYPE:GENERAL.FIGHTER|DESC:You are trained in fighting in close formation with your allies.
+FEAT:Warrior Instinct|TYPE:ANCESTOR|DESC:Your ancestor is Matsu Hitomi. You gain a +2 bonus on Initiative and Spot checks.
+FEAT:Mounted Combat|TYPE:GENERAL.FIGHTER|DESC:Once per round when your mount is hit in combat, you may attempt a Ride check (as a reaction) to negate the hit. The hit is negated if your Ride check result is greater than the opponent's attack roll.
+FEAT:Battle Leader|TYPE:GENERAL|DESC:You can lead troops in battle and inspire them to do spectacular deeds.
+FEAT:Battlecry|TYPE:GENERAL|DESC:You can lead a group of allies in a bloodcurdling group shout that improves their martial prowess in melee.
+FEAT:Trample|TYPE:GENERAL.FIGHTER|DESC:When you attempt to overrun an opponent while mounted, your target may not choose to avoid you. Your mount may make one hoof attack against any target you knock down.
+FEAT:Infectious Courage|TYPE:GENERAL|DESC:Your deeds of courage on the battlefield can inspire others.
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aclis|WEAPON:Angle Knife|WEAPON:Axe (Carpenter's)|WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bladed Bow|WEAPON:Broadsword|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flamberge]
+WEAPONPROF:[WEAPON:Flametongue|WEAPON:Flax|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gauntlets (Clawed)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Half Moon Spear|WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Karvar|WEAPON:Kin-Skull|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Maul (Bladed)|WEAPON:Morningstar|WEAPON:Pick (Heavy)]
+WEAPONPROF:[WEAPON:Pick (Light)|WEAPON:Pick (Rafter's)|WEAPON:Pike|WEAPON:Pilum|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Sawtooth]
+WEAPONPROF:[WEAPON:Schiavona|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shortstaff|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spells(Energy Missile)|WEAPON:Spells(Ray)|WEAPON:Spells(Touch)|WEAPON:Spider Throwing Knife|WEAPON:Spiked Armor|WEAPON:Spiked Helmet|WEAPON:Staff Sling|WEAPON:Straight Razor|WEAPON:Sword (Bastard)]
+WEAPONPROF:[WEAPON:Sword (Cane)|WEAPON:Sword (Gauntlet)|WEAPON:Sword (Short)|WEAPON:Sword (Tulwar)|WEAPON:Sword-Pike|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:War Cleaver|WEAPON:War Rake|WEAPON:Waraxe (Dwarven)]
+WEAPONPROF:[WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:2710.00
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:3|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:COSTMOD=-1]
+EQUIPNAME:Cloudstrike|OUTPUTORDER:2|COST:8320.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Saber|DATA:NAME=Cloudstrike$EQMOD=MWORKW.PLUS1W.SHOCK_M$SPROP=You gain a +1 circumstance bonus on you attack rolls when you use a saber while mounted., (Saber +1 (Shock))]
+EQUIPNAME:Armor of the Commander|OUTPUTORDER:1|COST:6800.0|WT:50.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Dragonhide Plate|DATA:NAME=Armor of the Commander$EQMOD=BNS_SKL_CMP&pipe;Profession (Military Commander)=+5.DRACO.PLUS1A$SPROP=Suit of non metal plate made of dragon hides, could be used by druids, (Dragonhide Plate Skill Bonus (Competance) (Profession (Military Commander) +5/+1))]
+EQUIPNAME:Shield +1 (Heavy/Metal)|OUTPUTORDER:1|COST:1170.0|WT:15.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Metal)|DATA:NAME=Shield +1 (Heavy/Metal)$EQMOD=MWORKA.PLUS1S.STEEL]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.1|VALUE:Armor of the Commander|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.2|VALUE:Cloudstrike|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.3|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.4|VALUE:Shield +1 (Heavy/Metal)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Artoh|DEITYDOMAINS:[DOMAIN:War|DOMAIN:Luck]|ALIGNALLOW:012345678|DESC:Lord of Battles|HOLYITEM:None|DEITYFAVWEAP:[WEAPON:Longsword]|DEITYALIGN:TN
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

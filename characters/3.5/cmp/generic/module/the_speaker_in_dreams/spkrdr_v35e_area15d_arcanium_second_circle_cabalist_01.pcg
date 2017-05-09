@@ -1,0 +1,146 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - The Speaker in Dreams v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:6
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:spkrdr_v35e_area15d_arcanium_second_circle_cabalist_01
+TABNAME:
+PLAYERNAME:
+HEIGHT:68
+WEIGHT:180
+AGE:19
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Tanned
+EYECOLOR:Blue
+HAIRCOLOR:Brown
+HAIRSTYLE:Dreads
+LOCATION:Sylvan
+CITY:Cyriador
+BIRTHPLACE:Deep Warrens
+PERSONALITYTRAIT1:Hysterical
+PERSONALITYTRAIT2:Well mannered
+SPEECHPATTERN:Crude
+PHOBIAS:Cats
+INTERESTS:Dice Games
+CATCHPHRASE:Oh where you talking to me?
+PORTRAIT:C&colon;\Documents and Settings\Rob\Desktop\PCGen\portraits\cmp\wizards_of_the_coast\generic\Sorcerer 2.jpg
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:13
+STAT:CON|SCORE:13
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:8
+STAT:CHA|SCORE:10
+ALIGN:CN
+RACE:Human
+
+# Character Class(es)
+CLASS:Sorcerer|SUBCLASS:None|LEVEL:3|SKILLPOOL:18|SPELLBASE:CHA|CANCASTPERDAY:6,5|PROHIBITED:None
+CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:3|SKILLSGAINED:12|SKILLSREMAINING:12
+CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:3|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:1|POSTSTAT:DEX=3|POSTSTAT:CON=3|POSTSTAT:INT=2|POSTSTAT:WIS=-2|SKILLSGAINED:3|SKILLSREMAINING:3
+
+# Character Experience
+EXPERIENCE:3000
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Literacy
+
+# Character Feats
+FEAT:Combat Casting|TYPE:GENERAL|DESC:You are adept at casting spells in combat
+FEAT:Improved Initiative|TYPE:GENERAL.FIGHTER|DESC:You can react more quickly than normal in a fight
+FEAT:Toughness|APPLIEDTO:+3 HP|TYPE:GENERAL|DESC:You are tougher than normal
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bead of Force|WEAPON:Blowgun|WEAPON:Bomb|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dynamite]
+WEAPONPROF:[WEAPON:Fragmentation Grenade|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Smoke Grenade|WEAPON:Smokebomb|WEAPON:Spear|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Outfit (Monk's)|OUTPUTORDER:2|COST:0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Monk's)|DATA:NAME=Outfit (Monk's)$COSTMOD=-5]
+EQUIPNAME:Crossbow (Light/Masterwork)|OUTPUTORDER:1|COST:335.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow (Light/Masterwork)$EQMOD=WEAP_MWORK.WEAP_WOOD]
+EQUIPNAME:Scroll of Enlarge Person|OUTPUTORDER:5|COST:25|WT:0.01|QUANTITY:1.0
+EQUIPNAME:Scroll of Sleep|OUTPUTORDER:6|COST:25|WT:0.01|QUANTITY:1.0
+EQUIPNAME:Potion of Blur|OUTPUTORDER:3|COST:300|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Potion of Levitate|OUTPUTORDER:4|COST:300|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Wand of Color Spray|OUTPUTORDER:7|COST:750.0|WT:0.1|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand of Color Spray|DATA:NAME=Wand of Color Spray$EQMOD=WAND_SPELL_EFFECT_CHARGED&pipe;SPELLNAME&lbracket;Color Spray&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Dust of Appearance|OUTPUTORDER:1|COST:1800|WT:0.01|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Carried|ID:0.1.3|VALUE:Crossbow (Light/Masterwork)|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.4|VALUE:Dust of Appearance|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLLIST:Sorcerer|Wizard
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

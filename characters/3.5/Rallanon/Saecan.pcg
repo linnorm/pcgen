@@ -1,0 +1,190 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Rallanon Base
+VERSION:5.10.2
+ROLLMETHOD:2|EXPRESSION:RPG
+PURCHASEPOINTS:Y|TYPE:RPG
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:rpg
+TABLABEL:0
+AUTOSPELLS:N
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:Saecan
+TABNAME:
+PLAYERNAME:
+HEIGHT:66
+WEIGHT:176
+AGE:40
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:13
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:11
+STAT:CHA|SCORE:14
+STAT:PER|SCORE:10
+ALIGN:LE
+RACE:Human
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:8|SKILLPOOL:0|PROHIBITED:None
+CLASS:Blackguard|SUBCLASS:None|LEVEL:7|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:0,1|PROHIBITED:None
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|POSTSTAT:STR=0|POSTSTAT:DEX=0|POSTSTAT:CON=0|POSTSTAT:INT=0|POSTSTAT:WIS=0|POSTSTAT:CHA=0|SKILLSGAINED:16
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=7|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Fighter=8|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Blackguard=1|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Blackguard=2|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Blackguard=3|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Blackguard=4|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Blackguard=5|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Blackguard=6|HITPOINTS:10|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Blackguard=7|HITPOINTS:10|SKILLSGAINED:4
+
+# Character Experience
+EXPERIENCE:0
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Ral Regions]
+TEMPLATESAPPLIED:[NAME:Haknaar]
+
+# Character Region
+REGION:Haknaar
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Battle|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Climb|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Blackguard|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Poison)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Blackguard|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Diplomacy|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Blackguard|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Handle Animal|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:15|
+SKILL:Hide|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:2|CLASSSKILL:N]
+SKILL:Intimidate|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Blackguard|RANKS:17.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Demonology)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Blackguard|RANKS:3.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Haknaar)|OUTPUTORDER:20|
+SKILL:Knowledge (Religion)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Move Silently|OUTPUTORDER:23|
+SKILL:Research|OUTPUTORDER:24|
+SKILL:Ride|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:26|
+SKILL:Sense Motive|OUTPUTORDER:27|
+SKILL:Speak Language|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:2|CLASSSKILL:N]|ASSOCIATEDDATA:Infernal
+SKILL:Spot|OUTPUTORDER:29|
+SKILL:Survival|OUTPUTORDER:30|
+SKILL:Swim|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:32|
+
+# Character Languages
+LANGUAGE:Haknaaran|LANGUAGE:Infernal
+
+# Character Feats
+FEAT:Combat Reflexes|TYPE:GENERAL.FIGHTER.MARTIALARTS|DESC:You may make a number of additional attacks of opportunity equal to your Dexterity bonus.
+FEAT:Weapon Focus|APPLIEDTO:Flax|TYPE:GENERAL.FIGHTER|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+FEAT:Donning Armour|TYPE:GENERAL.FIGHTER|DESC:You are adept and donning and removing armour in a very short period of time.
+FEAT:Thug|TYPE:GENERAL|DESC:Your people know how to get the jump on the competition and push other people around.
+FEAT:Power Attack|TYPE:GENERAL.FIGHTER.MARTIALARTS|DESC:On your action, before making attack rolls for a round, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. This number may not exceed your base attack bonus.
+FEAT:Cleave|TYPE:GENERAL.FIGHTER|DESC:If you deal a creature enough damage to make it drop, you get an immediate, extra melee attack against another creature within reach. You can use this ability once per round.
+FEAT:Power Lunge|TYPE:GENERAL|DESC:Your ferocious attack may catch an opponent unprepared.
+FEAT:Infernal Pact|TYPE:INFERNAL|DESC:This is the first feat you must take on your path of power.
+FEAT:Weapon Specialization|APPLIEDTO:Flax|TYPE:SPECIAL.FIGHTER|DESC:You gain a +2 bonus on all damage rolls you make using the selected weapon.
+FEAT:Improved Sunder|TYPE:GENERAL.FIGHTER|DESC:When you strike at an object held or carried by an opponent (such as a weapon or shield), you do not provoke an attack of opportunity. You also gain a +4 bonus on any attack roll made to attack an object held or carried by another character.
+FEAT:Increased Movement|APPLIEDTO:Increased Movement|TYPE:INFERNAL|DESC:You are faster than normal
+FEAT:Greater Weapon Focus|APPLIEDTO:Flax|TYPE:GENERAL.FIGHTER|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including the one from Weapon Focus.
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aclis|WEAPON:Angle Knife|WEAPON:Axe (Carpenter's)|WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bladed Bow|WEAPON:Broadsword|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flamberge]
+WEAPONPROF:[WEAPON:Flametongue|WEAPON:Flax|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gauntlets (Clawed)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Half Moon Spear|WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Karvar|WEAPON:Kin-Skull|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)]
+WEAPONPROF:[WEAPON:Pike|WEAPON:Pilum|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Sawtooth|WEAPON:Scimitar|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Energy Missile)|WEAPON:Spells(Ray)|WEAPON:Spells(Touch)]
+WEAPONPROF:[WEAPON:Spider Throwing Knife|WEAPON:Spiked Armor|WEAPON:Spiked Helmet|WEAPON:Staff Sling|WEAPON:Straight Razor|WEAPON:Sword (Bastard)|WEAPON:Sword (Cane)|WEAPON:Sword (Gauntlet)|WEAPON:Sword (Short)|WEAPON:Sword (Tulwar)]
+WEAPONPROF:[WEAPON:Sword-Pike|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:War Cleaver|WEAPON:War Rake|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:3|COST:1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Desecrator|OUTPUTORDER:1|COST:2008.0|WT:10.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Flax|DATA:NAME=Desecrator$EQMOD=KEEN$SPROP=(Flax +3 (Keen/Soul Feeder/Unholy/Wounding))]
+EQUIPNAME:Feararch|OUTPUTORDER:2|COST:4250.0|WT:35.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Banded Mail|DATA:NAME=Feararch$EQMOD=Fearsome.STEEL$SPROP=(Banded Mail +3 (Fearsome/Reinforcement (Heavy)/Quickness))]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Both Hands|ID:0.1.1|VALUE:Desecrator|QUANTITY:1.0
+EQUIPSET:Armor|ID:0.1.2|VALUE:Feararch|QUANTITY:1.0
+EQUIPSET:Torso|ID:0.1.3|VALUE:Outfit (Traveler's)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Cause Fear|TIMES:1|CLASS:Blackguard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Blackguard]
+SPELLNAME:Corrupt Weapon|TIMES:1|CLASS:Blackguard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Blackguard]
+SPELLNAME:Inflict Light Wounds|TIMES:1|CLASS:Blackguard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Blackguard]
+SPELLNAME:Rogue's Stab|TIMES:1|CLASS:Blackguard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Blackguard]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+FOLLOWER:Shalvaarshmelik|TYPE:Fiendish Servant|RACE:DEVIL (IMP)|HITDICE:0|FILE:\Saecan - Shalvaarshmelik.pcg
+
+# Character Notes Tab
+NOTE:New Item|ID:0|PARENTID:-1|VALUE:New Value
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0

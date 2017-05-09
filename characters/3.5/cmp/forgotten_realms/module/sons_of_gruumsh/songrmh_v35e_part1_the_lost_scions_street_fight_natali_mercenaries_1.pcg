@@ -1,0 +1,150 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - Sons of Gruumsh v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:25
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:songrmh_v35e_part1_the_lost_scions_street_fight_natali_mercenaries_1
+TABNAME:
+PLAYERNAME:NPC
+HEIGHT:49
+WEIGHT:166
+AGE:65
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:C&colon;\Documents and Settings\shaun\Desktop\PCGen\portraits\cmp\wizards_of_the_coast\players_handbook\Dwarven Fighter.jpg
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:8
+STAT:CON|SCORE:15
+STAT:INT|SCORE:13
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:12
+ALIGN:LN
+RACE:Dwarf
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:3|SKILLPOOL:0|PROHIBITED:None
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|ABILITY:[PROMPT:FEAT(TYPE=Fighter)|CHOICE:Cleave]|POSTSTAT:STR=4|POSTSTAT:DEX=-2|POSTSTAT:CON=5|POSTSTAT:INT=3|POSTSTAT:WIS=0|POSTSTAT:CHA=2|SKILLSGAINED:8
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:6|ABILITY:[PROMPT:FEAT(TYPE=Fighter)|CHOICE:Power Attack]|SKILLSGAINED:3
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:5|SKILLSGAINED:3
+
+# Character Experience
+EXPERIENCE:3000
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Stonemasonry)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Weaponsmithing)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Intimidate|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Fighter|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:17|
+SKILL:Listen|OUTPUTORDER:18|
+SKILL:Move Silently|OUTPUTORDER:19|
+SKILL:Ride|OUTPUTORDER:20|
+SKILL:Search|OUTPUTORDER:21|
+SKILL:Sense Motive|OUTPUTORDER:22|
+SKILL:Spot|OUTPUTORDER:23|
+SKILL:Survival|OUTPUTORDER:24|
+SKILL:Swim|OUTPUTORDER:25|
+SKILL:Use Rope|OUTPUTORDER:26|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Dwarven|LANGUAGE:Literacy
+
+# Character Feats
+FEAT:Iron Will|TYPE:GENERAL|DESC:You have a stronger will than normal
+FEAT:Weapon Focus|APPLIEDTO:Waraxe (Dwarven/Martial)|TYPE:GENERAL.FIGHTER|DESC:You are especialy good at using the chosen weapon
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Bead of Force|WEAPON:Blowgun|WEAPON:Bomb|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)]
+WEAPONPROF:[WEAPON:Dart|WEAPON:Dynamite|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Fragmentation Grenade|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana (Martial)|WEAPON:Kukri|WEAPON:Kusari-gama]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rock|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Smoke Grenade|WEAPON:Smokebomb|WEAPON:Spear|WEAPON:Spiked Armor|WEAPON:Sword (Bastard/Martial)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Urgrosh (Dwarven)|WEAPON:Wakizashi|WEAPON:Waraxe (Dwarven/Exotic)|WEAPON:Waraxe (Dwarven/Martial)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Banded Mail|OUTPUTORDER:1|COST:250.0|WT:35.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Banded Mail|DATA:EQMOD=ARMR_STEEL]
+EQUIPNAME:Shield (Heavy/Metal)|OUTPUTORDER:3|COST:20.0|WT:15.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Metal)|DATA:EQMOD=SHLD_STEEL]
+EQUIPNAME:Waraxe (Dwarven/Masterwork)|OUTPUTORDER:4|COST:330.0|WT:8.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Waraxe (Dwarven)|DATA:NAME=Waraxe (Dwarven/Masterwork)$EQMOD=WEAP_MWORK.WEAP_STEEL]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:2|COST:50|WT:0.1|QUANTITY:1.0
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:1|COST:1|WT:0.02|QUANTITY:15.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Armor|ID:0.1.1|VALUE:Banded Mail|QUANTITY:1.0
+EQUIPSET:Shield|ID:0.1.2|VALUE:Shield (Heavy/Metal)|QUANTITY:1.0
+EQUIPSET:Primary Hand|ID:0.1.3|VALUE:Waraxe (Dwarven/Masterwork)|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.4|VALUE:Coin (Gold)|QUANTITY:15.0
+EQUIPSET:Carried|ID:0.1.5|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

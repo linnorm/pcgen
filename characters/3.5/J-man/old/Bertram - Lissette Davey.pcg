@@ -1,0 +1,207 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:wotc - Complete Arcane - RSRD|CAMPAIGN:WotC - Dragon Magic|CAMPAIGN:wotc - Races of Faerun vRSRD|CAMPAIGN:Extra Skills|CAMPAIGN:Extra Equip|CAMPAIGN:Extra Languages
+VERSION:6.02.1
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Lissette Davey
+TABNAME:
+PLAYERNAME:
+HEIGHT:65
+WEIGHT:113
+AGE:123
+GENDER:Female
+HANDED:Right
+SKINCOLOR:Red
+EYECOLOR:Black
+HAIRCOLOR:Red
+HAIRSTYLE:Messy
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:16
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:18
+ALIGN:LE
+RACE:Planetouched (Fey-ri)|ADD:[ABILITY:TYPE=Fey'riMinor|CHOICE:CATEGORY=Fey'ri Racial Trait&pipe;NATURE=NORMAL&pipe;Fey'ri Suggestion|CHOICE:CATEGORY=Fey'ri Racial Trait&pipe;NATURE=NORMAL&pipe;Fey'ri Detect Thoughts|CHOICE:CATEGORY=Fey'ri Racial Trait&pipe;NATURE=NORMAL&pipe;Fey'ri Charm Person|CHOICE:CATEGORY=Fey'ri Racial Trait&pipe;NATURE=NORMAL&pipe;Fey'ri Darkness]
+
+# Character Class(es)
+CLASS:Warlock|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Warlock=1|HITPOINTS:6|PRESTAT:CHA=6|PRESTAT:DEX=-3|PRESTAT:STR=-2|PRESTAT:INT=-1|SKILLSGAINED:24|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=2|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=3|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=4|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=5|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:25230
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+
+# Character Region
+REGION:Sun Elf
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Warlock|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Craft (Untrained)|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:11|
+SKILL:Gather Information|OUTPUTORDER:12|
+SKILL:Heal|OUTPUTORDER:13|
+SKILL:Hide|OUTPUTORDER:14|
+SKILL:Intimidate|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Warlock|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:16|
+SKILL:Listen|OUTPUTORDER:18|
+SKILL:Move Silently|OUTPUTORDER:19|
+SKILL:Perform (Untrained)|OUTPUTORDER:20|
+SKILL:Ride|OUTPUTORDER:22|
+SKILL:Ride (Dire Bat)|OUTPUTORDER:23|
+SKILL:Ride (Hippogriff)|OUTPUTORDER:24|
+SKILL:Search|OUTPUTORDER:25|
+SKILL:Sense Motive|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Warlock|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:30|
+SKILL:Survival|OUTPUTORDER:31|
+SKILL:Swim|OUTPUTORDER:33|
+SKILL:Use Rope|OUTPUTORDER:36|
+SKILL:Use Magic Device|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Warlock|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (The Planes)|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Warlock|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise (Act in character)|OUTPUTORDER:9|
+SKILL:Survival (The Planes)|OUTPUTORDER:32|
+SKILL:Profession (Gambler)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Warlock|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Warlock|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft (Decipher spell on scroll)|OUTPUTORDER:29|
+SKILL:Speak Language|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Warlock|RANKS:2.0|COST:2|CLASSSKILL:N]|ASSOCIATEDDATA:Zeboim|ASSOCIATEDDATA:Solarian
+SKILL:Use Magic Device (Scroll)|OUTPUTORDER:35|
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Draconic|LANGUAGE:Undercommon|LANGUAGE:Elven|LANGUAGE:Abyssal|LANGUAGE:Common|LANGUAGE:Zeboim|LANGUAGE:Infernal|LANGUAGE:Solarian
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Penetration|TYPE:General.EpicWizard.CosmicDescryer|DESC:You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Flyby Attack|TYPE:General.EpicDragonDisciple|DESC:When flying, the creature can take a move action (including a dive) and another standard action at any point during the move.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fey'ri Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fey'ri Charm Person|TYPE:RacialTraits.Fey'riRacialTrait.Fey'riMinor.SpecialQuality.SpellLike
+ABILITY:Fey'ri Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fey'ri Detect Thoughts|TYPE:RacialTraits.Fey'riRacialTrait.Fey'riMinor.SpecialQuality.SpellLike
+ABILITY:Fey'ri Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fey'ri Darkness|TYPE:RacialTraits.Fey'riRacialTrait.Fey'riMinor.SpecialQuality.SpellLike
+ABILITY:Fey'ri Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fey'ri Suggestion|TYPE:RacialTraits.Fey'riRacialTrait.Fey'riMinor.SpecialQuality.SpellLike
+USERPOOL:Fey'ri Racial Trait|POOLPOINTS:4.0
+ABILITY:Warlock Invocation|TYPE:NORMAL|CATEGORY:Warlock Invocation|KEY:Least Invocation - Eldritch Spear|TYPE:SpecialAttack.WarlockInvocation.LeastInvocation.SpellLike|DESC:Least Invocation - Eldritch Spear (Sp)
+ABILITY:Warlock Invocation|TYPE:NORMAL|CATEGORY:Warlock Invocation|KEY:Least Invocation - Summon Swarm|TYPE:SpecialQuality.WarlockInvocation.LeastInvocation.SpellLike|DESC:Least Invocation - Summon Swarm (Sp)
+ABILITY:Warlock Invocation|TYPE:NORMAL|CATEGORY:Warlock Invocation|KEY:Least Invocation - See the Unseen|TYPE:SpecialQuality.WarlockInvocation.LeastInvocation.SpellLike|DESC:Least Invocation - See the Unseen (Sp)
+USERPOOL:Warlock Invocation|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Draconic,Celestial,Infernal,Undercommon|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear]
+WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:155.3800000000001091393642127513885498046875
+EQUIPNAME:Eldritch Blast 1|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Eldritch Blast 1|DATA:NAME=Eldritch Blast 1]
+EQUIPNAME:Dagger|OUTPUTORDER:3|COST:2.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:1|COST:2000|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Eldritch Blast 2|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Eldritch Blast 2|DATA:NAME=Eldritch Blast 2]
+EQUIPNAME:Mithral Shirt +1|OUTPUTORDER:7|COST:2100.0|WT:10.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=Mithral Shirt +1$EQMOD=MITHRAL_ARMR_LT.PLUS1A]
+EQUIPNAME:Whetstone|OUTPUTORDER:9|COST:0.02|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:8|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Bedroll|OUTPUTORDER:12|COST:0.1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Backpack|OUTPUTORDER:11|COST:2|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Flint and Steel|OUTPUTORDER:10|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Wine (Fine/Bottle)|OUTPUTORDER:14|COST:10|WT:1.5|QUANTITY:2.0
+EQUIPNAME:Traveler's Outfit|OUTPUTORDER:6|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Traveler's Outfit$COSTMOD=-1]
+EQUIPNAME:Signet Ring (Crest of North Window)|OUTPUTORDER:2|COST:5|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring (Crest of North Window)$SPROP=(Signet Ring)]
+EQUIPNAME:Waterskin (Filled)|OUTPUTORDER:13|COST:1|WT:4.0|QUANTITY:1.0
+EQUIPNAME:Eldritch Blast 3|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Eldritch Blast 3|DATA:NAME=Eldritch Blast 3]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.03|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.04|VALUE:Signet Ring (Crest of North Window)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.05|VALUE:Traveler's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.06.01|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.06.02|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.07|VALUE:Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.08|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.08.01|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.08.02|VALUE:Waterskin (Filled)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.08.03|VALUE:Wine (Fine/Bottle)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.10|VALUE:Mithral Shirt +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.11|VALUE:Eldritch Blast 3|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Invocation|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:Lissette is about five and a half feet tall and a bit over one hundred pounds.  She has shortish light red hair that is perpetually messy; as if she's just gotten out of bed.  Her skin is a darker shade of red than her hair and, with her hair, is usually kept even when using her Alter Self ability to hide her wings.  Her eyes are a pair of unsettling, black orbs that both seem to look in no particular direction and follow you at the same time.&nl;&nl;Lissette generally dresses in a slightly skimpier version of standard travelling clothing and when wearing something else will often pick function over form if nessessary.&nl;&nl;Lissette is currently with the party due to their proficiency at killing the various factions of Hell/Abyss; neither of which she likes.&nl;&nl;Lissette strives to always be polite; but when politeness fails she will advocate for violence.  When fighting she will relentlessly attack until her enemies are dead.&nl;&nl;
+CHARACTERCOMP:Lissette is the cohort of Bertram Aubrey.&nl;&nl;
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:PLAYERNAME|DEITY
+

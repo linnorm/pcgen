@@ -1,0 +1,6 @@
+# CVS $Revision$ $Author$ -- Wed Dec  3 12:59:23 2014 -- reformated by prettylst.pl v1.51 (build 25490)
+
+
+##Block: Prestige Classes
+ABILITYCATEGORY:Valroux Swordsman Class Feature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO		CATEGORY:Special Ability	TYPE:ValrouxSwordsmanClassFeatures	PLURAL:Valroux Swordsman Class Features			DISPLAYLOCATION:Class Features
+

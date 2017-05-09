@@ -1,0 +1,151 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - The Speaker in Dreams v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:2
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:spkrdr_v35e_area24f_office_infernal_cleric
+TABNAME:
+PLAYERNAME:
+HEIGHT:61
+WEIGHT:129
+AGE:20
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Pasty
+EYECOLOR:Blue
+HAIRCOLOR:Brown
+HAIRSTYLE:Greased
+LOCATION:Urban
+CITY:Cyriador
+BIRTHPLACE:Shallow Warrens
+PERSONALITYTRAIT1:Extroverted
+PERSONALITYTRAIT2:Studious
+SPEECHPATTERN:Clear
+PHOBIAS:Hairyness
+INTERESTS:Collector Weapons
+CATCHPHRASE:C'mon.I can use her in my act. Huzzah!
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:12
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:13
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:10
+ALIGN:LE
+RACE:Human
+
+# Character Class(es)
+CLASS:Cleric|SUBCLASS:None|LEVEL:4|SKILLPOOL:21|SPELLBASE:WIS|CANCASTPERDAY:5,3,2|PROHIBITED:None
+CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:7|ABILITY:[PROMPT:FEAT(TYPE=Undead)|CHOICE:Rebuke Undead]|ABILITY:[PROMPT:FEAT(TYPE=Aura)|CHOICE:Aura~Evil]|SKILLSGAINED:12|SKILLSREMAINING:12
+CLASSABILITIESLEVEL:Cleric=2|HITPOINTS:8|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Cleric=3|HITPOINTS:6|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Cleric=4|HITPOINTS:7|PRESTAT:STR=1|POSTSTAT:STR=1|POSTSTAT:CON=3|POSTSTAT:WIS=6|SKILLSGAINED:3|SKILLSREMAINING:3
+
+# Character Experience
+EXPERIENCE:6000
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Literacy
+
+# Character Feats
+FEAT:Combat Casting|TYPE:GENERAL|DESC:You are adept at casting spells in combat
+FEAT:Enlarge Spell|TYPE:METAMAGIC|DESC:You can cast spells farther than normal
+FEAT:Iron Will|TYPE:GENERAL|DESC:You have a stronger will than normal
+FEAT:Martial Weapon Proficiency|APPLIEDTO:Flail (Heavy)|TYPE:GENERAL|DESC:You understand how to use the chosen martial weapon in combat
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bead of Force|WEAPON:Blowgun|WEAPON:Bomb|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dynamite]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Fragmentation Grenade|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Rock|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Smoke Grenade|WEAPON:Smokebomb|WEAPON:Spear|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Flail (Heavy)]|SOURCE:[TYPE:FEAT|NAME:Martial Weapon Proficiency]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Vestments (Cleric's)|OUTPUTORDER:5|COST:0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Vestments (Cleric's)|DATA:NAME=Vestments (Cleric's)$COSTMOD=-5]
+EQUIPNAME:Full Plate|OUTPUTORDER:4|COST:1500.0|WT:50.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate$EQMOD=ARMR_STEEL]
+EQUIPNAME:Flail (Heavy/Masterwork)|OUTPUTORDER:3|COST:315.0|WT:10.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Flail (Heavy)|DATA:NAME=Flail (Heavy/Masterwork)$EQMOD=WEAP_MWORK.WEAP_STEEL]
+EQUIPNAME:Crossbow (Light)|OUTPUTORDER:2|COST:35.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow (Light)$EQMOD=WEAP_WOOD]
+EQUIPNAME:Bolts (Crossbow/10)|OUTPUTORDER:1|COST:1.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Bolts (Crossbow/10)|DATA:NAME=Bolts (Crossbow/10)$EQMOD=AMMO_STEEL.AMMO_WOOD]
+EQUIPNAME:Wand of Detect Magic|OUTPUTORDER:6|COST:375.0|WT:0.1|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Wand of Detect Magic|DATA:NAME=Wand of Detect Magic$EQMOD=WAND_SPELL_EFFECT_CHARGED&pipe;SPELLNAME&lbracket;Detect Magic&rbracket;SPELLLEVEL&lbracket;0&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;]
+EQUIPNAME:Phylactery of Faithfulness|OUTPUTORDER:1|COST:1000|WT:0.01|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Carried|ID:0.1.1|VALUE:Bolts (Crossbow/10)|QUANTITY:1.0
+EQUIPSET:Armor|ID:0.1.2|VALUE:Full Plate|QUANTITY:1.0
+EQUIPSET:Head|ID:0.1.3|VALUE:Phylactery of Faithfulness|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.4|VALUE:Wand of Detect Magic|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.5|VALUE:Crossbow (Light)|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.6|VALUE:Flail (Heavy/Masterwork)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

@@ -1,0 +1,148 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Forgotten Realms Campaign Setting v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - Players Guide to Faerun v3.5e
+VERSION:5.8.1
+ROLLMETHOD:8|EXPRESSION:10
+PURCHASEPOINTS:N
+POOLPOINTS:12
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_DnD_Forgotten_Realms_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:songrmh_v35e_part3_xul_jarak_room12_zentarim_emissaries_livikus_arthanta
+TABNAME:
+PLAYERNAME:NPC
+HEIGHT:65
+WEIGHT:176
+AGE:18
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:13
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:8
+ALIGN:LE
+RACE:Human (FR)
+
+# Character Class(es)
+CLASS:Cleric|SUBCLASS:None|LEVEL:5|SKILLPOOL:24|SPELLBASE:WIS|CANCASTPERDAY:5,3,2,1|PROHIBITED:None
+CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|ABILITY:[PROMPT:FEAT(TYPE=Undead)|CHOICE:Rebuke Undead]|ABILITY:[PROMPT:FEAT(Aura)|CHOICE:Aura(Evil)]|SKILLSGAINED:12|SKILLSREMAINING:12
+CLASSABILITIESLEVEL:Cleric=2|HITPOINTS:5|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Cleric=3|HITPOINTS:4|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Cleric=4|HITPOINTS:5|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Cleric=5|HITPOINTS:4|POSTSTAT:STR=3|POSTSTAT:DEX=2|POSTSTAT:CON=3|POSTSTAT:CHA=-2|POSTSTAT:WIS=6|SKILLSGAINED:3|SKILLSREMAINING:3
+
+# Character Experience
+EXPERIENCE:10000
+
+# Character Templates
+
+# Character Region
+REGION:Damara
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Literacy
+
+# Character Feats
+FEAT:Combat Casting|TYPE:GENERAL|DESC:You are adept at casting spells in combat
+FEAT:Lightning Reflexes|TYPE:GENERAL|DESC:You have faster than normal reflexes
+FEAT:Weapon Focus|APPLIEDTO:Morningstar|TYPE:GENERAL.FIGHTER|DESC:You are especialy good at using the chosen weapon
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bead of Force|WEAPON:Blowgun|WEAPON:Bomb|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dynamite]
+WEAPONPROF:[WEAPON:Fragmentation Grenade|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Smoke Grenade|WEAPON:Smokebomb|WEAPON:Spear|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Full Plate (Masterwork/+1 (Armor))|OUTPUTORDER:1|COST:2650.0|WT:50.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate (Masterwork/+1 (Armor))$EQMOD=ARMR_MWORK.ARMR_PLUS_1.ARMR_STEEL]
+EQUIPNAME:Morningstar (+1 (Weapon)/Masterwork)|OUTPUTORDER:2|COST:2308.0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Morningstar|DATA:NAME=Morningstar (+1 (Weapon)/Masterwork)$EQMOD=WEAP_MWORK.WEAP_PLUS_1.WEAP_STEEL]
+EQUIPNAME:Holy Symbol (Wooden)|OUTPUTORDER:1|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Armor|ID:0.1.1|VALUE:Full Plate (Masterwork/+1 (Armor))|QUANTITY:1.0
+EQUIPSET:Equipped|ID:0.1.2|VALUE:Holy Symbol (Wooden)|QUANTITY:1.0
+EQUIPSET:Both Hands|ID:0.1.3|VALUE:Morningstar (+1 (Weapon)/Masterwork)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Bane|DEITYDOMAINS:[DOMAIN:Destruction|DOMAIN:Evil|DOMAIN:Hatred|DOMAIN:Law|DOMAIN:Tyranny]|ALIGNALLOW:125|DESC:The Black Lord, the Black Hand, the Lord of Darkness (Portfolio =  Strife, hatred, tyranny, fear)|HOLYITEM:Green rays squeezed forth from a black gauntleted fist|DEITYFAVWEAP:[WEAPON:Morningstar]|DEITYALIGN:LE
+DOMAIN:Hatred|DOMAINGRANTS:Choose one opponent. Against that opponent, you gain a +2 profane bonus on attack rolls, saving throws, and Armor Class for 1 minute. This supernatural ability is usable once per day as a free action.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Destruction|DOMAINGRANTS:You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+
+# Character Spells Information
+SPELLNAME:Contagion|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Destruction]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

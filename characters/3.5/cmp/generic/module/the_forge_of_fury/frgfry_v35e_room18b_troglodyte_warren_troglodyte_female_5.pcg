@@ -1,0 +1,137 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - The Forge of Fury v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:12
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:frgfry_v35e_room18b_troglodyte_warren_troglodyte_female_5
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Female
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:10
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:CE
+RACE:Troglodyte|HITPOINTS:1:1
+
+# Character Class(es)
+
+# Character Experience
+EXPERIENCE:3000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Humanoid]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Draconic
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bite|WEAPON:Blowgun|WEAPON:Claw|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Bite (Natural/Secondary)|OUTPUTORDER:1|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Club|OUTPUTORDER:2|COST:0.0|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Club|DATA:EQMOD=WEAP_WOOD]
+EQUIPNAME:Javelin|OUTPUTORDER:3|COST:1.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Javelin|DATA:EQMOD=WEAP_WOOD]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Natural-Secondary|ID:0.1.2|VALUE:Bite (Natural/Secondary)|QUANTITY:1.0
+EQUIPSET:Natural-Primary|ID:0.1.3|VALUE:Claw (Natural/Primary)|QUANTITY:1.0
+EQUIPSET:Natural-Secondary|ID:0.2.1|VALUE:Bite (Natural/Secondary)|QUANTITY:1.0
+EQUIPSET:Natural-Primary|ID:0.2.2|VALUE:Claw (Natural/Primary)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0

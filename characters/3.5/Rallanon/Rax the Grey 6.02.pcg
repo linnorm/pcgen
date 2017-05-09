@@ -1,0 +1,312 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:wotc - Complete Arcane - RSRD|CAMPAIGN:wotc - Spell Compendium - RSRD|CAMPAIGN:SSS - Relics and Rituals|CAMPAIGN:FFG - Path of Magic - Source Book - 3.5 Conversion|CAMPAIGN:BP - Faeries|CAMPAIGN:Mongoose - Encyclopaedia Arcane - Demonology My 3.5|CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon Base
+VERSION:6.02.00
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Rax the Grey
+TABNAME:
+PLAYERNAME:
+HEIGHT:59
+WEIGHT:103
+AGE:126
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:17
+STAT:INT|SCORE:22
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:18
+ALIGN:CG
+RACE:Elf (Star)
+
+# Character Class(es)
+CLASS:Rogue|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Wizard|LEVEL:20|SKILLPOOL:0
+CLASS:Epic Spells (Arcane/INT)|LEVEL:0|SKILLPOOL:0
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:6|SKILLSGAINED:44|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:4|SKILLSGAINED:11|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:4|SKILLSGAINED:11|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:4|PRESTAT:INT=1|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:4|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=6|HITPOINTS:4|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=7|HITPOINTS:4|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=8|HITPOINTS:4|PRESTAT:INT=1|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=9|HITPOINTS:4|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=10|HITPOINTS:4|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=1|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=2|HITPOINTS:3|PRESTAT:INT=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=3|HITPOINTS:3|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=4|HITPOINTS:3|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=5|HITPOINTS:3|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=6|HITPOINTS:3|PRESTAT:INT=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=7|HITPOINTS:3|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=8|HITPOINTS:3|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=9|HITPOINTS:3|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=10|HITPOINTS:3|PRESTAT:INT=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=11|HITPOINTS:3|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=12|HITPOINTS:3|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=13|HITPOINTS:3|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=14|HITPOINTS:3|PRESTAT:INT=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=15|HITPOINTS:3|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=16|HITPOINTS:3|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=17|HITPOINTS:3|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=18|HITPOINTS:3|PRESTAT:INT=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=19|HITPOINTS:3|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=20|HITPOINTS:3|SKILLSGAINED:9|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:435000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Ral Regions|CHOSENTEMPLATE:[NAME:Athega]]
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:Athega]
+TEMPLATESAPPLIED:[NAME:Combat Expertise trade off]
+
+# Character Region
+REGION:Athega
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Balance|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Wizard|RANKS:33.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:12|
+SKILL:Forgery|OUTPUTORDER:13|
+SKILL:Gather Information|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:15|
+SKILL:Hide|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:18|
+SKILL:Listen|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:27|
+SKILL:Research|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Wizard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:30|
+SKILL:Search|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:36|
+SKILL:Survival|OUTPUTORDER:37|
+SKILL:Swim|OUTPUTORDER:40|
+SKILL:Use Rope|OUTPUTORDER:42|
+SKILL:Decipher Script|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Ancient Kish)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Wizard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Wizard|RANKS:33.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Athega)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Fiend Lore)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Wizard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (The Planes)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Wizard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Open Lock|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Rogue|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Trader)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Ritual Casting|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Wizard|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Speak Language|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:2|CLASSSKILL:N]|ASSOCIATEDDATA:Ancient Kishan
+SKILL:Spellcraft|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Wizard|RANKS:33.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Ley Line|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Wizard|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise (Act in character)|OUTPUTORDER:11|
+SKILL:Survival (Find or follow tracks)|OUTPUTORDER:38|
+SKILL:Survival (The Planes)|OUTPUTORDER:39|
+
+# Character Languages
+LANGUAGE:Elaurin|LANGUAGE:Bloodlandian|LANGUAGE:Bellagonian|LANGUAGE:Ancient Kishan|LANGUAGE:Candonian
+
+# Character Feats
+FEATPOOL:-11.0
+
+# Character Abilities
+ABILITY:Epic Spellcasting Type|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Epic Spellcaster (Arcane/INT Spellstat)|TYPE:EpicSpells|SAVE:BONUS&pipe;PCLEVEL&pipe;EPIC SPELLS (ARCANE/INT)&pipe;1
+USERPOOL:Epic Spellcasting Type|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:General.Fighter.ModifyAC.General.Fighter.MartialArts|DESC:During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Counterspell Riposte|TYPE:Metamagic|DESC:You can attack instantly following a successful counterspell.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Epic Spellcasting|TYPE:Epic.EpicCleric.EpicDruid.EpicSorcerer.EpicWizard.EpicEldritchKnight.EpicLoremaster.EpicMysticTheurge.CosmicDescryer.HighProselytizer.EpicCerebremancer|DESC:You may develop and cast epic spells. If you are an arcane spellcaster, you may cast a number of epic spells per day equal to your ranks in Knowledge (arcana) divided by 10. If you are a divine spellcaster, you may cast a number of epic spells per day equal to your ranks in Knowledge (religion) or Knowledge (nature) divided by 10.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:General.Fighter.AttackOption.ModifyAC|DESC:When you use the attack action or the full attack action in melee, you can take a penalty of as much as %1 on your attack roll and add the same number as a dodge bonus to your Armor Class.&pipe;CombatExpertiseMax
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Energy Substitution|APPLIEDTO:Sonic|TYPE:Metamagic|DESC:You choose one type of energy&colon; acid, cold, electricity, fire, or sonic. When employing a spell with the acid, cold, electricity, fire, or sonic designator, you can modify the spell to use your chosen type of energy instead.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:General.Fighter.ModifyAC.General.Fighter.MartialArts|DESC:You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extended Life Span|APPLIEDTO:|TYPE:Epic.EpicDragonDisciple.EpicHorizonWalker.HighProselytizer|DESC:Add one-half the maximum result of your race's maximum age modifier to your normal middle age, old, and venerable age categories. This feat can't lower your current age category.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Trip|TYPE:General.Fighter.AttackOption.General.Fighter.MartialArts|DESC:You do not provoke an attack of opportunity when you attempt to trip an opponent while you are unarmed and gain a +4 bonus on your Strength check to trip your opponent. If you trip an opponent in melee combat, you immediately get a melee attack against that opponent.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spring Attack|TYPE:General.Fighter.AttackOption.General.Fighter.MartialArts|DESC:When using the attack action with a melee weapon, you can move both before and after the attack, provided that your total distance moved is not greater than your speed.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Permanent Emanation|APPLIEDTO:Arcane Sight (Greater)|TYPE:Epic.EpicBard.EpicCleric.EpicDruid.EpicPaladin.EpicRanger.EpicSorcerer.EpicWizard.EpicBlackguard.EpicEldritchKnight.EpicLoremaster.EpicMysticTheurge.AgentRetriever.CosmicDescryer.DivineEmissary.HighProselytizer.EpicCerebremancer|DESC:Designate any one of your spells whose area is an emanation from you. This spell's effect is permanent.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Concentrate Spell|TYPE:Metamagic|DESC:Reduces the area of effect by 25%% of normal and doubles the damage dice rolled
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Rogue Special Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slippery Mind|TYPE:ClassAbility.RogueAbilities.Extraordinary.SpecialQuality|DESC:Class Special Ability
+USERPOOL:Rogue Special Ability|POOLPOINTS:0.0
+ABILITY:Wizard Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Wondrous Item|TYPE:ItemCreation.Wizard|DESC:You can create any wondrous item whose prerequisites you meet.
+ABILITY:Wizard Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Widen Spell|TYPE:Metamagic.Wizard|DESC:You can alter a burst, emanation, line, or spread shaped spell to increase its area. Any numeric measurements of the spell's area increase by 100%%. A widened spell uses up a spell slot three levels higher than the spell's actual level. Spells that do not have an area of one of these four sorts are not affected by this feat.
+ABILITY:Wizard Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Wand|TYPE:ItemCreation.Wizard|DESC:You can create a wand of any 4th-level or lower spell that you know.
+ABILITY:Wizard Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYPE:Metamagic.Wizard|DESC:All variable, numeric effects of an empowered spell are increased by one-half. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.
+USERPOOL:Wizard Feat|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Bloodlandian,Candonian,Bellagonian|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Kin-Skull|WEAPON:Longbow|WEAPON:Longbow (Composite)|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Rapier|WEAPON:Sap|WEAPON:Shortbow|WEAPON:Shortbow (Composite)|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Straight Razor|WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Belt of Many Pockets|OUTPUTORDER:4|COST:11000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Staff (Planar Might/Bane (Outsiders (evil)))|OUTPUTORDER:0|COST:460000.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Staff (Planar Might/Bane (Outsiders (evil)))|DATA:NAME=Staff of Planar Might (Evil Outsider Bane)$EQMOD=BANE_M&pipe;Outsiders (evil).CHARGED_ITEM_50&pipe;CHARGES&lbracket;50&rbracket;.MAGIC_COST&pipe;-720300.PLUS5W]
+EQUIPNAME:Cloak of Epic Resistance +10|OUTPUTORDER:5|COST:1000000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Ring of Sustenance|OUTPUTORDER:3|COST:2500|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Amulet of Epic Natural Armor +10|OUTPUTORDER:1|COST:2000000|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Rod (Epic Spellcaster)|OUTPUTORDER:10|COST:245400|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Boots of Swiftness|OUTPUTORDER:7|COST:256000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Robe of the Archmagi (White)|OUTPUTORDER:6|COST:75000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Outfit (Scholar's)|OUTPUTORDER:5|COST:5|WT:6.0|QUANTITY:1.0
+EQUIPNAME:Ring (Scribing/Greater)|OUTPUTORDER:6|COST:30000|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Ring (Spellcraft +90)|OUTPUTORDER:2|COST:8100000.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring (Spellcraft +90)$EQMOD=EPIC_SKILL_BONUS_COMPETANCE&pipe;Spellcraft=+90$SPROP=(Ring (Epic Skill Bonus (Competance) (Spellcraft +90)))]
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Neck|ID:0.1.01|VALUE:Amulet of Epic Natural Armor +10|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.02|VALUE:Belt of Many Pockets|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Foot|ID:0.1.03|VALUE:Boots of Swiftness|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Back|ID:0.1.04|VALUE:Cloak of Epic Resistance +10|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.05|VALUE:Outfit (Scholar's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.06|VALUE:Ring (Scribing/Greater)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.07|VALUE:Ring (Spellcraft +90)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.08|VALUE:Ring of Sustenance|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.09|VALUE:Robe of the Archmagi (White)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Rod (Epic Spellcaster)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.11|VALUE:Cloak of Epic Resistance +10|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Double Weapon|ID:0.1.12|VALUE:Staff (Planar Might/Bane (Outsiders (evil)))|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Kabol|DEITYDOMAINS:[DOMAIN:Darkness|DOMAIN:Trickery|DOMAIN:Luck|DOMAIN:Missionary]|ALIGNALLOW:|DESC:Goddess of stealth|HOLYITEM:Black cloak|DEITYFAVWEAP:[WEAPON:Dagger|WEAPON:Dart]|DEITYALIGN:Chaotic Neutral
+
+# Character Spells Information
+SPELLBOOK:Magic Item|TYPE:4
+SPELLNAME:Acid Arrow|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Antimagic Ray|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Arcane Sight (Greater)|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Banishment|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Binding|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Charm Monster|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Charm Person|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Clone|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Contact Other Plane|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Continual Flame|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Demand|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Disintegrate|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Dispel Magic|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Dominate Person|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Fireball|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Fly|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Freedom|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:9|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Gate|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:9|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Heavenly Host|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:9|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Ice Storm|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Identify|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Imprisonment|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:9|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Instant Summons|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Invisibility|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Invisibility Sphere|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Knock|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Legend Lore|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Mage's Disjunction|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:9|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Mage's Magnificent Mansion|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Magic Missile|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Mnemonic Enhancer|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Mount|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Planar Binding|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Planar Binding (Greater)|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Polymorph Any Object|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Protection from Evil|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Protection from Spells|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Remove Curse|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Repulsion|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Shout|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Spider Climb|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Suggestion|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Summon Monster VII|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Sunburst|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Symbol of Death|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Teleport (Greater)|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Teleportation Circle|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:9|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Temporal Stasis|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Time Stop|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:9|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Tongues|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Trap the Soul|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:True Seeing|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Wall of Fire|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Wall of Force|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Wall of Iron|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Wall of Stone|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Wish|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:9|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Create Living Vault (Ritual)|TIMES:1|CLASS:Epic Spells (Arcane/INT)|BOOK:Known Spells|SPELLLEVEL:10|SOURCE:[TYPE:CLASS|NAME:Epic Spells (Arcane/INT)]
+SPELLNAME:Epic Counterspell|TIMES:1|CLASS:Epic Spells (Arcane/INT)|BOOK:Known Spells|SPELLLEVEL:10|SOURCE:[TYPE:CLASS|NAME:Epic Spells (Arcane/INT)]
+SPELLNAME:Epic Repulsion|TIMES:1|CLASS:Epic Spells (Arcane/INT)|BOOK:Known Spells|SPELLLEVEL:10|SOURCE:[TYPE:CLASS|NAME:Epic Spells (Arcane/INT)]
+SPELLNAME:Nailed to the Sky|TIMES:1|CLASS:Epic Spells (Arcane/INT)|BOOK:Known Spells|SPELLLEVEL:10|SOURCE:[TYPE:CLASS|NAME:Epic Spells (Arcane/INT)]
+SPELLNAME:Safe Time|TIMES:1|CLASS:Epic Spells (Arcane/INT)|BOOK:Known Spells|SPELLLEVEL:10|SOURCE:[TYPE:CLASS|NAME:Epic Spells (Arcane/INT)]
+SPELLNAME:Time Duplicate|TIMES:1|CLASS:Epic Spells (Arcane/INT)|BOOK:Known Spells|SPELLLEVEL:10|SOURCE:[TYPE:CLASS|NAME:Epic Spells (Arcane/INT)]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:SP&colon; 796&nl;
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

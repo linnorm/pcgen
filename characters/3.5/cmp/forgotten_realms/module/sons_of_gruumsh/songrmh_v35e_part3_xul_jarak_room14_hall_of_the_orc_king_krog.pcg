@@ -1,0 +1,138 @@
+﻿PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - Sons of Gruumsh v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:12
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:songrmh_v35e_part3_xul_jarak_room14_hall_of_the_orc_king_krog
+TABNAME:
+PLAYERNAME:NPC
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:C&colon;\Documents and Settings\shaun\Desktop\PCGen\portraits\cmp\wizards_of_the_coast\monster_manual\Ogre.jpg
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:10
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:CE
+RACE:Ogre|HITPOINTS:4:5:4:5
+
+# Character Class(es)
+
+# Character Experience
+EXPERIENCE:3000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Giant]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Giant
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana (Martial)|WEAPON:Kukri|WEAPON:Kusari-gama|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spiked Armor|WEAPON:Sword (Bastard/Martial)|WEAPON:Sword (Short)|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Waraxe (Dwarven/Martial)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Ogre Greatclub|OUTPUTORDER:0|COST:0.0|WT:16.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Ogre Greatclub|DATA:EQMOD=WEAP_WOOD]
+EQUIPNAME:Ogre Javelin|OUTPUTORDER:1|COST:0.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Ogre Javelin|DATA:EQMOD=WEAP_WOOD]
+EQUIPNAME:Hide|OUTPUTORDER:2|COST:15|WT:25.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Armor|ID:0.1.1|VALUE:Hide|QUANTITY:1.0
+EQUIPSET:Both Hands|ID:0.1.2|VALUE:Ogre Greatclub|QUANTITY:1.0
+EQUIPSET:Carried|ID:0.1.3|VALUE:Ogre Javelin|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:Ogres are big, ugly, greedy creatures&cr;&nl;that live by raiding and scavenging.&cr;&nl;They join other monsters to prey on&cr;&nl;the weak and associate freely with&cr;&nl;ogre mages, giants, and trolls.&cr;&nl;Lazy and bad-tempered, ogres&cr;&nl;solve problems by smashing them;&cr;&nl;what they can’t smash, they either&cr;&nl;ignore or flee. Dwelling in small&cr;&nl;tribal groups, ogres occupy any convenient&cr;&nl;location and eat nearly anything&cr;&nl;they can catch, steal, or slay.&cr;&nl;Ogres sometimes accept mercenary&cr;&nl;service with other evil&cr;&nl;humanoids (including humans).&cr;&nl;Adult ogres stand 9 to 10 feet&cr;&nl;tall and weigh 600 to 650 pounds.&cr;&nl;Their skin color ranges from dull&cr;&nl;yellow to dull brown. Their&cr;&nl;clothing consists of poorly&cr;&nl;cured furs and hides, which add&cr;&nl;to their naturally repellent odor.&cr;&nl;Ogres speak Giant, and those&cr;&nl;specimens who boast Intelligence&cr;&nl;scores of at least 10 also&cr;&nl;speak Common.&cr;&nl;Combat&cr;&nl;Ogres favor overwhelming odds, sneak&cr;&nl;attacks, and ambushes over a fair fight. They are&cr;&nl;intelligent enough to fire ranged weapons first to soften up&cr;&nl;their foes before closing, but ogre gangs and bands fight as unorganized&cr;&nl;individuals.
+CHARACTERDESC:This hulking brute appears to be at least 9&cr;&nl;feet tall. It has a thick hide covered in dark,&cr;&nl;warty bumps, it wears smelly skins, and its&cr;&nl;hair is long, unkempt, and greasy.
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0

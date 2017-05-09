@@ -1,0 +1,153 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:wotc - Dungeon Master's Guide v3.5e|CAMPAIGN:wotc - Monster Manual v3.5e|CAMPAIGN:wotc - Player's Handbook v3.5e|CAMPAIGN:wotc - The Speaker in Dreams v3.5e
+VERSION:5.8.1
+ROLLMETHOD:1|EXPRESSION:roll(4,6,[2,3,4])
+PURCHASEPOINTS:N
+POOLPOINTS:15
+POOLPOINTSAVAIL:-1
+GAMEMODE:CMP_D20_Fantasy_v35e
+TABLABEL:0
+AUTOSPELLS:Y
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+
+# Character Bio
+CHARACTERNAME:spkrdr_v35e_area20_in_the_crowd_osyluth
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:Neat
+LOCATION:Shallow Warrens
+CITY:Cyriador
+BIRTHPLACE:Nomad
+PERSONALITYTRAIT1:Irreverent
+PERSONALITYTRAIT2:Feminine/Effeminate
+SPEECHPATTERN:Husky Voice
+PHOBIAS:Weapons
+INTERESTS:The Underdark
+CATCHPHRASE:Wait! I'm a MASTER at unarmed combat!
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:11
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:LE
+RACE:Devil (Bone (Osyluth))
+
+# Character Class(es)
+CLASS:Outsider|SUBCLASS:None|LEVEL:5|SKILLPOOL:80|PROHIBITED:None
+CLASSABILITIESLEVEL:Outsider=1|HITPOINTS:1|SKILLSGAINED:40|SKILLSREMAINING:40
+CLASSABILITIESLEVEL:Outsider=2|HITPOINTS:1|SKILLSGAINED:10|SKILLSREMAINING:10
+CLASSABILITIESLEVEL:Outsider=3|HITPOINTS:1|SKILLSGAINED:10|SKILLSREMAINING:10
+CLASSABILITIESLEVEL:Outsider=4|HITPOINTS:1|SKILLSGAINED:10|SKILLSREMAINING:10
+CLASSABILITIESLEVEL:Outsider=5|HITPOINTS:2|SKILLSGAINED:10|SKILLSREMAINING:10
+
+# Character Experience
+EXPERIENCE:0
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Outsider]
+TEMPLATESAPPLIED:[NAME:Lawful]
+TEMPLATESAPPLIED:[NAME:Evil]
+TEMPLATESAPPLIED:[NAME:Extraplanar]
+TEMPLATESAPPLIED:[NAME:Baatezu]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Draconic|LANGUAGE:Infernal
+
+# Character Feats
+FEAT:One Knowledge Skill (+13)|APPLIEDTO:Knowledge (Arcana)|TYPE:ONEKNOWLEDGE13|DESC:
+FEAT:Alertness|TYPE:GENERAL|DESC:You have finely tuned senses
+FEAT:Improved Initiative|TYPE:GENERAL.FIGHTER|DESC:You can react more quickly than normal in a fight
+FEAT:Iron Will|TYPE:GENERAL|DESC:You have a stronger will than normal
+FEAT:Multiattack|TYPE:GENERAL|DESC:The creature is adept at using all its natural weapons at once
+FEATPOOL:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Claw|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)]
+WEAPONPROF:[WEAPON:Dart|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana (Martial)|WEAPON:Kukri|WEAPON:Kusari-gama|WEAPON:Lance|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier]
+WEAPONPROF:[WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spiked Armor|WEAPON:Sting]
+WEAPONPROF:[WEAPON:Sword (Bastard/Martial)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Waraxe (Dwarven/Martial)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Claw (Natural/Secondary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Sting (Natural/Secondary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Bite (Natural/Primary)|QUANTITY:1.0
+EQUIPSET:Natural-Secondary|ID:0.1.2|VALUE:Claw (Natural/Secondary)|QUANTITY:1.0
+EQUIPSET:Natural-Secondary|ID:0.1.3|VALUE:Sting (Natural/Secondary)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Kits
+
+# Chosen Armor Profs
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

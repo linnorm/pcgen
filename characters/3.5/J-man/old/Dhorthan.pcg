@@ -1,0 +1,223 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:wotc - Races of Stone v3.5e|CAMPAIGN:wotc - Complete Warrior RSRD|CAMPAIGN:Extra Equip|CAMPAIGN:Extra Equip Mods|CAMPAIGN:Extra Feats|CAMPAIGN:Extra Languages|CAMPAIGN:Extra Skills
+VERSION:6.02.1
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Dhorthan
+TABNAME:
+PLAYERNAME:Arthur
+HEIGHT:49
+WEIGHT:158
+AGE:55
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:20
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:17
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:14
+ALIGN:NG
+RACE:Dwarf
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Stonelord|LEVEL:4|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|SUBSTITUTIONLEVEL:Dwarven Fighter|HITPOINTS:12|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:9|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:7|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:7|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:7|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Stonelord=1|HITPOINTS:6|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Stonelord=2|HITPOINTS:6|ADD:[ABILITY:TYPE=StonePower|CHOICE:CATEGORY=Class Ability&pipe;NATURE=NORMAL&pipe;Earth Power]|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Stonelord=3|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Stonelord=4|HITPOINTS:6|ADD:[ABILITY:TYPE=StonePower|CHOICE:CATEGORY=Class Ability&pipe;NATURE=NORMAL&pipe;Summon Earth Elemental]|SKILLSGAINED:3|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:36001
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Fighter|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Craft (Untrained)|OUTPUTORDER:13|
+SKILL:Diplomacy|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:16|
+SKILL:Escape Artist|OUTPUTORDER:17|
+SKILL:Forgery|OUTPUTORDER:18|
+SKILL:Gather Information|OUTPUTORDER:19|
+SKILL:Heal|OUTPUTORDER:20|
+SKILL:Hide|OUTPUTORDER:21|
+SKILL:Intimidate|OUTPUTORDER:22|
+SKILL:Jump|OUTPUTORDER:23|
+SKILL:Listen|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Move Silently|OUTPUTORDER:26|
+SKILL:Perform (Untrained)|OUTPUTORDER:27|
+SKILL:Ride|OUTPUTORDER:29|
+SKILL:Search|OUTPUTORDER:30|
+SKILL:Sense Motive|OUTPUTORDER:32|
+SKILL:Spot|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Stonelord|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Survival|OUTPUTORDER:34|
+SKILL:Swim|OUTPUTORDER:35|
+SKILL:Use Rope|OUTPUTORDER:37|
+SKILL:Craft ~ Armorsmithing|OUTPUTORDER:6|
+SKILL:Craft ~ Blacksmithing|OUTPUTORDER:7|
+SKILL:Craft ~ Metalworking|OUTPUTORDER:9|
+SKILL:Craft ~ Stonemasonry|OUTPUTORDER:10|
+SKILL:Craft ~ Stoneworking|OUTPUTORDER:11|
+SKILL:Craft ~ Weaponsmithing|OUTPUTORDER:14|
+SKILL:Search (Notice unusual stonework)|OUTPUTORDER:31|
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim (Avoid taking nonlethal fatigue damage)|OUTPUTORDER:36|
+SKILL:Craft (Stoneworking)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Fighter|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Brewing)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Stonelord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Brewer)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Stonelord|RANKS:1.0|COST:1|CLASSSKILL:Y]
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Terran|LANGUAGE:Dwarven
+
+# Character Feats
+FEATPOOL:-4.0
+
+# Character Abilities
+ABILITY:Class Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Summon Earth Elemental|TYPE:ClassAbility.SpecialQuality.SpellLike.StonePower|DESC:Once per day, a stone-lord with this ability can summon an earth elemental as if she had cast a Summon Monster spell.
+ABILITY:Class Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Earth Power|TYPE:ClassAbility.SpecialAttack.Supernatural.AttackOption.StonePower|DESC:Once per day, all melee attacks made in a single round by a stonelord with this ability gain a +2 bonus on the attack roll and deal an extra 2d6 points of damage on a successful hit. Using this ability is a free action.
+USERPOOL:Class Ability|POOLPOINTS:2.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Axespike|TYPE:Style|DESC:When you make a full attack with your greataxe, you can make an additional attack with your armor spikes at a -5 penalty. You can only add 1/2 your Strength modifier to the damage from this extra attack, as if it were an attack with an off-hand weapon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General|DESC:You gain a +4 bonus on checks relating to stamina or extended physical activity. Also, you may sleep in light or medium armor without becoming fatigued.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Heavy Armor Optimization|APPLIEDTO:|TYPE:General.Fighter|DESC:When you are wearing heavy armor, lessen the armor check penalty of the armor by 1 and increase the armor bonus by 1.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption|DESC:On your action, before making attack rolls for a round, you may choose to subtract up to %1 from all melee attack rolls and add the same number to all melee damage rolls.&pipe;PowerAttackMax
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Spiked Armor|TYPE:General.Fighter|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Specialization|APPLIEDTO:Greataxe|TYPE:Special.Fighter|DESC:You gain a +2 bonus on all damage rolls you make using the selected weapon.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dwarven Armor Proficiency|TYPE:Racial.Fighter|DESC:You are proficient with battle plate, interlocking plate, interlocking scale, and mountain plate, and you take no armor nonproficiency penalties when you wear any of these types of exotic armor.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Terran|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme]
+WEAPONPROF:[WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)]
+WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap]
+WEAPONPROF:[WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Urgrosh (Dwarven)|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:8117.7100000000000363797880709171295166015625
+EQUIPNAME:Armor Spikes|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Armor Spikes|DATA:NAME=Armor Spikes$EQMOD=STEEL]
+EQUIPNAME:Flint and Steel|OUTPUTORDER:7|COST:1|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:2|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Rope (Silk/50 Ft.)|OUTPUTORDER:10|COST:10|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Whetstone|OUTPUTORDER:6|COST:0.02|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Traveler's Outfit|OUTPUTORDER:3|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Traveler's Outfit$COSTMOD=-1]
+EQUIPNAME:Axe +1 (Throwing)|OUTPUTORDER:13|COST:2308.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Axe (Throwing)|DATA:NAME=Axe +1 (Throwing)$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Potion (Cure Moderate Wounds)|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Waterskin (Filled)|OUTPUTORDER:9|COST:1|WT:4.0|QUANTITY:1.0
+EQUIPNAME:Gauntlets of Ogre Power|OUTPUTORDER:2|COST:4000|WT:4.0|QUANTITY:1.0
+EQUIPNAME:Handy Haversack|OUTPUTORDER:8|COST:2000|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Bedroll|OUTPUTORDER:12|COST:0.1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Greataxe +1 (Cold Iron)|OUTPUTORDER:1|COST:4340.0|WT:12.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Greataxe|DATA:NAME=Greataxe +1 (Cold Iron)$EQMOD=PLUS1W.C_IRON]
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:5|COST:1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Interlocking Plate +1 (Fortification (Light)/Armor Spikes)|OUTPUTORDER:4|COST:5950.0|WT:50.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Interlocking Plate|DATA:NAME=Interlocking Plate +1 (Fortification (Light)/Armor Spikes)$EQMOD=STEEL.PLUS1A.SPIKE_A.FRT_LGHT]
+EQUIPNAME:Blanket (Winter)|OUTPUTORDER:11|COST:0.5|WT:3.0|QUANTITY:1.0
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:2|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Armor Spikes|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Armor Spikes|DATA:EQMOD=STEEL]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.01|VALUE:Axe +1 (Throwing)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.03|VALUE:Greataxe +1 (Cold Iron)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.04|VALUE:Traveler's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.01|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.02|VALUE:Potion (Cure Moderate Wounds)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.03|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Handy Haversack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.06.01|VALUE:Waterskin (Filled)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.06.02|VALUE:Rope (Silk/50 Ft.)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.06.03|VALUE:Blanket (Winter)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.06.04|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.08|VALUE:Gauntlets of Ogre Power|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.09|VALUE:Interlocking Plate +1 (Fortification (Light)/Armor Spikes)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Armor Spikes|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Hanseath|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Strength|DOMAIN:Travel|DOMAIN:War]|ALIGNALLOW:|DESC:Known as the Bearded One for the thick hair that obscures most of his face, Hanseath represents the festive side of dwarven culture. Brewers hold him in high regard, as do dwarf barbarians and any dwarf who charges headlong into battle heedless of the odds.|HOLYITEM:Golden Mug|DEITYFAVWEAP:[WEAPON:Greataxe]|DEITYALIGN:Chaotic Neutral
+
+# Character Spells Information
+SPELLBOOK:Stonelord|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:REGION
+

@@ -1,0 +1,217 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:wotc - Miniatures Handbook RSRD|CAMPAIGN:wotc - Complete Warrior RSRD|CAMPAIGN:Cry Havoc|CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon Base
+VERSION:6.02.00
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:37
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Dame Brandi Stockwell
+TABNAME:
+PLAYERNAME:
+HEIGHT:68
+WEIGHT:218
+AGE:32
+GENDER:Female
+HANDED:Right
+SKINCOLOR:Tanned
+EYECOLOR:Blue
+HAIRCOLOR:Blonde
+HAIRSTYLE:Ponytail
+LOCATION:Alkabeth's Keep
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:Enthusiastic
+PERSONALITYTRAIT2:Courageous
+SPEECHPATTERN:Terse
+PHOBIAS:Failing your Leige
+INTERESTS:Gladiators
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:10
+STAT:INT|SCORE:14
+STAT:WIS|SCORE:11
+STAT:CHA|SCORE:18
+ALIGN:NG
+RACE:Human
+
+# Character Class(es)
+CLASS:Marshal|LEVEL:15|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Marshal=1|HITPOINTS:8|SKILLSGAINED:28|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=2|HITPOINTS:1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=3|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=4|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=5|HITPOINTS:7|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=6|HITPOINTS:1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=7|HITPOINTS:1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=8|HITPOINTS:2|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=9|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=10|HITPOINTS:7|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=11|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=12|HITPOINTS:3|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=13|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=14|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Marshal=15|HITPOINTS:7|SKILLSGAINED:7|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:105000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Ral Regions]
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:Bellagon]
+
+# Character Region
+REGION:Bellagon
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Craft (Untrained)|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Marshal|RANKS:18.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:13|
+SKILL:Hide|OUTPUTORDER:14|
+SKILL:Intimidate|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:16|
+SKILL:Listen|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently|OUTPUTORDER:26|
+SKILL:Perform (Untrained)|OUTPUTORDER:27|
+SKILL:Research|OUTPUTORDER:30|
+SKILL:Ride|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Marshal|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:32|
+SKILL:Sense Motive|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:38|
+SKILL:Use Rope|OUTPUTORDER:40|
+SKILL:Handle Animal|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Bellagon)|OUTPUTORDER:17|
+SKILL:Knowledge (Bloodlands)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Court Protocol)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Marshal|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Geography)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Military)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Marshal|RANKS:18.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Pantorka)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Marshal|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Politics)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Marshal|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Roton)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Marshal|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Weapon Drill)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Military Commander)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Marshal|RANKS:18.0|COST:1|CLASSSKILL:Y]
+SKILL:Speak Language|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Marshal|RANKS:5.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Bloodlandian|ASSOCIATEDDATA:Candonian|ASSOCIATEDDATA:Dwarech|ASSOCIATEDDATA:Elaurin|ASSOCIATEDDATA:Pantorkian
+SKILL:Survival (Lost/Natural hazards)|OUTPUTORDER:37|
+SKILL:Swim (Avoid taking nonlethal fatigue damage)|OUTPUTORDER:39|
+
+# Character Languages
+LANGUAGE:Pantorkian|LANGUAGE:Candonian|LANGUAGE:Bloodlandian|LANGUAGE:Bellagonian|LANGUAGE:Elaurin|LANGUAGE:Dwarech
+
+# Character Feats
+FEATPOOL:-7.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Handed Power Strike|TYPE:General.Fighter|DESC:You utilize larger weapons' weight and size againt your opponents in combat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General.General.MartialArts|DESC:You gain a +4 bonus on checks relating to stamina or extended physical activity. Also, you may sleep in light or medium armor without becoming fatigued.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.General.Fighter.MartialArts|DESC:On your action, before making attack rolls for a round, you may choose to subtract up to %1 from all melee attack rolls and add the same number to all melee damage rolls.&pipe;PowerAttackMax
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Halberd|TYPE:General.Fighter|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Leadership|TYPE:General|DESC:Having this feat enables you to attract loyal companions and devoted followers, subordinates who assist you.|DESC:Cohort Level=%1&pipe;min(CohortLVL,TL-2)|DESC:Level 1 Followers=%1&pipe;LeadershipFollowerLVL1|DESC:Level 2 Followers=%1&pipe;LeadershipFollowerLVL2|DESC:Level 3 Followers=%1&pipe;LeadershipFollowerLVL3|DESC:Level 4 Followers=%1&pipe;LeadershipFollowerLVL4|DESC:Level 5 Followers=%1&pipe;LeadershipFollowerLVL5|DESC:Level 6 Followers=%1&pipe;LeadershipFollowerLVL6
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Profession (Military Commander)|TYPE:General|DESC:You get a +3 bonus on all checks involving that skill.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Marshal Major Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Motivate Attack|TYPE:SpecialQuality.Extraordinary.MarshalMajorAura|DESC:Allies gain +%1 on melee attack rolls&pipe;MarshalMajorAuraBonus
+ABILITY:Marshal Major Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Motivate Urgency|TYPE:SpecialQuality.Extraordinary.MarshalMajorAura|DESC:Allies gain +%1 to land speed&pipe;MarshalMajorAuraBonus*5
+ABILITY:Marshal Major Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Power Aura|TYPE:MarshalMajorAura.SpecialQuality.Supernatural|DESC:Gain a +%1 bonus to melee damage rolls.&pipe;MarshalMajorAuraBonus
+ABILITY:Marshal Major Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Vigor Aura|TYPE:MarshalMajorAura.SpecialQuality.Supernatural|DESC:Gain Fast Healing %1 when below half normal hit points&pipe;MarshalMajorAuraBonus
+USERPOOL:Marshal Major Aura|POOLPOINTS:0.0
+ABILITY:Marshal Minor Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Over the Top|TYPE:SpecialQuality.Extraordinary.MarshalMinorAura|DESC:Allies gain +%1 bonus on damage rolls when charging&pipe;CHA
+ABILITY:Marshal Minor Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Master of Tactics|TYPE:SpecialQuality.Extraordinary.MarshalMinorAura|DESC:Allies gain +%1 bonus on damage rolls when flanking&pipe;CHA
+ABILITY:Marshal Minor Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Motivate Dexterity|TYPE:SpecialQuality.Extraordinary.MarshalMinorAura|DESC:Allies gain +%1 bonus on Dexterity checks and Dexterity-based skills&pipe;CHA
+ABILITY:Marshal Minor Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Force of Will|TYPE:SpecialQuality.Extraordinary.MarshalMinorAura|DESC:Allies gain +%1 bonus on Will saves&pipe;CHA
+ABILITY:Marshal Minor Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Accurate Strike|TYPE:SpecialQuality.Extraordinary.MarshalMinorAura|DESC:Allies gain +%1 bonus on critical confirmation rolls&pipe;CHA
+ABILITY:Marshal Minor Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Motivate Constitution|TYPE:SpecialQuality.Extraordinary.MarshalMinorAura|DESC:Allies gain +%1 bonus on Constitution checks and Constitution-based skills&pipe;CHA
+ABILITY:Marshal Minor Aura|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Master of Opportunity|TYPE:SpecialQuality.Extraordinary.MarshalMinorAura|DESC:Allies gain +%1 bonus on AC against AOO&pipe;CHA
+USERPOOL:Marshal Minor Aura|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur]
+WEAPONPROF:[WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spiked Armor|WEAPON:Straight Razor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+WEAPONPROF:[WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Outfit (Courtier's)|OUTPUTORDER:1|COST:30|WT:6.0|QUANTITY:1.0
+EQUIPNAME:Oathkeeper|OUTPUTORDER:2|COST:10.0|WT:12.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Halberd|DATA:NAME=Oathkeeper$EQMOD=KEEN.STEEL$SPROP=(Halberd +3 (Accord/Keen))]
+EQUIPNAME:Commanding Presence|OUTPUTORDER:1|COST:1500.0|WT:50.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Commanding Presence$EQMOD=STEEL$SPROP=(Full Plate +4 (Fortification (Medium)/Mithral/Command/Fear/Presence))]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:2|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:3|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:2|WT:1.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1
+EQUIPSET:Armor|ID:0.1.01|VALUE:Commanding Presence|QUANTITY:1.0
+EQUIPSET:Both Hands|ID:0.1.02|VALUE:Oathkeeper|QUANTITY:1.0
+EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Traveler's)|QUANTITY:1.0
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Maren|DEITYDOMAINS:[DOMAIN:Strength|DOMAIN:Travel|DOMAIN:War|DOMAIN:Missionary]|ALIGNALLOW:|DESC:God of war and conflict|HOLYITEM:Mace and sword crossed|DEITYFAVWEAP:[WEAPON:Longsword|WEAPON:Longspear|WEAPON:Shortspear|WEAPON:Battleaxe]|DEITYALIGN:Chaotic Neutral
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:Dame Brandi Stockwell currently holds the title Lord Marshall of the Bloodlandian Army.  She began adventuring with Rastar before the revolution and served as the head of his household guard during his time as a prince.  She councils the king on military matters and is rarely far from his side.
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

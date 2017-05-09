@@ -1,0 +1,177 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:wotc - Complete Warrior RSRD
+VERSION:6.02.1
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:!Test Bladesinger
+TABNAME:
+PLAYERNAME:
+HEIGHT:55
+WEIGHT:89
+AGE:131
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:13
+STAT:CON|SCORE:14
+STAT:INT|SCORE:13
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:12
+ALIGN:LN
+RACE:Elf
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Sorcerer|LEVEL:1|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:5,3
+CLASS:Bladesinger|LEVEL:1|SKILLPOOL:3|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:7|PRESTAT:DEX=1|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:3|PRESTAT:INT=3|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bladesinger=1|HITPOINTS:6|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;SORCERER&pipe;1]|ADD:[SPELLCASTER:Arcane|CHOICE:Sorcerer]|SKILLSGAINED:3|SKILLSREMAINING:3
+
+# Character Experience
+EXPERIENCE:21000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Combat Expertise trade off]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Disguise|OUTPUTORDER:9|
+SKILL:Escape Artist|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:11|
+SKILL:Gather Information|OUTPUTORDER:12|
+SKILL:Heal|OUTPUTORDER:13|
+SKILL:Hide|OUTPUTORDER:14|
+SKILL:Intimidate|OUTPUTORDER:15|
+SKILL:Jump|OUTPUTORDER:16|
+SKILL:Listen|OUTPUTORDER:17|
+SKILL:Move Silently|OUTPUTORDER:18|
+SKILL:Perform (Untrained)|OUTPUTORDER:23|
+SKILL:Ride|OUTPUTORDER:24|
+SKILL:Search|OUTPUTORDER:25|
+SKILL:Sense Motive|OUTPUTORDER:26|
+SKILL:Spot|OUTPUTORDER:27|
+SKILL:Survival|OUTPUTORDER:28|
+SKILL:Swim|OUTPUTORDER:29|
+SKILL:Use Rope|OUTPUTORDER:30|
+SKILL:Perform (Sing)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Perform (Dance)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Concentration (Cast defensively)|OUTPUTORDER:6|
+SKILL:Perform ~ Dance|OUTPUTORDER:20|
+SKILL:Perform ~ Sing|OUTPUTORDER:22|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.EpicWizard.CosmicDescryer|DESC:You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Elven Thinblade|TYPE:General.Fighter|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:General.Fighter.ModifyAC|DESC:During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:General.Fighter.AttackOption.ModifyAC|DESC:When you use the attack action or the full attack action in melee, you can take a penalty of as much as %1 on your attack roll and add the same number as a dodge bonus to your Armor Class.&pipe;CombatExpertiseMax
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Elven Thinblade|TYPE:General.Fighter|DESC:Choose a type of exotic weapon. You understand how to use that type of exotic weapon in combat.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Elven Thinblade]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier]
+WEAPONPROF:[WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear]
+WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spiked Armor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Sword (Elven Thinblade)|OUTPUTORDER:0|COST:100.0|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Sword (Elven Thinblade)|DATA:EQMOD=WEAP_STEEL]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.01|VALUE:Sword (Elven Thinblade)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Air|DOMAIN:Animal|DOMAIN:Artifice|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Community|DOMAIN:Courage|DOMAIN:Creation|DOMAIN:Darkness|DOMAIN:Death|DOMAIN:Destruction|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Fate|DOMAIN:Fire|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Healing|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Liberation|DOMAIN:Luck|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Mind|DOMAIN:Nobility|DOMAIN:Planning|DOMAIN:Plant|DOMAIN:Protection|DOMAIN:Repose|DOMAIN:Rune|DOMAIN:Scalykind|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Tyranny|DOMAIN:War|DOMAIN:Water|DOMAIN:Weather]|ALIGNALLOW:|DESC:Due to closed content PCGEN cannot provide a list of deities, sorry but you need to homebrew your own list; Please see the Documentation for how to do so - http://www.pcgen-test.org/autobuilds/pcgen-docs/listfilepages/lstfileclass/lfc_lesson14_deities.html|HOLYITEM:None|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

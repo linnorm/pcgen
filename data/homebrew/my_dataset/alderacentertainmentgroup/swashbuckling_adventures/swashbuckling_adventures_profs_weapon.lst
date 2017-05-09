@@ -1,0 +1,24 @@
+# CVS $Revision$ $Author$ -- Sat Oct 13 01:30:35 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+SOURCELONG:Alderac Entertainment Group - Swashbuckling Adventures	SOURCESHORT:Swashbuckling Adventures	SOURCEWEB:http://alderac.com/d20
+
+#Weapon Groupings used to facilitate homebrews:
+#	Sword, Spear, Axe, Bow, Unarmed
+#	Melee, Ranged, Thrown, Spell
+#	Bludgeoning, Slashing, Piercing
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
+#	RangedTouch
+
+# SIMPLE WEAPONS
+
+# -- light melee
+Dagger.MOD				TYPE:Simple.Melee.Ranged.Dagger.Piercing.Slashing.MeleeSlashing.MeleePiercing.RangedPiercing.RangedSlashing.Light.Fencing.SmallBlade
+Dagger (Punching).MOD			TYPE:Simple.Melee.Dagger.Piercing.MeleePiercing.Light.Fencing.SmallBlade
+
+# Martial
+# -- light
+Main Gauche				TYPE:Martial.Melee.Dagger.Piercing.Slashing.MeleeSlashing.MeleePiercing.Light.Fencing.SmallBlade
+Sword (Short).MOD			TYPE:Martial.Melee.Piercing.MeleePiercing.Sword.Light.OneHandedMartial.Fencing
+
+# 1-handers
+Rapier.MOD				TYPE:Martial.Melee.Piercing.MeleePiercing.Sword.OneHanded.OneHandedMartial.Fencing
