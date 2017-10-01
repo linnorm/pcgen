@@ -1,0 +1,19 @@
+SOURCELONG:The Avatar's Handbook	SOURCESHORT:avatarshandbook	SOURCEWEB:http://www.greenronin.com
+
+
+##TODO: Add mechanics for templates
+
+##Block: Half-Celestial-Dragon
+# Template Name				Hit Dice Size				Challenge Rating	Visible	Level Adjustment	Template																																															Source Page				Required AL	Combat bonus						Stat bonus							Modify VAR							Bonus Monster Skill Points		Ability																	Main Race Type
+#Half-Celestial-Dragon			HITDIE:%up1|CLASS.TYPE=Monster	CR:2			VISIBLE:NO	LEVELADJUSTMENT:3	TEMPLATE:CHOOSE:Half-Dragon Wings ~ Normal|Half-Dragon Wings ~ Fast	TEMPLATE:CHOOSE:Bite ~ Claw (Fine)|Bite ~ Claw (Diminutive)|Bite ~ Claw (Tiny)|Bite ~ Claw (Small)|Bite ~ Claw (Medium)|Bite ~ Claw (Large)|Bite ~ Claw (Huge)|Bite ~ Claw (Gargantuan)|Bite ~ Claw (Colossal)	SOURCEPAGE:pg. 68					BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|8	BONUS:STAT|CON,INT,CHA|2	BONUS:VAR|HalfDragonBreathDC|DefaultDCCon	BONUS:MONSKILLPTS|LOCKNUMBER|6	ABILITY:Special Ability|AUTOMATIC|Low-Light Vision										RACETYPE:Dragon
+Half-Celestial-Dragon (Dream)											VISIBLE:YES				TEMPLATE:Half-Dragon																																													SOURCEPAGE:pg. 68			PREALIGN:CG																													ABILITY:Special Ability|AUTOMATIC|Half-Celestial-Dragon Breath Weapon ~ Dream|Immunity to Electricity|Immunity to Cold	FAVOREDCLASS:Sorcerer
+Half-Celestial-Dragon (Glory)											VISIBLE:YES				TEMPLATE:Half-Dragon																																													SOURCEPAGE:pg. 68			PREALIGN:NG																													ABILITY:Special Ability|AUTOMATIC|Half-Celestial-Dragon Breath Weapon ~ Glory|Immunity to Electricity|Immunity to Sonic	FAVOREDCLASS:Bard
+Half-Celestial-Dragon (Radiant)										VISIBLE:YES				TEMPLATE:Half-Dragon																																													SOURCEPAGE:pg. 68			PREALIGN:LG																													ABILITY:Special Ability|AUTOMATIC|Half-Celestial-Dragon Breath Weapon ~ Radiant|Immunity to Electricity|Immunity to Fire	FAVOREDCLASS:Avatar
+
+
+##Block: Other templates
+# Template Name		Hit Dice Size				Challenge Rating	Visible	Level Adjustment	Template																																														Source Page				Required AL	Combat bonus					Stat bonus							Modify VAR						Bonus Monster Skill Points		Ability																	Main Race Type
+Reforged
+Sublime
+Uncalled
+Wordbearer

@@ -29,4 +29,5 @@ ABILITYCATEGORY:avatarshandbook_abilitycategories.lst
 CLASS:avatarshandbook_classes_35e.lst
 SPELL:avatarshandbook_spells.lst
 FEAT:avatarshandbook_feats.lst
-EQUIPMENT:avatarshandbook_equip_wondrousitems.lst
+RACE:avatarshandbook_races.lst
+TEMPLATE:avatarshandbook_templates.lst
