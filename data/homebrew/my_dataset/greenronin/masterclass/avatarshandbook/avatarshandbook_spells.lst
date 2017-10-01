@@ -1,4 +1,225 @@
 SOURCELONG:The Avatar's Handbook	SOURCESHORT:avatarshandbook	SOURCEWEB:http://www.greenronin.com
 
 
+##Block: New Spells
 # Spell Name				Unique Key						Type				Classes of caster										Domains granting the spell		School			Sub-School				Descriptor							Spell Variations													Components						Casting Time					Range								Item		Target Area or Effect																												Duration															Save Info													Spell Resistance							Cost		XP Cost	Source, Long Desc.		Source, Short Desc.	Source Page		Source Pub Link
+Banner of Perdition
+Banner of the Purging Flame
+Banner of True Light
+Blade of the Archangel
+Brother of Angels
+Call the Host
+Cull the Wicked
+Grave Bane Banner
+Guided Weapon
+Heaven's Touch
+Moment of Grace
+Rally Standard
+Sacred Gift
+Sacred Weapon
+Sanctify
+Spell Shield Banner
+Stand Fast
+Standard of Heaven's Peace
+Summoning Standard
+Weight of Sin
+Wrath of the Heavens
+
+
+##Block: Existing Spells
+##NOTE: Added domain spells for celestial domains from Spell Compendium. -- Rax the Grey
+##Block: Level 0
+# Spell Name				Classes of caster
+Create Water.MOD				CLASSES:Avatar=0
+Cure Minor Wounds.MOD			CLASSES:Avatar=0
+Dancing Lights.MOD			CLASSES:Avatar=0
+Detect Magic.MOD				CLASSES:Avatar=0
+Flare.MOD					CLASSES:Avatar=0
+Guidance.MOD				CLASSES:Avatar=0
+Light.MOD					CLASSES:Avatar=0
+Purify Food and Drink.MOD		CLASSES:Avatar=0
+Read Magic.MOD				CLASSES:Avatar=0
+Resistance.MOD				CLASSES:Avatar=0
+Virtue.MOD					CLASSES:Avatar=0
+
+
+##Block: Level 1
+# Spell Name				Classes of caster
+Bless.MOD					CLASSES:Avatar=1
+Bless Water.MOD				CLASSES:Avatar=1
+Charm Person.MOD				CLASSES:Avatar=1
+Command.MOD					CLASSES:Avatar=1
+Cure Light Wounds.MOD			CLASSES:Avatar=1
+Detect Chaos.MOD				CLASSES:Avatar=1
+Detect Evil.MOD				CLASSES:Avatar=1
+Detect Law.MOD				CLASSES:Avatar=1
+Divine Favor.MOD				CLASSES:Avatar=1
+Endure Elements.MOD			CLASSES:Avatar=1
+Longstrider.MOD				CLASSES:Avatar=1
+Light of Lunia.MOD			CLASSES:Avatar=1
+Obscuring Mist.MOD			CLASSES:Avatar=1
+Protection from Chaos.MOD		CLASSES:Avatar=1
+Protection from Evil.MOD		CLASSES:Avatar=1
+Protection from Law.MOD			CLASSES:Avatar=1
+Remove Fear.MOD				CLASSES:Avatar=1
+Sanctuary.MOD				CLASSES:Avatar=1
+Sleep.MOD					CLASSES:Avatar=1
+Shield of Faith.MOD			CLASSES:Avatar=1
+Summon Monster I.MOD			CLASSES:Avatar=1
+Summon Nature's Ally I.MOD		CLASSES:Avatar=1
+
+
+##Block: Level 2
+# Spell Name				Classes of caster
+Aid.MOD					CLASSES:Avatar=2
+Augury.MOD					CLASSES:Avatar=2
+Bless Weapon.MOD				CLASSES:Avatar=2
+Bull's Strength.MOD			CLASSES:Avatar=2
+Calm Emotions.MOD				CLASSES:Avatar=2
+Consecrate.MOD				CLASSES:Avatar=2
+Continual Flame.MOD			CLASSES:Avatar=2
+Cure Moderate Wounds.MOD		CLASSES:Avatar=2
+Darkvision.MOD				CLASSES:Avatar=2
+Endurance.MOD				CLASSES:Avatar=2
+Enthrall.MOD				CLASSES:Avatar=2
+Flame Blade.MOD				CLASSES:Avatar=2
+Hold Person.MOD				CLASSES:Avatar=2
+Restoration, Lesser.MOD			CLASSES:Avatar=2
+Make Whole.MOD				CLASSES:Avatar=2
+Negative Energy Protection.MOD	CLASSES:Avatar=2
+Resist Elements.MOD			CLASSES:Avatar=2
+See Invisibility.MOD			CLASSES:Avatar=2
+Shield Other.MOD				CLASSES:Avatar=2
+Spiritual Weapon.MOD			CLASSES:Avatar=2
+Summon Monster II.MOD			CLASSES:Avatar=2
+Summon Nature's Ally II.MOD		CLASSES:Avatar=2
+Summon Swarm.MOD				CLASSES:Avatar=2
+Zone of Truth.MOD				CLASSES:Avatar=2
+
+##Block: Level 3
+# Spell Name				Classes of caster
+Call Lightning.MOD			CLASSES:Avatar=3
+Charm Monster.MOD				CLASSES:Avatar=3
+Cure Serious Wounds.MOD			CLASSES:Avatar=3
+Daylight.MOD				CLASSES:Avatar=3
+Dispel Magic.MOD				CLASSES:Avatar=3
+Magic Fang, Greater.MOD			CLASSES:Avatar=3
+Magic Weapon, Greater.MOD		CLASSES:Avatar=3
+Halt Undead.MOD				CLASSES:Avatar=3
+Helping Hand.MOD				CLASSES:Avatar=3
+Invisibility Purge.MOD			CLASSES:Avatar=3
+Magic Circle against Chaos.MOD	CLASSES:Avatar=3
+Magic Circle against Evil.MOD		CLASSES:Avatar=3
+Magic Circle against Law.MOD		CLASSES:Avatar=3
+Magic Vestment.MOD			CLASSES:Avatar=3
+Prayer.MOD					CLASSES:Avatar=3
+Protection from Elements.MOD		CLASSES:Avatar=3
+Searing Light.MOD				CLASSES:Avatar=3
+Suggestion.MOD				CLASSES:Avatar=3
+Summon Monster III.MOD			CLASSES:Avatar=3
+Summon Nature's Ally III.MOD		CLASSES:Avatar=3
+Tongues.MOD					CLASSES:Avatar=3
+
+
+##Block: Level 4
+# Spell Name					Classes of caster
+Air Walk.MOD					CLASSES:Avatar=4
+Control Water.MOD					CLASSES:Avatar=4
+Cure Critical Wounds.MOD			CLASSES:Avatar=4
+Dimensional Anchor.MOD				CLASSES:Avatar=4
+Discern Lies.MOD					CLASSES:Avatar=4
+Dismissal.MOD					CLASSES:Avatar=4
+Divination.MOD					CLASSES:Avatar=4
+Divine Power.MOD					CLASSES:Avatar=4
+Flame Strike.MOD					CLASSES:Avatar=4
+Ice Storm.MOD					CLASSES:Avatar=4
+Planar Ally, Lesser.MOD				CLASSES:Avatar=4
+Globe of Invulnerability, Lesser.MOD	CLASSES:Avatar=4
+Restoration.MOD					CLASSES:Avatar=4
+Scrying.MOD						CLASSES:Avatar=4
+Sending.MOD						CLASSES:Avatar=4
+Spell Immunity.MOD				CLASSES:Avatar=4
+Summon Monster IV.MOD				CLASSES:Avatar=4
+Summon Nature's Ally IV.MOD			CLASSES:Avatar=4
+Wall of Fire.MOD					CLASSES:Avatar=4
+Wall of Ice.MOD					CLASSES:Avatar=4
+
+
+##Block: Level 5
+# Spell Name				Classes of caster
+Atonement.MOD				CLASSES:Avatar=5
+Break Enchantment.MOD			CLASSES:Avatar=5
+Commune.MOD					CLASSES:Avatar=5
+Dispel Chaos.MOD				CLASSES:Avatar=5
+Dispel Evil.MOD				CLASSES:Avatar=5
+Dispel Law.MOD				CLASSES:Avatar=5
+Command, Greater.MOD			CLASSES:Avatar=5
+Hallow.MOD					CLASSES:Avatar=5
+Healing Circle.MOD			CLASSES:Avatar=5
+Hold Monster.MOD				CLASSES:Avatar=5
+Mark of Justice.MOD			CLASSES:Avatar=5
+Faithful Hound.MOD			CLASSES:Avatar=5
+Plane Shift.MOD				CLASSES:Avatar=5
+Righteous Might.MOD			CLASSES:Avatar=5
+Summon Monster V.MOD			CLASSES:Avatar=5
+Summon Nature's Ally V.MOD		CLASSES:Avatar=5
+True Seeing.MOD				CLASSES:Avatar=5
+Wall of Stone.MOD				CLASSES:Avatar=5
+
+
+##Block: Level 6
+# Spell Name				Classes of caster
+Banishment.MOD				CLASSES:Avatar=6
+Forbiddance.MOD				CLASSES:Avatar=6
+Geas/Quest.MOD				CLASSES:Avatar=6
+Globe of Invulnerability.MOD		CLASSES:Avatar=6
+Dispel Magic, Greater.MOD		CLASSES:Avatar=6
+Heroes' Feast.MOD				CLASSES:Avatar=6
+Legend Lore.MOD				CLASSES:Avatar=6
+Suggestion, Mass.MOD			CLASSES:Avatar=6
+Planar Ally.MOD				CLASSES:Avatar=6
+Repulsion.MOD				CLASSES:Avatar=6
+Summon Monster VI.MOD			CLASSES:Avatar=6
+Summon Nature's Ally VI.MOD		CLASSES:Avatar=6
+Word of Recall.MOD			CLASSES:Avatar=6
+
+
+##Block: Level 7
+# Spell Name				Classes of caster
+Dictum.MOD					CLASSES:Avatar=7
+Scrying, Greater.MOD			CLASSES:Avatar=7
+Holy Word.MOD				CLASSES:Avatar=7
+Refuge.MOD					CLASSES:Avatar=7
+Summon Monster VII.MOD			CLASSES:Avatar=7
+Summon Nature's Ally VII.MOD		CLASSES:Avatar=7
+Sunbeam.MOD					CLASSES:Avatar=7
+Vision.MOD					CLASSES:Avatar=7
+Word of Chaos.MOD				CLASSES:Avatar=7
+
+
+##Block: Level 8
+# Spell Name				Classes of caster
+Antimagic Field.MOD			CLASSES:Avatar=8
+Cloak of Chaos.MOD			CLASSES:Avatar=8
+Discern Location.MOD			CLASSES:Avatar=8
+Earthquake.MOD				CLASSES:Avatar=8
+Fire Storm.MOD				CLASSES:Avatar=8
+Planar Ally, Greater.MOD		CLASSES:Avatar=8
+Holy Aura.MOD				CLASSES:Avatar=8
+Mind Blank.MOD				CLASSES:Avatar=8
+Shield of Law.MOD				CLASSES:Avatar=8
+Summon Monster VIII.MOD			CLASSES:Avatar=8
+Summon Nature's Ally VIII.MOD		CLASSES:Avatar=8
+Sunburst.MOD				CLASSES:Avatar=8
+
+
+##Block: Level 9
+# Spell Name				Classes of caster
+Dominate Monster.MOD			CLASSES:Avatar=9
+Elemental Swarm.MOD			CLASSES:Avatar=9
+Firesight.MOD				CLASSES:Avatar=9
+Gate.MOD					CLASSES:Avatar=9
+Miracle.MOD					CLASSES:Avatar=9
+Storm of Vengeance.MOD			CLASSES:Avatar=9
+Summon Monster IX.MOD			CLASSES:Avatar=9
+Summon Nature's Ally IX.MOD		CLASSES:Avatar=9
