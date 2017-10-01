@@ -14,7 +14,7 @@ CLASS:Avatar	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Know
 CLASS:Avatar	FACT:SpellType|Divine
 CLASS:Avatar	SPELLSTAT:CHA	MEMORIZE:NO		KNOWNSPELLS:Summon Monster I|Summon Monster II|Summon Monster III|Summon Monster IV|Summon Monster V|Summon Monster VI|Summon Monster VII|Summon Monster VIII|Summon Monster IX
 ###Block: Class abilities
-1	ABILITY:Language|AUTOMATIC|Celestial
+1	ABILITY:Language|AUTOMATIC|Celestial	DEFINE:HeavensMantleTimes|0	BONUS:VAR|HeavensMantleTimes|(AvatarLVL+2)/5	DEFINE:HeavensMantleForms|0	BONUS:VAR|HeavensMantleForms|(AvatarLVL-1)/2	DEFINE:SacredBoon|0	BONUS:VAR|SacredBoon|CL+CHA	DEFINE:Pool_SacredBoon|0	BONUS:VAR|Pool_SacredBoon|AvatarLVL/5
 1	ABILITY:Avatar Class Feature|AUTOMATIC|Avatar ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AvatarProficiencies
 1	ABILITY:Avatar Class Feature|AUTOMATIC|Avatar ~ Spells
 3	ABILITY:Avatar Class Feature|AUTOMATIC|Heaven's Mantle
