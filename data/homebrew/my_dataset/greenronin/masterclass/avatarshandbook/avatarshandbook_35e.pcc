@@ -1,0 +1,32 @@
+#Orginal Entry: Rax the Grey
+CAMPAIGN:The Avatar's Handbook
+GAMEMODE:35e
+RANK:6
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+TYPE:Green Ronin Publishing.Supplement.Master Class
+PUBNAMELONG:Green Ronin
+PUBNAMESHORT:Ronin
+PUBNAMEWEB:http://www.greenronin.com
+SOURCELONG:The Avatar's Handbook
+SOURCESHORT:avatarshandbook
+SOURCEWEB:http://www.greenronin.com
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:The Avatar's Handbook, Copyright 2002, Green Ronin Publishing;Author Jesse Decker and Chris Thomasson
+COPYRIGHT:Book of the Righteous, Copyright 2002, Aaron Loeb
+COPYRIGHT:Legions of Hell, Copyright 2002, Chris Pramas
+COPYRIGHT:PCGen dataset conversion for The Avatar's Handbook 2017, Including, but not limited to Ivan Finzen (Rax the Grey)
+
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+ABILITY:avatarshandbook_abilities.lst
+ABILITYCATEGORY:avatarshandbook_abilitycategories.lst
+CLASS:avatarshandbook_classes_35e.lst
+SPELL:avatarshandbook_spells.lst
+FEAT:avatarshandbook_feats.lst
+EQUIPMENT:avatarshandbook_equip_wondrousitems.lst
