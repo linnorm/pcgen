@@ -20,7 +20,7 @@ Sacred Gift
 Sacred Weapon
 Sanctify
 Spell Shield Banner
-Stand Fast
+Stand Fast												TYPE:Divine			CLASSES:Avatar=1|Cleric=2|Paladin=3												SCHOOL:Conjuration						DESCRIPTOR:Banner																					COMPS:V,S,M						CASTTIME:1 action					RANGE:Personal								TARGETAREA:Banner that creates a wall of invisible energy 40' long, 20' high, and 1' thick, centered on you													DURATION:(CASTERLEVEL) rounds	 (D)											SAVEINFO:Will Negates (see text)/No								SPELLRES:Yes (see text)/Yes			DESC:You create a white banner with a black shield in the center and black runes along its border. While you hold it, this standard bolsters nearby celestials and other good creatures, allowing them to defend a line across the battlefield more efficiently.			SOURCEPAGE:p.18
 Standard of Heaven's Peace
 Summoning Standard
 Weight of Sin
