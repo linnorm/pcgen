@@ -1,0 +1,64 @@
+SOURCELONG:The Avatar's Handbook	SOURCESHORT:avatarshandbook	SOURCEWEB:http://www.greenronin.com
+#Entry By: Rax the Grey
+#NOTE: Updated for D&D 3.5  -- Rax the Grey
+#NOTE: Changed level 20 spell progressions to stay with pattern of previous levels.  -- Rax the Grey
+#NOTE: KNOWN numbers for spell levels 1-9 are one higher than in the book to accomodate the mandatory Summon Monster spell at each level.  -- Rax the Grey
+
+# Class Name	Hit Dice	Type										Class Type		Abbreviation	Max Level	Source Page						Define			Combat bonus															Monster Role	Bonus
+CLASS:Avatar	HD:6		TYPE:Base.PC.Spellcaster.Divine.SpontaneousDivineCaster	FACT:ClassType|PC	FACT:Abb|Ava	MAXLEVEL:20	SOURCEPAGE:p.4	LANGBONUS:Celestial	DEFINE:AvatarLVL|0	BONUS:VAR|AvatarLVL|CL	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0			BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+# Class Name	Restricted AL
+CLASS:Avatar	PREALIGN:LG,NG,CG
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Avatar	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Nature)|Knowledge (Religion)|Knowledge (The Planes)|TYPE=Profession|Spellcraft
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Avatar	FACT:SpellType|Divine
+CLASS:Avatar	SPELLSTAT:CHA	MEMORIZE:NO		KNOWNSPELLS:Summon Monster I|Summon Monster II|Summon Monster III|Summon Monster IV|Summon Monster V|Summon Monster VI|Summon Monster VII|Summon Monster VIII|Summon Monster IX
+###Block: Class abilities
+1	ABILITY:Language|AUTOMATIC|Celestial	DEFINE:HeavensMantleTimes|0	BONUS:VAR|HeavensMantleTimes|(AvatarLVL+2)/5	DEFINE:HeavensMantleForms|0	BONUS:VAR|HeavensMantleForms|(AvatarLVL-1)/2	DEFINE:SacredBoon|0	BONUS:VAR|SacredBoon|CL+CHA	DEFINE:Pool_SacredBoon|0	BONUS:VAR|Pool_SacredBoon|AvatarLVL/5
+1	ABILITY:Avatar Class Feature|AUTOMATIC|Avatar ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AvatarProficiencies
+1	ABILITY:Avatar Class Feature|AUTOMATIC|Avatar ~ Spells
+3	ABILITY:Avatar Class Feature|AUTOMATIC|Heaven's Mantle
+5	ABILITY:Avatar Class Feature|AUTOMATIC|Sacred Boon
+###Block: Spell progression
+1	CAST:5,3				KNOWN:5,4
+2	CAST:6,4				KNOWN:6,4
+3	CAST:6,5				KNOWN:6,5
+4	CAST:6,6,3				KNOWN:7,5,3
+5	CAST:6,6,4				KNOWN:7,6,4
+6	CAST:6,6,5,3			KNOWN:8,6,4,3
+7	CAST:6,6,6,4			KNOWN:8,7,5,4
+8	CAST:6,6,6,5,3			KNOWN:9,7,5,4,3
+9	CAST:6,6,6,6,4			KNOWN:9,7,6,5,4
+10	CAST:6,6,6,6,5,3			KNOWN:9,7,6,5,4,3
+11	CAST:6,6,6,6,6,4			KNOWN:9,7,7,6,5,4
+12	CAST:6,6,6,6,6,5,3		KNOWN:9,7,7,6,5,4,3
+13	CAST:6,6,6,6,6,6,4		KNOWN:9,7,7,7,6,5,4
+14	CAST:6,6,6,6,6,6,5,3		KNOWN:9,7,7,7,6,5,4,3
+15	CAST:6,6,6,6,6,6,6,4		KNOWN:9,7,7,7,7,6,5,4
+16	CAST:6,6,6,6,6,6,6,5,3		KNOWN:9,7,7,7,7,6,5,4,3
+17	CAST:6,6,6,6,6,6,6,6,4		KNOWN:9,7,7,7,7,7,6,5,4
+18	CAST:6,6,6,6,6,6,6,6,5,3	KNOWN:9,7,7,7,7,7,6,5,4,3
+19	CAST:6,6,6,6,6,6,6,6,6,4	KNOWN:9,7,7,7,7,7,7,6,5,4
+20	CAST:6,6,6,6,6,6,6,6,6,5	KNOWN:9,7,7,7,7,7,7,7,6,5
+
+###Block: Spell progression - Original
+# 1	CAST:5,3				KNOWN:5,3
+# 2	CAST:6,4				KNOWN:6,3
+# 3	CAST:6,5				KNOWN:6,4
+# 4	CAST:6,6,3				KNOWN:7,4,2
+# 5	CAST:6,6,4				KNOWN:7,5,3
+# 6	CAST:6,6,5,3			KNOWN:8,5,3,2
+# 7	CAST:6,6,6,4			KNOWN:8,6,4,3
+# 8	CAST:6,6,6,5,3			KNOWN:9,6,4,3,2
+# 9	CAST:6,6,6,6,4			KNOWN:9,6,5,4,3
+# 10	CAST:6,6,6,6,5,3			KNOWN:9,6,5,4,3,2
+# 11	CAST:6,6,6,6,6,4			KNOWN:9,6,6,5,4,3
+# 12	CAST:6,6,6,6,6,5,3		KNOWN:9,6,6,5,4,3,2
+# 13	CAST:6,6,6,6,6,6,4		KNOWN:9,6,6,6,5,4,3
+# 14	CAST:6,6,6,6,6,6,5,3		KNOWN:9,6,6,6,5,4,3,2
+# 15	CAST:6,6,6,6,6,6,6,4		KNOWN:9,6,6,6,6,5,4,3
+# 16	CAST:6,6,6,6,6,6,6,5,3		KNOWN:9,6,6,6,6,5,4,3,2
+# 17	CAST:6,6,6,6,6,6,6,6,4		KNOWN:9,6,6,6,6,6,5,4,3
+# 18	CAST:6,6,6,6,6,6,6,6,5,3	KNOWN:9,6,6,6,6,6,5,4,3,2
+# 19	CAST:6,6,6,6,6,6,6,6,6,4	KNOWN:9,6,6,6,6,6,6,5,4,3
+# 20	CAST:6,6,6,6,6,6,6,6,6,5	KNOWN:9,6,6,6,6,6,6,6,5,4

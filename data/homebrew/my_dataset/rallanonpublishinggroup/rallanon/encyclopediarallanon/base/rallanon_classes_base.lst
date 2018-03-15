@@ -1,19 +1,19 @@
 # CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
 SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
 
-# Class Name			Hit Dice	Type			ABB		Ex Class			Source Page				Bonus Languages										Save checks bonus												Combat bonus
+# Class Name			Hit Dice	Type			ABB		Ex Class			Source Page				Bonus Languages										Save SAVE bonus												Combat bonus
 # Class Name			Required AL
 # Class Name			Skill Pts/Lvl	Class Skill
 
 
 ##Block: Base Classes
 
-# Class Name	Hit Dice	Type			Abbreviation	Source Page				Save checks bonus											Combat bonus					Add domain number
-#CLASS:Sorcerer	HD:4		TYPE:Base.PC	ABB:Sor		SOURCEPAGE:Ch. 3, Classes	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	BONUS:DOMAIN|NUMBER|2
+# Class Name	Hit Dice	Type				Abbreviation	Source Page				Save SAVE bonus											Combat bonus					Add domain number
+#CLASS:Sorcerer	HD:4		FACT:ClassType|Base.PC	FACT:Abb|Sor	SOURCEPAGE:Ch. 3, Classes	BONUS:SAVE|BASE.Will|CL/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	BONUS:DOMAIN|NUMBER|2
 # Class Name	Skill Pts/Lvl	Class Skill
 #CLASS:Sorcerer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Knowledge (Arcana)|TYPE=Profession|Ritual Casting|Spellcraft|Use Ley Line
-# Class Name	Spell Stat		Spell Type		Memorize	Caster level			Use Spell List
-#CLASS:Sorcerer	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer|CL	SPELLLIST:1|Sorcerer
+# Class Name	Spell Stat		Spell Type			Memorize	Caster level			Use Spell List
+#CLASS:Sorcerer	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer|CL	SPELLLIST:1|Sorcerer
 ###Block: Proficiencies
 #1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency
 ###Block: Familiar
@@ -44,14 +44,14 @@ SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHOR
 CLASS:Sorcerer.MOD	BONUS:DOMAIN|NUMBER|2
 
 
-# Class Name	Hit Dice	Type			Abbreviation	Ex Class			Source Page				Save checks bonus											Combat bonus
-CLASS:Blackguard	HD:10		TYPE:Base.PC	ABB:Blk		EXCLASS:Ex Blackguard	SOURCEPAGE:Chap.3, Blackguard	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Hit Dice	Type				Abbreviation	Ex Class			Source Page				Save SAVE bonus											Combat bonus
+CLASS:Blackguard	HD:10		FACT:ClassType|Base.PC	FACT:Abb|Blk	EXCLASS:Ex Blackguard	SOURCEPAGE:Chap.3, Blackguard	BONUS:SAVE|BASE.Fortitude|CL/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
 # Class Name	Required AL
 CLASS:Blackguard	PREALIGN:LE,NE,CE
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Blackguard	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Handle Animal|Heal|Intimidate|Knowledge (Religion)|TYPE=Profession|Ride
-# Class Name	Spell Stat		Spell Type		Automatically Known Spell Levels				Craft Level Mult.	Caster level								Use Spell List
-CLASS:Blackguard	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	ITEMCREATE:0.5	BONUS:CASTERLEVEL|Blackguard|CL/2|PRECLASS:1,Blackguard=4	SPELLLIST:1|Blackguard
+# Class Name	Spell Stat		Spell Type			Automatically Known Spell Levels				Craft Level Mult.	Caster level								Use Spell List
+CLASS:Blackguard	SPELLSTAT:WIS	FACT:SpellType|Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	ITEMCREATE:0.5	BONUS:CASTERLEVEL|Blackguard|CL/2|PRECLASS:1,Blackguard=4	SPELLLIST:1|Blackguard
 ###Block: Servants Servant (Undead and Fiendish)
 # Turning
 3	BONUS:VAR|TurnLevelBase|CL-2										ABILITY:Special Ability|AUTOMATIC|Rebuke Undead|Basic Turning
@@ -90,19 +90,19 @@ CLASS:Blackguard	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVE
 20	CAST:0,3,3,3,3
 
 
-# Class Name		Hit Dice	Type			Abbreviation	Source Page							Visible	Save checks bonus											Combat bonus
-CLASS:Ex Blackguard	HD:10		TYPE:Base.PC	ABB:XBlk		SOURCEPAGE:Chap.3, Blackguard, Ex-Blackguard	VISIBLE:NO	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Hit Dice	Type				Abbreviation	Source Page							Visible	Save SAVE bonus											Combat bonus
+CLASS:Ex Blackguard	HD:10		FACT:ClassType|Base.PC	FACT:Abb|Blk	SOURCEPAGE:Chap.3, Blackguard, Ex-Blackguard	VISIBLE:NO	BONUS:SAVE|BASE.Fortitude|CL/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
 1	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies
 
 
 SOURCELONG:World of Warcraft Campaign Setting	SOURCESHORT:WoWCS	SOURCEWEB:http://www.swordsorcery.com
 
-# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Bonus Languages		Save checks bonus											Combat bonus
-CLASS:Warlock	HD:4		TYPE:Base.PC	ABB:War		MAXLEVEL:20	SOURCEPAGE:pg. 60	LANGBONUS:Draconic	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
+# Class Name	Hit Dice	Type				Abbreviation	Max Level	Source Page		Bonus Languages		Save SAVE bonus											Combat bonus
+CLASS:Warlock	HD:4		FACT:ClassType|Base.PC	FACT:Abb|War	MAXLEVEL:20	SOURCEPAGE:pg. 60	LANGBONUS:Draconic	BONUS:SAVE|BASE.Will|CL/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Warlock	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|Diplomacy|Intimidate|TYPE.Knowledge|TYPE.Profession|Ritual Casting|Speak Language|Spellcraft
-# Class Name	Spell Stat		Spell Type		Automatically Known Spell Levels	Spellbook		Caster level
-CLASS:Warlock	SPELLSTAT:INT	SPELLTYPE:Arcane	KNOWNSPELLS:LEVEL=0			SPELLBOOK:YES	BONUS:CASTERLEVEL|Warlock|CL
+# Class Name	Spell Stat		Spell Type			Automatically Known Spell Levels	Spellbook		Caster level
+CLASS:Warlock	SPELLSTAT:INT	FACT:SpellType|Arcane	KNOWNSPELLS:LEVEL=0			SPELLBOOK:YES	BONUS:CASTERLEVEL|Warlock|CL
 ###Block:Proficiencies
 1	ABILITY:Special Ability|AUTOMATIC|Wizard Weapon Proficiencies|All Automatic Proficiencies
 ###Block: Familiar

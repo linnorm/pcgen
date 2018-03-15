@@ -1,0 +1,8 @@
+
+###Block: Class Ability Pools
+# Ability Category				Visible		Editable?		Change Pool?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Avatar Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Avatar Class Feature	PLURAL:Avatar Class Features		DISPLAYLOCATION:Class Features
+
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Base Pool number			Category of Object		Type of Object		Plural description for UI		Display Location
+ABILITYCATEGORY:Avatar Sacred Boon		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		POOL:Pool_SacredBoon		CATEGORY:Special Ability	TYPE:SacredBoon		PLURAL:Avatar Sacred Boons		DISPLAYLOCATION:Class Features
+

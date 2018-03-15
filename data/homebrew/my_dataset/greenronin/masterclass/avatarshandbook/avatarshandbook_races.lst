@@ -1,0 +1,19 @@
+SOURCELONG:The Avatar's Handbook	SOURCESHORT:avatarshandbook	SOURCEWEB:http://www.greenronin.com
+
+
+##TODO: Add monsters
+
+##Block: Celestials
+# Race Name					Unique Key				Output Name					Favored Class		Starting Feats				Size		Move						Face/Space	Reach		Vision			Required AL		Bonus Languages										Bonus Ability Pool				Combat bonus											Misc bonus					Caster level bonus																										Bonus to skill																				Bonus to skill point for a level										Stat bonus																		Modify VAR																																				Weapon prof. bonus																																Racial HD Class Skills																																			Auto Armor Prof									Auto Feat							Auto Language							Auto Shield Prof										Auto Weapon Prof										Virtual Feat			Feat									Ability																																																													Nb Legs	Nb Hands	Natural Attacks																																																				Define																			Define Stat							Spell Res.		Damage Reduction				Monster Class Name and Starting Level	Main Race Type			Race Subtype								Type				Template																Hit Dice Advancement		Level Adjustment	Challenge Rating	Source Page				Innate Spells																																																																																																																																																Add 							Apply Kit					Bonus									Description																																																																																																															SORTKEY
+#Angel (Astral Deva)								OUTPUTNAME:Angel, [NAME]						STARTFEATS:1	FACT:HasFirstLevelFeat|True				SIZE:M	MOVE:Walk,50,Fly,100			FACE:5	REACH:5																											BONUS:COMBAT|AC|15|TYPE=NaturalArmor																																																																															BONUS:STAT|STR|12	BONUS:STAT|DEX|8	BONUS:STAT|CON|8	BONUS:STAT|INT|8	BONUS:STAT|WIS|8	BONUS:STAT|CHA|10		BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|UncannyDodgeFlankingLevel|12	BONUS:VAR|ElectricityResistanceBonus|10	BONUS:VAR|FireResistanceBonus|10	BONUS:VAR|Maneuverability|4	BONUS:VAR|UncannyDodgeLevel|2	BONUS:WEAPONPROF=Slam|DAMAGE|max(0,(STR/2))																												MONCSKILL:Concentration|Diplomacy|Escape Artist|Hide|Intimidate|Listen|Move Silently|Sense Motive|Spot|Use Rope|TYPE=Craft|TYPE=Knowledge																																			AUTO:LANG|Celestial|Draconic|Infernal															AUTO:WEAPONPROF|Mace (Heavy)|TYPE=Martial|TYPE=Simple																		ABILITY:Internal|AUTOMATIC|Race Traits ~ Astral Daeva																																																						LEGS:2			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d8																																											DEFINE:UncannyDodgeLevel|0																								SR:30			DR:10/Evil					MONSTERCLASS:Outsider:12			RACETYPE:Outsider			RACESUBTYPE:Angel|Extraplanar|Good					TYPE:Outsider																			HITDICEADVANCEMENT:18,36	LEVELADJUSTMENT:8	CR:14			SOURCEPAGE:p.11			SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=12|Aid,12+CHA|Continual Flame,12+CHA|Detect Evil,11+CHA|Discern Lies,14+CHA|Dispel Evil,15+CHA|Dispel Magic,13+CHA|Holy Aura,18+CHA|Holy Smite,14+CHA|Holy Word,17+CHA|Invisibility (Self Only),12+CHA|Plane Shift,17+CHA|Polymorph (Self Only),14+CHA|Remove Curse,13+CHA|Remove Disease,13+CHA|Remove Fear,11+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=12|Blade Barrier,16+CHA|Heal,16+CHA	SPELLS:Innate|TIMES=7|CASTERLEVEL=12|Cure Light Wounds,11+CHA|See Invisibility,12+CHA																																																																					KIT:1|CG|LG|NG
+
+
+##Block: Celestial Dragons
+
+
+##Block: Other celestial creatures
+
+
+
+##Block: Archangels
+

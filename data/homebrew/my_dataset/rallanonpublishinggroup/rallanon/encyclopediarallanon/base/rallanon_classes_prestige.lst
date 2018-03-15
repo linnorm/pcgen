@@ -1,14 +1,13 @@
 # CVS $Revision: $ $Author: rax_the_grey $ -- Fri May  8 13:30:11 2009 -- reformated by prettylst.pl v1.39 (build 8180)
 SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHORT:EncRal	SOURCEWEB:http://raxstower.finzen.com
 
-# Class Name			Hit Dice	Type			ABB		Ex Class			Source Page				Bonus Languages										Save checks bonus												Combat bonus
+# Class Name			Hit Dice	Type			ABB		Ex Class			Source Page				Bonus Languages										Save SAVE bonus												Combat bonus
 # Class Name			Required AL
 # Class Name			Skill Pts/Lvl	Class Skill
 
-##Block: Prestige Classes
-
-# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page				Save checks bonus														Combat bonus
-CLASS:Agariim Slave Girl	HD:6		TYPE:PC.Prestige	ABB:ASG		MAXLEVEL:5	SOURCEPAGE:Ch. 3, Classes	BONUS:CHECKS|BASE.Reflex,BASE.Will|classlevel/2+2	BONUS:CHECKS|BASE.Fortitude|classlevel/3	BONUS:COMBAT|BAB|classlevel*3/4|TYPE=Base.REPLACE
+##Block: Agariim Slave Girl
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page				Save SAVE bonus														Combat bonus
+CLASS:Agariim Slave Girl	HD:6		TYPE:PC.Prestige	ABB:ASG		MAXLEVEL:5	SOURCEPAGE:Ch. 3, Classes	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel/2+2	BONUS:SAVE|BASE.Fortitude|classlevel/3	BONUS:COMBAT|BAB|classlevel*3/4|TYPE=Base.REPLACE
 # Class Name			Required Gender	Multiple Requirements																																																					Required Skill
 CLASS:Agariim Slave Girl	PREGENDER:Female	PREMULT:1,[PRESKILL:1,TYPE.Craft.Art=8,Hide=8,Move Silently=8,TYPE.Perform=8,Profession (Courtier)=8,Profession (Courtesan)=8,Profession (Gambler)=8,Profession (Herbalist)=8,Profession (Masseur)=8,Profession (Prostitute)=8,Profession (Scribe)=8,Profession (Torturer)=8,Sleight of Hand=8],[PREMULT:2,[PREATT:5],[PREFEAT:1,Bodyguard]]	PRESKILL:1,Tumble=5
 # Class Name			Skill Pts/Lvl	Class Skill
@@ -19,8 +18,10 @@ CLASS:Agariim Slave Girl	STARTSKILLPTS:4	CSKILL:Balance|Bluff|TYPE=Agariim.Craft
 4	ADD:ABILITY|Special Ability|NORMAL|ASG Arrow Shield,Charming Demeanor
 5	ADD:ABILITY|Special Ability|NORMAL|ASG Talent,ASG Weapon Specialization
 
-# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page				Save checks bonus														Combat bonus
-CLASS:Candonian Spear Dancer	HD:8		TYPE:PC.Prestige	ABB:CSD		MAXLEVEL:12	SOURCEPAGE:Ch. 3, Classes	BONUS:CHECKS|BASE.Fortitude,BASE.Will|classlevel/3	BONUS:CHECKS|BASE.Reflex|classlevel/2+2	BONUS:COMBAT|BAB|classlevel|TYPE=Base.REPLACE
+
+##Block: Candonian Spear Dancer
+# Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page				Save SAVE bonus														Combat bonus
+CLASS:Candonian Spear Dancer	HD:8		TYPE:PC.Prestige	ABB:CSD		MAXLEVEL:12	SOURCEPAGE:Ch. 3, Classes	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel/3	BONUS:SAVE|BASE.Reflex|classlevel/2+2	BONUS:COMBAT|BAB|classlevel|TYPE=Base.REPLACE
 # Class Name			Req. Att.	Required Feat								Required Region	Required Skill
 CLASS:Candonian Spear Dancer	PREATT:6	PREFEAT:2,Dodge,Exotic Weapon Proficiency (Double Spear)	PREREGION:Candon	PRESKILL:2,Balance=5,Perform (Dance)=5
 # Class Name			Skill Pts/Lvl	Class Skill
@@ -38,8 +39,10 @@ CLASS:Candonian Spear Dancer	STARTSKILLPTS:2	CSKILL:Balance|Jump|Knowledge (Cand
 11	SAB:Impale (Ex)
 12	SAB:Skewer (Ex)
 
-# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page				Save checks bonus														Combat bonus
-CLASS:Du Ordun Drak	HD:10		TYPE:PC.Prestige	ABB:DoD		MAXLEVEL:10	SOURCEPAGE:Ch. 3, Classes	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|classlevel/2+2	BONUS:CHECKS|BASE.Will|classlevel/3	BONUS:COMBAT|BAB|classlevel|TYPE=Base.REPLACE
+
+##Block: Du Ordun Drak
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page				Save SAVE bonus														Combat bonus
+CLASS:Du Ordun Drak	HD:10		TYPE:PC.Prestige	ABB:DoD		MAXLEVEL:10	SOURCEPAGE:Ch. 3, Classes	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel/2+2	BONUS:SAVE|BASE.Will|classlevel/3	BONUS:COMBAT|BAB|classlevel|TYPE=Base.REPLACE
 # Class Name		Req. Att.	Required Feat						Required Region
 CLASS:Du Ordun Drak	PREATT:6	PREFEAT:3,Power Attack,Cleave,Great Cleave	PREREGION:Bloodlands
 # Class Name		Skill Pts/Lvl	Class Skill
@@ -55,8 +58,10 @@ CLASS:Du Ordun Drak	STARTSKILLPTS:1	CSKILL:Battle|Climb|TYPE=Craft|Handle Animal
 9			SAB:Cast Jump %/day|1
 10	DR:10/-	SAB:Inspire allies %/day|1
 
-# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page				Save checks bonus														Combat bonus
-CLASS:Ley Master	HD:4		TYPE:PC.Prestige	ABB:LeM		MAXLEVEL:10	SOURCEPAGE:Ch. 3, Classes	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|classlevel/3	BONUS:CHECKS|BASE.Will|classlevel/2+2	BONUS:COMBAT|BAB|classlevel/2|TYPE=Base.REPLACE
+
+##Block: Ley Master
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page				Save SAVE bonus														Combat bonus
+CLASS:Ley Master	HD:4		TYPE:PC.Prestige	ABB:LeM		MAXLEVEL:10	SOURCEPAGE:Ch. 3, Classes	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel/3	BONUS:SAVE|BASE.Will|classlevel/2+2	BONUS:COMBAT|BAB|classlevel/2|TYPE=Base.REPLACE
 # Class Name	Required Skill											Req. Spell Type		Required Text
 CLASS:Ley Master	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PRESKILL:1,Use Ley Line=10	PRESPELLTYPE:1,Arcane=1	PRETEXT:Must have used a ley nexus
 # Class Name	Skill Pts/Lvl	Class Skill
@@ -72,8 +77,10 @@ CLASS:Ley Master	STARTSKILLPTS:2	CSKILL:Concentration|Decipher Script|Knowledge 
 9	SAB:Ley Movement(Su)
 10																	ADD:SPELLCASTER|Arcane
 
-# Class Name		Hit Dice	Type			Abbreviation	Source Page				Save checks bonus																			Combat bonus
-CLASS:Fist of Evil	HD:10		TYPE:PC.Prestige	ABB:FoE		SOURCEPAGE:Ch. 3, Classes	BONUS:CHECKS|BASE.Fortitude|(classlevel/2)+2	BONUS:CHECKS|BASE.Reflex|classlevel/3	BONUS:CHECKS|BASE.Will|classlevel/3	BONUS:COMBAT|BAB|classlevel|TYPE=Base.REPLACE
+
+##Block: Fist of Evil
+# Class Name		Hit Dice	Type			Abbreviation	Source Page				Save SAVE bonus																			Combat bonus
+CLASS:Fist of Evil	HD:10		TYPE:PC.Prestige	ABB:FoE		SOURCEPAGE:Ch. 3, Classes	BONUS:SAVE|BASE.Fortitude|(classlevel/2)+2	BONUS:SAVE|BASE.Reflex|classlevel/3	BONUS:SAVE|BASE.Will|classlevel/3	BONUS:COMBAT|BAB|classlevel|TYPE=Base.REPLACE
 # Class Name		Required AL		Req. Att.	Required Feat			Required Skill
 CLASS:Fist of Evil	PREALIGN:LE,NE,CE	PREATT:5	PREFEAT:2,Power Attack,Cleave	PRESKILL:1,Intimidate=4	PRESKILL:1,Knowledge (Religion)=4	PRESKILL:1,Spot=4
 # Class Name		Skill Pts/Lvl	Class Skill
