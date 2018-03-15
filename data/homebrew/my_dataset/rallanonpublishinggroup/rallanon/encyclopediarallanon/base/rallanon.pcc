@@ -48,9 +48,10 @@ OPTION:pcgen.options.rollMethod=9
 
 
 ABILITY:rallanon_abilities_class.lst
+ABILITY:rallanon_feats.lst
 BIOSET:rallanon_biosettings.lst
 CLASS:rallanon_classes_base.lst
-CLASS:rallanon_classes_prestige.lst
+# CLASS:rallanon_classes_prestige.lst
 COMPANIONMOD:rallanon_companionmods.lst
 DEITY:rallanon_deities.lst
 DEITY:rallanon_deities_sorcerer.lst
@@ -70,7 +71,6 @@ EQUIPMENT:rallanon_equip_weap_ranged.lst
 EQUIPMENT:rallanon_equip_weap_specific.lst
 EQUIPMENT:rallanon_equip_wondrousitems.lst
 EQUIPMOD:rallanon_equipmods.lst
-FEAT:rallanon_feats.lst
 KIT:rallanon_kit_equip.lst
 LANGUAGE:rallanon_languages.lst
 RACE:rallanon_races.lst
