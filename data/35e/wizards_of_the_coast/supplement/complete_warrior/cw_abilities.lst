@@ -1,7 +1,7 @@
 # CVS $Revision: $ $Author: $ -- Sun Aug 17 15:41:15 2014 -- reformated by prettylst.pl v1.51 (build 24906)
 
 # Ability Name		Category of Ability		Type						Ability
-Uncanny Dodge ~ Fate	CATEGORY:Special Ability	TYPE:DomainAbility.UncannyDodge	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge
+Uncanny Dodge ~ Fate	CATEGORY:Special Ability	TYPE:DomainAbility.UncannyDodge	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
 
 ###Block: Class Features
 # Hexblade

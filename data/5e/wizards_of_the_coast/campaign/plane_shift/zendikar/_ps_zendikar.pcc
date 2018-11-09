@@ -1,12 +1,12 @@
-CAMPAIGN:Plane Shift: Innistrad
-KEY:5e - Plane Shift - Innistrad
+CAMPAIGN:Plane Shift: Zendikar
+KEY:5e - Plane Shift - Zendikar
 RANK:1
 BOOKTYPE:Campaign Supplement
 GAMEMODE:5e
 STATUS:ALPHA
-TYPE:Wizards of the Coast.Plane Shift.Innistrad
-SOURCELONG:Plane Shift: Innistrad
-SOURCESHORT:PSI
+TYPE:Wizards of the Coast.Plane Shift
+SOURCELONG:Plane Shift: Zendikar
+SOURCESHORT:PSZ
 SOURCEDATE:2016-08
 PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
@@ -14,25 +14,26 @@ PUBNAMEWEB:http://www.wizards.com
 COPYRIGHT:Copyright 2016, Wizards of the Coast, Inc.
 
 # COVER should be cover_gameMode_pub_book.file
-COVER:../../../../_artwork/cover_5e_wotc_psi.jpg
+COVER:../../../../../_artwork/cover_5e_wotc_psz.jpg
 # LOGO should be logo_pub.file
-LOGO:../../../../_artwork/logo_wotc.png
+LOGO:../../../../../_artwork/logo_wotc.png
 
-INFOTEXT:D&D 5e Plane Shift: Innistrad (Innistrad Campaign Setting)
+INFOTEXT:D&D 5e Plane Shift: Zendikar (Zendikar Campaign Setting)
 
-ABILITY:psi_abilities.lst
-ABILITYCATEGORY:psi_abilitycategories.lst
+ABILITY:psz_abilities.lst
+ABILITYCATEGORY:psz_abilitycategories.lst
 
 
-KIT:psi_kits.lst
+KIT:psz_kits.lst
+RACE:psz_races.lst
 
-TEMPLATE:psi_templates.lst
+TEMPLATE:psz_templates.lst
 
 ###Block: Revisions
 # BD - 0.01 Initial update 
 
 INFOTEXT:Supports 6.06.0
-# ENTRY DATE: 2016-11-17
+# ENTRY DATE: 2018-08-26
 # LST MONKEY: Bahamut
 # RELEASE REVIEW #
 # BETA:
