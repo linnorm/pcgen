@@ -1,5 +1,7 @@
-
-Great Armor
-Light Hide
-Naga Armor
-Partial Armor
+# Armor Name	Type
+Ashigaru		TYPE:Light
+Great Armor		TYPE:Heavy
+Lamellar		TYPE:Medium
+Light Hide		TYPE:Light
+Naga Armor		TYPE:Medium
+Partial Armor	TYPE:Medium

@@ -21,6 +21,7 @@ EQUIPMENT:rokugan_equip_wondrousitems.lst
 FEAT:rokugan_feats.lst
 LANGUAGE:rokugan_language.lst
 RACE:rokugan_races.lst
+SHIELDPROF:rokugan_shieldprof.lst
 SKILL:rokugan_skills.lst
 TEMPLATE:rokugan_templates_clans.lst
 TEMPLATE:rokugan_templates_naga.lst
