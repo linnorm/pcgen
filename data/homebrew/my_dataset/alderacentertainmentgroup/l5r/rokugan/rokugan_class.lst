@@ -68,8 +68,8 @@ CLASS:Ninja		STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE=Craft|Decipher Scri
 19																			BONUS:VAR|Sneak Attack|1	BONUS:VAR|Ninja Dodge|1
 
 
-# Class Name	Hit Dice	Type			Abbreviation	Source Page		Automatic Languages	Save checks bonus																Combat bonus
-CLASS:Samurai	HD:10		TYPE:Base.PC	ABB:Sam		SOURCEPAGE:p.30			BONUS:CHECKS|BASE.Fortitude|(CL/2)+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|(CL/2)+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Hit Dice	Type				Class Type		Abbreviation	Max Level		Source Page		Combat bonus										Modify VAR							Monster Role	Bonus
+CLASS:Samurai	HD:10		TYPE:PC.Base.NonCaster	FACT:ClassType|PC	FACT:Abb|Sam	MAXLEVEL:20		SOURCEPAGE:p.30	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0		ROLE:Combat		BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Samurai	STARTSKILLPTS:4	CSKILL:Battle|Climb|TYPE=Craft|Diplomacy|Handle Animal|Iaijutsu Focus|Intimidate|Jump|Knowledge (Law)|TYPE=Perform|TYPE=Profession|Ride|Sense Motive|Swim|Tea Ceremony	PREALIGN:LG,LN,LE
 1																											ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
