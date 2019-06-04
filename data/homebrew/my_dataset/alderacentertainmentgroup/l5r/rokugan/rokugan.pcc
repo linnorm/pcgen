@@ -18,7 +18,7 @@ CLASS:rokugan_class.lst
 EQUIPMENT:rokugan_equip_armor.lst
 EQUIPMENT:rokugan_equip_weapons.lst
 EQUIPMENT:rokugan_equip_wondrousitems.lst
-FEAT:rokugan_feats.lst
+ABILITY:rokugan_feats.lst
 LANGUAGE:rokugan_language.lst
 RACE:rokugan_races.lst
 SHIELDPROF:rokugan_shieldprof.lst
