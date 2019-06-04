@@ -72,8 +72,6 @@ CLASS:Ninja		STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE=Craft|Decipher Scri
 CLASS:Samurai	HD:10		TYPE:PC.Base.NonCaster	FACT:ClassType|PC	FACT:Abb|Sam	MAXLEVEL:20		SOURCEPAGE:p.30	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0		ROLE:Combat		BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Samurai	STARTSKILLPTS:4	CSKILL:Battle|Climb|TYPE=Craft|Diplomacy|Handle Animal|Iaijutsu Focus|Intimidate|Jump|Knowledge (Law)|TYPE=Perform|TYPE=Profession|Ride|Sense Motive|Swim|Tea Ceremony	PREALIGN:LG,LN,LE
-#1																											ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
-#1	ABILITY:Special Ability|AUTOMATIC|Ancestral Daisho
 1	ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Ancestral Daisho|Samurai ~ Code of Conduct|Samurai ~ Weapon and Armor Proficiency
 2																	BONUS:ABILITYPOOL|Samurai Feat|1
 4								BONUS:VAR|AncestralDaisho|1					BONUS:ABILITYPOOL|Samurai Feat|1
