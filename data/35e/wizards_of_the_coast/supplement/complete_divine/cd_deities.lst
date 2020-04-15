@@ -13,53 +13,52 @@ Shugenja Order	KEY:ShugenjaOrder	DOMAINS:Order of the All-Seeing Eye,Order of th
 
 ###Block: Existing Greyhawk Deities with new domains
 # Deity Name			Unique Key			Domains
-Boccob.MOD				KEY:Boccob			DOMAINS:Mind,Oracle|PREALIGN:LN,NG,TN,NE,CN
-Corellon Larethian.MOD		KEY:Corellon Larethian	DOMAINS:Community|PREALIGN:NG,CG,CN
-Ehlonna.MOD				KEY:Ehlonna			DOMAINS:Celerity|PREALIGN:LG,NG,CG
-Erythnul.MOD			KEY:Erythnul		DOMAINS:Madness|PREALIGN:NE,CN,CE
-Fharlanghn.MOD			KEY:Fharlanghn		DOMAINS:Celerity,Weather|PREALIGN:LN,NG,TN,NE,CN
-Garl Glittergold.MOD		KEY:Garl Glittergold	DOMAINS:Community,Creation|PREALIGN:LG,NG,CG
-Gruumsh.MOD				KEY:Gruumsh			DOMAINS:Domination|PREALIGN:NE,CN,CE
-Heironeous.MOD			KEY:Heironeous		DOMAINS:Glory,Inquisition|PREALIGN:LG,LN,NG
-Hextor.MOD				KEY:Hextor			DOMAINS:Domination|PREALIGN:LN,LE,NE
-Kord.MOD				KEY:Kord			DOMAINS:Competition|PREALIGN:NG,CG,CN
-Moradin.MOD				KEY:Moradin			DOMAINS:Creation|PREALIGN:LG,LN,NG
-Nerull.MOD				KEY:Nerull			DOMAINS:Pestilence|PREALIGN:LN,NE,CN
-Obad-Hai.MOD			KEY:Obad-Hai		DOMAINS:Weather|PREALIGN:LN,NG,TN,NE,CN
-Olidammara.MOD			KEY:Olidammara		DOMAINS:Celerity,Mind|PREALIGN:CG,CN,CE
-Pelor.MOD				KEY:Pelor			DOMAINS:Community,Glory|PREALIGN:LG,NG,CG
-St. Cuthbert.MOD			KEY:St. Cuthbert		DOMAINS:Domination|PREALIGN:LG,LN,LE
-Vecna.MOD				KEY:Vecna			DOMAINS:Madness|PREALIGN:LN,NE,CN
-Wee Jas.MOD				KEY:Wee Jas			DOMAINS:Domination,Mind|PREALIGN:LG,LN,LE
-Yondalla.MOD			KEY:Yondalla		DOMAINS:Community,Creation|PREALIGN:LG,LN,NG
-
+Boccob.MOD				KEY:Boccob			DOMAINS:Mind,Oracle|PREALIGN:LN,NG,TN,NE,CN	FACTSET:Pantheon|Greyhawk
+Corellon Larethian.MOD		KEY:Corellon Larethian	DOMAINS:Community|PREALIGN:NG,CG,CN	FACTSET:Pantheon|Greyhawk
+Ehlonna.MOD				KEY:Ehlonna			DOMAINS:Celerity|PREALIGN:LG,NG,CG	FACTSET:Pantheon|Greyhawk
+Erythnul.MOD			KEY:Erythnul		DOMAINS:Madness|PREALIGN:NE,CN,CE	FACTSET:Pantheon|Greyhawk
+Fharlanghn.MOD			KEY:Fharlanghn		DOMAINS:Celerity,Weather|PREALIGN:LN,NG,TN,NE,CN	FACTSET:Pantheon|Greyhawk
+Garl Glittergold.MOD		KEY:Garl Glittergold	DOMAINS:Community,Creation|PREALIGN:LG,NG,CG	FACTSET:Pantheon|Greyhawk
+Gruumsh.MOD				KEY:Gruumsh			DOMAINS:Domination|PREALIGN:NE,CN,CE	FACTSET:Pantheon|Greyhawk
+Heironeous.MOD			KEY:Heironeous		DOMAINS:Glory,Inquisition|PREALIGN:LG,LN,NG	FACTSET:Pantheon|Greyhawk
+Hextor.MOD				KEY:Hextor			DOMAINS:Domination|PREALIGN:LN,LE,NE	FACTSET:Pantheon|Greyhawk
+Kord.MOD				KEY:Kord			DOMAINS:Competition|PREALIGN:NG,CG,CN	FACTSET:Pantheon|Greyhawk
+Moradin.MOD				KEY:Moradin			DOMAINS:Creation|PREALIGN:LG,LN,NG	FACTSET:Pantheon|Greyhawk
+Nerull.MOD				KEY:Nerull			DOMAINS:Pestilence|PREALIGN:LN,NE,CN	FACTSET:Pantheon|Greyhawk
+Obad-Hai.MOD			KEY:Obad-Hai		DOMAINS:Weather|PREALIGN:LN,NG,TN,NE,CN	FACTSET:Pantheon|Greyhawk
+Olidammara.MOD			KEY:Olidammara		DOMAINS:Celerity,Mind|PREALIGN:CG,CN,CE	FACTSET:Pantheon|Greyhawk
+Pelor.MOD				KEY:Pelor			DOMAINS:Community,Glory|PREALIGN:LG,NG,CG	FACTSET:Pantheon|Greyhawk
+St. Cuthbert.MOD			KEY:St. Cuthbert		DOMAINS:Domination|PREALIGN:LG,LN,LE	FACTSET:Pantheon|Greyhawk
+Vecna.MOD				KEY:Vecna			DOMAINS:Madness|PREALIGN:LN,NE,CN	FACTSET:Pantheon|Greyhawk
+Wee Jas.MOD				KEY:Wee Jas			DOMAINS:Domination,Mind|PREALIGN:LG,LN,LE	FACTSET:Pantheon|Greyhawk
+Yondalla.MOD			KEY:Yondalla		DOMAINS:Community,Creation|PREALIGN:LG,LN,NG	FACTSET:Pantheon|Greyhawk
 
 
 ###Block: New Greyhawk Deities
-#Beltar	KEY:Beltar		DOMAINS:Chaos, Earth, Evil, War|PREALIGN:LN,NE,LE		DEITYWEAP:Gauntlet (Spiked)	ALIGN:CE	FACTSET:Pantheon|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Bralm		KEY:Bralm		DOMAINS:Animal, Community*, Law, Pact*,Strength|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Celestian	KEY:Celestian	DOMAINS:Knowledge, Oracle*, Protection,Travel|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Cyndor	KEY:Cyndor		DOMAINS:Law, Oracle*, Protection, Travel|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Delleb	KEY:Delleb		DOMAINS:Good, Knowledge, Law, Magic|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LG	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Geshtai	KEY:Geshtai		DOMAINS:Plant, Travel, Water, Weather*|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Incabulos	KEY:Incabulos	DOMAINS:Death, Destruction, Evil,Pestilence*|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:NE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Istus		KEY:Istus		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Iuz		KEY:Iuz		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:CE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Joramy	KEY:Joramy		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Lirr		KEY:Lirr		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:CG	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Llerg		KEY:Llerg		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:CN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Mouqol	KEY:Mouqol		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Osprem	KEY:Osprem		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Pholtus	KEY:Pholtus		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LG	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Procan	KEY:Procan		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:CN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Pyremius	KEY:Pyremius	DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:NE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Rao		KEY:Rao		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LG	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Telchur	KEY:Telchur		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:CN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Tharizdun	KEY:Tharizdun	DOMAINS:Chaos,Destruction,Evil,Force,Madness|PREALIGN:CE,NE,LE,TN		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:NE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Trithereon	KEY:Trithereon	DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:CG	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Wastri	KEY:Wastri		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Xan Yae	KEY:Xan Yae		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
-#Zuoken	KEY:Zuoken		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
+Beltar	KEY:Beltar		DOMAINS:Chaos,Earth,Evil,War|PREALIGN:NE,CN,CE					DEITYWEAP:Gauntlet (Spiked)	ALIGN:CE	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.121	SORTKEY:Gods_a	DESC:Malice, Caves
+Bralm		KEY:Bralm		DOMAINS:Animal,Community,Law,Pact,Strength|PREALIGN:LN,NG,TN,NE,CN	DEITYWEAP:Quarterstaff		ALIGN:TN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.121	SORTKEY:Gods_a	DESC:Insects, Industry
+Celestian	KEY:Celestian	DOMAINS:Knowledge,Oracle,Protection,Travel|PREALIGN:LN,NG,TN,NE,CN	DEITYWEAP:Shortspear		ALIGN:TN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.121	SORTKEY:Gods_a	DESC:Astronomy, Wanderers
+Cyndor	KEY:Cyndor		DOMAINS:Law,Oracle,Protection,Travel|PREALIGN:LG,LN,LE			DEITYWEAP:Sling			ALIGN:LN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Time, Infinity
+Delleb	KEY:Delleb		DOMAINS:Good,Knowledge,Law,Magic|PREALIGN:LG,LN,NG				DEITYWEAP:Dart			ALIGN:LG	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Written lore, Study
+Geshtai	KEY:Geshtai		DOMAINS:Plant,Travel,Water,Weather|PREALIGN:LN,NG,TN,NE,CN			DEITYWEAP:Spear			ALIGN:TN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Rivers, Lakes
+Incabulos	KEY:Incabulos	DOMAINS:Death,Destruction,Evil,Pestilence|PREALIGN:LN,NE,CN		DEITYWEAP:Quarterstaff		ALIGN:NE	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Plagues, Famine, Disasters
+Istus		KEY:Istus		DOMAINS:Chaos,Knowledge,Law,Luck,Oracle|PREALIGN:LN,NG,TN,NE,CN		DEITYWEAP:Dagger			ALIGN:TN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Destiny, The future
+Iuz		KEY:Iuz		DOMAINS:Chaos,Evil,Trickery|PREALIGN:NE,CN,CE					DEITYWEAP:Greatsword		ALIGN:CE	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Deceit
+Joramy	KEY:Joramy		DOMAINS:Competition,Destruction,Fire,War|PREALIGN:LN,NG,TN,NE,CN		DEITYWEAP:Quarterstaff		ALIGN:TN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Volcanoes, Wrath
+Lirr		KEY:Lirr		DOMAINS:Chaos,Good,Knowledge,Magic,Travel|PREALIGN:NG,CG,CN		DEITYWEAP:Rapier			ALIGN:CG	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Poetry, Art
+Llerg		KEY:Llerg		DOMAINS:Animal,Chaos,Competition,Strength|PREALIGN:CG,CN,CE		DEITYWEAP:Battleaxe		ALIGN:CN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Beasts
+Mouqol	KEY:Mouqol		DOMAINS:Knowledge,Pact,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN		DEITYWEAP:Crossbow (Light)	ALIGN:TN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Trade, Negotiation
+Osprem	KEY:Osprem		DOMAINS:Law,Protection,Travel,Water|PREALIGN:LG,LN,LE			DEITYWEAP:Trident			ALIGN:LN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Ships, Sea voyages
+Pholtus	KEY:Pholtus		DOMAINS:Good,Inquisition,Knowledge,Law,Sun|PREALIGN:LG,LN,NG		DEITYWEAP:Quarterstaff		ALIGN:LG	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Light, Order, Steadfastness
+Procan	KEY:Procan		DOMAINS:Animal,Chaos,Travel,Water,Weather|PREALIGN:CG,CN,CE		DEITYWEAP:Trident			ALIGN:CN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Oceans, Sea weather
+Pyremius	KEY:Pyremius	DOMAINS:Destruction,Evil,Fire|PREALIGN:LN,NE,CN				DEITYWEAP:Longsword		ALIGN:NE	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Poison, Assassins, Fire
+Rao		KEY:Rao		DOMAINS:Community,Good,Knowledge,Luck,Purification|PREALIGN:LG,LN,NG	DEITYWEAP:Mace (Light)		ALIGN:LG	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Peace, Serenity
+Telchur	KEY:Telchur		DOMAINS:Air,Chaos,Cold,Strength|PREALIGN:CG,CN,CE				DEITYWEAP:Spear			ALIGN:CN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Winter, Cold
+Tharizdun	KEY:Tharizdun	DOMAINS:Chaos,Destruction,Evil,Force,Madness|PREALIGN:LN,NE,CN		DEITYWEAP:Dagger			ALIGN:NE	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Insanity, Entropy
+Trithereon	KEY:Trithereon	DOMAINS:Chaos,Good,Liberation,Summoner|PREALIGN:NG,CG,CN			DEITYWEAP:Spear			ALIGN:CG	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Individuality, Liberty
+Wastri	KEY:Wastri		DOMAINS:Animal,Law,Purification,War|PREALIGN:LG,LN,LE			DEITYWEAP:Glaive			ALIGN:LN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Bigotry, Amphibians
+Xan Yae	KEY:Xan Yae		DOMAINS:Celerity,Knowledge,Trickery,War|PREALIGN:LN,NG,TN,NE,CN		DEITYWEAP:Falchion		ALIGN:TN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Shadows, Stealth
+Zuoken	KEY:Zuoken		DOMAINS:Celerity,Knowledge,Strength,War|PREALIGN:LN,NG,TN,NE,CN		DEITYWEAP:Nunchaku		ALIGN:TN	FACTSET:Pantheon|Base|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a	DESC:Monks, Mental powers
 
 
 ###Block: Monster Deities
@@ -79,7 +78,7 @@ Yondalla.MOD			KEY:Yondalla		DOMAINS:Community,Creation|PREALIGN:LG,LN,NG
 #Ilsensine mind flayers LE Evil, Knowledge, Law, Magic,Mind unarmed strike G
 #* or tentacle
 #Kaelthiere salamanders, efreet, azer NE Destruction, Evil, Fire, War spear I
-#Laduguer duergar LE Domination*, Earth, Evil, Law, War warhammer I
+#Laduguer duergar LE Domination, Earth, Evil, Law, War warhammer I
 #Laogzed troglodytes CE Chaos, Death, Destruction, Evil javelin D
 #Maglubiyet goblins, hobgoblins NE Chaos, Destruction, Evil, Trickery battleaxe G
 #Memnor evil cloud giants NE Death, Evil, Trickery morningstar I
@@ -94,5 +93,5 @@ Yondalla.MOD			KEY:Yondalla		DOMAINS:Community,Creation|PREALIGN:LG,LN,NG
 #Skerrit centaurs NG Animal, Healing, Plant, Sun spear L
 #Stronmaus storm giants, cloud giants CG Chaos, Good, Protection, War, Weather warhammer G
 #Surtr fire giants LE Evil, Fire, Law, Strength, War greatsword L
-#Thrym frost giants CE Chaos, Cold*, Destruction, Evil,War greataxe L
+#Thrym frost giants CE Chaos, Cold, Destruction, Evil,War greataxe L
 #Vaprak ogres, trolls CE Chaos, Destruction, Evil, Strength greatclub D
