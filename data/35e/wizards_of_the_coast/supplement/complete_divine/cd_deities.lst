@@ -11,10 +11,28 @@ Tiamat		KEY:Tiamat		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE	DEIT
 Shugenja Order	KEY:ShugenjaOrder	DOMAINS:Order of the All-Seeing Eye,Order of the Consuming Flame,Order of the Forbidding Wasteland,Order of the Gentle Rain,Order of the Impenetrable Crucible,Order of the Ineffable Mystery,Order of the Perfect Sculpture,Order of the Spring Zephyr|PREALIGN:LG,NG,CG,LN,TN,CN,LE,NE,CE		DEITYWEAP:ANY				ALIGN:TN	FACTSET:Pantheon|Base|CD
 
 
-###Block: New Greyhawk Deities
-#Heironeous			KEY:Heironeous		DOMAINS:Good,Law,War|PREALIGN:LG,LN,NG					DEITYWEAP:Longsword			ALIGN:LG	FACTSET:Pantheon|Base|PH					SOURCELONG:Player's Handbook	SOURCESHORT:PH		SOURCEPAGE:p.107	SORTKEY:Gods_a
-Fharlanghn.MOD		KEY:Fharlanghn		DOMAINS:Celerity,Weather|PREALIGN:LN,NG,TN,NE,CN
-Heironeous.MOD		KEY:Heironeous		DOMAINS:Glory,Inquisition|PREALIGN:LG,LN,NG
+###Block: Existing Greyhawk Deities with new domains
+# Deity Name			Unique Key			Domains
+Boccob.MOD				KEY:Boccob			DOMAINS:Mind,Oracle|PREALIGN:LN,NG,TN,NE,CN
+Corellon Larethian.MOD		KEY:Corellon Larethian	DOMAINS:Community|PREALIGN:NG,CG,CN
+Ehlonna.MOD				KEY:Ehlonna			DOMAINS:Celerity|PREALIGN:LG,NG,CG
+Erythnul.MOD			KEY:Erythnul		DOMAINS:Madness|PREALIGN:NE,CN,CE
+Fharlanghn.MOD			KEY:Fharlanghn		DOMAINS:Celerity,Weather|PREALIGN:LN,NG,TN,NE,CN
+Garl Glittergold.MOD		KEY:Garl Glittergold	DOMAINS:Community,Creation|PREALIGN:LG,NG,CG
+Gruumsh.MOD				KEY:Gruumsh			DOMAINS:Domination|PREALIGN:NE,CN,CE
+Heironeous.MOD			KEY:Heironeous		DOMAINS:Glory,Inquisition|PREALIGN:LG,LN,NG
+Hextor.MOD				KEY:Hextor			DOMAINS:Domination|PREALIGN:LN,LE,NE
+Kord.MOD				KEY:Kord			DOMAINS:Competition|PREALIGN:NG,CG,CN
+Moradin.MOD				KEY:Moradin			DOMAINS:Creation|PREALIGN:LG,LN,NG
+Nerull.MOD				KEY:Nerull			DOMAINS:Pestilence|PREALIGN:LN,NE,CN
+Obad-Hai.MOD			KEY:Obad-Hai		DOMAINS:Weather|PREALIGN:LN,NG,TN,NE,CN
+Olidammara.MOD			KEY:Olidammara		DOMAINS:Celerity,Mind|PREALIGN:CG,CN,CE
+Pelor.MOD				KEY:Pelor			DOMAINS:Community,Glory|PREALIGN:LG,NG,CG
+St. Cuthbert.MOD			KEY:St. Cuthbert		DOMAINS:Domination|PREALIGN:LG,LN,LE
+Vecna.MOD				KEY:Vecna			DOMAINS:Madness|PREALIGN:LN,NE,CN
+Wee Jas.MOD				KEY:Wee Jas			DOMAINS:Domination,Mind|PREALIGN:LG,LN,LE
+Yondalla.MOD			KEY:Yondalla		DOMAINS:Community,Creation|PREALIGN:LG,LN,NG
+
 
 
 ###Block: New Greyhawk Deities
