@@ -13,6 +13,7 @@ Shugenja Order	KEY:ShugenjaOrder	DOMAINS:Order of the All-Seeing Eye,Order of th
 
 ###Block: New Greyhawk Deities
 #Heironeous			KEY:Heironeous		DOMAINS:Good,Law,War|PREALIGN:LG,LN,NG					DEITYWEAP:Longsword			ALIGN:LG	FACTSET:Pantheon|Base|PH					SOURCELONG:Player's Handbook	SOURCESHORT:PH		SOURCEPAGE:p.107	SORTKEY:Gods_a
+Fharlanghn.MOD		KEY:Fharlanghn		DOMAINS:Celerity,Weather|PREALIGN:LN,NG,TN,NE,CN
 Heironeous.MOD		KEY:Heironeous		DOMAINS:Glory,Inquisition|PREALIGN:LG,LN,NG
 
 
