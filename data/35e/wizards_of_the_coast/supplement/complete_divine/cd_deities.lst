@@ -1,19 +1,22 @@
 # CVS $Revision: $ $Author: $ -- Sun Aug 17 15:41:15 2014 -- reformated by prettylst.pl v1.51 (build 24906)
 
-
-
-
 # Deity Name	Unique Key		Domains									Deity Weapon			Align		Pantheon		Source Page		SORTKEY
 Bahamut		KEY:Bahamut		DOMAINS:Air,Cold,Good,Luck,Protection|PREALIGN:LN,NG,LG	DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LG	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.108	SORTKEY:Gods_a
 Kurtulmak		KEY:Kurtulmak	DOMAINS:Evil,Law,Luck,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Spear			ALIGN:LE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.113	SORTKEY:Gods_a
 Lolth			KEY:Lolth		DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:CN,NE,CE	DEITYWEAP:Whip			ALIGN:LE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.114	SORTKEY:Gods_a
 Tiamat		KEY:Tiamat		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE	DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LE	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
 
+
 #Block: Shugenja support
 Shugenja Order	KEY:ShugenjaOrder	DOMAINS:Order of the All-Seeing Eye,Order of the Consuming Flame,Order of the Forbidding Wasteland,Order of the Gentle Rain,Order of the Impenetrable Crucible,Order of the Ineffable Mystery,Order of the Perfect Sculpture,Order of the Spring Zephyr|PREALIGN:LG,NG,CG,LN,TN,CN,LE,NE,CE		DEITYWEAP:ANY				ALIGN:TN	FACTSET:Pantheon|Base|CD
 
-###Block: Greyhawk Deities
 
+###Block: New Greyhawk Deities
+#Heironeous			KEY:Heironeous		DOMAINS:Good,Law,War|PREALIGN:LG,LN,NG					DEITYWEAP:Longsword			ALIGN:LG	FACTSET:Pantheon|Base|PH					SOURCELONG:Player's Handbook	SOURCESHORT:PH		SOURCEPAGE:p.107	SORTKEY:Gods_a
+Heironeous.MOD		KEY:Heironeous		DOMAINS:Glory,Inquisition|PREALIGN:LG,LN,NG
+
+
+###Block: New Greyhawk Deities
 #Beltar	KEY:Beltar		DOMAINS:Chaos, Earth, Evil, War|PREALIGN:LN,NE,LE		DEITYWEAP:Gauntlet (Spiked)	ALIGN:CE	FACTSET:Pantheon|Greyhawk|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
 #Bralm		KEY:Bralm		DOMAINS:Animal, Community*, Law, Pact*,Strength|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
 #Celestian	KEY:Celestian	DOMAINS:Knowledge, Oracle*, Protection,Travel|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
@@ -38,6 +41,7 @@ Shugenja Order	KEY:ShugenjaOrder	DOMAINS:Order of the All-Seeing Eye,Order of th
 #Wastri	KEY:Wastri		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:LN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
 #Xan Yae	KEY:Xan Yae		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
 #Zuoken	KEY:Zuoken		DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,NE,LE		DEITYWEAP:Pick (Heavy)|Bite	ALIGN:TN	FACTSET:Pantheon|Base|CD	SOURCEPAGE:p.117	SORTKEY:Gods_a
+
 
 ###Block: Monster Deities
 #Annam giants N Knowledge, Magic, Plant, Sun slam or shortspear G
@@ -65,7 +69,6 @@ Shugenja Order	KEY:ShugenjaOrder	DOMAINS:Order of the All-Seeing Eye,Order of th
 #Sekolah sahuagin LE Evil, Law, Strength, War trident L
 #Semuanya lizardfolk N Animal, Plant, Water greatclub L
 #Shekinester nagas N Destruction, Knowledge, Magic,Protection bite or dagger G
-#
 #Skoraeus stone giants N Earth, Healing, Knowledge, warhammer I
 #Stonebones Protection
 #Sixin xills LE Evil, Law, Strength, Travel short sword I
@@ -73,5 +76,4 @@ Shugenja Order	KEY:ShugenjaOrder	DOMAINS:Order of the All-Seeing Eye,Order of th
 #Stronmaus storm giants, cloud giants CG Chaos, Good, Protection, War, Weather warhammer G
 #Surtr fire giants LE Evil, Fire, Law, Strength, War greatsword L
 #Thrym frost giants CE Chaos, Cold*, Destruction, Evil,War greataxe L
-
 #Vaprak ogres, trolls CE Chaos, Destruction, Evil, Strength greatclub D
