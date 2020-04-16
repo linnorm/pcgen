@@ -2,19 +2,20 @@
 CAMPAIGN:Complete Arcane
 KEY:Complete Arcane
 GAMEMODE:35e|Bahamut35e
-RANK:3
-PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
+
 GENRE:Fantasy
 BOOKTYPE:Supplement
 SETTING:Fantasy
-TYPE:Wizards of the Coast.Supplement
-STATUS:ALPHA
+TYPE:Wizards of the Coast.Supplement.Supplement
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
+STATUS:BETA
 PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://www.wizards.com/default.asp?x=dnd
 SOURCELONG:Complete Arcane
 SOURCESHORT:CAr
 SOURCEDATE:2004-11
+RANK:200411
 ISOGL:NO
 # COVER should be cover_gameMode_pub_book.file
 COVER:../../../../_artwork/cover_35e_wotc_car.jpg

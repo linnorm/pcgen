@@ -1,12 +1,13 @@
 # CVS $Revision$ $Author$ -- Fri May  3 14:36:53 2013 -- reformated by prettylst.pl v1.50 (build 19967)
 CAMPAIGN:Universal Rules
-RANK:1
+
 BOOKTYPE:Core
 # COMMENT: Loaded as part of the Core Rules.
 #GAMEMODE:35e|Bahamut35e
 SOURCELONG:Universal Rules
 SOURCESHORT:UR
 SOURCEDATE:2003-09
+RANK:200309
 
 #INFOTEXT:This loads the Universal Rules
 RACE:*/_universal/races.lst
@@ -15,6 +16,7 @@ DATACONTROL:ur__datacontrols.lst
 
 ABILITY:ur_abilities.lst
 ABILITY:ur_feats.lst
+BIOSET:ur_biosettings.lst
 CLASS:ur_classes.lst
 KIT:ur_kits.lst
 TEMPLATE:ur_templates.lst
