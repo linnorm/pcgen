@@ -38,4 +38,5 @@ pcgen-batch-convert.jar
 /variable_report.csv
 /variable_report.html
 
-Thumbs.db
+.idea
+
