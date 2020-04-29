@@ -2,6 +2,7 @@
 CAMPAIGN:My Dragonstar Additions
 GAMEMODE:35e
 TYPE:Campaign
+PRECAMPAIGN:1,INCLUDES=Monster Manual II
 RANK:1
 INFOTEXT:This is custom stuff for my Dragonstar campaigns.
 ISOGL:NO
@@ -15,6 +16,4 @@ EQUIPMENT:mydragonstarequip.lst
 EQUIPMENT:starfarershbequipspellware.lst
 LANGUAGE:mydragonstarlanguages.lst
 SKILL:mydragonstarskills.lst
-ABILITY:@\35e\wizards_of_the_coast\supplement\mm2_abilities.lst|(INCLUDE:Race Traits ~ Neogi|Race Traits ~ Great Old Master Neogi)
-RACE:@\35e\wizards_of_the_coast\supplement\monster_manual_2\mm2_races.lst|(INCLUDE:Neogi|Neogi (Great Old Master))
 RACE:mydragonstar_races.lst
