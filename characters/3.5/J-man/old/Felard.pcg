@@ -6,7 +6,7 @@ VERSION:6.07.09
 ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
-PREVIEWSHEET:Standard.htm
+PREVIEWSHEET:Standard.htm.ftl
 POOLPOINTS:0
 POOLPOINTSAVAIL:-1
 GAMEMODE:35e
@@ -75,7 +75,7 @@ CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:7|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Fighter=7|HITPOINTS:7|PRESTAT:STR=1|SKILLSGAINED:5|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:66000
+EXPERIENCE:76468
 EXPERIENCETABLE:Default
 
 # Character Templates
@@ -83,8 +83,10 @@ TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Huma
 TEMPLATESAPPLIED:[NAME:Human Base]
 TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Human)]
 TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
-TEMPLATESAPPLIED:[NAME:First Level]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Fighter]
+TEMPLATESAPPLIED:[NAME:First Level ~ Fighter|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Funds - None]
 
 # Character Region
 REGION:None
@@ -96,7 +98,7 @@ SKILL:Bluff|OUTPUTORDER:3|
 SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Concentration|OUTPUTORDER:5|
 SKILL:Control Shape|OUTPUTORDER:6|
-SKILL:Craft (Brewing)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Occult Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Brewing)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Occult Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:8|
 SKILL:Diplomacy|OUTPUTORDER:9|
 SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:10|
@@ -108,7 +110,7 @@ SKILL:Heal|OUTPUTORDER:15|
 SKILL:Hide|OUTPUTORDER:16|
 SKILL:Intimidate|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Fighter|RANKS:15.0|COST:1|CLASSSKILL:Y]
 SKILL:Jump|OUTPUTORDER:18|
-SKILL:Knowledge (Arcana)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Occult Slayer|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Occult Slayer|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:20|
 SKILL:Listen|OUTPUTORDER:21|
 SKILL:Literacy|OUTPUTORDER:22|
@@ -116,7 +118,7 @@ SKILL:Move Silently|OUTPUTORDER:23|
 SKILL:Ride|OUTPUTORDER:24|
 SKILL:Search|OUTPUTORDER:25|
 SKILL:Sense Motive|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Occult Slayer|RANKS:6.0|COST:1|CLASSSKILL:Y]
-SKILL:Spellcraft|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Fighter|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Occult Slayer|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Occult Slayer|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Spot|OUTPUTORDER:28|
 SKILL:Survival|OUTPUTORDER:29|
 SKILL:Swim|OUTPUTORDER:30|
@@ -156,7 +158,7 @@ WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spe
 WEAPONPROF:[WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
 
 # Character Equipment
-MONEY:10038.57
+MONEY:16564.8499999999985448084771633148193359375
 EQUIPNAME:Amulet of Natural Armor +2|OUTPUTORDER:2|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Backpack|OUTPUTORDER:13|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bedroll|OUTPUTORDER:14|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:
@@ -168,6 +170,7 @@ EQUIPNAME:Flint and Steel|OUTPUTORDER:11|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Glaive +2 (Large)|OUTPUTORDER:5|COST:8316.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Glaive|DATA:NAME=Glaive +2 (Large)$SIZE=L$EQMOD=STEEL.PLUS2W]
 EQUIPNAME:Goggles of Lifesight|OUTPUTORDER:1|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Insignia of Occult Slayers|OUTPUTORDER:19|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Amulet|DATA:NAME=Insignia of Occult Slayers$SPROP=Colored violet, (Amulet)]
+EQUIPNAME:Potion (Cure Serious Wounds)|OUTPUTORDER:0|COST:750|WT:0.0|QUANTITY:5.0|NOTE:
 EQUIPNAME:Pouch, Belt|OUTPUTORDER:9|COST:1|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch, Belt$KEY=Pouch (Belt)]
 EQUIPNAME:Ring of Protection +1|OUTPUTORDER:3|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Stormfire ring|OUTPUTORDER:4|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:
@@ -208,11 +211,11 @@ DEITY:Evening Glory|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Good]|ALIGNAL
 # Character Spells Information
 
 # Character Description/Bio/History
-CHARACTERBIO:Felard is a man haunted by lost love and betrayal.  A year ago his betrothed, Aralice, became deathly ill.  A traveler stopping in their village told Felard about Evening Glory and said that he could help keep Aralice with him forever.  Felard readily agreed to do whatever the stranger asked if he would only save Aralice.  Several foul deeds later Aralice was dead and her body was missing along with the stranger.&nl;&nl;The doctrine of Evening Glory still appealed to Felard, and he set out to find his lost love and the man who had betrayed them.  His recent employment with members of Arcanis has aided him greatly in his quest as several budding necromancers have been found and disposed of.&nl;&nl;While killing two former Arcanis members who had turned to dark magic Felard found a possible clue to the location of Aralice and the stranger.  The two told of the former master in the necromantic arts; a man named Thanatos.  He was supposedly located in the North and was the best lead Felard had found in half a year of searching.  Suddenly his northern barbarian princess companion's plight seemed much more interesting.&nl;&nl;To help pursue his goal Felard is strongly considering joining Arcanis's Occulta Mortem order.  This training will give him the tools necessary to defeat Thanatos or any other necromancer who stands between him and his lover.&nl;&nl;On one of the islands of the south Felard found Aralice in the company of three vampires.  She had been turned by the Master and the three with her were her progeny.  She was there under orders of the Master to guard Thanatos.  She informed Felard that it was the Master that visited their village and stole her away.  She also revealed that Thanatos is 400 years old and is working on two projects.  The first is a personal project to try to revive his wife.  The second is abomination design for the Master.  Aralice expects Thanatos to be on the island for another year at least.  She urged Felard to get the group to leave for their safety.&nl;&nl;Felard asked Aralice to let him know if she leaves the island before he returns and he and the group left the island.&nl;&nl;After killing Thanatos, Felard learned that Nerel, a high ranked member of Evening Glory, was responsible for Aralice's vampirism.&nl;Felard then found that the Arcane Eye member Necros had destroyed Aralice.  He was hit with a Calm spell before he could attack so settled for informing Necros that he would kill him and anyone else that was involved or got in the way.&nl;&nl;Felard later duelled Necros to the death and lost.  His body was cremated in a volcanic vent to prevent misuse.&nl;&nl;An indeterminate time later Felard found himself in The Tower.  While working with the Towers of High Sorcery he learned that Necros is also in The Tower and set out to find and kill him.&nl;&nl;&nl;################################&nl;&nl;Take Arcane Warrior feats as part of training.   Book of Iron Might, pg. 36&nl;&nl;+1d6 Sonic damage from Energy Sheath&nl;
+CHARACTERBIO:Felard is a man haunted by lost love and betrayal.  A year ago his betrothed, Aralice, became deathly ill.  A traveler stopping in their village told Felard about Evening Glory and said that he could help keep Aralice with him forever.  Felard readily agreed to do whatever the stranger asked if he would only save Aralice.  Several foul deeds later Aralice was dead and her body was missing along with the stranger.&nl;&nl;The doctrine of Evening Glory still appealed to Felard, and he set out to find his lost love and the man who had betrayed them.  His recent employment with members of Arcanis has aided him greatly in his quest as several budding necromancers have been found and disposed of.&nl;&nl;While killing two former Arcanis members who had turned to dark magic Felard found a possible clue to the location of Aralice and the stranger.  The two told of the former master in the necromantic arts; a man named Thanatos.  He was supposedly located in the North and was the best lead Felard had found in half a year of searching.  Suddenly his northern barbarian princess companion's plight seemed much more interesting.&nl;&nl;To help pursue his goal Felard is strongly considering joining Arcanis's Occulta Mortem order.  This training will give him the tools necessary to defeat Thanatos or any other necromancer who stands between him and his lover.&nl;&nl;On one of the islands of the south Felard found Aralice in the company of three vampires.  She had been turned by the Master and the three with her were her progeny.  She was there under orders of the Master to guard Thanatos.  She informed Felard that it was the Master that visited their village and stole her away.  She also revealed that Thanatos is 400 years old and is working on two projects.  The first is a personal project to try to revive his wife.  The second is abomination design for the Master.  Aralice expects Thanatos to be on the island for another year at least.  She urged Felard to get the group to leave for their safety.&nl;&nl;Felard asked Aralice to let him know if she leaves the island before he returns and he and the group left the island.&nl;&nl;After killing Thanatos, Felard learned that Nerel, a high ranked member of Evening Glory, was responsible for Aralice's vampirism.&nl;Felard then found that the Arcane Eye member Necros had destroyed Aralice.  He was hit with a Calm spell before he could attack so settled for informing Necros that he would kill him and anyone else that was involved or got in the way.&nl;&nl;Felard later duelled Necros to the death and lost.  His body was cremated in a volcanic vent to prevent misuse.&nl;&nl;An indeterminate time later Felard found himself in The Tower.  While working with the Towers of High Sorcery he learned that Necros is also in The Tower and set out to find and kill him.&nl;&nl;Hunting Morgul (beast master) and Ulgar (overlord) too.&nl;&nl;While escaping dragon prison he meets Morgul and kills her in a duel.  He then collected her insignia ring.&nl;&nl;Felard then returned to the Sage's Tower where he found out that much had changed in the three years he was held.  He left with the group to Titania Prison by boat.  They intended to clear it out and establish a link to the Spirit Paths if possible.&nl;&nl;After fighting down to the shrine to Maxwell below the prison, the group reactivated the spirit path.  They then fought their way up to the wardens office where they met Rubius and Ulgar.  After a brief chat, Rubius stepped out to the balcony and flew away and the group fought Ulgar and some stiched abominations.&nl;&nl;Group found Evelyn Drusair in the VIP cell.  She was recently unearthed from the Ice Temple.  She had been put to rest there for unknown reasons.  She claims to be from the kingdom of Drusair which existed on the HQ island of the Solarian church several hundred years ago.  She also claims to have a way to track her younger sister Phoena.&nl;&nl;The pair tracking Phoena arrived at the prison to work with Evelyn.  Inferno sent along a letter with information that Necros had been spotted in Logres.  The group was teleported to Logres to investigate.&nl;&nl;Upon arrival the group was ushered in due to some mistaken identity.  They were then shown to the area where they were supposed to eradicate some monsters.  The guards said that a man matching Necros's description had slipped into the underground area so the group pursued.&nl;&nl;The group entered the underground area to find a group of hook horrors.  They were dispatched and the group continued on to find an elder black pudding.  Rask went to the sages tower to obtain a bolt of ooze slaying which he used to kill the pudding.  The group then continued on to find what appeared to be an abandoned dragon lair.  Felard continued on to fight Necros and won.&nl;&nl;################################&nl;&nl;Take Arcane Warrior feats as part of training.   Book of Iron Might, pg. 36&nl;Put Sizing enchantment on Glaive (5000gp) to allow resizing it at will.  Then resize to S during combat to remove reach and allow adjacent square use at 1d8 damage.&nl;&nl;+1d6 Sonic damage from Energy Sheath&nl;
 CHARACTERDESC:
 CHARACTERCOMP:
 CHARACTERASSET:Giant Blade Wielder&colon; With your phenomenal strength and talent for using heavy weapons, you can bear a weapon made for a larger creature with the same ease as a normal sword or axe. You reduce the penalty for using a weapon that is larger than your standard size by 2, but you must wield the weapon with two hands to gain this benefit. You cannot use weapons that are too large for you to handle, but you are better at handling Large greatswords and similar weapons.&nl;&nl;Hammering Strike&colon; While others use finesse and specially designed weapons to make trip attacks, you can crush an opponent with a blow so fierce that he falls to his knees. You may make a trip attack with the following changes. Your opponent never has a chance to trip you, but you must make a regular melee attack rather than a touch attack to trip him. In place of an opposed Strength check, your target must make a Strength check to remain standing, with a Difficulty Class equal to your weapon’s damage roll. Your target does not take any damage from this attack.&nl;&nl;Slaughtering Sweep&colon; You twirl your two-handed weapon over your head, duck down, and deliver a sweeping attack that chops through your opponents. This reckless attack leaves you off balance, but it can potentially devastate your foes. Make an attack as normal and roll your damage. You can decide to distribute your damage among as many foes in your threatened area as you wish, but the total damage you inflict cannot exceed your damage result. Use your attack roll result to determine if you hit each foe you try to injure. Using this technique requires a full-round action, and you suffer a –2 penalty to Armor Class until your next action.&nl;&nl;Thunderous Slam&colon; With a great war cry, you slam your weapon into your opponent and send him reeling backward. As a full-round action, you make an attack against your foe with a two-handed weapon at your best base attack bonus. If you hit, your opponent suffers damage equal to your Strength bonus. In addition, roll your damage die (or dice) opposed by the target’s Strength check as if he had been targeted by a bull rush. If the target fails his check, you move your target 5 feet (1 square) directly away from you.&nl;&nl;Whirling Uppercut&colon; You deliver a savage upward strike to your opponent that might send him flying through the air. As a full-round action, make an attack with a two-handed weapon at your highest base attack bonus. This attack provokes an attack of opportunity. If you hit, your opponent must make a Strength check opposed by your total damage result. He suffers a –4 penalty for every size category he is smaller or a +4 bonus for every size category he is larger than your own.If he fails this check, he flies through the air a number of 5-foot squares equal to your damage divided by 5, rounded down. He suffers no additional injuries from the fall.&nl;
-CHARACTERMAGIC:Goggles of Lifesight  MIC, 108&nl;Witchlight Reservoir MIC 66&nl;Stormfire Ring MIC 206&nl;&nl;&nl;Claudia's insignia&nl;Thanatos's insignia&nl;
+CHARACTERMAGIC:Goggles of Lifesight  MIC, 108&nl;Witchlight Reservoir MIC 66&nl;Stormfire Ring MIC 206&nl;&nl;&nl;Scroll sealed with Eisenritter crest&nl;&nl;&nl;&nl;Claudia's insignia&nl;Thanatos's insignia&nl;Morgul's insignia&nl;Ulgar's insignia&nl;Necros's insignia&nl;&nl;&nl;
 CHARACTERDMNOTES:
 
 # Kits
