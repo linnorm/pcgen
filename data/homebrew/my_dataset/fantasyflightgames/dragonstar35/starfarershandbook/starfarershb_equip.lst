@@ -16,7 +16,7 @@ Datachip (Computers and Electronics)	TYPE:HighTechGoods.CommGear		COST:50	WT:0		
 Datachip (Desktop Physician)			TYPE:HighTechGoods.CommGear		COST:50	WT:0						SOURCEPAGE:p.106	BONUS:SKILL|Heal|2|TYPE=Circumstance
 Datachip (Imperial Biological Survey)	TYPE:HighTechGoods.CommGear		COST:50	WT:0						SOURCEPAGE:p.106	BONUS:SKILL|Knowledge (Biology)|2|TYPE=Circumstance
 Datachip (Chemical Database)			TYPE:HighTechGoods.CommGear		COST:50	WT:0						SOURCEPAGE:p.106	BONUS:SKILL|Knowledge (Chemistry)|2|TYPE=Circumstance
-Datachip (Alchemist's Handbook)		TYPE:HighTechGoods.CommGear		COST:50	WT:0						SOURCEPAGE:p.106	BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance
+Datachip (Alchemist's Handbook)		TYPE:HighTechGoods.CommGear		COST:50	WT:0						SOURCEPAGE:p.106	BONUS:SKILL|Alchemy|2|TYPE=Circumstance
 Datachip (Imperial Encyclopedia)		TYPE:HighTechGoods.CommGear		COST:50	WT:0						SOURCEPAGE:p.106	BONUS:SKILL|Knowledge (Geography)|2|TYPE=Circumstance	BONUS:SKILL|Knowledge (History)|2|TYPE=Circumstance
 Datachip (Languages and Linguistics)	TYPE:HighTechGoods.CommGear		COST:50	WT:0						SOURCEPAGE:p.106	BONUS:SKILL|Decipher Script|2|TYPE=Circumstance
 Datachip (Military Surplus Guide)		TYPE:HighTechGoods.CommGear		COST:50	WT:0						SOURCEPAGE:p.106	BONUS:SKILL|Appraise|2|TYPE=Circumstance
@@ -83,8 +83,8 @@ Signal jammer				TYPE:HighTechGoods.Espionage			COST:750	WT:1		SOURCEPAGE:p.111
 ###Block: Tools
 # Equipment Name			Type						Cost		Weight	Requires Modification?	Source Page			Bonus to skill
 Appraisal kit			TYPE:HighTechGoods.Tools		COST:100	WT:5						SOURCEPAGE:p.114
-Demolitions kit			TYPE:HighTechGoods.Tools		COST:200	WT:5						SOURCEPAGE:p.114
-Demolitions kit (masterwork)	TYPE:HighTechGoods.Tools.Masterwork	COST:500	WT:8						SOURCEPAGE:p.114		BONUS:SKILL|Demolitions|2|TYPE=EquipmentCircumstance
+Demolitions Kit			TYPE:HighTechGoods.Tools		COST:200	WT:5						SOURCEPAGE:p.114
+Demolitions Kit (Masterwork)	TYPE:HighTechGoods.Tools.Masterwork	COST:500	WT:8						SOURCEPAGE:p.114		BONUS:SKILL|Demolitions|2|TYPE=EquipmentCircumstance
 Laser torch				TYPE:HighTechGoods.Tools		COST:250	WT:5						SOURCEPAGE:p.114
 Toolkit				TYPE:HighTechGoods.Tools		COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:p.113-114
 
