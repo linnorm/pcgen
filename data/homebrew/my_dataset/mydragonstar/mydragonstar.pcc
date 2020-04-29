@@ -8,11 +8,13 @@ ISOGL:NO
 SHOWINMENU:NO
 GENRE:Fantasy
 SETTING:Dragonstar
-COVER:@\my_dataset\rallanonpublishinggroup\rallanon\encyclopediarallanon\cover.png
+COVER:@\homebrew\my_dataset\mydragonstar\cover.png
 
 
-EQUIPMENT:@\my_dataset\MyStuff\mydragonstar\mydragonstarequip.lst
-EQUIPMENT:@\my_dataset\MyStuff\mydragonstar\starfarershbequipspellware.lst
-LANGUAGE:@\my_dataset\MyStuff\mydragonstar\mydragonstarlanguages.lst
-SKILL:@\my_dataset\MyStuff\mydragonstar\mydragonstarskills.lst
-RACE:@\my_dataset\MyStuff\mydragonstar\mydragonstar_races.lst
+EQUIPMENT:mydragonstarequip.lst
+EQUIPMENT:starfarershbequipspellware.lst
+LANGUAGE:mydragonstarlanguages.lst
+SKILL:mydragonstarskills.lst
+ABILITY:@\35e\wizards_of_the_coast\supplement\mm2_abilities.lst|(INCLUDE:Race Traits ~ Neogi|Race Traits ~ Great Old Master Neogi)
+RACE:@\35e\wizards_of_the_coast\supplement\monster_manual_2\mm2_races.lst|(INCLUDE:Neogi|Neogi (Great Old Master))
+RACE:mydragonstar_races.lst
