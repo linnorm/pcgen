@@ -286,9 +286,9 @@ Feral Trance Active	CATEGORY:Internal		NATURALATTACKS:Bite,Melee.Weapon.Natural,
 Blinding Light	CATEGORY:Ability Focus
 
 ###Block
-Remove Domain for Devotion Feat I	BONUS:ABILITYPOOL|Domain Feat|1	COST:0	BONUS:DOMAIN|NUMBER|-1	CATEGORY:Internal	TYPE:MiscOptions.DomainRemoval	!PREABILITY:1,CATEGORY=Internal,TYPE.DomainRemoval,[Remove Domain for Devotion Feat I]	
-Remove Domain for Devotion Feat II	BONUS:ABILITYPOOL|Domain Feat|2	COST:0	BONUS:DOMAIN|NUMBER|-2	CATEGORY:Internal	TYPE:MiscOptions.DomainRemoval	!PREABILITY:1,CATEGORY=Internal,TYPE.DomainRemoval,[Remove Domain for Devotion Feat II]	
-Remove Domain for Devotion Feat III	BONUS:ABILITYPOOL|Domain Feat|3	COST:0	BONUS:DOMAIN|NUMBER|-3	CATEGORY:Internal	TYPE:MiscOptions.DomainRemoval	!PREABILITY:1,CATEGORY=Internal,TYPE.DomainRemoval,[Remove Domain for Devotion Feat III]	
+Remove Domain for Devotion Feat I	BONUS:ABILITYPOOL|Domain Feat|1	COST:0	BONUS:DOMAIN|NUMBER|-1	CATEGORY:Internal	TYPE:MiscOptions.DomainRemoval	!PREABILITY:1,CATEGORY=Internal,TYPE.DomainRemoval,[Remove Domain for Devotion Feat I]
+Remove Domain for Devotion Feat II	BONUS:ABILITYPOOL|Domain Feat|2	COST:0	BONUS:DOMAIN|NUMBER|-2	CATEGORY:Internal	TYPE:MiscOptions.DomainRemoval	!PREABILITY:1,CATEGORY=Internal,TYPE.DomainRemoval,[Remove Domain for Devotion Feat II]
+Remove Domain for Devotion Feat III	BONUS:ABILITYPOOL|Domain Feat|3	COST:0	BONUS:DOMAIN|NUMBER|-3	CATEGORY:Internal	TYPE:MiscOptions.DomainRemoval	!PREABILITY:1,CATEGORY=Internal,TYPE.DomainRemoval,[Remove Domain for Devotion Feat III]
 
 # Marc
 
@@ -477,13 +477,29 @@ Character Level	KEY:Fingers Of The Laughing Rogue ~ Character Level	CATEGORY:Chu
 
 The Fist Of Valor Membership	KEY:Fist Of Valor ~ Membership	CATEGORY:Church	TYPE:Fist Of Valor	PREDEITY:1,Heironeous	DEFINE:FVAffiliationScore|0	COST:0	BONUS:ABILITYPOOL|The Fist Of Valor Rank|FVAffiliationScore/100	ABILITY:Church|AUTOMATIC|Fist Of Valor ~ Character Level	DESC:Membership	SOURCEPAGE:p.6
 
-Character Level	KEY:Fist Of Valor ~ Character Level	CATEGORY:Church	TYPE:Fist Of Valor	BONUS:VAR|FVAffiliationScore|100*floor(ECL/2)	COST:0	PREABILITY:1,CATEGORY=Church,Fist Of Valor ~ Membership	DESC:Character Level: +1/2 levels	SOURCEPAGE:p.18
+Character Level					KEY:Fist Of Valor ~ Character Level	CATEGORY:Church	TYPE:Fist Of Valor	BONUS:VAR|FVAffiliationScore|100*floor(ECL/2)	COST:0	PREABILITY:1,CATEGORY=Church,Fist Of Valor ~ Membership	DESC:Character Level: +1/2 levels	SOURCEPAGE:p.18
+Knowledge religion 5 or more ranks		KEY:Fist Of Valor ~ Knowledge religion 5	CATEGORY:Church	TYPE:Fist Of Valor	PRESKILL:1,Knowledge (Religion)=5	BONUS:VAR|FVAffiliationScore|100*1	COST:0	PREABILITY:1,CATEGORY=Church,Fist Of Valor ~ Membership	DESC:Knowledge (Religion) 5 or more ranks: +1	SOURCEPAGE:p.18
 
 ###Block: The Fist Of Valor (FV), Multiple Use
+Brings a lawbreaker to justice	KEY:Fist Of Valor ~ Justice	CATEGORY:Church	TYPE:Fist Of Valor	BONUS:VAR|FVAffiliationScore|100*1	MULT:YES	STACK:YES	CHOOSE:NOCHOICE	COST:0	PREABILITY:1,CATEGORY=Church,Fist Of Valor ~ Membership	DESC:Brings a lawbreaker to justice: +1	SOURCEPAGE:p.18
+Converts a new member			KEY:Fist Of Valor ~ Convert	CATEGORY:Church	TYPE:Fist Of Valor	BONUS:VAR|FVAffiliationScore|100*1	MULT:YES	STACK:YES	CHOOSE:NOCHOICE	COST:0	PREABILITY:1,CATEGORY=Church,Fist Of Valor ~ Membership	DESC:Converts a new member: +1		SOURCEPAGE:p.18
 
 ###Block: The Fist Of Valor (FV), Rank
 
+# Absolute cost 4, 14, 24, 30
+# Incremental cost 4, 10, 10, 6
+
+The Fist of Valor Soldier-at-Arms			KEY:The Fist of Valor ~ Soldier-at-Arms			CATEGORY:Church Rank	TYPE:Fist Of Valor	COST:4														ABILITY:Special Ability|AUTOMATIC|The Fist of Valor ~ Soldier-at-Arms Bonus			DESC:Gain a +2 bonus on Diplomacy checks made while enforcing the law.	SOURCEPAGE:p.18
+The Fist of Valor Hand of Might			KEY:The Fist of Valor ~ Hand of Might			CATEGORY:Church Rank	TYPE:Fist Of Valor	COST:10	PREABILITY:1,CATEGORY=Church Rank,The Fist of Valor ~ Soldier-at-Arms		ABILITY:Special Ability|AUTOMATIC|The Fist of Valor ~ Hand of Might Bonus			DESC:Once per day, ignore the effects of difficult terrain on your movement for 1 round.	SOURCEPAGE:p.18
+The Fist of Valor Bolt of Glory			KEY:The Fist of Valor ~ Bolt of Glory			CATEGORY:Church Rank	TYPE:Fist Of Valor	COST:10	PREABILITY:1,CATEGORY=Church Rank,The Fist of Valor ~ Hand of Might		ABILITY:Special Ability|AUTOMATIC|The Fist of Valor ~ Bolt of Glory Bonus			DESC:Gain a +1 bonus on attack rolls made against evil enemies.	SOURCEPAGE:p.18
+The Fist of Valor Righteous Blade of Justice	KEY:The Fist of Valor ~ Righteous Blade of Justice	CATEGORY:Church Rank	TYPE:Fist Of Valor	COST:6	PREABILITY:1,CATEGORY=Church Rank,The Fist of Valor ~ Bolt of Glory		ABILITY:Special Ability|AUTOMATIC|The Fist of Valor ~ Righteous Blade of Justice Bonus	DESC:Once per day, any melee weapon you wield deals +1d6 points of electricity damage, or each damaging spell you cast deals +1d6 points of electricity damage, for 1 round/character level.	SOURCEPAGE:p.18
+
 ###Block: The Fist Of Valor (FV), Bonus
+The Fist of Valor Soldier-at-Arms Bonus				KEY:The Fist of Valor ~ Soldier-at-Arms Bonus				CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:The Fist of Valor Soldier-at-Arms			DESC:Gain a +2 bonus on Diplomacy checks made while enforcing the law.	SOURCEPAGE:p.18
+The Fist of Valor Hand of Might Bonus				KEY:The Fist of Valor ~ Hand of Might Bonus				CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:The Fist of Valor Hand of Might			DESC:Once per day, ignore the effects of difficult terrain on your movement for 1 round.	SOURCEPAGE:p.18
+The Fist of Valor Bolt of Glory Bonus				KEY:The Fist of Valor ~ Bolt of Glory Bonus				CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:The Fist of Valor Bolt of Glory			DESC:Gain a +1 bonus on attack rolls made against evil enemies.	SOURCEPAGE:p.18
+The Fist of Valor Righteous Blade of Justice Bonus		KEY:The Fist of Valor ~ Righteous Blade of Justice Bonus		CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:The Fist of Valor Righteous Blade of Justice	DESC:Once per day, any melee weapon you wield deals +1d6 points of electricity damage, or each damaging spell you cast deals +1d6 points of electricity damage, for 1 round/character level.	SOURCEPAGE:p.18
+
 
 #======================================
 
