@@ -5,9 +5,12 @@ SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHOR
 # Modifier Name	Unique Key	Type			Cost		Type granted	Source Page							BONUS:EQM			BONUS:EQMARMOR							Special Property	Apply to both heads
 
 ###Block:Weapon
-# Modifier Name	Unique Key	Type		Plus		Visible		Type granted			Keys to replace			Required Type			Combat bonus			Special Property
-Eager (Very)	KEY:VEGR	TYPE:Weapon	PLUS:4	VISIBLE:QUALIFY	ITYPE:Enhancement.Magic		REPLACES:WEAP_EAGER,EPEGR	PRETYPE:2,Enhancement,Melee	BONUS:COMBAT|INITIATIVE|4	SPROP:+4 bonus to initiative and free action to draw
-Eager (Epic)	KEY:EPEGR	TYPE:Weapon	PLUS:6	VISIBLE:QUALIFY	ITYPE:Enhancement.Magic.Epic	REPLACES:WEAP_EAGER,VEGR	PRETYPE:2,Enhancement,Melee	BONUS:COMBAT|INITIATIVE|6	SPROP:+6 bonus to initiative and free action to draw
+# Modifier Name	Unique Key		Type			Plus		Visible		Type granted			Keys to replace			Required Type			Combat bonus			Special Property
+Eager (Very)	KEY:VEGR		TYPE:Weapon		PLUS:4	VISIBLE:QUALIFY	ITYPE:Enhancement.Magic		REPLACES:WEAP_EAGER,EPEGR	PRETYPE:2,Enhancement,Melee	BONUS:COMBAT|INITIATIVE|4	SPROP:+4 bonus to initiative and free action to draw
+Eager (Epic)	KEY:EPEGR		TYPE:Weapon		PLUS:6	VISIBLE:QUALIFY	ITYPE:Enhancement.Magic.Epic	REPLACES:WEAP_EAGER,VEGR	PRETYPE:2,Enhancement,Melee	BONUS:COMBAT|INITIATIVE|6	SPROP:+6 bonus to initiative and free action to draw
+
+SOURCELONG:Malhavoc Press - The Complete Book of Eldritch Might	SOURCESHORT:BoEMC	SOURCEWEB:http://www.montecook.com	SOURCEDATE:2004-01
+Mage Tuned		KEY:MAGETUNE	TYPE:Weapon		PLUS:1	VISIBLE:QUALIFY				SOURCEPAGE:p.165	PRETYPE:2,Enhancement,Weapon																						BONUS:WEAPON|TOHIT|4|TYPE=Luck|PRECLASS:1,Wizard=1,Sorcerer=1	SPROP:+4 luck bonus to attack rolls|PRECLASS:1,Wizard=1,Sorcerer=1
 
 ###Block: Armor materials
 # Modifier Name	Unique Key		Type					Cost			Visible		Type granted			Keys to ignore	Cost before resizing	Source Page									Required Type				Combat bonus						BONUS:EQM							BONUS:EQMARMOR																				Change Armor Type

@@ -32,3 +32,4 @@ Regional Affinity (Pantorka)			NAMEISPI:YES	VISIBLE:NO		QUALIFY:FEAT|Luck of Her
 Regional Affinity (Roton)			NAMEISPI:YES	VISIBLE:NO		QUALIFY:FEAT|Discipline|Strong Soul|Thunder Twin	BONUS:SKILLRANK|Knowledge (Roton)|2				CSKILL:Knowledge (Roton)			AUTO:LANG|Dwarech		LANGBONUS:Gilmeen,Goblin,Orc							REGION:Roton
 Regional Affinity (Scrogothia)		NAMEISPI:YES	VISIBLE:NO		QUALIFY:FEAT|Blooded|Militia					BONUS:SKILLRANK|Knowledge (Scrogothia)|2			CSKILL:Knowledge (Scrogothia)			AUTO:LANG|Scrogothian	LANGBONUS:Azgarothian,Haknaaran,Orc						REGION:Scrogothia
 Regional Affinity (Zhar)			NAMEISPI:YES	VISIBLE:NO		QUALIFY:FEAT|Discipline|Mercantile Background		BONUS:SKILLRANK|Knowledge (Zhar)|2				CSKILL:Knowledge (Zhar)				AUTO:LANG|Zharan		LANGBONUS:Barbic,Ling-Har,Miinow,Uuharic					REGION:Zhar
+

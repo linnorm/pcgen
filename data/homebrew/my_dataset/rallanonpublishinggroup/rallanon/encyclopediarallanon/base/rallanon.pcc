@@ -47,7 +47,9 @@ OPTION:pcgen.options.showD20InfoAtStart=false
 OPTION:pcgen.options.rollMethod=9
 
 
+ABILITYCATEGORY:rallanon_abilitycategories.lst
 ABILITY:rallanon_abilities_class.lst
+ABILITY:rallanon_abilities.lst
 ABILITY:rallanon_feats.lst
 ABILITY:rallanon_regions.lst
 BIOSET:rallanon_biosettings.lst
