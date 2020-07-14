@@ -11,3 +11,15 @@ Outfit (Courtesan's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable			CO
 
 Potion Belt (Masterwork)	TYPE:Goods.General.Masterwork.Container	CONTAINS:5|Potion=10|Vial=10				COST:60	WT:1		SOURCELONG:Forgotten Realms Campaign Setting	SOURCESHORT:frcs		SOURCEPAGE:p.96
 Scroll Organizer			TYPE:Goods.Tools.Container			CONTAINS:7.5|Scroll=15|Documents=15|Paper=15	COST:5	WT:0.5	SOURCELONG:Forgotten Realms Campaign Setting	SOURCESHORT:frcs		SOURCEPAGE:p.96
+
+SOURCELONG:Mongoose Publishing - Collector's Series - Quintessential Wizard	SOURCESHORT:QuintWizard	SOURCEWEB:http://mongoosepublishing.com
+
+# Equipment Name				Type							Number of Pages	Page Usage				Cost		Weight	Source Page
+Spellbook (Demonic Amulet)		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:500	WT:3		SOURCEPAGE:pg. 62
+Spellbook (Elemental Amulet)		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:500	WT:3		SOURCEPAGE:pg. 62
+Spellbook (Puzzle Strips)		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:25	WT:3		SOURCEPAGE:pg. 62
+Spellbook (Rune Stone)			TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:1000	WT:3		SOURCEPAGE:pg. 62
+Spellbook (Spell String)		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:25	WT:3		SOURCEPAGE:pg. 62
+Spellbook (Tablet (Clay))		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:10	WT:3		SOURCEPAGE:pg. 62
+Spellbook (Tablet (Stone))		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:5	WT:3		SOURCEPAGE:pg. 62
+Spellbook (Wooden Slats	)		TYPE:Spellbook.Goods.Tools.Resizable	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:25	WT:3		SOURCEPAGE:pg. 62

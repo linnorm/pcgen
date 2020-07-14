@@ -3,40 +3,40 @@ SOURCELONG:Rallanon Publishing Group - The Encyclopedia Rallanon Base	SOURCESHOR
 
 ###Block: Human Ethnicities
 # Ability Name	Product Identity?	Category of Ability	Type				Visible		Template						Source Page
-#Azlanti		NAMEISPI:YES	CATEGORY:Regional	TYPE:HumanEthnicity	VISIBLE:DISPLAY	TEMPLATE:Human Ethnicity (Azlanti)		SOURCEPAGE:p.30
+#Azlanti		NAMEISPI:YES	CATEGORY:Regional	TYPE:HumanEthnicity	VISIBLE:DISPLAY	TEMPLATE:Human Ethnicity (Azlanti)		SOURCEPAGE:Nonep.30
 
 
 ###Block: Regional Affinities
 # Ability Name		Product Identity?	Category of Ability	Type		Visible		Description						Template								Source Page
-Algoria			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Algoria)			SOURCEPAGE:
-Ancient Kish		NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Ancient Kish)			SOURCEPAGE:
-Ardos				NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Ardos)			SOURCEPAGE:
-Athega			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Athega)			SOURCEPAGE:
-Bellagon			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Bellagon)			SOURCEPAGE:
-Bencadrad Alliance	NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Bencadrad Alliance)			SOURCEPAGE:
-Bloodlands			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Bloodlands)			SOURCEPAGE:
-Bonadan			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Bonadan)			SOURCEPAGE:
-Candon			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Candon)			SOURCEPAGE:
-Dentros			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Dentros)			SOURCEPAGE:
-Durinar			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Durinar)			SOURCEPAGE:
-Enchanted Wood		NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Enchanted Wood)			SOURCEPAGE:
-Grass Sea			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Grass Sea)			SOURCEPAGE:
-Haknaar			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Haknaar)			SOURCEPAGE:
-Kharsiris			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Kharsiris)			SOURCEPAGE:
-Kish				NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Kish)			SOURCEPAGE:
-Kuraek			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Kuraek)			SOURCEPAGE:
-Landorn			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Landorn)			SOURCEPAGE:
-Li-Ming			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Li-Ming)			SOURCEPAGE:
-Mysidia			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Mysidia)			SOURCEPAGE:
-Nyarsk			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Nyarsk)			SOURCEPAGE:
-Pantorka			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Pantorka)			SOURCEPAGE:
-Roton				NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Roton)			SOURCEPAGE:
-Scrogothia			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Scrogothia)			SOURCEPAGE:
-Zhar				NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Zhar)			SOURCEPAGE:
+Algoria			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Algoria)			SOURCEPAGE:Ivan A. Finzen IV
+Ancient Kish		NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Ancient Kish)			SOURCEPAGE:Ivan A. Finzen IV
+Ardos				NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Ardos)			SOURCEPAGE:Ivan A. Finzen IV
+Athega			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Athega)			SOURCEPAGE:Ivan A. Finzen IV
+Bellagon			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Bellagon)			SOURCEPAGE:Ivan A. Finzen IV
+Bencadrad Alliance	NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Bencadrad Alliance)			SOURCEPAGE:Ivan A. Finzen IV
+Bloodlands			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Bloodlands)			SOURCEPAGE:Ivan A. Finzen IV
+Bonadan			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Bonadan)			SOURCEPAGE:Ivan A. Finzen IV
+Candon			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Candon)			SOURCEPAGE:Ivan A. Finzen IV
+Dentros			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Dentros)			SOURCEPAGE:Ivan A. Finzen IV
+Durinar			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Durinar)			SOURCEPAGE:Ivan A. Finzen IV
+Enchanted Wood		NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Enchanted Wood)			SOURCEPAGE:Ivan A. Finzen IV
+Grass Sea			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Grass Sea)			SOURCEPAGE:Ivan A. Finzen IV
+Haknaar			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Haknaar)			SOURCEPAGE:Ivan A. Finzen IV
+Kharsiris			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Kharsiris)			SOURCEPAGE:Ivan A. Finzen IV
+Kish				NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Kish)			SOURCEPAGE:Ivan A. Finzen IV
+Kuraek			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Kuraek)			SOURCEPAGE:Ivan A. Finzen IV
+Landorn			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Landorn)			SOURCEPAGE:Ivan A. Finzen IV
+Li-Ming			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Li-Ming)			SOURCEPAGE:Ivan A. Finzen IV
+Mysidia			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Mysidia)			SOURCEPAGE:Ivan A. Finzen IV
+Nyarsk			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Nyarsk)			SOURCEPAGE:Ivan A. Finzen IV
+Pantorka			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Pantorka)			SOURCEPAGE:Ivan A. Finzen IV
+Roton				NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Roton)			SOURCEPAGE:Ivan A. Finzen IV
+Scrogothia			NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Scrogothia)			SOURCEPAGE:Ivan A. Finzen IV
+Zhar				NAMEISPI:YES	CATEGORY:Regional	TYPE:Region	VISIBLE:DISPLAY	DESC:	TEMPLATE:Regional Affinity (Zhar)			SOURCEPAGE:Ivan A. Finzen IV
 
 
 ###Block: Regional Traits
 # Absalom
 # Ability Name				Unique Key							Product Identity?	Category of Ability		Type					Required Ability					Multiple Requirements																													Required Region				Description																																																														Stackable?	Multiple?	Choose													Caster level						Combat bonus					Save bonus					Bonus to Situation								Bonus to skill													Class Skill				Source Page		Aspects
-# Absalom Hotspur				KEY:Trait ~ Absalom Hotspur				NAMEISPI:YES	CATEGORY:Special Ability	TYPE:Trait.RegionalTrait								PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Absalom Hotspur],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait]				PREREGION:Absalom				DESC:You grew up on the streets of Absalom and have worked as both guide and bodyguard for visitors to the city. You gain a +1 trait bonus on Initiative checks and Knowledge (local) checks.																																																										BONUS:COMBAT|INITIATIVE|1|TYPE=Trait																		BONUS:SKILL|Knowledge (Local)|1|TYPE=Trait													SOURCEPAGE:p.4
-# Cosmopolitan				KEY:Trait ~ Cosmopolitan							CATEGORY:Special Ability	TYPE:Trait.RegionalTrait								PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Cosmopolitan],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait]					PREREGION:Absalom				DESC:Your exposure to the huge variety of cultures across the Inner Sea has given you an ear for languages. You gain a +1 trait bonus on Linguistics checks, and Linguistics is always a class skill for you.																																																																															BONUS:SKILL|Linguistics|1|TYPE=Trait									CSKILL:Linguistics		SOURCEPAGE:p.4
+# Absalom Hotspur				KEY:Trait ~ Absalom Hotspur				NAMEISPI:YES	CATEGORY:Special Ability	TYPE:Trait.RegionalTrait								PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Absalom Hotspur],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait]				PREREGION:Absalom				DESC:You grew up on the streets of Absalom and have worked as both guide and bodyguard for visitors to the city. You gain a +1 trait bonus on Initiative checks and Knowledge (local) checks.																																																										BONUS:COMBAT|INITIATIVE|1|TYPE=Trait																		BONUS:SKILL|Knowledge (Local)|1|TYPE=Trait													SOURCEPAGE:Nonep.4
+# Cosmopolitan				KEY:Trait ~ Cosmopolitan							CATEGORY:Special Ability	TYPE:Trait.RegionalTrait								PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Cosmopolitan],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait]					PREREGION:Absalom				DESC:Your exposure to the huge variety of cultures across the Inner Sea has given you an ear for languages. You gain a +1 trait bonus on Linguistics checks, and Linguistics is always a class skill for you.																																																																															BONUS:SKILL|Linguistics|1|TYPE=Trait									CSKILL:Linguistics		SOURCEPAGE:Nonep.4

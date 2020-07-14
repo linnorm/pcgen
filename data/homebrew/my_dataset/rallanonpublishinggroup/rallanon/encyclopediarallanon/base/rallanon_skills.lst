@@ -23,7 +23,7 @@ Craft (Poisonmaking)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO		
 Craft (Scrimshaw)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art																			SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Craft (Silkmaking)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Craft (Tailoring)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft																				SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
-Craft (Tattooing)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Tattoo)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art.Agariim																		SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Craft (Weaving)					KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Craft.Art																			SOURCEPAGE:Chap.4, Skills		TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Knowledge (Algoria)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge.Region.Standard.Base.KnowledgeLocal	SERVESAS:SKILL|Knowledge (Local)																			SOURCEPAGE:Chap.4, Skills
 Knowledge (Anarch Lore)				KEYSTAT:INT	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO																																		TYPE:Intelligence.Knowledge																			SOURCEPAGE:Chap.4, Skills
@@ -107,7 +107,7 @@ Use Ley Line					KEYSTAT:CHA	USEUNTRAINED:NO	ACHECK:NONE			EXCLUSIVE:NO	CLASSES:
 Craft (Painting).MOD																																																	TYPE:Intelligence.Craft.Art.Agariim
 Craft (Pottery).MOD																																																	TYPE:Intelligence.Craft.Art
 Craft (Sculpting).MOD																																																	TYPE:Intelligence.Craft.Art
-Craft (Woodworking).MOD																																																	TYPE:Intelligence.Craft.Art
+# Craft (Woodworking).MOD																																																	TYPE:Intelligence.Craft.Art
 # Knowledge (Local).MOD																																																	TYPE:.CLEAR	TYPE:Disallowed		PRECLASS:1,Disallowed
 
 
