@@ -1,6 +1,7 @@
 # CVS $Revision$ $Author$ -- Fri Apr 20 01:54:50 2007 -- reformated by prettylst.pl v1.37 (build 2312)
 CAMPAIGN:Miniatures Handbook
-GAMEMODE:35e|Bahamut35e
+#GAMEMODE:35e|Bahamut35e
+GAMEMODE:DoNotUse
 TYPE:Wizards of the Coast.Supplement
 STATUS:ALPHA
 
