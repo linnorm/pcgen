@@ -50,5 +50,9 @@ CLASS:Artificer	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=In
 20	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5
 
 
+<<<<<<< HEAD
 CLASS:NoClass	HD:1	TYPE:Monster
+=======
+CLASS:NoClass	HD:1	TYPE:None
+>>>>>>> upstream/6.08
 1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS|HITDIE

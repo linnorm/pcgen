@@ -55,7 +55,11 @@ protection from poison.MOD		CLASSES:Artificer=2
 # pyrotechnics.MOD		CLASSES:Artificer=2
 rope trick.MOD		CLASSES:Artificer=2
 see invisibility.MOD		CLASSES:Artificer=2
+<<<<<<< HEAD
 #skywrite.MOD		CLASSES:Artificer=2
+=======
+skywrite.MOD		CLASSES:Artificer=2
+>>>>>>> upstream/6.08
 spider climb.MOD		CLASSES:Artificer=2
 web.MOD		CLASSES:Artificer=2
 #3RD LEVEL
