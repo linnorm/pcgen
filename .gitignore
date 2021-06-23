@@ -40,3 +40,6 @@ pcgen-batch-convert.jar
 
 .idea
 
+*.un~
+*.pcc~
+*.lst~
