@@ -711,7 +711,7 @@ CLASS:Order of the Bow Initiate	STARTSKILLPTS:2	CSKILL:Climb|TYPE=Craft|Knowledg
 6	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Sharp-Shooting
 10	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Extended Precision
 ###Block:
-4	ABILITY:Special Ability|AUTOMATIC|Greater Weapon Focus Qualify
+4	BONUS:VAR|GreatWeapFocusQualify|1
 ###Block:
 1	BONUS:VAR|OrderBowInitiateRangedPrecisionLVL|CL
 ###Block:
