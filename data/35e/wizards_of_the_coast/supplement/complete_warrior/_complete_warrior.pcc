@@ -3,11 +3,11 @@ CAMPAIGN:Complete Warrior
 KEY:Complete Warrior
 GAMEMODE:35e|Bahamut35e
 
-PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
 GENRE:Fantasy
 BOOKTYPE:Supplement
 SETTING:Fantasy
-TYPE:Wizards of the Coast.Supplement
+TYPE:Wizards of the Coast.Supplement.Supplement
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
 STATUS:BETA
 PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
@@ -17,12 +17,12 @@ SOURCESHORT:CW
 SOURCEDATE:2003-12
 RANK:200312
 ISOGL:NO
-
-INFOTEXT:version (0.2) - Complete Warrior Supplement
 # COVER should be cover_gameMode_pub_book.file
 COVER:../../../../_artwork/cover_35e_wotc_cw.jpg
 # LOGO should be logo_pub.file
 LOGO:../../../../_artwork/logo_wotc.png
+
+INFOTEXT:version (0.2) - Complete Warrior Supplement
 
 # Basics
 ABILITY:cw_abilities.lst
