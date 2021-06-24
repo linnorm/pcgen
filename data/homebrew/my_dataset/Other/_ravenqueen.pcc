@@ -1,7 +1,7 @@
 CAMPAIGN:Raven Queen
 GAMEMODE:35e
 TYPE:Other
-RANK:9
+RANK:202106
 
 
 ABILITY:@/homebrew/my_dataset/swordandsorcery/scarredlands/relicsrituals/relicsrituals_abilities.lst|(INCLUDE:CATEGORY=Special Ability,MissionaryDomainGrantedPower)

@@ -1,0 +1,7 @@
+SOURCELONG:Extra Classes	SOURCESHORT:EC
+
+
+# Block: Darkwood Stalker (Dragon)
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEDATE:2003-12
+# Class Name			Required Language
+CLASS:Darkwood Stalker.MOD	PRE:.CLEAR	PREABILITY:2,CATEGORY=FEAT,Dodge,Track	PRELANG:1,Draconic	PREMULT:1,[PRERACE:1,Elf%,Half-Elf],[PRERACE:1,RACESUBTYPE=Elf]	PRESKILL:5,Hide=5,Listen=5,Move Silently=5,Spot=5,Survival=5	PRETOTALAB:5

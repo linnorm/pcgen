@@ -1,9 +1,9 @@
 CAMPAIGN:Extra Classes
 GAMEMODE:35e|Bahamut35e
 TYPE:Other.Supplement
-RANK:9
+RANK:202106
 
 # Basics
 ABILITY:extra_classes_abilities.lst
-ABILITYCATEGORY:extra_classes_abilitycategories.lst
+#ABILITYCATEGORY:extra_classes_abilitycategories.lst
 CLASS:extra_classes_classes.lst
