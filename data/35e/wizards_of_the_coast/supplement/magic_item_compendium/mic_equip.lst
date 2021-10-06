@@ -893,64 +893,64 @@ Helm of Wounding Sight			TYPE:BodySlot_Head.Headgear.Armor of the Watching Maste
 Mask of Mastery				TYPE:BodySlot_Face.Facewear.Armor of the Watching Master	COST:3500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Armor of the Watching Master	BONUS:VAR|ArmorOfTheWatchingMasterCount|1		SPROP:(8th) +5 on Intimidate checks; 1/day command
 
 # Array of the Manticore
-Bracers of aerial combat		TYPE:BodySlot_Arms.Bracer.Array of the Manticore		COST:5000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(9th) +1 attack while you or foe is airborne
-Gloves of endless javelins		TYPE:BodySlot_Hands.Glove.Array of the Manticore		COST:7000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(11th) Create temporary +1 javelin
-Medallion of aerial defense		TYPE:BodySlot_Throat.Amulet.Array of the Manticore		COST:8000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(11th) DR 10/magic against ranged attacks if you or foe is airborne
-Helm of the hunter			TYPE:BodySlot_Head.Headgear.Array of the Manticore		COST:9000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(12th) +5 Spot; Far Shot; 1/day low-light vision and darkvision for 4 hours
-Winged vest					TYPE:BodySlot_Torso.Shirt.Array of the Manticore		COST:12000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(13th) 5/day fly 60 ft. (good) for 5 rounds
+Bracers of Aerial Combat		TYPE:BodySlot_Arms.Bracer.Array of the Manticore		COST:5000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(9th) +1 attack while you or foe is airborne
+Gloves of Endless Javelins		TYPE:BodySlot_Hands.Glove.Array of the Manticore		COST:7000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(11th) Create temporary +1 javelin
+Medallion of Aerial Defense		TYPE:BodySlot_Throat.Amulet.Array of the Manticore		COST:8000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(11th) DR 10/magic against ranged attacks if you or foe is airborne
+Helm of the Hunter			TYPE:BodySlot_Head.Headgear.Array of the Manticore		COST:9000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(12th) +5 Spot; Far Shot; 1/day low-light vision and darkvision for 4 hours
+Winged Vest					TYPE:BodySlot_Torso.Shirt.Array of the Manticore		COST:12000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Array of the Manticore		BONUS:VAR|ArrayoftheManticoreCount|1		SPROP:(13th) 5/day fly 60 ft. (good) for 5 rounds
 
 # Five Virtues
-Armband of confrontation		TYPE:BodySlot_Arms.Bracer.Five Virtues				COST:1400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(4th) Fighting challenge lasts 3 extra rounds
-Standard of valor				TYPE:BodySlot_Shoulders.Cape.Five Virtues				COST:1400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(5th) Grant ally extra save against fear effect
-Medal of steadfast honor		TYPE:BodySlot_Throat.Amulet.Five Virtues				COST:1500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(5th) Immediately stand if knocked prone
-Crystal of alacrity			TYPE:BodySlot_armorcrystal.Five Virtues				COST:3500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(8th) +5 ft. speed crystal)
-Shield of vigor				TYPE:BodySlot_held.Shield.Five Virtues				COST:6170	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(10th) +1 heavy shield grants fast healing 5 for 3 rounds
+Armband of Confrontation		TYPE:BodySlot_Arms.Bracer.Five Virtues				COST:1400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(4th) Fighting challenge lasts 3 extra rounds
+Standard of Valor				TYPE:BodySlot_Shoulders.Cape.Five Virtues				COST:1400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(5th) Grant ally extra save against fear effect
+Medal of Steadfast Honor		TYPE:BodySlot_Throat.Amulet.Five Virtues				COST:1500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(5th) Immediately stand if knocked prone
+Crystal of Alacrity			TYPE:BodySlot_armorcrystal.Five Virtues				COST:3500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(8th) +5 ft. speed crystal)
+Shield of Vigor				TYPE:BodySlot_held.Shield.Five Virtues				COST:6170	ABILITY:Special Ability|AUTOMATIC|Equip ~ Five Virtues			BONUS:VAR|FiveVirtuesCount|1				SPROP:(10th) +1 heavy shield grants fast healing 5 for 3 rounds
 
 # Fleet Warrior's Array
-Bracers of blinding strike		TYPE:BodySlot_Arms.Bracer.Fleet Warrior's Array			COST:5000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Fleet Warrior's Array		BONUS:VAR|FleetWarriorsArrayCount|1			SPROP:(9th) +2 initiative; 3/day extra attack with full attack
-Sandals of the light step		TYPE:BodySlot_Feet.Boot.Fleet Warrior's Array			COST:9000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Fleet Warrior's Array		BONUS:VAR|FleetWarriorsArrayCount|1			SPROP:(12th) +10 speed; pass without trace; not slowed by difficult terrain; 1/day water walk
-Vest of free movement			TYPE:BodySlot_Torso.Shirt.Fleet Warrior's Array			COST:12000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Fleet Warrior's Array		BONUS:VAR|FleetWarriorsArrayCount|1			SPROP:(13th) 3/day freedom of movement for 3 rounds
+Bracers of Blinding Strike		TYPE:BodySlot_Arms.Bracer.Fleet Warrior's Array			COST:5000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Fleet Warrior's Array		BONUS:VAR|FleetWarriorsArrayCount|1			SPROP:(9th) +2 initiative; 3/day extra attack with full attack
+Sandals of the Light Step		TYPE:BodySlot_Feet.Boot.Fleet Warrior's Array			COST:9000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Fleet Warrior's Array		BONUS:VAR|FleetWarriorsArrayCount|1			SPROP:(12th) +10 speed; pass without trace; not slowed by difficult terrain; 1/day water walk
+Vest of Free Movement			TYPE:BodySlot_Torso.Shirt.Fleet Warrior's Array			COST:12000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Fleet Warrior's Array		BONUS:VAR|FleetWarriorsArrayCount|1			SPROP:(13th) 3/day freedom of movement for 3 rounds
 
 # Garb of the Hunting Cat
-Mask of the tiger				TYPE:BodySlot_Face.Facewear.Garb of the Hunting Cat		COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Garb of the Hunting Cat		BONUS:VAR|GarbOfTheHuntingCatCount|1		SPROP:(8th) Gain Track (or +5 Survival); low-light vision
-Claw gloves					TYPE:BodySlot_Hands.Glove.Garb of the Hunting Cat		COST:5604	ABILITY:Special Ability|AUTOMATIC|Equip ~ Garb of the Hunting Cat		BONUS:VAR|GarbOfTheHuntingCatCount|1		SPROP:(10th) +1 punching daggers; two claw attacks on charge or Spring Attack
-Mantle of the predator			TYPE:BodySlot_Shoulders.Cape.Garb of the Hunting Cat		COST:8000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Garb of the Hunting Cat		BONUS:VAR|GarbOfTheHuntingCatCount|1		SPROP:(11th) +5 on Hide and Move Silently; +1d6 against foes denied Dex bonus to AC
+Mask of the Tiger				TYPE:BodySlot_Face.Facewear.Garb of the Hunting Cat		COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Garb of the Hunting Cat		BONUS:VAR|GarbOfTheHuntingCatCount|1		SPROP:(8th) Gain Track (or +5 Survival); low-light vision
+Claw Gloves					TYPE:BodySlot_Hands.Glove.Garb of the Hunting Cat		COST:5604	ABILITY:Special Ability|AUTOMATIC|Equip ~ Garb of the Hunting Cat		BONUS:VAR|GarbOfTheHuntingCatCount|1		SPROP:(10th) +1 punching daggers; two claw attacks on charge or Spring Attack
+Mantle of the Predator			TYPE:BodySlot_Shoulders.Cape.Garb of the Hunting Cat		COST:8000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Garb of the Hunting Cat		BONUS:VAR|GarbOfTheHuntingCatCount|1		SPROP:(11th) +5 on Hide and Move Silently; +1d6 against foes denied Dex bonus to AC
 
 # Gharyn's Monastic Array
-Cobra straps				TYPE:BodySlot_Feet.Boot.Gharyn's Monastic Array			COST:1400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Gharyn's Monastic Array		BONUS:VAR|GharynsMonasticArrayCount|1		SPROP:(5th) 1/day move 5 feet after charge
-Panther mask				TYPE:BodySlot_Face.Facewear.Gharyn's Monastic Array		COST:2700	ABILITY:Special Ability|AUTOMATIC|Equip ~ Gharyn's Monastic Array		BONUS:VAR|GharynsMonasticArrayCount|1		SPROP:(7th) Run; +5-ft. bonus to speed in light or no armor
+Cobra Straps				TYPE:BodySlot_Feet.Boot.Gharyn's Monastic Array			COST:1400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Gharyn's Monastic Array		BONUS:VAR|GharynsMonasticArrayCount|1		SPROP:(5th) 1/day move 5 feet after charge
+Panther Mask				TYPE:BodySlot_Face.Facewear.Gharyn's Monastic Array		COST:2700	ABILITY:Special Ability|AUTOMATIC|Equip ~ Gharyn's Monastic Array		BONUS:VAR|GharynsMonasticArrayCount|1		SPROP:(7th) Run; +5-ft. bonus to speed in light or no armor
 # Grab Kama weapon stats
-Kama.COPY=Scorpion kama
-Scorpion kama.MOD				TYPE:BodySlot_held.Weapon.Melee.Gharyn's Monastic Array	COST:6302	ABILITY:Special Ability|AUTOMATIC|Equip ~ Gharyn's Monastic Array		BONUS:VAR|GharynsMonasticArrayCount|1		SPROP:(10th) +1 kama deals unarmed strike damage
+Kama.COPY=Scorpion Kama
+Scorpion Kama.MOD				TYPE:BodySlot_held.Weapon.Melee.Gharyn's Monastic Array	COST:6302	ABILITY:Special Ability|AUTOMATIC|Equip ~ Gharyn's Monastic Array		BONUS:VAR|GharynsMonasticArrayCount|1		SPROP:(10th) +1 kama deals unarmed strike damage
 
 # Instruments of the Blood Gift
-Bands of blood rage			TYPE:BodySlot_Arms.Bracer.Instruments of the Blood Gift	COST:2600	ABILITY:Special Ability|AUTOMATIC|Equip ~ Instruments of the Blood Gift	BONUS:VAR|InstrumentsOfTheBloodGiftCount|1	SPROP:(7th) 3/day grant blood rage
-Barb of retribution			TYPE:BodySlot_Hands.Glove.Instruments of the Blood Gift	COST:4500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Instruments of the Blood Gift	BONUS:VAR|InstrumentsOfTheBloodGiftCount|1	SPROP:(9th) 1/day force enemy to reroll save with penalty
-Blood claw choker				TYPE:BodySlot_Throat.Amulet.Instruments of the Blood Gift	COST:12000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Instruments of the Blood Gift	BONUS:VAR|InstrumentsOfTheBloodGiftCount|1	SPROP:(13th) +2 Con; 2/day regain sorcerer spell slot
+Bands of Blood Rage			TYPE:BodySlot_Arms.Bracer.Instruments of the Blood Gift	COST:2600	ABILITY:Special Ability|AUTOMATIC|Equip ~ Instruments of the Blood Gift	BONUS:VAR|InstrumentsOfTheBloodGiftCount|1	SPROP:(7th) 3/day grant blood rage
+Barb of Retribution			TYPE:BodySlot_Hands.Glove.Instruments of the Blood Gift	COST:4500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Instruments of the Blood Gift	BONUS:VAR|InstrumentsOfTheBloodGiftCount|1	SPROP:(9th) 1/day force enemy to reroll save with penalty
+Blood Claw Choker				TYPE:BodySlot_Throat.Amulet.Instruments of the Blood Gift	COST:12000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Instruments of the Blood Gift	BONUS:VAR|InstrumentsOfTheBloodGiftCount|1	SPROP:(13th) +2 Con; 2/day regain sorcerer spell slot
 
 # Raiment of the Four
-Gloves of the starry sky		TYPE:BodySlot_Hands.Glove.Raiment of the Four			COST:1100	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Four		BONUS:VAR|RaimentOfTheFourCount|1			SPROP:(4th) Emit light; 3/day spontaneously cast magic missile
-Goggles of the golden sun		TYPE:BodySlot_Face.Facewear.Raiment of the Four			COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Four		BONUS:VAR|RaimentOfTheFourCount|1			SPROP:(8th) Immune to blindness, dazzling; 3/day spontaneously cast fireball
-Periapt of the sullen sea		TYPE:BodySlot_Throat.Amulet.Raiment of the Four			COST:6000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Four		BONUS:VAR|RaimentOfTheFourCount|1			SPROP:(10th) Hold breath 12 hours; 2/day spontaneously cast freedom of movement
-Belt of the wide earth			TYPE:BodySlot_Waist.Belt.Raiment of the Four			COST:8000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Four		BONUS:VAR|RaimentOfTheFourCount|1			SPROP:(11th) Carrying capacity doubled; 2/day spontaneously cast teleport
+Gloves of the Starry Sky		TYPE:BodySlot_Hands.Glove.Raiment of the Four			COST:1100	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Four		BONUS:VAR|RaimentOfTheFourCount|1			SPROP:(4th) Emit light; 3/day spontaneously cast magic missile
+Goggles of the Golden Sun		TYPE:BodySlot_Face.Facewear.Raiment of the Four			COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Four		BONUS:VAR|RaimentOfTheFourCount|1			SPROP:(8th) Immune to blindness, dazzling; 3/day spontaneously cast fireball
+Periapt of the Sullen Sea		TYPE:BodySlot_Throat.Amulet.Raiment of the Four			COST:6000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Four		BONUS:VAR|RaimentOfTheFourCount|1			SPROP:(10th) Hold breath 12 hours; 2/day spontaneously cast freedom of movement
+Belt of the Wide Earth			TYPE:BodySlot_Waist.Belt.Raiment of the Four			COST:8000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Four		BONUS:VAR|RaimentOfTheFourCount|1			SPROP:(11th) Carrying capacity doubled; 2/day spontaneously cast teleport
 
 # Raiment of the Stormwalker
-Stormfire ring				TYPE:BodySlot_Ring.Ring.Raiment of the Stormwalker		COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Stormwalker	BONUS:VAR|RaimentOfTheStormwalkerCount|1		SPROP:(8th) 5/day faerie fire deals 1d6 damage/round for 5 rounds
-Bracers of lightning			TYPE:BodySlot_Arms.Bracer.Raiment of the Stormwalker		COST:11000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Stormwalker	BONUS:VAR|RaimentOfTheStormwalkerCount|1		SPROP:(13th) Attacks deal +1d6 electricity damage
-Robe of thunder				TYPE:BodySlot_Body.Robe.Raiment of the Stormwalker		COST:38000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Stormwalker	BONUS:VAR|RaimentOfTheStormwalkerCount|1		SPROP:(17th) Take half or no damage from sonic attacks; deal 2d6 sonic damage to attackers
-Cloudwalker anklets			TYPE:BodySlot_Feet.Boot.Raiment of the Stormwalker		COST:50000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Stormwalker	BONUS:VAR|RaimentOfTheStormwalkerCount|1		SPROP:(18th) Continuous air walk
+Stormfire Ring				TYPE:BodySlot_Ring.Ring.Raiment of the Stormwalker		COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Stormwalker	BONUS:VAR|RaimentOfTheStormwalkerCount|1		SPROP:(8th) 5/day faerie fire deals 1d6 damage/round for 5 rounds
+Bracers of Lightning			TYPE:BodySlot_Arms.Bracer.Raiment of the Stormwalker		COST:11000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Stormwalker	BONUS:VAR|RaimentOfTheStormwalkerCount|1		SPROP:(13th) Attacks deal +1d6 electricity damage
+Robe of Thunder				TYPE:BodySlot_Body.Robe.Raiment of the Stormwalker		COST:38000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Stormwalker	BONUS:VAR|RaimentOfTheStormwalkerCount|1		SPROP:(17th) Take half or no damage from sonic attacks; deal 2d6 sonic damage to attackers
+Cloudwalker Anklets			TYPE:BodySlot_Feet.Boot.Raiment of the Stormwalker		COST:50000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Raiment of the Stormwalker	BONUS:VAR|RaimentOfTheStormwalkerCount|1		SPROP:(18th) Continuous air walk
 
 # Regalia of the Hero
 Badge of Valor				TYPE:BodySlot_Throat.Amulet.Regalia of the Hero			COST:1200	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Hero		BONUS:VAR|RegaliaOfTheHeroCount|1			SPROP:(5th) 3/day allies gain +2 on saves against charm/fear, or increase inspire courage bonus by 1
-Helm of tactics				TYPE:BodySlot_Head.Headgear.Regalia of the Hero			COST:2000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Hero		BONUS:VAR|RegaliaOfTheHeroCount|1			SPROP:(6th) 3/day allies deal +2 damage against flanked foes, or increase effect of minor aura by 1
-Horn of resilience			TYPE:BodySlot_held.Regalia of the Hero				COST:5000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Hero		BONUS:VAR|RegaliaOfTheHeroCount|1			SPROP:(9th) 2/day allies gain DR 5/-, or increase effect of major aura by 1, or grant 50 temporary hp
+Helm of Tactics				TYPE:BodySlot_Head.Headgear.Regalia of the Hero			COST:2000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Hero		BONUS:VAR|RegaliaOfTheHeroCount|1			SPROP:(6th) 3/day allies deal +2 damage against flanked foes, or increase effect of minor aura by 1
+Horn of Resilience			TYPE:BodySlot_held.Regalia of the Hero				COST:5000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Hero		BONUS:VAR|RegaliaOfTheHeroCount|1			SPROP:(9th) 2/day allies gain DR 5/-, or increase effect of major aura by 1, or grant 50 temporary hp
 
 # Regalia of the Phoenix
-Raptor's mask				TYPE:BodySlot_Face.Facewear.Regalia of the Phoenix		COST:3500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Phoenix		BONUS:VAR|RegaliaOfThePhoenixCount|1		SPROP:(8th) +5 on Spot checks; immunity to blindness and dazzling effects
-Crown of flames				TYPE:BodySlot_Head.Headgear.Regalia of the Phoenix		COST:8500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Phoenix		BONUS:VAR|RegaliaOfThePhoenixCount|1		BONUS:STAT|CHA|2	SPROP:(12th) +2 Charisma; 1/day fire shield
+Raptor's Mask				TYPE:BodySlot_Face.Facewear.Regalia of the Phoenix		COST:3500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Phoenix		BONUS:VAR|RegaliaOfThePhoenixCount|1		SPROP:(8th) +5 on Spot checks; immunity to blindness and dazzling effects
+Crown of Flames				TYPE:BodySlot_Head.Headgear.Regalia of the Phoenix		COST:8500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Phoenix		BONUS:VAR|RegaliaOfThePhoenixCount|1		BONUS:STAT|CHA|2	SPROP:(12th) +2 Charisma; 1/day fire shield
 Mace (Light).COPY=Talon Scepter
 Talon Scepter.MOD				TYPE:BodySlot_held.Weapon.Melee.Regalia of the Phoenix	COST:10305	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Phoenix		BONUS:VAR|RegaliaOfThePhoenixCount|1		SPROP:(13th) +1 flaming light mace; swift ray of fire deals 1d6 damage
-Phoenix cloak				TYPE:BodySlot_Shoulders.Cape.Regalia of the Phoenix		COST:50000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Phoenix		BONUS:VAR|RegaliaOfThePhoenixCount|1		SPROP:(18th) Fly with perfect maneuverability at your land speed
+Phoenix Cloak				TYPE:BodySlot_Shoulders.Cape.Regalia of the Phoenix		COST:50000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Regalia of the Phoenix		BONUS:VAR|RegaliaOfThePhoenixCount|1		SPROP:(18th) Fly with perfect maneuverability at your land speed
 
 # Seven Veils
 Burning Veil				TYPE:BodySlot_Head.Headgear.Seven Veils				COST:1000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Seven Veils				BONUS:VAR|SevenVeilsCount|1				SPROP:(4th) Immunity to red prismatic effect; 3/day deal 1d6 fire damage to foe already damaged by your fire spell
@@ -962,14 +962,14 @@ Serpent Veil				TYPE:BodySlot_Neck.Amulet.Seven Veils				COST:16000	ABILITY:Spec
 Turquoise Veil				TYPE:BodySlot_Eyes.Eyegear.Seven Veils				COST:22000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Seven Veils				BONUS:VAR|SevenVeilsCount|1				SPROP:(15th) Immunity to blue prismatic effect; 1/day petrify creature already affected by your transmutation spell
 
 # Vestments of Divinity
-Ephod of authority			TYPE:BodySlot_Torso.Shirt.Vestments of Divinity			COST:800	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(3rd) Turn undead as if 1 level higher
-Lenses of revelation			TYPE:BodySlot_Face.Facewear.Vestments of Divinity		COST:1400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(5th) Reveal foe as undead or evil outsider
-Cord of favor				TYPE:BodySlot_Waist.Belt.Vestments of Divinity			COST:3000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(7th) +5 on Sense Motive; 3/day divine favor
+Ephod of Authority			TYPE:BodySlot_Torso.Shirt.Vestments of Divinity			COST:800	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(3rd) Turn undead as if 1 level higher
+Lenses of Revelation			TYPE:BodySlot_Face.Facewear.Vestments of Divinity		COST:1400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(5th) Reveal foe as undead or evil outsider
+Cord of Favor				TYPE:BodySlot_Waist.Belt.Vestments of Divinity			COST:3000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(7th) +5 on Sense Motive; 3/day divine favor
 Badge of Glory				TYPE:BodySlot_Throat.Amulet.Vestments of Divinity		COST:3400	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(8th) 2/day deal +1 damage/2 levels to evil creature
-Phylactery of virtue			TYPE:BodySlot_Head.Headgear.Vestments of Divinity		COST:6500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(10th) +2 on saves against energy drain, death effects, and negative energy effects; 2/day death ward
+Phylactery of Virtue			TYPE:BodySlot_Head.Headgear.Vestments of Divinity		COST:6500	ABILITY:Special Ability|AUTOMATIC|Equip ~ Vestments of Divinity		BONUS:VAR|VestmentsOfDivinityCount|1		SPROP:(10th) +2 on saves against energy drain, death effects, and negative energy effects; 2/day death ward
 
 # Wraith's Woe
-Choker of life protection		TYPE:BodySlot_Throat.Amulet.Wraith's Woe				COST:14000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(14th) +2 AC against undead; protection from 3 negative levels/day
-Gauntlets of ghost fighting		TYPE:BodySlot_Hands.Glove.Wraith's Woe				COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(8th) Ignore incorporeal miss chance; +1d6 melee damage against incorporeal creatures
-Shirt of wraith stalking		TYPE:BodySlot_Torso.Shirt.Wraith's Woe				COST:6000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(10th) Hide from undead
+Choker of Life Protection		TYPE:BodySlot_Throat.Amulet.Wraith's Woe				COST:14000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(14th) +2 AC against undead; protection from 3 negative levels/day
+Gauntlets of Ghost Fighting		TYPE:BodySlot_Hands.Glove.Wraith's Woe				COST:4000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(8th) Ignore incorporeal miss chance; +1d6 melee damage against incorporeal creatures
+Shirt of Wraith Stalking		TYPE:BodySlot_Torso.Shirt.Wraith's Woe				COST:6000	ABILITY:Special Ability|AUTOMATIC|Equip ~ Wraith's Woe			BONUS:VAR|WraithsWoeCount|1				SPROP:(10th) Hide from undead
 
