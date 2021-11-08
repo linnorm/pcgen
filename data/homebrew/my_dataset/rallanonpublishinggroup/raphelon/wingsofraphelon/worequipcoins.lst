@@ -10,7 +10,10 @@ SOURCELONG:Rallanon Publishing Group - The Wings of Raphelon	SOURCESHORT:WngRaph
 #Coin (Copper)	NAMEISPI:YES	TYPE:Coin			COST:.01	WT:.02	SOURCEPAGE:Chap.1, Economy
 
 # Equipment Name	Product Identity?	Type		Cost		Weight	Source Page
-Mark			NAMEISPI:YES	TYPE:Coin	COST:1	WT:0.1	SOURCEPAGE:Chap.1, Economy
-Crown			NAMEISPI:YES	TYPE:Coin	COST:0.1	WT:0.05	SOURCEPAGE:Chap.1, Economy
-Blindle		NAMEISPI:YES	TYPE:Coin	COST:0.02	WT:0.02	SOURCEPAGE:Chap.1, Economy
-Penny			NAMEISPI:YES	TYPE:Coin	COST:0.01	WT:0.02	SOURCEPAGE:Chap.1, Economy
+Mark			NAMEISPI:YES	TYPE:Coin	COST:10	WT:0.02	SOURCEPAGE:Chap.1, Economy	DESC:Coin made of gold
+Silver Mark		NAMEISPI:YES	TYPE:Coin	COST:10	WT:0.2	SOURCEPAGE:Chap.1, Economy	DESC:Trade bar made of silver
+Gold Crown		NAMEISPI:YES	TYPE:Coin	COST:1.25	WT:0.0025	SOURCEPAGE:Chap.1, Economy	DESC:Coin made of gold, a Mark cut down to an eighth
+Crown			NAMEISPI:YES	TYPE:Coin	COST:1	WT:0.02	SOURCEPAGE:Chap.1, Economy	DESC:Coin made of silver
+Half-Crown		NAMEISPI:YES	TYPE:Coin	COST:0.5	WT:0.01	SOURCEPAGE:Chap.1, Economy	DESC:Coin made of silver, a Crown cut in two
+Shilling		NAMEISPI:YES	TYPE:Coin	COST:0.1	WT:0.02	SOURCEPAGE:Chap.1, Economy	DESC:Coin made of copper/silver alloy
+Penny			NAMEISPI:YES	TYPE:Coin	COST:0.01	WT:0.02	SOURCEPAGE:Chap.1, Economy	DESC:Coin made of copper
