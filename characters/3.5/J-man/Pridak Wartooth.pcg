@@ -49,7 +49,7 @@ CATCHPHRASE:
 PORTRAIT:
 
 # Character Attributes
-STAT:STR|SCORE:19
+STAT:STR|SCORE:20
 STAT:DEX|SCORE:10
 STAT:CON|SCORE:12
 STAT:INT|SCORE:12
@@ -59,7 +59,7 @@ ALIGN:NG
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Cleric|LEVEL:6|SKILLPOOL:0
+CLASS:Cleric|LEVEL:9|SKILLPOOL:0
 CLASS:Ordained Champion|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|PRESTAT:DEX=-1|PRESTAT:INT=-1|PRESTAT:CHA=-2|SKILLSGAINED:8|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=2|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
@@ -72,16 +72,19 @@ CLASSABILITIESLEVEL:Ordained Champion=4|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:2
 CLASSABILITIESLEVEL:Ordained Champion=5|HITPOINTS:6|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric]|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=5|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=6|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=7|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=8|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=9|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:58001
+EXPERIENCE:102900
 EXPERIENCETABLE:Default
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
 TEMPLATESAPPLIED:[NAME:Half-Orc]
-TEMPLATESAPPLIED:[NAME:Favored Class ~ Barbarian]
 TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Half-Orc)]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ Barbarian]
 TEMPLATESAPPLIED:[NAME:RighteousMightDR]
 TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Cleric]
 TEMPLATESAPPLIED:[NAME:First Level ~ Cleric|CHOSENTEMPLATE:[NAME:Funds - PC]]
@@ -96,7 +99,7 @@ SKILL:Appraise|OUTPUTORDER:1|
 SKILL:Balance|OUTPUTORDER:2|
 SKILL:Bluff|OUTPUTORDER:3|
 SKILL:Climb|OUTPUTORDER:4|
-SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Cleric|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ordained Champion|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Cleric|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ordained Champion|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Control Shape|OUTPUTORDER:6|
 SKILL:Craft (Untrained)|OUTPUTORDER:7|
 SKILL:Diplomacy|OUTPUTORDER:8|
@@ -109,7 +112,7 @@ SKILL:Heal|OUTPUTORDER:14|
 SKILL:Hide|OUTPUTORDER:15|
 SKILL:Intimidate|OUTPUTORDER:16|
 SKILL:Jump|OUTPUTORDER:17|
-SKILL:Knowledge (Religion)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Cleric|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ordained Champion|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Cleric|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ordained Champion|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:19|
 SKILL:Listen|OUTPUTORDER:20|
 SKILL:Literacy|OUTPUTORDER:21|
@@ -137,6 +140,7 @@ USERPOOL:Church|POOLPOINTS:0.0
 ABILITY:Cleric Standing|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Normal Standing|TYPE:Cleric Standing.SpecialQuality|DESC:You are in good standing with your deity.
 USERPOOL:Cleric Standing|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Spell Power|TYPE:Divine|DESC:You can channel positive or negative energy to enhance your divine spellcasting ability.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Turning|APPLIEDTO:|TYPE:General|DESC:You can turn or rebuke creatures more often than normal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Glorious Weapons|TYPE:Divine|DESC:You can channel positive or negative energy to imbue your allies weapons with an alignment.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Good Devotion|APPLIEDTO:|TYPE:Domain|DESC:The power of good shields you and your allies.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Holy Warrior|TYPE:Reserve|DESC:Your zeal on the battlefield allows you to deal extra damage in combat.
@@ -166,27 +170,33 @@ WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longsp
 WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Unarmed Strike]
 
 # Character Equipment
-MONEY:937.3300000000000409272615797817707061767578125
-EQUIPNAME:Backpack|OUTPUTORDER:7|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bedroll|OUTPUTORDER:8|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Cleric's Vestments|OUTPUTORDER:9|COST:5|WT:6.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Dragonhide Plate +2 (Green)|OUTPUTORDER:5|COST:7300.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dragonhide Plate|DATA:NAME=Dragonhide Plate +2 (Green)$EQMOD=DRACO.PLUS2A$SPROP=This suit of full plate is made of dragonhide taken from the dragon lord Mouyld.]
-EQUIPNAME:Flint and Steel|OUTPUTORDER:16|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Holy Symbol, Silver|OUTPUTORDER:18|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Silver)|DATA:NAME=Holy Symbol, Silver$KEY=Holy Symbol (Silver)]
-EQUIPNAME:Holy Water|OUTPUTORDER:15|COST:25|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Water (Flask)|DATA:NAME=Holy Water$KEY=Holy Water (Flask)]
-EQUIPNAME:Lady Marrik Outfit|OUTPUTORDER:13|COST:1000|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Royal Outfit|DATA:NAME=Lady Marrik Outfit$SPROP=This is just the clothing, not the royal scepter, crown, ring, and other accoutrements. Royal clothes are ostentatious, with gems, gold, silk, and fur in abundance., (Royal Outfit)$COSTMOD=800]
-EQUIPNAME:Light Metal Shield +1|OUTPUTORDER:6|COST:1159.0|WT:6.0|QUANTITY:1.0|NOTE:Elven made, from dragon war period|CUSTOMIZATION:[BASEITEM:Shield (Light/Metal)|DATA:NAME=Light Metal Shield +1$KEY=Shield +1 (Light/Metal)$EQMOD=STEEL.PLUS1S]
-EQUIPNAME:Longsword +1|OUTPUTORDER:1|COST:2315.0|WT:4.0|QUANTITY:1.0|NOTE:Elven made, from dragon war period|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword +1$EQMOD=STEEL.PLUS1W]
-EQUIPNAME:Potion (Cure Light Wounds)|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Pouch, Belt|OUTPUTORDER:14|COST:1|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch, Belt$KEY=Pouch (Belt)]
-EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:12|COST:0.5|WT:1.0|QUANTITY:5.0|NOTE:
-EQUIPNAME:Ring of Acid Resistance (Minor)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring of Acid Resistance (Minor)$SPROP=Gives Acid resistance 10]
-EQUIPNAME:Ring of Swimming|OUTPUTORDER:2|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Tent|OUTPUTORDER:10|COST:10|WT:20.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Traveler's Outfit|OUTPUTORDER:4|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Traveler's Outfit|DATA:NAME=Traveler's Outfit$KEY=Traveler_s Outfit$COSTMOD=-1]
-EQUIPNAME:Warg Fang Necklace|OUTPUTORDER:19|COST:8|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Art|DATA:NAME=Warg Fang Necklace$SPROP=Warg fang set in silver with silver chain$COSTMOD=8]
-EQUIPNAME:Waterskin (Filled)|OUTPUTORDER:11|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Whetstone|OUTPUTORDER:17|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:
+MONEY:18760.639999999999417923390865325927734375000
+EQUIPNAME:Backpack|OUTPUTORDER:10|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bedroll|OUTPUTORDER:11|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cleric's Vestments|OUTPUTORDER:12|COST:5|WT:6.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Dragonhide Plate +2 (Green)|OUTPUTORDER:9|COST:7300.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dragonhide Plate|DATA:NAME=Dragonhide Plate +2 (Green)$EQMOD=DRACO.PLUS2A$SPROP=This suit of full plate is made of dragonhide taken from the dragon lord Mouyld.]
+EQUIPNAME:Field Provisions Box|OUTPUTORDER:17|COST:2000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Flint and Steel|OUTPUTORDER:20|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gem (Opal (White))|OUTPUTORDER:16|COST:250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gem (Opal (White))|DATA:NAME=Gem (Opal (White))$EQMOD=GEM&pipe;+250$SPROP=(Gem (Opal (White)))]
+EQUIPNAME:Holy Water|OUTPUTORDER:19|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Water (Flask)|DATA:NAME=Holy Water$KEY=Holy Water (Flask)]
+EQUIPNAME:Lady Marrik Outfit|OUTPUTORDER:15|COST:1000|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Royal Outfit|DATA:NAME=Lady Marrik Outfit$SPROP=This is just the clothing, not the royal scepter, crown, ring, and other accoutrements. Royal clothes are ostentatious, with gems, gold, silk, and fur in abundance., (Royal Outfit)$COSTMOD=800]
+EQUIPNAME:Light Metal Shield +3|OUTPUTORDER:5|COST:9159.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Light/Metal)|DATA:NAME=Light Metal Shield +3$KEY=Shield +3 (Light/Metal)$EQMOD=STEEL.PLUS3S]
+EQUIPNAME:Lightning Gauntlets|OUTPUTORDER:7|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Phylactery of Wisdom (+4)|OUTPUTORDER:2|COST:16000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Phylactery|DATA:NAME=Phylactery of Wisdom (+4)$EQMOD=BNS_ENHC_AB&pipe;WIS=+4$SPROP=(Phylactery (WIS +4))]
+EQUIPNAME:Potion (Cure Light Wounds)|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Potion (Cure Moderate Wounds)|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Potion (Cure Serious Wounds)|OUTPUTORDER:0|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Pouch, Belt|OUTPUTORDER:18|COST:1|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch, Belt$KEY=Pouch (Belt)]
+EQUIPNAME:Reliquary Holy Symbol (Heironeous)|OUTPUTORDER:1|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:Contains a finger bone of Saint Caldron|CUSTOMIZATION:[BASEITEM:Reliquary Holy Symbol (Insert Deity Name)|DATA:NAME=Reliquary Holy Symbol (Heironeous)$SPROP=(Reliquary Holy Symbol (Insert Deity Name))]
+EQUIPNAME:Ring of Acid Resistance (Minor)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring of Acid Resistance (Minor)$SPROP=Gives Acid resistance 10]
+EQUIPNAME:Ring of Swimming|OUTPUTORDER:3|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rogner's Blade|OUTPUTORDER:6|COST:18315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Rogner's Blade$EQMOD=STEEL.PLUS2W.Ghost touch (Weapon/Melee)$SPROP=(Longsword +2 (Ghost touch))]
+EQUIPNAME:Tent|OUTPUTORDER:13|COST:10|WT:20.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Traveler's Outfit|OUTPUTORDER:8|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Traveler's Outfit|DATA:NAME=Traveler's Outfit$KEY=Traveler_s Outfit$COSTMOD=-1]
+EQUIPNAME:Warg Fang Necklace|OUTPUTORDER:22|COST:8|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Art|DATA:NAME=Warg Fang Necklace$SPROP=Warg fang set in silver with silver chain$COSTMOD=8]
+EQUIPNAME:Waterskin (Filled)|OUTPUTORDER:14|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Whetstone|OUTPUTORDER:21|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Xandis's Blade|OUTPUTORDER:23|COST:18315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Xandis's Blade$EQMOD=STEEL.PLUS1W.Weapon ~ Metalline$SPROP=(Longsword +1 (Metalline))]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Clothing|ID:0.1.01|VALUE:Traveler's Outfit|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.04|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
@@ -194,20 +204,26 @@ EQUIPSET:Backpack|ID:0.1.04.01|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.04.02|VALUE:Cleric's Vestments|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.04.03|VALUE:Tent|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.04.04|VALUE:Waterskin (Filled)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack|ID:0.1.04.05|VALUE:Rations (Trail/Per Day)|QUANTITY:5.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.04.06|VALUE:Lady Marrik Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.07|VALUE:Gem (Opal (White))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.08|VALUE:Field Provisions Box|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.05|VALUE:Pouch, Belt|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Pouch, Belt|ID:0.1.05.01|VALUE:Holy Water|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Pouch, Belt|ID:0.1.05.01|VALUE:Holy Water|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch, Belt|ID:0.1.05.02|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch, Belt|ID:0.1.05.03|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Pouch, Belt|ID:0.1.05.04|VALUE:Potion (Cure Light Wounds)|QUANTITY:3.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.06|VALUE:Holy Symbol, Silver|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch, Belt|ID:0.1.05.04|VALUE:Potion (Cure Light Wounds)|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Pouch, Belt|ID:0.1.05.05|VALUE:Potion (Cure Serious Wounds)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch, Belt|ID:0.1.05.06|VALUE:Potion (Cure Moderate Wounds)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.08|VALUE:Warg Fang Necklace|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.11|VALUE:Longsword +1|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Shield|ID:0.1.12|VALUE:Light Metal Shield +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Fingers|ID:0.1.13|VALUE:Ring of Swimming|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Fingers|ID:0.1.14|VALUE:Ring of Acid Resistance (Minor)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Body|ID:0.1.15|VALUE:Dragonhide Plate +2 (Green)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.19|VALUE:Light Metal Shield +3|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.20|VALUE:Reliquary Holy Symbol (Heironeous)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.21|VALUE:Rogner's Blade|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Head|ID:0.1.22|VALUE:Phylactery of Wisdom (+4)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.23|VALUE:Lightning Gauntlets|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.24|VALUE:Xandis's Blade|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -217,40 +233,40 @@ TEMPBONUS:SPELL=Shield of Faith|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;MIN(1/6,
 
 # Character Deity/Domain
 DEITY:Heironeous|DEITYDOMAINS:[DOMAIN:Good|DOMAIN:Law|DOMAIN:War|DOMAIN:Glory|DOMAIN:Inquisition]|ALIGNALLOW:|DEITYFAVWEAP:[WEAPON:Longsword]|DEITYALIGN:LG
-DOMAIN:Good|DOMAINGRANTS:You cast good spells at +1 caster level.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
-DOMAIN:War|ASSOCIATEDDATA:Longsword|DOMAINGRANTS:Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:6]
 DOMAIN:Glory|DOMAINGRANTS:Turn undead with a +2 bonus on the turning check and +1d6 on the turning damage roll|SOURCE:[TYPE:PCClass|NAME:Ordained Champion|LEVEL:1]
+DOMAIN:War|ASSOCIATEDDATA:Longsword|DOMAINGRANTS:Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:9]
+DOMAIN:Good|DOMAINGRANTS:You cast good spells at +1 caster level.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
 
 # Character Spells Information
 SPELLBOOK:Prepared Spells|TYPE:2
-SPELLNAME:Anarchic Water|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Antidragon Aura|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Bull's Strength|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Cure Minor Wounds|TIMES:5|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Deific Vengeance|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Divine Favor|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Blade Barrier|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:6|SOURCE:[TYPE:DOMAIN|NAME:War]
+SPELLNAME:Blessing of the Righteous|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Bull's Strength (Mass)|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Cure Minor Wounds|TIMES:6|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Divine Favor|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Divine Power|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:DOMAIN|NAME:War]
-SPELLNAME:Divine Retribution|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Eagle's Splendor|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Flame Strike|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:5|SOURCE:[TYPE:DOMAIN|NAME:War]
-SPELLNAME:Frost Breath|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Holy Transformation|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Magic Vestment|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:War]
-SPELLNAME:Magic Weapon|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:DOMAIN|NAME:War]
-SPELLNAME:Protection from Evil|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Protection from Law|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Purify Food and Drink|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Flame Strike|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Inflict Moderate Wounds|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Magic Circle against Evil|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Good]
+SPELLNAME:Opalescent Glare|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Protection from Evil|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:DOMAIN|NAME:Good]
+SPELLNAME:Protection from Evil|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Righteous Wrath of the Faithful|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Ring of Blades|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Sound Lance|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Shatter|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Shield of Warding|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Sound Lance|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Spiritual Weapon|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:DOMAIN|NAME:War]
 SPELLNAME:Vigor (Lesser)|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Weapon of the Deity|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Weapon of the Deity|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
 
 # Character Description/Bio/History
 CHARACTERBIO:Married to Velatha, Queen of Sera-Lune&nl;
 CHARACTERDESC:
 CHARACTERCOMP:
-CHARACTERASSET:Fist of Valor Affiliation Score&colon; 61&nl;Fist of Valor Rank&colon; 2&nl;Complete Champion, pg. 18&nl;&nl;&nl;Soldier-at-Arms&colon; Gain a +2 bonus on Diplomacy checks made while enforcing the law.&nl;Hand of Might&colon; Once per day, ignore the effects of difficult terrain on your movement for 1 round.&nl;Bolt of Glory&colon; Gain a +1 bonus on attack rolls made against evil enemies.&nl;Righteous Blade of Justice&colon; Once per day, any melee weapon you wield deals +1d6 points of electricity damage, or each damaging spell you cast deals +1d6 points of electricity damage, for 1 round/character level.&nl;&nl;Ordained Champion Affiliation Score&colon; 5&nl;Ordained Champion Rank&colon; 0&nl;Complete Champion, pg. 90&nl;
+CHARACTERASSET:Fist of Valor Affiliation Score&colon; 68&nl;Fist of Valor Rank&colon; 4&nl;Complete Champion, pg. 18&nl;&nl;&nl;Soldier-at-Arms&colon; Gain a +2 bonus on Diplomacy checks made while enforcing the law.&nl;Hand of Might&colon; Once per day, ignore the effects of difficult terrain on your movement for 1 round.&nl;Bolt of Glory&colon; Gain a +1 bonus on attack rolls made against evil enemies.&nl;Righteous Blade of Justice&colon; Once per day, any melee weapon you wield deals +1d6 points of electricity damage, or each damaging spell you cast deals +1d6 points of electricity damage, for 1 round/character level.&nl;&nl;Ordained Champion Affiliation Score&colon; 5&nl;Ordained Champion Rank&colon; 0&nl;Complete Champion, pg. 90&nl;
 CHARACTERMAGIC:
 CHARACTERDMNOTES:
 
