@@ -1691,7 +1691,7 @@ Rebuke (Final).MOD				DESC:As rebuke only target dies instantly on failed save. 
 Rebuke (Greater).MOD				DESC:Subject is cowering for 1d4 rounds.|!PRERULE:1,DisplayFullSpell
 Rebuking Breath.MOD				DESC:Your breath weapon rebukes undead.|!PRERULE:1,DisplayFullSpell
 Reciprocal Gyre.MOD				DESC:Damage creature using spells in existence for 1d12 per each spell functioning [max 25d12]; see text.|!PRERULE:1,DisplayFullSpell
-Recitation.MOD					DESC:Allies gain +2 [or +3 for worshipers] on attacks and saves, and enemies suffer -2.|!PRERULE:1,DisplayFullSpell
+Recitation.MOD					DESC:Allies gain +2 [or +3 for worshipers] on attacks and saves|!PRERULE:1,DisplayFullSpell
 Red Tide.MOD					DESC:Creatures knocked prone unless they save; see text for failed save results.|!PRERULE:1,DisplayFullSpell
 Reduce Person (Greater).MOD			DESC:Same as Reduce person, except as noted above.|!PRERULE:1,DisplayFullSpell
 Reflective Disguise.MOD				DESC:Creatures see you as the same gender and species as themselves.|!PRERULE:1,DisplayFullSpell
