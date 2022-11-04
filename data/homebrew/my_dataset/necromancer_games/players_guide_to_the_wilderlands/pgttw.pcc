@@ -1,0 +1,34 @@
+CAMPAIGN:Player's Guide to the Wilderlands
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Wilderlands
+STATUS:RELEASE
+TYPE:Necromancer Games.Supplement
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Necromancer Games
+PUBNAMESHORT:Necromancer
+PUBNAMEWEB:http://www.necromancergames.com
+SOURCELONG:Player's Guide to the Wilderlands
+SOURCESHORT:PGttW
+SOURCEWEB:http://www.necromancergames.com/
+SOURCEDATE:2003-01
+RANK:200301
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Open Spell Name Compendium Copyright 2002 Clark Peterson; based on NPC-named spells from the Player's Handbook that were renamed in the System Reference Document.  The Compendium can be found on the legal page of www.necromancergames.com.
+
+
+ABILITY:pgttw_abilities.lst
+#ABILITY:pgttw_feats.lst
+ABILITYCATEGORY:pgttw_abilitycategories.lst
+CLASS:pgttw_classes.lst
+#DOMAIN:pgttw_domains.lst
+#EQUIPMOD:pgttw_equipmods.lst
+#KIT:pgttw_kits_races.lst
+LANGUAGE:pgttw_languages.lst
+RACE:pgttw_races.lst
+SKILL:pgttw_skills.lst
+#SPELL:pgttw_spells.lst
+TEMPLATE:pgttw_templates.lst

@@ -1,0 +1,16 @@
+
+# Skill Name					Unique Key				Key Stat	Untrained?		Skill Penalty?	Classes	Type														Visible		Prohibited Skill		Source Page		Modify VAR								Temporary effect description																Temporary Bonus
+Craft (Armorsmithing).MOD								KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Armorsmithing).CraftConstruct												SOURCEPAGE:p.70
+Craft (Blacksmithing).MOD								KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Blacksmithing).CraftConstruct												SOURCEPAGE:p.70
+Craft (Leatherworking).MOD								KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Leatherworking).CraftConstruct											SOURCEPAGE:p.70
+Craft (Metalworking).MOD								KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Metalworking).CraftConstruct												SOURCEPAGE:p.70
+Craft (Pottery).MOD									KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Pottery).CraftConstruct													SOURCEPAGE:p.70
+Craft (Sculpting).MOD									KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Sculpting).CraftConstruct												SOURCEPAGE:p.70
+Craft (Stoneworking).MOD			KEY:Craft (Stoneworking)	KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Stoneworking).CraftConstruct												SOURCEPAGE:p.70										TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used				TEMPBONUS:PC|SKILL|Craft (Stoneworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=StonemasonryTools
+Craft (Weaponsmithing).MOD								KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Weaponsmithing).CraftConstruct											SOURCEPAGE:p.70
+
+SOURCELONG:Player's Guide to the Wilderlands	SOURCESHORT:PGttW	SOURCEWEB:http://www.necromancergames.com/	SOURCEDATE:2003-01
+
+Craft (Poisonmaking)									KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Poisonmaking)											SOURCEPAGE:p.28
+Knowledge (Physical Universe)								KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge.Standard.Base.Knowledge (Physical Universe)								SOURCEPAGE:p.28
+Profession (Alchemist)									KEYSTAT:WIS	USEUNTRAINED:NO						TYPE:Wisdom.Profession.Standard.Base.Profession (Alchemist)										SOURCEPAGE:p.28

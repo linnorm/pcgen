@@ -1,0 +1,7 @@
+SOURCELONG:Player's Guide to the Wilderlands	SOURCESHORT:PGttW	SOURCEWEB:http://www.necromancergames.com/	SOURCEDATE:2003-01
+
+
+###Block: General Feats
+# Feat Name				Type			Required Ability									Required Class							Required Deity	Required Feat				Req. Spell Type		Required Stat	Required Text								Var. Min. Value					Description																	Stackable?	Multiple?	Choose										Caster level					Bonus DC				Save bonus		Bonus to skill				Modify VAR										Source Page
+# Ability Name			Category of Ability	Type			Required Ability									Required Class							Required Deity	Req. Spell Type		Required Stat	Required Text								Var. Min. Value					Description																	Stackable?	Multiple?	Choose										Caster level					Bonus DC				Save bonus		Bonus to skill				Modify VAR										Source Page
+#Arcane Affinity			CATEGORY:FEAT		TYPE:General																																																DESC:You have a knack for learning the mysteries of arcane magic.								STACK:NO	MULT:YES	CHOOSE:NUMCHOICES=1|CLASS|SPELLCASTER																																					SOURCEPAGE:p.7
