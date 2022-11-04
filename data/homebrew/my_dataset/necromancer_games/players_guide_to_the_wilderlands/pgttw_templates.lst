@@ -1,0 +1,18 @@
+SOURCELONG:Player's Guide to the Wilderlands	SOURCESHORT:PGttW	SOURCEWEB:http://www.necromancergames.com	SOURCEDATE:2003-01
+
+# Favored Class
+Alchemist		KEY:Favored Class ~ Alchemist			VISIBLE:NO	TYPE:FavoredClass		FAVOREDCLASS:Alchemist
+
+###Block: Sub Races
+# Human
+# Template Name		Unique Key				Visible									Subrace				Race Subtype
+Common Orichalan		KEY:Common Orichalan		VISIBLE:NO		FAVOREDCLASS:Sorcerer|Alchemist		SUBRACE:Common Orichalan	RACESUBTYPE:Common Orichalan
+Moonraker Moor Folk	KEY:Moonraker Moor Folk		VISIBLE:NO		FAVOREDCLASS:Sorcerer|Fighter			SUBRACE:Moonraker Moor Folk	RACESUBTYPE:Common Orichalan
+Roglo River Folk		KEY:Roglo River Folk		VISIBLE:NO		FAVOREDCLASS:Sorcerer|Rogue			SUBRACE:Roglo River Folk	RACESUBTYPE:Common Orichalan
+
+###Block: Race Language Support
+# Template Name			Visible	Bonus Languages
+Language ~ Bonus (Orichalan)	VISIBLE:NO	LANGBONUS:Orichalan,Draconic
+
+# Language Support
+Language ~ Orichalan			LANGBONUS:Orichalan

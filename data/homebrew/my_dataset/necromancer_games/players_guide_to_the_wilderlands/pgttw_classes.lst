@@ -1,0 +1,43 @@
+SOURCELONG:Player's Guide to the Wilderlands	SOURCESHORT:PGttW	SOURCEWEB:http://www.necromancergames.com/	SOURCEDATE:2003-01
+
+
+#Block: Alchemist
+##Class Name	Hit Dice	Type						Class Type		Abbreviation	Source Page		Define			Combat bonus															Modify VAR				Monster Role	Bonus
+CLASS:Alchemist	HD:4		TYPE:PC.Base.Arcane.Divine		FACT:ClassType|PC	FACT:Abb|Alc	SOURCEPAGE:p.28	DEFINE:AlchemistLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|AlchemistLVL|CL	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
+##Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Alchemist	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Craft (Poisonmaking)|TYPE=CraftConstruct|Knowledge (Arcana)|Knowledge (Nature)|Knowledge (Physical Universe)|Profession (Alchemist)|Use Magic Device
+##Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Alchemist	FACT:SpellType|Arcane	FACT:SpellType|Divine
+CLASS:Alchemist	SPELLSTAT:INT	MEMORIZE:NO
+##Block: Alchemist Class Features
+1	ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistProficiencies
+1	ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Nonmagical Alchemy|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistNonmagicalAlchemy
+1	ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Alchemical Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistAlchemicalResistance
+2	ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Brew Poisons|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistBrewPoisons
+3	ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Brew Potions|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistBrewPotions
+4	ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Craft Homunculous|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistCraftHomunculous
+5	ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Identify Alchemical Item|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistIdentifyAlchemicalItem
+18	ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Immune to Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistPoisonImmunity
+
+##Block: Alchemist Potions
+3	CAST:0	KNOWN:5,3
+4	KNOWN:5,3
+5	KNOWN:5,3
+6	KNOWN:5,3
+7	KNOWN:5,3
+8	KNOWN:5,3
+9	KNOWN:5,3
+10	KNOWN:5,3
+11	KNOWN:5,3
+12	KNOWN:5,3
+13	KNOWN:5,3
+14	KNOWN:5,3
+15	KNOWN:5,3
+16	KNOWN:5,3
+17	KNOWN:5,3
+18	KNOWN:5,3
+19	KNOWN:5,3
+20	KNOWN:5,3
+
+##Class Name		Modify VAR
+CLASS:Alchemist.MOD	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	ABILITY:Class|AUTOMATIC|Alchemist
