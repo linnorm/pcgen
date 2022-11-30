@@ -14,3 +14,4 @@ SOURCELONG:Player's Guide to the Wilderlands	SOURCESHORT:PGttW	SOURCEWEB:http://
 Craft (Poisonmaking)									KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Craft.Standard.Base.Craft (Poisonmaking)											SOURCEPAGE:p.28
 Knowledge (Physical Universe)								KEYSTAT:INT	USEUNTRAINED:NO						TYPE:Intelligence.Knowledge.Standard.Base.Knowledge (Physical Universe)								SOURCEPAGE:p.28
 Profession (Alchemist)									KEYSTAT:WIS	USEUNTRAINED:NO						TYPE:Wisdom.Profession.Standard.Base.Profession (Alchemist)										SOURCEPAGE:p.28
+Read Language												USEUNTRAINED:NO						TYPE:None.Language.Base.Read Language														SOURCEPAGE:p.42	CHOOSE:LANG|TYPE=Spoken,PC
