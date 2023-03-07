@@ -3,5 +3,5 @@
 ABILITYCATEGORY:Alchemist Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Alchemist Class Feature	PLURAL:Alchemist Class Features	DISPLAYLOCATION:Class Features
 
 ###Block: Race Ability Pools
-# Ability Category				Visible		Editable?		Change Pool?	Category of Object		Type of Object									Plural description for UI	Display Location
-#ABILITYCATEGORY:Orichalan Race Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Orichalan Race Trait.OrichalanRaceTrait				PLURAL:Orichalan Race Traits	DISPLAYLOCATION:Race Traits
+# Ability Category						Visible		Editable?		Change Pool?					Category of Object		Type of Object						Display Location
+ABILITYCATEGORY:Orichalan Dragon-Lord Subrace		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:OrichalanDragon-LordSubrace			DISPLAYLOCATION:Race Traits
