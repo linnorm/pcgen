@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GENERATOR SYSTEM "generator.dtd">
+<GENERATOR>
+	<RULESET id="japanese-rule" title="Japanese" usage="final">
+		<!-- Name file for Japanese names.  Written by Ivan A. Finzen IV   rax_the_grey@gmail.com -->
+		<CATEGORY title="Japanese" />
+		<CATEGORY title="All" />
+		<CATEGORY title="Sex: Female"/>
+		<CATEGORY title="Sex: Male"/>
+		<RULE weight="3">
+			<GETLIST idref="japanese-syl1" title="Syllable 1" />
+			<GETLIST idref="japanese-syl2" title="Syllable 2" />
+		</RULE>
+		<RULE weight="3">
+			<GETLIST idref="japanese-syl1" title="Syllable 1" />
+			<GETLIST idref="japanese-syl3" title="Syllable 3" />
+		</RULE>
+		<RULE weight="4">
+			<GETLIST idref="japanese-syl1" title="Syllable 1" />
+			<GETLIST idref="japanese-syl2" title="Syllable 2" />
+			<GETLIST idref="japanese-syl3" title="Syllable 3" />
+		</RULE>
+	</RULESET>
+
+	<LIST id="japanese-syl1" title="Syllable 1">
+		<VALUE>A</VALUE>
+		<VALUE>Ba</VALUE>
+		<VALUE>Be</VALUE>
+		<VALUE>Bi</VALUE>
+		<VALUE>Bo</VALUE>
+		<VALUE>Bu</VALUE>
+		<VALUE>Cha</VALUE>
+		<VALUE>Chi</VALUE>
+		<VALUE>Cho</VALUE>
+		<VALUE>Chu</VALUE>
+		<VALUE>Da</VALUE>
+		<VALUE>De</VALUE>
+		<VALUE>Do</VALUE>
+		<VALUE>E</VALUE>
+		<VALUE>Fu</VALUE>
+		<VALUE>Ga</VALUE>
+		<VALUE>Ge</VALUE>
+		<VALUE>Gi</VALUE>
+		<VALUE>Go</VALUE>
+		<VALUE>Gu</VALUE>
+		<VALUE>Ha</VALUE>
+		<VALUE>He</VALUE>
+		<VALUE>Hi</VALUE>
+		<VALUE>Ho</VALUE>
+		<VALUE>I</VALUE>
+		<VALUE>Ja</VALUE>
+		<VALUE>Ji</VALUE>
+		<VALUE>Jo</VALUE>
+		<VALUE>Ju</VALUE>
+		<VALUE>Ka</VALUE>
+		<VALUE>Ke</VALUE>
+		<VALUE>Ki</VALUE>
+		<VALUE>Ko</VALUE>
+		<VALUE>Ku</VALUE>
+		<VALUE>Ma</VALUE>
+		<VALUE>Me</VALUE>
+		<VALUE>Mi</VALUE>
+		<VALUE>Mo</VALUE>
+		<VALUE>Mu</VALUE>
+		<VALUE>Na</VALUE>
+		<VALUE>Ne</VALUE>
+		<VALUE>Ni</VALUE>
+		<VALUE>No</VALUE>
+		<VALUE>Nu</VALUE>
+		<VALUE>O</VALUE>
+		<VALUE>Pa</VALUE>
+		<VALUE>Pe</VALUE>
+		<VALUE>Pi</VALUE>
+		<VALUE>Po</VALUE>
+		<VALUE>Pu</VALUE>
+		<VALUE>Ra</VALUE>
+		<VALUE>Re</VALUE>
+		<VALUE>Ri</VALUE>
+		<VALUE>Ro</VALUE>
+		<VALUE>Ru</VALUE>
+		<VALUE>Sa</VALUE>
+		<VALUE>Se</VALUE>
+		<VALUE>Sha</VALUE>
+		<VALUE>She</VALUE>
+		<VALUE>Sho</VALUE>
+		<VALUE>Shu</VALUE>
+		<VALUE>So</VALUE>
+		<VALUE>Su</VALUE>
+		<VALUE>Tsu</VALUE>
+		<VALUE>Ta</VALUE>
+		<VALUE>Te</VALUE>
+		<VALUE>To</VALUE>
+		<VALUE>Tu</VALUE>
+		<VALUE>U</VALUE>
+		<VALUE>Wa</VALUE>
+		<VALUE>Ya</VALUE>
+		<VALUE>Yo</VALUE>
+		<VALUE>Yu</VALUE>
+		<VALUE>Za</VALUE>
+		<VALUE>Ze</VALUE>
+		<VALUE>Zo</VALUE>
+		<VALUE>Zu</VALUE>
+	</LIST>
+
+	<LIST id="japanese-syl2" title="Syllable 2">
+		<VALUE>a</VALUE>
+		<VALUE>ba</VALUE>
+		<VALUE>be</VALUE>
+		<VALUE>bi</VALUE>
+		<VALUE>bo</VALUE>
+		<VALUE>bu</VALUE>
+		<VALUE>cha</VALUE>
+		<VALUE>chi</VALUE>
+		<VALUE>cho</VALUE>
+		<VALUE>chu</VALUE>
+		<VALUE>da</VALUE>
+		<VALUE>de</VALUE>
+		<VALUE>do</VALUE>
+		<VALUE>e</VALUE>
+		<VALUE>fu</VALUE>
+		<VALUE>ga</VALUE>
+		<VALUE>ge</VALUE>
+		<VALUE>gi</VALUE>
+		<VALUE>go</VALUE>
+		<VALUE>gu</VALUE>
+		<VALUE>ha</VALUE>
+		<VALUE>he</VALUE>
+		<VALUE>hi</VALUE>
+		<VALUE>ho</VALUE>
+		<VALUE>i</VALUE>
+		<VALUE>ja</VALUE>
+		<VALUE>ji</VALUE>
+		<VALUE>jo</VALUE>
+		<VALUE>ju</VALUE>
+		<VALUE>ka</VALUE>
+		<VALUE>ke</VALUE>
+		<VALUE>ki</VALUE>
+		<VALUE>ko</VALUE>
+		<VALUE>ku</VALUE>
+		<VALUE>ma</VALUE>
+		<VALUE>me</VALUE>
+		<VALUE>mi</VALUE>
+		<VALUE>mo</VALUE>
+		<VALUE>mu</VALUE>
+		<VALUE>na</VALUE>
+		<VALUE>ne</VALUE>
+		<VALUE>ni</VALUE>
+		<VALUE>no</VALUE>
+		<VALUE>nu</VALUE>
+		<VALUE>o</VALUE>
+		<VALUE>pa</VALUE>
+		<VALUE>pe</VALUE>
+		<VALUE>pi</VALUE>
+		<VALUE>po</VALUE>
+		<VALUE>pu</VALUE>
+		<VALUE>ra</VALUE>
+		<VALUE>re</VALUE>
+		<VALUE>ri</VALUE>
+		<VALUE>ro</VALUE>
+		<VALUE>ru</VALUE>
+		<VALUE>sa</VALUE>
+		<VALUE>se</VALUE>
+		<VALUE>sha</VALUE>
+		<VALUE>she</VALUE>
+		<VALUE>sho</VALUE>
+		<VALUE>shu</VALUE>
+		<VALUE>so</VALUE>
+		<VALUE>su</VALUE>
+		<VALUE>tsu</VALUE>
+		<VALUE>ta</VALUE>
+		<VALUE>te</VALUE>
+		<VALUE>to</VALUE>
+		<VALUE>tu</VALUE>
+		<VALUE>u</VALUE>
+		<VALUE>wa</VALUE>
+		<VALUE>ya</VALUE>
+		<VALUE>yo</VALUE>
+		<VALUE>yu</VALUE>
+		<VALUE>za</VALUE>
+		<VALUE>ze</VALUE>
+		<VALUE>zo</VALUE>
+		<VALUE>zu</VALUE>
+	</LIST>
+
+	<LIST id="japanese-syl3" title="Syllable 3">
+		<VALUE>a</VALUE>
+		<VALUE>ba</VALUE>
+		<VALUE>be</VALUE>
+		<VALUE>bi</VALUE>
+		<VALUE>bo</VALUE>
+		<VALUE>bu</VALUE>
+		<VALUE>cha</VALUE>
+		<VALUE>chi</VALUE>
+		<VALUE>cho</VALUE>
+		<VALUE>chu</VALUE>
+		<VALUE>da</VALUE>
+		<VALUE>de</VALUE>
+		<VALUE>do</VALUE>
+		<VALUE>e</VALUE>
+		<VALUE>fu</VALUE>
+		<VALUE>ga</VALUE>
+		<VALUE>ge</VALUE>
+		<VALUE>gi</VALUE>
+		<VALUE>go</VALUE>
+		<VALUE>gu</VALUE>
+		<VALUE>ha</VALUE>
+		<VALUE>he</VALUE>
+		<VALUE>hi</VALUE>
+		<VALUE>ho</VALUE>
+		<VALUE>i</VALUE>
+		<VALUE>ja</VALUE>
+		<VALUE>ji</VALUE>
+		<VALUE>jo</VALUE>
+		<VALUE>ju</VALUE>
+		<VALUE>ka</VALUE>
+		<VALUE>ke</VALUE>
+		<VALUE>ki</VALUE>
+		<VALUE>ko</VALUE>
+		<VALUE>ku</VALUE>
+		<VALUE>ma</VALUE>
+		<VALUE>me</VALUE>
+		<VALUE>mi</VALUE>
+		<VALUE>mo</VALUE>
+		<VALUE>mu</VALUE>
+		<VALUE>na</VALUE>
+		<VALUE>ne</VALUE>
+		<VALUE>ni</VALUE>
+		<VALUE>no</VALUE>
+		<VALUE>nu</VALUE>
+		<VALUE>o</VALUE>
+		<VALUE>pa</VALUE>
+		<VALUE>pe</VALUE>
+		<VALUE>pi</VALUE>
+		<VALUE>po</VALUE>
+		<VALUE>pu</VALUE>
+		<VALUE>ra</VALUE>
+		<VALUE>re</VALUE>
+		<VALUE>ri</VALUE>
+		<VALUE>ro</VALUE>
+		<VALUE>ru</VALUE>
+		<VALUE>sa</VALUE>
+		<VALUE>se</VALUE>
+		<VALUE>sha</VALUE>
+		<VALUE>she</VALUE>
+		<VALUE>sho</VALUE>
+		<VALUE>shu</VALUE>
+		<VALUE>so</VALUE>
+		<VALUE>su</VALUE>
+		<VALUE>tsu</VALUE>
+		<VALUE>ta</VALUE>
+		<VALUE>te</VALUE>
+		<VALUE>to</VALUE>
+		<VALUE>tu</VALUE>
+		<VALUE>u</VALUE>
+		<VALUE>wa</VALUE>
+		<VALUE>ya</VALUE>
+		<VALUE>yo</VALUE>
+		<VALUE>yu</VALUE>
+		<VALUE>za</VALUE>
+		<VALUE>ze</VALUE>
+		<VALUE>zo</VALUE>
+		<VALUE>zu</VALUE>
+	</LIST>
+
+</GENERATOR>

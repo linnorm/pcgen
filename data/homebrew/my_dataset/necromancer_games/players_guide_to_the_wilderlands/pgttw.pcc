@@ -21,7 +21,7 @@ COPYRIGHT:Open Spell Name Compendium Copyright 2002 Clark Peterson; based on NPC
 
 
 ABILITY:pgttw_abilities.lst
-#ABILITY:pgttw_feats.lst
+ABILITY:pgttw_feats.lst
 ABILITYCATEGORY:pgttw_abilitycategories.lst
 CLASS:pgttw_classes.lst
 #DOMAIN:pgttw_domains.lst
@@ -30,5 +30,5 @@ CLASS:pgttw_classes.lst
 LANGUAGE:pgttw_languages.lst
 RACE:pgttw_races.lst
 SKILL:pgttw_skills.lst
-#SPELL:pgttw_spells.lst
+SPELL:pgttw_spells.lst
 TEMPLATE:pgttw_templates.lst

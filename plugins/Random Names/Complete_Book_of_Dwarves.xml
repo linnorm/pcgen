@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GENERATOR SYSTEM "generator.dtd">
+<GENERATOR>
+	<RULESET id="complete-book-of-dwarves-male" title="Complete Book of Dwarves" usage="final">
+		<!-- Namefile for Dwarven names from the Complete Book of Dwarves, tsr2124 -->
+		<CATEGORY title="Fantasy: Dwarven" />
+		<CATEGORY title="All" />
+		<CATEGORY title="Sex: Male"/>
+		<RULE weight="1">
+			<GETLIST idref="dwarven-syl1" title="Syllable 1" />
+			<GETLIST idref="dwarven-male-syl2" title="Syllable 2" />
+		</RULE>
+	</RULESET>
+
+	<RULESET id="complete-book-of-dwarves-female" title="Complete Book of Dwarves" usage="final">
+		<!-- Namefile for Dwarven names from the Complete Book of Dwarves, tsr2124 -->
+		<CATEGORY title="Fantasy: Dwarven" />
+		<CATEGORY title="All" />
+		<CATEGORY title="Sex: Female"/>
+		<RULE weight="1">
+			<GETLIST idref="dwarven-syl1" title="Syllable 1" />
+			<GETLIST idref="dwarven-female-syl2" title="Syllable 2" />
+		</RULE>
+	</RULESET>
+
+	<LIST id="dwarven-syl1" title="Syllable 1">
+		<VALUE>B</VALUE>
+		<VALUE>Bal</VALUE>
+		<VALUE>Bel</VALUE>
+		<VALUE>Bof</VALUE>
+		<VALUE>Bol</VALUE>
+		<VALUE>D</VALUE>
+		<VALUE>Dal</VALUE>
+		<VALUE>Dor</VALUE>
+		<VALUE>Dw</VALUE>
+		<VALUE>Far</VALUE>
+		<VALUE>Gil</VALUE>
+		<VALUE>Gim</VALUE>
+		<VALUE>Kil</VALUE>
+		<VALUE>Mor</VALUE>
+		<VALUE>Nal</VALUE>
+		<VALUE>Nor</VALUE>
+		<VALUE>Ov</VALUE>
+		<VALUE>Th</VALUE>
+		<VALUE>Thor</VALUE>
+		<VALUE>Thr</VALUE>
+	</LIST>
+	<LIST id="dwarven-male-syl2" title="Syllable 2">
+		<VALUE>aim</VALUE>
+		<VALUE>ain</VALUE>
+		<VALUE>ak</VALUE>
+		<VALUE>ar</VALUE>
+		<VALUE>i</VALUE>
+		<VALUE>im</VALUE>
+		<VALUE>in</VALUE>
+		<VALUE>o</VALUE>
+		<VALUE>or</VALUE>
+		<VALUE>ur</VALUE>
+	</LIST>
+	<LIST id="dwarven-female-syl2" title="Syllable 2">
+		<VALUE>a</VALUE>
+		<VALUE>ala</VALUE>
+		<VALUE>ana</VALUE>
+		<VALUE>ip</VALUE>
+		<VALUE>ia</VALUE>
+		<VALUE>ila</VALUE>
+		<VALUE>ina</VALUE>
+		<VALUE>on</VALUE>
+		<VALUE>ola</VALUE>
+		<VALUE>ona</VALUE>
+</LIST>
+
+</GENERATOR>
+
