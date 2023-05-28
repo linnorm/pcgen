@@ -194,7 +194,6 @@ CLASS:Bear Warrior	STARTSKILLPTS:4	CSKILL:Climb|Handle Animal|Intimidate|Jump|Li
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name	Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Bladesinger	HD:8		TYPE:Prestige	FACT:Abb|Bld		SOURCEPAGE:p.17	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name	Required Feat																Multiple Requirements								Required Skill														Required Casting Type		Req. Spell Type		PRETOTALAB
@@ -214,7 +213,6 @@ CLASS:Bladesinger	STARTSKILLPTS:2	CSKILL:Balance|Concentration|Jump|Knowledge (a
 1:REPEATLEVEL:2	ADD:SPELLCASTER|Arcane
 ###Block:
 11	PREPCLEVEL:MIN=20
-
 
 ###TODO CONTIGUOUS:Paladin
 
@@ -241,7 +239,6 @@ CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowled
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Dark Hunter	HD:8		TYPE:Prestige	FACT:Abb|DHu		MAXLEVEL:5	SOURCEPAGE:p.20	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name	Required Feat			Required Skill															PRETOTALAB
@@ -260,7 +257,6 @@ CLASS:Dark Hunter	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE=Craft|Disable 
 3	BONUS:VAR|DarkHunterSneakAttackLVL|CL
 4	BONUS:VAR|DarkvisionRange|30
 5	BONUS:VAR|DeathAttack|CL
-
 
 # Class Name		Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Darkwood Stalker	HD:8		TYPE:Prestige	FACT:Abb|Dws		SOURCEPAGE:p.23	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
@@ -285,7 +281,6 @@ CLASS:Darkwood Stalker	STARTSKILLPTS:4	CSKILL:Climb|TYPE=Craft|Heal|Hide|Jump|Kn
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name	Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Dervish	HD:10		TYPE:Prestige	FACT:Abb|Der		SOURCEPAGE:p.25	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name	Required Feat														Required Skill					PRETOTALAB
@@ -306,7 +301,6 @@ CLASS:Dervish	STARTSKILLPTS:4	CSKILL:Balance|TYPE=Craft|Escape Artist|Jump|Liste
 10	ABILITY:Dervish Class Feature|AUTOMATIC|Dervish ~ A Thousand Cuts
 ###Block:
 11	PREPCLEVEL:MIN=20
-
 
 ###TODO CONTIGUOUS:Monk
 
@@ -331,7 +325,6 @@ CLASS:Drunken Master	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE=Craft|Escap
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name			Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Exotic Weapon Master	HD:10		TYPE:Prestige	FACT:Abb|Ewm		MAXLEVEL:3	SOURCEPAGE:p.30	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name			Required Feat												PRETOTALAB
@@ -341,7 +334,6 @@ CLASS:Exotic Weapon Master	STARTSKILLPTS:2	CSKILL:TYPE=Craft|Intimidate|TYPE=Pro
 1	ABILITY:Exotic Weapon Master Class Feature|AUTOMATIC|Exotic Weapon Master ~ Exotic Weapon Stunt|Exotic Weapon Master ~ Weapon and Armor Proficiency
 ###Block:
 1	BONUS:ABILITYPOOL|Exotic Weapon Stunt|CL
-
 
 # Class Name		Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Eye of Gruumsh	HD:12		TYPE:Prestige	FACT:Abb|Eye		SOURCEPAGE:p.31	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
@@ -366,7 +358,6 @@ CLASS:Eye of Gruumsh	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Ride|Survival|
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name			Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Frenzied Berserker	HD:12		TYPE:Prestige	FACT:Abb|Fre		SOURCEPAGE:p.34	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name			Required AL				Required Feat									PRETOTALAB
@@ -390,7 +381,6 @@ CLASS:Frenzied Berserker	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Ride|Ride|
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name			Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Gnome Giant-Slayer	HD:10		TYPE:Prestige	FACT:Abb|Ggs		SOURCEPAGE:p.36	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name			Required Feat					Required Language	Required Race				Required Skill				PRETOTALAB
@@ -410,7 +400,6 @@ CLASS:Gnome Giant-Slayer	STARTSKILLPTS:2	CSKILL:Climb|TYPE=Craft|Escape Artist|H
 1	BONUS:VAR|GnomeGiantSlayerFavoredEnemyLVL|CL
 ###Block:
 11	PREPCLEVEL:MIN=20
-
 
 # Class Name		Hit Dice	Type			Abbreviation	Source Page		Define									Combat bonus										Bonus
 CLASS:Halfling Outrider	HD:8		TYPE:Prestige	FACT:Abb|Hfo		SOURCEPAGE:p.38	DEFINE:SpecialMountLVL|0	DEFINE:AnimalCompanionLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
@@ -433,7 +422,6 @@ CLASS:Halfling Outrider	STARTSKILLPTS:4	CSKILL:Handle Animal|Listen|Ride|Spot|Su
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Hulking Hurler	HD:10		TYPE:Prestige	FACT:Abb|Hul		MAXLEVEL:3	SOURCEPAGE:p.40	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required Feat													Minimum Size	PRETOTALAB
@@ -444,7 +432,6 @@ CLASS:Hulking Hurler	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Swim
 1	ABILITY:Hulking Hurler Class Feature|AUTOMATIC|Hulking Hurler ~ Catch Weapon|Hulking Hurler ~ Really Throw Anything
 ###Block:
 2	BONUS:ABILITYPOOL|Two Handed Hurl Trick|CL-1
-
 
 # Class Name			Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Hunter of the Dead	HD:8		TYPE:Prestige	FACT:Abb|Hud		SOURCEPAGE:p.42	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
@@ -480,7 +467,6 @@ CLASS:Hunter of the Dead	SPELLSTAT:WIS	FACT:SpellType|Divine	KNOWNSPELLS:LEVEL=0
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Invisible Blade	HD:6		TYPE:Prestige	FACT:Abb|Inv	DEFINE:InvisibleBladeLVL|0	BONUS:VAR|InvisibleBladeLVL|CL	MAXLEVEL:5	SOURCEPAGE:p.44	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required Feat													Required Skill							Required Text
@@ -494,7 +480,6 @@ CLASS:Invisible Blade	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE=Craft|Esca
 4	ABILITY:Invisible Blade Class Feature|AUTOMATIC|Invisible Blade ~ Feint Mastery
 ###Block:
 3	BONUS:VAR|InvisibleBladeUncannyFeintLVL|CL
-
 
 ###TODO CONTIGUOUS:Paladin
 
@@ -517,7 +502,6 @@ CLASS:Justicar	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Disguise|Gather Information|He
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 ###TODO CONTIGUOUS:Samurai|Paladin|Monk
 
 # Class Name	Hit Dice	Type			Abbreviation	Source Page		Combat bonus															Modify VAR														Bonus
@@ -539,7 +523,6 @@ CLASS:Kensai	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Diplo
 4	BONUS:VAR|KensaiKiProjectionLVL|CL
 ###Block:
 11	PREPCLEVEL:MIN=20
-
 
 ###TODO CONTIGUOUS:Paladin
 
@@ -574,7 +557,6 @@ CLASS:Knight of the Chalice	SPELLSTAT:WIS	FACT:SpellType|Divine	KNOWNSPELLS:LEVE
 10	CAST:0,2,2,2,1
 ###Block:
 11	PREPCLEVEL:MIN=20
-
 
 ###TODO CONTIGUOUS:Samurai|Paladin
 
@@ -614,7 +596,6 @@ CLASS:Ex Knight Protector	STARTSKILLPTS:2	CSKILL:Diplomacy|Intimidate|Knowledge 
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Master Thrower	HD:8		TYPE:Prestige	FACT:Abb|Thr		MAXLEVEL:5	SOURCEPAGE:p.58	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required Feat													Required Skill			PRETOTALAB
@@ -631,7 +612,6 @@ CLASS:Master Thrower	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|TYPE=Craft
 ###Block:
 2	BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1|TYPE=Prerequisite|PREEQUIP:1,TYPE=Medium,TYPE=Heavy
 
-
 # Class Name				Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Master of the Unseen Hand	HD:4		TYPE:Prestige	FACT:Abb|Muh		MAXLEVEL:5	SOURCEPAGE:p.60	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name				Required Skill			Req. Known Spell
@@ -646,7 +626,6 @@ CLASS:Master of the Unseen Hand	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|
 5	ABILITY:Master of the Unseen Hand Class Feature|AUTOMATIC|Master of the Unseen Hand ~ Fling Skyward
 ###Block:
 1	BONUS:ABILITYPOOL|Improved Caster Level|CL
-
 
 # Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Mindspy	HD:8		TYPE:Prestige	FACT:Abb|Min		MAXLEVEL:5	SOURCEPAGE:p.62	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
@@ -663,7 +642,6 @@ CLASS:Mindspy	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE=Craft|Intimidate|T
 1	BONUS:VAR|MindspyAnticipateLVL|CL
 3	BONUS:VAR|MindspyMultipleSurfaceThoughtLVL|CL
 
-
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Nature's Warrior	HD:10		TYPE:Prestige	FACT:Abb|NWr		MAXLEVEL:5	SOURCEPAGE:p.63	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required Ability							Required AL		Required Feat	Required Skill												PRETOTALAB
@@ -678,7 +656,6 @@ CLASS:Nature's Warrior	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate
 1	BONUS:VAR|WildingBonus|CL|TYPE=NatureWarrior
 ###Block:
 1:REPEATLEVEL:2	ADD:SPELLCASTER|Divine
-
 
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Occult Slayer	HD:8		TYPE:Prestige	FACT:Abb|Osl		MAXLEVEL:5	SOURCEPAGE:p.66	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
@@ -698,7 +675,6 @@ CLASS:Occult Slayer	STARTSKILLPTS:2	CSKILL:Bluff|TYPE=Craft|Gather Information|K
 1	BONUS:VAR|OccultSlayerMagicDefenseLVL|0
 2	BONUS:VAR|OccultSlayerMindOverBodyLVL|CL
 
-
 # Class Name				Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Order of the Bow Initiate	HD:8		TYPE:Prestige	FACT:Abb|Obi		SOURCEPAGE:p.68	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name				Required Feat													Required Skill										PRETOTALAB
@@ -711,14 +687,13 @@ CLASS:Order of the Bow Initiate	STARTSKILLPTS:2	CSKILL:Climb|TYPE=Craft|Knowledg
 6	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Sharp-Shooting
 10	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Extended Precision
 ###Block:
-4	BONUS:VAR|GreatWeapFocusQualify|1
+4	ABILITY:Special Ability|AUTOMATIC|Greater Weapon Focus Qualify
 ###Block:
 1	BONUS:VAR|OrderBowInitiateRangedPrecisionLVL|CL
 ###Block:
 1	BONUS:ABILITYPOOL|Order of the Bow Initiate Greater Weapon Focus|1
 ###Block:
 11	PREPCLEVEL:MIN=20
-
 
 ###TODO CONTIGUOUS:Paladin
 
@@ -739,7 +714,6 @@ CLASS:Purple Dragon Knight	STARTSKILLPTS:2	CSKILL:Climb|Diplomacy|Handle Animal|
 2	BONUS:VAR|PurpleDragonKnightInspireCourageLVL|CL
 3	BONUS:VAR|PurpleDragonKnightFearLVL|CL
 4	BONUS:VAR|OathOfWrathPerDay|1
-
 
 # Class Name	Hit Dice	Type			Abbreviation	Source Page		Combat bonus															Modify VAR														Bonus
 CLASS:Rage Mage	HD:8		TYPE:Prestige	FACT:Abb|Rgm		SOURCEPAGE:p.72	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
@@ -765,7 +739,6 @@ CLASS:Rage Mage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Profession|Spellcraft|
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name	Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Ravager	HD:10		TYPE:Prestige	FACT:Abb|Rav		SOURCEPAGE:p.73	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name	Required AL		Required Feat					Required Skill										Required Text							PRETOTALAB
@@ -785,7 +758,6 @@ CLASS:Ravager	STARTSKILLPTS:2	CSKILL:Intimidate|Knowledge (Religion)|Move Silent
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Reaping Mauler	HD:10		TYPE:Prestige	FACT:Abb|Rem		MAXLEVEL:5	SOURCEPAGE:p.75	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required Feat														Required Skill				Required Text																PRETOTALAB
@@ -802,7 +774,6 @@ CLASS:Reaping Mauler	STARTSKILLPTS:2	CSKILL:Climb|TYPE=Craft|Escape Artist|Intim
 5	BONUS:VAR|ReapingMaulerDevastatingGrappleLVL|CL
 ###Block:
 1	ABILITY:FEAT|VIRTUAL|Improved Grapple|Mobility|PREARMORTYPE:1,TYPE.Light
-
 
 # Class Name	Hit Dice	Type				Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Ronin		HD:10		TYPE:Prestige.Oriental	FACT:Abb|Ron		SOURCEPAGE:p.77	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
@@ -830,7 +801,6 @@ CLASS:Ronin		STARTSKILLPTS:2	CSKILL:Bluff|Disguise|Intimidate|Knowledge (History
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name	Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Spellsword	HD:8		TYPE:Prestige	FACT:Abb|Ssw		SOURCEPAGE:p.79	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name	Required Feat													Required Skill				Required Casting Type		Req. Spell Type		Required Text																									PRETOTALAB
@@ -849,7 +819,6 @@ CLASS:Spellsword	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE=Knowledge|Jump|
 4	BONUS:VAR|SpellswordChannelSpellLVL|CL
 ###Block:
 11	PREPCLEVEL:MIN=20
-
 
 # Class Name	Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:Stonelord	HD:8		TYPE:Prestige	FACT:Abb|Stn		SOURCEPAGE:p.81	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
@@ -876,7 +845,6 @@ CLASS:Stonelord	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE=Knowledge|TYPE=P
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 ###TODO CONTIGUOUS:Monk
 
 # Class Name		Hit Dice	Type			Abbreviation	Source Page		Define				Combat bonus															Modify VAR														Bonus
@@ -898,7 +866,6 @@ CLASS:Tattooed Monk	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craf
 ###Block:
 11	PREPCLEVEL:MIN=20
 
-
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Define																					Combat bonus										Bonus
 CLASS:Thayan Knight	HD:10		TYPE:Prestige	FACT:Abb|Thk		MAXLEVEL:5	SOURCEPAGE:p.85	DEFINE:ThkHorrorsBonus|0	DEFINE:ThkZulkirDefenderBonus|0	DEFINE:ThkFinalStandTimes|0	DEFINE:ThkZulkirChampioTimes|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required AL				Required Feat						Required Race			Required Skill									Required Text								PRETOTALAB
@@ -919,9 +886,9 @@ CLASS:Thayan Knight	DEFINE:ThayanKnightLVL|0	BONUS:VAR|ThayanKnightLVL|CL
 ###Block:
 3	BONUS:ABILITYPOOL|Fighter Feat|1
 
-
 # Class Name	Hit Dice	Type			Abbreviation	Source Page		Combat bonus										Bonus
 CLASS:War Chanter	HD:8		TYPE:Prestige	FACT:Abb|Wch		SOURCEPAGE:p.87	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+	DEFINE:WarChanterLVL|0	BONUS:VAR|WarChanterLVL|CL
 # Class Name	Required Ability										Required AL				Required Feat							Required Skill						PRETOTALAB
 CLASS:War Chanter	PREABILITY:1,CATEGORY=Special Ability,Bardic Music ~ Inspire Courage	PREALIGN:NG,TN,NE,CG,CN,CE	PREABILITY:1,CATEGORY=FEAT,Combat Expertise	PREABILITY:1,CATEGORY=FEAT,Weapon Focus	PRESKILL:1,Perform (Sing)=6,Perform (Oratory)=6	PRETOTALAB:4
 # Class Name	Skill Pts/Lvl	Class Skill
@@ -935,11 +902,7 @@ CLASS:War Chanter	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craft|
 1	ABILITY:War Chanter Class Feature|AUTOMATIC|War Chanter ~ War Chanter Music
 8	ABILITY:War Chanter Class Feature|AUTOMATIC|War Chanter ~ Singing Shout
 ###Block:
-1	DEFINE:WarChanterMusicLVL|0	BONUS:VAR|WarChanterMusicLVL|CL	BONUS:VAR|BardicMusicTimes|WarChanterMusicLVL
-8	DEFINE:WarChanterSingingShoutLVL|0	BONUS:VAR|WarChanterSingingShoutLVL|CL
-###Block:
 11	PREPCLEVEL:MIN=20
-
 
 # Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus															Modify VAR														Bonus
 CLASS:Warshaper	HD:8		TYPE:Prestige	FACT:Abb|Wsh		MAXLEVEL:5	SOURCEPAGE:p.89	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
@@ -953,6 +916,4 @@ CLASS:Warshaper	STARTSKILLPTS:2	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Di
 3	ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Morphic Reach
 4	ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Morphic Healing
 5	ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Flashmorph/Multimorph
-###Block
-5	BONUS:ABILITYPOOL|Warshaper Morph|1
 
