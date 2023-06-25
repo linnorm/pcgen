@@ -1,9 +1,9 @@
 # CVS $Revision$ $Author$ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
-CAMPAIGN:Extra Languages
+CAMPAIGN:Extra Spells
 GAMEMODE:35e
 TYPE:Other.Supplement
-RANK:202106
+RANK:202306
 
 
-LANGUAGE:extra_languages.lst
-
+SPELL:extra_spells.lst
+DOMAIN:extra_domains.lst

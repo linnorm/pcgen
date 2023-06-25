@@ -1,7 +1,8 @@
+# CVS $Revision$ $Author$ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
 CAMPAIGN:Extra Feats
 GAMEMODE:35e
 TYPE:Other.Supplement
 RANK:202106
 
 
-FEAT:extra_feats.lst
+ABILITY:extra_feats.lst

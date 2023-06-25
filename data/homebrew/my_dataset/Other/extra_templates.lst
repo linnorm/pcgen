@@ -1,3 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
 
 
-Change Size to Small		KEY:Size Small		VISIBLE:YES		SIZE:S
+# Template Name		Unique Key		Size		Visible
+Change Size to Small	KEY:Size Small	SIZE:S	VISIBLE:YES

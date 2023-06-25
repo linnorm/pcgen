@@ -1,17 +1,25 @@
+# CVS $Revision: $ $Author: $ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
 SOURCELONG:Extra Equip Mods	SOURCESHORT:ExtraEquipMods	SOURCEWEB:http://raxstower.finzen.com
 
 #Original Entry by: Rax the Grey
 
 ##Block: Food
-# Equipment Name				Type							Cost		Weight	Source Page
-Everlasting Rations			TYPE:Magic.Wondrous.Food			COST:350	WT:1													MODS:NO			SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.131									SPROP:Contains trail rations to feed 1 Medium creature for 1 day. Every sunrise magically creates another day's worth of rations
-Silverton Preserves (Grape)		TYPE:Goods.Liquid.Food				COST:5.0	WT:1		SOURCEPAGE:Equipment.rtf
-Silverton Preserves (Strawberry)	TYPE:Goods.Liquid.Food				COST:5.0	WT:1		SOURCEPAGE:Equipment.rtf
-Silverton Preserves (Apple)		TYPE:Goods.Liquid.Food				COST:5.0	WT:1		SOURCEPAGE:Equipment.rtf
-Silverton Preserves (Peach)		TYPE:Goods.Liquid.Food				COST:5.0	WT:1		SOURCEPAGE:Equipment.rtf
-Silverton Preserves (Pear)		TYPE:Goods.Liquid.Food				COST:5.0	WT:1		SOURCEPAGE:Equipment.rtf
-Silverton Preserves (Raspberry)	TYPE:Goods.Liquid.Food				COST:5.0	WT:1		SOURCEPAGE:Equipment.rtf
+# Equipment Name				Unique Key						Type							Cost		Weight	Requires Modification?	Source, Long Desc.		Source, Short Desc.	Source Page				Special Property
+Everlasting Rations										TYPE:Magic.Wondrous.Food			COST:350	WT:1		MODS:NO			SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.131			SPROP:Contains trail rations to feed 1 Medium creature for 1 day. Every sunrise magically creates another day's worth of rations
+Silverton Preserves (Grape)									TYPE:Goods.Liquid.Food				COST:5.0	WT:1															SOURCEPAGE:Equipment.rtf
+Silverton Preserves (Strawberry)								TYPE:Goods.Liquid.Food				COST:5.0	WT:1															SOURCEPAGE:Equipment.rtf
+Silverton Preserves (Apple)									TYPE:Goods.Liquid.Food				COST:5.0	WT:1															SOURCEPAGE:Equipment.rtf
+Silverton Preserves (Peach)									TYPE:Goods.Liquid.Food				COST:5.0	WT:1															SOURCEPAGE:Equipment.rtf
+Silverton Preserves (Pear)									TYPE:Goods.Liquid.Food				COST:5.0	WT:1															SOURCEPAGE:Equipment.rtf
+Silverton Preserves (Raspberry)								TYPE:Goods.Liquid.Food				COST:5.0	WT:1															SOURCEPAGE:Equipment.rtf
 
 ##Block: Equipment
-Daern's Instant Tent			TYPE:Magic.Wondrous.Goods			COST:9000	WT:0													MODS:NO			SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.131									SPROP:Strip of canvas. When activated, becomes 20-ft-sq tent. The inside is as spell Leomund’s tiny hut.
+Daern's Instant Tent										TYPE:Magic.Wondrous.Goods			COST:9000	WT:0		MODS:NO			SOURCELONG:Heroes of Battle	SOURCESHORT:hrsbat	SOURCEPAGE:p.131			SPROP:Strip of canvas. When activated, becomes 20-ft-sq tent. The inside is as spell Leomund’s tiny hut.
 
+Infinite Scrollcase			KEY:Infinite Scrollcase				TYPE:Artificer.Magic				COST:2800							SOURCELONG:Magic of Eberron	SOURCESHORT:MoE
+Ring of Master Artifice, Least	KEY:Ring of Master Artifice (least)		TYPE:Artificer.Magic.Worn			COST:5000							SOURCELONG:Magic of Eberron	SOURCESHORT:MoE
+Spare Hand					KEY:Spare Hand					TYPE:Artificer.Magic.Worn.Belt.Waist	COST:12000							SOURCELONG:Magic of Eberron	SOURCESHORT:MoE
+Cannith Goggles				KEY:Cannith Goggles				TYPE:Artificer.Magic.Worn.Eyewear.Goggles	COST:13000							SOURCELONG:Magic of Eberron	SOURCESHORT:MoE
+Ring of Master Artifice, Lesser	KEY:Ring of Master Artifice (lesser)	TYPE:Artificer.Magic.Worn.Ring		COST:25000							SOURCELONG:Magic of Eberron	SOURCESHORT:MoE
+Wand Bracelet				KEY:Wand Bracelet					TYPE:Artificer.Magic.Worn.Bracer		COST:25000							SOURCELONG:Magic of Eberron	SOURCESHORT:MoE
+Ring of Master Artifice, Greater	KEY:Ring of Master Artifice (Greater)	TYPE:Artificer.Magic.Worn.Ring		COST:61000							SOURCELONG:Magic of Eberron	SOURCESHORT:MoE

@@ -1,6 +1,8 @@
+# CVS $Revision: $ $Author: $ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
 
 
 
 
-Swordtrained	KEY:Swordtrained ~ Kenku	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Kenku are trained from birth in swordplay,, and as a result are automatically proficient with sword-like weapons.						AUTO:WEAPONPROF|TYPE.Sword
+# Ability Name	Unique Key				Category of Ability		Type						Description																			Auto Weapon Prof
+Swordtrained	KEY:Swordtrained ~ Kenku	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Kenku are trained from birth in swordplay,, and as a result are automatically proficient with sword-like weapons.	AUTO:WEAPONPROF|TYPE.Sword
 

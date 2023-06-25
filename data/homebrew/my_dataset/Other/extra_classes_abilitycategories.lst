@@ -1,4 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
+
+# Base Classes
+# Ability Category					Visible		Editable?		Change Pool?	Category of Object		Type of Object				Specific choices list																				Plural description for UI			Display Location
+ABILITYCATEGORY:Artificer Class Feature		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Artificer Class Feature																									PLURAL:Artificer Class Features		DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Artificer Feat			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:FEAT			TYPE:Artificer Feat			ABILITYLIST:Attune Magic Weapon|Craft Construct|Exceptional Artisan|Extra Rings|Extraordinary Artisan|Legendary Artisan|Wand Mastery	PLURAL:Artificer Bonus Feats			DISPLAYLOCATION:Feats
 
 
 # Prestige Classes
-ABILITYCATEGORY:Darkwood Stalker Class Feature			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Darkwood Stalker Class Feature			PLURAL:Darkwood Stalker Class Features		DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Darkwood Stalker Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Darkwood Stalker Class Feature																								PLURAL:Darkwood Stalker Class Features	DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Alchemist Savant Class Feature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Alchemist Savant Class Feature																															DISPLAYLOCATION:Class Features

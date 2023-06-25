@@ -1,7 +1,78 @@
+# CVS $Revision: $ $Author: $ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
 SOURCELONG:Extra Classes	SOURCESHORT:EC
 
 
 # Block: Darkwood Stalker (Dragon)
 SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEDATE:2003-12
-# Class Name			Required Language
-CLASS:Darkwood Stalker.MOD	PRE:.CLEAR	PREABILITY:2,CATEGORY=FEAT,Dodge,Track	PRELANG:1,Draconic	PREMULT:1,[PRERACE:1,Elf%,Half-Elf],[PRERACE:1,RACESUBTYPE=Elf]	PRESKILL:5,Hide=5,Listen=5,Move Silently=5,Spot=5,Survival=5	PRETOTALAB:5
+
+# Class Name			Clear Prereq.	Required Ability					Required Language		Multiple Requirements								Required Skill									PRETOTALAB
+CLASS:Darkwood Stalker.MOD	PRE:.CLEAR		PREABILITY:2,CATEGORY=FEAT,Dodge,Track	PRELANG:1,Draconic	PREMULT:1,[PRERACE:1,Elf%,Half-Elf],[PRERACE:1,RACESUBTYPE=Elf]	PRESKILL:5,Hide=5,Listen=5,Move Silently=5,Spot=5,Survival=5	PRETOTALAB:5
+
+
+# Block: Artificer
+
+# Class Name	Hit Dice	Type			Source, Long Desc.			Source, Short Desc.	Source Page		Define															Combat bonus																	Save bonus																					Modify VAR																																																										FACT
+CLASS:Artificer	HD:6		TYPE:Base.PC	SOURCELONG:Eberron Campaign Setting	SOURCESHORT:ECS		SOURCEPAGE:p.29	DEFINE:ArtificerLVL|0	DEFINE:Caster_Level_Artificer|0	DEFINE:CasterLevelBLArtificer|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|ArtificerLVL|CL	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|Caster_Level_Artificer|CL+Caster_Level_Bonus	BONUS:VAR|CasterLevelBLArtificer|charbonusto("PCLEVEL","Artificer")	BONUS:VAR|Caster_Level_Highest__Infusion|Caster_Level_Artificer+CasterLevelBLArtificer|TYPE=Base	FACT:SpellType|Infusion
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Artificer	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|TYPE=Craft|Disable Device|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (The Planes)|Open Lock|TYPE=Profession|Search|Spellcraft|Use Magic Device
+# Class Name	Spell Stat		Caster level
+CLASS:Artificer	SPELLSTAT:INT	BONUS:CASTERLEVEL|Artificer|Caster_Level_Artificer
+###Block:
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Weapon and Armor Proficiency
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Infusions
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Craft Reserve
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Artificer Knowledge
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Artisan Bonus
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Disable Trap
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Item Creation
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Bonus Feat
+4	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Craft Homunculus
+5	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Retain Essence
+7	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Metamagic Spell Trigger
+11	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Metamagic Spell Completion
+13	ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Skill Mastery
+###Block:
+1	CAST:0,2
+2	CAST:0,3
+3	CAST:0,3,1
+4	CAST:0,3,2
+5	CAST:0,3,3,1
+6	CAST:0,3,3,2
+7	CAST:0,3,3,2
+8	CAST:0,3,3,3,1
+9	CAST:0,3,3,3,2
+10	CAST:0,3,3,3,2
+11	CAST:0,3,3,3,2,1
+12	CAST:0,3,3,3,2,2
+13	CAST:0,3,3,3,3,2
+14	CAST:0,4,3,3,3,3,1
+15	CAST:0,4,4,3,3,3,2
+16	CAST:0,4,4,4,3,3,2
+17	CAST:0,4,4,4,4,3,3
+18	CAST:0,4,4,4,4,4,3
+19	CAST:0,4,4,4,4,4,4
+20	CAST:0,4,4,4,4,4,4
+
+
+# Block: Alchemist Savant
+
+# Class Name		Hit Dice	Type			Source, Long Desc.		Source, Short Desc.	Source Page		Define				Combat bonus																Save bonus																						Modify VAR					FACT
+CLASS:Alchemist Savant	HD:4		TYPE:PC.Prestige	SOURCELONG:Magic of Eberron	SOURCESHORT:MoE		SOURCEPAGE:p.53	DEFINE:AlchemistsavantLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|AlchemistsavantLVL|CL	FACT:ClassType|Prestige	FACT:Abb|Arc
+# Class Name		Required Ability										Required Skill
+CLASS:Alchemist Savant	PREABILITY:2,CATEGORY=FEAT,Craft Potion,Skill Focus (Craft (Alchemy))	PRESKILL:1,Craft (Alchemy)=8
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Alchemist Savant	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|TYPE=Craft|Decipher Script|Heal|Knowledge (Arcana)|TYPE=Profession|Spellcraft
+###Block:
+1					ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Efficient Alchemy
+1					ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Poison Use
+2					ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Brew Spellvial
+3					ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Efficient Alchemy 3rd
+4					ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Create Alchemical Mixture
+5					ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Brew Universal Potion
+5					ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Efficient Alchemy 5th
+
+1	ADD:SPELLCASTER|ANY
+2	ADD:SPELLCASTER|ANY
+3	ADD:SPELLCASTER|ANY
+4	ADD:SPELLCASTER|ANY
+5	ADD:SPELLCASTER|ANY

@@ -1,3 +1,4 @@
+# CVS $Revision: $ $Author: $ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
 
-# Deity Name		Product Identity?	Domains																						Desc is PI?		Desciption of Deity/Title										Title						Holy Item									Deity Weapon											Alignment	Pantheon				Source Page				Prohibited Class		Class Skill
-Raven Queen			NAMEISPI:YES	DOMAINS:Repose,Fate,Winter,Missionary																	DESCISPI:Yes	DESC:Goddess of Death, Fate, and Winter								FACT:Title|The Raven Queen		FACT:Symbol|Raven's head						DEITYWEAP:Spear											ALIGN:TN	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:Ivan A. Finzen IV
+# Deity Name	Product Identity?	Domains						Desc is PI?		Description of Deity/Title			Deity Weapon	Align		Source Page				FACT										FACTSET
+Raven Queen		NAMEISPI:YES	DOMAINS:Repose,Fate,Winter,Missionary	DESCISPI:Yes	DESC:Goddess of Death, Fate, and Winter	DEITYWEAP:Spear	ALIGN:TN	SOURCEPAGE:Ivan A. Finzen IV	FACT:Title|The Raven Queen	FACT:Symbol|Raven's head	FACTSET:Pantheon|Greyhawk

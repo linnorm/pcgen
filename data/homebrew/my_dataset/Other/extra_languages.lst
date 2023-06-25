@@ -1,6 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
 
 
 
-# Language			Type								Var. Min. Value
-Solarian			TYPE:Spoken.Written.Read
-Zeboim			TYPE:Spoken.Written.Read
+# Language	Type
+Solarian	TYPE:Spoken.Written.Read
+Zeboim	TYPE:Spoken.Written.Read

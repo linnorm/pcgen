@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Sun Jun 25 18:12:05 2023 -- reformated by PCGen PrettyLST v6.04.01
+
+
+# Domain Name	Caster level									Bonus to skill					Source, Long Desc.			Source, Short Desc.	Source Page		Description																	List of Domain Spells by Level
+Artifice		BONUS:CASTERLEVEL|DESCRIPTOR.Creation|1|PRERULE:1,SYS_DOMAIN	BONUS:SKILL|TYPE=Craft|4|TYPE=Competence	SOURCELONG:Eberron Campaign Setting	SOURCESHORT:ECS		SOURCEPAGE:p.104	DESC:Granted Power: Gain +4 competence bonus on Craft checks. You cast creation spells at +1 caster level	SPELLLEVEL:DOMAIN|Artifice=1|Animate Rope|Artifice=2|Wood Shape|Artifice=3|Stone Shape|Artifice=4|Minor Creation|Artifice=5|Fabricate|Artifice=6|Major Creation|Artifice=7|Hardening|Artifice=8|True Creation|Artifice=9|Prismatic Sphere
