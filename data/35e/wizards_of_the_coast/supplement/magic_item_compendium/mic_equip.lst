@@ -213,7 +213,7 @@ Contact Medallion							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Throat.Neckw
 Corsair's Eyepatch						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:3000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:90
 Counterstrike Bracers						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Arms.Armwear		COST:2500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:90
 Crest of Bravery							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Throat.Neckwear		COST:750	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:90
-Crimson Dragonhide Bracers					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Arms.Armwear		COST:5000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:90
+Crimson Dragonhide Bracers					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Arms.Armwear		COST:5000	WT:1											SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:90	ABILITY:Special Ability|VIRTUAL|Resistance To Fire (Sp)		BONUS:VAR|FireResistanceBonusSp|5|TYPE=Base		BONUS:COMBAT|AC|1|TYPE=NaturalArmorEnhancement
 Crystal Mask of Detection					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:10000	WT:0.5										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:90
 Crystal Mask of Discernment					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:10000	WT:0.5										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:90
 Crystal Mask of Dread						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:10000	WT:0.5										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:91
