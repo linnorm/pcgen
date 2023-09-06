@@ -99,6 +99,24 @@ Remove All Race Traits	CATEGORY:Internal			TYPE:MiscOptions													ABILITY:
 Remove Race Traits	CATEGORY:Special Ability	TYPE:DisableRacialTraits	DEFINE:DisableRacialTraits|0	DEFINE:DisableRacialStats|0													BONUS:VAR|DisableRacialTraits|1	BONUS:VAR|DisableRacialStats|1
 Remove Race Stats		CATEGORY:Special Ability	TYPE:DisableRacialStats		DEFINE:DisableRacialStats|0																		BONUS:VAR|DisableRacialStats|1
 
+
+Human		CATEGORY:Race	BONUS:ABILITYPOOL|Race Base|1|TYPE=Base
+Dwarf		CATEGORY:Race	BONUS:ABILITYPOOL|Race Base|1|TYPE=Base
+Elf		CATEGORY:Race	BONUS:ABILITYPOOL|Race Base|1|TYPE=Base
+Gnome		CATEGORY:Race	BONUS:ABILITYPOOL|Race Base|1|TYPE=Base
+Half-Elf	CATEGORY:Race	BONUS:ABILITYPOOL|Race Base|1|TYPE=Base
+Half-Orc	CATEGORY:Race	BONUS:ABILITYPOOL|Race Base|1|TYPE=Base
+Halfling	CATEGORY:Race	BONUS:ABILITYPOOL|Race Base|1|TYPE=Base
+
+
+Human / PH		CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Human		ABILITY:Internal|AUTOMATIC|Race Traits ~ PH Human	DESC:Default Player's Handbook version of the race
+Dwarf / PH		CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Dwarf		ABILITY:Internal|AUTOMATIC|Race Traits ~ PH Dwarf	DESC:Default Player's Handbook version of the race	
+Elf / PH		CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Elf		ABILITY:Internal|AUTOMATIC|Race Traits ~ PH Elf		DESC:Default Player's Handbook version of the race
+Gnome / PH		CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Gnome		ABILITY:Internal|AUTOMATIC|Race Traits ~ PH Gnome	DESC:Default Player's Handbook version of the race	
+Half-Elf / PH	CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Half-Elf	ABILITY:Internal|AUTOMATIC|Race Traits ~ PH Half-Elf	DESC:Default Player's Handbook version of the race
+Half-Orc / PH	CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Half-Orc	ABILITY:Internal|AUTOMATIC|Race Traits ~ PH Half-Orc	DESC:Default Player's Handbook version of the race
+Halfling / PH	CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Halfling	ABILITY:Internal|AUTOMATIC|Race Traits ~ PH Halfling	DESC:Default Player's Handbook version of the race
+
 ###Block: Subrace Selection
 # Human
 # Ability Name			Unique Key				Category of Ability	Type																	Visible	Description								Template				Ability																																																																																																																																																																																																																																																																																																																	Stat bonus																													Cost
@@ -170,14 +188,14 @@ Druidic		CATEGORY:Language		TYPE:Language	AUTO:LANG|Druidic
 Forest Animals	CATEGORY:Language		TYPE:Language	AUTO:LANG|Forest Animals
 
 ###Block:
-# Ability Name		Category of Ability	Ability																																																																																					Ignore Encumberance
-Race Traits ~ Human	CATEGORY:Internal		ABILITY:Human Subrace|AUTOMATIC|Human ~ Base|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Human Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.HumanSubrace
-Race Traits ~ Dwarf	CATEGORY:Internal		ABILITY:Dwarf Subrace|AUTOMATIC|Dwarf ~ Hill|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Dwarf Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.DwarfSubrace																																																				UNENCUMBEREDMOVE:HeavyLoad|HeavyArmor
-Race Traits ~ Elf		CATEGORY:Internal		ABILITY:Elf Subrace|AUTOMATIC|Elf ~ High|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Elf Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.ElfSubrace	ABILITY:Elf Race Trait|AUTOMATIC|Elf ~ Trance
-Race Traits ~ Gnome	CATEGORY:Internal		ABILITY:Gnome Subrace|AUTOMATIC|Gnome ~ Rock|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Gnome Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.GnomeSubrace
-Race Traits ~ Half-Elf	CATEGORY:Internal		ABILITY:Half-Elf Subrace|AUTOMATIC|Half-Elf|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Half-Elf Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.HalfElfSubrace
-Race Traits ~ Half-Orc	CATEGORY:Internal		ABILITY:Half-Orc Subrace|AUTOMATIC|Half-Orc|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Half-Orc Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.HalfOrcSubrace	ABILITY:Half-Orc Race Trait|AUTOMATIC|Half-Orc ~ Darkvision|PREVAREQ:DisableRacialTraits,0|!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalofOrcRacialVision	ABILITY:Half-Orc Race Trait|AUTOMATIC|Half-Orc ~ Orc Blood|PREVAREQ:DisableRacialTraits,0|!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalfOrcBlood
-Race Traits ~ Halfling	CATEGORY:Internal		ABILITY:Halfling Subrace|AUTOMATIC|Halfling ~ Lightfoot|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Halfling Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.HalflingSubrace
+# Ability Name			Category of Ability	Ability																																																																																					Ignore Encumberance
+Race Traits ~ PH Human		CATEGORY:Internal		ABILITY:Human Subrace|AUTOMATIC|Human ~ Base|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Human Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.HumanSubrace
+Race Traits ~ PH Dwarf		CATEGORY:Internal		ABILITY:Dwarf Subrace|AUTOMATIC|Dwarf ~ Hill|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Dwarf Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.DwarfSubrace																																																				UNENCUMBEREDMOVE:HeavyLoad|HeavyArmor
+Race Traits ~ PH Elf		CATEGORY:Internal		ABILITY:Elf Subrace|AUTOMATIC|Elf ~ High|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Elf Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.ElfSubrace	ABILITY:Elf Race Trait|AUTOMATIC|Elf ~ Trance
+Race Traits ~ PH Gnome		CATEGORY:Internal		ABILITY:Gnome Subrace|AUTOMATIC|Gnome ~ Rock|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Gnome Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.GnomeSubrace
+Race Traits ~ PH Half-Elf	CATEGORY:Internal		ABILITY:Half-Elf Subrace|AUTOMATIC|Half-Elf|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Half-Elf Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.HalfElfSubrace
+Race Traits ~ PH Half-Orc	CATEGORY:Internal		ABILITY:Half-Orc Subrace|AUTOMATIC|Half-Orc|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Half-Orc Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.HalfOrcSubrace	ABILITY:Half-Orc Race Trait|AUTOMATIC|Half-Orc ~ Darkvision|PREVAREQ:DisableRacialTraits,0|!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalofOrcRacialVision	ABILITY:Half-Orc Race Trait|AUTOMATIC|Half-Orc ~ Orc Blood|PREVAREQ:DisableRacialTraits,0|!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalfOrcBlood
+Race Traits ~ PH Halfling	CATEGORY:Internal		ABILITY:Halfling Subrace|AUTOMATIC|Halfling ~ Lightfoot|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Halfling Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.HalflingSubrace
 # ABILITY:Human Subrace|AUTOMATIC|Human ~ Base|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice
 # ABILITY:Dwarf Subrace|AUTOMATIC|Dwarf ~ Hill|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice
 # ABILITY:Elf Subrace|AUTOMATIC|Elf ~ High|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice
@@ -602,31 +620,31 @@ Bonus Feats				KEY:Fighter ~ Bonus Feats				SOURCEPAGE:p.38	CATEGORY:Special Abi
 
 
 ###Block: Monk Selection and Level Progression
-Monk Class Selection		CATEGORY:Internal	TYPE:Default Monk Progression		BONUS:VAR|MonkAlignmentNotMet|1|TYPE=Boolean|!PREALIGN:LG,LN,LE
+Standard Monk		CATEGORY:Internal	TYPE:Monk Class Selection.Default Monk Progression		BONUS:VAR|MonkAlignmentNotMet|1|TYPE=Boolean|!PREALIGN:LG,LN,LE
 
 #
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage|PREVARGTEQ:MonkLVL,1
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkProficiencies|PREVARGTEQ:MonkLVL,1	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkACBonus|PREVARGTEQ:MonkLVL,1	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Flurry of Blows|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkFlurryOfBlows|PREVARGTEQ:MonkLVL,1	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Unarmed Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkUnarmedStrike|PREVARGTEQ:MonkLVL,1	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkBonusFeats|PREVARGTEQ:MonkLVL,1	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkEvasion|PREVARGTEQ:MonkLVL,1	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Fast Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkFastMovement|PREVARGTEQ:MonkLVL,1	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Still Mind|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkStillMind|PREVARGTEQ:MonkLVL,3	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Ki Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkKiStrike|PREVARGTEQ:MonkLVL,4	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Slow Fall|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkSlowFall|PREVARGTEQ:MonkLVL,4	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Purity of Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkPurityOfBody|PREVARGTEQ:MonkLVL,5	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Wholeness of Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkWholenessOfBody|PREVARGTEQ:MonkLVL,7	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Improved Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkImprovedEvasion|PREVARGTEQ:MonkLVL,9	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Diamond Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkDiamondBody|PREVARGTEQ:MonkLVL,11	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Abundant Step|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkAbundantStep|PREVARGTEQ:MonkLVL,12	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Diamond Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkDiamondSoul|PREVARGTEQ:MonkLVL,13	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Quivering Palm|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkQuiveringPalm|PREVARGTEQ:MonkLVL,15	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Timeless Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkTimelessBody|PREVARGTEQ:MonkLVL,17	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Tongue of the Sun and Moon|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkTongueOfTheSunAndMoon|PREVARGTEQ:MonkLVL,17	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Empty Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkEmptyBody|PREVARGTEQ:MonkLVL,19	
-CATEGORY=Internal|Monk Class Selection.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Perfect Self|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkPerfectSelf|PREVARGTEQ:MonkLVL,20	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage|PREVARGTEQ:MonkLVL,1
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkProficiencies|PREVARGTEQ:MonkLVL,1	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkACBonus|PREVARGTEQ:MonkLVL,1	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Flurry of Blows|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkFlurryOfBlows|PREVARGTEQ:MonkLVL,1	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Unarmed Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkUnarmedStrike|PREVARGTEQ:MonkLVL,1	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkBonusFeats|PREVARGTEQ:MonkLVL,1	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkEvasion|PREVARGTEQ:MonkLVL,1	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Fast Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkFastMovement|PREVARGTEQ:MonkLVL,1	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Still Mind|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkStillMind|PREVARGTEQ:MonkLVL,3	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Ki Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkKiStrike|PREVARGTEQ:MonkLVL,4	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Slow Fall|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkSlowFall|PREVARGTEQ:MonkLVL,4	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Purity of Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkPurityOfBody|PREVARGTEQ:MonkLVL,5	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Wholeness of Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkWholenessOfBody|PREVARGTEQ:MonkLVL,7	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Improved Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkImprovedEvasion|PREVARGTEQ:MonkLVL,9	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Diamond Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkDiamondBody|PREVARGTEQ:MonkLVL,11	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Abundant Step|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkAbundantStep|PREVARGTEQ:MonkLVL,12	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Diamond Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkDiamondSoul|PREVARGTEQ:MonkLVL,13	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Quivering Palm|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkQuiveringPalm|PREVARGTEQ:MonkLVL,15	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Timeless Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkTimelessBody|PREVARGTEQ:MonkLVL,17	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Tongue of the Sun and Moon|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkTongueOfTheSunAndMoon|PREVARGTEQ:MonkLVL,17	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Empty Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkEmptyBody|PREVARGTEQ:MonkLVL,19	
+CATEGORY=Internal|Standard Monk.MOD	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Perfect Self|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkPerfectSelf|PREVARGTEQ:MonkLVL,20	
 
 
 ###Block: Monk Class Features
