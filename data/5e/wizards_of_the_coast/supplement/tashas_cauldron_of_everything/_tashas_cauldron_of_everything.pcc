@@ -20,8 +20,15 @@ INFOTEXT:D&D 5e Tasha's Cauldron of Everything
 ABILITY:tce_abilities.lst
 ABILITY:tce_abilities_feat.lst
 ABILITYCATEGORY:tce_abilitycategories.lst
+CLASS:tce_classes.lst
+COMPANIONMOD:tce_companionmods.lst
 DOMAIN:tce_domains.lst
+EQUIPMENT:tce_equipment.lst
+KIT:tce_kits.lst
+WEAPONPROF:tce_profs_weapon.lst
+RACE:tce_races.lst
 SPELL:tce_spells.lst
+TEMPLATE:tce_templates.lst
 
 ###Block: Revisions
 # BD - 0.01 Initial update 
