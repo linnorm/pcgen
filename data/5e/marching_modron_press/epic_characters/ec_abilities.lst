@@ -47,6 +47,10 @@ Elk		KEY:Epic Barbarian Totem Symbiosis ~ Elk			CATEGORY:CF Choice	TYPE:Epic Bar
 Phoenix	KEY:Epic Barbarian Totem Symbiosis ~ Phoenix		CATEGORY:CF Choice	TYPE:Epic Barbarian Totem Symbiosis		DESC:[Phoenix] If you fail a saving throw while raging, you can choose to succeed instead. Once you use this feature, you must finish a short or long rest before you can use it again.
 Tiger		KEY:Epic Barbarian Totem Symbiosis ~ Tiger		CATEGORY:CF Choice	TYPE:Epic Barbarian Totem Symbiosis		DESC:[Tiger] You have advantage on Stealth checks and you can take the Hide action as a bonus action.
 
+###Block - Epic Bard
+CATEGORY=CLASS|Bard.MOD	BONUS:ABILITYPOOL|Bardic Legacy|1|PRECLASS:1,Bard=21
+
+###Block: Bard
 
 # Bardic Legacy - d6 Effect
 # You don't simply entertain; you have reached heights unimaginable by most other bards. Your very voice might have become imbued with bardic magic, or you might leave behind a legacy that will leave others breathless for generations to come. Work with your DM to determine how a bardic legacy might help give your character have an epic impact on the world and help drive the story forward.
@@ -71,6 +75,7 @@ Legendary Wordsmith			KEY:Epic Bard ~ Legendary Wordsmith			SOURCEPAGE:p.12	CATE
 Bardic Supremacy				KEY:Epic Bard ~ Bardic Supremacy			SOURCEPAGE:p.12	CATEGORY:Special Ability	TYPE:Bard Class Feature.Class Feature	DESC:At 30th level, your proficiency bonus increases by 1.
 
 
+#
 
 #	SOURCELONG:Player's Handbook
 CATEGORY=Special Ability|Bard College ~ College of Lore.MOD		ABILITY:Bard Class Feature|AUTOMATIC|College of Lore ~ Expert Casting|PRECLASS:1,Bard=27
@@ -83,17 +88,9 @@ Inspire Legion	KEY:College of Valor ~ Inspire Legion	CATEGORY:Special Ability	TY
 
 # Blood Hunter - See Support
 
-Gift of Exaltation	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality	DESC:You have gained great renown throughout the lands as a divine warrior and a true paragon of your oath. For your many great deeds, you have been gifted a remarkable object, either by a regent, a holy order, directly from your deity, or perhaps the common folk have gathered all of their wealth in order to procure this object for you. This much is certain: carrying it with you, it will signal who you are and inspire awe in those around you.
 # Epic Cleric (PH)
 
-# Gift of Exaltation
-# d6 Gift
-Gift of Exaltation ~ 1	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality	DESC:Book. Your crest or holy symbol is etched into the cover. Inside, each page is gilded paper, written on them are stories of your many adventures. Faint, melancholy music is heard when you open the book.
-Gift of Exaltation ~ 2	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality	DESC:Sword Hilt. Beautifully crafted from adamantine, overlaid with white gold, and your crest or holy symbol engraved, this hilt can be have a blade fastened within. When you hold a sword made from the hilt and a blade, the blade hums with vibrations as if cutting the very air.
-Gift of Exaltation ~ 3	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality	DESC:Gemstone. A fist-sized gem in the shape of your crest or holy symbol. Its type and color is whatever best reflects your oath, and it radiates with divine light. A blacksmith can fasten the gem into your armor, helmet, shield, or weapon.
-Gift of Exaltation ~ 4	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality	DESC:Hammer. A ceremonial light hammer crafted from the finest silver. The grip is made to resemble you standing proudly in your armor.
-Gift of Exaltation ~ 5	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality	DESC:Relic. An object of great historical or religious importance. It could be the crown of a legendary ruler, a bone from a dead saint, a weapon that was used to slay a creature of legend, or similar.
-Gift of Exaltation ~ 6	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality	DESC:Sash. A white, gossamer sash. Along the edges are runes in golden or silver stitching telling of your exploits.
+
 # Epic Druid (PH)
 
 # Epic Fighter (PH)
@@ -108,21 +105,16 @@ CATEGORY=CLASS|Paladin.MOD	BONUS:ABILITYPOOL|Gift of Exaltation|1|PRECLASS:1,Pal
 
 
 
+Gift of Exaltation	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality	DESC:You have gained great renown throughout the lands as a divine warrior and a true paragon of your oath. For your many great deeds, you have been gifted a remarkable object, either by a regent, a holy order, directly from your deity, or perhaps the common folk have gathered all of their wealth in order to procure this object for you. This much is certain: carrying it with you, it will signal who you are and inspire awe in those around you.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Gift of Exaltation
+# d6 Gift
+Gift of Exaltation ~ 1	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality.Gift of Exaltation	DESC:Book. Your crest or holy symbol is etched into the cover. Inside, each page is gilded paper, written on them are stories of your many adventures. Faint, melancholy music is heard when you open the book.
+Gift of Exaltation ~ 2	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality.Gift of Exaltation	DESC:Sword Hilt. Beautifully crafted from adamantine, overlaid with white gold, and your crest or holy symbol engraved, this hilt can be have a blade fastened within. When you hold a sword made from the hilt and a blade, the blade hums with vibrations as if cutting the very air.
+Gift of Exaltation ~ 3	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality.Gift of Exaltation	DESC:Gemstone. A fist-sized gem in the shape of your crest or holy symbol. Its type and color is whatever best reflects your oath, and it radiates with divine light. A blacksmith can fasten the gem into your armor, helmet, shield, or weapon.
+Gift of Exaltation ~ 4	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality.Gift of Exaltation	DESC:Hammer. A ceremonial light hammer crafted from the finest silver. The grip is made to resemble you standing proudly in your armor.
+Gift of Exaltation ~ 5	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality.Gift of Exaltation	DESC:Relic. An object of great historical or religious importance. It could be the crown of a legendary ruler, a bone from a dead saint, a weapon that was used to slay a creature of legend, or similar.
+Gift of Exaltation ~ 6	CATEGORY:Special Ability	SOURCEPAGE:p.28	TYPE:SpecialQuality.Gift of Exaltation	DESC:Sash. A white, gossamer sash. Along the edges are runes in golden or silver stitching telling of your exploits.
 
 
 
