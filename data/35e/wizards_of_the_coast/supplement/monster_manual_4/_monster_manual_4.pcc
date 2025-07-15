@@ -6,14 +6,13 @@ PRECAMPAIGN:1,BOOKTYPE=Core Rules
 STATUS:BETA
 GENRE:Fantasy
 BOOKTYPE:Supplement
-SETTING:Generic
+SETTING:Dungeons & Dragons
 PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
-PUBNAMEWEB:http://www.wizards.com
+PUBNAMEWEB:http://www.wizards.com/dnd
 SOURCELONG:Monster Manual IV
 SOURCESHORT:MM4
-SOURCEWEB:http://www.wizards.com
-ISOGL:YES
+ISOGL:NO
 COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
 COPYRIGHT:Monster Manual IV Copyright, Wizards of the Coast, Inc.
 
@@ -22,5 +21,3 @@ COPYRIGHT:Monster Manual IV Copyright, Wizards of the Coast, Inc.
 ABILITY:mm4_abilities_race.lst
 
 RACE:mm4_races.lst
-
-
