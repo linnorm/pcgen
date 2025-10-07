@@ -1,15 +1,15 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:3.5 RSRD|CAMPAIGN:wotc - Spell Compendium - RSRD|CAMPAIGN:wotc - Complete Divine RSRD|CAMPAIGN:wotc - Complete Warrior RSRD|CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon Base
-VERSION:6.02.00
-ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3),reroll(1))
+CAMPAIGN:Magic Item Compendium|CAMPAIGN:Spell Compendium|CAMPAIGN:Complete Divine|CAMPAIGN:Complete Warrior|CAMPAIGN:Monster Manual v.3.5|CAMPAIGN:Dungeon Master's Guide v.3.5|CAMPAIGN:Player's Handbook v.3.5|CAMPAIGN:Rallanon Publishing Group - Rallanon - The Encyclopedia Rallanon Base
+VERSION:6.08.00 RC9
+ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm
 POOLPOINTS:0
 POOLPOINTSAVAIL:-1
-GAMEMODE:35e
+GAMEMODE:Bahamut35e
 TABLABEL:0
 AUTOSPELLS:Y
 USEHIGHERKNOWN:N
@@ -80,14 +80,16 @@ EXPERIENCE:153000
 EXPERIENCETABLE:Default
 
 # Character Templates
-TEMPLATESAPPLIED:[NAME:Ral Regions|CHOSENTEMPLATE:[NAME:Bonadan]]
 TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:First Level]
 TEMPLATESAPPLIED:[NAME:RighteousMightDR]
-TEMPLATESAPPLIED:[NAME:Bonadan]
 TEMPLATESAPPLIED:[NAME:Lycanthrope|CHOSENTEMPLATE:[NAME:Natural Lycanthrope]|CHOSENTEMPLATE:[NAME:Weretiger]]
 TEMPLATESAPPLIED:[NAME:Weretiger]
 TEMPLATESAPPLIED:[NAME:Natural Lycanthrope]
-TEMPLATESAPPLIED:[NAME:Half Celestial]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Bonadan)]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Human)]
 
 # Character Region
 REGION:Bonadan
@@ -98,72 +100,84 @@ SKILL:Balance|OUTPUTORDER:2|
 SKILL:Bluff|OUTPUTORDER:3|
 SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Cleric|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Craft (Untrained)|OUTPUTORDER:6|
-SKILL:Diplomacy|OUTPUTORDER:7|
-SKILL:Disguise|OUTPUTORDER:8|
-SKILL:Escape Artist|OUTPUTORDER:9|
-SKILL:Forgery|OUTPUTORDER:10|
-SKILL:Gather Information|OUTPUTORDER:11|
-SKILL:Heal|OUTPUTORDER:13|
-SKILL:Hide|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Animal|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Intimidate|OUTPUTORDER:15|
-SKILL:Jump|OUTPUTORDER:16|
-SKILL:Listen|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Animal|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Move Silently|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Animal|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Untrained)|OUTPUTORDER:21|
-SKILL:Research|OUTPUTORDER:22|
-SKILL:Ride|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Search|OUTPUTORDER:24|
-SKILL:Sense Motive|OUTPUTORDER:25|
-SKILL:Spot|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Animal|RANKS:3.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:27|
-SKILL:Swim|OUTPUTORDER:28|
-SKILL:Use Rope|OUTPUTORDER:29|
-SKILL:Knowledge (Bonadan)|OUTPUTORDER:17|
-SKILL:Handle Animal|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Cleric|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Handle Animal|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:15|
+SKILL:Hide|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Animal|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Jump|OUTPUTORDER:18|
+SKILL:Knowledge (Bonadan)|OUTPUTORDER:19|
+SKILL:Knowledge (Religion)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Cleric|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Animal|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Animal|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Research|OUTPUTORDER:25|
+SKILL:Ride|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:27|
+SKILL:Sense Motive|OUTPUTORDER:28|
+SKILL:Spot|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Animal|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:30|
+SKILL:Swim|OUTPUTORDER:31|
+SKILL:Use Rope|OUTPUTORDER:32|
 
 # Character Languages
-LANGUAGE:Candonian|LANGUAGE:Telronteean|LANGUAGE:Algorian
+LANGUAGE:Algorian|LANGUAGE:Candonian|LANGUAGE:Common|LANGUAGE:Telronteean
 
 # Character Feats
-FEATPOOL:-5.0
+FEATPOOL:2.0
 
 # Character Abilities
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Sunder|TYPE:General.Fighter.AttackOption|DESC:When you strike at an object held or carried by an opponent (such as a weapon or shield), you do not provoke an attack of opportunity. You also gain a +4 bonus on any attack roll made to attack an object held or carried by another character.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cleave|TYPE:General.Fighter.AttackOption|DESC:If you deal a creature enough damage to make it drop, you get an immediate, extra melee attack against another creature within reach. You can use this ability once per round.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.General.Fighter.MartialArts|DESC:On your action, before making attack rolls for a round, you may choose to subtract up to %1 from all melee attack rolls and add the same number to all melee damage rolls.&pipe;PowerAttackMax
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Defense|TYPE:General.Fighter.ModifyAC|DESC:When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are fighting defensively or using the total defense action, this shield bonus increases to +2.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Flyby Attack|TYPE:General.EpicDragonDisciple|DESC:When flying, the creature can take a move action (including a dive) and another standard action at any point during the move.
-USERPOOL:FEAT|POOLPOINTS:0.0
-ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Sword (Bastard)|TYPE:General.Fighter|DESC:Choose a type of exotic weapon. You understand how to use that type of exotic weapon in combat.
-ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:General.Fighter|DESC:You can fight with a weapon in each hand. You can make one extra attack each round with the second weapon.
-USERPOOL:Fighter Feat|POOLPOINTS:0.0
-ABILITY:Turn Undead|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Turn Undead|TYPE:ClassAbility.SpecialAttack.Turning.TurnUndead|DESC:%1/day (turn level %2) (turn damage %3d%4+%5)&pipe;TurnTimesUndead&pipe;TurnLevelUndead&pipe;TurnDiceUndead&pipe;TurnDieSizeUndead&pipe;TurnDamagePlusUndead
-USERPOOL:Turn Undead|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Algorian,Candonian|TYPE:
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Algorian,Candonian|TYPE:
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Cleric Standing|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Normal Standing|TYPE:Cleric Standing.SpecialQuality|DESC:You are in good standing with your deity.
+USERPOOL:Cleric Standing|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cleave|TYPE:General.Fighter.AttackOption|DESC:You can follow through with powerful blows.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Flyby Attack|TYPE:General|DESC:When flying, the creature can take a move action (including a dive) and another standard action at any point during the move. The creature cannot take a second move action during a round when it makes a flyby attack. Normal&colon; Without this feat, the creature takes a standard action either before or after its move.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Sunder|TYPE:General.Fighter.AttackOption|DESC:You are skilled at attacking your opponents' weapons and shields, as well as other objects.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.MartialArts|DESC:You can make exceptionally powerful melee attacks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Defense|TYPE:General.Fighter.ModifyAC|DESC:Your two-weapon fighting style bolsters your defense as well as your offense.
+USERPOOL:FEAT|POOLPOINTS:2.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Sword (Bastard)|TYPE:General.Fighter|DESC:You understand how to use the specified type of exotic weapon in combat.&pipe;PREVAREQ&colon;DisplayFullFeat,1|DESC:Choose a type of exotic weapon, such as dire flail or shuriken (see Table 7-5&colon; Weapons, page 116, for a list of exotic weapons). You understand how to use that type of exotic weapon in combat.&pipe;PREVAREQ&colon;DisplayFullFeat,1
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:General.Fighter|DESC:You can fight with a weapon in each hand. You can make one extra attack each round with the second weapon. -2 to all attacks (offhand weapon must be light)
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+USERPOOL:First Level Feat|POOLPOINTS:-2.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base.RaceRestriction_PlayersHandbook|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Bonadan|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Turn Undead|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Turn Undead|TYPE:Class Feature.Cleric Class Feature.Paladin Class Feature.SpecialAttack.Turning.TurnUndead.Turn Undead|DESC:%1/day (turn level %2) (turn damage %3d%4+%5)&pipe;TurnTimesUndead&pipe;TurnLevelUndead&pipe;TurnDiceUndead&pipe;TurnDieSizeUndead&pipe;TurnDamagePlusUndead
+USERPOOL:Turn Undead|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
-WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
-WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear]
-WEAPONPROF:[WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur]
-WEAPONPROF:[WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling]
-WEAPONPROF:[WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spiked Armor|WEAPON:Straight Razor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
-WEAPONPROF:[WEAPON:Warmace]
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger]
+WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hammer (Lucerne)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)]
+WEAPONPROF:[WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash]
+WEAPONPROF:[WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Straight Razor|WEAPON:Strike (Unarmed)]
+WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
 
 # Character Equipment
 MONEY:0
-EQUIPNAME:Blood of the Unworthy|OUTPUTORDER:1|COST:30700.0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Blood of the Unworthy|DATA:NAME=Blood of the Unworthy$EQMOD=ADAMANT_WEAP]
-EQUIPNAME:Warder of Righteousness|OUTPUTORDER:3|COST:134600.0|WT:3.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Warder of Righteousness|DATA:NAME=Warder of Righteousness$EQMOD=ADAMANT_WEAP]
-EQUIPNAME:Handy Haversack|OUTPUTORDER:4|COST:2000|WT:5.0|QUANTITY:1.0
-EQUIPNAME:Bracers of Armor +4|OUTPUTORDER:2|COST:16000|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Blood of the Unworthy|OUTPUTORDER:1|COST:30700.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Blood of the Unworthy|DATA:NAME=Blood of the Unworthy$EQMOD=ADAMANT_WEAP]
+EQUIPNAME:Bracers of Armor +4|OUTPUTORDER:2|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Heward's Handy Haversack|OUTPUTORDER:4|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Handy Haversack|DATA:NAME=Heward's Handy Haversack$KEY=Handy Haversack]
+EQUIPNAME:Warder of Righteousness|OUTPUTORDER:3|COST:134600.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warder of Righteousness|DATA:NAME=Warder of Righteousness$EQMOD=ADAMANT_WEAP]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.01|VALUE:Blood of the Unworthy|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Arm|ID:0.1.02|VALUE:Bracers of Armor +4|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.03|VALUE:Warder of Righteousness|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.04|VALUE:Handy Haversack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.05|VALUE:Bracers of Armor +4|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -171,9 +185,9 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Varesh|DEITYDOMAINS:[DOMAIN:Destruction|DOMAIN:Judgment|DOMAIN:Retribution|DOMAIN:Missionary]|ALIGNALLOW:|DESC:God of retribution and revenge|HOLYITEM:Katana with red blade|DEITYFAVWEAP:[WEAPON:Sword (Bastard)]|DEITYALIGN:Lawful Neutral
+DEITY:Varesh|DEITYDOMAINS:[DOMAIN:Destruction|DOMAIN:Judgment|DOMAIN:Retribution|DOMAIN:Missionary]|ALIGNALLOW:|DESC:God of retribution and revenge|DEITYFAVWEAP:[WEAPON:Sword (Bastard)]|DEITYALIGN:LN
 DOMAIN:Destruction|DOMAINGRANTS:You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per day.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
-DOMAIN:Retribution|DOMAINGRANTS:Once per day, if you have been harmed by someone in combat, you can make a strike of vengeance with a melee or ranged weapon against that foe on your next action. If thie strike hits, you deal maximum damage.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Retribution|DOMAINGRANTS:If you have been harmed by someone in combat, you may make a strike of vengeance with a melee or ranged weapon against that individual on your next action. If the attack hits, you deal maximum damage. Useable 1/day.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
 
 # Character Spells Information
 
