@@ -1,7 +1,11 @@
 # CVS $Revision$ $Author$ -- Sun May  4 11:19:24 2003 -- reformated by prettylst.pl v1.28 (build 286)
 CAMPAIGN:SSS - Vigil Watch
-GAMEMODE:3e
-TYPE:Sword and Sorcery Studios.Scarred Lands
+GAMEMODE:35e|Bahamut35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Scarred Lands
+TYPE:Sword and Sorcery Studios.Campaign Setting.Scarred Lands
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
 PUBNAMELONG:Sword and Sorcery Studios
 PUBNAMESHORT:SSS
 PUBNAMEWEB:http://www.swordsorcery.com

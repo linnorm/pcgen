@@ -1,11 +1,12 @@
 # CVS $Revision: 9306 $ $Author: eddyanthony $
-CAMPAIGN:SSS - Relics and Rituals
-GAMEMODE:35e
+CAMPAIGN:Relics and Rituals
+KEY:SSS - Relics and Rituals
+GAMEMODE:35e|Bahamut35e
 GENRE:Fantasy
 BOOKTYPE:Supplement
 SETTING:Scarred Lands
-TYPE:Sword and Sorcery Studios.Scarred Lands
-PRECAMPAIGN:1,BOOKTYPE=Core Rules
+TYPE:Sword and Sorcery Studios.Campaign Setting.Scarred Lands
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
 RANK:4
 PUBNAMELONG:Sword and Sorcery Studios
 PUBNAMESHORT:SSS

@@ -1,7 +1,11 @@
 # CVS $Revision: 1.3 $ $Author: ericbeaudoin $
 CAMPAIGN:SSS - The Divine and The Defeated 3.5
-GAMEMODE:35e
-TYPE:Sword and Sorcery Studios.Scarred Lands
+GAMEMODE:35e|Bahamut35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Scarred Lands
+TYPE:Sword and Sorcery Studios.Campaign Setting.Scarred Lands
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
 PUBNAMELONG:Sword and Sorcery Studios
 PUBNAMESHORT:SSS
 PUBNAMEWEB:http://www.swordsorcery.com
